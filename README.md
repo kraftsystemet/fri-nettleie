@@ -12,6 +12,7 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
 - [Anti-mål](#anti-mal)
 - [Innsamling](#innsamling)
 - [Bidra](#bidra)
+- [Status](#status)
 - [Lisens](#lisens)
 
 <!-- tocstop -->
@@ -91,6 +92,81 @@ slik at du for eksempel får beskjed når vi oppgretter issues.
 Senere vil bidrag være svært velkomne som issues og pull-requests her på GitHub.
 Vi vurderer også skjema-innsending via en eller annen tjeneste. Vi håper på
 bidrag fra privatpersoner og selskaper som har nytte av dataene.
+
+## Status
+
+Den følgende listen viser status på innsamlede data.
+
+<!-- status -->
+
+- [ ] Alut AS
+- [ ] Arva AS
+- [ ] Arva AS (tidligere Nordlandsnett)
+- [ ] Asker Nett AS
+- [ ] BKK AS
+- [ ] Bindal Kraftlag Nett
+- [ ] Breheim Nett
+- [ ] Bømlo Kraftnett AS
+- [ ] DE Nett AS
+- [ ] Elinett AS
+- [ ] Elvenett AS
+- [ ] Elvia AS
+- [ ] Enida AS
+- [ ] Etna Nett AS
+- [ ] Everket AS
+- [ ] Fagne AS
+- [ ] Fjellnett AS
+- [ ] Føie AS
+- [ ] Føre AS
+- [ ] Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)
+- [ ] Glitre Nett AS (tidligere Agder Energi Nett)
+- [ ] Griug AS
+- [ ] Havnett AS
+- [ ] Hydro Energi AS nett
+- [ ] Høland og Setskog Elverk AS
+- [ ] Indre Hordaland Kraftnett AS
+- [ ] Jæren Everk AS
+- [ ] KE Nett AS
+- [ ] Klive AS
+- [ ] Kvam Energi Nett AS
+- [ ] Kystnett AS
+- [ ] Lede AS
+- [ ] Linja AS
+- [ ] Lucerna AS
+- [ ] Lyse Produksjon AS Nett
+- [ ] Lysna AS
+- [ ] Meløy Nett AS
+- [ ] Midtnett AS
+- [ ] Modalen Kraftlag Nett
+- [ ] Nettselskapet AS
+- [ ] Noranett AS
+- [ ] Nordvest Nett AS
+- [ ] Norefjell Nett AS
+- [ ] Norgesnett AS
+- [ ] R-Nett AS
+- [ ] Rakkestad Energi AS Nett
+- [ ] Romsdalsnett AS
+- [ ] Røros E-verk Nett AS
+- [ ] S-NETT AS
+- [ ] SkiakerNett AS
+- [ ] Stannum AS
+- [ ] Stram AS
+- [ ] Straumen Nett AS
+- [ ] Straumnett AS
+- [ ] SuNett AS
+- [ ] Sygnir AS
+- [ ] Sør Aurdal Energi AS Nett
+- [ ] Tensio TS AS
+- [ ] Tinfos AS Nett
+- [ ] Uvdal Kraftforsyning
+- [ ] Vang Energiverk AS
+- [ ] Vest-Telemark Kraftlag AS Nett
+- [ ] Vestall AS
+- [ ] Vestmar Nett AS
+- [ ] Vevig AS
+- [ ] Vissi AS
+
+<!-- statusstop-->
 
 ## Lisens
 
