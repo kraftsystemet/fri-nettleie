@@ -4,6 +4,18 @@
 
 En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
 
+<!-- toc -->
+
+- [Bakgrunn](#bakgrunn)
+- [Dataene](#dataene)
+- [Mål](#mal)
+- [Anti-mål](#anti-mal)
+- [Innsamling](#innsamling)
+- [Bidra](#bidra)
+- [Lisens](#lisens)
+
+<!-- tocstop -->
+
 ## Bakgrunn
 
 Nettleie er en del av [strømregningen](https://snl.no/str%C3%B8mregning) som går
