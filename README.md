@@ -97,76 +97,76 @@ bidrag fra privatpersoner og selskaper som har nytte av dataene.
 
 Den følgende listen viser status på innsamlede data.
 
-<!-- status -->
+<!-- statusstart -->
 
-- [ ] Alut AS
-- [ ] Arva AS
-- [ ] Arva AS (tidligere Nordlandsnett)
-- [ ] Asker Nett AS
-- [ ] BKK AS
-- [ ] Bindal Kraftlag Nett
-- [ ] Breheim Nett
-- [ ] Bømlo Kraftnett AS
-- [ ] DE Nett AS
-- [ ] Elinett AS
-- [ ] Elvenett AS
-- [ ] Elvia AS
-- [ ] Enida AS
-- [ ] Etna Nett AS
-- [ ] Everket AS
-- [ ] Fagne AS
-- [ ] Fjellnett AS
-- [ ] Føie AS
-- [ ] Føre AS
-- [ ] Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)
-- [ ] Glitre Nett AS (tidligere Agder Energi Nett)
-- [ ] Griug AS
-- [ ] Havnett AS
-- [ ] Hydro Energi AS nett
-- [ ] Høland og Setskog Elverk AS
-- [ ] Indre Hordaland Kraftnett AS
-- [ ] Jæren Everk AS
-- [ ] KE Nett AS
-- [ ] Klive AS
-- [ ] Kvam Energi Nett AS
-- [ ] Kystnett AS
-- [ ] Lede AS
-- [ ] Linja AS
-- [ ] Lucerna AS
-- [ ] Lyse Produksjon AS Nett
-- [ ] Lysna AS
-- [ ] Meløy Nett AS
-- [ ] Midtnett AS
-- [ ] Modalen Kraftlag Nett
-- [ ] Nettselskapet AS
-- [ ] Noranett AS
-- [ ] Nordvest Nett AS
-- [ ] Norefjell Nett AS
-- [ ] Norgesnett AS
-- [ ] R-Nett AS
-- [ ] Rakkestad Energi AS Nett
-- [ ] Romsdalsnett AS
-- [ ] Røros E-verk Nett AS
-- [ ] S-NETT AS
-- [ ] SkiakerNett AS
-- [ ] Stannum AS
-- [ ] Stram AS
-- [ ] Straumen Nett AS
-- [ ] Straumnett AS
-- [ ] SuNett AS
-- [ ] Sygnir AS
-- [ ] Sør Aurdal Energi AS Nett
-- [ ] Tensio TS AS
-- [ ] Tinfos AS Nett
-- [ ] Uvdal Kraftforsyning
-- [ ] Vang Energiverk AS
-- [ ] Vest-Telemark Kraftlag AS Nett
-- [ ] Vestall AS
-- [ ] Vestmar Nett AS
-- [ ] Vevig AS
-- [ ] Vissi AS
+- [ ] Alut AS - 7080010004383
+- [ ] Arva AS - 7080005051859
+- [ ] Arva AS (tidligere Nordlandsnett) - 7080005051361
+- [ ] Asker Nett AS - 7080003858825
+- [ ] BKK AS - 7080005051378
+- [ ] Bindal Kraftlag Nett - 7080005055963
+- [ ] Breheim Nett - 7080010010919
+- [ ] Bømlo Kraftnett AS - 7080010002327
+- [ ] DE Nett AS - 7080010003614
+- [ ] Elinett AS - 7080005053044
+- [ ] Elvenett AS - 7080005052917
+- [ ] Elvia AS - 7080005046220
+- [ ] Enida AS - 7080003871534
+- [ ] Etna Nett AS - 7080005046404
+- [ ] Everket AS - 7080005052825
+- [ ] Fagne AS - 7080003809599
+- [ ] Fjellnett AS - 7080010000316
+- [ ] Føie AS - 7080005048415
+- [ ] Føre AS - 7080010003836
+- [ ] Glitre Nett AS (tidl Glitre Energi Nett, Distrib.) - 7080005052672
+- [ ] Glitre Nett AS (tidligere Agder Energi Nett) - 7080005056069
+- [ ] Griug AS - 7080005052900
+- [ ] Havnett AS - 7080010001832
+- [ ] Hydro Energi AS nett - 7080005052818
+- [ ] Høland og Setskog Elverk AS - 7080004320253
+- [ ] Indre Hordaland Kraftnett AS - 7080010008367
+- [ ] Jæren Everk AS - 7080010002419
+- [ ] KE Nett AS - 7080005046060
+- [ ] Klive AS - 7080010000132
+- [ ] Kvam Energi Nett AS - 7080010001276
+- [ ] Kystnett AS - 7080010000064
+- [ ] Lede AS - 7080005050975
+- [ ] Linja AS - 7080001319830
+- [ ] Lucerna AS - 7080005050661
+- [ ] Lyse Produksjon AS Nett - 7080003307231
+- [ ] Lysna AS - 7080010013088
+- [ ] Meløy Nett AS - 7080003968395
+- [ ] Midtnett AS - 7080003869012
+- [ ] Modalen Kraftlag Nett - 7080003816184
+- [ ] Nettselskapet AS - 7080004064553
+- [ ] Noranett AS - 7080003811318
+- [ ] Nordvest Nett AS - 7080005052801
+- [ ] Norefjell Nett AS - 7080010003911
+- [ ] Norgesnett AS - 7080005052702
+- [ ] R-Nett AS - 7080010012852
+- [ ] Rakkestad Energi AS Nett - 7080005054898
+- [ ] Romsdalsnett AS - 7080010005427
+- [ ] Røros E-verk Nett AS - 7080003947932
+- [ ] S-NETT AS - 7080010002464
+- [ ] SkiakerNett AS - 7080004062702
+- [ ] Stannum AS - 7080010003959
+- [ ] Stram AS - 7080003822901
+- [ ] Straumen Nett AS - 7080010003720
+- [ ] Straumnett AS - 7080004053632
+- [ ] SuNett AS - 7080010003218
+- [ ] Sygnir AS - 7080010009654
+- [ ] Sør Aurdal Energi AS Nett - 7080005046459
+- [ ] Tensio TS AS - 7080005051880
+- [ ] Tinfos AS Nett - 7080003612595
+- [ ] Uvdal Kraftforsyning - 7080005050500
+- [ ] Vang Energiverk AS - 7080010002297
+- [ ] Vest-Telemark Kraftlag AS Nett - 7080005051927
+- [ ] Vestall AS - 7080005051897
+- [ ] Vestmar Nett AS - 7080005054928
+- [ ] Vevig AS - 7080003807946
+- [ ] Vissi AS - 7080004045743
 
-<!-- statusstop-->
+<!-- statusstop -->
 
 ## Lisens
 
@@ -175,3 +175,7 @@ Dataene i dette prosjektet er lisensiert under
 til "Fri nettleie", med lenke til dette prosjektet.
 
 Vi bruker denne lisensen for å gi deg som bruker vide rettigheter til å bruke dataene samtidig som vi ønsker navngivelse for å sikre synlighet (og dermed bidrag) til nettdugnaden vår.
+
+Data i mappen `referanse-data` er lastet fra andre kilder og brukes for status-rapportering.
+
+* `esett` - Data fra [eSett](https://opendata.esett.com/) lisensiert med [CC0](https://creativecommons.org/publicdomain/zero/1.0/)

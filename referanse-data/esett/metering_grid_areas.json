@@ -1,0 +1,3142 @@
+[
+    {
+        "country": "NO",
+        "dsoCode": "7080005051248",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "\u00c5bj\u00f8rakraft Kolsvik Kraftverk",
+        "mba": "NO4",
+        "mgaCode": "50YPNSEFF2JDKOQ0",
+        "mgaName": "\u00c5BJ\u00d8RA1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056069",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidligere Agder Energi Nett)",
+        "mba": "NO2",
+        "mgaCode": "50YH5AGNQTL5BB-A",
+        "mgaName": "AEN1 RN",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056069",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidligere Agder Energi Nett)",
+        "mba": "NO2",
+        "mgaCode": "50Y5D--B24-C1JHP",
+        "mgaName": "AEN2 DN",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056069",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidligere Agder Energi Nett)",
+        "mba": "NO2",
+        "mgaCode": "50YCOAEJS8D8ZDX8",
+        "mgaName": "AEN3 DN",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056069",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidligere Agder Energi Nett)",
+        "mba": "NO2",
+        "mgaCode": "50YL0IMY4GSHCT96",
+        "mgaName": "AEN5 RN",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003674685",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Alcoa",
+        "mba": "NO2",
+        "mgaCode": "50YVCP70-7FS806D",
+        "mgaName": "ALCOA1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003674685",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Alcoa",
+        "mba": "NO4",
+        "mgaCode": "50Y2L9YUK1TLY4RT",
+        "mgaName": "ALCOA2",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010004383",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Alut AS",
+        "mba": "NO4",
+        "mgaCode": "50YQEIHWZ0UDKD6V",
+        "mgaName": "ALTA1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010002433",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Noranett And\u00f8y AS",
+        "mba": "NO4",
+        "mgaCode": "50YXAX41F0D6GEAG",
+        "mgaName": "AND\u00d8Y1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004053632",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Straumnett AS",
+        "mba": "NO5",
+        "mgaCode": "50YFTXZSBHB4RT8M",
+        "mgaName": "\u00c5RDAL1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010009654",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sygnir AS",
+        "mba": "NO5",
+        "mgaCode": "50Y-AABJ1ZGH7DNR",
+        "mgaName": "AURL1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010001832",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Havnett AS",
+        "mba": "NO2",
+        "mgaCode": "50YF24Q59G7S-0ZZ",
+        "mgaName": "AUSTEV1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055963",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bindal Kraftlag Nett",
+        "mba": "NO4",
+        "mgaCode": "50YEW05YGOPNS9FC",
+        "mgaName": "BINDAL1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051378",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "BKK AS",
+        "mba": "NO5",
+        "mgaCode": "50YK95649Y18F01O",
+        "mgaName": "BKKN1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051378",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "BKK AS",
+        "mba": "NO5",
+        "mgaCode": "50YWZ1VEKD6TVBTU",
+        "mgaName": "BKKN2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50YFJ3JTN10BUD67",
+        "mgaName": "BKKP10 ULVIK",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y1LXW7AD5LYRDU",
+        "mgaName": "BKKP11 KJ\u00d8SN",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y3EDLOQJ2G9YIM",
+        "mgaName": "BKKP1 NYGARD",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y570F2MKB1CA2R",
+        "mgaName": "BKKP2 DALE",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50YBHOBGFUXZSBHS",
+        "mgaName": "BKKP3 STEINSL",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50YK0YFRAFCFIVB7",
+        "mgaName": "BKKP4 EVANG",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y1HLYVFRBBS-85",
+        "mgaName": "BKKP5 MATRE",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50YH88--EMXCTBWN",
+        "mgaName": "BKKP6 MYSTER",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50YEKD6TVBTX6FRS",
+        "mgaName": "BKKP7 SAMN",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y4P7G0GQK0M3SB",
+        "mgaName": "BKKP9 D",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001033477",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Borregaard AS",
+        "mba": "NO1",
+        "mgaCode": "50YEXY4C8R2BT72T",
+        "mgaName": "BRG1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004382671",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Clemens Kraft, Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y4RT8QU41O-DDF",
+        "mgaName": "CLEMENS1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003871534",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Enida AS",
+        "mba": "NO2",
+        "mgaCode": "50YEMI5CS7HCAV0Z",
+        "mgaName": "DALANE1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010003614",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "DE Nett AS",
+        "mba": "NO2",
+        "mgaCode": "50Y30AIV109NI571",
+        "mgaName": "DRANGE1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010000316",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fjellnett AS",
+        "mba": "NO3",
+        "mgaCode": "50YRC1DGCBRDXJG4",
+        "mgaName": "EIDEF1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005046220",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elvia AS",
+        "mba": "NO1",
+        "mgaCode": "50YWO-6UUIJ4BF1D",
+        "mgaName": "EIDSIVA-D",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005046220",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elvia AS",
+        "mba": "NO1",
+        "mgaCode": "50YGGB1G-8E5D7BY",
+        "mgaName": "EIDSIVA-R",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003321466",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elkem AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YC-7C9CR189BV3",
+        "mgaName": "ELKEM BJ1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003321466",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elkem AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YL9EDRUXP9FF1K",
+        "mgaName": "ELKEM FI1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003321466",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elkem AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YNG9WYEW-9BU37",
+        "mgaName": "ELKEM SI1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003321466",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elkem AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y0EU2USN0-B3DA",
+        "mgaName": "ELKEM TH1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055772",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Equinor ASA Nett",
+        "mba": "NO5",
+        "mgaCode": "50YTBW9C971AFSEY",
+        "mgaName": "EQUINOR1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055772",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Equinor ASA Nett",
+        "mba": "NO3",
+        "mgaCode": "50YZSBHB4RT8QU4V",
+        "mgaName": "EQUINOR3",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055772",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Equinor ASA Nett",
+        "mba": "NO4",
+        "mgaCode": "50YG1I6VRHZRIV1N",
+        "mgaName": "EQUINOR4",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055772",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Equinor ASA Nett",
+        "mba": "NO2",
+        "mgaCode": "50YVL0UMY5SSHCTU",
+        "mgaName": "EQUINOR5",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055772",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Equinor ASA Nett",
+        "mba": "NO5",
+        "mgaCode": "50YH5GGNQTL4BB-N",
+        "mgaName": "EQUINOR6",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055772",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Equinor ASA Nett",
+        "mba": "NO5",
+        "mgaCode": "50YQGPCG0GQL0YFG",
+        "mgaName": "EQUINOR7",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001266455",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eramet Norway AS",
+        "mba": "NO2",
+        "mgaCode": "50Y6FR0SF1DC0L-D",
+        "mgaName": "ERAM KVIN",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051378",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "BKK AS",
+        "mba": "NO2",
+        "mgaCode": "50YEIXYEFG0K7E4R",
+        "mgaName": "ETNE1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010002327",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "B\u00f8mlo Kraftnett AS",
+        "mba": "NO2",
+        "mgaCode": "50YOPNSFFF3EDLOJ",
+        "mgaName": "FINN\u00c5S1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003503541",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Finnfjord AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YKRI72316VPWCJ",
+        "mgaName": "FINNF1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003869012",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Midtnett AS",
+        "mba": "NO1",
+        "mgaCode": "50YJ2G9YIK1HMY4Q",
+        "mgaName": "FLESB1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004064553",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Nettselskapet AS",
+        "mba": "NO3",
+        "mgaCode": "50YC9N3IBEIX7JFB",
+        "mgaName": "FOSEN1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010013088",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Lysna AS",
+        "mba": "NO2",
+        "mgaCode": "50YRGBS98QGPCG02",
+        "mgaName": "FUSA1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003807724",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Gassco AS",
+        "mba": "NO2",
+        "mgaCode": "50YGYIXLO8PZT64N",
+        "mgaName": "GASSCO1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003807946",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vevig AS",
+        "mba": "NO1",
+        "mgaCode": "50YTXA640FCP5KPV",
+        "mgaName": "GE1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052672",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)",
+        "mba": "NO1",
+        "mgaCode": "50YCOPYG1IWFK057",
+        "mgaName": "GLITRE D1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052672",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)",
+        "mba": "NO5",
+        "mgaCode": "50YRT8QU3DO-PD0S",
+        "mgaName": "GLITRE D2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052672",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)",
+        "mba": "NO2",
+        "mgaCode": "50YCHY2WEAAGD713",
+        "mgaName": "GLITRE D3",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052672",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)",
+        "mba": "NO1",
+        "mgaCode": "50YQL0YFSA30AIVK",
+        "mgaName": "GLITRE D4",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053273",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
+        "mba": "NO1",
+        "mgaCode": "50YYCCAVRRQUHNTV",
+        "mgaName": "GLITRE R1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053273",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
+        "mba": "NO2",
+        "mgaCode": "50YHDDCGA4AUF2GK",
+        "mgaName": "GLITRE R2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053273",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
+        "mba": "NO5",
+        "mgaCode": "50Y5AYDXGP9PZT7T",
+        "mgaName": "GLITRE R3",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053273",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
+        "mba": "NO5",
+        "mgaCode": "50Y13TNTALLZ12XG",
+        "mgaName": "GLITRE R4",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005046220",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elvia AS",
+        "mba": "NO1",
+        "mgaCode": "50Y2VA2X6F00RRCT",
+        "mgaName": "HAFSL1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050654",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hallingdal Kraftnett AS",
+        "mba": "NO5",
+        "mgaCode": "50YUETHL4LVP30DB",
+        "mgaName": "HALL1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003811318",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Noranett AS",
+        "mba": "NO4",
+        "mgaCode": "50YG0XDE4AKRI72D",
+        "mgaName": "H\u00c5LOG1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003811318",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Noranett AS",
+        "mba": "NO4",
+        "mgaCode": "50YOEWOGS0MMA5MV",
+        "mgaName": "H\u00c5LOG5",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050661",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Lucerna AS",
+        "mba": "NO4",
+        "mgaCode": "50YWZ9LMV1ZFT6HK",
+        "mgaName": "HAMM1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010008367",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Indre Hordaland Kraftnett AS",
+        "mba": "NO5",
+        "mgaCode": "50Y09NI57T7CCAVM",
+        "mgaName": "HARD1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003809599",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fagne AS",
+        "mba": "NO2",
+        "mgaCode": "50YYEW-9BU3UI3GF",
+        "mgaName": "HAUGAL1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003809599",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fagne AS",
+        "mba": "NO2",
+        "mgaCode": "50Y6XBUTF1E25L67",
+        "mgaName": "HAUGAL10",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003809599",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fagne AS",
+        "mba": "NO2",
+        "mgaCode": "50YQAA6XBU3F1E22",
+        "mgaName": "HAUGAL2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003809599",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fagne AS",
+        "mba": "NO2",
+        "mgaCode": "50YELC1--Z0QW1EG",
+        "mgaName": "HAUGAL3",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003809599",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fagne AS",
+        "mba": "NO2",
+        "mgaCode": "50YJ3D8H9MFHMJTV",
+        "mgaName": "HAUGAL4",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003809599",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fagne AS",
+        "mba": "NO5",
+        "mgaCode": "50YERAQDH1TRM1ZL",
+        "mgaName": "HAUGAL6",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003809599",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fagne AS",
+        "mba": "NO2",
+        "mgaCode": "50Y3CU83XFNNMQD8",
+        "mgaName": "HAUGAL7",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003809599",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Fagne AS",
+        "mba": "NO2",
+        "mgaCode": "50YN124-C1JC80GY",
+        "mgaName": "HAUGAL9",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003965325",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Linea AS",
+        "mba": "NO4",
+        "mgaCode": "50YWA5YGOPNSFFFV",
+        "mgaName": "HELGEL1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004067882",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "F\u00f8ie AS \u2013 Hemsedal",
+        "mba": "NO5",
+        "mgaCode": "50Y013HNTAMLZ024",
+        "mgaName": "HEMSED1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003659613",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Her\u00f8ya Nett AS",
+        "mba": "NO2",
+        "mgaCode": "50YOAK9N0B00W96R",
+        "mgaName": "HER\u00d8YA1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055666",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hafslund Eco Vannkraft AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YMLZQTL4NB9WMP",
+        "mgaName": "HEV1\u00a0HALL",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055666",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hafslund Eco Vannkraft AS Nett",
+        "mba": "NO1",
+        "mgaCode": "50YFETG-MIFRIAMA",
+        "mgaName": "HEV2\u00a0SOLB",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055666",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hafslund Eco Vannkraft AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YTALLZ12XGNG9R",
+        "mgaName": "HEV3 AURL",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055666",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hafslund Eco Vannkraft AS Nett",
+        "mba": "NO1",
+        "mgaCode": "50Y8R01DACCR1YK0",
+        "mgaName": "HEV4 REND",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055666",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hafslund Eco Vannkraft AS Nett",
+        "mba": "NO1",
+        "mgaCode": "50YAL7BGP5A6XBUV",
+        "mgaName": "HEV5 KONG",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055666",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hafslund Eco Vannkraft AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y0WS0FL1T0CFYV",
+        "mgaName": "HEV6 FRAM",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005055666",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hafslund Eco Vannkraft AS Nett",
+        "mba": "NO1",
+        "mgaCode": "50Y1B-1DFY7ZM8KA",
+        "mgaName": "HEV7 HARP",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004320253",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "H\u00f8land og Setskog Elverk AS",
+        "mba": "NO1",
+        "mgaCode": "50Y8EXMUC8RSBTYY",
+        "mgaName": "H\u00d8LSET1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003858825",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Asker Nett AS",
+        "mba": "NO1",
+        "mgaCode": "50YDGCBR1XJACOAG",
+        "mgaName": "HURUM1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003654786",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Aluminium AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YANHAWZEW-96U4",
+        "mgaName": "HYDROAL1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003654786",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Aluminium AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YRBR0W97K0FFB6",
+        "mgaName": "HYDROAL2",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003654786",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Aluminium AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YEDLOQJ2G9YIKA",
+        "mgaName": "HYDROAL3",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003654786",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Aluminium AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YJS8D8ZDXWB2AT",
+        "mgaName": "HYDROAL4",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003654786",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Aluminium AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YIJ4BF1C0FUEV4",
+        "mgaName": "HYDROAL5",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001180041",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "S\u00f8r-Norge Aluminium AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y6ANDMGD-PNHY3",
+        "mgaName": "HYDROAL6",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003654793",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Norsk Hydro ASA",
+        "mba": "NO2",
+        "mgaCode": "50YEDA404O-ZADGU",
+        "mgaName": "HYDROASA1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052818",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Energi AS nett",
+        "mba": "NO2",
+        "mgaCode": "50YCEKGR33FHP7TM",
+        "mgaName": "HYDROEN1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052818",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Energi AS nett",
+        "mba": "NO2",
+        "mgaCode": "50YVH8AL7BHE5AX0",
+        "mgaName": "HYDROEN2",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052818",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Energi AS nett",
+        "mba": "NO2",
+        "mgaCode": "50Y8O8BDMJ1DZSO9",
+        "mgaName": "HYDROEN3",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052818",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Energi AS nett",
+        "mba": "NO2",
+        "mgaCode": "50YZC-B3DBEIX7EX",
+        "mgaName": "HYDROEN4",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052818",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Energi AS nett",
+        "mba": "NO2",
+        "mgaCode": "50YW97K0FFBFU4G0",
+        "mgaName": "HYDROEN5",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052818",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Energi AS nett",
+        "mba": "NO2",
+        "mgaCode": "50YFJV1DPD8P65N2",
+        "mgaName": "HYDROEN6",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052818",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Energi AS nett",
+        "mba": "NO5",
+        "mgaCode": "50YFSA30AIVB09NT",
+        "mgaName": "HYDROEN7",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003822901",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Stram AS",
+        "mba": "NO4",
+        "mgaCode": "50YI3GF1O0QUEU16",
+        "mgaName": "ISE1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053044",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elinett AS",
+        "mba": "NO3",
+        "mgaCode": "50YNDCT-QFBCAF1B",
+        "mgaName": "ISTAD1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010002419",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "J\u00e6ren Everk AS",
+        "mba": "NO2",
+        "mgaCode": "50YCPAKPMW8ELMVH",
+        "mgaName": "J\u00c6REN1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003864895",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bane NOR Nett",
+        "mba": "NO1",
+        "mgaCode": "50YBJUGQFT6M6GA8",
+        "mgaName": "JBV1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003864895",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bane NOR Nett",
+        "mba": "NO2",
+        "mgaCode": "50YWEMMLP6DC0BBV",
+        "mgaName": "JBV2",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003864895",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bane NOR Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y16W15D--B24-9",
+        "mgaName": "JBV3",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003864895",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bane NOR Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y-CC8CR1D9AVRE",
+        "mgaName": "JBV4",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003864895",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bane NOR Nett",
+        "mba": "NO5",
+        "mgaCode": "50YMGD-DNIYVCP7J",
+        "mgaName": "JBV5",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003864895",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bane NOR Nett",
+        "mba": "NO3",
+        "mgaCode": "50YLNG1D6VFHZFJ1",
+        "mgaName": "JBV6",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003864895",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bane NOR Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y1JH80G81CE658",
+        "mgaName": "JBV7",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003864895",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Bane NOR Nett",
+        "mba": "NO4",
+        "mgaCode": "50Y2L6W7BD6L8SET",
+        "mgaName": "JBV8",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003999207",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hafslund Oslo Celsio AS",
+        "mba": "NO1",
+        "mgaCode": "50YDALCBGQAA6XBR",
+        "mgaName": "KEA1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005046060",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "KE Nett AS",
+        "mba": "NO2",
+        "mgaCode": "50YSDO88PX5N1M40",
+        "mgaName": "KLEPP1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052931",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Eviny Fornybar Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y1S70T2CZZOC-T",
+        "mgaName": "KOGEN1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005054928",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vestmar Nett AS",
+        "mba": "NO2",
+        "mgaCode": "50Y-7FS806KF24QR",
+        "mgaName": "KRAGER\u00d81",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010003911",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Norefjell Nett AS",
+        "mba": "NO1",
+        "mgaCode": "50Y-DNIYJ0PY0-73",
+        "mgaName": "KR\u00d8D1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051637",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Ymber Produksjon AS",
+        "mba": "NO4",
+        "mgaCode": "50YDZFTCHY2WEAA8",
+        "mgaName": "KV\u00c6N1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010001276",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Kvam Energi Nett AS",
+        "mba": "NO5",
+        "mgaCode": "50YFCPBKPMW89LMV",
+        "mgaName": "KVAM1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010001276",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Kvam Energi Nett AS",
+        "mba": "NO5",
+        "mgaCode": "50Y7IG8DNEE3UFSC",
+        "mgaName": "KVAM2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051378",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "BKK AS",
+        "mba": "NO2",
+        "mgaCode": "50YSZ-6KF24QV9GW",
+        "mgaName": "KVINN1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010009654",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sygnir AS",
+        "mba": "NO5",
+        "mgaCode": "50YXJGCOFEJSDD9P",
+        "mgaName": "L\u00c6RDAL1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005046442",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elmea AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50Y9G7S-0Z1EKQEJ",
+        "mgaName": "LOFOT1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010004307",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Luostejok Nett AS",
+        "mba": "NO4",
+        "mgaCode": "50YSOONREKQ2JIWX",
+        "mgaName": "LUOST1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010010919",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Breheim Nett",
+        "mba": "NO5",
+        "mgaCode": "50YD717RC1DGCBRP",
+        "mgaName": "LUSTER1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005046053",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Lnett AS",
+        "mba": "NO2",
+        "mgaCode": "50YCZB13IFD7GEYO",
+        "mgaName": "LYSEN1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003307231",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Lyse Produksjon AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y7DCRCBIGCBQDJ",
+        "mgaName": "LYSEP1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003307231",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Lyse Produksjon AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YQI2K87UJ1TLX1",
+        "mgaName": "LYSEP2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003968395",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Mel\u00f8y Nett AS",
+        "mba": "NO4",
+        "mgaCode": "50YEX5B2A58OEBDO",
+        "mgaName": "MEL\u00d8Y1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003992680",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Svabo Industrinett AS",
+        "mba": "NO4",
+        "mgaCode": "50YSPK-YF0AFCFU2",
+        "mgaName": "MIP1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003869012",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Midtnett AS",
+        "mba": "NO1",
+        "mgaCode": "50YTYV25BUV195OX",
+        "mgaName": "MNBUS1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003816184",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Modalen Kraftlag Nett",
+        "mba": "NO5",
+        "mgaCode": "50YK1DZ108BH-069",
+        "mgaName": "MODALEN",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001319830",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Linja AS",
+        "mba": "NO3",
+        "mgaCode": "50YX63R0GG18C0GD",
+        "mgaName": "M\u00d8RE1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001319830",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Linja AS",
+        "mba": "NO3",
+        "mgaCode": "50YSGLKY01XGMG88",
+        "mgaName": "M\u00d8RE2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010003836",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "F\u00f8re AS",
+        "mba": "NO2",
+        "mgaCode": "50YVFCNFEJSDD88E",
+        "mgaName": "MTEL1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010004369",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Mellom AS",
+        "mba": "NO3",
+        "mgaCode": "50Y98QGPCG0GQL0T",
+        "mgaName": "NEAS1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053044",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elinett AS",
+        "mba": "NO3",
+        "mgaCode": "50YDDADS2EACXSFY",
+        "mgaName": "NESSET1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010014368",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Nordkraft Industrinett AS",
+        "mba": "NO4",
+        "mgaCode": "50YB1CA2FH98-O9Q",
+        "mgaName": "NKIND1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050838",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Nordkraft Magasin AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50Y3NYY9CF7M-TFE",
+        "mgaName": "NKMAG1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010002754",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "LeGa Nett AS",
+        "mba": "NO4",
+        "mgaCode": "50Y-88FILDZA3SCO",
+        "mgaName": "NKYN1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051361",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Arva AS (tidligere Nordlandsnett)",
+        "mba": "NO4",
+        "mgaCode": "50Y0PZ1-8GH-06KI",
+        "mgaName": "NLANDSN1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051361",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Arva AS (tidligere Nordlandsnett)",
+        "mba": "NO4",
+        "mgaCode": "50Y2UI3GR1N0QUER",
+        "mgaName": "NLANDSN2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052702",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Norgesnett AS",
+        "mba": "NO5",
+        "mgaCode": "50YZSOZBH-PXFAUA",
+        "mgaName": "NNAS ASK\u00d8Y",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052702",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Norgesnett AS",
+        "mba": "NO1",
+        "mgaCode": "50YEBDMK1DZ108B3",
+        "mgaName": "NNAS FOLLO",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052702",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Norgesnett AS",
+        "mba": "NO1",
+        "mgaCode": "50Y1CE65XL6JU3Q7",
+        "mgaName": "NNAS FREDR",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003811318",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Noranett AS",
+        "mba": "NO4",
+        "mgaCode": "50YX5N1M4DODBDMX",
+        "mgaName": "NORDKR1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003811318",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Noranett AS",
+        "mba": "NO4",
+        "mgaCode": "50YXGZG95YD5Z9BW",
+        "mgaName": "NORDKR6",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005048415",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "F\u00f8ie AS",
+        "mba": "NO5",
+        "mgaCode": "50YKS0WCQ4EVQH6Z",
+        "mgaName": "NORE1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010000132",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Klive AS",
+        "mba": "NO1",
+        "mgaCode": "50YWCGS0AMA5M326",
+        "mgaName": "N\u00d8STERD1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010000132",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Klive AS",
+        "mba": "NO3",
+        "mgaCode": "50YT4QWAA7SOPNSC",
+        "mgaName": "N\u00d8STERD2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052825",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Everket AS",
+        "mba": "NO2",
+        "mgaCode": "50YFF2JDKOQJ2L9X",
+        "mgaName": "NOTOD1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052825",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Everket AS",
+        "mba": "NO1",
+        "mgaCode": "50YMCULDQZJJF3KS",
+        "mgaName": "NOTOD2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010000064",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Kystnett AS",
+        "mba": "NO4",
+        "mgaCode": "50YE3BCAFSY2MXW1",
+        "mgaName": "NSALTEN1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010000064",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Kystnett AS",
+        "mba": "NO4",
+        "mgaCode": "50YFU4BCDYUAB17T",
+        "mgaName": "NSALTEN2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003823038",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Norske Skog Skogn AS, Nett",
+        "mba": "NO3",
+        "mgaCode": "50YAJDAXAKFVSAM4",
+        "mgaName": "NSSKOGN1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052627",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tensio TN AS",
+        "mba": "NO3",
+        "mgaCode": "50YO0VH7AL7BGP59",
+        "mgaName": "NTE1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052627",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tensio TN AS",
+        "mba": "NO3",
+        "mgaCode": "50YWZEW-96U3IJ4S",
+        "mgaName": "NTE2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052627",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tensio TN AS",
+        "mba": "NO4",
+        "mgaCode": "50Y1JUU58B3IWPBF",
+        "mgaName": "NTE3",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052627",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tensio TN AS",
+        "mba": "NO4",
+        "mgaCode": "50YPFXPHT1NNB6NF",
+        "mgaName": "NTE4",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052801",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Nordvest Nett AS",
+        "mba": "NO3",
+        "mgaCode": "50Y1YC9M3HNJTW61",
+        "mgaName": "NVEST1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052917",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elvenett AS",
+        "mba": "NO1",
+        "mgaCode": "50YP65NDMGD-DNIE",
+        "mgaName": "\u00d8EIKER1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053143",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "\u00d8stfold Energi AS",
+        "mba": "NO5",
+        "mgaCode": "50Y06KAT4QWAA7SV",
+        "mgaName": "\u00d8FOLD1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053143",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "\u00d8stfold Energi AS",
+        "mba": "NO5",
+        "mgaCode": "50Y-Z0QKQEJIWZ1Z",
+        "mgaName": "\u00d8FOLD2",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053143",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "\u00d8stfold Energi AS",
+        "mba": "NO5",
+        "mgaCode": "50YHNBGFTXZSBHB6",
+        "mgaName": "\u00d8FOLD3",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053143",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "\u00d8stfold Energi AS",
+        "mba": "NO5",
+        "mgaCode": "50YFDY3326KQWDPO",
+        "mgaName": "\u00d8FOLD4",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004064553",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Nettselskapet AS",
+        "mba": "NO3",
+        "mgaCode": "50Y4FKRH6EFDBV0I",
+        "mgaName": "ORKDAL1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056496",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Otra Kraft DA Nett",
+        "mba": "NO2",
+        "mgaCode": "50YUC8RSBTY2WEMN",
+        "mgaName": "OTRA2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005054898",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Rakkestad Energi AS Nett",
+        "mba": "NO1",
+        "mgaCode": "50Y26E4PXYW0BHOE",
+        "mgaName": "RAKKE1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010004017",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "RK Nett AS",
+        "mba": "NO2",
+        "mgaCode": "50YDPGOCG1SQK0YG",
+        "mgaName": "RAUL1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010005427",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Romsdalsnett AS",
+        "mba": "NO3",
+        "mgaCode": "50YDOS-QFGHFK17L",
+        "mgaName": "RAUMA1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004087071",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Nettinord AS",
+        "mba": "NO4",
+        "mgaCode": "50YBD6LZSE57I49Q",
+        "mgaName": "REPV\u00c5G1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005048415",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "F\u00f8ie AS",
+        "mba": "NO1",
+        "mgaCode": "50Y3E31ZC9MFHNJ3",
+        "mgaName": "RINGER1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005048415",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "F\u00f8ie AS",
+        "mba": "NO2",
+        "mgaCode": "50YGFUXZSBHB4RTL",
+        "mgaName": "RINGER2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010012852",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "R-Nett AS",
+        "mba": "NO1",
+        "mgaCode": "50YRAFCFIVBCEMIH",
+        "mgaName": "ROLLAG1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003947932",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "R\u00f8ros E-verk Nett AS",
+        "mba": "NO1",
+        "mgaCode": "50Y56IKSAWCQGEVI",
+        "mgaName": "R\u00d8ROS1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003674630",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "AS Saudefaldene Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y0G81CE65XXBJB",
+        "mgaName": "SAUDEF1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003406033",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Norske Skog Saugbrugs AS, Nett",
+        "mba": "NO1",
+        "mgaCode": "50YNTAMLZ02YANH4",
+        "mgaName": "SAUGB1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005046459",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "S\u00f8r Aurdal Energi AS Nett",
+        "mba": "NO1",
+        "mgaCode": "50YF2GCFETG-MIFT",
+        "mgaName": "SAURD1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001319830",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Linja AS",
+        "mba": "NO3",
+        "mgaCode": "50Y4F26BF0CRRCDE",
+        "mgaName": "SFE1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001319830",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Linja AS",
+        "mba": "NO5",
+        "mgaCode": "50YP-ZBEG9O0VH8J",
+        "mgaName": "SFE2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001319830",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Linja AS",
+        "mba": "NO5",
+        "mgaCode": "50Y7Q1NT7E5QLMKX",
+        "mgaName": "SFE3",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004122741",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "SFE Produksjon AS \u2013 Netteier",
+        "mba": "NO5",
+        "mgaCode": "50YOEWOFS0MLA5M8",
+        "mgaName": "SFEPN1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005062077",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Shell Energy Nett",
+        "mba": "NO3",
+        "mgaCode": "50YYJ0PY0-7FSZ-2",
+        "mgaName": "SHELL1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050944",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sira-Kvina kraftselskap Nett",
+        "mba": "NO2",
+        "mgaCode": "50YXGP9PZT7VC-7A",
+        "mgaName": "SIRAKP1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010014696",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Siso Energi AS",
+        "mba": "NO4",
+        "mgaCode": "50YVATX6FR0RF0DJ",
+        "mgaName": "SISO1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YU5Z1UDWDB2VA4",
+        "mgaName": "SK1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YEJGQ2FFHP72LD",
+        "mgaName": "SK10",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YYF0AFCFUVBCDH",
+        "mgaName": "SK11",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YQFT6M6GAKCPAW",
+        "mgaName": "SK12",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YX6F00RRCDOAKV",
+        "mgaName": "SK17",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YA5OQGEV1TBEER",
+        "mgaName": "SK2",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YEMMLPCDC0BBIL",
+        "mgaName": "SK21",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YA4AUF2GCFETGA",
+        "mgaName": "SK22",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YN0B00W96JCEKZ",
+        "mgaName": "SK23",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YDBS-QFBBAE171",
+        "mgaName": "SK24",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YPMW8ELMVD8RTW",
+        "mgaName": "SK25",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YMIFRIAMVGGB13",
+        "mgaName": "SK26",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YOG1D6VFHZFJV8",
+        "mgaName": "SK27",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YR33FHP7TGNDCO",
+        "mgaName": "SK28",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YBEEDA4AGO98FG",
+        "mgaName": "SK29",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50Y-8E5D7BRHEGPN",
+        "mgaName": "SK3",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YA4AGO98FDG8OQ",
+        "mgaName": "SK30",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YDPD8P65NDMGD3",
+        "mgaName": "SK31",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50Y-QFBCAF1Y2L6K",
+        "mgaName": "SK32",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50Y4G140BEK019BB",
+        "mgaName": "SK33",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YHY2WEAAGD7DCH",
+        "mgaName": "SK35",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YDNIYVCP70-7F5",
+        "mgaName": "SK36",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YW7HZD80JRSQVJ",
+        "mgaName": "SK37",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y7BD6L8SEA7IGN",
+        "mgaName": "SK38A",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YG8OAUTD9LCBGK",
+        "mgaName": "SK38B",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YUTD9LCBGPAA5U",
+        "mgaName": "SK39",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YBI6AGORTM5BCV",
+        "mgaName": "SK4",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y806KF24Q59G7M",
+        "mgaName": "SK40",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO1",
+        "mgaCode": "50YDNEE3UFS0CZBP",
+        "mgaName": "SK41",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YIG8DMEE33KR19",
+        "mgaName": "SK42",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YLN2KO07IUJEV5",
+        "mgaName": "SK43",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YCBIGCBQDXVFCJ",
+        "mgaName": "SK44",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y-0Z1EKQEJIW-P",
+        "mgaName": "SK45",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y3IFD7GEYETYVC",
+        "mgaName": "SK46",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YBSCSFJ3JTN100",
+        "mgaName": "SK47",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YAA56NU2K1J2AJ",
+        "mgaName": "SK48",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YNU2K1J2ALBFA1",
+        "mgaName": "SK49",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YVEKE7UWBTX63O",
+        "mgaName": "SK50",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YUD63DLYE3CQLA",
+        "mgaName": "SK51",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y5BUV195O1FQ49",
+        "mgaName": "SK52",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YZG1EIFC7GEYJY",
+        "mgaName": "SK53",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YFEJSDD88QX5NG",
+        "mgaName": "SK54",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YAVAFFDY3326KU",
+        "mgaName": "SK55",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y0GG18C0G-CRBP",
+        "mgaName": "SK56",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO1",
+        "mgaCode": "50YTBJJIMGAG-88J",
+        "mgaName": "SK57",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YBFAJG0MW0X5D8",
+        "mgaName": "SK58",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YWDPO125-DQJCE",
+        "mgaName": "SK59",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YG0MW0X5DEXY3M",
+        "mgaName": "SK5A",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50Y1W9YF0AFCFU4J",
+        "mgaName": "SK5B",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YILDZA3SCEWCG0",
+        "mgaName": "SK6",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y0AZ0C9X6LL6EX",
+        "mgaName": "SK60",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YYV2ABUV0E5O0A",
+        "mgaName": "SK61",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YJ2ALBFAJG0MWG",
+        "mgaName": "SK62",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YTMJT5BUJSA5O9",
+        "mgaName": "SK63",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YDGJY9FAI0YEGH",
+        "mgaName": "SK64",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y-Q5-R1AYXMAY0",
+        "mgaName": "SK65",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YFY1B8W5KK5DH5",
+        "mgaName": "SK66",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YD2GWGW30E1C5R",
+        "mgaName": "SK67",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YBLTJ84537X07F",
+        "mgaName": "SK68",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YX65DGIBX71QAJ",
+        "mgaName": "SK69",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YCDYUAB17HOF4W",
+        "mgaName": "SK7",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y6ZE5-AC33VJ4U",
+        "mgaName": "SK70",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50Y5JPLVY8KMU0Y9",
+        "mgaName": "SK71",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y3NZY9CF7N-TFZ",
+        "mgaName": "SK72",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YCNAEJS8D8ZDXK",
+        "mgaName": "SK73",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50YNCQ3J3D8H9MFL",
+        "mgaName": "SK74",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y4E3HXAX41F0D0",
+        "mgaName": "SK8",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050982",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statkraft Energi AS Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y0AMA5M32KAJDM",
+        "mgaName": "SK9",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056007",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Skagerak Kraft Nett",
+        "mba": "NO5",
+        "mgaCode": "50YB3EUUFGRDNCQB",
+        "mgaName": "SKAGK1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056007",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Skagerak Kraft Nett",
+        "mba": "NO2",
+        "mgaCode": "50YKF24QV9G7SOOW",
+        "mgaName": "SKAGK2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056007",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Skagerak Kraft Nett",
+        "mba": "NO2",
+        "mgaCode": "50YUFGRDNCQ3J3DI",
+        "mgaName": "SKAGK3",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050975",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Lede AS",
+        "mba": "NO2",
+        "mgaCode": "50YEG9OAVHDALCB2",
+        "mgaName": "SKAGN1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050975",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Lede AS",
+        "mba": "NO2",
+        "mgaCode": "50YREKQ2JIWNQI2B",
+        "mgaName": "SKAGN3",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004062702",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "SkiakerNett AS",
+        "mba": "NO3",
+        "mgaCode": "50YL7BHE5AXXBJUY",
+        "mgaName": "SKJ\u00c5K1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004318335",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Felleskj\u00f8pet Nett Vaksdal",
+        "mba": "NO5",
+        "mgaCode": "50Y57T7CCAV0013S",
+        "mgaName": "SMKN1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001426842",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sm\u00e5kraft AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YAFSY2MXW8BD6S",
+        "mgaName": "SMKN2",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001426842",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sm\u00e5kraft AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YOF41003TZ2AXF",
+        "mgaName": "SMKN3",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001426842",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sm\u00e5kraft AS Nett",
+        "mba": "NO5",
+        "mgaCode": "50YCS7HCAV0013T5",
+        "mgaName": "SMKN4",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO4",
+        "mgaCode": "50YXY3H7Q1NT7E5K",
+        "mgaName": "SN1",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO5",
+        "mgaCode": "50YGEAL-AABJ1ZG7",
+        "mgaName": "SN11",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO2",
+        "mgaCode": "50Y003TZ2AXX811M",
+        "mgaName": "SN12",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO2",
+        "mgaCode": "50YXAKFVSAM50X4J",
+        "mgaName": "SN13",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO5",
+        "mgaCode": "50YQ4B2NIJIMG9GG",
+        "mgaName": "SN14",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO2",
+        "mgaCode": "50Y7DNUK95649Y1B",
+        "mgaName": "SN15",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO1",
+        "mgaCode": "50YX5DEXY3H7Q1NC",
+        "mgaName": "SN16",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO2",
+        "mgaCode": "50YQ6Y3HC11N26EC",
+        "mgaName": "SN18",
+        "mgaType": "BORDER"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO2",
+        "mgaCode": "50YF01E570F2MKBM",
+        "mgaName": "SN19",
+        "mgaType": "BORDER"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO4",
+        "mgaCode": "50YLMKPCCC0GAIL5",
+        "mgaName": "SN2",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO2",
+        "mgaCode": "50Y8S10EBDDS2ZLH",
+        "mgaName": "SN20",
+        "mgaType": "BORDER"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO2",
+        "mgaCode": "50YB1BAHKNG1C6UW",
+        "mgaName": "SN21",
+        "mgaType": "BORDER"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO4",
+        "mgaCode": "50YCCC0GAILNG1IK",
+        "mgaName": "SN3",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO3",
+        "mgaCode": "50YUUFGRDNCQ3E34",
+        "mgaName": "SN4",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO3",
+        "mgaCode": "50YCA2FH88--EMXQ",
+        "mgaName": "SN5",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO3",
+        "mgaCode": "50YPXYW0BHOBGFU7",
+        "mgaName": "SN6",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080000923168",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Statnett SF",
+        "mba": "NO5",
+        "mgaCode": "50YD8FIKDZF3SOEN",
+        "mgaName": "SN8",
+        "mgaType": "TRANSMISSION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010009654",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sygnir AS",
+        "mba": "NO5",
+        "mgaCode": "50Y18C0G-CR1SPKW",
+        "mgaName": "SOGNE1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001319830",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Linja AS",
+        "mba": "NO3",
+        "mgaCode": "50YSPZBCOPYG1IWV",
+        "mgaName": "STRANDA1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010003218",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "SuNett AS",
+        "mba": "NO3",
+        "mgaCode": "50YO-DD05AYDXGP1",
+        "mgaName": "SUNNDAL1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051378",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "BKK AS",
+        "mba": "NO3",
+        "mgaCode": "50YK05ZHDDCGA4AK",
+        "mgaName": "SUNNFJD1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010002464",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "S-NETT AS",
+        "mba": "NO3",
+        "mgaCode": "50YAILNG1I6VRHZB",
+        "mgaName": "SVORKA1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010003720",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Straumen Nett AS",
+        "mba": "NO3",
+        "mgaCode": "50YDA404O9ZAEG9T",
+        "mgaName": "SYKKYLV1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004295377",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Aneo AS \u2013 Nett",
+        "mba": "NO3",
+        "mgaCode": "50YB8JB9FOGF4VGI",
+        "mgaName": "TEK1",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004295377",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Aneo AS \u2013 Nett",
+        "mba": "NO3",
+        "mgaCode": "50Y8S01EACCR2YKC",
+        "mgaName": "TEK2",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004295377",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Aneo AS \u2013 Nett",
+        "mba": "NO3",
+        "mgaCode": "50YAV0X47DWY3C73",
+        "mgaName": "TEK3",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051880",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tensio TS AS",
+        "mba": "NO3",
+        "mgaCode": "50Y0BEK019BDW7HG",
+        "mgaName": "TEN1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051880",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tensio TS AS",
+        "mba": "NO3",
+        "mgaCode": "50YNHYVCO7C9CFSA",
+        "mgaName": "TEN2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051880",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tensio TS AS",
+        "mba": "NO3",
+        "mgaCode": "50YK1IMY4GSGBS9J",
+        "mgaName": "TEN3",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003612595",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tinfos AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YAVHDALCBGQAAI",
+        "mgaName": "TINFO1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003612595",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tinfos AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YLMVD8RTBHY2WU",
+        "mgaName": "TINFO2",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001426842",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sm\u00e5kraft AS Nett",
+        "mba": "NO4",
+        "mgaCode": "50YG6HF7DMDD2TEG",
+        "mgaName": "TINFO4",
+        "mgaType": "PRODUCTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010003959",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Stannum AS",
+        "mba": "NO2",
+        "mgaCode": "50YJDAXMKFVS9M4X",
+        "mgaName": "TINN1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003306401",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Titania AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YD7BRHEGPM4G1L",
+        "mgaName": "TITANIA1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003857989",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Noranett Hadsel AS",
+        "mba": "NO4",
+        "mgaCode": "50YIV1POD8P6ANDW",
+        "mgaName": "TROLLF1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051859",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Arva AS",
+        "mba": "NO4",
+        "mgaCode": "50YXBU3F1E25LBGK",
+        "mgaName": "TROMS1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051378",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "BKK AS",
+        "mba": "NO2",
+        "mgaCode": "50YCO7C9CFS8ABKD",
+        "mgaName": "TYSNES1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003380630",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Ulefos Kraftverk DA",
+        "mba": "NO2",
+        "mgaCode": "50YJH0AW0Y58EXYZ",
+        "mgaName": "ULEFO1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050500",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Uvdal Kraftforsyning",
+        "mba": "NO5",
+        "mgaCode": "50YD80JRSQVHBI6V",
+        "mgaName": "UVDAL1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010009654",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Sygnir AS",
+        "mba": "NO3",
+        "mgaCode": "50YBQDXVFCNFEJSJ",
+        "mgaName": "VADHEIM1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005052900",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Griug AS",
+        "mba": "NO1",
+        "mgaCode": "50Y6GCP57FHC1DN0",
+        "mgaName": "VALDRES1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051897",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vestall AS",
+        "mba": "NO4",
+        "mgaCode": "50YD88QX5N1M4DO1",
+        "mgaName": "V\u00c5LSK1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010002297",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vang Energiverk AS",
+        "mba": "NO1",
+        "mgaCode": "50YGD-PNHYVCO7CJ",
+        "mgaName": "VANG1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051934",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Barents Nett AS",
+        "mba": "NO4",
+        "mgaCode": "50YGORTM5BC0LN20",
+        "mgaName": "VARNG1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051934",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Barents Nett AS",
+        "mba": "NO4",
+        "mgaCode": "50YC8R2BT72WEMM7",
+        "mgaName": "VARNG2",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005046404",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Etna Nett AS",
+        "mba": "NO1",
+        "mgaCode": "50Y1DN1BD4PXYW-C",
+        "mgaName": "VOKKS1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003897855",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Tendranett AS",
+        "mba": "NO5",
+        "mgaCode": "50YPCDC0BBILOG11",
+        "mgaName": "VOSS1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051927",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vest-Telemark Kraftlag AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YABKF2GP4EG7SW",
+        "mgaName": "VTELE1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051927",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vest-Telemark Kraftlag AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50YO07IUJEVCBSCT",
+        "mgaName": "VTELE2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005053259",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Yara Norge AS, Yara Glomfjord Nett",
+        "mba": "NO4",
+        "mgaCode": "50YBDMJ0PZ1-8GH3",
+        "mgaName": "YARA1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004045743",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vissi AS",
+        "mba": "NO4",
+        "mgaCode": "50YBD4PXYW-NHNBA",
+        "mgaName": "YMBER1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004045743",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vissi AS",
+        "mba": "NO4",
+        "mgaCode": "50Y6VFHZFJV1DPD4",
+        "mgaName": "YMBER3",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080004045743",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vissi AS",
+        "mba": "NO4",
+        "mgaCode": "50YDLYE3CQL8AVAV",
+        "mgaName": "YMBER4",
+        "mgaType": "REGIONAL"
+    }
+]
