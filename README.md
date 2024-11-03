@@ -50,7 +50,7 @@ Tariff-dataene inkluderer:
 * kapasitet/effekt-ledd
 * energi-ledd
 
-Dataene inkluderer ikke avgifter, men i tillegg maskinlesbare data dette tilgjengelig:
+Dataene inkluderer ikke avgifter, men i tillegg er maskinlesbare data tilgjengelig for:
 
 * Elavgift
 * Enova-avgift
@@ -59,7 +59,7 @@ Dataene inkluderer ikke avgifter, men i tillegg maskinlesbare data dette tilgjen
 
 ## Mål
 
-- [ ] Samle strukturdata for å identifisere alle netteier og nettområder
+- [x] Samle strukturdata for å identifisere alle netteier og nettområder
 - [ ] Samle tariffer for private husholdninger på YAML format for alle netteiere/områder
 - [ ] Formalisere skjema for utveksling av tariffer
 - [ ] Publisere fil-sett for dataene
