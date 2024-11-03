@@ -96,6 +96,9 @@ lignende. Automatisk scraping er ikke et mål og det oppfordres til å unngå br
 roboter for innsamling. Vi respekterer andres systemer og immatrielle rettigheter og bruker
 f.eks. ikke data fra andre kommersielle aktører som leverer samme type data.
 
+Vi jobber med verktøy som kan brukes ved manuell innsamling som hostes på
+[kraftsystemet.no/fri-nettleie/](http://kraftsystemet.no/fri-nettleie/).
+
 ## Utfordringer
 
 ### Ulike modeller
