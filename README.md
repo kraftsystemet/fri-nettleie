@@ -31,9 +31,10 @@ Nettleie er en del av [strømregningen](https://snl.no/str%C3%B8mregning) som g�
 til det lokale nettselskapet.
 [Nettleie-tariffer skal være lett tilgjengelig for nettkundene](https://lovdata.no/forskrift/1999-03-11-302/§13-5),
 men praksis i dag er at den distribueres av nettselskaper på mange ulike måter
-og formater. Selv om det finnes gode initiativer og
-[standarder](https://github.com/3lbits/API-nettleie-for-styring) for deling av
-nettleie finnes det ikke noen åpen, gratis oversikt over nettleie på tvers av
+og formater. Selv om det finnes gode
+[initiativer](https://elhub.no/elhub-planlegger-a-tilby-en-felles-losning-for-distribusjon-av-nettariffer/)
+og [standarder](https://github.com/3lbits/API-nettleie-for-styring) for deling
+av nettleie finnes det ikke noen åpen, gratis oversikt over nettleie på tvers av
 alle nettselskaper i Norge.
 
 Dette prosjektet bruker kraften av en nettdugnad for å samle og systematisere
@@ -63,9 +64,11 @@ maskinlesbare definisjoner av relevante avgifter.
 ## Mål
 
 - [x] Samle strukturdata for å identifisere alle netteier og nettområder
-- [ ] Samle tariffer for private husholdninger på YAML format for alle netteiere/områder
+- [ ] Samle tariffer for private husholdninger på yaml format for et utvalg
+  nettselskaper (med varierende tariffer)
 - [ ] Formalisere skjema for utveksling av tariffer
 - [ ] Publisere fil-sett for dataene
+- [ ] Samle tariffer for husholdninger for alle nettområder
 - [ ] Overvåke nettselskapenes sider for å varsle ved endring
 - [ ] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
 
