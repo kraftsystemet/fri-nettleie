@@ -11,6 +11,14 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
 - [Mål](#mal)
 - [Anti-mål](#anti-mal)
 - [Innsamling](#innsamling)
+- [Utfordringer](#utfordringer)
+  * [Ulike modeller](#ulike-modeller)
+  * [Flere tariffer per netteier](#flere-tariffer-per-netteier)
+  * [Priser oppgitt med og uten avgifter](#priser-oppgitt-med-og-uten-avgifter)
+- [Avgifter](#avgifter)
+  * [Enova-avgift](#enova-avgift)
+  * [Forbruksavgift - Elavgift](#forbruksavgift---elavgift)
+  * [Merverdiavgift](#merverdiavgift)
 - [Bidra](#bidra)
 - [Status](#status)
 - [Lisens](#lisens)
@@ -46,16 +54,11 @@ på en måte som hjelper nettet samtidig som de sparer penger.
 
 Tariff-dataene inkluderer:
 
-* ~~fastledd~~
-* kapasitet/effekt-ledd
+* kapasitet-ledd eller effekt-ledd
 * energi-ledd
 
-Dataene inkluderer ikke avgifter, men i tillegg er maskinlesbare data tilgjengelig for:
-
-* Elavgift
-* Enova-avgift
-* ~~Elsertifikater~~
-* Merverdiavgift
+Selve tariff-dataene inkluderer ikke avgifter, men prosjektet inkluderer
+maskinlesbare definisjoner av relevante avgifter.
 
 ## Mål
 
@@ -74,6 +77,7 @@ prosjektet
 * tariffer for selskaper
 * tariff for ikke automatisk avlesning
 * brukergrensesnitt for visning eller innsamling
+* vedlikeholde historiske priser
 
 ## Innsamling
 
@@ -81,6 +85,60 @@ Dataene i dette prosjektet samles inn manuelt fra netteiers hjemmesider og
 lignende. Automatisk scraping er ikke et mål og det oppfordres til å unngå bruk av
 roboter for innsamling. Vi respekterer andres systemer og immatrielle rettigheter og bruker
 f.eks. ikke data fra andre kommersielle aktører som leverer samme type data.
+
+## Utfordringer
+
+### Ulike modeller
+
+Det eksisterer flere ulike modeller for nettleie. Det kan for eksempel være
+forskjellige priser i løpet av døgnet eller mellom sesonger og ulike modeller
+for å prise kapasitet.
+
+### Flere tariffer per netteier
+
+Noen netteiere har ulike tariffer for ulike deler av sitt nett. Dette er typisk
+dersom det har vært sammenslåing av konsesjonsområder.
+
+### Priser oppgitt med og uten avgifter
+
+Ved innsamling av tariffer er det utfordrende når noen netteiere gjør
+tilgjengelig sine priser med avgifter, mens andre ikke inkluderer avgifter.
+
+## Avgifter
+
+Det er tre avgifter som gjelder for nettleie:
+
+* Enova-avgift
+* Elavgift
+* Merverdiavgift
+
+### Enova-avgift
+
+[Forskrift om Energifondet](https://lovdata.no/dokument/SF/forskrift/2001-12-10-1377)
+sier at netteier skal legge et påslag på tariffen til alle sluttbrukere på alle
+nettnivåer når det faktureres.
+
+> For husholdningsbruk skal påslaget utgjøre 1 øre/kWh. For andre sluttbrukere
+> enn husholdninger skal påslaget utgjøre 800 kroner/år per målepunkt-ID.
+
+### Forbruksavgift - Elavgift
+
+En avgift på strøm som betales til netteier og netteier viderefører til Skatteetaten.
+
+[Forskrift om særavgifter](https://lovdata.no/dokument/SF/forskrift/2001-12-11-1451/KAPITTEL_3-12#KAPITTEL_3-12)
+fastsetter at avgift på elektrisk kraft settes ved
+[stortingsvedtak](https://lovdata.no/register/stortingsvedtak).
+[Vedtaket for 2024](https://lovdata.no/dokument/STV/forskrift/2023-12-14-2075/KAPITTEL_14#KAPITTEL_14)
+fastsetter også lavere avgift for jan-mars og ytterligere lav avgift for mange
+kommuner i Troms og Finnmark.
+
+### Merverdiavgift
+
+Vanlig moms på 25% betales på nettleie, Enova-avgiften og elavgiften.
+
+Det er
+[fritak for mva i Nord-Norge](https://www.skatteetaten.no/rettskilder/type/handboker/merverdiavgiftshandboken/2020/M-6/M-6-6/)
+- Nordland, Troms og Finnmark.
 
 ## Bidra
 
@@ -131,7 +189,7 @@ Den følgende listen viser status på innsamlede data.
 - [ ] Kvam Energi Nett AS - 7080010001276
 - [ ] Kystnett AS - 7080010000064
 - [ ] Lede AS - 7080005050975
-- [ ] Linja AS - 7080001319830
+- [x] Linja AS - 7080001319830 - Sist oppdatert `2024-11-03`
 - [ ] Lucerna AS - 7080005050661
 - [ ] Lyse Produksjon AS Nett - 7080003307231
 - [ ] Lysna AS - 7080010013088

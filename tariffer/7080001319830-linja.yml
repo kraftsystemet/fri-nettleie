@@ -1,0 +1,91 @@
+---
+netteier: Linja AS
+gln: "7080001319830"
+sist_oppdatert: 2024-11-03
+kilder:
+  - https://www.linja.no/nettleige
+tariffer:
+  - id: nord
+    kapasitet:
+      - fra: 0
+        til: 2
+        pris: 220.0
+      - fra: 2
+        til: 5
+        pris: 274.4
+      - fra: 5
+        til: 10
+        pris: 328.8
+      - fra: 10
+        til: 15
+        pris: 548.8
+      - fra: 15
+        til: 20
+        pris: 659.2
+      - fra: 20
+        til: 25
+        pris: 768.0
+      - fra: 25
+        til: 50
+        pris: 1098.4
+      - fra: 50
+        til: 75
+        pris: 1208.0
+      - fra: 75
+        til: 100
+        pris: 1316.8
+      - fra: 100
+        pris: 1647.2
+    energi:
+      timer:
+        - fra: 00:00
+          til: 06:00
+          pris: 27.232
+        - fra: 06:00
+          til: 22:00
+          pris: 20.424
+        - fra: 22:00
+          til: 00:00
+          pris: 27.232
+  - id: sør
+    kapasitet:
+      - fra: 0
+        til: 2
+        pris: 222.4
+      - fra: 2
+        til: 5
+        pris: 308.8
+      - fra: 5
+        til: 10
+        pris: 395.2
+      - fra: 10
+        til: 15
+        pris: 568.0
+      - fra: 15
+        til: 20
+        pris: 683.2
+      - fra: 20
+        til: 25
+        pris: 799.2
+      - fra: 25
+        til: 50
+        pris: 1015.2
+      - fra: 50
+        til: 75
+        pris: 1130.4
+      - fra: 75
+        til: 100
+        pris: 1246.4
+      - fra: 100
+        pris: 1534.4
+    energi:
+      timer:
+        - fra: 00:00
+          til: 06:00
+          pris: 15.384
+        - fra: 06:00
+          til: 22:00
+          pris: 22.384
+        - fra: 22:00
+          til: 00:00
+          pris: 15.384
