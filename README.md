@@ -20,7 +20,13 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Forbruksavgift - Elavgift](#forbruksavgift---elavgift)
   * [Merverdiavgift](#merverdiavgift)
 - [Bidra](#bidra)
+  * [Samle data](#samle-data)
+  * [Gi besked om feil eller kom med ideer](#gi-besked-om-feil-eller-kom-med-ideer)
+  * [Gi oss en stjerne](#gi-oss-en-stjerne)
+  * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
+- [Dataene i bruk](#dataene-i-bruk)
 - [Status](#status)
+- [Forvaltere](#forvaltere)
 - [Lisens](#lisens)
 
 <!-- tocstop -->
@@ -68,6 +74,7 @@ maskinlesbare definisjoner av relevante avgifter.
   nettselskaper (med varierende tariffer)
 - [ ] Formalisere skjema for utveksling av tariffer
 - [ ] Publisere fil-sett for dataene
+- [ ] Publisere tidsserier (prissignal) basert på tariffene
 - [ ] Samle tariffer for husholdninger for alle nettområder
 - [ ] Overvåke nettselskapenes sider for å varsle ved endring
 - [ ] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
@@ -145,14 +152,38 @@ Det er
 
 ## Bidra
 
-Vi trenger hjelp, men er foreløpig i startgropa! Enn så lenge kan du melde
-interesse ved å
-[følge dette prosjektet på GitHub](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/managing-subscriptions-for-activity-on-github/managing-your-subscriptions)
-slik at du for eksempel får beskjed når vi oppgretter issues.
+Vi trenger all den hjelp vi kan få!
 
-Senere vil bidrag være svært velkomne som issues og pull-requests her på GitHub.
-Vi vurderer også skjema-innsending via en eller annen tjeneste. Vi håper på
-bidrag fra privatpersoner og selskaper som har nytte av dataene.
+### Samle data
+
+Status-lista under viser at det er mange nettselskaper igjen å samle data for!
+Velg et nettselskap og finn fram nettleien deres. Vi har ikke formalisert
+formatet på data, men du kan se på filene i mappen `tariffer` for å få en
+følelse av formatet. Husk at alle priser skal være uten avgifter.
+
+Primært ønsker vi at bidrag gjøres gjennom pull-requests. Men du kan også åpne
+et issue og paste data i yaml-format som en del av beskrivelsen.
+
+### Gi besked om feil eller kom med ideer
+
+Dersom du ser feil i dataene, status eller annet - åpne et issue her på GitHub!
+Det samme gjelder om du har gode ideer om hvordan vi kan samle inn og/eller
+strukturere data.
+
+### Gi oss en stjerne
+
+Det holder oss motivert!
+
+### Si at du bruker våre data
+
+Se under.
+
+## Dataene i bruk
+
+Dette avsnittet viser et utvalg av hvor dataene er i bruk.
+
+* Bli den første på denne lista! Åpne en pull request eller git beskjed i et
+  issue.
 
 ## Status
 
@@ -228,6 +259,12 @@ Den følgende listen viser status på innsamlede data.
 - [ ] Vissi AS - 7080004045743
 
 <!-- statusstop -->
+
+## Forvaltere
+
+Forvalterne av dette prosjektet er medlemmene av
+[github.com/kraftsystemet](https://github.com/kraftsystemet). Alt vi gjør på
+dette prosjektet er som privatpersoner.
 
 ## Lisens
 
