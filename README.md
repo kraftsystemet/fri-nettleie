@@ -194,7 +194,7 @@ Den følgende listen viser status på innsamlede data.
 - [ ] Lyse Produksjon AS Nett - 7080003307231
 - [ ] Lysna AS - 7080010013088
 - [ ] Meløy Nett AS - 7080003968395
-- [ ] Midtnett AS - 7080003869012
+- [x] Midtnett AS - 7080003869012 - Sist oppdatert `2024-11-03`
 - [ ] Modalen Kraftlag Nett - 7080003816184
 - [ ] Nettselskapet AS - 7080004064553
 - [ ] Noranett AS - 7080003811318

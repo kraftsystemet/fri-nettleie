@@ -1,0 +1,47 @@
+---
+netteier: Midtnett AS
+gln: "7080003869012"
+sist_oppdatert: 2024-11-03
+kilder:
+  - https://www.midtnett.no/nettleie
+  - https://www.midtnett.no/media/2919/nettleiepriser-fra-1-april-2024.pdf
+tariffer:
+  - id: HN22
+    energi:
+      timer:
+        - fra: '00:00'
+          til: '06:00'
+          pris: 26
+        - fra: '06:00'
+          til: '22:00'
+          pris: 31
+        - fra: '22:00'
+          til: '00:00'
+          pris: 26
+    kapasitet:
+      - fra: 0
+        til: 5
+        pris: 220
+      - fra: 5
+        til: 10
+        pris: 330
+      - fra: 10
+        til: 15
+        pris: 500
+      - fra: 15
+        til: 20
+        pris: 750
+      - fra: 20
+        til: 25
+        pris: 1000
+      - fra: 25
+        til: 50
+        pris: 1397
+      - fra: 50
+        til: 75
+        pris: 2096
+      - fra: 75
+        til: 100
+        pris: 2600
+      - fra: 100
+        pris: 3000
