@@ -118,8 +118,12 @@ forskjellige priser i løpet av døgnet,
 [brukstidstillegg](https://www.griug.no/om-nettleie-og-priser/priser/nettleiepriser-2024/) eller
 [forskjell mellom hverdag og helg/helligdager](https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/).
 
-For fastleddet finnes det også flere modeller samt at noen oppgir priser per år
-mens andre per måned.
+For fastleddet finnes det også flere modeller. For eksempel at fastledd regnes
+ut
+[fem høyeste effektene, løpende siste 12 mnd](https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/)
+til forskjell fra den mer vanlige
+[tre timene i måneden med høyest forbruk](https://norgesnett.no/kunde/ny-nettleie/).
+I tilleg er det noen som oppgir priser per år mens andre per måned.
 
 
 ### Flere tariffer per netteier
