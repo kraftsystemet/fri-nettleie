@@ -299,3 +299,4 @@ Vi bruker denne lisensen for å gi deg som bruker vide rettigheter til å bruke 
 Data i mappen `referanse-data` er lastet fra andre kilder og brukes for status-rapportering.
 
 * `esett` - Data fra [eSett](https://opendata.esett.com/) lisensiert med [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* `elhub` - Data fra [Elhub](https://api.elhub.no) med uspesifisert lisens
