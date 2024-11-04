@@ -37,11 +37,16 @@ Nettleie er en del av [strømregningen](https://snl.no/str%C3%B8mregning) som g�
 til det lokale nettselskapet.
 [Nettleie-tariffer skal være lett tilgjengelig for nettkundene](https://lovdata.no/forskrift/1999-03-11-302/§13-5),
 men praksis i dag er at den distribueres av nettselskaper på mange ulike måter
-og formater. Selv om det finnes gode
-[initiativer](https://elhub.no/elhub-planlegger-a-tilby-en-felles-losning-for-distribusjon-av-nettariffer/)
-og [standarder](https://github.com/3lbits/API-nettleie-for-styring) for deling
-av nettleie finnes det ikke noen åpen, gratis oversikt over nettleie på tvers av
-alle nettselskaper i Norge.
+og formater. Selv om det finnes
+[gode initiativer](https://elhub.no/elhub-planlegger-a-tilby-en-felles-losning-for-distribusjon-av-nettariffer/),
+[statistikk](https://api.nve.no/doc/nettleiestatistikk/),
+[datasett](https://biapi.nve.no/nettleietariffer/swagger/index.html),
+[kommersielle](https://docs.hark.eco/docs/developers/delivery-charge-api/)
+[løsninger](https://stromradar.no/zohmapi/) og
+[standarder for deling av nettleie](https://github.com/3lbits/API-nettleie-for-styring)
+finnes det ikke noen åpen, gratis oversikt over nettleie på tvers av alle
+nettselskaper i Norge som er oppdatert, uten feil og som inneholder både tariffmodeller og
+prissignal.
 
 Dette prosjektet bruker kraften av en nettdugnad for å samle og systematisere
 nettleie-priser for hele landet. De innsamlede dataene
@@ -67,16 +72,18 @@ Tariff-dataene inkluderer:
 Selve tariff-dataene inkluderer ikke avgifter, men prosjektet inkluderer
 maskinlesbare definisjoner av relevante avgifter.
 
+Vi samler inn data per netteier og gjør tilgjengelig data per nettavregningsområde.
+
 ## Mål
 
 - [x] Samle strukturdata for å identifisere alle netteier og nettområder
-- [ ] Samle tariffer for private husholdninger på yaml format for et utvalg
-  nettselskaper (med varierende tariffer)
+- [ ] Samle tariffer for private husholdninger og hytter/fritidseiendom på yaml
+  format for et utvalg nettselskaper (med varierende tariffer)
 - [ ] Formalisere skjema for utveksling av tariffer
+- [ ] Overvåke nettselskapenes sider for å varsle ved endring
 - [ ] Publisere fil-sett for dataene
 - [ ] Publisere tidsserier (prissignal) basert på tariffene
-- [ ] Samle tariffer for husholdninger for alle nettområder
-- [ ] Overvåke nettselskapenes sider for å varsle ved endring
+- [ ] Samle tariffer for husholdninger og hytter/fritidshus for alle nettområder
 - [ ] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
 
 ## Anti-mål
@@ -101,11 +108,19 @@ Vi jobber med verktøy som kan brukes ved manuell innsamling som hostes på
 
 ## Utfordringer
 
+Ved innsamling og struktuering av data er det flere utfordringer.
+
 ### Ulike modeller
 
 Det eksisterer flere ulike modeller for nettleie. Det kan for eksempel være
-forskjellige priser i løpet av døgnet eller mellom sesonger og ulike modeller
-for å prise kapasitet.
+forskjellige priser i løpet av døgnet,
+[sesonger](https://fagne.no/kunde-og-nettleie/nettleie-priser-og-vilkar/priser-privatkunder/),
+[brukstidstillegg](https://www.griug.no/om-nettleie-og-priser/priser/nettleiepriser-2024/) eller
+[forskjell mellom hverdag og helg/helligdager](https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/).
+
+For fastleddet finnes det også flere modeller samt at noen oppgir priser per år
+mens andre per måned.
+
 
 ### Flere tariffer per netteier
 
