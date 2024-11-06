@@ -2,47 +2,29 @@
 netteier: Midtnett AS
 gln: "7080003869012"
 sist_oppdatert: 2024-11-03
-gyldig_fra: 2024-04-01
 kilder:
   - https://www.midtnett.no/nettleie
   - https://www.midtnett.no/media/2919/nettleiepriser-fra-1-april-2024.pdf
 tariffer:
-  - id: HN22
-    energi:
-      timer:
-        - fra: '00:00'
-          til: '06:00'
-          pris: 26
-        - fra: '06:00'
-          til: '22:00'
+  - id: hn22-privat
+    gyldig_fra: 2024-04-01
+    gyldig_til: null
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskler:
+        0: 220
+        5: 330
+        10: 500
+        15: 750
+        20: 1000
+        25: 1397
+        50: 2096
+        75: 2600
+        100: 3000
+    energiledd:
+      grunnpris: 26
+      unntak:
+        - name: Høylast
+          timer: 6-21
           pris: 31
-        - fra: '22:00'
-          til: '00:00'
-          pris: 26
-    kapasitet:
-      - fra: 0
-        til: 5
-        pris: 220
-      - fra: 5
-        til: 10
-        pris: 330
-      - fra: 10
-        til: 15
-        pris: 500
-      - fra: 15
-        til: 20
-        pris: 750
-      - fra: 20
-        til: 25
-        pris: 1000
-      - fra: 25
-        til: 50
-        pris: 1397
-      - fra: 50
-        til: 75
-        pris: 2096
-      - fra: 75
-        til: 100
-        pris: 2600
-      - fra: 100
-        pris: 3000

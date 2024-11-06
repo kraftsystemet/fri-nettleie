@@ -32,6 +32,10 @@ netteier: Eksempel AS
 gln: "7080123456789"
 # Når det sist ble samlet inn/sjekket at tariffene er riktige
 sist_oppdatert: 2024-11-03
+# Kilder er lenker/urler hvor tariffene finnes.
+# Dette er sider som vi ønsker å overvåker for endringer
+kilder:
+  - https://example.com/nettleige
 
 ### Tariffer
 
