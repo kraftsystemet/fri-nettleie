@@ -1,3 +1,5 @@
+SHELL=/bin/bash
+
 _PHONY: readme vet
 
 venv:

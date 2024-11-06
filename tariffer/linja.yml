@@ -26,7 +26,7 @@ tariffer:
     energiledd:
       grunnpris: 20.424
       unntak:
-        - name: Høylast
+        - navn: Høylast
           timer: 6-21
           pris: 27.232
   - id: sør-privat
@@ -50,6 +50,6 @@ tariffer:
     energiledd:
       grunnpris: 15.384
       unntak:
-        - name: Høylast
+        - navn: Høylast
           timer: 6-21
           pris: 22.384

@@ -26,6 +26,6 @@ tariffer:
     energiledd:
       grunnpris: 26
       unntak:
-        - name: Høylast
+        - navn: Høylast
           timer: 6-21
           pris: 31

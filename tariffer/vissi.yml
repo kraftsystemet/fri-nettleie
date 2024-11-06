@@ -30,6 +30,6 @@ tariffer:
       # men den oppgitte prisen kan umulig være med forbruksavgift.
       grunnpris: 10.4
       unntak:
-        - name: Høylast
+        - navn: Høylast
           timer: 6-21
           pris: 20.8
