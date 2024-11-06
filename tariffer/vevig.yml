@@ -1,0 +1,39 @@
+---
+netteier: Vevig AS
+gln: "7080004045743"
+sist_oppdatert: 2024-11-06
+kilder:
+  - https://vevig.no/nettleie-og-vilkar/nettleie-privat/
+tariffer:
+  - id: 2024-privat
+    gyldig_fra: 2024-06-01
+    gyldig_til: null
+    kundegruppe: privat
+    # TODO årsforbruk < 100.000 kWh
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: false
+      terskler:
+        0: 168
+        2: 218
+        5: 303
+        10: 389
+        15: 474
+        20: 558
+        25: 643
+        30: 813
+        40: 982
+        50: 1406
+        75: 1803
+        100: 2253
+        125: 2678
+        150: 3526
+        200: 5222
+        300: 6917
+        400: 17092
+    energiledd:
+      grunnpris: 13.4
+      unntak:
+        - name: Høylast
+          timer: 6-21
+          pris: 21.4

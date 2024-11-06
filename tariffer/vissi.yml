@@ -12,6 +12,7 @@ tariffer:
     # TODO årsforbruk < 100.000 kWh
     fastledd:
       metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true # TODO usikker på om dette er riktig
       terskler:
         0: 200
         5: 336

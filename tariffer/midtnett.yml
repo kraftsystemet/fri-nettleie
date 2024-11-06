@@ -12,6 +12,7 @@ tariffer:
     kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
       terskler:
         0: 220
         5: 330

@@ -11,6 +11,7 @@ tariffer:
     kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true # TDOD usikker på om dette er riktig
       terskler:
         0: 220.0
         2: 274.4
@@ -34,6 +35,7 @@ tariffer:
     kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
       terskler:
         0: 222.4
         2: 308.8
