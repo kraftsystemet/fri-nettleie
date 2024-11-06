@@ -77,6 +77,7 @@ Vi samler inn data per netteier og gjør tilgjengelig data per nettavregningsomr
 ## Mål
 
 - [x] Samle strukturdata for å identifisere alle netteier og nettområder
+- [x] Definere format for innsamling
 - [ ] Samle tariffer for private husholdninger og hytter/fritidseiendom på yaml
   format for et utvalg nettselskaper (med varierende tariffer)
 - [ ] Formalisere skjema for utveksling av tariffer
