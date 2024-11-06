@@ -33,7 +33,7 @@ tariffer:
     gyldig_til: null
     kundegruppe: privat
     fastledd:
-    metode: TRE_DØGNMAX_MND
+      metode: TRE_DØGNMAX_MND
       terskler:
         0: 222.4
         2: 308.8

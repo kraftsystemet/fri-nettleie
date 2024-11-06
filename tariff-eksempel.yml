@@ -58,7 +58,7 @@ tariffer:
     # Fra er påkrevd. Til-dato er eksklusiv.
     # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.
     gyldig_fra: 2024-01-01
-    gyldig_til: ""
+    gyldig_til: null
     # Nettavregningsområde brukes dersom en netteier har ulike tariffer for ulike nettavregningsområder.
     # Skal være en liste. Dersom mga er utelatt vil alle nettavregningsområder for netteieren brukes.
     mga:

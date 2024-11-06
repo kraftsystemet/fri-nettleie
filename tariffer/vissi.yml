@@ -1,0 +1,34 @@
+---
+netteier: Vissi AS
+gln: "7080004045743"
+sist_oppdatert: 2024-11-06
+kilder:
+  - https://www.vissi.no/priser-og-vilkar/nettleie-privat/
+tariffer:
+  - id: 2024-privat
+    gyldig_fra: 2024-01-01
+    gyldig_til: null
+    kundegruppe: privat
+    # TODO årsforbruk < 100.000 kWh
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskler:
+        0: 200
+        5: 336
+        10: 472
+        15: 608
+        20: 744
+        25: 1216
+        50: 1636
+        75: 2016
+        100: 2416
+        150: 2736
+        200: 3136
+    energiledd:
+      # TODO veldig usikker på disse prisene da det står "inklusive alle avgifter",
+      # men den oppgitte prisen kan umulig være med forbruksavgift.
+      grunnpris: 10.4
+      unntak:
+        - name: Høylast
+          timer: 6-21
+          pris: 20.8
