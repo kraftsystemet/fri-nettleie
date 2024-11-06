@@ -5,6 +5,7 @@ import (
 )
 
 // Specify tariff format
+// https://cuelang.org/docs/concept/how-cue-enables-data-validation/
 // https://cuelang.org/docs/concept/how-cue-works-with-yaml/
 
 #Tariff: {
