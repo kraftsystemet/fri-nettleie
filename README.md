@@ -278,7 +278,7 @@ Den følgende listen viser status på innsamlede data.
 - [ ] Vest-Telemark Kraftlag AS Nett - 7080005051927
 - [ ] Vestall AS - 7080005051897
 - [ ] Vestmar Nett AS - 7080005054928
-- [ ] Vevig AS - 7080003807946
+- [x] Vevig AS - 7080003807946 - Sist oppdatert `2024-11-06`
 - [x] Vissi AS - 7080004045743 - Sist oppdatert `2024-11-06`
 
 <!-- statusstop -->
