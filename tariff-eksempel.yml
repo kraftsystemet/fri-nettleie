@@ -6,21 +6,21 @@
 # Denne filen viser et eksempel for en innsamlet tariff.
 #
 # Målet for formatet er å lage et format som gjør MANUELL INNSAMLING av tariffer enkelt,
-# og er ikke nødvendig vis et format som er best egnet for deling av dataene.
+# og er ikke nødvendigvis et format som er godt egnet for deling av dataene.
 # For eksempel kan vi standardisere på ulike, enumererte, modeller for
-# fastsettelse av fastledd-terskel, mens i et format for distribusjon kan selve
+# fastsettelse av fastledd-nivå, mens i et format for distribusjon kan selve
 # modellen beskrives.
 #
-# Videre er målet at de "vanligste" modellene skal kunne yttrykkes ganske kompakt, men
+# Videre er målet at de "vanligste" modellene skal kunne uttrykkes ganske kompakt, og
 # det må være mulig å uttrykke alle EKSISTERENDE modeller. Dersom det dukker opp
-# nye modeller kan vi tilpasse formatet. Vi anser det som IKKE viktig at
+# nye modeller kan vi tilpasse formatet. Vi anser det IKKE som viktig at
 # innsamlingsformatet er stabilt.
 #
 # Ting å huske på
 #  * alle priser uten avgifter
 #  * tall oppgis med punktum som desimalskilletegn
 #  * vi bruker yaml bl.a. fordi det støtter kommentarer - bruk de dersom det er naturlig
-
+#  * Å utelate et element ansees for å være likt som å sette det som tom streng `""`, `null` eller `~`.
 ## Start
 
 ### Informasjon om netteier filen gjelder for
@@ -35,9 +35,10 @@ sist_oppdatert: 2024-11-03
 
 ### Tariffer
 
-# Vi har en liste over tariffer av flere grunner
-#  - for å støtte forskjellige gyldighetsperioder (typisk år) og historikk
-#  - for å støtte netteiere som har ulike tariffer for ulike deler av sitt nett (f.eks. Linja og Noranett)
+# Vi har en liste over tariffer per netteier for å støtte
+#  - forskjellige gyldighetsperioder (typisk år) og historikk
+#  - netteiere som har ulike tariffer for ulike deler av sitt nett (f.eks. Linja og Noranett)
+#  - tariffer for ulike kundegrupper
 
 tariffer:
   - # ID er påkrevd og lar oss unikt identifisere en tariff for en netteier
@@ -46,32 +47,39 @@ tariffer:
     # Innsamler står fritt til å gi en id, men her vil det typisk brukes år.
     # Format: ^[0-9a-z-]+$
     id: 2024-nord
-    # Valgfri kommentar om tariffen. Bruk er uspesifisert og ikke påkrevd.
+    # Valgfri kommentar om tariffen. Bruk er uspesifisert og ikke påkrevd p.t.
     kommentar: >
       Gjelder nettområder fra tidligere ABC AS nett.
-    # Gyldig fra og til for tariffen.
-    # Fra er påkrevd. Dersom det er gjeldende tariff uten sluttdato
-    # kan gydlig_tid utelates, settes tom, som `null` eller `~`.
+    # Gyldig fra- og til-dato for tariffen.
+    # Fra er påkrevd. Til-dato er eksklusiv.
+    # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.
     gyldig_fra: 2024-01-01
     gyldig_til: ""
     # Nettavregningsområde brukes dersom en netteier har ulike tariffer for ulike nettavregningsområder.
-    # Skal være en liste. Dersom mga er tom, utelatt eller satt til `null`/`~`
-    # vil alle nettavregningsområder for netteieren brukes.
+    # Skal være en liste. Dersom mga er utelatt vil alle nettavregningsområder for netteieren brukes.
     mga:
       - 50Y12315125158JK
       - 50Y12315125158JS
+    # Kundegruppe definerer hvem tariffen gjelder for.
+    # Husk at vi kun samler inn for husholdinger og hytter/fritidshus.
+    # Mulige verdier
+    #  - husholdning
+    #  - hytter
+    #  - privat - gjelder både husholdning og hytter
+    kundegruppe: privat
 
     # Fastledd skal differensieres på grunnlag av kundens etterspørsel etter effekt.
     fastledd:
       # Metode for fastettelse av kundens etterspørsel etter effekt.
-      # Her bruker vi forhåndsdefinerte metoder for å forenkle spesifisering.
+      # Her bruker vi forhåndsdefinerte metoder for å forenkle innsamling.
       # Dersom vi oppdager en ny metode må vi inkludere den i lista under.
       #
       # Skal være en av:
       #  - TRE_DØGNMAX_MND - etter den vanligste metoden for fastsettelse basert på kundens
       #                      tre høyeste timer i forskellige døgn den foregående måneden
       #  - FEM_VEKTET_ÅR   - Gjelder https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/
-      #  - OV              - Gjelder https://alut.no/nettleie/ . Terskler oppgis som sikringsstørrelse i ampere
+      #  - OV_TREFASE      - Gjelder https://alut.no/nettleie/ . Terskler oppgis som sikringsstørrelse i ampere
+      #
       metode: TRE_DØGNMAX_MND
       # Terskler for fastledd.
       # Vi oppgir kun terskel (nedre grense) og pris i kroner.
@@ -89,14 +97,16 @@ tariffer:
       grunnpris: 10.5
 
       # Dersom prisen varierer i forskjellige perioder, kan dette oppgis som unntak.
-      # Brukes til å oppgi f.eks. brukstidsstillegget til Vang Energiverk https://www.vangenergi.no/nettleige/forbrukarkundar/
-      # eller høylastpris https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/,
-      # sesongvariasjoner eller lignende.
+      # Brukes til å oppgi f.eks. brukstidsstillegg, høylastpris, sesongvariasjoner eller lignende.
+      # Eksempler:
+      #  - https://www.vangenergi.no/nettleige/forbrukarkundar/
+      #  - https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/,
       # Unntakene navgis for å forenkle kontroll av innsamling.
       unntak:
         - navn: Brukstidsstillegg
+
           # Månedene unntaket gjelder for
-          # Dersom det utelates, er tom eller er spesifisert som `null`/`~` gjelder alle måneder.
+          # Dersom det utelates gjelder alle måneder.
           måneder:
             - januar
             - februar
@@ -106,7 +116,8 @@ tariffer:
             - november
             - desember
           # Dager er en liste over dager eller dag-typer som unntaket gjelder for.
-          # Dersom flere elementer spesifiseres tolkes det som "ELLER", f.eks.: mandag eller helg
+          # Dersom flere elementer spesifiseres tolkes det som "ELLER", f.eks.: mandag ELLER helg
+          # Dersom det utelates gjelder alle dager.
           #  - mandag
           #  - tirsdag
           #  - onsdag
@@ -121,20 +132,23 @@ tariffer:
           #  - virkedag - alle dager som ikke er fridag
           dager:
             - fredag
-          # Timene er hvilke timer på døgnet som unntaket gjelder for.
-          # Dersom det utelates, er tom eller er spesifisert som `null`/`~` gjelder alle timer.
+
+          # Timer angir hvilke timer på døgnet som unntaket gjelder for.
+          # Dersom det utelates gjelder alle timer.
           # Timene spesifiseres som tall mellom 0 og 23.
           # Ved endring sommer-vintertid antar vi at den siste timen i døgnet forsatt er 23.
+          # Det vil si:
           #  - ved overgang til sommertid tenker vi at vi mister time nr 2
           #  - ved overgang til vintertid tenker vi at vi har 2 timer som er time nr 2.
           # Innsamler kan enten oppgi et spenn eller en liste over timer eller spenn.
-          # OBS: Her er det for å trå feil!
+          # OBS: Her er det fort å trå feil!
           # Dersom man oppgir et spenn er den øvre grensen inkludert. Dvs at 16-21 gjelder fra 16:00 til 21:59:59.
-          # En annen måte å si det på er: [16,22] = [16:00, 22:00)
+          # En annen måte å si det på er: [16,22] = [16:00:00, 22:00:00)
           timer: 16-21
 
           # Et unntak kan ENTEN spesifisere et tillegg eller en erstatningspris.
-          # Et tillegg legges til grunnprisen. Pris erstatter grunnprisen.
+          # Et tillegg legges til grunnprisen.
+          # Pris erstatter grunnprisen.
           # Oppgis i øre/kWh.
           tillegg: 11
           pris: null # kan også utelates
