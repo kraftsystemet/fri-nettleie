@@ -20,7 +20,7 @@
 #  * alle priser uten avgifter
 #  * tall oppgis med punktum som desimalskilletegn
 #  * vi bruker yaml bl.a. fordi det støtter kommentarer - bruk de dersom det er naturlig
-#  * Å utelate et element ansees for å være likt som å sette det som tom streng `""`, `null` eller `~`.
+#  * Å utelate et element ansees for å være likt som å sette det som `null`.
 ## Start
 
 ### Informasjon om netteier filen gjelder for
