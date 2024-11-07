@@ -66,22 +66,36 @@ på en måte som hjelper nettet samtidig som de sparer penger.
 
 Tariff-dataene inkluderer:
 
-* kapasitet-ledd eller effekt-ledd
-* energi-ledd
+* fastledd
+* energiledd
 
-Selve tariff-dataene inkluderer ikke avgifter, men prosjektet inkluderer
+Selve tariff-dataene inkluderer ikke avgifter, men prosjektet vil inkludere
 maskinlesbare definisjoner av relevante avgifter.
 
 Vi samler inn data per netteier og gjør tilgjengelig data per nettavregningsområde.
+
+### Prissignal
+
+Tariff-dataene inneholder en _beskrivelse_ av tariffen. I tillegg er det et mål
+å genererer pris-signal basert på de innsamlede dataene.
+
+Et skript som viser hvordan dette kan gjøres konseptuelt finnes i
+[skript/prissignal.py](./skript/prissignal.py). Brukes slik:
+
+```bash
+./skript/prissignal.py --fra 2024-10-26 --til 2024-10-28 --tariff tariffer/midtnett.yml
+```
 
 ## Mål
 
 - [x] Samle strukturdata for å identifisere alle netteier og nettområder
 - [x] Definere format for innsamling
+- [x] Vise at det kan genereres prissignal basert på formatet
 - [ ] Samle tariffer for private husholdninger og hytter/fritidseiendom på yaml
   format for et utvalg nettselskaper (med varierende tariffer)
+- [ ] Maskinlesbare filer for avgifter
 - [ ] Overvåke nettselskapenes sider for å varsle ved endring
-- [ ] Publisere tidsserier (prissignal) basert på de innsamlede tariffene
+- [ ] Publisere prissignal basert på de innsamlede tariffene
 - [ ] Sammenstille og publisere informasjon per netteier på et "menneskelig" format på kraftsystemet.no/fri-nettleie
 - [ ] Samle tariffer for husholdninger og hytter/fritidshus for alle nettområder
 - [ ] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
@@ -135,6 +149,8 @@ dersom det har vært sammenslåing av konsesjonsområder.
 
 Ved innsamling av tariffer er det utfordrende når noen netteiere gjør
 tilgjengelig sine priser med avgifter, mens andre ikke inkluderer avgifter.
+Avgiftsnivået er forskjellig avhengig av hvor i landet en netteier er
+konsesjonær - det er fort å gjøre feil.
 
 ## Avgifter
 
