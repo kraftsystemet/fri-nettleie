@@ -80,10 +80,9 @@ Vi samler inn data per netteier og gjør tilgjengelig data per nettavregningsomr
 - [x] Definere format for innsamling
 - [ ] Samle tariffer for private husholdninger og hytter/fritidseiendom på yaml
   format for et utvalg nettselskaper (med varierende tariffer)
-- [ ] Formalisere skjema for utveksling av tariffer
 - [ ] Overvåke nettselskapenes sider for å varsle ved endring
-- [ ] Publisere fil-sett for dataene
-- [ ] Publisere tidsserier (prissignal) basert på tariffene
+- [ ] Publisere tidsserier (prissignal) basert på de innsamlede tariffene
+- [ ] Sammenstille og publisere informasjon per netteier på et "menneskelig" format på kraftsystemet.no/fri-nettleie
 - [ ] Samle tariffer for husholdninger og hytter/fritidshus for alle nettområder
 - [ ] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
 
@@ -180,12 +179,14 @@ Vi trenger all den hjelp vi kan få!
 ### Samle data
 
 Status-lista under viser at det er mange nettselskaper igjen å samle data for!
-Velg et nettselskap og finn fram nettleien deres. Vi har ikke formalisert
-formatet på data, men du kan se på filene i mappen `tariffer` for å få en
-følelse av formatet. Husk at alle priser skal være uten avgifter.
+Velg et nettselskap og finn fram nettleien deres. Formatet er formalisert i
+filen [tariff-eksempel.yml](./tariff-eksempel.yml) og kan valideres med
+[cue](https://cuelang.org/) basert på [tariff.cue](./tariff.cue). Du bør se på
+noen av de allerede innsamlede tariffene for å få en følelse av formatet.
 
 Primært ønsker vi at bidrag gjøres gjennom pull-requests. Men du kan også åpne
-et issue og paste data i yaml-format som en del av beskrivelsen.
+et issue og lime inn data i yaml-format som en del av beskrivelsen. Alle bidrag
+teller!
 
 ### Gi besked om feil eller kom med ideer
 
