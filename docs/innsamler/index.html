@@ -79,7 +79,7 @@
             </div>
             <div class="input-group">
                 <label for="kundegruppe">Kundegruppe:</label>
-                <select id="kundegruppe" x-model="tariff.kundegruppe" placeholder="Enter kundegruppe">
+                <select id="kundegruppe" x-model="tariff.kundegruppe" default="privat" placeholder="Enter kundegruppe">
                     <option value="privat">privat</option>
                     <option value="hytter">hytter</option>
                     <option value="husholdning">husholdning</option>
@@ -104,7 +104,7 @@
                     <label for="terskel">Terskel:</label>
                     <input type="number" id="terskel" x-model.number="terskel.terskel" placeholder="Enter terskel">
                     <label for="pris">Pris:</label>
-                    <input type="number" id="pris" x-model="terskel.pris" placeholder="Enter pris">
+                    <input type="number" id="pris" x-model.number="terskel.pris" placeholder="Enter pris">
                     <label for="pris">Pris MVA:</label>
                     <input type="number" id="pris" x-bind:value="terskel.pris*1.25" x-on:change="terskel.pris = $event.target.value * 0.8" placeholder="Enter pris">
                     <button @click="removeTerskel(index,jndex)">Fjern</button>
@@ -115,7 +115,7 @@
             <div class="input-group">
                 <div class="input-group">
                     <label for="pris">Pris (øre/kWh):</label>
-                    <input type="number" id="pris" x-model="tariff.energiledd.pris" placeholder="Pris">
+                    <input type="number" id="pris" x-model.number="tariff.energiledd.pris" placeholder="Pris">
                     <label for="pris-mva">Pris (MVA):</label>
                     <input type="number" id="pris-mva" x-bind:value="tariff.energiledd.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8" placeholder="Pris (MVA)">
                     <label for="pris-mva">Pris (enova):</label>
@@ -197,6 +197,7 @@
                     kilder: [],
                     tariffer: [{
                         id: '',
+                        kundegruppe: 'privat',
                         fastledd: {
                             metode: 'TRE_DØGNMAX_MND',
                             terskler: [
@@ -221,6 +222,9 @@
                 encodedData: '',
                 output: '',
                 addKilde() {
+                    if (!this.data.kilder) {
+                        this.data.kilder = [];
+                    }
                     this.data.kilder.push('');
                 },
                 removeKilde(index) {
@@ -242,7 +246,15 @@
                     this.data.tariffer[index].energiledd.unntak.push({ navn: '', timer: '', dager: [], måneder: [], pris: 0 });
                 },
                 toYaml() {
-                    this.output = YAML.stringify(this.data, 5, 2);
+                    const clone = JSON.parse(JSON.stringify(this.data));
+                    this.output = YAML.stringify(this.removeEmpty(clone), 5, 2);
+                },
+                removeEmpty(obj) {
+                    Object.keys(obj).forEach((key) => {
+                        (obj[key] && typeof obj[key] === 'object') && (obj[key]=this.removeEmpty(obj[key]));
+                        (obj[key] === '' || obj[key] === null || obj[key] === undefined) && delete obj[key];
+                    });
+                    return Object.keys(obj).length > 0 ? obj : undefined;
                 },
                 copyToClipboard() {
                     navigator.clipboard.writeText(this.output);
@@ -254,9 +266,7 @@
                 getDataFromUrl() {
                     const queryString = window.location.search;
                     const params = new URLSearchParams(queryString);
-                    console.log(params);
                     const dataParam = params.get('data');
-                    console.log(dataParam);
                     if (!dataParam) {
                         return;
                     }
