@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fri-nettleie - innsamler</title>
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <script src=" https://cdn.jsdelivr.net/npm/yamljs@0.3.0/dist/yaml.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         .input-group, button { margin-bottom: 10px; }
@@ -27,7 +27,7 @@
         }
     </style>
 </head>
-<body x-data="app()" x-init="$watch('data', () => updateURL(), { deep: true })">
+<body x-data="app()" x-init="$watch('data', () => {updateURL(); toYaml();}, { deep: true })">
 <div class="container">
     <div class="column">
     <h1>innsamler - fri-nettleie</h1>
@@ -106,7 +106,7 @@
                     <label for="pris">Pris:</label>
                     <input type="number" id="pris" x-model="terskel.pris" placeholder="Enter pris">
                     <label for="pris">Pris MVA:</label>
-                    <input type="number" id="pris" x-bind:value="terskel.pris*1.25" x-on:change="tariff.fastledd[0].pris = $event.target.value * 0.8" placeholder="Enter pris">
+                    <input type="number" id="pris" x-bind:value="terskel.pris*1.25" x-on:change="terskel.pris = $event.target.value * 0.8" placeholder="Enter pris">
                     <button @click="removeTerskel(index,jndex)">Fjern</button>
                 </div>
             </template>
@@ -185,7 +185,6 @@
 </div>
 <div class="column">
     <h2>Output</h2>
-    <button @click="submit">Submit</button>
     <button @click="copyToClipboard">Kopier</button>
     <pre><texarea id="output" class="output" x-text="output" >Her kommer det noe Yaml</textarea></pre>
 </div>
@@ -217,6 +216,7 @@
 
                 init() {
                     this.getDataFromUrl();
+                    this.toYaml();
                 },
                 encodedData: '',
                 output: '',
@@ -241,7 +241,7 @@
                 addUnntak(index) {
                     this.data.tariffer[index].energiledd.unntak.push({ navn: '', timer: '', dager: [], måneder: [], pris: 0 });
                 },
-                submit() {
+                toYaml() {
                     this.output = YAML.stringify(this.data, 5, 2);
                 },
                 copyToClipboard() {
