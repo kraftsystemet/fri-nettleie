@@ -1,151 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YAML Input Form</title>
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
-    <script src=" https://cdn.jsdelivr.net/npm/yamljs@0.3.0/dist/yaml.min.js" defer></script>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        .input-group, button { margin-bottom: 10px; }
-    </style>
+    <title>Slipp nettleien fri</title>
 </head>
-<body x-data="app()">
-
-    <h1>YAML Input Form</h1>
-
-    <div class="input-group">
-        <label for="id">ID:</label>
-        <input type="text" id="id" x-model="data.id" placeholder="Enter ID">
-    </div>
-
-    <h2>Avgifter</h2>
-
-    <p>Marker hvilke avgifter som er inkludert i de oppgitte prisene</p>
-
-    <div class="input-group">
-        <label for="enova">Enova:</label>
-        <input type="checkbox" id="enova" x-model="data.avgifter.enova">
-        <label for="forbruk">Forbruk:</label>
-        <input type="checkbox" id="forbruk" x-model="data.avgifter.forbruk">
-        <label for="merverdi">Merverdi:</label>
-        <input type="checkbox" id="merverdi" x-model="data.avgifter.merverdi">
-    </div>
-
-    <h2>Kapasitet - kr</h2>
-
-    <button @click="addKapas">Legg til en til</button>
-
-    <template x-for="(kapas, index) in data.kapasitet" :key="index">
-        <div class="input-group">
-            <label>Fra:</label>
-            <input type="number" x-model="kapas.fra" placeholder="From">
-            <label>Til:</label>
-            <input type="number" x-model="kapas.til" placeholder="To">
-            <label>Pris:</label>
-            <input type="number" x-model="kapas.pris" placeholder="Price">
-            <button @click="removeKapas(index)">Remove</button>
-        </div>
-    </template>
-
-    <h2>Energi - øre</h2>
-    <template x-for="(timer, index) in data.energi.timer" :key="index">
-        <div class="input-group">
-            <label>Fra time:</label>
-            <input type="number" x-model="timer.fra">
-            <label>Til time:</label>
-            <input type="number" x-model="timer.til">
-            <label>Pris:</label>
-            <input type="number" x-model="timer.pris" placeholder="Price">
-            <button @click="removeTimer(index)">Remove</button>
-        </div>
-    </template>
-    <button @click="addTimer">Add Energi Timer</button>
-
-    <button @click="submit">Submit</button>
-
-    <h2>Output</h2>
-    <pre x-text="output">Her kommer det noe Yaml</pre>
-
-    <script>
-        function app() {
-            return {
-                data: {
-                    id: '',
-                    avgifter: {
-                        enova: false,
-                        forbruk: false,
-                        merverdi: false
-                    },
-                    kapasitet: [{ fra: 0, til: 2, pris: 220.0 }],
-                    energi: {
-                        timer: [{ fra: 0, til: 6, pris: 27.232 }]
-                    }
-                },
-                output: '',
-                addKapas() {
-                    this.data.kapasitet.push({ fra: 0, til: 0, pris: 0 });
-                },
-                removeKapas(index) {
-                    this.data.kapasitet.splice(index, 1);
-                },
-                addTimer() {
-                    this.data.energi.timer.push({ fra: '00:00', til: '00:00', pris: 0 });
-                },
-                removeTimer(index) {
-                    this.data.energi.timer.splice(index, 1);
-                },
-                submit() {
-                    this.output = this.yamlify(this.data);
-                },
-                yamlify(data) {
-                    tariff = {
-                        id: data.id,
-                        energi: {}
-                    }
-
-                    if (data.kapasitet.length >  0){
-                        kapasitet = []
-                        for (let i = 0; i < data.kapasitet.length; i++) {
-                            k = data.kapasitet[i]
-                            kapasitet.push({
-                                fra: k.fra,
-                                til: k.til,
-                                pris: data.avgifter.merverdi ? k.pris * 0.8 : k.pris
-                            })
-                        }
-
-                        tariff.kapasitet = kapasitet
-                    }
-
-                    if (data.energi.timer.length >  0){
-                        timer = []
-                        for (let i = 0; i < data.energi.timer.length; i++) {
-                            e = data.energi.timer[i]
-                            pris = e.pris
-                            if (data.avgifter.merverdi) {
-                                pris = pris * 0.8
-                            }
-                            if (data.avgifter.enova) {
-                                pris = pris - 1
-                            }
-                            if (data.avgifter.forbruk) {
-                                pris = pris - 16.44 // øre
-                            }
-                            timer.push({
-                                fra: e.fra,
-                                til: e.til,
-                                pris: pris
-                            })
-                        }
-                        tariff.energi["timer"] = timer
-                    }
-
-                    return YAML.stringify({tariffer: [tariff]}, 10, 2);
-                }
-            };
-        }
-    </script>
+<body>
+    <h1>Slipp nettleien fri</h1>
+    <p></p>Se <a href="https://github.com/kraftsystemet/fri-nettleie">github.com/kraftsystemet/fri-nettleie</a></p>
+    <p>Er du med på dugnaden og ute etter noen verktøy? Se her:</p>
+    <ul>
+        <li><a href="./innsamler/">innsamler</a></li>
+    </ul>
 </body>
 </html>
