@@ -318,3 +318,4 @@ Data i mappen `referanse-data` er lastet fra andre kilder og brukes for status-r
 
 * `esett` - Data fra [eSett](https://opendata.esett.com/) lisensiert med [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * `elhub` - Data fra [Elhub](https://api.elhub.no) med uspesifisert lisens
+* `nve` - Data fra [NVE](https://biapi.nve.no/nettleietariffer/swagger/index.html) lisensiert med [NLOD](https://data.norge.no/nlod)

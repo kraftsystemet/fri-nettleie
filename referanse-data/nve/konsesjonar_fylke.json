@@ -1,0 +1,650 @@
+[
+  {
+    "organisasjonsnr": "925336637",
+    "konsesjonar": "ALUT AS",
+    "fylkeNr": "55",
+    "fylke": "Troms"
+  },
+  {
+    "organisasjonsnr": "925336637",
+    "konsesjonar": "ALUT AS",
+    "fylkeNr": "56",
+    "fylke": "Finnmark"
+  },
+  {
+    "organisasjonsnr": "979151950",
+    "konsesjonar": "ARVA AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "979151950",
+    "konsesjonar": "ARVA AS",
+    "fylkeNr": "55",
+    "fylke": "Troms"
+  },
+  {
+    "organisasjonsnr": "917743193",
+    "konsesjonar": "ASKER NETT AS",
+    "fylkeNr": "32",
+    "fylke": "Akershus"
+  },
+  {
+    "organisasjonsnr": "971058854",
+    "konsesjonar": "BARENTS NETT AS",
+    "fylkeNr": "56",
+    "fylke": "Finnmark"
+  },
+  {
+    "organisasjonsnr": "953181606",
+    "konsesjonar": "BINDAL KRAFTLAG SA",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "976944801",
+    "konsesjonar": "BKK AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "924527994",
+    "konsesjonar": "BREHEIM NETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "923934138",
+    "konsesjonar": "BØMLO KRAFTNETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "924862602",
+    "konsesjonar": "DE NETT AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "979379455",
+    "konsesjonar": "ELINETT AS",
+    "fylkeNr": "15",
+    "fylke": "Møre og Romsdal"
+  },
+  {
+    "organisasjonsnr": "986347801",
+    "konsesjonar": "ELMEA AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "979497482",
+    "konsesjonar": "ELVENETT AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "980489698",
+    "konsesjonar": "ELVIA AS",
+    "fylkeNr": "03",
+    "fylke": "Oslo"
+  },
+  {
+    "organisasjonsnr": "980489698",
+    "konsesjonar": "ELVIA AS",
+    "fylkeNr": "31",
+    "fylke": "Østfold"
+  },
+  {
+    "organisasjonsnr": "980489698",
+    "konsesjonar": "ELVIA AS",
+    "fylkeNr": "32",
+    "fylke": "Akershus"
+  },
+  {
+    "organisasjonsnr": "980489698",
+    "konsesjonar": "ELVIA AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "980489698",
+    "konsesjonar": "ELVIA AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "918312730",
+    "konsesjonar": "ENIDA AS",
+    "fylkeNr": "11",
+    "fylke": "Rogaland"
+  },
+  {
+    "organisasjonsnr": "918312730",
+    "konsesjonar": "ENIDA AS",
+    "fylkeNr": "42",
+    "fylke": "Agder"
+  },
+  {
+    "organisasjonsnr": "882783022",
+    "konsesjonar": "ETNA NETT AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "966731508",
+    "konsesjonar": "EVERKET AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "915635857",
+    "konsesjonar": "FAGNE AS",
+    "fylkeNr": "11",
+    "fylke": "Rogaland"
+  },
+  {
+    "organisasjonsnr": "915635857",
+    "konsesjonar": "FAGNE AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "987626844",
+    "konsesjonar": "FØIE AS",
+    "fylkeNr": "32",
+    "fylke": "Akershus"
+  },
+  {
+    "organisasjonsnr": "987626844",
+    "konsesjonar": "FØIE AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "925549738",
+    "konsesjonar": "FØRE AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "982974011",
+    "konsesjonar": "GLITRE NETT AS",
+    "fylkeNr": "03",
+    "fylke": "Oslo"
+  },
+  {
+    "organisasjonsnr": "982974011",
+    "konsesjonar": "GLITRE NETT AS",
+    "fylkeNr": "11",
+    "fylke": "Rogaland"
+  },
+  {
+    "organisasjonsnr": "982974011",
+    "konsesjonar": "GLITRE NETT AS",
+    "fylkeNr": "32",
+    "fylke": "Akershus"
+  },
+  {
+    "organisasjonsnr": "982974011",
+    "konsesjonar": "GLITRE NETT AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "982974011",
+    "konsesjonar": "GLITRE NETT AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "982974011",
+    "konsesjonar": "GLITRE NETT AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "982974011",
+    "konsesjonar": "GLITRE NETT AS",
+    "fylkeNr": "42",
+    "fylke": "Agder"
+  },
+  {
+    "organisasjonsnr": "982974011",
+    "konsesjonar": "GLITRE NETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "953681781",
+    "konsesjonar": "GRIUG AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "971589752",
+    "konsesjonar": "HALLINGDAL KRAFTNETT AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "924004150",
+    "konsesjonar": "HAVNETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "923050612",
+    "konsesjonar": "HEMSIL NETT AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "923488960",
+    "konsesjonar": "HØLAND OG SETSKOG ELVERK AS",
+    "fylkeNr": "32",
+    "fylke": "Akershus"
+  },
+  {
+    "organisasjonsnr": "919415096",
+    "konsesjonar": "INDRE HORDALAND KRAFTNETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "914385261",
+    "konsesjonar": "ISALTEN NETT AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "824914982",
+    "konsesjonar": "JÆREN EVERK AS",
+    "fylkeNr": "11",
+    "fylke": "Rogaland"
+  },
+  {
+    "organisasjonsnr": "977285712",
+    "konsesjonar": "KE NETT AS",
+    "fylkeNr": "11",
+    "fylke": "Rogaland"
+  },
+  {
+    "organisasjonsnr": "923436596",
+    "konsesjonar": "KLIVE AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "923789324",
+    "konsesjonar": "KVAM ENERGI NETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "923152601",
+    "konsesjonar": "KYSTNETT AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "979422679",
+    "konsesjonar": "LEDE AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "979422679",
+    "konsesjonar": "LEDE AS",
+    "fylkeNr": "39",
+    "fylke": "Vestfold"
+  },
+  {
+    "organisasjonsnr": "979422679",
+    "konsesjonar": "LEDE AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "924868759",
+    "konsesjonar": "LEGA NETT AS",
+    "fylkeNr": "56",
+    "fylke": "Finnmark"
+  },
+  {
+    "organisasjonsnr": "917424799",
+    "konsesjonar": "LINEA AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "912631532",
+    "konsesjonar": "LINJA AS",
+    "fylkeNr": "15",
+    "fylke": "Møre og Romsdal"
+  },
+  {
+    "organisasjonsnr": "912631532",
+    "konsesjonar": "LINJA AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "980038408",
+    "konsesjonar": "LNETT AS",
+    "fylkeNr": "11",
+    "fylke": "Rogaland"
+  },
+  {
+    "organisasjonsnr": "982897327",
+    "konsesjonar": "LUCERNA AS",
+    "fylkeNr": "56",
+    "fylke": "Finnmark"
+  },
+  {
+    "organisasjonsnr": "924934867",
+    "konsesjonar": "LUOSTEJOK NETT AS",
+    "fylkeNr": "56",
+    "fylke": "Finnmark"
+  },
+  {
+    "organisasjonsnr": "923833706",
+    "konsesjonar": "LYSNA AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "925668389",
+    "konsesjonar": "MELLOM AS",
+    "fylkeNr": "15",
+    "fylke": "Møre og Romsdal"
+  },
+  {
+    "organisasjonsnr": "919173122",
+    "konsesjonar": "MELØY NETT AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "917856222",
+    "konsesjonar": "MIDTNETT AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "877051412",
+    "konsesjonar": "MODALEN KRAFTLAG SA",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "923993355",
+    "konsesjonar": "NETTINORD AS",
+    "fylkeNr": "56",
+    "fylke": "Finnmark"
+  },
+  {
+    "organisasjonsnr": "921688679",
+    "konsesjonar": "NETTSELSKAPET AS",
+    "fylkeNr": "50",
+    "fylke": "Trøndelag"
+  },
+  {
+    "organisasjonsnr": "921680554",
+    "konsesjonar": "NORANETT ANDØY AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "921680554",
+    "konsesjonar": "NORANETT ANDØY AS",
+    "fylkeNr": "55",
+    "fylke": "Troms"
+  },
+  {
+    "organisasjonsnr": "985411131",
+    "konsesjonar": "NORANETT AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "985411131",
+    "konsesjonar": "NORANETT AS",
+    "fylkeNr": "55",
+    "fylke": "Troms"
+  },
+  {
+    "organisasjonsnr": "917983550",
+    "konsesjonar": "NORANETT HADSEL AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "980824586",
+    "konsesjonar": "NORDVEST NETT AS",
+    "fylkeNr": "15",
+    "fylke": "Møre og Romsdal"
+  },
+  {
+    "organisasjonsnr": "824701482",
+    "konsesjonar": "NOREFJELL NETT AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "980234088",
+    "konsesjonar": "NORGESNETT AS",
+    "fylkeNr": "31",
+    "fylke": "Østfold"
+  },
+  {
+    "organisasjonsnr": "980234088",
+    "konsesjonar": "NORGESNETT AS",
+    "fylkeNr": "32",
+    "fylke": "Akershus"
+  },
+  {
+    "organisasjonsnr": "980234088",
+    "konsesjonar": "NORGESNETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "968398083",
+    "konsesjonar": "RAKKESTAD ENERGI AS",
+    "fylkeNr": "31",
+    "fylke": "Østfold"
+  },
+  {
+    "organisasjonsnr": "925017809",
+    "konsesjonar": "RK NETT AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "925067911",
+    "konsesjonar": "ROLLAG NETT AS",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "926377841",
+    "konsesjonar": "ROMSDALSNETT AS",
+    "fylkeNr": "15",
+    "fylke": "Møre og Romsdal"
+  },
+  {
+    "organisasjonsnr": "919884452",
+    "konsesjonar": "RØROS E-VERK NETT AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "919884452",
+    "konsesjonar": "RØROS E-VERK NETT AS",
+    "fylkeNr": "50",
+    "fylke": "Trøndelag"
+  },
+  {
+    "organisasjonsnr": "923819177",
+    "konsesjonar": "S-NETT AS",
+    "fylkeNr": "15",
+    "fylke": "Møre og Romsdal"
+  },
+  {
+    "organisasjonsnr": "923819177",
+    "konsesjonar": "S-NETT AS",
+    "fylkeNr": "50",
+    "fylke": "Trøndelag"
+  },
+  {
+    "organisasjonsnr": "924940379",
+    "konsesjonar": "STANNUM AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "925354813",
+    "konsesjonar": "STRAUMEN NETT AS",
+    "fylkeNr": "15",
+    "fylke": "Møre og Romsdal"
+  },
+  {
+    "organisasjonsnr": "922694435",
+    "konsesjonar": "STRAUMNETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "924330678",
+    "konsesjonar": "SUNETT AS",
+    "fylkeNr": "15",
+    "fylke": "Møre og Romsdal"
+  },
+  {
+    "organisasjonsnr": "924619260",
+    "konsesjonar": "SYGNIR AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "924619260",
+    "konsesjonar": "SYGNIR AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "997712099",
+    "konsesjonar": "SØR AURDAL ENERGI AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "925803375",
+    "konsesjonar": "TELEMARK NETT AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "988807648",
+    "konsesjonar": "TENSIO TN AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "988807648",
+    "konsesjonar": "TENSIO TN AS",
+    "fylkeNr": "50",
+    "fylke": "Trøndelag"
+  },
+  {
+    "organisasjonsnr": "978631029",
+    "konsesjonar": "TENSIO TS AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "978631029",
+    "konsesjonar": "TENSIO TS AS",
+    "fylkeNr": "50",
+    "fylke": "Trøndelag"
+  },
+  {
+    "organisasjonsnr": "916763476",
+    "konsesjonar": "TINFOS AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "916763476",
+    "konsesjonar": "TINFOS AS",
+    "fylkeNr": "42",
+    "fylke": "Agder"
+  },
+  {
+    "organisasjonsnr": "916763476",
+    "konsesjonar": "TINFOS AS",
+    "fylkeNr": "56",
+    "fylke": "Finnmark"
+  },
+  {
+    "organisasjonsnr": "967670170",
+    "konsesjonar": "UVDAL KRAFTFORSYNING SA",
+    "fylkeNr": "33",
+    "fylke": "Buskerud"
+  },
+  {
+    "organisasjonsnr": "824368082",
+    "konsesjonar": "VANG ENERGIVERK AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "824368082",
+    "konsesjonar": "VANG ENERGIVERK AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  },
+  {
+    "organisasjonsnr": "968168134",
+    "konsesjonar": "VESTALL AS",
+    "fylkeNr": "18",
+    "fylke": "Nordland"
+  },
+  {
+    "organisasjonsnr": "968168134",
+    "konsesjonar": "VESTALL AS",
+    "fylkeNr": "55",
+    "fylke": "Troms"
+  },
+  {
+    "organisasjonsnr": "979399901",
+    "konsesjonar": "VESTMAR NETT AS",
+    "fylkeNr": "40",
+    "fylke": "Telemark "
+  },
+  {
+    "organisasjonsnr": "916319908",
+    "konsesjonar": "VEVIG AS",
+    "fylkeNr": "34",
+    "fylke": "Innlandet"
+  },
+  {
+    "organisasjonsnr": "921683057",
+    "konsesjonar": "VISSI AS",
+    "fylkeNr": "55",
+    "fylke": "Troms"
+  },
+  {
+    "organisasjonsnr": "921683057",
+    "konsesjonar": "VISSI AS",
+    "fylkeNr": "56",
+    "fylke": "Finnmark"
+  },
+  {
+    "organisasjonsnr": "918999361",
+    "konsesjonar": "VONETT AS",
+    "fylkeNr": "46",
+    "fylke": "Vestland"
+  }
+]
