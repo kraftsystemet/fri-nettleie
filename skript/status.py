@@ -7,6 +7,16 @@ import os
 
 def load_dsos():
 
+    with open('./referanse-data/elhub/grid_owners.json', 'r') as file:
+        gos = json.load(file)
+
+    go_org = {}
+    for go in gos:
+        go_org[go['gln']] = go["organisationNumber"]
+
+    with open('./referanse-data/nve/konsesjonar.json', 'r') as file:
+        konsesjoner = set([k["organisasjonsnr"] for k in json.load(file)])
+
     with open('./referanse-data/esett/metering_grid_areas.json', 'r') as file:
         mgas = json.load(file)
 
@@ -14,6 +24,11 @@ def load_dsos():
 
     for mga in mgas:
         if mga['mgaType'] != 'DISTRIBUTION':
+            continue
+
+        org = go_org[mga['dsoCode']]
+
+        if org not in konsesjoner:
             continue
 
         if mga['dsoName'] in dsos:
