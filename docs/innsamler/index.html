@@ -3,147 +3,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YAML Input Form</title>
+    <title>fri-nettleie - innsamler</title>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <script src=" https://cdn.jsdelivr.net/npm/yamljs@0.3.0/dist/yaml.min.js" defer></script>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         .input-group, button { margin-bottom: 10px; }
+        .tariff { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .column {
+            width: 50%;
+            padding: 20px;
+            border-right: 1px solid #ccc;
+        }
+        .output {
+            width: 100%;
+        }
     </style>
 </head>
-<body x-data="app()">
+<body x-data="app()" x-init="$watch('data', () => updateURL(), { deep: true })">
+<div class="container">
+    <div class="column">
+    <h1>innsamler - fri-nettleie</h1>
 
-    <h1>YAML Input Form</h1>
-
-    <div class="input-group">
-        <label for="id">ID:</label>
-        <input type="text" id="id" x-model="data.id" placeholder="Enter ID">
-    </div>
-
-    <h2>Avgifter</h2>
-
-    <p>Marker hvilke avgifter som er inkludert i de oppgitte prisene</p>
+    <p>
+        Dette verktøyet brukes for å samle inn tariff-data manuelt.
+        I praksis er det bare en form for å lage en YAML-fil.
+        Se <a href="https://github.com/kraftsystemet/fri-nettleie">github.com/kraftsystemet/fri-nettleie</a> for mer info.
+    </p>
 
     <div class="input-group">
-        <label for="enova">Enova:</label>
-        <input type="checkbox" id="enova" x-model="data.avgifter.enova">
-        <label for="forbruk">Forbruk:</label>
-        <input type="checkbox" id="forbruk" x-model="data.avgifter.forbruk">
-        <label for="merverdi">Merverdi:</label>
-        <input type="checkbox" id="merverdi" x-model="data.avgifter.merverdi">
+        <label for="netteier">Netteier:</label>
+        <input type="text" id="netteier" x-model="data.netteier" placeholder="Navn på netteier">
+    </div>
+    <div class="input-group">
+        <label for="gln">GLN:</label>
+        <input type="text" id="gln" x-model="data.gln" placeholder="GLN for netteier">
+    </div>
+    <div class="input-group">
+        <label for="sist_oppdatert">Sist oppdatert:</label>
+        <input type="date" id="sist_oppdatert" x-model="data.sist_oppdatert" placeholder="Enter sist oppdatert">
+    </div>
+    <div class="input-group">
+        <button @click="addKilde">Legg til kilde</button>
+        <label for="kilder">Kilder:</label>
+        <template x-for="(kilde, index) in data.kilder" :key="index">
+            <div class="input-group">
+                <input type="text" x-model="data.kilder[index]" placeholder="Enter kilde">
+                <button @click="removeKilde(index)">Fjern</button>
+            </div>
+        </template>
     </div>
 
-    <h2>Kapasitet - kr</h2>
+    <h2>Tariffer</h2>
+    <p>En netteier kan ha mer enn en tariff</p>
+    <button @click="addTariff">Legg til en ekstra tariff</button>
+    <template x-for="(tariff, index) in data.tariffer" :key="index">
+        <div class="tariff">
+            <h3 x-text="'Tariff ' + ( index + 1 ) + ' - ' + tariff.id"></h3>
+            <div class="input-group">
+                <label for="id">ID:</label>
+                <input type="text" id="id" x-model="tariff.id" placeholder="Enter ID">
+            </div>
+            <div class="input-group">
+                <label for="gyldig_fra">Gyldig fra:</label>
+                <input type="date" id="gyldig_fra" x-model="tariff.gyldig_fra" placeholder="Enter gyldig fra">
+                <label for="gyldig_til">Gyldig til:</label>
+                <input type="date" id="gyldig_til" x-model="tariff.gyldig_til" placeholder="Enter gyldig til">
+            </div>
+            <div class="input-group">
+                <label for="kundegruppe">Kundegruppe:</label>
+                <select id="kundegruppe" x-model="tariff.kundegruppe" placeholder="Enter kundegruppe">
+                    <option value="privat">privat</option>
+                    <option value="hytter">hytter</option>
+                    <option value="husholdning">husholdning</option>
+                </select>
+            </div>
 
-    <button @click="addKapas">Legg til en til</button>
+            <h4>Effektledd</h4>
+            <div class="input-group">
 
-    <template x-for="(kapas, index) in data.kapasitet" :key="index">
-        <div class="input-group">
-            <label>Fra:</label>
-            <input type="number" x-model="kapas.fra" placeholder="From">
-            <label>Til:</label>
-            <input type="number" x-model="kapas.til" placeholder="To">
-            <label>Pris:</label>
-            <input type="number" x-model="kapas.pris" placeholder="Price">
-            <button @click="removeKapas(index)">Remove</button>
+                <label for="metode">Metode:</label>
+                <select id="metode" x-model="tariff.fastledd.metode" placeholder="Enter metode">
+                    <option value="TRE_DØGNMAX_MND">TRE_DØGNMAX_MND</option>
+                    <option value="FEM_VEKTET_ÅR">FEM_VEKTET_ÅR</option>
+                    <option value="OV_TREFASE">OV_TREFASE</option>
+                </select>
+            </div>
+
+            <h5>Terskler</h5>
+            <button @click="addTerskel(index)">Legg til en ekstra terskel</button>
+            <template x-for="(terskel, jndex) in data.tariffer[index].fastledd.terskler" :key="jndex">
+                <div class="input-group">
+                    <label for="terskel">Terskel:</label>
+                    <input type="number" id="terskel" x-model.number="terskel.terskel" placeholder="Enter terskel">
+                    <label for="pris">Pris:</label>
+                    <input type="number" id="pris" x-model="terskel.pris" placeholder="Enter pris">
+                    <label for="pris">Pris MVA:</label>
+                    <input type="number" id="pris" x-bind:value="terskel.pris*1.25" x-on:change="tariff.fastledd[0].pris = $event.target.value * 0.8" placeholder="Enter pris">
+                    <button @click="removeTerskel(index,jndex)">Fjern</button>
+                </div>
+            </template>
+
+            <h4>Energiledd</h4>
+            <div class="input-group">
+                <div class="input-group">
+                    <label for="pris">Pris (øre/kWh):</label>
+                    <input type="number" id="pris" x-model="tariff.energiledd.pris" placeholder="Pris">
+                    <label for="pris-mva">Pris (MVA):</label>
+                    <input type="number" id="pris-mva" x-bind:value="tariff.energiledd.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8" placeholder="Pris (MVA)">
+                    <label for="pris-mva">Pris (enova):</label>
+                    <input type="number" id="pris-enova" x-bind:value="tariff.energiledd.pris + 1" x-on:change="unntak.pris = $event.target.value - 1" placeholder="Pris (Enova)">
+                </div>
+            </div>
+            <h5>Unntak</h5>
+            <button @click="addUnntak(index)">Legg til unntak</button>
+            <template x-for="(unntak, jndex) in tariff.energiledd.unntak" :key="jndex">
+            <div class="unntak">
+                <h6 x-text="'Unntak ' + ( jndex + 1 ) + ' - ' + unntak.navn"></h5>
+                <div class="input-group">
+                    <button @click="removeUnntak(index,jndex)">Fjern</button>
+                    <label for="navn">Navn:</label>
+                    <input type="text" id="navn" x-model="unntak.navn" placeholder="Enter navn">
+                    <label for="timer">Timer:</label>
+                    <input type="text" id="timer" x-model="unntak.timer" placeholder="Enter timer">
+                </div>
+                <div class="input-group">
+                    <label for="pris">Pris (øre/kWh):</label>
+                    <input type="number" id="pris" x-model="unntak.pris" placeholder="Pris">
+                    <label for="pris-mva">Pris (MVA):</label>
+                    <input type="number" id="pris-mva" x-bind:value="unntak.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8" placeholder="Pris (MVA)">
+                    <label for="pris-mva">Pris (enova):</label>
+                    <input type="number" id="pris-enova" x-bind:value="unntak.pris + 1" x-on:change="unntak.pris = $event.target.value - 1" placeholder="Pris (Enova)">
+                </div>
+                <div class="input-group">
+                    <label for="dager">Dager:</label>
+                    <select id="dager" x-model="unntak.dager" multiple>
+                        <option value="mandag">mandag</option>
+                        <option value="tirsdag">tirsdag</option>
+                        <option value="onsdag">onsdag</option>
+                        <option value="torsdag">torsdag</option>
+                        <option value="fredag">fredag</option>
+                        <option value="lørdag">lørdag</option>
+                        <option value="søndag">søndag</option>
+                        <option value="ukedag">ukedag</option>
+                        <option value="helg">helg</option>
+                        <option value="helligdager">helligdager</option>
+                        <option value="fridag">fridag</option>
+                        <option value="virkedag">virkedag</option>
+                        <option value="alle">alle</option>
+                    </select>
+                    <label for="måneder">Måneder:</label>
+                    <select id="måneder" x-model="unntak.måneder" multiple>
+                        <option value="januar">januar</option>
+                        <option value="februar">februar</option>
+                        <option value="mars">mars</option>
+                        <option value="april">april</option>
+                        <option value="mai">mai</option>
+                        <option value="juni">juni</option>
+                        <option value="juli">juli</option>
+                        <option value="august">august</option>
+                        <option value="september">september</option>
+                        <option value="oktober">oktober</option>
+                        <option value="november">november</option>
+                        <option value="desember">desember</option>
+                    </select>
+                </div>
+            </div>
+            </template>
+
+
+            </div>
         </div>
     </template>
-
-    <h2>Energi - øre</h2>
-    <template x-for="(timer, index) in data.energi.timer" :key="index">
-        <div class="input-group">
-            <label>Fra time:</label>
-            <input type="number" x-model="timer.fra">
-            <label>Til time:</label>
-            <input type="number" x-model="timer.til">
-            <label>Pris:</label>
-            <input type="number" x-model="timer.pris" placeholder="Price">
-            <button @click="removeTimer(index)">Remove</button>
-        </div>
-    </template>
-    <button @click="addTimer">Add Energi Timer</button>
-
-    <button @click="submit">Submit</button>
-
+</div>
+<div class="column">
     <h2>Output</h2>
-    <pre x-text="output">Her kommer det noe Yaml</pre>
-
+    <button @click="submit">Submit</button>
+    <button @click="copyToClipboard">Kopier</button>
+    <pre><texarea id="output" class="output" x-text="output" >Her kommer det noe Yaml</textarea></pre>
+</div>
+</div>
     <script>
         function app() {
             return {
                 data: {
                     id: '',
-                    avgifter: {
-                        enova: false,
-                        forbruk: false,
-                        merverdi: false
-                    },
-                    kapasitet: [{ fra: 0, til: 2, pris: 220.0 }],
-                    energi: {
-                        timer: [{ fra: 0, til: 6, pris: 27.232 }]
-                    }
+                    kilder: [],
+                    tariffer: [{
+                        id: '',
+                        fastledd: {
+                            metode: 'TRE_DØGNMAX_MND',
+                            terskler: [
+                                { terskel: 0, pris: 0 }
+                            ]
+                        },
+                        energiledd: {
+                            pris: 0,
+                            unntak: [{
+                                navn: 'Høylast',
+                                timer: "6-21",
+                                pris: 0,
+                            }]
+                        }
+                    }],
                 },
+
+                init() {
+                    this.getDataFromUrl();
+                },
+                encodedData: '',
                 output: '',
-                addKapas() {
-                    this.data.kapasitet.push({ fra: 0, til: 0, pris: 0 });
+                addKilde() {
+                    this.data.kilder.push('');
                 },
-                removeKapas(index) {
-                    this.data.kapasitet.splice(index, 1);
+                removeKilde(index) {
+                    this.data.kilder.splice(index, 1);
                 },
-                addTimer() {
-                    this.data.energi.timer.push({ fra: '00:00', til: '00:00', pris: 0 });
+                addTariff() {
+                    this.data.tariffer.push({ id: 'NY', effektledd: [{metode: 'TRE_DØGNMAX_MND', terskel: 0, pris: 0}] });
                 },
-                removeTimer(index) {
-                    this.data.energi.timer.splice(index, 1);
+                addTerskel(index) {
+                    this.data.tariffer[index].fastledd.terskler.push({ terskel: 0, pris: 0 });
+                },
+                remoteTerskel(index,jndex) {
+                    this.data.tariffer[index].fastledd.terskler.splice(jndex, 1);
+                },
+                removeUnntak(index, jndex) {
+                    this.data.tariffer[index].energiledd.unntak.splice(jndex, 1);
+                },
+                addUnntak(index) {
+                    this.data.tariffer[index].energiledd.unntak.push({ navn: '', timer: '', dager: [], måneder: [], pris: 0 });
                 },
                 submit() {
-                    this.output = this.yamlify(this.data);
+                    this.output = YAML.stringify(this.data, 5, 2);
                 },
-                yamlify(data) {
-                    tariff = {
-                        id: data.id,
-                        energi: {}
+                copyToClipboard() {
+                    navigator.clipboard.writeText(this.output);
+                },
+                updateURL() {
+                    const newUrl = `${window.location.pathname}?data=${btoa(JSON.stringify(this.data))}`;
+                    window.history.pushState({}, '', newUrl);
+                },
+                getDataFromUrl() {
+                    const queryString = window.location.search;
+                    const params = new URLSearchParams(queryString);
+                    console.log(params);
+                    const dataParam = params.get('data');
+                    console.log(dataParam);
+                    if (!dataParam) {
+                        return;
                     }
-
-                    if (data.kapasitet.length >  0){
-                        kapasitet = []
-                        for (let i = 0; i < data.kapasitet.length; i++) {
-                            k = data.kapasitet[i]
-                            kapasitet.push({
-                                fra: k.fra,
-                                til: k.til,
-                                pris: data.avgifter.merverdi ? k.pris * 0.8 : k.pris
-                            })
-                        }
-
-                        tariff.kapasitet = kapasitet
-                    }
-
-                    if (data.energi.timer.length >  0){
-                        timer = []
-                        for (let i = 0; i < data.energi.timer.length; i++) {
-                            e = data.energi.timer[i]
-                            pris = e.pris
-                            if (data.avgifter.merverdi) {
-                                pris = pris * 0.8
-                            }
-                            if (data.avgifter.enova) {
-                                pris = pris - 1
-                            }
-                            if (data.avgifter.forbruk) {
-                                pris = pris - 16.44 // øre
-                            }
-                            timer.push({
-                                fra: e.fra,
-                                til: e.til,
-                                pris: pris
-                            })
-                        }
-                        tariff.energi["timer"] = timer
-                    }
-
-                    return YAML.stringify({tariffer: [tariff]}, 10, 2);
+                    this.data = JSON.parse(atob(dataParam));
                 }
+
             };
         }
     </script>
