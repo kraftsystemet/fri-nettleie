@@ -80,17 +80,17 @@ def print_status():
 
         if gln in dso_status:
             data = dso_status[gln]
-            oppdatert = data["sist_oppdatert"].strftime("%Y-%m-%d")
+            oppdatert = f'<code>{data["sist_oppdatert"].strftime("%Y-%m-%d")}</code>'
             status = ' ✅'
 
-        edit_url = f"https://github.com/kraftsystemet/fri-nettleie/innsamler/?data={atob(json.dumps(data, default=json_serial))}"
+        edit_url = f"https://kraftsystemet.no/fri-nettleie/innsamler/?data={atob(json.dumps(data, default=json_serial))}"
 
         # ✏️
 
         print("<tr>")
         print(f"    <td>{navn}{status}</td>")
         print(f"    <td>{gln}</td>")
-        print(f"    <td><code>{oppdatert}</code></td>")
+        print(f"    <td>{oppdatert}</td>")
         print(f"    <td><a href='{edit_url}' alt='Rediger'>✏️</a></td>")
         print("</tr>")
 

@@ -242,398 +242,398 @@ Den følgende listen viser status på innsamlede data.
 <tr>
     <td>Alut AS</td>
     <td>7080010004383</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBbHV0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA0MzgzIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBbHV0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA0MzgzIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Arva AS</td>
     <td>7080005051859</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcnZhIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUxODU5In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcnZhIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUxODU5In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Arva AS</td>
     <td>7080005051361</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcnZhIEFTICh0aWRsaWdlcmUgTm9yZGxhbmRzbmV0dCkiLCAiZ2xuIjogIjcwODAwMDUwNTEzNjEifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcnZhIEFTICh0aWRsaWdlcmUgTm9yZGxhbmRzbmV0dCkiLCAiZ2xuIjogIjcwODAwMDUwNTEzNjEifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Asker Nett AS</td>
     <td>7080003858825</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBc2tlciBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDAzODU4ODI1In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBc2tlciBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDAzODU4ODI1In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>BKK AS</td>
     <td>7080005051378</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCS0sgQVMiLCAiZ2xuIjogIjcwODAwMDUwNTEzNzgifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCS0sgQVMiLCAiZ2xuIjogIjcwODAwMDUwNTEzNzgifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Bindal Kraftlag Nett</td>
     <td>7080005055963</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCaW5kYWwgS3JhZnRsYWcgTmV0dCIsICJnbG4iOiAiNzA4MDAwNTA1NTk2MyJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCaW5kYWwgS3JhZnRsYWcgTmV0dCIsICJnbG4iOiAiNzA4MDAwNTA1NTk2MyJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Breheim Nett</td>
     <td>7080010010919</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCcmVoZWltIE5ldHQiLCAiZ2xuIjogIjcwODAwMTAwMTA5MTkifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCcmVoZWltIE5ldHQiLCAiZ2xuIjogIjcwODAwMTAwMTA5MTkifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Bømlo Kraftnett AS</td>
     <td>7080010002327</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCXHUwMGY4bWxvIEtyYWZ0bmV0dCBBUyIsICJnbG4iOiAiNzA4MDAxMDAwMjMyNyJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCXHUwMGY4bWxvIEtyYWZ0bmV0dCBBUyIsICJnbG4iOiAiNzA4MDAxMDAwMjMyNyJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>DE Nett AS</td>
     <td>7080010003614</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJERSBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAzNjE0In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJERSBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAzNjE0In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Elinett AS</td>
     <td>7080005053044</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbGluZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUzMDQ0In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbGluZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUzMDQ0In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Elvenett AS</td>
     <td>7080005052917</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbHZlbmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwNTA1MjkxNyJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbHZlbmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwNTA1MjkxNyJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Elvia AS</td>
     <td>7080005046220</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbHZpYSBBUyIsICJnbG4iOiAiNzA4MDAwNTA0NjIyMCJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbHZpYSBBUyIsICJnbG4iOiAiNzA4MDAwNTA0NjIyMCJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Enida AS</td>
     <td>7080003871534</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbmlkYSBBUyIsICJnbG4iOiAiNzA4MDAwMzg3MTUzNCJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbmlkYSBBUyIsICJnbG4iOiAiNzA4MDAwMzg3MTUzNCJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Etna Nett AS</td>
     <td>7080005046404</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdG5hIE5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMDUwNDY0MDQifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdG5hIE5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMDUwNDY0MDQifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Everket AS</td>
     <td>7080005052825</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdmVya2V0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUyODI1In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdmVya2V0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUyODI1In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Fagne AS</td>
     <td>7080003809599</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGYWduZSBBUyIsICJnbG4iOiAiNzA4MDAwMzgwOTU5OSJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGYWduZSBBUyIsICJnbG4iOiAiNzA4MDAwMzgwOTU5OSJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Fjellnett AS</td>
     <td>7080010000316</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGamVsbG5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDAzMTYifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGamVsbG5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDAzMTYifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Føie AS</td>
     <td>7080005048415</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMiLCAiZ2xuIjogIjcwODAwMDUwNDg0MTUifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMiLCAiZ2xuIjogIjcwODAwMDUwNDg0MTUifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Føre AS</td>
     <td>7080010003836</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4cmUgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDM4MzYifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4cmUgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDM4MzYifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Glitre Nett AS</td>
     <td>7080005052672</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyAodGlkbCBHbGl0cmUgRW5lcmdpIE5ldHQsIERpc3RyaWIuKSIsICJnbG4iOiAiNzA4MDAwNTA1MjY3MiJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyAodGlkbCBHbGl0cmUgRW5lcmdpIE5ldHQsIERpc3RyaWIuKSIsICJnbG4iOiAiNzA4MDAwNTA1MjY3MiJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Glitre Nett AS</td>
     <td>7080005056069</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyAodGlkbGlnZXJlIEFnZGVyIEVuZXJnaSBOZXR0KSIsICJnbG4iOiAiNzA4MDAwNTA1NjA2OSJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyAodGlkbGlnZXJlIEFnZGVyIEVuZXJnaSBOZXR0KSIsICJnbG4iOiAiNzA4MDAwNTA1NjA2OSJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Griug AS</td>
     <td>7080005052900</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHcml1ZyBBUyIsICJnbG4iOiAiNzA4MDAwNTA1MjkwMCJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHcml1ZyBBUyIsICJnbG4iOiAiNzA4MDAwNTA1MjkwMCJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Havnett AS</td>
     <td>7080010001832</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYXZuZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAxODMyIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYXZuZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAxODMyIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Hydro Energi AS nett</td>
     <td>7080005052818</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIeWRybyBFbmVyZ2kgQVMgbmV0dCIsICJnbG4iOiAiNzA4MDAwNTA1MjgxOCJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIeWRybyBFbmVyZ2kgQVMgbmV0dCIsICJnbG4iOiAiNzA4MDAwNTA1MjgxOCJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Høland og Setskog Elverk AS</td>
     <td>7080004320253</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIXHUwMGY4bGFuZCBvZyBTZXRza29nIEVsdmVyayBBUyIsICJnbG4iOiAiNzA4MDAwNDMyMDI1MyJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIXHUwMGY4bGFuZCBvZyBTZXRza29nIEVsdmVyayBBUyIsICJnbG4iOiAiNzA4MDAwNDMyMDI1MyJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Indre Hordaland Kraftnett AS</td>
     <td>7080010008367</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJJbmRyZSBIb3JkYWxhbmQgS3JhZnRuZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA4MzY3In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJJbmRyZSBIb3JkYWxhbmQgS3JhZnRuZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA4MzY3In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Jæren Everk AS</td>
     <td>7080010002419</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJKXHUwMGU2cmVuIEV2ZXJrIEFTIiwgImdsbiI6ICI3MDgwMDEwMDAyNDE5In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJKXHUwMGU2cmVuIEV2ZXJrIEFTIiwgImdsbiI6ICI3MDgwMDEwMDAyNDE5In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>KE Nett AS</td>
     <td>7080005046060</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLRSBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDQ2MDYwIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLRSBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDQ2MDYwIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Klive AS</td>
     <td>7080010000132</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLbGl2ZSBBUyIsICJnbG4iOiAiNzA4MDAxMDAwMDEzMiJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLbGl2ZSBBUyIsICJnbG4iOiAiNzA4MDAxMDAwMDEzMiJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Kvam Energi Nett AS</td>
     <td>7080010001276</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLdmFtIEVuZXJnaSBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAxMjc2In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLdmFtIEVuZXJnaSBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAxMjc2In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Kystnett AS</td>
     <td>7080010000064</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLeXN0bmV0dCBBUyIsICJnbG4iOiAiNzA4MDAxMDAwMDA2NCJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLeXN0bmV0dCBBUyIsICJnbG4iOiAiNzA4MDAxMDAwMDA2NCJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Lede AS</td>
     <td>7080005050975</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMZWRlIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUwOTc1In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMZWRlIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUwOTc1In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Linja AS ✅</td>
     <td>7080001319830</td>
     <td><code>2024-11-03</code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMaW5qYSBBUyIsICJnbG4iOiAiNzA4MDAwMTMxOTgzMCIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTAzIiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubGluamEubm8vbmV0dGxlaWdlIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIm5vcmQtcHJpdmF0IiwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNy0wMSIsICJneWxkaWdfdGlsIjogbnVsbCwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjIwLjB9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDI3NC40fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMjguOH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDU0OC44fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNjU5LjJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3NjguMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDEwOTguNH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDEyMDguMH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDEzMTYuOH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiAxNjQ3LjJ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyMC40MjQsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyNy4yMzJ9XX19LCB7ImlkIjogInNcdTAwZjhyLXByaXZhdCIsICJneWxkaWdfZnJhIjogIjIwMjQtMDctMDEiLCAiZ3lsZGlnX3RpbCI6IG51bGwsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDIyMi40fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzMDguOH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzk1LjJ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA1NjguMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDY4My4yfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogNzk5LjJ9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMDE1LjJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAxMTMwLjR9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAxMjQ2LjR9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMTUzNC40fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTUuMzg0LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjIuMzg0fV19fV19' alt='Rediger'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMaW5qYSBBUyIsICJnbG4iOiAiNzA4MDAwMTMxOTgzMCIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTAzIiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubGluamEubm8vbmV0dGxlaWdlIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIm5vcmQtcHJpdmF0IiwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNy0wMSIsICJneWxkaWdfdGlsIjogbnVsbCwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjIwLjB9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDI3NC40fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMjguOH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDU0OC44fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNjU5LjJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3NjguMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDEwOTguNH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDEyMDguMH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDEzMTYuOH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiAxNjQ3LjJ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyMC40MjQsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyNy4yMzJ9XX19LCB7ImlkIjogInNcdTAwZjhyLXByaXZhdCIsICJneWxkaWdfZnJhIjogIjIwMjQtMDctMDEiLCAiZ3lsZGlnX3RpbCI6IG51bGwsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDIyMi40fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzMDguOH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzk1LjJ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA1NjguMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDY4My4yfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogNzk5LjJ9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMDE1LjJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAxMTMwLjR9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAxMjQ2LjR9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMTUzNC40fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTUuMzg0LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjIuMzg0fV19fV19' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Lucerna AS</td>
     <td>7080005050661</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMdWNlcm5hIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUwNjYxIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMdWNlcm5hIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUwNjYxIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Lyse Produksjon AS Nett</td>
     <td>7080003307231</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMeXNlIFByb2R1a3Nqb24gQVMgTmV0dCIsICJnbG4iOiAiNzA4MDAwMzMwNzIzMSJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMeXNlIFByb2R1a3Nqb24gQVMgTmV0dCIsICJnbG4iOiAiNzA4MDAwMzMwNzIzMSJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Lysna AS</td>
     <td>7080010013088</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMeXNuYSBBUyIsICJnbG4iOiAiNzA4MDAxMDAxMzA4OCJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMeXNuYSBBUyIsICJnbG4iOiAiNzA4MDAxMDAxMzA4OCJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Meløy Nett AS</td>
     <td>7080003968395</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNZWxcdTAwZjh5IE5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMDM5NjgzOTUifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNZWxcdTAwZjh5IE5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMDM5NjgzOTUifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Midtnett AS ✅</td>
     <td>7080003869012</td>
     <td><code>2024-11-03</code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNaWR0bmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwMzg2OTAxMiIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTAzIiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubWlkdG5ldHQubm8vbmV0dGxlaWUiLCAiaHR0cHM6Ly93d3cubWlkdG5ldHQubm8vbWVkaWEvMjkxOS9uZXR0bGVpZXByaXNlci1mcmEtMS1hcHJpbC0yMDI0LnBkZiJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICJobjIyLXByaXZhdCIsICJneWxkaWdfZnJhIjogIjIwMjQtMDQtMDEiLCAiZ3lsZGlnX3RpbCI6IG51bGwsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDIyMH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzMwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNTAwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNzUwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTAwMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDEzOTd9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyMDk2fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMjYwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiAzMDAwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMjYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAzMX1dfX1dfQ==' alt='Rediger'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNaWR0bmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwMzg2OTAxMiIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTAzIiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubWlkdG5ldHQubm8vbmV0dGxlaWUiLCAiaHR0cHM6Ly93d3cubWlkdG5ldHQubm8vbWVkaWEvMjkxOS9uZXR0bGVpZXByaXNlci1mcmEtMS1hcHJpbC0yMDI0LnBkZiJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICJobjIyLXByaXZhdCIsICJneWxkaWdfZnJhIjogIjIwMjQtMDQtMDEiLCAiZ3lsZGlnX3RpbCI6IG51bGwsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDIyMH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzMwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNTAwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNzUwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTAwMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDEzOTd9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyMDk2fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMjYwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiAzMDAwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMjYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAzMX1dfX1dfQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Modalen Kraftlag Nett</td>
     <td>7080003816184</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNb2RhbGVuIEtyYWZ0bGFnIE5ldHQiLCAiZ2xuIjogIjcwODAwMDM4MTYxODQifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNb2RhbGVuIEtyYWZ0bGFnIE5ldHQiLCAiZ2xuIjogIjcwODAwMDM4MTYxODQifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Nettselskapet AS</td>
     <td>7080004064553</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOZXR0c2Vsc2thcGV0IEFTIiwgImdsbiI6ICI3MDgwMDA0MDY0NTUzIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOZXR0c2Vsc2thcGV0IEFTIiwgImdsbiI6ICI3MDgwMDA0MDY0NTUzIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Noranett AS</td>
     <td>7080003811318</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JhbmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwMzgxMTMxOCJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JhbmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwMzgxMTMxOCJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Nordvest Nett AS</td>
     <td>7080005052801</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JkdmVzdCBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUyODAxIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JkdmVzdCBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUyODAxIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Norefjell Nett AS</td>
     <td>7080010003911</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JlZmplbGwgTmV0dCBBUyIsICJnbG4iOiAiNzA4MDAxMDAwMzkxMSJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JlZmplbGwgTmV0dCBBUyIsICJnbG4iOiAiNzA4MDAxMDAwMzkxMSJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Norgesnett AS</td>
     <td>7080005052702</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JnZXNuZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUyNzAyIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JnZXNuZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUyNzAyIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>R-Nett AS</td>
     <td>7080010012852</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSLU5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMTI4NTIifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSLU5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMTI4NTIifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Rakkestad Energi AS Nett</td>
     <td>7080005054898</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSYWtrZXN0YWQgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogIjcwODAwMDUwNTQ4OTgifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSYWtrZXN0YWQgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogIjcwODAwMDUwNTQ4OTgifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Romsdalsnett AS</td>
     <td>7080010005427</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSb21zZGFsc25ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDU0MjcifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSb21zZGFsc25ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDU0MjcifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Røros E-verk Nett AS</td>
     <td>7080003947932</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSXHUwMGY4cm9zIEUtdmVyayBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDAzOTQ3OTMyIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSXHUwMGY4cm9zIEUtdmVyayBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDAzOTQ3OTMyIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>S-NETT AS</td>
     <td>7080010002464</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTLU5FVFQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDI0NjQifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTLU5FVFQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDI0NjQifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>SkiakerNett AS</td>
     <td>7080004062702</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTa2lha2VyTmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwNDA2MjcwMiJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTa2lha2VyTmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwNDA2MjcwMiJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Stannum AS</td>
     <td>7080010003959</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdGFubnVtIEFTIiwgImdsbiI6ICI3MDgwMDEwMDAzOTU5In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdGFubnVtIEFTIiwgImdsbiI6ICI3MDgwMDEwMDAzOTU5In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Stram AS</td>
     <td>7080003822901</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhbSBBUyIsICJnbG4iOiAiNzA4MDAwMzgyMjkwMSJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhbSBBUyIsICJnbG4iOiAiNzA4MDAwMzgyMjkwMSJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Straumen Nett AS</td>
     <td>7080010003720</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1lbiBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAzNzIwIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1lbiBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAzNzIwIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Straumnett AS</td>
     <td>7080004053632</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1uZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA0MDUzNjMyIn0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1uZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA0MDUzNjMyIn0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>SuNett AS</td>
     <td>7080010003218</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdU5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDMyMTgifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdU5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDMyMTgifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Sygnir AS</td>
     <td>7080010009654</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTeWduaXIgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDk2NTQifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTeWduaXIgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDk2NTQifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Sør Aurdal Energi AS Nett</td>
     <td>7080005046459</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTXHUwMGY4ciBBdXJkYWwgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogIjcwODAwMDUwNDY0NTkifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTXHUwMGY4ciBBdXJkYWwgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogIjcwODAwMDUwNDY0NTkifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Tensio TS AS</td>
     <td>7080005051880</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJUZW5zaW8gVFMgQVMiLCAiZ2xuIjogIjcwODAwMDUwNTE4ODAifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJUZW5zaW8gVFMgQVMiLCAiZ2xuIjogIjcwODAwMDUwNTE4ODAifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Tinfos AS Nett</td>
     <td>7080003612595</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJUaW5mb3MgQVMgTmV0dCIsICJnbG4iOiAiNzA4MDAwMzYxMjU5NSJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJUaW5mb3MgQVMgTmV0dCIsICJnbG4iOiAiNzA4MDAwMzYxMjU5NSJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Uvdal Kraftforsyning</td>
     <td>7080005050500</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJVdmRhbCBLcmFmdGZvcnN5bmluZyIsICJnbG4iOiAiNzA4MDAwNTA1MDUwMCJ9' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJVdmRhbCBLcmFmdGZvcnN5bmluZyIsICJnbG4iOiAiNzA4MDAwNTA1MDUwMCJ9' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Vang Energiverk AS</td>
     <td>7080010002297</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWYW5nIEVuZXJnaXZlcmsgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDIyOTcifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWYW5nIEVuZXJnaXZlcmsgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDIyOTcifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Vest-Telemark Kraftlag AS Nett</td>
     <td>7080005051927</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0LVRlbGVtYXJrIEtyYWZ0bGFnIEFTIE5ldHQiLCAiZ2xuIjogIjcwODAwMDUwNTE5MjcifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0LVRlbGVtYXJrIEtyYWZ0bGFnIEFTIE5ldHQiLCAiZ2xuIjogIjcwODAwMDUwNTE5MjcifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Vestall AS</td>
     <td>7080005051897</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0YWxsIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUxODk3In0=' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0YWxsIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUxODk3In0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Vestmar Nett AS</td>
     <td>7080005054928</td>
-    <td><code></code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0bWFyIE5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMDUwNTQ5MjgifQ==' alt='Rediger'>✏️</a></td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0bWFyIE5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMDUwNTQ5MjgifQ==' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Vevig AS ✅</td>
     <td>7080003807946</td>
     <td><code>2024-11-06</code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXZpZyBBUyIsICJnbG4iOiAiNzA4MDAwMzgwNzk0NiIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA2IiwgImtpbGRlciI6IFsiaHR0cHM6Ly92ZXZpZy5uby9uZXR0bGVpZS1vZy12aWxrYXIvbmV0dGxlaWUtcHJpdmF0LyJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LXByaXZhdCIsICJneWxkaWdfZnJhIjogIjIwMjQtMDYtMDEiLCAiZ3lsZGlnX3RpbCI6IG51bGwsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IGZhbHNlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAxNjh9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDIxOH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzAzfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogMzg5fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNDc0fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogNTU4fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogNjQzfSwgeyJ0ZXJza2VsIjogMzAsICJwcmlzIjogODEzfSwgeyJ0ZXJza2VsIjogNDAsICJwcmlzIjogOTgyfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTQwNn0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDE4MDN9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMjI1M30sIHsidGVyc2tlbCI6IDEyNSwgInByaXMiOiAyNjc4fSwgeyJ0ZXJza2VsIjogMTUwLCAicHJpcyI6IDM1MjZ9LCB7InRlcnNrZWwiOiAyMDAsICJwcmlzIjogNTIyMn0sIHsidGVyc2tlbCI6IDMwMCwgInByaXMiOiA2OTE3fSwgeyJ0ZXJza2VsIjogNDAwLCAicHJpcyI6IDE3MDkyfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTMuNCwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDIxLjR9XX19XX0=' alt='Rediger'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXZpZyBBUyIsICJnbG4iOiAiNzA4MDAwMzgwNzk0NiIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA2IiwgImtpbGRlciI6IFsiaHR0cHM6Ly92ZXZpZy5uby9uZXR0bGVpZS1vZy12aWxrYXIvbmV0dGxlaWUtcHJpdmF0LyJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LXByaXZhdCIsICJneWxkaWdfZnJhIjogIjIwMjQtMDYtMDEiLCAiZ3lsZGlnX3RpbCI6IG51bGwsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IGZhbHNlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAxNjh9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDIxOH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzAzfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogMzg5fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNDc0fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogNTU4fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogNjQzfSwgeyJ0ZXJza2VsIjogMzAsICJwcmlzIjogODEzfSwgeyJ0ZXJza2VsIjogNDAsICJwcmlzIjogOTgyfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTQwNn0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDE4MDN9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMjI1M30sIHsidGVyc2tlbCI6IDEyNSwgInByaXMiOiAyNjc4fSwgeyJ0ZXJza2VsIjogMTUwLCAicHJpcyI6IDM1MjZ9LCB7InRlcnNrZWwiOiAyMDAsICJwcmlzIjogNTIyMn0sIHsidGVyc2tlbCI6IDMwMCwgInByaXMiOiA2OTE3fSwgeyJ0ZXJza2VsIjogNDAwLCAicHJpcyI6IDE3MDkyfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTMuNCwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDIxLjR9XX19XX0=' alt='Rediger'>✏️</a></td>
 </tr>
 <tr>
     <td>Vissi AS ✅</td>
     <td>7080004045743</td>
     <td><code>2024-11-06</code></td>
-    <td><a href='https://github.com/kraftsystemet/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWaXNzaSBBUyIsICJnbG4iOiAiNzA4MDAwNDA0NTc0MyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA2IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cudmlzc2kubm8vcHJpc2VyLW9nLXZpbGthci9uZXR0bGVpZS1wcml2YXQvIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtcHJpdmF0IiwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSIsICJneWxkaWdfdGlsIjogbnVsbCwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMzZ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA0NzJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA2MDh9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3NDR9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMjE2fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTYzNn0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDIwMTZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMjQxNn0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiAyNzM2fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDMxMzZ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMC40LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjAuOH1dfX1dfQ==' alt='Rediger'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWaXNzaSBBUyIsICJnbG4iOiAiNzA4MDAwNDA0NTc0MyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA2IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cudmlzc2kubm8vcHJpc2VyLW9nLXZpbGthci9uZXR0bGVpZS1wcml2YXQvIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtcHJpdmF0IiwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSIsICJneWxkaWdfdGlsIjogbnVsbCwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMzZ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA0NzJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA2MDh9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3NDR9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMjE2fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTYzNn0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDIwMTZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMjQxNn0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiAyNzM2fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDMxMzZ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMC40LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjAuOH1dfX1dfQ==' alt='Rediger'>✏️</a></td>
 </tr>
 </table>
 
