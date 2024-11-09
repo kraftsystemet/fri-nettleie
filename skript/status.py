@@ -67,7 +67,7 @@ def print_status():
     </tr>""")
 
     for dso in sorted(list(dsos.keys())):
-        # fjerne " (tidligere xxx)"
+        # fjerne " (tidligere xxx)" i netteiernavn
         navn = dso.split('(')[0].strip()
         gln = dsos[dso]
         oppdatert = ''
@@ -91,7 +91,7 @@ def print_status():
         print(f"    <td>{navn}{status}</td>")
         print(f"    <td>{gln}</td>")
         print(f"    <td>{oppdatert}</td>")
-        print(f"    <td><a href='{edit_url}' alt='Rediger'>✏️</a></td>")
+        print(f"    <td><a href='{edit_url}' title='Samle inn data for {navn}' target='_blank'>✏️</a></td>")
         print("</tr>")
 
     print("</table>")
