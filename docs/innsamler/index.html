@@ -381,7 +381,7 @@
                 toYaml() {
                     const clone = JSON.parse(JSON.stringify(this.data));
 
-                    this.output = YAML.stringify(this.roundFloats(this.removeEmpty(clone)), 6, 2).replaceAll(/-\n\s+/g, '- ');
+                    this.output = "---\n" + YAML.stringify(this.roundFloats(this.removeEmpty(clone)), 6, 2).replaceAll(/-\n\s+/g, '- ');
                 },
                 removeEmpty(obj) {
                     Object.keys(obj).forEach((key) => {

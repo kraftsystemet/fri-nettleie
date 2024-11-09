@@ -1,0 +1,28 @@
+---
+netteier: 'Vestmar Nett AS'
+gln: '7080005054928'
+kilder:
+  - 'https://vestmar-nett.no/nett-og-nettleie/'
+  - 'https://vestmar-nett.no/wp-content/uploads/2024/01/Tariffer-010224.pdf'
+sist_oppdatert: '2024-02-01'
+tariffer:
+  - id: 2024-02-n100
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - { terskel: 0, pris: 342.27 }
+        - { terskel: 5, pris: 605.16 }
+        - { terskel: 10, pris: 868.05 }
+        - { terskel: 15, pris: 1130.94 }
+        - { terskel: 20, pris: 1393.72 }
+        - { terskel: 25, pris: 2182.39 }
+        - { terskel: 50, pris: 3496.73 }
+        - { terskel: 75, pris: 4811.08 }
+        - { terskel: 100, pris: 6782.54 }
+        - { terskel: 150, pris: 9411.23 }
+        - { terskel: 200, pris: 13354.26 }
+    energiledd:
+      grunnpris: 19.86
+    gyldig_fra: '2024-02-01'
