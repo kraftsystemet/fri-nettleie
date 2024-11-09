@@ -27,6 +27,8 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
 - [Dataene i bruk](#dataene-i-bruk)
 - [Status](#status)
+- [Forvaltere](#forvaltere)
+- [Lisens](#lisens)
 
 <!-- tocstop -->
 
@@ -238,10 +240,10 @@ Den følgende listen viser status på innsamlede data.
         <th>Handling</th>
     </tr>
 <tr>
-    <td>Alut AS</td>
+    <td>Alut AS ✅</td>
     <td>7080010004383</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBbHV0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA0MzgzIn0=' title='Samle inn data for Alut AS' target='_blank'>✏️</a></td>
+    <td><code>2024-11-09</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBbHV0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA0MzgzIiwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMDkiLCAia2lsZGVyIjogWyJodHRwczovL2FsdXQubm8vbmV0dGxlaWUvIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiT1ZfVFJFRkFTRSIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDI5MS42N30sIHsidGVyc2tlbCI6IDEyNSwgInByaXMiOiAzNzV9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMS41Mn0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV19' title='Samle inn data for Alut AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Arva AS</td>
