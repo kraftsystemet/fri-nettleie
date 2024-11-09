@@ -635,3 +635,24 @@ Den følgende listen viser status på innsamlede data.
 </tr>
 </table>
 
+<!-- statusstop -->
+
+## Forvaltere
+
+Forvalterne av dette prosjektet er medlemmene av
+[github.com/kraftsystemet](https://github.com/kraftsystemet). Alt vi gjør på
+dette prosjektet er som privatpersoner.
+
+## Lisens
+
+Dataene i dette prosjektet er lisensiert under
+[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Kreditering gjøres
+til "Fri nettleie", med lenke til dette prosjektet.
+
+Vi bruker denne lisensen for å gi deg som bruker vide rettigheter til å bruke dataene samtidig som vi ønsker navngivelse for å sikre synlighet (og dermed bidrag) til nettdugnaden vår.
+
+Data i mappen `referanse-data` er lastet fra andre kilder og brukes for status-rapportering.
+
+* `esett` - Data fra [eSett](https://opendata.esett.com/) lisensiert med [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* `elhub` - Data fra [Elhub](https://api.elhub.no) med uspesifisert lisens
+* `nve` - Data fra [NVE](https://biapi.nve.no/nettleietariffer/swagger/index.html) lisensiert med [NLOD](https://data.norge.no/nlod)
