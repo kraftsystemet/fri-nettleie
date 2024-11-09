@@ -1,0 +1,26 @@
+netteier: 'Vang Energiverk AS'
+gln: '7080010002297'
+sist_oppdatert: '2024-11-09'
+kilder:
+  - 'https://www.vangenergi.no/nettleige/forbrukarkundar/'
+  - 'https://www.vangenergi.no/nyheter/'
+tariffer:
+  -
+    id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - {terskel: 0, pris: 400}
+        - {terskel: 2, pris: 500}
+        - {terskel: 5, pris: 605}
+        - {terskel: 8, pris: 710}
+        - {terskel: 12, pris: 835}
+        - {terskel: 18, pris: 965}
+        - {terskel: 25, pris: 1115}
+    energiledd:
+      grunnpris: 8
+      unntak:
+        - {navn: Brukstidstillegg, timer: 6-21, tillegg: 10, dager: [fredag], måneder: [januar, februar, mars, april, oktober, november, desember]}
+    gyldig_fra: '2024-01-01'

@@ -364,10 +364,10 @@ Den følgende listen viser status på innsamlede data.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyAodGlkbGlnZXJlIEFnZGVyIEVuZXJnaSBOZXR0KSIsICJnbG4iOiAiNzA4MDAwNTA1NjA2OSJ9' title='Samle inn data for Glitre Nett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Griug AS</td>
+    <td>Griug AS ✅</td>
     <td>7080005052900</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHcml1ZyBBUyIsICJnbG4iOiAiNzA4MDAwNTA1MjkwMCJ9' title='Samle inn data for Griug AS' target='_blank'>✏️</a></td>
+    <td><code>2024-11-09</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHcml1ZyBBUyIsICJnbG4iOiAiNzA4MDAwNTA1MjkwMCIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA5IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cuZ3JpdWcubm8vb20tbmV0dGxlaWUtb2ctcHJpc2VyL3ByaXNlci9uZXR0bGVpZXByaXNlci0yMDI0LyJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTc2fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyNjR9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDM5Nn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDUwOH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDY0MH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDc3Nn0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE0NTJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyMTMyfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMjg2MH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA1Njc2fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogOC44LCAidW5udGFrIjogW3sibmF2biI6ICJCcnVrc3RpZHN0aWxsZWdnIiwgInRpbWVyIjogIjYtMjEiLCAidGlsbGVnZyI6IDExLCAiZGFnZXIiOiBbImZyZWRhZyJdLCAibVx1MDBlNW5lZGVyIjogWyJqYW51YXIiLCAiZmVicnVhciIsICJtYXJzIiwgIm9rdG9iZXIiLCAibm92ZW1iZXIiLCAiZGVzZW1iZXIiXX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for Griug AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Havnett AS</td>
@@ -598,10 +598,10 @@ Den følgende listen viser status på innsamlede data.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJVdmRhbCBLcmFmdGZvcnN5bmluZyIsICJnbG4iOiAiNzA4MDAwNTA1MDUwMCJ9' title='Samle inn data for Uvdal Kraftforsyning' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Vang Energiverk AS</td>
+    <td>Vang Energiverk AS ✅</td>
     <td>7080010002297</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWYW5nIEVuZXJnaXZlcmsgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDIyOTcifQ==' title='Samle inn data for Vang Energiverk AS' target='_blank'>✏️</a></td>
+    <td><code>2024-11-09</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWYW5nIEVuZXJnaXZlcmsgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDIyOTciLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0wOSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LnZhbmdlbmVyZ2kubm8vbmV0dGxlaWdlL2ZvcmJydWthcmt1bmRhci8iLCAiaHR0cHM6Ly93d3cudmFuZ2VuZXJnaS5uby9ueWhldGVyLyJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogNDAwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiA1MDB9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDYwNX0sIHsidGVyc2tlbCI6IDgsICJwcmlzIjogNzEwfSwgeyJ0ZXJza2VsIjogMTIsICJwcmlzIjogODM1fSwgeyJ0ZXJza2VsIjogMTgsICJwcmlzIjogOTY1fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTExNX1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDgsICJ1bm50YWsiOiBbeyJuYXZuIjogIkJydWtzdGlkc3RpbGxlZ2ciLCAidGltZXIiOiAiNi0yMSIsICJ0aWxsZWdnIjogMTAsICJkYWdlciI6IFsiZnJlZGFnIl0sICJtXHUwMGU1bmVkZXIiOiBbImphbnVhciIsICJmZWJydWFyIiwgIm1hcnMiLCAiYXByaWwiLCAib2t0b2JlciIsICJub3ZlbWJlciIsICJkZXNlbWJlciJdfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIn1dfQ==' title='Samle inn data for Vang Energiverk AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Vest-Telemark Kraftlag AS Nett</td>
