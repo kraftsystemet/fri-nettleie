@@ -131,7 +131,7 @@
                     <th>mnd </th>
                     <th>mnd m/ mva</th>
                     <th>år</th>
-                    <th>pr m/mva</th>
+                    <th>år m/mva</th>
                     <th>fjern</th>
                 </tr>
                 <template x-for="(terskel, jndex) in data.tariffer[index].fastledd.terskler" :key="jndex">
@@ -378,7 +378,8 @@
                 },
                 toYaml() {
                     const clone = JSON.parse(JSON.stringify(this.data));
-                    this.output = YAML.stringify(this.removeEmpty(clone), 5, 2);
+
+                    this.output = YAML.stringify(this.roundFloats(this.removeEmpty(clone)), 6, 2).replaceAll(/-\n\s+/g, '- ');
                 },
                 removeEmpty(obj) {
                     Object.keys(obj).forEach((key) => {
@@ -386,6 +387,16 @@
                         (obj[key] === '' || obj[key] === null || obj[key] === undefined) && delete obj[key];
                     });
                     return Object.keys(obj).length > 0 ? obj : undefined;
+                },
+                roundFloats(obj) {
+                    Object.keys(obj).forEach((key) => {
+                    if (typeof obj[key] === 'object') {
+                        obj[key] = this.roundFloats(obj[key]);
+                    } else if (typeof obj[key] === 'number' && obj[key] % 1 !== 0) {
+                        obj[key] = Number(obj[key].toFixed(3));
+                    }
+                    });
+                    return obj;
                 },
                 copyToClipboard() {
                     navigator.clipboard.writeText(this.output);
