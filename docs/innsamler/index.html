@@ -24,7 +24,7 @@
         }
 
         input[type="number"] {
-             width: 150px;
+             width: 100px;
         }
 
         .container {
@@ -125,17 +125,38 @@
 
             <h5>Terskler</h5>
             <button @click="addTerskel(index)">Legg til en ekstra terskel</button>
-            <template x-for="(terskel, jndex) in data.tariffer[index].fastledd.terskler" :key="jndex">
-                <div class="input-group input-collection">
-                    <label for="terskel">Terskel:</label>
-                    <input type="number" id="terskel" x-model.number="terskel.terskel" placeholder="Enter terskel">
-                    <label for="pris">Pris:</label>
-                    <input type="number" id="pris" x-model.number="terskel.pris" placeholder="Enter pris">
-                    <label for="pris">Pris MVA:</label>
-                    <input type="number" id="pris-mva" class="secondary-input" x-bind:value="terskel.pris*1.25" x-on:change="terskel.pris = $event.target.value * 0.8" placeholder="Enter pris">
-                    <button @click="removeTerskel(index,jndex)">Fjern</button>
-                </div>
-            </template>
+            <table>
+                <tr>
+                    <th>terskel</th>
+                    <th>mnd </th>
+                    <th>mnd m/ mva</th>
+                    <th>år</th>
+                    <th>pr m/mva</th>
+                    <th>fjern</th>
+                </tr>
+                <template x-for="(terskel, jndex) in data.tariffer[index].fastledd.terskler" :key="jndex">
+                    <tr class="input-group input-collection">
+                        <td>
+                            <input type="number" id="terskel" x-model.number="terskel.terskel">
+                        </td>
+                        <td>
+                            <input type="number" id="pris" x-model.number="terskel.pris">
+                        </td>
+                        <td>
+                            <input type="number" id="pris-mva" class="secondary-input" x-bind:value="terskel.pris*1.25" x-on:change="terskel.pris = $event.target.value * 0.8">
+                        </td>
+                        <td>
+                            <input type="number" id="pris-ar" class="secondary-input" x-bind:value="terskel.pris*12" x-on:change="terskel.pris = $event.target.value / 12">
+                        </td>
+                        <td>
+                            <input type="number" id="pris-ar-mva" class="secondary-input" x-bind:value="terskel.pris*12*1.25" x-on:change="terskel.pris = ($event.target.value * 0.8) / 12">
+                        </td>
+                        <td>
+                            <button @click="removeTerskel(index,jndex)">Fjern</button>
+                        </td>
+                    </tr>
+                </template>
+            </table>
 
             <h4>Energiledd</h4>
             <div class="input-group">
@@ -144,7 +165,7 @@
                         <th>uten avgifter</th>
                         <th>mva</th>
                         <th>enova+mva</th>
-                        <th>enova+tiltak+mva</th>
+                        <th>enova+tiltak</th>
                         <th>enova+forbruk+mva</th>
                     </tr>
                     <tr>
@@ -158,7 +179,7 @@
                             <input type="number" id="pris-enova-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-tiltak-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + 0.58) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - 0.58">
+                            <input type="number" id="pris-enova-tiltak" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1 + 0.58" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1 - 0.58">
                         </td>
                         <td>
                             <input type="number" id="pris-enova-forbruk-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + 16.44) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - 16.44">

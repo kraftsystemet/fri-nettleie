@@ -1,0 +1,19 @@
+---
+netteier: 'Alut AS'
+gln: '7080010004383'
+sist_oppdatert: '2024-11-09'
+kilder:
+  - 'https://alut.no/nettleie/'
+tariffer:
+  -
+    id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: OV_TREFASE
+      terskel_inkludert: true
+      terskler:
+        - {terskel: 0, pris: 291.67}
+        - {terskel: 125, pris: 375}
+    energiledd:
+      grunnpris: 11.52
+    gyldig_fra: '2024-01-01'
