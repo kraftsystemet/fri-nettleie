@@ -13,16 +13,26 @@ tariffer:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true # TDOD usikker på om dette er riktig
       terskler:
-        0: 220.0
-        2: 274.4
-        5: 328.8
-        10: 548.8
-        15: 659.2
-        20: 768.0
-        25: 1098.4
-        50: 1208.0
-        75: 1316.8
-        100: 1647.2
+        - terskel: 0
+          pris: 220.0
+        - terskel: 2
+          pris: 274.4
+        - terskel: 5
+          pris: 328.8
+        - terskel: 10
+          pris: 548.8
+        - terskel: 15
+          pris: 659.2
+        - terskel: 20
+          pris: 768.0
+        - terskel: 25
+          pris: 1098.4
+        - terskel: 50
+          pris: 1208.0
+        - terskel: 75
+          pris: 1316.8
+        - terskel: 100
+          pris: 1647.2
     energiledd:
       grunnpris: 20.424
       unntak:
@@ -37,16 +47,26 @@ tariffer:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
       terskler:
-        0: 222.4
-        2: 308.8
-        5: 395.2
-        10: 568.0
-        15: 683.2
-        20: 799.2
-        25: 1015.2
-        50: 1130.4
-        75: 1246.4
-        100: 1534.4
+        - terskel: 0
+          pris: 222.4
+        - terskel: 2
+          pris: 308.8
+        - terskel: 5
+          pris: 395.2
+        - terskel: 10
+          pris: 568.0
+        - terskel: 15
+          pris: 683.2
+        - terskel: 20
+          pris: 799.2
+        - terskel: 25
+          pris: 1015.2
+        - terskel: 50
+          pris: 1130.4
+        - terskel: 75
+          pris: 1246.4
+        - terskel: 100
+          pris: 1534.4
     energiledd:
       grunnpris: 15.384
       unntak:

@@ -14,17 +14,28 @@ tariffer:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true # TODO usikker på om dette er riktig
       terskler:
-        0: 200
-        5: 336
-        10: 472
-        15: 608
-        20: 744
-        25: 1216
-        50: 1636
-        75: 2016
-        100: 2416
-        150: 2736
-        200: 3136
+        - terskel: 0
+          pris: 200
+        - terskel: 5
+          pris: 336
+        - terskel: 10
+          pris: 472
+        - terskel: 15
+          pris: 608
+        - terskel: 20
+          pris: 744
+        - terskel: 25
+          pris: 1216
+        - terskel: 50
+          pris: 1636
+        - terskel: 75
+          pris: 2016
+        - terskel: 100
+          pris: 2416
+        - terskel: 150
+          pris: 2736
+        - terskel: 200
+          pris: 3136
     energiledd:
       # TODO veldig usikker på disse prisene da det står "inklusive alle avgifter",
       # men den oppgitte prisen kan umulig være med forbruksavgift.

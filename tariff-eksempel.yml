@@ -95,12 +95,14 @@ tariffer:
 
       # Terskler for fastledd.
       # Vi oppgir kun terskel (nedre grense) og pris i kroner.
-      #   <terskel>: <pris>
-      # Bør sorteres i stigende rekkefølge.
+      # Bør sorteres i stigende rekkefølge for lesbarhet.
       terskler:
-        0: 23
-        5: 1231
-        10: 4444
+        - terskel: 0
+          pris: 23
+        - terskel: 5
+          pris: 1231
+        - terskel: 10
+          pris: 4444
 
     # Energileddet er prisen for brukt energi i øre/kWh.
     energiledd:

@@ -14,15 +14,24 @@ tariffer:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
       terskler:
-        0: 220
-        5: 330
-        10: 500
-        15: 750
-        20: 1000
-        25: 1397
-        50: 2096
-        75: 2600
-        100: 3000
+        - terskel: 0
+          pris: 220
+        - terskel: 5
+          pris: 330
+        - terskel: 10
+          pris: 500
+        - terskel: 15
+          pris: 750
+        - terskel: 20
+          pris: 1000
+        - terskel: 25
+          pris: 1397
+        - terskel: 50
+          pris: 2096
+        - terskel: 75
+          pris: 2600
+        - terskel: 100
+          pris: 3000
     energiledd:
       grunnpris: 26
       unntak:

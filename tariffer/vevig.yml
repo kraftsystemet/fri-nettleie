@@ -14,23 +14,40 @@ tariffer:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: false
       terskler:
-        0: 168
-        2: 218
-        5: 303
-        10: 389
-        15: 474
-        20: 558
-        25: 643
-        30: 813
-        40: 982
-        50: 1406
-        75: 1803
-        100: 2253
-        125: 2678
-        150: 3526
-        200: 5222
-        300: 6917
-        400: 17092
+        - terskel: 0
+          pris: 168
+        - terskel: 2
+          pris: 218
+        - terskel: 5
+          pris: 303
+        - terskel: 10
+          pris: 389
+        - terskel: 15
+          pris: 474
+        - terskel: 20
+          pris: 558
+        - terskel: 25
+          pris: 643
+        - terskel: 30
+          pris: 813
+        - terskel: 40
+          pris: 982
+        - terskel: 50
+          pris: 1406
+        - terskel: 75
+          pris: 1803
+        - terskel: 100
+          pris: 2253
+        - terskel: 125
+          pris: 2678
+        - terskel: 150
+          pris: 3526
+        - terskel: 200
+          pris: 5222
+        - terskel: 300
+          pris: 6917
+        - terskel: 400
+          pris: 17092
     energiledd:
       grunnpris: 13.4
       unntak:

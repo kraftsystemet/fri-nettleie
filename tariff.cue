@@ -48,11 +48,13 @@ import (
 #Dag: "mandag" | "tirsdag" | "onsdag" | "torsdag" | "fredag" | "lørdag" | "søndag" | "ukedag" | "helg" | "helligdager" | "fridag" | "virkedag" | "alle"
 #Måned: "januar" | "februar" | "mars" | "april" | "mai" | "juni" | "juli" | "august" | "september" | "oktober" | "november" | "desember"
 
-
 #Fastledd: {
     metode!: "TRE_DØGNMAX_MND" | "FEM_VEKTET_ÅR" | "OV_TREFASE"
     terskel_inkludert!: bool
-    terskler!: {
-        [_]: float | int
-    }
+    terskler!: [...#Terskel]
+}
+
+#Terskel: {
+    terskel: int
+    pris!: float | int
 }
