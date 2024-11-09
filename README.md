@@ -336,10 +336,10 @@ Den følgende listen viser status på innsamlede data.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGYWduZSBBUyIsICJnbG4iOiAiNzA4MDAwMzgwOTU5OSJ9' title='Samle inn data for Fagne AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Fjellnett AS</td>
+    <td>Fjellnett AS ✅</td>
     <td>7080010000316</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGamVsbG5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDAzMTYifQ==' title='Samle inn data for Fjellnett AS' target='_blank'>✏️</a></td>
+    <td><code>2024-11-09</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGamVsbG5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDAzMTYiLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIkZFTV9WRUtURVRfXHUwMGM1UiIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDE0MS42Njd9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDE4MC43MzN9LCB7InRlcnNrZWwiOiAzLCAicHJpcyI6IDIxOS44fSwgeyJ0ZXJza2VsIjogNCwgInByaXMiOiAyOTcuOTMzfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMzd9LCB7InRlcnNrZWwiOiA2LCAicHJpcyI6IDM3Ni4wNjd9LCB7InRlcnNrZWwiOiA3LCAicHJpcyI6IDQxNS4xMzN9LCB7InRlcnNrZWwiOiA4LCAicHJpcyI6IDQ1NC4yfSwgeyJ0ZXJza2VsIjogOSwgInByaXMiOiA0OTMuMjY3fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNTMyLjMzM30sIHsidGVyc2tlbCI6IDExLCAicHJpcyI6IDU3MS40fSwgeyJ0ZXJza2VsIjogMTIsICJwcmlzIjogNjEwLjQ2N30sIHsidGVyc2tlbCI6IDEzLCAicHJpcyI6IDY0OS41MzN9LCB7InRlcnNrZWwiOiAxNCwgInByaXMiOiA2ODguNn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDcyNy42Njd9LCB7InRlcnNrZWwiOiAxNiwgInByaXMiOiA3NjYuNzMzfSwgeyJ0ZXJza2VsIjogMTcsICJwcmlzIjogODA1Ljh9LCB7InRlcnNrZWwiOiAxOCwgInByaXMiOiA4NDQuODY3fSwgeyJ0ZXJza2VsIjogMTksICJwcmlzIjogODgzLjkzM30sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDkyM31dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDEwLjYwOH0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV0sICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmZqZWxsbmV0dC5uby9uZXR0bGVpZS9hdnRhbGVyLW9nLXZpbGthci9mZWxsZXNiZXN0ZW1tZWxzZXIvIiwgImh0dHBzOi8vd3d3LmZqZWxsbmV0dC5uby9uZXR0bGVpZXByaXNlci9wcml2YXRrdW5kZXIvIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA5In0=' title='Samle inn data for Fjellnett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Føie AS</td>
