@@ -1,0 +1,32 @@
+---
+netteier: 'Vest-Telemark Kraftlag AS Nett'
+gln: '7080005051927'
+kilder:
+  - 'https://www.telemark-nett.no/prisar/nettleige-1/'
+sist_oppdatert: '2024-03-01'
+tariffer:
+  - id: 2024-03
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 295
+        - terskel: 5
+          pris: 380
+        - terskel: 10
+          pris: 700
+        - terskel: 15
+          pris: 950
+        - terskel: 20
+          pris: 1160
+        - terskel: 25
+          pris: 2000
+        - terskel: 50
+          pris: 3260
+        - terskel: 75
+          pris: 4430
+    energiledd:
+      grunnpris: 26
+    gyldig_fra: '2024-03-01'
