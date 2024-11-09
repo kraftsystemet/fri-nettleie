@@ -67,19 +67,20 @@ def print_status():
     </tr>""")
 
     for dso in sorted(list(dsos.keys())):
-        navn = dso
+        # fjerne " (tidligere xxx)"
+        navn = dso.split('(')[0].strip()
         gln = dsos[dso]
         oppdatert = ''
         status = ''
 
         data = {
-            "netteier": navn,
+            "netteier": dso,
             "gln": gln
         }
 
         if gln in dso_status:
             data = dso_status[gln]
-            oppdatert = f'`{data["sist_oppdatert"].strftime("%Y-%m-%d")}`'
+            oppdatert = data["sist_oppdatert"].strftime("%Y-%m-%d")
             status = ' ✅'
 
         edit_url = f"https://github.com/kraftsystemet/fri-nettleie/innsamler/?data={atob(json.dumps(data, default=json_serial))}"
@@ -89,7 +90,7 @@ def print_status():
         print("<tr>")
         print(f"    <td>{navn}{status}</td>")
         print(f"    <td>{gln}</td>")
-        print(f"    <td>{oppdatert}</td>")
+        print(f"    <td><code>{oppdatert}</code></td>")
         print(f"    <td><a href='{edit_url}' alt='Rediger'>✏️</a></td>")
         print("</tr>")
 
