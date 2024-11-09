@@ -164,8 +164,8 @@
                     <tr>
                         <th>uten avgifter</th>
                         <th>mva</th>
-                        <th>enova+mva</th>
-                        <th>enova+tiltak</th>
+                        <th>enova</th>
+                        <th>enova+forbruk</th>
                         <th>enova+forbruk+mva</th>
                     </tr>
                     <tr>
@@ -176,10 +176,10 @@
                             <input type="number" id="pris-mva" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris * 1.25" x-on:change="tariff.energiledd.grunnpris = $event.target.value * 0.8">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1">
+                            <input type="number" id="pris-enova" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-tiltak" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1 + 0.58" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1 - 0.58">
+                            <input type="number" id="pris-enova-forbruk" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1 + 16.44" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1 - 16.44">
                         </td>
                         <td>
                             <input type="number" id="pris-enova-forbruk-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + 16.44) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - 16.44">
@@ -210,8 +210,8 @@
                             <tr>
                                     <th>uten avgifter</th>
                                 <th>mva</th>
-                                <th>enova+mva</th>
-                                <th>enova+tiltak+mva</th>
+                                <th>enova</th>
+                                <th>enova+forbruk</th>
                                 <th>enova+forbruk+mva</th>
                             </tr>
                             <tr>
@@ -222,10 +222,10 @@
                                     <input type="number" id="pris-mva" class="secondary-input" x-bind:value="unntak.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8">
                                 </td>
                                 <td>
-                                    <input type="number" id="pris-enova-mva" class="secondary-input" x-bind:value="(unntak.pris + 1) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1">
+                                    <input type="number" id="pris-enova" class="secondary-input" x-bind:value="unntak.pris + 1" x-on:change="unntak.pris = $event.target.value - 1">
                                 </td>
                                 <td>
-                                    <input type="number" id="pris-enova-tiltak-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 0.58) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 0.58">
+                                    <input type="number" id="pris-enova-forbruk" class="secondary-input" x-bind:value="unntak.pris + 1 + 16.44" x-on:change="unntak.pris = $event.target.value - 1 - 16.44">
                                 </td>
                                 <td>
                                     <input type="number" id="pris-enova-forbruk-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 16.44) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 16.44">

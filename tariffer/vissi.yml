@@ -9,10 +9,9 @@ tariffer:
     gyldig_fra: 2024-01-01
     gyldig_til: null
     kundegruppe: privat
-    # TODO årsforbruk < 100.000 kWh
     fastledd:
       metode: TRE_DØGNMAX_MND
-      terskel_inkludert: true # TODO usikker på om dette er riktig
+      terskel_inkludert: true
       terskler:
         - terskel: 0
           pris: 200
@@ -37,10 +36,8 @@ tariffer:
         - terskel: 200
           pris: 3136
     energiledd:
-      # TODO veldig usikker på disse prisene da det står "inklusive alle avgifter",
-      # men den oppgitte prisen kan umulig være med forbruksavgift.
-      grunnpris: 10.4
+      grunnpris: 12
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 20.8
+          pris: 25

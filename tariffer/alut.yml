@@ -15,5 +15,5 @@ tariffer:
         - {terskel: 0, pris: 291.67}
         - {terskel: 125, pris: 375}
     energiledd:
-      grunnpris: 11.52
+      grunnpris: 13.1
     gyldig_fra: '2024-01-01'

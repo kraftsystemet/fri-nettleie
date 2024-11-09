@@ -179,8 +179,11 @@ En avgift på strøm som betales til netteier og netteier viderefører til Skatt
 fastsetter at avgift på elektrisk kraft settes ved
 [stortingsvedtak](https://lovdata.no/register/stortingsvedtak).
 [Vedtaket for 2024](https://lovdata.no/dokument/STV/forskrift/2023-12-14-2075/KAPITTEL_14#KAPITTEL_14)
-fastsetter også lavere avgift for jan-mars og ytterligere lav avgift for mange
-kommuner i Troms og Finnmark.
+fastsetter også lavere avgift for jan-mars og redusert sats for en del næringer.
+
+Personer som bor i
+[tiltakssonen i Finnmark og Nord-Troms](https://www.regjeringen.no/no/tema/kommuner-og-regioner/regional--og-distriktspolitikk/Berekraftig-regional-utvikling-i-nord/virkemidler-i-tiltakssonen/id2362290/)
+har fritak for el-avgift på forbruk.
 
 ### Merverdiavgift
 
@@ -244,7 +247,7 @@ Den følgende listen viser status på innsamlede data.
     <td>Alut AS ✅</td>
     <td>7080010004383</td>
     <td><code>2024-11-09</code></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBbHV0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA0MzgzIiwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMDkiLCAia2lsZGVyIjogWyJodHRwczovL2FsdXQubm8vbmV0dGxlaWUvIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiT1ZfVFJFRkFTRSIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDI5MS42N30sIHsidGVyc2tlbCI6IDEyNSwgInByaXMiOiAzNzV9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMS41Mn0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV19' title='Samle inn data for Alut AS' target='_blank'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBbHV0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA0MzgzIiwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMDkiLCAia2lsZGVyIjogWyJodHRwczovL2FsdXQubm8vbmV0dGxlaWUvIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiT1ZfVFJFRkFTRSIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDI5MS42N30sIHsidGVyc2tlbCI6IDEyNSwgInByaXMiOiAzNzV9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMy4xfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for Alut AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Arva AS</td>
@@ -634,7 +637,7 @@ Den følgende listen viser status på innsamlede data.
     <td>Vissi AS ✅</td>
     <td>7080004045743</td>
     <td><code>2024-11-06</code></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWaXNzaSBBUyIsICJnbG4iOiAiNzA4MDAwNDA0NTc0MyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA2IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cudmlzc2kubm8vcHJpc2VyLW9nLXZpbGthci9uZXR0bGVpZS1wcml2YXQvIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtcHJpdmF0IiwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSIsICJneWxkaWdfdGlsIjogbnVsbCwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMzZ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA0NzJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA2MDh9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3NDR9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMjE2fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTYzNn0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDIwMTZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMjQxNn0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiAyNzM2fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDMxMzZ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMC40LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjAuOH1dfX1dfQ==' title='Samle inn data for Vissi AS' target='_blank'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWaXNzaSBBUyIsICJnbG4iOiAiNzA4MDAwNDA0NTc0MyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA2IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cudmlzc2kubm8vcHJpc2VyLW9nLXZpbGthci9uZXR0bGVpZS1wcml2YXQvIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtcHJpdmF0IiwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSIsICJneWxkaWdfdGlsIjogbnVsbCwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMzZ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA0NzJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA2MDh9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3NDR9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMjE2fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTYzNn0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDIwMTZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMjQxNn0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiAyNzM2fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDMxMzZ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMiwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDI1fV19fV19' title='Samle inn data for Vissi AS' target='_blank'>✏️</a></td>
 </tr>
 </table>
 

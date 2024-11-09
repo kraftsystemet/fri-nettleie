@@ -9,7 +9,6 @@ tariffer:
     gyldig_fra: 2024-06-01
     gyldig_til: null
     kundegruppe: privat
-    # TODO årsforbruk < 100.000 kWh
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: false
