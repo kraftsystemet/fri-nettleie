@@ -1,3 +1,4 @@
 .*
 !.gitignore
+!.yamlfmt.yml
 venv
