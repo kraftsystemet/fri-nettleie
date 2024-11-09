@@ -92,10 +92,11 @@ Et skript som viser hvordan dette kan gjøres konseptuelt finnes i
 - [x] Samle strukturdata for å identifisere alle netteier og nettområder
 - [x] Definere format for innsamling
 - [x] Vise at det kan genereres prissignal basert på formatet
-- [ ] Samle tariffer for private husholdninger og hytter/fritidseiendom på yaml
+- [x] Samle tariffer for private husholdninger og hytter/fritidseiendom på yaml
   format for et utvalg nettselskaper (med varierende tariffer)
-- [ ] Maskinlesbare filer for avgifter
+- [ ] Koble tariffer til nettavregningsområder
 - [ ] Overvåke nettselskapenes sider for å varsle ved endring
+- [ ] Maskinlesbare filer for avgifter
 - [ ] Publisere prissignal basert på de innsamlede tariffene
 - [ ] Sammenstille og publisere informasjon per netteier på et "menneskelig" format på kraftsystemet.no/fri-nettleie
 - [ ] Samle tariffer for husholdninger og hytter/fritidshus for alle nettområder
