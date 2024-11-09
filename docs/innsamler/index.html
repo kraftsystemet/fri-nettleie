@@ -30,7 +30,7 @@
 <body x-data="app()" x-init="$watch('data', () => {updateURL(); toYaml();}, { deep: true })">
 <div class="container">
     <div class="column">
-    <h1>innsamler - fri-nettleie</h1>
+    <h1><a href="./">innsamler</a> - fri-nettleie</h1>
 
     <p>
         Dette verktøyet brukes for å samle inn tariff-data manuelt.
@@ -63,7 +63,7 @@
 
     <h2>Tariffer</h2>
     <p>En netteier kan ha mer enn en tariff</p>
-    <button @click="addTariff">Legg til en ekstra tariff</button>
+    <button @click="addTariff">Legg til en tariff</button>
     <template x-for="(tariff, index) in data.tariffer" :key="index">
         <div class="tariff">
             <h3 x-text="'Tariff ' + ( index + 1 ) + ' - ' + tariff.id"></h3>
@@ -88,13 +88,17 @@
 
             <h4>Effektledd</h4>
             <div class="input-group">
-
                 <label for="metode">Metode:</label>
                 <select id="metode" x-model="tariff.fastledd.metode" placeholder="Enter metode">
                     <option value="TRE_DØGNMAX_MND">TRE_DØGNMAX_MND</option>
                     <option value="FEM_VEKTET_ÅR">FEM_VEKTET_ÅR</option>
                     <option value="OV_TREFASE">OV_TREFASE</option>
                 </select>
+            </div>
+
+            <div class="input-group">
+                <label for="metode">Terskler inkludert:</label>
+                <input type="checkbox" id="metode" x-model.bool="tariff.fastledd.terskel_inkludert" placeholder="Enter metode">
             </div>
 
             <h5>Terskler</h5>
@@ -115,11 +119,11 @@
             <div class="input-group">
                 <div class="input-group">
                     <label for="pris">Pris (øre/kWh):</label>
-                    <input type="number" id="pris" x-model.number="tariff.energiledd.pris" placeholder="Pris">
+                    <input type="number" id="pris" x-model.number="tariff.energiledd.grunnpris" placeholder="Pris">
                     <label for="pris-mva">Pris (MVA):</label>
-                    <input type="number" id="pris-mva" x-bind:value="tariff.energiledd.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8" placeholder="Pris (MVA)">
+                    <input type="number" id="pris-mva" x-bind:value="tariff.energiledd.grunnpris * 1.25" x-on:change="tariff.energiledd.grunnpris = $event.target.value * 0.8" placeholder="Pris (MVA)">
                     <label for="pris-mva">Pris (enova):</label>
-                    <input type="number" id="pris-enova" x-bind:value="tariff.energiledd.pris + 1" x-on:change="unntak.pris = $event.target.value - 1" placeholder="Pris (Enova)">
+                    <input type="number" id="pris-enova" x-bind:value="tariff.energiledd.grunnpris + 1" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1" placeholder="Pris (Enova)">
                 </div>
             </div>
             <h5>Unntak</h5>
@@ -136,7 +140,7 @@
                 </div>
                 <div class="input-group">
                     <label for="pris">Pris (øre/kWh):</label>
-                    <input type="number" id="pris" x-model="unntak.pris" placeholder="Pris">
+                    <input type="number" id="pris" x-model.number="unntak.pris" placeholder="Pris">
                     <label for="pris-mva">Pris (MVA):</label>
                     <input type="number" id="pris-mva" x-bind:value="unntak.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8" placeholder="Pris (MVA)">
                     <label for="pris-mva">Pris (enova):</label>
@@ -192,28 +196,7 @@
     <script>
         function app() {
             return {
-                data: {
-                    id: '',
-                    kilder: [],
-                    tariffer: [{
-                        id: '',
-                        kundegruppe: 'privat',
-                        fastledd: {
-                            metode: 'TRE_DØGNMAX_MND',
-                            terskler: [
-                                { terskel: 0, pris: 0 }
-                            ]
-                        },
-                        energiledd: {
-                            pris: 0,
-                            unntak: [{
-                                navn: 'Høylast',
-                                timer: "6-21",
-                                pris: 0,
-                            }]
-                        }
-                    }],
-                },
+                data: {},
 
                 init() {
                     this.getDataFromUrl();
@@ -231,12 +214,33 @@
                     this.data.kilder.splice(index, 1);
                 },
                 addTariff() {
-                    this.data.tariffer.push({ id: 'NY', effektledd: [{metode: 'TRE_DØGNMAX_MND', terskel: 0, pris: 0}] });
+                    if (!this.data.tariffer) {
+                        this.data.tariffer = [];
+                    }
+                    this.data.tariffer.push({
+                        id: '',
+                        kundegruppe: 'privat',
+                        fastledd: {
+                            metode: 'TRE_DØGNMAX_MND',
+                            terskel_inludert: true,
+                            terskler: [
+                                { terskel: 0, pris: 0 }
+                            ]
+                        },
+                        energiledd: {
+                            grunnpris: 0,
+                            unntak: [{
+                                navn: 'Høylast',
+                                timer: "6-21",
+                                pris: 0,
+                            }]
+                        }
+                    });
                 },
                 addTerskel(index) {
                     this.data.tariffer[index].fastledd.terskler.push({ terskel: 0, pris: 0 });
                 },
-                remoteTerskel(index,jndex) {
+                removeTerskel(index,jndex) {
                     this.data.tariffer[index].fastledd.terskler.splice(jndex, 1);
                 },
                 removeUnntak(index, jndex) {

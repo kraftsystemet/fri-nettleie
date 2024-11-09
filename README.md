@@ -612,10 +612,10 @@ Den følgende listen viser status på innsamlede data.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0LVRlbGVtYXJrIEtyYWZ0bGFnIEFTIE5ldHQiLCAiZ2xuIjogIjcwODAwMDUwNTE5MjcifQ==' title='Samle inn data for Vest-Telemark Kraftlag AS Nett' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Vestall AS</td>
+    <td>Vestall AS ✅</td>
     <td>7080005051897</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0YWxsIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUxODk3In0=' title='Samle inn data for Vestall AS' target='_blank'>✏️</a></td>
+    <td><code>2024-11-09</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWZXN0YWxsIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUxODk3IiwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMDkiLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogNDUyfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA3NTJ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiAxMDYzfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogMTM3NH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDE2NzJ9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyNTkxfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjkyNX0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDU2NDl9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzk0MH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDQuMywgInVubnRhayI6IFt7Im5hdm4iOiAiRGFnIiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDguNn1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XSwgImtpbGRlciI6IFsiaHR0cHM6Ly92ZXN0YWxsLm5vL25ldHRsZWllcHJpc2VyLTIwMjQvIl19' title='Samle inn data for Vestall AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Vestmar Nett AS</td>
