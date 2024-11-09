@@ -80,7 +80,12 @@ def print_status():
 
         if gln in dso_status:
             data = dso_status[gln]
-            oppdatert = f'<code>{data["sist_oppdatert"].strftime("%Y-%m-%d")}</code>'
+
+            sist_oppdatert = data["sist_oppdatert"]
+            if isinstance(sist_oppdatert, datetime):
+                sist_oppdatert = sist_oppdatert.strftime("%Y-%m-%d")
+            oppdatert = f'<code>{sist_oppdatert}</code>'
+
             status = ' ✅'
 
         edit_url = f"https://kraftsystemet.no/fri-nettleie/innsamler/?data={atob(json.dumps(data, default=json_serial))}"

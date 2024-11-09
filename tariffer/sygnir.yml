@@ -1,0 +1,34 @@
+netteier: 'Sygnir AS'
+gln: '7080010009654'
+sist_oppdatert: '2024-11-09'
+kilder:
+  - 'https://static1.squarespace.com/static/61dfe7b31999591972254dea/t/657af1bc8b3b35794715bef7/1702556094118/Nettleigeprisar+pr+01.01.24.pdf'
+  - 'https://www.sygnir.no/nettleige'
+tariffer:
+  -
+    id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - {terskel: 0, pris: 201.6}
+        - {terskel: 1, pris: 242.4}
+        - {terskel: 2, pris: 282.4}
+        - {terskel: 3, pris: 323.2}
+        - {terskel: 4, pris: 363.2}
+        - {terskel: 5, pris: 424}
+        - {terskel: 6, pris: 484.8}
+        - {terskel: 7, pris: 544.8}
+        - {terskel: 8, pris: 605.6}
+        - {terskel: 9, pris: 666.4}
+        - {terskel: 10, pris: 787.2}
+        - {terskel: 12, pris: 908}
+        - {terskel: 14, pris: 1029.6}
+        - {terskel: 16, pris: 1150.4}
+        - {terskel: 18, pris: 1271.2}
+        - {terskel: 20, pris: 2280.8}
+        - {terskel: 40, pris: 3289.6}
+    energiledd:
+      grunnpris: 18.784
+    gyldig_fra: '2024-01-01'

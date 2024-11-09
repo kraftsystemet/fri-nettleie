@@ -57,6 +57,7 @@
             <div class="input-group">
                 <input type="text" x-model="data.kilder[index]" placeholder="Enter kilde">
                 <button @click="removeKilde(index)">Fjern</button>
+                <a x-bind:href="data.kilder[index]" target="_blank"><button>Besøk</button></a>
             </div>
         </template>
     </div>
@@ -222,7 +223,7 @@
                         kundegruppe: 'privat',
                         fastledd: {
                             metode: 'TRE_DØGNMAX_MND',
-                            terskel_inludert: true,
+                            terskel_inkludert: true,
                             terskler: [
                                 { terskel: 0, pris: 0 }
                             ]

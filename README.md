@@ -27,8 +27,6 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
 - [Dataene i bruk](#dataene-i-bruk)
 - [Status](#status)
-- [Forvaltere](#forvaltere)
-- [Lisens](#lisens)
 
 <!-- tocstop -->
 
@@ -570,10 +568,10 @@ Den følgende listen viser status på innsamlede data.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdU5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDMyMTgifQ==' title='Samle inn data for SuNett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Sygnir AS</td>
+    <td>Sygnir AS ✅</td>
     <td>7080010009654</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTeWduaXIgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDk2NTQifQ==' title='Samle inn data for Sygnir AS' target='_blank'>✏️</a></td>
+    <td><code>2024-11-09</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTeWduaXIgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDk2NTQiLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0wOSIsICJraWxkZXIiOiBbImh0dHBzOi8vc3RhdGljMS5zcXVhcmVzcGFjZS5jb20vc3RhdGljLzYxZGZlN2IzMTk5OTU5MTk3MjI1NGRlYS90LzY1N2FmMWJjOGIzYjM1Nzk0NzE1YmVmNy8xNzAyNTU2MDk0MTE4L05ldHRsZWlnZXByaXNhcitwciswMS4wMS4yNC5wZGYiLCAiaHR0cHM6Ly93d3cuc3lnbmlyLm5vL25ldHRsZWlnZSJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjAxLjZ9LCB7InRlcnNrZWwiOiAxLCAicHJpcyI6IDI0Mi40fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyODIuNH0sIHsidGVyc2tlbCI6IDMsICJwcmlzIjogMzIzLjJ9LCB7InRlcnNrZWwiOiA0LCAicHJpcyI6IDM2My4yfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0MjR9LCB7InRlcnNrZWwiOiA2LCAicHJpcyI6IDQ4NC44fSwgeyJ0ZXJza2VsIjogNywgInByaXMiOiA1NDQuOH0sIHsidGVyc2tlbCI6IDgsICJwcmlzIjogNjA1LjZ9LCB7InRlcnNrZWwiOiA5LCAicHJpcyI6IDY2Ni40fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNzg3LjJ9LCB7InRlcnNrZWwiOiAxMiwgInByaXMiOiA5MDh9LCB7InRlcnNrZWwiOiAxNCwgInByaXMiOiAxMDI5LjZ9LCB7InRlcnNrZWwiOiAxNiwgInByaXMiOiAxMTUwLjR9LCB7InRlcnNrZWwiOiAxOCwgInByaXMiOiAxMjcxLjJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAyMjgwLjh9LCB7InRlcnNrZWwiOiA0MCwgInByaXMiOiAzMjg5LjZ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxOC43ODR9LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIn1dfQ==' title='Samle inn data for Sygnir AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Sør Aurdal Energi AS Nett</td>
@@ -637,24 +635,3 @@ Den følgende listen viser status på innsamlede data.
 </tr>
 </table>
 
-<!-- statusstop -->
-
-## Forvaltere
-
-Forvalterne av dette prosjektet er medlemmene av
-[github.com/kraftsystemet](https://github.com/kraftsystemet). Alt vi gjør på
-dette prosjektet er som privatpersoner.
-
-## Lisens
-
-Dataene i dette prosjektet er lisensiert under
-[CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Kreditering gjøres
-til "Fri nettleie", med lenke til dette prosjektet.
-
-Vi bruker denne lisensen for å gi deg som bruker vide rettigheter til å bruke dataene samtidig som vi ønsker navngivelse for å sikre synlighet (og dermed bidrag) til nettdugnaden vår.
-
-Data i mappen `referanse-data` er lastet fra andre kilder og brukes for status-rapportering.
-
-* `esett` - Data fra [eSett](https://opendata.esett.com/) lisensiert med [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
-* `elhub` - Data fra [Elhub](https://api.elhub.no) med uspesifisert lisens
-* `nve` - Data fra [NVE](https://biapi.nve.no/nettleietariffer/swagger/index.html) lisensiert med [NLOD](https://data.norge.no/nlod)
