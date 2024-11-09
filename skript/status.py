@@ -4,6 +4,25 @@
 import json
 import yaml
 import os
+import base64
+from datetime import date, datetime
+
+# https://stackoverflow.com/a/22238613
+def json_serial(obj):
+
+    """JSON serializer for objects not serializable by default json code"""
+
+    if isinstance(obj, (datetime, date)):
+        return obj.strftime("%Y-%m-%d")
+    raise TypeError ("Type %s not serializable" % type(obj))
+
+
+def atob(s):
+    return base64.b64encode(s.encode()).decode()
+
+
+def btoa(s):
+    return base64.b64decode(s).decode()
 
 def load_dsos():
 
@@ -30,7 +49,7 @@ def load_status():
         with open("./tariffer/" + f, "r") as file:
             data = yaml.safe_load(file)
 
-        status[data["gln"]] = data["sist_oppdatert"]
+        status[data["gln"]] = data
 
     return status
 
@@ -38,14 +57,43 @@ def print_status():
 
     dsos = load_dsos()
     dso_status = load_status()
-
     print("")
-    for dso in sorted(list(dsos.keys())):
-        gln = dsos[dso]
-        status = 'x' if gln in dso_status else ' '
-        details = f' - Sist oppdatert `{dso_status[gln].strftime("%Y-%m-%d")}`' if gln in dso_status else ''
+    print("""<table>
+    <tr>
+        <th>Navn</th>
+        <th>GLN</th>
+        <th>Oppdatert</th>
+        <th>Handling</th>
+    </tr>""")
 
-        print(f"- [{status}] {dso} - {gln}{details}")
+    for dso in sorted(list(dsos.keys())):
+        navn = dso
+        gln = dsos[dso]
+        oppdatert = ''
+        status = ''
+
+        data = {
+            "netteier": navn,
+            "gln": gln
+        }
+
+        if gln in dso_status:
+            data = dso_status[gln]
+            oppdatert = f'`{data["sist_oppdatert"].strftime("%Y-%m-%d")}`'
+            status = ' ✅'
+
+        edit_url = f"https://github.com/kraftsystemet/fri-nettleie/innsamler/?data={atob(json.dumps(data, default=json_serial))}"
+
+        # ✏️
+
+        print("<tr>")
+        print(f"    <td>{navn}{status}</td>")
+        print(f"    <td>{gln}</td>")
+        print(f"    <td>{oppdatert}</td>")
+        print(f"    <td><a href='{edit_url}' alt='Rediger'>✏️</a></td>")
+        print("</tr>")
+
+    print("</table>")
     print("")
 
 
