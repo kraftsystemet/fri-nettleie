@@ -1,28 +1,39 @@
 ---
-netteier: 'Vestall AS'
 gln: '7080005051897'
+kilder:
+  - https://vestall.no/nettleiepriser-2024/
+netteier: Vestall AS
 sist_oppdatert: 2024-11-09
 tariffer:
-  -
-    id: '2024'
-    kundegruppe: privat
-    fastledd:
-      metode: TRE_DØGNMAX_MND
-      terskel_inkludert: true
-      terskler:
-        - {terskel: 0, pris: 452}
-        - {terskel: 5, pris: 752}
-        - {terskel: 10, pris: 1063}
-        - {terskel: 15, pris: 1374}
-        - {terskel: 20, pris: 1672}
-        - {terskel: 25, pris: 2591}
-        - {terskel: 50, pris: 2925}
-        - {terskel: 75, pris: 5649}
-        - {terskel: 100, pris: 7940}
-    energiledd:
+  - energiledd:
       grunnpris: 4.3
       unntak:
-        - {navn: Dag, timer: 6-21, pris: 8.6}
+        - navn: Dag
+          pris: 8.6
+          timer: 6-21
+    fastledd:
+      metode: "TRE_DØGNMAX_MND"
+      terskel_inkludert: true
+      terskler:
+        - pris: 5424
+          terskel: 0
+        - pris: 9024
+          terskel: 5
+        - pris: 12756
+          terskel: 10
+        - pris: 16488
+          terskel: 15
+        - pris: 20064
+          terskel: 20
+        - pris: 31092
+          terskel: 25
+        - pris: 35100
+          terskel: 50
+        - pris: 67788
+          terskel: 75
+        - pris: 95280
+          terskel: 100
     gyldig_fra: '2024-01-01'
-kilder:
-  - 'https://vestall.no/nettleiepriser-2024/'
+    id: '2024'
+    kundegruppe: privat
+

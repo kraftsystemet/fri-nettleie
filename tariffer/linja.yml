@@ -1,75 +1,75 @@
 ---
-netteier: Linja AS
-gln: "7080001319830"
-sist_oppdatert: 2024-11-03
+gln: '7080001319830'
 kilder:
   - https://www.linja.no/nettleige
+netteier: Linja AS
+sist_oppdatert: 2024-11-03
 tariffer:
-  - id: nord-privat
-    gyldig_fra: 2024-07-01
-    gyldig_til: null
-    kundegruppe: privat
-    fastledd:
-      metode: TRE_DØGNMAX_MND
-      terskel_inkludert: true # TDOD usikker på om dette er riktig
-      terskler:
-        - terskel: 0
-          pris: 220.0
-        - terskel: 2
-          pris: 274.4
-        - terskel: 5
-          pris: 328.8
-        - terskel: 10
-          pris: 548.8
-        - terskel: 15
-          pris: 659.2
-        - terskel: 20
-          pris: 768.0
-        - terskel: 25
-          pris: 1098.4
-        - terskel: 50
-          pris: 1208.0
-        - terskel: 75
-          pris: 1316.8
-        - terskel: 100
-          pris: 1647.2
-    energiledd:
+  - energiledd:
       grunnpris: 20.424
       unntak:
-        - navn: Høylast
-          timer: 6-21
+        - navn: "Høylast"
           pris: 27.232
-  - id: sør-privat
-    gyldig_fra: 2024-07-01
-    gyldig_til: null
-    kundegruppe: privat
+          timer: 6-21
     fastledd:
-      metode: TRE_DØGNMAX_MND
+      metode: "TRE_DØGNMAX_MND"
       terskel_inkludert: true
       terskler:
-        - terskel: 0
-          pris: 222.4
-        - terskel: 2
-          pris: 308.8
-        - terskel: 5
-          pris: 395.2
-        - terskel: 10
-          pris: 568.0
-        - terskel: 15
-          pris: 683.2
-        - terskel: 20
-          pris: 799.2
-        - terskel: 25
-          pris: 1015.2
-        - terskel: 50
-          pris: 1130.4
-        - terskel: 75
-          pris: 1246.4
-        - terskel: 100
-          pris: 1534.4
-    energiledd:
+        - pris: 2640
+          terskel: 0
+        - pris: 3292.8
+          terskel: 2
+        - pris: 3945.6
+          terskel: 5
+        - pris: 6585.6
+          terskel: 10
+        - pris: 7910.4
+          terskel: 15
+        - pris: 9216
+          terskel: 20
+        - pris: 13180.8
+          terskel: 25
+        - pris: 14496
+          terskel: 50
+        - pris: 15801.6
+          terskel: 75
+        - pris: 19766.4
+          terskel: 100
+    gyldig_fra: 2024-07-01
+    gyldig_til: null
+    id: nord-privat
+    kundegruppe: privat
+  - energiledd:
       grunnpris: 15.384
       unntak:
-        - navn: Høylast
-          timer: 6-21
+        - navn: "Høylast"
           pris: 22.384
+          timer: 6-21
+    fastledd:
+      metode: "TRE_DØGNMAX_MND"
+      terskel_inkludert: true
+      terskler:
+        - pris: 2668.8
+          terskel: 0
+        - pris: 3705.6000000000004
+          terskel: 2
+        - pris: 4742.4
+          terskel: 5
+        - pris: 6816.0
+          terskel: 10
+        - pris: 8198.400000000001
+          terskel: 15
+        - pris: 9590.400000000001
+          terskel: 20
+        - pris: 12182.400000000001
+          terskel: 25
+        - pris: 13564.800000000001
+          terskel: 50
+        - pris: 14956.800000000001
+          terskel: 75
+        - pris: 18412.800000000003
+          terskel: 100
+    gyldig_fra: 2024-07-01
+    gyldig_til: null
+    id: "sør-privat"
+    kundegruppe: privat

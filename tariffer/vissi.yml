@@ -1,43 +1,44 @@
 ---
-netteier: Vissi AS
-gln: "7080004045743"
-sist_oppdatert: 2024-11-06
+gln: '7080004045743'
 kilder:
   - https://www.vissi.no/priser-og-vilkar/nettleie-privat/
+netteier: Vissi AS
+sist_oppdatert: 2024-11-06
 tariffer:
-  - id: 2024-privat
-    gyldig_fra: 2024-01-01
-    gyldig_til: null
-    kundegruppe: privat
-    fastledd:
-      metode: TRE_DØGNMAX_MND
-      terskel_inkludert: true
-      terskler:
-        - terskel: 0
-          pris: 200
-        - terskel: 5
-          pris: 336
-        - terskel: 10
-          pris: 472
-        - terskel: 15
-          pris: 608
-        - terskel: 20
-          pris: 744
-        - terskel: 25
-          pris: 1216
-        - terskel: 50
-          pris: 1636
-        - terskel: 75
-          pris: 2016
-        - terskel: 100
-          pris: 2416
-        - terskel: 150
-          pris: 2736
-        - terskel: 200
-          pris: 3136
-    energiledd:
+  - energiledd:
       grunnpris: 12
       unntak:
-        - navn: Høylast
-          timer: 6-21
+        - navn: "Høylast"
           pris: 25
+          timer: 6-21
+    fastledd:
+      metode: "TRE_DØGNMAX_MND"
+      terskel_inkludert: true
+      terskler:
+        - pris: 2400
+          terskel: 0
+        - pris: 4032
+          terskel: 5
+        - pris: 5664
+          terskel: 10
+        - pris: 7296
+          terskel: 15
+        - pris: 8928
+          terskel: 20
+        - pris: 14592
+          terskel: 25
+        - pris: 19632
+          terskel: 50
+        - pris: 24192
+          terskel: 75
+        - pris: 28992
+          terskel: 100
+        - pris: 32832
+          terskel: 150
+        - pris: 37632
+          terskel: 200
+    gyldig_fra: 2024-01-01
+    gyldig_til: null
+    id: 2024-privat
+    kundegruppe: privat
+

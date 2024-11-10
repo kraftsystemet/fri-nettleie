@@ -1,5 +1,3 @@
-SHELL=/bin/bash
-
 _PHONY: readme vet fmt
 
 venv:
@@ -14,4 +12,4 @@ vet:
 	cue vet -d "#Selskap" tariff.cue tariff-eksempel.yml tariffer/*.yml
 
 fmt:
-	yamlfmt tariff-eksempel.yml tariff/*
+	yamlfmt tariff-eksempel.yml tariffer/*

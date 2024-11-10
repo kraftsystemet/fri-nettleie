@@ -96,6 +96,8 @@ tariffer:
       # Terskler for fastledd.
       # Vi oppgir kun terskel (nedre grense) og pris i kroner.
       # Bør sorteres i stigende rekkefølge for lesbarhet.
+      # Prisene oppgis PER ÅR. Dette er fordi noen netteiere oppgir
+      # sine tariffer per år og vi ønsker å unngå avrundingsfeil i de innsamlede dataene.
       terskler:
         - terskel: 0
           pris: 23

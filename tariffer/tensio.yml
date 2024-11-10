@@ -1,62 +1,95 @@
-netteier: 'Tensio TS AS'
+---
 gln: '7080005051880'
-sist_oppdatert: '2024-11-09'
 kilder:
-  - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-2024-tn'
-  - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-ts'
+  - https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-2024-tn
+  - https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-ts
+netteier: Tensio TS AS
+sist_oppdatert: '2024-11-09'
 tariffer:
-  -
-    id: 2024-07-tn
-    kundegruppe: privat
-    fastledd:
-      metode: TRE_DØGNMAX_MND
-      terskel_inkludert: true
-      terskler:
-        - {terskel: 0, pris: 148}
-        - {terskel: 2, pris: 296}
-        - {terskel: 5, pris: 536}
-        - {terskel: 10, pris: 813}
-        - {terskel: 15, pris: 1089}
-        - {terskel: 20, pris: 1367}
-        - {terskel: 25, pris: 2381}
-        - {terskel: 50, pris: 3767}
-        - {terskel: 75, pris: 5151}
-        - {terskel: 100, pris: 7457}
-        - {terskel: 150, pris: 10229}
-        - {terskel: 200, pris: 14841}
-        - {terskel: 300, pris: 20381}
-        - {terskel: 400, pris: 25920}
-        - {terskel: 500, pris: 31455}
-      terskel_inkludert: true
-    energiledd:
+  - energiledd:
       grunnpris: 39.68
       unntak:
-        - {navn: Dag, timer: 6-21, pris: 57.43}
-    gyldig_fra: '2024-09-01'
-  -
-    id: 2024-09-ts
-    kundegruppe: privat
+        - navn: Dag
+          pris: 57.43
+          timer: 6-21
     fastledd:
-      metode: TRE_DØGNMAX_MND
+      metode: "TRE_DØGNMAX_MND"
       terskel_inkludert: true
       terskler:
-        - {terskel: 0, pris: 134}
-        - {terskel: 2, pris: 239}
-        - {terskel: 5, pris: 408}
-        - {terskel: 10, pris: 601}
-        - {terskel: 15, pris: 794}
-        - {terskel: 20, pris: 989}
-        - {terskel: 25, pris: 1699}
-        - {terskel: 50, pris: 2667}
-        - {terskel: 75, pris: 3635}
-        - {terskel: 100, pris: 5250}
-        - {terskel: 150, pris: 7185}
-        - {terskel: 200, pris: 10411}
-        - {terskel: 300, pris: 14288}
-        - {terskel: 400, pris: 18158}
-        - {terskel: 500, pris: 22032}
-    energiledd:
+        - pris: 1776
+          terskel: 0
+        - pris: 3552
+          terskel: 2
+        - pris: 6432
+          terskel: 5
+        - pris: 9756
+          terskel: 10
+        - pris: 13068
+          terskel: 15
+        - pris: 16404
+          terskel: 20
+        - pris: 28572
+          terskel: 25
+        - pris: 45204
+          terskel: 50
+        - pris: 61812
+          terskel: 75
+        - pris: 89484
+          terskel: 100
+        - pris: 122748
+          terskel: 150
+        - pris: 178092
+          terskel: 200
+        - pris: 244572
+          terskel: 300
+        - pris: 311040
+          terskel: 400
+        - pris: 377460
+          terskel: 500
+    gyldig_fra: '2024-09-01'
+    id: 2024-07-tn
+    kundegruppe: privat
+  - energiledd:
       grunnpris: 35.93
       unntak:
-        - {navn: Dag, timer: 6-21, pris: 50.18}
+        - navn: Dag
+          pris: 50.18
+          timer: 6-21
+    fastledd:
+      metode: "TRE_DØGNMAX_MND"
+      terskel_inkludert: true
+      terskler:
+        - pris: 1608
+          terskel: 0
+        - pris: 2868
+          terskel: 2
+        - pris: 4896
+          terskel: 5
+        - pris: 7212
+          terskel: 10
+        - pris: 9528
+          terskel: 15
+        - pris: 11868
+          terskel: 20
+        - pris: 20388
+          terskel: 25
+        - pris: 32004
+          terskel: 50
+        - pris: 43620
+          terskel: 75
+        - pris: 63000
+          terskel: 100
+        - pris: 86220
+          terskel: 150
+        - pris: 124932
+          terskel: 200
+        - pris: 171456
+          terskel: 300
+        - pris: 217896
+          terskel: 400
+        - pris: 264384
+          terskel: 500
     gyldig_fra: '2024-09-01'
+    id: 2024-09-ts
+    kundegruppe: privat
+

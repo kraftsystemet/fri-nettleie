@@ -128,10 +128,10 @@
             <table>
                 <tr>
                     <th>terskel</th>
-                    <th>mnd </th>
-                    <th>mnd m/ mva</th>
-                    <th>år</th>
-                    <th>år m/mva</th>
+                    <th>år </th>
+                    <th>år m/ mva</th>
+                    <th>mnd</th>
+                    <th>mnd m/mva</th>
                     <th>fjern</th>
                 </tr>
                 <template x-for="(terskel, jndex) in data.tariffer[index].fastledd.terskler" :key="jndex">
@@ -143,13 +143,13 @@
                             <input type="number" id="pris" x-model.number="terskel.pris">
                         </td>
                         <td>
-                            <input type="number" id="pris-mva" class="secondary-input" x-bind:value="terskel.pris*1.25" x-on:change="terskel.pris = $event.target.value * 0.8">
+                            <input type="number" id="pris-mva" class="secondary-input" x-bind:value="terskel.pris * 1.25" x-on:change="terskel.pris = $event.target.value * 0.8">
                         </td>
                         <td>
-                            <input type="number" id="pris-ar" class="secondary-input" x-bind:value="terskel.pris*12" x-on:change="terskel.pris = $event.target.value / 12">
+                            <input type="number" id="pris-mnd" class="secondary-input" x-bind:value="terskel.pris / 12" x-on:change="terskel.pris = $event.target.value / 12">
                         </td>
                         <td>
-                            <input type="number" id="pris-ar-mva" class="secondary-input" x-bind:value="terskel.pris*12*1.25" x-on:change="terskel.pris = ($event.target.value * 0.8) / 12">
+                            <input type="number" id="pris-mnd-mva" class="secondary-input" x-bind:value="(terskel.pris / 12)*1.25" x-on:change="terskel.pris = ($event.target.value * 0.8) / 12">
                         </td>
                         <td>
                             <button @click="removeTerskel(index,jndex)">Fjern</button>
