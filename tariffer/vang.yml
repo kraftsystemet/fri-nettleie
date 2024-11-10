@@ -21,7 +21,7 @@ tariffer:
             - desember
           navn: Brukstidstillegg
           tillegg: 10
-          timer: 6-21
+          timer: 16-21
     fastledd:
       metode: "TRE_DØGNMAX_MND"
       terskel_inkludert: true

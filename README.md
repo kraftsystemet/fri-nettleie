@@ -84,7 +84,8 @@ Et skript som viser hvordan dette kan gjøres konseptuelt finnes i
 [skript/prissignal.py](./skript/prissignal.py). Brukes slik:
 
 ```bash
-./skript/prissignal.py --fra 2024-10-26 --til 2024-10-28 --tariff tariffer/midtnett.yml
+./skript/prissignal.py --fra 2024-10-26 --til 2024-10-28 --tariff-fil tariffer/midtnett.yml
+./skript/prissignal.py --fra 2024-10-25 --til 2024-10-28 --tariff-fil tariffer/griug.yml
 ```
 
 ## Mål
