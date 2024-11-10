@@ -13,3 +13,6 @@ vet:
 
 fmt:
 	yamlfmt tariff-eksempel.yml tariffer/*
+
+qa:
+	ls -1 tariffer/ | xargs -I% ./skript/qa_nve.py ./tariffer/%
