@@ -1,27 +1,20 @@
 ---
 gln: '7080005052900'
 kilder:
-  - https://www.griug.no/om-nettleie-og-priser/priser/nettleiepriser-2024/
-netteier: Griug AS
+  - 'https://www.griug.no/om-nettleie-og-priser/priser/nettleiepriser-2024/'
+netteier: 'Griug AS'
 sist_oppdatert: '2024-11-09'
 tariffer:
   - energiledd:
-      grunnpris: 8.8
+      grunnpris: 9.8
       unntak:
-        - dager:
-            - fredag
-          måneder:
-            - januar
-            - februar
-            - mars
-            - oktober
-            - november
-            - desember
+        - dager: [fredag]
+          måneder: [januar, februar, mars, oktober, november, desember]
           navn: Brukstidstillegg
           tillegg: 11
-          timer: 16-21
+          timer: 6-21
     fastledd:
-      metode: "TRE_DØGNMAX_MND"
+      metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
       terskler:
         - pris: 2112

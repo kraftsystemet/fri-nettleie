@@ -1,0 +1,25 @@
+---
+netteier: 'Uvdal Kraftforsyning'
+gln: '7080005050500'
+sist_oppdatert: '2024-11-15'
+kilder:
+  - 'http://www.uvdalkraft.no/contact/nett/'
+  - 'http://www.uvdalkraft.no/pdf/Tariffhefte01052024.pdf'
+tariffer:
+  - id: 2024-05
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: false
+      terskler:
+        - terskel: 0
+          pris: 3811.2
+        - terskel: 5
+          pris: 5721.6
+    energiledd:
+      grunnpris: 22.58
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 30.58
+    gyldig_fra: '2024-05-01'
