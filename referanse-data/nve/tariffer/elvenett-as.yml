@@ -1,0 +1,26 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: ELVENETT AS
+org: '979497482'
+priser:
+  - 25.5
+  - 20.5
+terskler:
+  - pris: 2931.0
+    terskel: 0
+  - pris: 3518.04
+    terskel: 2
+  - pris: 3810.96
+    terskel: 5
+  - pris: 4104
+    terskel: 10
+  - pris: 4397.04
+    terskel: 15
+  - pris: 5130.0
+    terskel: 20
+  - pris: 5568.96
+    terskel: 25

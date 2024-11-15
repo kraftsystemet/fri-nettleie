@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '18'
+  - '55'
+fylker_navn:
+  - Nordland
+  - Troms
+navn: VESTALL AS
+org: '968168134'
+priser:
+  - 9.6
+  - 5.3
+terskler:
+  - pris: 5424
+    terskel: 0
+  - pris: 9024
+    terskel: 5
+  - pris: 12756
+    terskel: 10
+  - pris: 16488
+    terskel: 15
+  - pris: 20064
+    terskel: 20
+  - pris: 31092
+    terskel: 25
+  - pris: 35100
+    terskel: 50
+  - pris: 67764
+    terskel: 75
+  - pris: 95280
+    terskel: 100

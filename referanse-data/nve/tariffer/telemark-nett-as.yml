@@ -1,0 +1,27 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '40'
+fylker_navn:
+  - Telemark
+navn: TELEMARK NETT AS
+org: '925803375'
+priser:
+  - 27.9
+terskler:
+  - pris: 3786.0
+    terskel: 0
+  - pris: 4872
+    terskel: 5
+  - pris: 9240
+    terskel: 10
+  - pris: 12180
+    terskel: 15
+  - pris: 14880
+    terskel: 20
+  - pris: 27120
+    terskel: 25
+  - pris: 40560
+    terskel: 50
+  - pris: 56820
+    terskel: 75

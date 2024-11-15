@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '11'
+  - '46'
+fylker_navn:
+  - Rogaland
+  - Vestland
+navn: FAGNE AS
+org: '915635857'
+priser:
+  - 29
+  - 21
+terskler:
+  - pris: 3456
+    terskel: 0
+  - pris: 4416
+    terskel: 5
+  - pris: 5376
+    terskel: 10
+  - pris: 6336
+    terskel: 15
+  - pris: 7296
+    terskel: 20
+  - pris: 21120
+    terskel: 25
+  - pris: 30720
+    terskel: 50
+  - pris: 40320
+    terskel: 75
+  - pris: 49920
+    terskel: 100

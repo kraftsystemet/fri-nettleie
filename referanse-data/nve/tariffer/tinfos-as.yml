@@ -1,0 +1,29 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '40'
+  - '42'
+  - '56'
+fylker_navn:
+  - Telemark
+  - Agder
+  - Finnmark
+navn: TINFOS AS
+org: '916763476'
+priser:
+  - 19
+terskler:
+  - pris: 3156
+    terskel: 0
+  - pris: 4956
+    terskel: 5
+  - pris: 6756
+    terskel: 10
+  - pris: 8556
+    terskel: 15
+  - pris: 10356
+    terskel: 20
+  - pris: 15756
+    terskel: 25
+  - pris: 45000
+    terskel: 50

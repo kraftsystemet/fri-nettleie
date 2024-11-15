@@ -1,0 +1,13 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: SUNETT AS
+org: '924330678'
+priser:
+  - 19.3
+terskler:
+  - pris: 3291.96
+    terskel: 1

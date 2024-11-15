@@ -1,0 +1,23 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: MODALEN KRAFTLAG SA
+org: '877051412'
+priser:
+  - 27.97
+terskler:
+  - pris: 600
+    terskel: 0
+  - pris: 988.8000000000001
+    terskel: 2
+  - pris: 1680
+    terskel: 5
+  - pris: 2371.2
+    terskel: 10
+  - pris: 3062.3999999999996
+    terskel: 15
+  - pris: 3748.7999999999997
+    terskel: 20

@@ -38,13 +38,13 @@ if __name__ == '__main__':
     org = gos[gln]
     print("Organisasjonsnummer:", org)
 
-    konsesjonarer = nve.get_konsesjonarer_fylker(dato)
+    konsesjonarer = nve.get_konsesjonarer(dato)
 
     if org not in konsesjonarer:
         print(f'Organisasjonsnummer {org} not found in NVE data')
         sys.exit(1)
 
-    fylker = konsesjonarer[org]
+    fylker = konsesjonarer[org].fylker
 
     nve_tariff = nve.get_oppsummering(dato, fylker, org)
 

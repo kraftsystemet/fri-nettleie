@@ -1,0 +1,44 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '18'
+  - '50'
+fylker_navn:
+  - Nordland
+  - "Trøndelag"
+navn: TENSIO TN AS
+org: '988807648'
+priser:
+  - 15.3
+  - 29.5
+terskler:
+  - pris: 1420.8000000000002
+    terskel: 0
+  - pris: 2841.6000000000004
+    terskel: 2
+  - pris: 5145.6
+    terskel: 5
+  - pris: 7804.799999999999
+    terskel: 10
+  - pris: 10454.400000000001
+    terskel: 15
+  - pris: 13123.199999999999
+    terskel: 20
+  - pris: 22857.6
+    terskel: 25
+  - pris: 36163.2
+    terskel: 50
+  - pris: 49449.600000000006
+    terskel: 75
+  - pris: 71587.20000000001
+    terskel: 100
+  - pris: 98198.4
+    terskel: 150
+  - pris: 142473.59999999998
+    terskel: 200
+  - pris: 195657.59999999998
+    terskel: 300
+  - pris: 248832
+    terskel: 400
+  - pris: 301968
+    terskel: 500

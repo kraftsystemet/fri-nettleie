@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '55'
+fylker_navn:
+  - Troms
+navn: ARVA AS
+org: 979151950*
+priser:
+  - 24.1
+  - 12.6
+terskler:
+  - pris: 1019.04
+    terskel: 0
+  - pris: 2415.0
+    terskel: 2
+  - pris: 4781.04
+    terskel: 5
+  - pris: 7145.039999999999
+    terskel: 10
+  - pris: 9507.960000000001
+    terskel: 15
+  - pris: 11871.960000000001
+    terskel: 20
+  - pris: 23666.04
+    terskel: 25
+  - pris: 35463.0
+    terskel: 50
+  - pris: 47261.04
+    terskel: 75
+  - pris: 71334.0
+    terskel: 100

@@ -1,0 +1,30 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '11'
+fylker_navn:
+  - Rogaland
+navn: KE NETT AS
+org: '977285712'
+priser:
+  - 14
+  - 26
+terskler:
+  - pris: 3000
+    terskel: 0
+  - pris: 4680
+    terskel: 5
+  - pris: 6360
+    terskel: 10
+  - pris: 8040
+    terskel: 15
+  - pris: 9720
+    terskel: 20
+  - pris: 19800
+    terskel: 25
+  - pris: 25200
+    terskel: 50
+  - pris: 33600
+    terskel: 75
+  - pris: 64680
+    terskel: 100

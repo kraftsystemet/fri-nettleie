@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: NOREFJELL NETT AS
+org: '824701482'
+priser:
+  - 19.05
+  - 12.75
+terskler:
+  - pris: 1968
+    terskel: 0
+  - pris: 2544
+    terskel: 2
+  - pris: 3528
+    terskel: 5
+  - pris: 5304
+    terskel: 10
+  - pris: 6864
+    terskel: 15
+  - pris: 8448
+    terskel: 20
+  - pris: 13752
+    terskel: 25
+  - pris: 20616
+    terskel: 50
+  - pris: 27492
+    terskel: 75
+  - pris: 39264
+    terskel: 100

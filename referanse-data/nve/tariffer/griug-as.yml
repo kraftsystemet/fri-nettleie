@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: GRIUG AS
+org: '953681781'
+priser:
+  - 9.8
+  - 20.8
+terskler:
+  - pris: 2112
+    terskel: 0
+  - pris: 3168
+    terskel: 2
+  - pris: 4752
+    terskel: 5
+  - pris: 6096
+    terskel: 10
+  - pris: 7680
+    terskel: 15
+  - pris: 9312
+    terskel: 20
+  - pris: 17424
+    terskel: 25
+  - pris: 25584
+    terskel: 50
+  - pris: 34320
+    terskel: 75
+  - pris: 68112
+    terskel: 100

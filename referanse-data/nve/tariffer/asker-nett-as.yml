@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '32'
+fylker_navn:
+  - Akershus
+navn: ASKER NETT AS
+org: '917743193'
+priser:
+  - 16.89
+  - 24.89
+terskler:
+  - pris: 1776
+    terskel: 0
+  - pris: 2208
+    terskel: 2
+  - pris: 3264
+    terskel: 5
+  - pris: 6816
+    terskel: 10
+  - pris: 8592
+    terskel: 15
+  - pris: 10848
+    terskel: 20
+  - pris: 15360
+    terskel: 25
+  - pris: 24384
+    terskel: 50
+  - pris: 32448
+    terskel: 75
+  - pris: 51840
+    terskel: 100

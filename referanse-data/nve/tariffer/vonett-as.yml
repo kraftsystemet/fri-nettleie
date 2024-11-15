@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: VONETT AS
+org: '918999361'
+priser:
+  - 15
+  - 20
+terskler:
+  - pris: 1599.96
+    terskel: 0
+  - pris: 2100
+    terskel: 2
+  - pris: 2600.04
+    terskel: 5
+  - pris: 3600
+    terskel: 10
+  - pris: 4500
+    terskel: 15
+  - pris: 5499.96
+    terskel: 20
+  - pris: 6800.039999999999
+    terskel: 25
+  - pris: 8100
+    terskel: 50
+  - pris: 9399.960000000001
+    terskel: 75
+  - pris: 9699.960000000001
+    terskel: 100

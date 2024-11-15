@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: HEMSIL NETT AS
+org: '923050612'
+priser:
+  - 22
+  - 17
+terskler:
+  - pris: 2616
+    terskel: 0
+  - pris: 3696
+    terskel: 2
+  - pris: 5313.6
+    terskel: 5
+  - pris: 6931.200000000001
+    terskel: 10
+  - pris: 8284.8
+    terskel: 15
+  - pris: 9633.599999999999
+    terskel: 20
+  - pris: 10987.2
+    terskel: 25
+  - pris: 13684.800000000001
+    terskel: 30
+  - pris: 16382.400000000001
+    terskel: 40
+  - pris: 21782.4
+    terskel: 50

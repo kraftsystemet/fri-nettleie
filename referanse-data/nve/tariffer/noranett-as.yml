@@ -1,0 +1,53 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '18'
+  - '55'
+fylker_navn:
+  - Nordland
+  - Troms
+navn: NORANETT AS
+org: '985411131'
+priser:
+  - 1.8
+terskler:
+  - pris: 4320
+    terskel: 0
+  - pris: 6120
+    terskel: 2
+  - pris: 7440
+    terskel: 4
+  - pris: 8400
+    terskel: 6
+  - pris: 9360
+    terskel: 8
+  - pris: 10320
+    terskel: 10
+  - pris: 12360
+    terskel: 15
+  - pris: 16800
+    terskel: 20
+  - pris: 19200
+    terskel: 25
+  - pris: 22800
+    terskel: 30
+  - pris: 26400
+    terskel: 35
+  - pris: 30000
+    terskel: 40
+  - pris: 32400
+    terskel: 45
+  - pris: 49200
+    terskel: 50
+  - pris: 74400
+    terskel: 75
+  - pris: 98400
+    terskel: 100
+  - pris: 123600
+    terskel: 125
+  - pris: 147600
+    terskel: 150
+  - pris: 172800
+    terskel: 175
+  - pris: 247200
+    terskel: 200

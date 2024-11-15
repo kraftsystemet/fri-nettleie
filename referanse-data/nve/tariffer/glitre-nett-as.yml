@@ -1,0 +1,46 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '03'
+  - '11'
+  - '32'
+  - '33'
+  - '34'
+  - '40'
+  - '42'
+  - '46'
+fylker_navn:
+  - Oslo
+  - Rogaland
+  - Akershus
+  - Buskerud
+  - Innlandet
+  - Telemark
+  - Agder
+  - Vestland
+navn: GLITRE NETT AS
+org: '982974011'
+priser:
+  - 25.96
+  - 16.36
+terskler:
+  - pris: 1632
+    terskel: 0
+  - pris: 2064
+    terskel: 2
+  - pris: 3552
+    terskel: 5
+  - pris: 7296
+    terskel: 10
+  - pris: 9504
+    terskel: 15
+  - pris: 11904
+    terskel: 20
+  - pris: 18432
+    terskel: 25
+  - pris: 29184
+    terskel: 50
+  - pris: 38880
+    terskel: 75
+  - pris: 63168
+    terskel: 100

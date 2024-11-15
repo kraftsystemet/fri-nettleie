@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '32'
+fylker_navn:
+  - Akershus
+navn: "HØLAND OG SETSKOG ELVERK AS"
+org: '923488960'
+priser:
+  - 26
+  - 21
+terskler:
+  - pris: 2064
+    terskel: 0
+  - pris: 2880
+    terskel: 2
+  - pris: 4080
+    terskel: 5
+  - pris: 5760
+    terskel: 10
+  - pris: 6912
+    terskel: 15
+  - pris: 8832
+    terskel: 20
+  - pris: 15552
+    terskel: 25
+  - pris: 24000
+    terskel: 50
+  - pris: 32720.04
+    terskel: 75
+  - pris: 59520
+    terskel: 100

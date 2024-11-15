@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '31'
+fylker_navn:
+  - "Østfold"
+navn: RAKKESTAD ENERGI AS
+org: '968398083'
+priser:
+  - 27
+  - 22
+terskler:
+  - pris: 2520
+    terskel: 0
+  - pris: 3480
+    terskel: 2
+  - pris: 4440
+    terskel: 5
+  - pris: 5760
+    terskel: 10
+  - pris: 7080
+    terskel: 15
+  - pris: 8640
+    terskel: 20
+  - pris: 15600
+    terskel: 25
+  - pris: 24000
+    terskel: 50
+  - pris: 30000
+    terskel: 75
+  - pris: 60000
+    terskel: 100

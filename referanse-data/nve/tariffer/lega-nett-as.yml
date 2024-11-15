@@ -1,0 +1,26 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '56'
+fylker_navn:
+  - Finnmark
+navn: LEGA NETT AS
+org: '924868759'
+priser:
+  - 15.46
+  - 18.46
+terskler:
+  - pris: 2544
+    terskel: 0
+  - pris: 3312
+    terskel: 2
+  - pris: 4068
+    terskel: 5
+  - pris: 4836
+    terskel: 10
+  - pris: 5592
+    terskel: 15
+  - pris: 6360
+    terskel: 20
+  - pris: 7116
+    terskel: 25

@@ -1,0 +1,52 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '18'
+fylker_navn:
+  - Nordland
+navn: NORANETT HADSEL AS
+org: '917983550'
+priser:
+  - 20
+  - 25
+terskler:
+  - pris: 3240
+    terskel: 0
+  - pris: 4080
+    terskel: 2
+  - pris: 4920
+    terskel: 4
+  - pris: 5760
+    terskel: 6
+  - pris: 6600
+    terskel: 8
+  - pris: 7680
+    terskel: 10
+  - pris: 9600
+    terskel: 15
+  - pris: 11640
+    terskel: 20
+  - pris: 13680
+    terskel: 25
+  - pris: 15600
+    terskel: 30
+  - pris: 17520
+    terskel: 35
+  - pris: 19440
+    terskel: 40
+  - pris: 21360
+    terskel: 45
+  - pris: 27000
+    terskel: 50
+  - pris: 36600
+    terskel: 75
+  - pris: 46440
+    terskel: 100
+  - pris: 56640
+    terskel: 125
+  - pris: 66960
+    terskel: 150
+  - pris: 77160
+    terskel: 175
+  - pris: 87360
+    terskel: 200

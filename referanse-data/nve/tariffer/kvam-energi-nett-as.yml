@@ -1,0 +1,24 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: KVAM ENERGI NETT AS
+org: '923789324'
+priser:
+  - 15.5
+  - 23.5
+terskler:
+  - pris: 2640
+    terskel: 0
+  - pris: 3600
+    terskel: 2
+  - pris: 5520
+    terskel: 5
+  - pris: 8400
+    terskel: 10
+  - pris: 10080
+    terskel: 15
+  - pris: 12000
+    terskel: 20

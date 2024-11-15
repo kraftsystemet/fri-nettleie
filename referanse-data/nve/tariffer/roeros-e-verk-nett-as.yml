@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '34'
+  - '50'
+fylker_navn:
+  - Innlandet
+  - "Trøndelag"
+navn: "RØROS E-VERK NETT AS"
+org: '919884452'
+priser:
+  - 20.8
+  - 14.4
+terskler:
+  - pris: 3405.96
+    terskel: 0
+  - pris: 4946.04
+    terskel: 5
+  - pris: 6927.0
+    terskel: 10
+  - pris: 9615.960000000001
+    terskel: 15
+  - pris: 12468
+    terskel: 20
+  - pris: 23700
+    terskel: 25
+  - pris: 43458.96
+    terskel: 50
+  - pris: 78450.95999999999
+    terskel: 100
+  - pris: 120744
+    terskel: 200

@@ -1,0 +1,36 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '18'
+fylker_navn:
+  - Nordland
+navn: LINEA AS
+org: '917424799'
+priser:
+  - 25.6
+  - 16.6
+terskler:
+  - pris: 3120
+    terskel: 0
+  - pris: 3120
+    terskel: 2
+  - pris: 3960
+    terskel: 5
+  - pris: 5760
+    terskel: 10
+  - pris: 8160
+    terskel: 15
+  - pris: 11160
+    terskel: 20
+  - pris: 15960
+    terskel: 25
+  - pris: 23160
+    terskel: 50
+  - pris: 30360
+    terskel: 75
+  - pris: 41160
+    terskel: 100
+  - pris: 55560
+    terskel: 150
+  - pris: 77160
+    terskel: 200

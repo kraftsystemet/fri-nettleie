@@ -1,0 +1,36 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '31'
+  - '32'
+  - '46'
+fylker_navn:
+  - "Østfold"
+  - Akershus
+  - Vestland
+navn: NORGESNETT AS
+org: '980234088'
+priser:
+  - 12.55
+  - 18.62
+terskler:
+  - pris: 984.1200000000001
+    terskel: 0
+  - pris: 1640.28
+    terskel: 2
+  - pris: 2697.36
+    terskel: 5
+  - pris: 4796.88
+    terskel: 10
+  - pris: 6371.52
+    terskel: 15
+  - pris: 7902.48
+    terskel: 20
+  - pris: 12247.32
+    terskel: 25
+  - pris: 19172.88
+    terskel: 50
+  - pris: 26098.44
+    terskel: 75
+  - pris: 42297.12
+    terskel: 100

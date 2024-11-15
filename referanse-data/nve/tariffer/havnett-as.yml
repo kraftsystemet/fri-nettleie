@@ -1,0 +1,21 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: HAVNETT AS
+org: '924004150'
+priser:
+  - 30.72
+terskler:
+  - pris: 2400
+    terskel: 0
+  - pris: 3072
+    terskel: 5
+  - pris: 5400
+    terskel: 10
+  - pris: 7560
+    terskel: 15
+  - pris: 8280
+    terskel: 20

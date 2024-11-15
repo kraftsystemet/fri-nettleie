@@ -1,0 +1,30 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: MIDTNETT AS
+org: '917856222'
+priser:
+  - 27
+  - 32
+terskler:
+  - pris: 2640
+    terskel: 0
+  - pris: 3960
+    terskel: 5
+  - pris: 6000
+    terskel: 10
+  - pris: 9000
+    terskel: 15
+  - pris: 12000
+    terskel: 20
+  - pris: 16764
+    terskel: 25
+  - pris: 25152
+    terskel: 50
+  - pris: 31200
+    terskel: 75
+  - pris: 36000
+    terskel: 100

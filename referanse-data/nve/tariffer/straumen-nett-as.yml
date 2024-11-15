@@ -1,0 +1,23 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: STRAUMEN NETT AS
+org: '925354813'
+priser:
+  - 19.3
+terskler:
+  - pris: 2787.96
+    terskel: 0
+  - pris: 3207.96
+    terskel: 5
+  - pris: 4751.04
+    terskel: 10
+  - pris: 5589.96
+    terskel: 15
+  - pris: 8379.0
+    terskel: 20
+  - pris: 11166.960000000001
+    terskel: 25

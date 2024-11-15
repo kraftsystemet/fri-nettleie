@@ -1,0 +1,30 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: UVDAL KRAFTFORSYNING SA
+org: '967670170'
+priser:
+  - 20.68
+  - 12.68
+terskler:
+  - pris: 2304
+    terskel: 0
+  - pris: 3456
+    terskel: 5
+  - pris: 5068.799999999999
+    terskel: 10
+  - pris: 9686.400000000001
+    terskel: 15
+  - pris: 14294.400000000001
+    terskel: 20
+  - pris: 21216
+    terskel: 25
+  - pris: 32745.600000000002
+    terskel: 50
+  - pris: 46579.2
+    terskel: 75
+  - pris: 65030.399999999994
+    terskel: 100

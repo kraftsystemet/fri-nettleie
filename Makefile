@@ -12,7 +12,7 @@ vet:
 	cue vet -d "#Selskap" tariff.cue tariff-eksempel.yml tariffer/*.yml
 
 fmt:
-	yamlfmt tariff-eksempel.yml tariffer/*
+	yamlfmt tariff-eksempel.yml tariffer/*.yml referanse-data/nve/tariffer/*.yml
 
 qa:
 	ls -1 tariffer/ | xargs -I% ./skript/qa_nve.py ./tariffer/%

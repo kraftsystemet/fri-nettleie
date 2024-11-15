@@ -1,0 +1,13 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: ETNA NETT AS
+org: '882783022'
+priser:
+  - 11.86
+terskler:
+  - pris: 5130.0
+    terskel: 0

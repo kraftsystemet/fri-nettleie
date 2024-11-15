@@ -1,0 +1,28 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: MELLOM AS
+org: '925668389'
+priser:
+  - 28.35
+  - 23.35
+terskler:
+  - pris: 2331.0
+    terskel: 0
+  - pris: 3497.04
+    terskel: 2
+  - pris: 5828.04
+    terskel: 5
+  - pris: 7692.960000000001
+    terskel: 10
+  - pris: 9674.039999999999
+    terskel: 15
+  - pris: 12122.039999999999
+    terskel: 20
+  - pris: 15269.04
+    terskel: 25
+  - pris: 20397.0
+    terskel: 50

@@ -1,0 +1,34 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: BREHEIM NETT AS
+org: '924527994'
+priser:
+  - 7.5
+  - 15.5
+terskler:
+  - pris: 2160
+    terskel: 0
+  - pris: 4320
+    terskel: 5
+  - pris: 6480
+    terskel: 10
+  - pris: 8640
+    terskel: 15
+  - pris: 10925.039999999999
+    terskel: 20
+  - pris: 21725.04
+    terskel: 25
+  - pris: 32640
+    terskel: 50
+  - pris: 43565.04
+    terskel: 75
+  - pris: 65280
+    terskel: 100
+  - pris: 87120
+    terskel: 150
+  - pris: 130683.95999999999
+    terskel: 200

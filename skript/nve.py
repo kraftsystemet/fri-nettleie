@@ -1,5 +1,7 @@
 import requests
 import enum
+import dataclasses
+from typing import List
 
 class Endpoint(enum.Enum):
     Maned = "NettleiePerOmradePrManedHusholdningFritidEffekttariffer"
@@ -9,15 +11,50 @@ class TariffGruppe(enum.Enum):
     Husholdning = "Husholdning"
     Hytter = "Hytter og fritidshus"
 
+@dataclasses.dataclass
+class Konsesjonar:
+    org: str
+    navn: str
+    fylker: List[str]
+    fylker_navn: List[str]
+
 
 # https://biapi.nve.no/nettleietariffer/swagger/index.html
 TARIFFER_URL="https://biapi.nve.no/nettleietariffer/api/"
 
-
-
-
-def get_konsesjonarer_fylker(dato):
-
+def get_mnd_data(dato):
+    """
+    data is a list of
+    ```json
+    {
+        "datoId": "2024-11-01T00:00:00",
+        "tariffgruppe": "Husholdning",
+        "kundegruppe": "Eksempelkunde 4 (sommer)/6 (vinter) kW, 20 000kWh",
+        "konsesjonar": "LEGA NETT AS",
+        "organisasjonsnr": "924868759",
+        "fylkeNr": "56",
+        "fylke": "Finnmark",
+        "harMva": false,
+        "harForbruksavgift": false,
+        "fastleddEks": 339,
+        "energileddEks": 17.33,
+        "effekttrinnFraKw": 5,
+        "effekttrinnTilKw": 10,
+        "omregnetPrisEks": 684.9072,
+        "fastleddInk": 339,
+        "energileddInk": 17.33,
+        "omregnetPrisInk": 684.9072,
+        "omregnetOrekWhEks": 34.556393,
+        "omregnetOrekWhInk": 34.556393,
+        "omregnetOrekWhEksFylkessnitt": 41.822567,
+        "omregnetOrekWhInkFylkessnitt": 41.822567,
+        "omregnetOrekWhEksLandssnitt": 39.38176,
+        "omregnetOrekWhInkLandssnitt": 67.46451,
+        "fylkesvekt": 0.033248,
+        "landsvekt": 0.000729
+    }
+    ```
+    """
     url = f"{TARIFFER_URL}{Endpoint.Maned.value}"
 
     headers = {'accept': 'application/json'}
@@ -28,51 +65,32 @@ def get_konsesjonarer_fylker(dato):
     }
 
     response = requests.get(url, headers=headers, params=params)
-    data = response.json()
+    return response.json()
 
-    # data is a list of
-    # {
-    #     "datoId": "2024-11-01T00:00:00",
-    #     "tariffgruppe": "Husholdning",
-    #     "kundegruppe": "Eksempelkunde 4 (sommer)/6 (vinter) kW, 20 000kWh",
-    #     "konsesjonar": "LEGA NETT AS",
-    #     "organisasjonsnr": "924868759",
-    #     "fylkeNr": "56",
-    #     "fylke": "Finnmark",
-    #     "harMva": false,
-    #     "harForbruksavgift": false,
-    #     "fastleddEks": 339,
-    #     "energileddEks": 17.33,
-    #     "effekttrinnFraKw": 5,
-    #     "effekttrinnTilKw": 10,
-    #     "omregnetPrisEks": 684.9072,
-    #     "fastleddInk": 339,
-    #     "energileddInk": 17.33,
-    #     "omregnetPrisInk": 684.9072,
-    #     "omregnetOrekWhEks": 34.556393,
-    #     "omregnetOrekWhInk": 34.556393,
-    #     "omregnetOrekWhEksFylkessnitt": 41.822567,
-    #     "omregnetOrekWhInkFylkessnitt": 41.822567,
-    #     "omregnetOrekWhEksLandssnitt": 39.38176,
-    #     "omregnetOrekWhInkLandssnitt": 67.46451,
-    #     "fylkesvekt": 0.033248,
-    #     "landsvekt": 0.000729
-    # }
+def get_konsesjonarer(dato):
+
+    data = get_mnd_data(dato)
 
     konsesjonarer = {}
     for k in data:
         org = k["organisasjonsnr"]
-        fylke = k["fylkeNr"]
+        navn = k["konsesjonar"].replace("*","").split("(")[0].strip()
 
         if org not in konsesjonarer:
-            konsesjonarer[org] = []
+            konsesjonarer[org] = Konsesjonar(
+                org=org,
+                navn=navn,
+                fylker=[k["fylkeNr"]],
+                fylker_navn=[k["fylke"].strip()]
+        )
 
-        if fylke not in konsesjonarer[org]:
-            konsesjonarer[org].append(fylke)
+        if k["fylkeNr"] not in konsesjonarer[org].fylker:
+            konsesjonarer[org].fylker.append(k["fylkeNr"])
+            konsesjonarer[org].fylker_navn.append(k["fylke"].strip())
 
     return konsesjonarer
 
-def get_timedata(dato, fylke, org):
+def get_time_data(dato, fylke, org):
 
     url = f"{TARIFFER_URL}{Endpoint.Time.value}"
 
@@ -110,14 +128,14 @@ def get_timedata(dato, fylke, org):
     data = response.json()
     return data
 
-def get_oppsummering(dato, fylker, org):
+def get_oppsummering(dato, fylker: List[str], org: str):
 
     priser = []
     terskler = {}
 
     for fylke in fylker:
 
-        data = get_timedata(dato, fylke, org)
+        data = get_time_data(dato, fylke, org)
 
 
         for d in data:

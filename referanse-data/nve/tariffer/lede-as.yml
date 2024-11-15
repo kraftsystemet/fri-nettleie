@@ -1,0 +1,35 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '33'
+  - '39'
+  - '40'
+fylker_navn:
+  - Buskerud
+  - Vestfold
+  - Telemark
+navn: LEDE AS
+org: '979422679'
+priser:
+  - 24.38
+terskler:
+  - pris: 2820
+    terskel: 0
+  - pris: 4824
+    terskel: 5
+  - pris: 6792
+    terskel: 10
+  - pris: 8796
+    terskel: 15
+  - pris: 10788
+    terskel: 20
+  - pris: 16764
+    terskel: 25
+  - pris: 26724
+    terskel: 50
+  - pris: 36672
+    terskel: 75
+  - pris: 51612
+    terskel: 100
+  - pris: 71520
+    terskel: 150

@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: ROMSDALSNETT AS
+org: '926377841'
+priser:
+  - 18.85
+  - 28.85
+terskler:
+  - pris: 2540.7599999999998
+    terskel: 0
+  - pris: 3175.2000000000003
+    terskel: 2
+  - pris: 3810.3599999999997
+    terskel: 5
+  - pris: 6351.24
+    terskel: 10
+  - pris: 8891.16
+    terskel: 15
+  - pris: 10161.599999999999
+    terskel: 20
+  - pris: 13971.96
+    terskel: 25
+  - pris: 19052.760000000002
+    terskel: 50
+  - pris: 21593.64
+    terskel: 75
+  - pris: 25404
+    terskel: 100

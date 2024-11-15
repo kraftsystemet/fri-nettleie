@@ -1,0 +1,36 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '11'
+fylker_navn:
+  - Rogaland
+navn: "JÆREN EVERK AS"
+org: '824914982'
+priser:
+  - 20
+  - 14
+terskler:
+  - pris: 1896
+    terskel: 0
+  - pris: 3060
+    terskel: 2
+  - pris: 4896
+    terskel: 5
+  - pris: 7200
+    terskel: 10
+  - pris: 9516
+    terskel: 15
+  - pris: 11820
+    terskel: 20
+  - pris: 18732
+    terskel: 25
+  - pris: 30264
+    terskel: 50
+  - pris: 41796
+    terskel: 75
+  - pris: 59100
+    terskel: 100
+  - pris: 82128
+    terskel: 150
+  - pris: 105156
+    terskel: 200

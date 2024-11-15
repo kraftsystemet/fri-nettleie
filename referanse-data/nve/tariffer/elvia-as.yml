@@ -1,0 +1,40 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '03'
+  - '31'
+  - '32'
+  - '33'
+  - '34'
+fylker_navn:
+  - Oslo
+  - "Østfold"
+  - Akershus
+  - Buskerud
+  - Innlandet
+navn: ELVIA AS
+org: '980489698'
+priser:
+  - 25.56
+  - 19.56
+terskler:
+  - pris: 1344
+    terskel: 0
+  - pris: 2208
+    terskel: 2
+  - pris: 3600
+    terskel: 5
+  - pris: 5040
+    terskel: 10
+  - pris: 6480
+    terskel: 15
+  - pris: 7872
+    terskel: 20
+  - pris: 14976
+    terskel: 25
+  - pris: 22080
+    terskel: 50
+  - pris: 29088
+    terskel: 75
+  - pris: 58080
+    terskel: 100

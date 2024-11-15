@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: HALLINGDAL KRAFTNETT AS
+org: '971589752'
+priser:
+  - 10.93
+  - 6.68
+terskler:
+  - pris: 2352
+    terskel: 0
+  - pris: 2844
+    terskel: 2
+  - pris: 3744
+    terskel: 5
+  - pris: 4632
+    terskel: 10
+  - pris: 5532
+    terskel: 15
+  - pris: 6420
+    terskel: 20
+  - pris: 7320
+    terskel: 25
+  - pris: 8208
+    terskel: 50
+  - pris: 8472
+    terskel: 75
+  - pris: 8712
+    terskel: 100

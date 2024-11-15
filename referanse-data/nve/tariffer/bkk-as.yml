@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: BKK AS
+org: '976944801'
+priser:
+  - 28.75
+  - 19.31
+terskler:
+  - pris: 1392
+    terskel: 0
+  - pris: 2304
+    terskel: 2
+  - pris: 3840
+    terskel: 5
+  - pris: 5472
+    terskel: 10
+  - pris: 7056
+    terskel: 15
+  - pris: 8640
+    terskel: 20
+  - pris: 16560
+    terskel: 25
+  - pris: 24480
+    terskel: 50
+  - pris: 32400
+    terskel: 75
+  - pris: 64080
+    terskel: 100

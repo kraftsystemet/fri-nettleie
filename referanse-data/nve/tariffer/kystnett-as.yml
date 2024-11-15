@@ -1,0 +1,31 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '18'
+fylker_navn:
+  - Nordland
+navn: KYSTNETT AS
+org: '923152601'
+priser:
+  - 17
+terskler:
+  - pris: 5916
+    terskel: 0
+  - pris: 10680
+    terskel: 5
+  - pris: 15432
+    terskel: 10
+  - pris: 20184
+    terskel: 15
+  - pris: 24948
+    terskel: 20
+  - pris: 39216
+    terskel: 25
+  - pris: 63000
+    terskel: 50
+  - pris: 86772
+    terskel: 75
+  - pris: 122448
+    terskel: 100
+  - pris: 170016
+    terskel: 150

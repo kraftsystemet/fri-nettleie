@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: ELINETT AS
+org: '979379455'
+priser:
+  - 17.84
+  - 25.84
+terskler:
+  - pris: 2408.04
+    terskel: 0
+  - pris: 3009.96
+    terskel: 2
+  - pris: 3612
+    terskel: 5
+  - pris: 6020.04
+    terskel: 10
+  - pris: 7224
+    terskel: 15
+  - pris: 8427.960000000001
+    terskel: 20
+  - pris: 12039.0
+    terskel: 25
+  - pris: 13242.96
+    terskel: 50
+  - pris: 14447.04
+    terskel: 75
+  - pris: 18059.04
+    terskel: 100

@@ -1,0 +1,25 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: INDRE HORDALAND KRAFTNETT AS
+org: '919415096'
+priser:
+  - 27.55
+terskler:
+  - pris: 2304
+    terskel: 0
+  - pris: 2880
+    terskel: 2
+  - pris: 3840
+    terskel: 5
+  - pris: 5760
+    terskel: 10
+  - pris: 7680
+    terskel: 15
+  - pris: 9600
+    terskel: 20
+  - pris: 11520
+    terskel: 25

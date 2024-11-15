@@ -1,0 +1,29 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '40'
+fylker_navn:
+  - Telemark
+navn: EVERKET AS
+org: '966731508'
+priser:
+  - 24.8
+terskler:
+  - pris: 3264
+    terskel: 0
+  - pris: 4128
+    terskel: 2
+  - pris: 4992
+    terskel: 5
+  - pris: 6048
+    terskel: 10
+  - pris: 7488
+    terskel: 15
+  - pris: 9600
+    terskel: 20
+  - pris: 12960
+    terskel: 25
+  - pris: 17760
+    terskel: 50
+  - pris: 24000
+    terskel: 75

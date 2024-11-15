@@ -1,0 +1,42 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '50'
+fylker_navn:
+  - "Trøndelag"
+navn: NETTSELSKAPET AS
+org: '921688679'
+priser:
+  - 22.5
+  - 11.7
+terskler:
+  - pris: 1320
+    terskel: 0
+  - pris: 2400
+    terskel: 2
+  - pris: 4080
+    terskel: 5
+  - pris: 6000
+    terskel: 10
+  - pris: 7800
+    terskel: 15
+  - pris: 9840
+    terskel: 20
+  - pris: 16800
+    terskel: 25
+  - pris: 26400
+    terskel: 50
+  - pris: 36000
+    terskel: 75
+  - pris: 51960
+    terskel: 100
+  - pris: 71160
+    terskel: 150
+  - pris: 103080
+    terskel: 200
+  - pris: 141360
+    terskel: 300
+  - pris: 179760
+    terskel: 400
+  - pris: 218040
+    terskel: 500

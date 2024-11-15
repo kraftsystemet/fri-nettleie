@@ -1,0 +1,17 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '55'
+  - '56'
+fylker_navn:
+  - Troms
+  - Finnmark
+navn: ALUT AS
+org: '925336637'
+priser:
+  - 13.1
+terskler:
+  - pris: 3500.04
+    terskel: 0
+  - pris: 4500
+    terskel: 126

@@ -1,0 +1,32 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: NORDVEST NETT AS
+org: '980824586'
+priser:
+  - 24.61
+  - 18.61
+terskler:
+  - pris: 1372.8000000000002
+    terskel: 0
+  - pris: 3369.6000000000004
+    terskel: 2
+  - pris: 4156.799999999999
+    terskel: 5
+  - pris: 6316.799999999999
+    terskel: 10
+  - pris: 7497.599999999999
+    terskel: 15
+  - pris: 8736
+    terskel: 20
+  - pris: 16771.199999999997
+    terskel: 25
+  - pris: 24816
+    terskel: 50
+  - pris: 32851.2
+    terskel: 75
+  - pris: 64608
+    terskel: 100

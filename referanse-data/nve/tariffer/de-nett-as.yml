@@ -1,0 +1,36 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '40'
+fylker_navn:
+  - Telemark
+navn: DE NETT AS
+org: '924862602'
+priser:
+  - 27
+  - 24
+terskler:
+  - pris: 2964
+    terskel: 0
+  - pris: 3828
+    terskel: 2
+  - pris: 4692
+    terskel: 5
+  - pris: 6432
+    terskel: 10
+  - pris: 8160
+    terskel: 15
+  - pris: 9900
+    terskel: 20
+  - pris: 15096
+    terskel: 25
+  - pris: 23772
+    terskel: 50
+  - pris: 32436
+    terskel: 75
+  - pris: 45492
+    terskel: 100
+  - pris: 62832
+    terskel: 150
+  - pris: 88848
+    terskel: 200

@@ -1,0 +1,24 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: LYSNA AS
+org: '923833706'
+priser:
+  - 32
+  - 24
+terskler:
+  - pris: 3720
+    terskel: 0
+  - pris: 4740
+    terskel: 2
+  - pris: 5724
+    terskel: 5
+  - pris: 6960
+    terskel: 10
+  - pris: 8220
+    terskel: 15
+  - pris: 9420
+    terskel: 20

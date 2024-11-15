@@ -1,0 +1,34 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '11'
+  - '42'
+fylker_navn:
+  - Rogaland
+  - Agder
+navn: ENIDA AS
+org: '918312730'
+priser:
+  - 22
+  - 16
+terskler:
+  - pris: 2784
+    terskel: 0
+  - pris: 3360
+    terskel: 2
+  - pris: 4560
+    terskel: 5
+  - pris: 5460
+    terskel: 10
+  - pris: 6516
+    terskel: 15
+  - pris: 7584
+    terskel: 20
+  - pris: 12000
+    terskel: 25
+  - pris: 18000
+    terskel: 50
+  - pris: 24000
+    terskel: 75
+  - pris: 48000
+    terskel: 100

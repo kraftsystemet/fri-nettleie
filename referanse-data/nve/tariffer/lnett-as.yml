@@ -1,0 +1,30 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '11'
+fylker_navn:
+  - Rogaland
+navn: LNETT AS
+org: '980038408'
+priser:
+  - 19.07
+  - 25.47
+terskler:
+  - pris: 2736
+    terskel: 0
+  - pris: 4176
+    terskel: 5
+  - pris: 5616
+    terskel: 10
+  - pris: 7056
+    terskel: 15
+  - pris: 8496
+    terskel: 20
+  - pris: 14976
+    terskel: 25
+  - pris: 21456
+    terskel: 50
+  - pris: 27936
+    terskel: 75
+  - pris: 54000
+    terskel: 100

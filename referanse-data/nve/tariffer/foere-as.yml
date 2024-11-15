@@ -1,0 +1,35 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '40'
+fylker_navn:
+  - Telemark
+navn: "FØRE AS"
+org: '925549738'
+priser:
+  - 20.29
+terskler:
+  - pris: 3156
+    terskel: 0
+  - pris: 4104
+    terskel: 2
+  - pris: 5052
+    terskel: 5
+  - pris: 6000
+    terskel: 10
+  - pris: 6948
+    terskel: 15
+  - pris: 13260
+    terskel: 20
+  - pris: 19572
+    terskel: 25
+  - pris: 25884
+    terskel: 50
+  - pris: 32196
+    terskel: 75
+  - pris: 38508
+    terskel: 100
+  - pris: 44820
+    terskel: 150
+  - pris: 51132
+    terskel: 200

@@ -1,0 +1,26 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: VEVIG AS
+org: '916319908'
+priser:
+  - 21.4
+  - 13.8
+terskler:
+  - pris: 1920
+    terskel: 0
+  - pris: 2496
+    terskel: 2
+  - pris: 3468
+    terskel: 5
+  - pris: 4440
+    terskel: 10
+  - pris: 5412
+    terskel: 15
+  - pris: 6372
+    terskel: 20
+  - pris: 7344
+    terskel: 25

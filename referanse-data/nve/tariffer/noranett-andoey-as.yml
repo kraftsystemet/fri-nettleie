@@ -1,0 +1,53 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '18'
+  - '55'
+fylker_navn:
+  - Nordland
+  - Troms
+navn: "NORANETT ANDØY AS"
+org: '921680554'
+priser:
+  - 27.5
+terskler:
+  - pris: 3720
+    terskel: 0
+  - pris: 4920
+    terskel: 2
+  - pris: 6240
+    terskel: 4
+  - pris: 7560
+    terskel: 6
+  - pris: 8760
+    terskel: 8
+  - pris: 11040
+    terskel: 10
+  - pris: 14160
+    terskel: 15
+  - pris: 17400
+    terskel: 20
+  - pris: 20400
+    terskel: 25
+  - pris: 23760
+    terskel: 30
+  - pris: 27120
+    terskel: 35
+  - pris: 30480
+    terskel: 40
+  - pris: 33960
+    terskel: 45
+  - pris: 43200
+    terskel: 50
+  - pris: 59400
+    terskel: 75
+  - pris: 76080
+    terskel: 100
+  - pris: 92760
+    terskel: 125
+  - pris: 109440
+    terskel: 150
+  - pris: 126240
+    terskel: 175
+  - pris: 142920
+    terskel: 200

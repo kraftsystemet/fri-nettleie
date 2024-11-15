@@ -1,0 +1,44 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '34'
+  - '50'
+fylker_navn:
+  - Innlandet
+  - "Trøndelag"
+navn: TENSIO TS AS
+org: '978631029'
+priser:
+  - 23.7
+  - 12.3
+terskler:
+  - pris: 1286.4
+    terskel: 0
+  - pris: 2294.3999999999996
+    terskel: 2
+  - pris: 3916.7999999999997
+    terskel: 5
+  - pris: 5769.6
+    terskel: 10
+  - pris: 7622.400000000001
+    terskel: 15
+  - pris: 9494.400000000001
+    terskel: 20
+  - pris: 16310.400000000001
+    terskel: 25
+  - pris: 25603.199999999997
+    terskel: 50
+  - pris: 34896
+    terskel: 75
+  - pris: 50400
+    terskel: 100
+  - pris: 68976
+    terskel: 150
+  - pris: 99945.59999999999
+    terskel: 200
+  - pris: 137164.8
+    terskel: 300
+  - pris: 174316.8
+    terskel: 400
+  - pris: 211507.19999999998
+    terskel: 500

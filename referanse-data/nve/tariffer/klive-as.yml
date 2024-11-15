@@ -1,0 +1,35 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: KLIVE AS
+org: '923436596'
+priser:
+  - 15.33
+terskler:
+  - pris: 4012.44
+    terskel: 0
+  - pris: 4983.72
+    terskel: 5
+  - pris: 6614.16
+    terskel: 10
+  - pris: 8822.76
+    terskel: 15
+  - pris: 11031.24
+    terskel: 20
+  - pris: 22051.079999999998
+    terskel: 25
+  - pris: 33082.32
+    terskel: 50
+  - pris: 44113.32
+    terskel: 75
+  - pris: 66164.64
+    terskel: 100
+  - pris: 88215.6
+    terskel: 150
+  - pris: 132329.04
+    terskel: 200
+  - pris: 220545.0
+    terskel: 300

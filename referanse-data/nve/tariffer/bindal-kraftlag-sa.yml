@@ -1,0 +1,22 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '18'
+fylker_navn:
+  - Nordland
+navn: BINDAL KRAFTLAG SA
+org: '953181606'
+priser:
+  - 26.3
+  - 21.3
+terskler:
+  - pris: 3167.04
+    terskel: 0
+  - pris: 4740
+    terskel: 5
+  - pris: 6960
+    terskel: 10
+  - pris: 8856
+    terskel: 15
+  - pris: 10752
+    terskel: 20

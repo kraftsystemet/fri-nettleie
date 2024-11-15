@@ -1,0 +1,28 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '34'
+  - '46'
+fylker_navn:
+  - Innlandet
+  - Vestland
+navn: VANG ENERGIVERK AS
+org: '824368082'
+priser:
+  - 9
+  - 19
+terskler:
+  - pris: 4800
+    terskel: 0
+  - pris: 6000
+    terskel: 2
+  - pris: 7260
+    terskel: 5
+  - pris: 8520
+    terskel: 8
+  - pris: 10020
+    terskel: 12
+  - pris: 11580
+    terskel: 18
+  - pris: 13380
+    terskel: 25

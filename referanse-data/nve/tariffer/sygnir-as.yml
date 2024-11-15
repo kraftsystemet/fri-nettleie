@@ -1,0 +1,69 @@
+---
+dato: '2024-11-01'
+fylker:
+  - '34'
+  - '46'
+fylker_navn:
+  - Innlandet
+  - Vestland
+navn: SYGNIR AS
+org: '924619260'
+priser:
+  - 18.79
+terskler:
+  - pris: 2421.96
+    terskel: 0
+  - pris: 2906.04
+    terskel: 1
+  - pris: 3390.96
+    terskel: 2
+  - pris: 3875.04
+    terskel: 3
+  - pris: 4359.96
+    terskel: 4
+  - pris: 5085.96
+    terskel: 5
+  - pris: 5813.04
+    terskel: 6
+  - pris: 6540
+    terskel: 7
+  - pris: 7266.0
+    terskel: 8
+  - pris: 7992.960000000001
+    terskel: 9
+  - pris: 9446.039999999999
+    terskel: 10
+  - pris: 10899.0
+    terskel: 12
+  - pris: 12353.04
+    terskel: 14
+  - pris: 13806.0
+    terskel: 16
+  - pris: 15258.96
+    terskel: 18
+  - pris: 27369.0
+    terskel: 20
+  - pris: 39480
+    terskel: 40
+  - pris: 51590.04
+    terskel: 60
+  - pris: 63701.04
+    terskel: 80
+  - pris: 112142.04000000001
+    terskel: 100
+  - pris: 160583.04
+    terskel: 200
+  - pris: 209025.0
+    terskel: 300
+  - pris: 257466.0
+    terskel: 400
+  - pris: 305907.96
+    terskel: 500
+  - pris: 354348.96
+    terskel: 600
+  - pris: 402791.04
+    terskel: 700
+  - pris: 451232.04
+    terskel: 800
+  - pris: 499674.0
+    terskel: 900
