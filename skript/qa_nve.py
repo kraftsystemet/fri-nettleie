@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Sjekk innsamlede verdier mot NVE sitt api
 #
-# Usage: qa_with_nve tariffer/<netteier>.yml
+# Usage: ./skript/qa_nve.py tariffer/<netteier>.yml
 
 import cache
 
@@ -38,13 +38,13 @@ if __name__ == '__main__':
     org = gos[gln]
     print("Organisasjonsnummer:", org)
 
-    konsesjonarer = nve.get_konsesjonarer(dato)
+    konsesjonarer = nve.get_konsesjonarer_fylker(dato)
 
     if org not in konsesjonarer:
         print(f'Organisasjonsnummer {org} not found in NVE data')
         sys.exit(1)
 
-    fylker = konsesjonarer[org].fylker
+    fylker = konsesjonarer[org]
 
     nve_tariff = nve.get_oppsummering(dato, fylker, org)
 
