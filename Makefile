@@ -1,4 +1,4 @@
-_PHONY: readme vet fmt changedetection qa kilder
+_PHONY: readme vet fmt changedetection qa kilder bygg
 
 venv:
 	python3 -m venv venv
@@ -23,3 +23,6 @@ changedetection:
 
 kilder:
 	./skript/kilder.sh | grep -E '^>' | grep -Eo 'http.*' | cat
+
+bygg:
+	cp skript/templates/netteier.html docs/tariffer/netteier-navn-as.html
