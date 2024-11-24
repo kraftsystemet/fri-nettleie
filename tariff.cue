@@ -22,6 +22,7 @@ import (
     gyldig_fra!: time.Format(time.RFC3339Date)
     gyldig_til?: time.Format(time.RFC3339Date) | null
     id!: =~ "^[a-zæøå0-9-]+$"
+    navn?: string
     kommentar?: string
     kundegruppe!: "husholdning" | "hytte" | "privat"
     mga?: [...#Mga]

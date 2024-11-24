@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Vissi AS | Nettleie</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Vissi AS</h1>
+      <dl>
+        <dt
+          data-tooltip="Global Location Number brukes for å identisere netteier"
+        >
+          GLN<span></span>
+        </dt>
+        <dd>7080004045743</dd>
+        <!-- TODO
+        <dt data-tooltip="Organisasjonsnummer">Org</dt>
+        <dd>
+          <a href="https://virksomhet.brreg.no/nb/oppslag/enheter/984882106"
+            >984882106</a
+          >
+        </dd>
+
+        <dt data-tooltip="Fylkene som netteier er konsesjonær i">Fylker</dt>
+        <dd>Oslo, Oslo</dd>
+        -->
+        <dt>Sist oppdatert</dt>
+        <dd>2024-11-06</dd>
+      </dl>
+      <article>
+        <header>❕Innsamlet på dugnad</header>
+        <p>
+          Informasjonen under er samlet inn på dugnad. Dersom du finner feil kan
+          du selv hjelpe oss med å oppdatere informasjonen.
+          <a href="https://github.com/kraftsystemet/fri-nettleie"
+            >Les mer om hvordan du kan bidra.</a
+          >
+        </p>
+      </article>
+      <h2>Tariffer</h2>
+      Vissi AS har 1 aktiv tariff for private kunder.
+      <p></p>
+      <p>
+        For å finne ut av hvilken tariff har kan du logge inn på
+        <a href="https://minside.elhub.no">Elhub Min Side</a> for å finne din
+        nettier.
+      </p>
+
+      <p>Tariffene har vi samlet inn fra 1 kilder:</p>
+      <ul>
+        <li>
+          <a href="https://www.vissi.no/priser-og-vilkar/nettleie-privat/"
+            >https://www.vissi.no/priser-og-vilkar/nettleie-privat/</a
+          >
+        </li>
+      </ul>
+
+      <details open>
+        <summary role="button" open>Tariff</summary>
+
+        <dl>
+          <dt>Gyldig fra</dt>
+          <dd>2024-01-01</dd>
+          <dt>Gyldig til</dt>
+          <dd>None</dd>
+        </dl>
+        <!-- TODO
+        <p>
+          Denne tariffen gjelder for nettavregningsområde
+          <abbr data-tooltip="50Y123123145">HSFL1</abbr>,
+          <abbr data-tooltip="50Y123123145">ALEX1</abbr>
+          .
+        </p>
+        -->
+        <article>
+          <h4>Fastledd</h4>
+
+          <p>
+            Fastledd er et prisledd som skjerpes etter en trinnvis skala. Jo mer
+            strøm en bruker «samtidig» jo dyrere blir det.
+          </p>
+
+          <p>
+            Beregnes ut fra
+            <mark
+              >de tre høyeste timer i forskellige døgn den foregående
+              måneden</mark
+            >.
+          </p>
+          <h5>Terskler</h5>
+          <p>
+            Netteieren inkluderer terskelen i det nye nivået. Det vil si at
+            dersom du havner akkurat på selve terskelen, ender du på nivået
+            <i>over</i>.
+          </p>
+          <p>
+            Prisen vises uten og med de forskjellige avgiftene på nettleie. Se
+            informasjon om avgifter på
+            <a href="#avgifter">vår side om avgifter</a>.
+          </p>
+          <table>
+            <tr>
+              <th>Terskel</th>
+              <th>kr/år u/ mva</th>
+              <th>kr/år m/ mva</th>
+            </tr>
+
+            <tr>
+              <td>0</td>
+              <td>2400</td>
+              <td>3000.0</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>4032</td>
+              <td>5040.0</td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td>5664</td>
+              <td>7080.0</td>
+            </tr>
+
+            <tr>
+              <td>15</td>
+              <td>7296</td>
+              <td>9120.0</td>
+            </tr>
+
+            <tr>
+              <td>20</td>
+              <td>8928</td>
+              <td>11160.0</td>
+            </tr>
+
+            <tr>
+              <td>25</td>
+              <td>14592</td>
+              <td>18240.0</td>
+            </tr>
+
+            <tr>
+              <td>50</td>
+              <td>19632</td>
+              <td>24540.0</td>
+            </tr>
+
+            <tr>
+              <td>75</td>
+              <td>24192</td>
+              <td>30240.0</td>
+            </tr>
+
+            <tr>
+              <td>100</td>
+              <td>28992</td>
+              <td>36240.0</td>
+            </tr>
+
+            <tr>
+              <td>150</td>
+              <td>32832</td>
+              <td>41040.0</td>
+            </tr>
+
+            <tr>
+              <td>200</td>
+              <td>37632</td>
+              <td>47040.0</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h4>Energiledd</h4>
+
+          <p>
+            Energiledd er prisen per
+            <span
+              data-tooltip="Kilowattime er energimengden vi måler strømforbruket i."
+              >kWh</span
+            >.
+          </p>
+          <h5>Grunnpris</h5>
+          <p>
+            Grunnprisen er standardprisen prisen du betaler. Det er typisk den
+            lave prisen som er på natta eller andre perioder når nettet har lav
+            last, men trenger ikke være det. Prisene med elavgift er oppgitt med
+            standard (sommer) avgift.
+          </p>
+          <dl>
+            12
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            13
+            <span
+              data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            29.44
+            <span
+              data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            36.8
+            <span data-tooltip="Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+          <h5>Unntak</h5>
+          <p>
+            Unntak er tidsrom du betaler for en eller flere dager. Lorem ipsum
+            noe mer. Les mer på <a href="#">vår side om tariffene</a>.
+          </p>
+
+          <h6>Høylast</h6>
+          <p>Denne prisen gjelder for:</p>
+          <dl>
+            <dt>Timer</dt>
+            <dd>6-21</dd>
+          </dl>
+          <p>Du betaler</p>
+
+          <dl>
+            25
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            26
+            <span
+              data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            42.44
+            <span
+              data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            53.05
+            <span
+              data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+        </article>
+      </details>
+    </main>
+  </body>
+</html>

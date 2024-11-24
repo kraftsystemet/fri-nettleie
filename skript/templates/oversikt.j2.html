@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Tariffer | Nettleie</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Nettleie-tariffer</h1>
+      <p>Her finner du alle nettleie-tariffene vi har samlet inn.</p>
+
+      <ul>
+        {% for n in netteiere | sort(attribute='netteier') %}
+        <li>
+          <a href="./{{ n.file }}">{{ n.netteier }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </main>
+  </body>
+</html>

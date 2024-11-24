@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>{{ netteier }} | Nettleie</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>{{ netteier }}</h1>
+      <dl>
+        <dt
+          data-tooltip="Global Location Number brukes for å identisere netteier"
+        >
+          GLN<span></span>
+        </dt>
+        <dd>{{ gln }}</dd>
+        <!-- TODO
+        <dt data-tooltip="Organisasjonsnummer">Org</dt>
+        <dd>
+          <a href="https://virksomhet.brreg.no/nb/oppslag/enheter/984882106"
+            >984882106</a
+          >
+        </dd>
+
+        <dt data-tooltip="Fylkene som netteier er konsesjonær i">Fylker</dt>
+        <dd>Oslo, Oslo</dd>
+        -->
+        <dt>Sist oppdatert</dt>
+        <dd>{{ sist_oppdatert }}</dd>
+      </dl>
+      <article>
+        <header>❕Innsamlet på dugnad</header>
+        <p>
+          Informasjonen under er samlet inn på dugnad.
+          Dersom du finner feil kan du selv hjelpe oss med å oppdatere informasjonen.
+          <a href="https://github.com/kraftsystemet/fri-nettleie">Les mer om hvordan du kan bidra.</a>
+        </p>
+      </article>
+      <h2>Tariffer</h2>
+        {{ netteier }} har {{ tariffer | count }} {{ 'aktiv tariff' if tariffer | count == 1 else 'aktive tariffer' }} for private kunder.
+      <p></p>
+      <p>
+        For å finne ut av hvilken tariff har kan du logge inn på
+        <a href="https://minside.elhub.no">Elhub Min Side</a> for å finne din nettier.
+      </p>
+
+      <p>Tariffene har vi samlet inn fra {{ kilder | count }} kilder:</p>
+      <ul>
+        {% for kilde in kilder %}
+        <li><a href="{{ kilde }}">{{ kilde }}</a></li>
+        {% endfor %}
+      </ul>
+      {% for tariff in tariffer %}
+      <details open>
+        <summary role="button" open>Tariff {{ tariff.navn if 'navn' in tariff else '' }}</summary>
+
+        <dl>
+          <dt>Gyldig fra</dt>
+          <dd>{{ tariff.gyldig_fra }}</dd>
+          <dt>Gyldig til</dt>
+          <dd>{{ tariff.gyldig_til | default('-') }}</dd>
+        </dl>
+        <!-- TODO
+        <p>
+          Denne tariffen gjelder for nettavregningsområde
+          <abbr data-tooltip="50Y123123145">HSFL1</abbr>,
+          <abbr data-tooltip="50Y123123145">ALEX1</abbr>
+          .
+        </p>
+        -->
+      <article>
+        <h4>Fastledd</h4>
+        {% set fastledd, terskler = tariff.fastledd, tariff.fastledd.terskler %}
+        <p>Fastledd  er et prisledd som skjerpes etter en trinnvis skala. Jo mer strøm en bruker «samtidig» jo dyrere blir det.</p>
+        {% set fl = {
+            'TRE_DØGNMAX_MND' : 'de tre høyeste timer i forskellige døgn den foregående måneden',
+            'FEM_VEKTET_ÅR' : 'de fem høyeste timer de foregående 12 mnd',
+            'OV_TREFASE' : 'størrelsen på overlastvernet.',
+            'MND_MAX' : 'den timen med høyeste gjennomsnittlig forbruk i den foregående måneden.',
+            'UKJENT' : 'en ukjent metode'
+            } %}
+        <p>Beregnes ut fra <mark>{{ fl[fastledd.metode] }}</mark>.</p>
+        <h5>Terskler</h5>
+        <p>
+          Netteieren inkluderer {{ '' if fastledd.terskel_inkludert else '<b>ikke</b>' }} terskelen i det nye nivået. Det vil
+          si at dersom du havner akkurat på selve terskelen, ender du på nivået
+          <i>{{ 'over' if fastledd.terskel_inkludert else 'under' }}</i>.
+        </p>
+        <p>
+          Prisen vises uten og med de forskjellige avgiftene på nettleie. Se
+          informasjon om avgifter på
+          <a href="#avgifter">vår side om avgifter</a>.
+        </p>
+        <table>
+          <tr>
+            <th>Terskel</th>
+            <th>kr/år u/ mva</th>
+            <th>kr/år m/ mva</th>
+          </tr>
+          {% for terskel in terskler %}
+          <tr>
+            <td>{{ terskel.terskel }}</td>
+            <td>{{ terskel.pris }}</td>
+            <td>{{ ( terskel.pris * 1.25 ) | round(2) }}</td>
+          </tr>
+          {% endfor %}
+        </table>
+      </article>
+      <article>
+
+        <h4>Energiledd</h4>
+        {% set pris = tariff.energiledd.grunnpris %}
+
+        <p>
+          Energiledd er prisen per
+          <span
+            data-tooltip="Kilowattime er energimengden vi måler strømforbruket i."
+            >kWh</span
+          >.
+        </p>
+        <h5>Grunnpris</h5>
+        <p>
+          Grunnprisen er standardprisen prisen du betaler. Det er typisk den
+          lave prisen som er på natta eller andre perioder når nettet har lav
+          last, men trenger ikke være det. Prisene med elavgift er oppgitt med standard (sommer) avgift.
+        </p>
+        <dl>
+          {{ pris }}
+          <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+            >øre u/ alle avgifter</span
+          ><br />
+          {{ pris + 1 }}
+          <span
+            data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+            >øre m/ enovaavgift</span
+          ><br />
+          {{ ( pris + 1 + 16.44 ) | round(2) }}
+          <span
+            data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
+            >øre m/ enova og elavgift</span
+          ><br />
+          {{ ( ( pris + 1 + 16.44 ) * 1.25 ) | round(2) }}
+          <span
+            data-tooltip="Relevant for sluttkunder sør for Troms."
+            >øre m/ alle avgifter</span
+          ><br />
+        </dl>
+        <h5>Unntak</h5>
+        <p>
+          Unntak er tidsrom du betaler for en eller flere dager. Lorem ipsum noe
+          mer. Les mer på <a href="#">vår side om tariffene</a>.
+        </p>
+        {% if 'unntak' not in tariff.energiledd or tariff.energiledd.unntak | length == 0 %}
+        <p><b>Netteieren har ingen unntak.</b></p>
+        {% endif %}
+        {% for u in tariff.energiledd.unntak | default([]) %}
+        <h6>{{ u.navn }}</h6>
+        <p>Denne prisen gjelder for:</p>
+        <dl>
+          {% if 'dager' in u %}
+          <dt>Dager</dt>
+          <dd>{{ u.dager | join(', ') }}</dd>
+          {% endif %}
+          {% if 'måneder' in u %}
+          <dt>Måneder</dt>
+          <dd>{{ u.måneder | join(', ') }}</dd>
+          {% endif %}
+          {% if 'timer' in u %}
+          <dt>Timer</dt>
+          <dd>{{ u.timer }}</dd>
+          {% endif %}
+        </dl>
+        <p>Du betaler</p>
+        {% set pris = u.pris if 'pris' in u else pris + u.tillegg %}
+        <dl>
+          {{ pris }}
+          <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+            >øre u/ alle avgifter</span
+          ><br />
+          {{ pris + 1 }}
+          <span
+            data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+            >øre m/ enovaavgift</span
+          ><br />
+          {{ ( pris + 1 + 16.44 ) | round(2) }}
+          <span
+            data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+            >øre m/ enova og elavgift</span
+          ><br />
+          {{ ( ( pris + 1 + 16.44 ) * 1.25 ) | round(2) }}
+          <span
+            data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
+            >øre m/ alle avgifter</span
+          ><br />
+        </dl>
+        {% endfor %}
+      </article>
+      </details>
+      {% endfor %}
+
+    </main>
+  </body>
+</html>

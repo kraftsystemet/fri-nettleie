@@ -38,6 +38,7 @@ tariffer:
     gyldig_fra: 2024-07-01
     gyldig_til: null
     id: nord-privat
+    navn: Nord
     kundegruppe: privat
   - energiledd:
       grunnpris: 15.384
@@ -51,25 +52,26 @@ tariffer:
       terskler:
         - pris: 2668.8
           terskel: 0
-        - pris: 3705.6000000000004
+        - pris: 3705.6
           terskel: 2
         - pris: 4742.4
           terskel: 5
         - pris: 6816.0
           terskel: 10
-        - pris: 8198.400000000001
+        - pris: 8198.4
           terskel: 15
-        - pris: 9590.400000000001
+        - pris: 9590.4
           terskel: 20
-        - pris: 12182.400000000001
+        - pris: 12182.4
           terskel: 25
-        - pris: 13564.800000000001
+        - pris: 13564.8
           terskel: 50
-        - pris: 14956.800000000001
+        - pris: 14956.8
           terskel: 75
-        - pris: 18412.800000000003
+        - pris: 18412.8
           terskel: 100
     gyldig_fra: 2024-07-01
     gyldig_til: null
     id: "sør-privat"
+    navn: Sør
     kundegruppe: privat

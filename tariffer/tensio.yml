@@ -48,6 +48,7 @@ tariffer:
           terskel: 500
     gyldig_fra: '2024-09-01'
     id: 2024-07-tn
+    navn: Nord
     kundegruppe: privat
   - energiledd:
       grunnpris: 35.93
@@ -91,5 +92,5 @@ tariffer:
           terskel: 500
     gyldig_fra: '2024-09-01'
     id: 2024-09-ts
+    navn: Sør
     kundegruppe: privat
-

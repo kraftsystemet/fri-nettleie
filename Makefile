@@ -1,7 +1,7 @@
 _PHONY: readme vet fmt changedetection qa kilder bygg
 .DEFAULT_GOAL := ci
 
-ci: fmt kilder readme
+ci: fmt kilder readme bygg
 
 venv:
 	python3 -m venv venv
@@ -28,4 +28,6 @@ kilder:
 	./skript/kilder.sh
 
 bygg:
-	cp skript/templates/netteier.html docs/tariffer/netteier-navn-as.html
+	#rm -f docs/tariffer/*
+	./skript/template.py
+	npx prettier docs/tariffer/*.html --write

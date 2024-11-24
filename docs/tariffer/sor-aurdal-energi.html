@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Sør Aurdal Energi AS Nett | Nettleie</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Sør Aurdal Energi AS Nett</h1>
+      <dl>
+        <dt
+          data-tooltip="Global Location Number brukes for å identisere netteier"
+        >
+          GLN<span></span>
+        </dt>
+        <dd>7080005046459</dd>
+        <!-- TODO
+        <dt data-tooltip="Organisasjonsnummer">Org</dt>
+        <dd>
+          <a href="https://virksomhet.brreg.no/nb/oppslag/enheter/984882106"
+            >984882106</a
+          >
+        </dd>
+
+        <dt data-tooltip="Fylkene som netteier er konsesjonær i">Fylker</dt>
+        <dd>Oslo, Oslo</dd>
+        -->
+        <dt>Sist oppdatert</dt>
+        <dd>2024-11-24</dd>
+      </dl>
+      <article>
+        <header>❕Innsamlet på dugnad</header>
+        <p>
+          Informasjonen under er samlet inn på dugnad. Dersom du finner feil kan
+          du selv hjelpe oss med å oppdatere informasjonen.
+          <a href="https://github.com/kraftsystemet/fri-nettleie"
+            >Les mer om hvordan du kan bidra.</a
+          >
+        </p>
+      </article>
+      <h2>Tariffer</h2>
+      Sør Aurdal Energi AS Nett har 1 aktiv tariff for private kunder.
+      <p></p>
+      <p>
+        For å finne ut av hvilken tariff har kan du logge inn på
+        <a href="https://minside.elhub.no">Elhub Min Side</a> for å finne din
+        nettier.
+      </p>
+
+      <p>Tariffene har vi samlet inn fra 2 kilder:</p>
+      <ul>
+        <li><a href="https://sae.no/tariffer">https://sae.no/tariffer</a></li>
+
+        <li>
+          <a
+            href="https://sae.no/uploads/Kundeinformasjon/2024_08_Kundeinformasjon_tariffer.pdf"
+            >https://sae.no/uploads/Kundeinformasjon/2024_08_Kundeinformasjon_tariffer.pdf</a
+          >
+        </li>
+      </ul>
+
+      <details open>
+        <summary role="button" open>Tariff</summary>
+
+        <dl>
+          <dt>Gyldig fra</dt>
+          <dd>2024-09-01</dd>
+          <dt>Gyldig til</dt>
+          <dd>-</dd>
+        </dl>
+        <!-- TODO
+        <p>
+          Denne tariffen gjelder for nettavregningsområde
+          <abbr data-tooltip="50Y123123145">HSFL1</abbr>,
+          <abbr data-tooltip="50Y123123145">ALEX1</abbr>
+          .
+        </p>
+        -->
+        <article>
+          <h4>Fastledd</h4>
+
+          <p>
+            Fastledd er et prisledd som skjerpes etter en trinnvis skala. Jo mer
+            strøm en bruker «samtidig» jo dyrere blir det.
+          </p>
+
+          <p>
+            Beregnes ut fra
+            <mark
+              >den timen med høyeste gjennomsnittlig forbruk i den foregående
+              måneden.</mark
+            >.
+          </p>
+          <h5>Terskler</h5>
+          <p>
+            Netteieren inkluderer <b>ikke</b> terskelen i det nye nivået. Det
+            vil si at dersom du havner akkurat på selve terskelen, ender du på
+            nivået <i>under</i>.
+          </p>
+          <p>
+            Prisen vises uten og med de forskjellige avgiftene på nettleie. Se
+            informasjon om avgifter på
+            <a href="#avgifter">vår side om avgifter</a>.
+          </p>
+          <table>
+            <tr>
+              <th>Terskel</th>
+              <th>kr/år u/ mva</th>
+              <th>kr/år m/ mva</th>
+            </tr>
+
+            <tr>
+              <td>0</td>
+              <td>5400</td>
+              <td>6750.0</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>6240</td>
+              <td>7800.0</td>
+            </tr>
+
+            <tr>
+              <td>8</td>
+              <td>7440</td>
+              <td>9300.0</td>
+            </tr>
+
+            <tr>
+              <td>15</td>
+              <td>8640</td>
+              <td>10800.0</td>
+            </tr>
+
+            <tr>
+              <td>30</td>
+              <td>9720</td>
+              <td>12150.0</td>
+            </tr>
+
+            <tr>
+              <td>50</td>
+              <td>13200</td>
+              <td>16500.0</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h4>Energiledd</h4>
+
+          <p>
+            Energiledd er prisen per
+            <span
+              data-tooltip="Kilowattime er energimengden vi måler strømforbruket i."
+              >kWh</span
+            >.
+          </p>
+          <h5>Grunnpris</h5>
+          <p>
+            Grunnprisen er standardprisen prisen du betaler. Det er typisk den
+            lave prisen som er på natta eller andre perioder når nettet har lav
+            last, men trenger ikke være det. Prisene med elavgift er oppgitt med
+            standard (sommer) avgift.
+          </p>
+          <dl>
+            21.52
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            22.52
+            <span
+              data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            38.96
+            <span
+              data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            48.7
+            <span data-tooltip="Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+          <h5>Unntak</h5>
+          <p>
+            Unntak er tidsrom du betaler for en eller flere dager. Lorem ipsum
+            noe mer. Les mer på <a href="#">vår side om tariffene</a>.
+          </p>
+
+          <h6>Vinter</h6>
+          <p>Denne prisen gjelder for:</p>
+          <dl>
+            <dt>Måneder</dt>
+            <dd>januar, februar, mars, oktober, november, desember</dd>
+          </dl>
+          <p>Du betaler</p>
+
+          <dl>
+            25.52
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            26.52
+            <span
+              data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            42.96
+            <span
+              data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            53.7
+            <span
+              data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+        </article>
+      </details>
+    </main>
+  </body>
+</html>
