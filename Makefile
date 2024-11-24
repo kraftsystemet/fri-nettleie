@@ -1,4 +1,7 @@
 _PHONY: readme vet fmt changedetection qa kilder bygg
+.DEFAULT_GOAL := ci
+
+ci: fmt kilder readme
 
 venv:
 	python3 -m venv venv
@@ -22,7 +25,7 @@ changedetection:
 	echo "Visit http://localhost:5000"
 
 kilder:
-	./skript/kilder.sh | grep -E '^>' | grep -Eo 'http.*' | cat
+	./skript/kilder.sh
 
 bygg:
 	cp skript/templates/netteier.html docs/tariffer/netteier-navn-as.html

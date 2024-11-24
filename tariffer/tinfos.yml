@@ -1,0 +1,32 @@
+---
+netteier: 'Tinfos AS Nett'
+gln: '7080003612595'
+sist_oppdatert: '2024-11-24'
+# TODO Tinfos publiserer ikke tariffer på sine sider. Har sendt epost til post@tinfos.no.
+kilder:
+  - https://www.tinfos.no/tinfos-nett/
+  - https://biapi.nve.no/nettleietariffer/swagger/index.html
+tariffer:
+  - id: nve
+    kundegruppe: privat
+    fastledd:
+      metode: UKJENT
+      terskel_inkludert: null
+      terskler:
+        - terskel: 0
+          pris: 3156
+        - terskel: 5
+          pris: 4956
+        - terskel: 10
+          pris: 6756
+        - terskel: 15
+          pris: 8556
+        - terskel: 20
+          pris: 10356
+        - terskel: 25
+          pris: 15756
+        - terskel: 50
+          pris: 45000
+    energiledd:
+      grunnpris: 19
+    gyldig_fra: '2024-01-01'
