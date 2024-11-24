@@ -49,7 +49,7 @@ import (
 #Måned: "januar" | "februar" | "mars" | "april" | "mai" | "juni" | "juli" | "august" | "september" | "oktober" | "november" | "desember"
 
 #Fastledd: {
-    metode!: "TRE_DØGNMAX_MND" | "FEM_VEKTET_ÅR" | "OV_TREFASE" | "UKJENT"
+    metode!: "TRE_DØGNMAX_MND" | "FEM_VEKTET_ÅR" | "OV_TREFASE" | "MND_MAX" | "UKJENT"
     terskel_inkludert!: bool | null
     terskler!: [...#Terskel]
 }

@@ -1,0 +1,33 @@
+---
+netteier: 'Sør Aurdal Energi AS Nett'
+gln: '7080005046459'
+kilder:
+  - 'https://sae.no/tariffer'
+  - 'https://sae.no/uploads/Kundeinformasjon/2024_08_Kundeinformasjon_tariffer.pdf'
+sist_oppdatert: '2024-11-24'
+tariffer:
+  - id: 2024-09-n100
+    kundegruppe: privat
+    fastledd:
+      metode: MND_MAX
+      terskel_inkludert: false
+      terskler:
+        - terskel: 0
+          pris: 5400
+        - terskel: 5
+          pris: 6240
+        - terskel: 8
+          pris: 7440
+        - terskel: 15
+          pris: 8640
+        - terskel: 30
+          pris: 9720
+        - terskel: 50
+          pris: 13200
+    energiledd:
+      grunnpris: 21.52
+      unntak:
+        - navn: Vinter
+          pris: 25.52
+          måneder: [januar, februar, mars, oktober, november, desember]
+    gyldig_fra: '2024-09-01'
