@@ -82,7 +82,7 @@ tariffer:
       #  - TRE_DØGNMAX_MND - etter den vanligste metoden for fastsettelse basert på kundens
       #                      tre høyeste timer i forskellige døgn den foregående måneden
       #  - FEM_VEKTET_ÅR   - Gjelder https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/
-      #  - OV_TREFASE      - Gjelder https://alut.no/nettleie/ . Terskler oppgis som sikringsstørrelse i ampere
+      #  - OV_TREFASE      - Gjelder https://alut.no/nettleie/ . Terskler oppgis som sikringsstørrelse i ampere. 230 V
       #  - MND_MAX         - Gjelder https://sae.no/uploads/Kundeinformasjon/2024_08_Kundeinformasjon_tariffer.pdf
       #                      Dn timen i måneden du har høyest gjennomsnittlig forbruk (månedsmaksimal.
       metode: TRE_DØGNMAX_MND

@@ -569,10 +569,10 @@ Den følgende listen viser status på innsamlede data.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1uZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA0MDUzNjMyIn0=' title='Samle inn data for Straumnett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>SuNett AS</td>
+    <td>SuNett AS ✅</td>
     <td>7080010003218</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdU5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDMyMTgifQ==' title='Samle inn data for SuNett AS' target='_blank'>✏️</a></td>
+    <td><code>2024-11-24</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdU5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDMyMTgiLCAia2lsZGVyIjogWyJodHRwczovL3d3dy5zdW5uZGFsZW5lcmdpbmV0dC5uby9uZXR0bGVpZS8iLCAiaHR0cHM6Ly93d3cuc3VubmRhbGVuZXJnaW5ldHQubm8vbmV0dGxlaWUvbmV0dGF2dGFsZXIvbmV0dGxlaWUtcHJpdmF0LyJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0yNCIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDQtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIk9WX1RSRUZBU0UiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAxNjQ2LjR9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiAzMjkyfSwgeyJ0ZXJza2VsIjogNjMsICJwcmlzIjogNjU4NC44fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTYuODgsICJ1bm50YWsiOiBbeyJuYXZuIjogIlZpbnRlciIsICJwcmlzIjogMTkuMjgsICJtXHUwMGU1bmVkZXIiOiBbImphbnVhciIsICJmZWJydWFyIiwgIm1hcnMiLCAiYXByaWwiLCAibm92ZW1iZXIiLCAiZGVzZW1iZXIiXX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNC0wMSJ9XX0=' title='Samle inn data for SuNett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Sygnir AS ✅</td>

@@ -1,0 +1,27 @@
+---
+netteier: 'SuNett AS'
+gln: '7080010003218'
+kilder:
+  - 'https://www.sunndalenerginett.no/nettleie/'
+  - 'https://www.sunndalenerginett.no/nettleie/nettavtaler/nettleie-privat/'
+sist_oppdatert: '2024-11-24'
+tariffer:
+  - id: 2024-04-privat
+    kundegruppe: privat
+    fastledd:
+      metode: OV_TREFASE
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1646.4
+        - terskel: 10
+          pris: 3292
+        - terskel: 63
+          pris: 6584.8
+    energiledd:
+      grunnpris: 16.88
+      unntak:
+        - navn: Vinter
+          pris: 19.28
+          måneder: [januar, februar, mars, april, november, desember]
+    gyldig_fra: '2024-04-01'
