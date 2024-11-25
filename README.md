@@ -563,10 +563,10 @@ Den følgende listen viser status på innsamlede data.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1lbiBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAzNzIwIn0=' title='Samle inn data for Straumen Nett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Straumnett AS</td>
+    <td>Straumnett AS ✅</td>
     <td>7080004053632</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1uZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA0MDUzNjMyIn0=' title='Samle inn data for Straumnett AS' target='_blank'>✏️</a></td>
+    <td><code>2024-11-25</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1uZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA0MDUzNjMyIiwgImtpbGRlciI6IFsiaHR0cHM6Ly9zdHJhdW1uZXR0Lm5vL3ByaXNhci1mb3ItbmV0dGxlaWdlIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI1IiwgInRhcmlmZmVyIjogW3sia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImlkIjogIjIwMjQiLCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyNDM1LjMyOH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjkyMi40MzJ9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDMxNjUuOTg0fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogMzQwOS41MzZ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAzNjUzLjA4OH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDQyNjEuOTJ9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiA0NjI3LjJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiA1MTE0LjMwNH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDU2MDEuMzEyfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDYwODguNDE2fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTEuNTYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkRhZyIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAxNi41Nn1dfX1dfQ==' title='Samle inn data for Straumnett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>SuNett AS ✅</td>
