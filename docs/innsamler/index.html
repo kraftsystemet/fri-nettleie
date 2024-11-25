@@ -6,6 +6,7 @@
     <title>fri-nettleie - innsamler</title>
     <script src=" https://cdn.jsdelivr.net/npm/yamljs@0.3.0/dist/yaml.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -299,11 +300,12 @@
 </div>
 <div class="column">
     <h2>Output</h2>
-    <button @click="copyToClipboard">Kopier</button>
+    <button class="bclip" data-clipboard-target="#output">Kopier</button>
     <pre><texarea id="output" class="output" x-text="output" >Her kommer det noe Yaml</textarea></pre>
 </div>
 </div>
     <script>
+        new ClipboardJS('.bclip');
         function app() {
             return {
                 data: {
@@ -400,9 +402,6 @@
                     }
                     });
                     return obj;
-                },
-                copyToClipboard() {
-                    navigator.clipboard.writeText(this.output);
                 },
                 updateURL() {
                     const newUrl = `${window.location.pathname}?data=${btoa(JSON.stringify(this.data))}`;
