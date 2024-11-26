@@ -108,9 +108,8 @@ Et skript som viser hvordan dette kan gjøres konseptuelt finnes i
 Selv om det kan være nyttig er det følgende foreløpig ikke en del av dette
 prosjektet
 
-* tariffer for selskaper
+* tariffer for næring
 * tariff for ikke automatisk avlesning
-* brukergrensesnitt for visning eller innsamling
 * vedlikeholde historiske priser
 
 ## Innsamling
