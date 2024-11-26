@@ -119,8 +119,18 @@ lignende. Automatisk scraping er ikke et mål og det oppfordres til å unngå br
 roboter for innsamling. Vi respekterer andres systemer og immatrielle rettigheter og bruker
 f.eks. ikke data fra andre kommersielle aktører som leverer samme type data.
 
-Vi jobber med verktøy som kan brukes ved manuell innsamling som hostes på
-[kraftsystemet.no/fri-nettleie/](http://kraftsystemet.no/fri-nettleie/).
+Kilde-dataene som vi henter fra netteierne er
+[offentlig eiendom/allemannseie/public domain](https://no.wikipedia.org/wiki/Offentlig_eiendom).
+Tariffer og vilkår gjøres tilgjengelig fra netteierne i henhold til
+[Forskrift om kontroll av nettvirksomhet](https://lovdata.no/dokument/SF/forskrift/1999-03-11-302/KAPITTEL_5-1#%C2%A713-5).
+Vi samler og sammenstiller tariffene på vårt format og lisensierer datasettet
+under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/deed.no) som
+krever navngivelse. Det er viktig at dataene som samles inn er public domain.
+Det betyr f.eks. at vi ikke kan bruke andre sammenstilte datasett, APIer eller
+lignende dersom det ikke eksplisitt er angitt som public domain.
+
+Vi har også et verktøy som kan brukes ved innsamling som finnes på på
+[kraftsystemet.no/fri-nettleie/innsamler/](http://kraftsystemet.no/fri-nettleie/innsamler/).
 
 ## Utfordringer
 
@@ -227,7 +237,7 @@ Se under.
 
 Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 
-* Bli den første på denne lista! Åpne en pull request eller git beskjed i et
+* Bli den første på denne lista! Åpne en pull request eller gi beskjed i et
   issue.
 
 ## Status
@@ -651,14 +661,21 @@ dette prosjektet er som privatpersoner.
 
 ## Lisens
 
-Dataene i dette prosjektet er lisensiert under
+Dataene og dokumentasjon i dette prosjektet er lisensiert under
 [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). Kreditering gjøres
-til "Fri nettleie", med lenke til dette prosjektet.
+til "Fri nettleie", med lenke til dette prosjektet. Vi bruker denne lisensen for
+å gi deg som bruker vide rettigheter til å bruke dataene samtidig som vi ønsker
+navngivelse for å sikre synlighet (og dermed bidrag) til nettdugnaden vår.
 
-Vi bruker denne lisensen for å gi deg som bruker vide rettigheter til å bruke dataene samtidig som vi ønsker navngivelse for å sikre synlighet (og dermed bidrag) til nettdugnaden vår.
+All kode er lisensiert under [MIT](https://opensource.org/license/MIT). En kopi av [lisensen](./LICENSE-MIT)
+og opphavsrett må følge med programvaren.
 
-Data i mappen `referanse-data` er lastet fra andre kilder og brukes for status-rapportering.
+Data i mappen `referanse-data` er lastet fra andre kilder og brukes for
+status-rapportering. Disse dataene har egne lisenser.
 
-* `esett` - Data fra [eSett](https://opendata.esett.com/) lisensiert med [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
+* `esett` - Data fra [eSett](https://opendata.esett.com/) lisensiert med
+  [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
 * `elhub` - Data fra [Elhub](https://api.elhub.no) med uspesifisert lisens
-* `nve` - Data fra [NVE](https://biapi.nve.no/nettleietariffer/swagger/index.html) lisensiert med [NLOD](https://data.norge.no/nlod)
+* `nve` - Data fra
+  [NVE](https://biapi.nve.no/nettleietariffer/swagger/index.html) lisensiert med
+  [NLOD](https://data.norge.no/nlod)
