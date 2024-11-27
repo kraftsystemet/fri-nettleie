@@ -1,0 +1,44 @@
+---
+netteier: 'Asker Nett'
+gln: '7080003858825'
+sist_oppdatert: '2024-11-27'
+kilder:
+  - 'https://askernett.no/nettleie-og-priser/'
+  - 'https://askernett.no/prisliste-for-privatkunder-i-2024/'
+tariffer:
+  - id: 2024-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1776
+        - terskel: 2
+          pris: 2208
+        - terskel: 5
+          pris: 3264
+        - terskel: 10
+          pris: 6816
+        - terskel: 15
+          pris: 8592
+        - terskel: 20
+          pris: 10848
+        - terskel: 25
+          pris: 15360
+        - terskel: 50
+          pris: 24384
+        - terskel: 75
+          pris: 32448
+        - terskel: 100
+          pris: 51840
+    energiledd:
+      grunnpris: 8.96
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 15.888
+        - navn: Vinterlast
+          måneder: [januar, februar, mars]
+          tillegg: 8
+    gyldig_fra: '2024-01-01'
