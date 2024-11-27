@@ -37,3 +37,4 @@ tariffer:
         - navn: Høylast
           timer: 6-21
           pris: 23.1
+    gyldig_fra: '2024-01-01'
