@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Noranett AS | Nettleie</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Noranett AS</h1>
+      <dl>
+        <dt
+          data-tooltip="Global Location Number brukes for å identisere netteier"
+        >
+          GLN<span></span>
+        </dt>
+        <dd>7080003811318</dd>
+        <!-- TODO
+        <dt data-tooltip="Organisasjonsnummer">Org</dt>
+        <dd>
+          <a href="https://virksomhet.brreg.no/nb/oppslag/enheter/984882106"
+            >984882106</a
+          >
+        </dd>
+
+        <dt data-tooltip="Fylkene som netteier er konsesjonær i">Fylker</dt>
+        <dd>Oslo, Oslo</dd>
+        -->
+        <dt>Sist oppdatert</dt>
+        <dd>2024-01-01</dd>
+      </dl>
+      <article>
+        <header>❕Innsamlet på dugnad</header>
+        <p>
+          Informasjonen under er samlet inn på dugnad. Dersom du finner feil kan
+          du selv hjelpe oss med å oppdatere informasjonen.
+          <a href="https://github.com/kraftsystemet/fri-nettleie"
+            >Les mer om hvordan du kan bidra.</a
+          >
+        </p>
+      </article>
+      <h2>Tariffer</h2>
+      Noranett AS har 1 aktiv tariff for private kunder.
+      <p></p>
+      <p>
+        For å finne ut av hvilken tariff har kan du logge inn på
+        <a href="https://minside.elhub.no">Elhub Min Side</a> for å finne din
+        nettier.
+      </p>
+
+      <p>Tariffene har vi samlet inn fra 2 kilder:</p>
+      <ul>
+        <li>
+          <a
+            href="https://www.noranett.no/getfile.php/1323306-1704953748/Noranett/Filer/Nettleie%202024%20-%20H%C3%A5logaland%20pdf.pdf"
+            >https://www.noranett.no/getfile.php/1323306-1704953748/Noranett/Filer/Nettleie%202024%20-%20H%C3%A5logaland%20pdf.pdf</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://www.noranett.no/nettleiepriser/nettleiepriser-halogaland-fra-1-1-2024-article3870-2415.html"
+            >https://www.noranett.no/nettleiepriser/nettleiepriser-halogaland-fra-1-1-2024-article3870-2415.html</a
+          >
+        </li>
+      </ul>
+
+      <details open>
+        <summary role="button" open>Tariff</summary>
+
+        <dl>
+          <dt>Gyldig fra</dt>
+          <dd>2024-01-01</dd>
+          <dt>Gyldig til</dt>
+          <dd>-</dd>
+        </dl>
+        <!-- TODO
+        <p>
+          Denne tariffen gjelder for nettavregningsområde
+          <abbr data-tooltip="50Y123123145">HSFL1</abbr>,
+          <abbr data-tooltip="50Y123123145">ALEX1</abbr>
+          .
+        </p>
+        -->
+        <article>
+          <h4>Fastledd</h4>
+
+          <p>
+            Fastledd er et prisledd som skjerpes etter en trinnvis skala. Jo mer
+            strøm en bruker «samtidig» jo dyrere blir det.
+          </p>
+
+          <p>
+            Beregnes ut fra
+            <mark
+              >de tre høyeste timer i forskellige døgn den foregående
+              måneden</mark
+            >.
+          </p>
+          <h5>Terskler</h5>
+          <p>
+            Netteieren inkluderer terskelen i det nye nivået. Det vil si at
+            dersom du havner akkurat på selve terskelen, ender du på nivået
+            <i>over</i>.
+          </p>
+          <p>
+            Prisen vises uten og med de forskjellige avgiftene på nettleie. Se
+            informasjon om avgifter på
+            <a href="#avgifter">vår side om avgifter</a>.
+          </p>
+          <table>
+            <tr>
+              <th>Terskel</th>
+              <th>kr/år u/ mva</th>
+              <th>kr/år m/ mva</th>
+            </tr>
+
+            <tr>
+              <td>0</td>
+              <td>4320</td>
+              <td>5400.0</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>6120</td>
+              <td>7650.0</td>
+            </tr>
+
+            <tr>
+              <td>4</td>
+              <td>7440</td>
+              <td>9300.0</td>
+            </tr>
+
+            <tr>
+              <td>6</td>
+              <td>8400</td>
+              <td>10500.0</td>
+            </tr>
+
+            <tr>
+              <td>8</td>
+              <td>9360</td>
+              <td>11700.0</td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td>10320</td>
+              <td>12900.0</td>
+            </tr>
+
+            <tr>
+              <td>15</td>
+              <td>12360</td>
+              <td>15450.0</td>
+            </tr>
+
+            <tr>
+              <td>20</td>
+              <td>16800</td>
+              <td>21000.0</td>
+            </tr>
+
+            <tr>
+              <td>25</td>
+              <td>19200</td>
+              <td>24000.0</td>
+            </tr>
+
+            <tr>
+              <td>30</td>
+              <td>22800</td>
+              <td>28500.0</td>
+            </tr>
+
+            <tr>
+              <td>35</td>
+              <td>26400</td>
+              <td>33000.0</td>
+            </tr>
+
+            <tr>
+              <td>40</td>
+              <td>30000</td>
+              <td>37500.0</td>
+            </tr>
+
+            <tr>
+              <td>45</td>
+              <td>32400</td>
+              <td>40500.0</td>
+            </tr>
+
+            <tr>
+              <td>50</td>
+              <td>49200</td>
+              <td>61500.0</td>
+            </tr>
+
+            <tr>
+              <td>75</td>
+              <td>74400</td>
+              <td>93000.0</td>
+            </tr>
+
+            <tr>
+              <td>100</td>
+              <td>98400</td>
+              <td>123000.0</td>
+            </tr>
+
+            <tr>
+              <td>125</td>
+              <td>123600</td>
+              <td>154500.0</td>
+            </tr>
+
+            <tr>
+              <td>150</td>
+              <td>147600</td>
+              <td>184500.0</td>
+            </tr>
+
+            <tr>
+              <td>175</td>
+              <td>172800</td>
+              <td>216000.0</td>
+            </tr>
+
+            <tr>
+              <td>200</td>
+              <td>247200</td>
+              <td>309000.0</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h4>Energiledd</h4>
+
+          <p>
+            Energiledd er prisen per
+            <span
+              data-tooltip="Kilowattime er energimengden vi måler strømforbruket i."
+              >kWh</span
+            >.
+          </p>
+          <h5>Grunnpris</h5>
+          <p>
+            Grunnprisen er standardprisen prisen du betaler. Det er typisk den
+            lave prisen som er på natta eller andre perioder når nettet har lav
+            last, men trenger ikke være det. Prisene med elavgift er oppgitt med
+            standard (sommer) avgift.
+          </p>
+          <dl>
+            0.8
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            1.8
+            <span
+              data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            18.24
+            <span
+              data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            22.8
+            <span data-tooltip="Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+          <h5>Unntak</h5>
+          <p>
+            Unntak er en pris som gjelder for spesielle perider. For eksempel på
+            høylastperider som midt på dagen på en virkedag.
+          </p>
+
+          <p><b>Netteieren har ingen unntak.</b></p>
+        </article>
+      </details>
+    </main>
+  </body>
+</html>

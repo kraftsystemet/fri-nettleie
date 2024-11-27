@@ -1,0 +1,58 @@
+---
+netteier: 'Noranett AS'
+gln:
+  - '7080003811318'
+kilder:
+  - 'https://www.noranett.no/getfile.php/1323306-1704953748/Noranett/Filer/Nettleie%202024%20-%20H%C3%A5logaland%20pdf.pdf'
+  - 'https://www.noranett.no/nettleiepriser/nettleiepriser-halogaland-fra-1-1-2024-article3870-2415.html'
+tariffer:
+  - id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 4320
+        - terskel: 2
+          pris: 6120
+        - terskel: 4
+          pris: 7440
+        - terskel: 6
+          pris: 8400
+        - terskel: 8
+          pris: 9360
+        - terskel: 10
+          pris: 10320
+        - terskel: 15
+          pris: 12360
+        - terskel: 20
+          pris: 16800
+        - terskel: 25
+          pris: 19200
+        - terskel: 30
+          pris: 22800
+        - terskel: 35
+          pris: 26400
+        - terskel: 40
+          pris: 30000
+        - terskel: 45
+          pris: 32400
+        - terskel: 50
+          pris: 49200
+        - terskel: 75
+          pris: 74400
+        - terskel: 100
+          pris: 98400
+        - terskel: 125
+          pris: 123600
+        - terskel: 150
+          pris: 147600
+        - terskel: 175
+          pris: 172800
+        - terskel: 200
+          pris: 247200
+    energiledd:
+      grunnpris: 0.8
+    gyldig_fra: '2024-01-01'
+sist_oppdatert: '2024-01-01'
