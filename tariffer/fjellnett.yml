@@ -1,5 +1,6 @@
 ---
-gln: '7080010000316'
+gln:
+  - '7080010000316'
 kilder:
   - https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/
   - https://www.fjellnett.no/nettleiepriser/privatkunder/

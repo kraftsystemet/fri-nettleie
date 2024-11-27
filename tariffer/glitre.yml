@@ -1,6 +1,8 @@
 ---
 netteier: 'Glitre Nett AS'
-gln: '7080005056069'
+gln:
+  - '7080005056069'
+  - '7080005052672'
 sist_oppdatert: '2024-11-25'
 kilder:
   - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-privatkunde'

@@ -1,5 +1,6 @@
 ---
-gln: '7080003807946'
+gln:
+  - '7080003807946'
 kilder:
   - https://vevig.no/nettleie-og-vilkar/nettleie-privat/
 netteier: Vevig AS
@@ -53,4 +54,3 @@ tariffer:
     gyldig_til: null
     id: 2024-privat
     kundegruppe: privat
-

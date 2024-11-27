@@ -1,5 +1,6 @@
 ---
-gln: '7080005051880'
+gln:
+  - '7080005051880'
 kilder:
   - https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-2024-tn
   - https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-ts

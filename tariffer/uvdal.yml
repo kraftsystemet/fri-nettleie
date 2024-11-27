@@ -1,6 +1,7 @@
 ---
 netteier: 'Uvdal Kraftforsyning'
-gln: '7080005050500'
+gln:
+  - '7080005050500'
 sist_oppdatert: '2024-11-15'
 kilder:
   - 'http://www.uvdalkraft.no/contact/nett/'

@@ -65,8 +65,14 @@
         <input type="text" id="netteier" x-model="data.netteier" placeholder="Navn på netteier">
     </div>
     <div class="input-group">
+        <button @click="addGLN">Legg til GLN</button>
         <label for="gln">GLN:</label>
-        <input type="text" id="gln" x-model="data.gln" placeholder="GLN for netteier">
+        <template x-for="(gln, index) in data.gln" :key="index">
+            <div class="input-group">
+                <input type="text" x-model="data.gln[index]" placeholder="Enter GLN">
+                <button @click="removeGLN(index)">Fjern</button>
+            </div>
+        </template>
     </div>
     <div class="input-group">
         <label for="sist_oppdatert">Sist oppdatert:</label>
@@ -356,6 +362,15 @@
                 },
                 removeKilde(index) {
                     this.data.kilder.splice(index, 1);
+                },
+                addGLN() {
+                    if (!this.data.gln) {
+                        this.data.gln = [];
+                    }
+                    this.data.gln.push('');
+                },
+                removeGLN(index) {
+                    this.data.gln.splice(index, 1);
                 },
                 addTariff() {
                     if (!this.data.tariffer) {

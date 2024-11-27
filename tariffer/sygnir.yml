@@ -1,5 +1,6 @@
 ---
-gln: '7080010009654'
+gln:
+  - '7080010009654'
 kilder:
   - 'https://static1.squarespace.com/static/61dfe7b31999591972254dea/t/657af1bc8b3b35794715bef7/1702556094118/Nettleigeprisar+pr+01.01.24.pdf'
   - 'https://www.sygnir.no/nettleige'

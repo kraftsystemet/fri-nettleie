@@ -1,6 +1,7 @@
 ---
 netteier: 'Tinfos AS Nett'
-gln: '7080003612595'
+gln:
+  - '7080003612595'
 sist_oppdatert: '2024-11-24'
 # TODO Tinfos publiserer ikke tariffer på sine sider. Har sendt epost til post@tinfos.no.
 kilder:

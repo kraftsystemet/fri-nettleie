@@ -1,5 +1,6 @@
 ---
-gln: '7080005051927'
+gln:
+  - '7080005051927'
 kilder:
   - https://www.telemark-nett.no/prisar/nettleige-1/
 netteier: Vest-Telemark Kraftlag AS Nett
@@ -30,4 +31,3 @@ tariffer:
     gyldig_fra: '2024-03-01'
     id: 2024-03
     kundegruppe: privat
-

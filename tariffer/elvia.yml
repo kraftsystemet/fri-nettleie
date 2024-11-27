@@ -1,6 +1,7 @@
 ---
 netteier: 'Elvia AS'
-gln: '7080005046220'
+gln:
+  - '7080005046220'
 sist_oppdatert: '2024-11-27'
 kilder:
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/'

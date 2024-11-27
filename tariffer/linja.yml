@@ -1,5 +1,6 @@
 ---
-gln: '7080001319830'
+gln:
+  - '7080001319830'
 kilder:
   - https://www.linja.no/nettleige
 netteier: Linja AS

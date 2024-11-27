@@ -49,7 +49,8 @@ def load_status():
         with open("./tariffer/" + f, "r") as file:
             data = yaml.safe_load(file)
 
-        status[data["gln"]] = data
+        for gln in data["gln"]:
+            status[gln] = data
 
     return status
 
