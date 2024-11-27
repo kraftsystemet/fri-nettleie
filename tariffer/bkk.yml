@@ -1,0 +1,48 @@
+---
+netteier: 'BKK AS '
+gln: '7080005051378'
+sist_oppdatert: '2024-11-27'
+kilder:
+  - 'https://www.bkk.no/alt-om-nettleie/nettleiepriser'
+tariffer:
+  - id: 2024-04-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1536
+        - terskel: 2
+          pris: 2496
+        - terskel: 5
+          pris: 4128
+        - terskel: 10
+          pris: 5952
+        - terskel: 15
+          pris: 7680
+        - terskel: 20
+          pris: 9360
+        - terskel: 25
+          pris: 17952
+        - terskel: 50
+          pris: 26496
+        - terskel: 75
+          pris: 35040
+        - terskel: 100
+          pris: 69120
+    energiledd:
+      grunnpris: 19.776
+      unntak:
+        - navn: 'Høylast sommer'
+          timer: 6-21
+          pris: 29.96
+        - navn: 'Høylast vinter'
+          timer: 6-21
+          måneder: [januar, februar, mars]
+          pris: 22.76
+        - navn: 'Vanlig last vinter'
+          timer: 22-6
+          måneder: [januar, februar, mars]
+          pris: 12.848
+    gyldig_fra: '2024-04-01'
