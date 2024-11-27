@@ -59,6 +59,8 @@ def print_status():
     dsos = load_dsos()
     dso_status = load_status()
     print("")
+    print(f"Vi har samlet data for {len(dso_status)} av {len(dsos)} netteiere 🥳!")
+    print("")
     print("""<table>
     <tr>
         <th>Navn</th>
@@ -102,8 +104,6 @@ def print_status():
 
     print("</table>")
     print("")
-
-
 
 if __name__ == '__main__':
 

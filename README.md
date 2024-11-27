@@ -246,6 +246,8 @@ Den følgende listen viser status på innsamlede data.
 
 <!-- statusstart -->
 
+Vi har samlet data for 25 av 66 netteiere 🥳!
+
 <table>
     <tr>
         <th>Navn</th>
