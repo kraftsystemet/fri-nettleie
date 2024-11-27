@@ -4,6 +4,7 @@ gln: '7080005046220'
 sist_oppdatert: '2024-11-27'
 kilder:
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/'
+  - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/prisen-pa-nettleie-gar-ned/'
 tariffer:
   - id: 2024-10-privat
     kundegruppe: privat
@@ -34,9 +35,6 @@ tariffer:
     energiledd:
       grunnpris: 18.56
       unntak:
-        - navn: 'Helg og helligdager'
-          dager: [fridag]
-          pris: 18.56
         - navn: Dag
           timer: 6-21
           dager: [ukedag]
@@ -74,9 +72,9 @@ tariffer:
       unntak:
         - navn: 'Helg og helligdager'
           dager: [fridag]
-          pris: 16.56
+          pris: 8.56
         - navn: Dag
           timer: 6-21
           dager: [ukedag]
-          pris: 8.56
+          pris: 16.56
     gyldig_fra: '2025-01-01'
