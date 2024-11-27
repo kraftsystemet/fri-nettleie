@@ -1,0 +1,39 @@
+---
+netteier: 'Arva AS'
+gln: '7080005051859'
+sist_oppdatert: '2024-11-27'
+kilder:
+  - 'https://arva.no/hjem/Priser'
+tariffer:
+  - id: 2024-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1020
+        - terskel: 2
+          pris: 2412
+        - terskel: 5
+          pris: 4776
+        - terskel: 10
+          pris: 7140
+        - terskel: 15
+          pris: 9504
+        - terskel: 20
+          pris: 11868
+        - terskel: 25
+          pris: 23664
+        - terskel: 50
+          pris: 35460
+        - terskel: 75
+          pris: 47256
+        - terskel: 100
+          pris: 71340
+    energiledd:
+      grunnpris: 11.6
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 23.1
