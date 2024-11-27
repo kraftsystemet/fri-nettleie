@@ -49,7 +49,8 @@ def load_status():
         with open("./tariffer/" + f, "r") as file:
             data = yaml.safe_load(file)
 
-        status[data["gln"]] = data
+        for gln in data["gln"]:
+            status[gln] = data
 
     return status
 
@@ -57,6 +58,8 @@ def print_status():
 
     dsos = load_dsos()
     dso_status = load_status()
+    print("")
+    print(f"Vi har samlet data for {len(dso_status)} av {len(dsos)} netteiere 🥳!")
     print("")
     print("""<table>
     <tr>
@@ -101,8 +104,6 @@ def print_status():
 
     print("</table>")
     print("")
-
-
 
 if __name__ == '__main__':
 

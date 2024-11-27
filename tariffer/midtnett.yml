@@ -1,5 +1,6 @@
 ---
-gln: '7080003869012'
+gln:
+  - '7080003869012'
 kilder:
   - https://www.midtnett.no/nettleie
   - https://www.midtnett.no/media/2919/nettleiepriser-fra-1-april-2024.pdf
@@ -38,4 +39,3 @@ tariffer:
     gyldig_til: null
     id: hn22-privat
     kundegruppe: privat
-

@@ -1,6 +1,7 @@
 ---
 netteier: 'Asker Nett'
-gln: '7080003858825'
+gln:
+  - '7080003858825'
 sist_oppdatert: '2024-11-27'
 kilder:
   - 'https://askernett.no/nettleie-og-priser/'

@@ -1,6 +1,7 @@
 ---
 netteier: 'Sør Aurdal Energi AS Nett'
-gln: '7080005046459'
+gln:
+  - '7080005046459'
 kilder:
   - 'https://sae.no/tariffer'
   - 'https://sae.no/uploads/Kundeinformasjon/2024_08_Kundeinformasjon_tariffer.pdf'

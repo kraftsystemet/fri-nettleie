@@ -1,6 +1,7 @@
 ---
 netteier: 'Straumnett AS'
-gln: '7080004053632'
+gln:
+  - '7080004053632'
 kilder:
   - 'https://straumnett.no/prisar-for-nettleige'
 sist_oppdatert: '2024-11-25'

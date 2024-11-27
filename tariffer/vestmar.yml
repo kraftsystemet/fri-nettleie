@@ -1,5 +1,6 @@
 ---
-gln: '7080005054928'
+gln:
+  - '7080005054928'
 kilder:
   - https://vestmar-nett.no/nett-og-nettleie/
   - https://vestmar-nett.no/wp-content/uploads/2024/01/Tariffer-010224.pdf

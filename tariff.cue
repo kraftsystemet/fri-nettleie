@@ -8,11 +8,12 @@ import (
 // https://cuelang.org/docs/concept/how-cue-enables-data-validation/
 // https://cuelang.org/docs/concept/how-cue-works-with-yaml/
 
-#Mga: =~"^50Y[A-Z0-9-]{10}"
+#MGA: =~"^50Y[A-Z0-9-]{10}"
+#GLN: =~"^7080[0-9]{9}$"
 
 #Selskap: {
     netteier!: string
-    gln!: =~"^7[0-9]{12}$"
+    gln!: [...#GLN]
     sist_oppdatert!: time.Format(time.RFC3339Date)
     kilder!: list.MinItems(1)
     tariffer!: [...#Tariff]
@@ -25,7 +26,7 @@ import (
     navn?: string
     kommentar?: string
     kundegruppe!: "husholdning" | "hytte" | "privat"
-    mga?: [...#Mga]
+    mga?: [...#MGA]
     energiledd!: #Energiledd
     fastledd!: #Fastledd
 }

@@ -1,5 +1,6 @@
 ---
-gln: '7080005051897'
+gln:
+  - '7080005051897'
 kilder:
   - https://vestall.no/nettleiepriser-2024/
 netteier: Vestall AS
@@ -36,4 +37,3 @@ tariffer:
     gyldig_fra: '2024-01-01'
     id: '2024'
     kundegruppe: privat
-

@@ -1,0 +1,78 @@
+---
+netteier: 'Elvia AS'
+gln:
+  - '7080005046220'
+sist_oppdatert: '2024-11-27'
+kilder:
+  - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/'
+  - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/prisen-pa-nettleie-gar-ned/'
+tariffer:
+  - id: 2024-10-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1344
+        - terskel: 2
+          pris: 2208
+        - terskel: 5
+          pris: 3600
+        - terskel: 10
+          pris: 5040
+        - terskel: 15
+          pris: 6480
+        - terskel: 20
+          pris: 7872
+        - terskel: 25
+          pris: 14976
+        - terskel: 50
+          pris: 22080
+        - terskel: 75
+          pris: 29088
+        - terskel: 100
+          pris: 58080
+    energiledd:
+      grunnpris: 18.56
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          dager: [virkedag]
+          pris: 24.16
+    gyldig_fra: '2024-10-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1296
+        - terskel: 2
+          pris: 2064
+        - terskel: 5
+          pris: 3360
+        - terskel: 10
+          pris: 4656
+        - terskel: 15
+          pris: 5952
+        - terskel: 20
+          pris: 7248
+        - terskel: 25
+          pris: 13680
+        - terskel: 50
+          pris: 20160
+        - terskel: 75
+          pris: 26640
+        - terskel: 100
+          pris: 53808
+    energiledd:
+      grunnpris: 8.56
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          dager: [virkedag]
+          pris: 16.56
+    gyldig_fra: '2025-01-01'

@@ -1,6 +1,7 @@
 ---
 netteier: 'SuNett AS'
-gln: '7080010003218'
+gln:
+  - '7080010003218'
 kilder:
   - 'https://www.sunndalenerginett.no/nettleie/'
   - 'https://www.sunndalenerginett.no/nettleie/nettavtaler/nettleie-privat/'

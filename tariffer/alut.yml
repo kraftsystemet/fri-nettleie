@@ -1,5 +1,6 @@
 ---
-gln: '7080010004383'
+gln:
+  - '7080010004383'
 kilder:
   - https://alut.no/nettleie/
 netteier: Alut AS

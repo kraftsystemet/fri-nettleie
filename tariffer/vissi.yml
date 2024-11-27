@@ -1,5 +1,6 @@
 ---
-gln: '7080004045743'
+gln:
+  - '7080004045743'
 kilder:
   - https://www.vissi.no/priser-og-vilkar/nettleie-privat/
 netteier: Vissi AS
@@ -41,4 +42,3 @@ tariffer:
     gyldig_til: null
     id: 2024-privat
     kundegruppe: privat
-

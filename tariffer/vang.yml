@@ -1,5 +1,6 @@
 ---
-gln: '7080010002297'
+gln:
+  - '7080010002297'
 kilder:
   - https://www.vangenergi.no/nettleige/forbrukarkundar/
   - https://www.vangenergi.no/nyheter/

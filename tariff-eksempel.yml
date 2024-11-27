@@ -29,7 +29,9 @@
 netteier: Eksempel AS
 # GLN brukes for å identifisere netteier i mange systemer
 # Organisasjonsnummer kan utledes fra GLN ved å bruke data f.eks. fra Elhub.
-gln: "7080123456789"
+# GLN er en liste fordi noen nettselskaper har flere GLN ifbm. sammenslåing.
+gln:
+  - "7080123456789"
 # Når det sist ble samlet inn/sjekket at tariffene er riktige
 sist_oppdatert: 2024-11-03
 # Kilder er lenker/urler hvor tariffene finnes.
