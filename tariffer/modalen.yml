@@ -1,0 +1,32 @@
+---
+netteier: 'Modalen Kraftlag Nett'
+gln: '7080003816184'
+sist_oppdatert: '2024-11-27'
+tariffer:
+  - id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 600
+        - terskel: 2
+          pris: 988.8
+        - terskel: 5
+          pris: 1680
+        - terskel: 10
+          pris: 2371.2
+        - terskel: 15
+          pris: 3062.4
+        - terskel: 20
+          pris: 3747.2
+    energiledd:
+      grunnpris: 46.408
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 0
+    gyldig_fra: '2022-10-01'
+kilder:
+  - 'https://www.modalenkraftlag.no/ViewFile.aspx?ItemID=1284'
