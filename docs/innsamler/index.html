@@ -40,7 +40,7 @@
         }
 
         .column {
-            width: 50%;
+            width: 60%;
             padding: 20px;
             border-right: 1px solid #ccc;
         }
@@ -109,7 +109,7 @@
                 </select>
             </div>
 
-            <h4>Effektledd</h4>
+            <h4>Effektledd (kr)</h4>
             <div class="input-group">
                 <label for="metode">Metode:</label>
                 <select id="metode" x-model="tariff.fastledd.metode" placeholder="Enter metode">
@@ -126,7 +126,7 @@
             </div>
 
             <h5>Terskler</h5>
-            <button @click="addTerskel(index)">Legg til en ekstra terskel</button>
+            <button @click="addTerskforbruk(index)">Legg til en ekstra terskel</button>
             <table>
                 <tr>
                     <th>terskel</th>
@@ -154,21 +154,22 @@
                             <input type="number" id="pris-mnd-mva" class="secondary-input" x-bind:value="(terskel.pris / 12)*1.25" x-on:change="terskel.pris = ($event.target.value * 0.8) * 12">
                         </td>
                         <td>
-                            <button @click="removeTerskel(index,jndex)">Fjern</button>
+                            <button @click="removeTerskforbruk(index,jndex)">Fjern</button>
                         </td>
                     </tr>
                 </template>
             </table>
 
-            <h4>Energiledd</h4>
+            <h4>Energiledd (øre)</h4>
             <div class="input-group">
                 <table>
                     <tr>
                         <th>uten avgifter</th>
                         <th>mva</th>
                         <th>enova</th>
-                        <th>enova+forbruk</th>
-                        <th>enova+forbruk+mva</th>
+                        <th>enova<br/>forbruk(s)</th>
+                        <th>enova<br/>forbruk(v)<br/>mva</th>
+                        <th>enova<br/>forbruk(s)<br/>mva</th>
                     </tr>
                     <tr>
                         <td>
@@ -181,10 +182,13 @@
                             <input type="number" id="pris-enova" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-forbruk" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1 + 16.44" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1 - 16.44">
+                            <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1 + 16.44" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1 - 16.44">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-forbruk-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + 16.44) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - 16.44">
+                            <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + 9.51) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - 9.51">
+                        </td>
+                        <td>
+                            <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + 16.44) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - 16.44">
                         </td>
                     </tr>
                 </table>
@@ -210,11 +214,12 @@
                         <h6>Erstatningspris</h6>
                         <table>
                             <tr>
-                                    <th>uten avgifter</th>
+                                <th>uten avgifter</th>
                                 <th>mva</th>
                                 <th>enova</th>
-                                <th>enova+forbruk</th>
-                                <th>enova+forbruk+mva</th>
+                                <th>enova<br>forbruk(s)</th>
+                                <th>enova<br>forbruk(v)<br>mva</th>
+                                <th>enova<br>forbruk(s)<br>mva</th>
                             </tr>
                             <tr>
                                 <td>
@@ -227,10 +232,13 @@
                                     <input type="number" id="pris-enova" class="secondary-input" x-bind:value="unntak.pris + 1" x-on:change="unntak.pris = $event.target.value - 1">
                                 </td>
                                 <td>
-                                    <input type="number" id="pris-enova-forbruk" class="secondary-input" x-bind:value="unntak.pris + 1 + 16.44" x-on:change="unntak.pris = $event.target.value - 1 - 16.44">
+                                    <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="unntak.pris + 1 + 16.44" x-on:change="unntak.pris = $event.target.value - 1 - 16.44">
                                 </td>
                                 <td>
-                                    <input type="number" id="pris-enova-forbruk-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 16.44) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 16.44">
+                                    <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 9.51) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 9.51">
+                                </td>
+                                <td>
+                                    <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 16.44) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 16.44">
                                 </td>
                             </tr>
                         </table>
@@ -307,9 +315,31 @@
     <script>
         new ClipboardJS('.bclip');
         function app() {
+
+            newTariff = {
+                        id: '',
+                        kundegruppe: 'privat',
+                        fastledd: {
+                            metode: 'TRE_DØGNMAX_MND',
+                            terskel_inkludert: true,
+                            terskler: [
+                                { terskel: 0, pris: 0 }
+                            ]
+                        },
+                        energiledd: {
+                            grunnpris: 0,
+                            unntak: [{
+                                navn: 'Høylast',
+                                timer: "6-21",
+                                pris: 0,
+                            }]
+                        }
+            };
+
             return {
                 data: {
                     'netteier': 'NY',
+                    tariffer: [structuredClone(newTariff)]
                 },
 
                 init() {
@@ -331,30 +361,12 @@
                     if (!this.data.tariffer) {
                         this.data.tariffer = [];
                     }
-                    this.data.tariffer.push({
-                        id: '',
-                        kundegruppe: 'privat',
-                        fastledd: {
-                            metode: 'TRE_DØGNMAX_MND',
-                            terskel_inkludert: true,
-                            terskler: [
-                                { terskel: 0, pris: 0 }
-                            ]
-                        },
-                        energiledd: {
-                            grunnpris: 0,
-                            unntak: [{
-                                navn: 'Høylast',
-                                timer: "6-21",
-                                pris: 0,
-                            }]
-                        }
-                    });
+                    this.data.tariffer.push(structuredClone(newTariff));
                 },
-                addTerskel(index) {
+                addTerskforbruk(index) {
                     this.data.tariffer[index].fastledd.terskler.push({ terskel: 0, pris: 0 });
                 },
-                removeTerskel(index,jndex) {
+                removeTerskforbruk(index,jndex) {
                     this.data.tariffer[index].fastledd.terskler.splice(jndex, 1);
                 },
                 removeUnntak(index, jndex) {
