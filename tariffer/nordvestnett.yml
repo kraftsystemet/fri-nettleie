@@ -34,9 +34,9 @@ tariffer:
         - terskel: 100
           pris: 64608
     energiledd:
-      grunnpris: 35.048
+      grunnpris: 17.608
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 41.048
+          pris: 23.608
     gyldig_fra: '2024-09-01'
