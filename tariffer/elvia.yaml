@@ -35,9 +35,9 @@ tariffer:
     energiledd:
       grunnpris: 18.56
       unntak:
-        - navn: Dag
+        - navn: Virkedag
           timer: 6-21
-          dager: [ukedag]
+          dager: [virkedag]
           pris: 24.16
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-01-01'
@@ -70,11 +70,8 @@ tariffer:
     energiledd:
       grunnpris: 8.56
       unntak:
-        - navn: 'Helg og helligdager'
-          dager: [fridag]
-          pris: 8.56
-        - navn: Dag
+        - navn: Virkedag
           timer: 6-21
-          dager: [ukedag]
+          dager: [virkedag]
           pris: 16.56
     gyldig_fra: '2025-01-01'
