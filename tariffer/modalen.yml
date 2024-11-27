@@ -23,7 +23,7 @@ tariffer:
         - terskel: 20
           pris: 3747.2
     energiledd:
-      grunnpris: 46.408
+      grunnpris: 30
       unntak:
         - navn: Høylast
           timer: 6-21
