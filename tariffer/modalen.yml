@@ -1,6 +1,7 @@
 ---
 netteier: 'Modalen Kraftlag Nett'
-gln: '7080003816184'
+gln:
+  - '7080003816184'
 sist_oppdatert: '2024-11-27'
 tariffer:
   - id: '2024'

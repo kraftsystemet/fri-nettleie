@@ -1,12 +1,14 @@
 ---
 netteier: 'Norefjell Nett AS'
-gln: '7080010003911'
+gln:
+  - '7080010003911'
 sist_oppdatert: '2024-01-01'
 kilder:
   - 'http://www.krodsherad-nett.no/nettjenester/hyttemarkedet/nettleiepriser'
   - 'http://www.krodsherad-nett.no/assets/Dokumenter/Nettleiepriser%2001.01.2024.pdf'
 tariffer:
   - kundegruppe: privat
+    id: '2024'
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -37,3 +39,4 @@ tariffer:
         - navn: Høylast
           timer: 6-21
           pris: 19.053
+    gyldig_fra: '2024-01-01'

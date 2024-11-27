@@ -1,6 +1,7 @@
 ---
 netteier: 'Nettselskapet AS'
-gln: '7080004064553'
+gln:
+  - '7080004064553'
 kilder:
   - 'https://nettselskapet.as/privat-2024/'
 sist_oppdatert: '2024-01-01'

@@ -1,6 +1,7 @@
 ---
 netteier: 'Norgesnett AS'
-gln: '7080005052702'
+gln:
+  - '7080005052702'
 kilder:
   - 'https://norgesnett.no/kunde/nettleie-privat/'
 sist_oppdatert: '2024-11-01'

@@ -12,7 +12,7 @@ readme: vet
 	./skript/status.py | sponge README.md
 
 vet:
-	cue vet -d "#Selskap" tariff.cue tariff-eksempel.yml tariffer/*.yml
+	cue vet --schema "#Selskap" tariff.cue tariff-eksempel.yml tariffer/*.yml
 
 fmt:
 	yamlfmt tariff-eksempel.yml tariffer/*.yml referanse-data/nve/tariffer/*.yml
