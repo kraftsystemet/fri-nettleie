@@ -27,8 +27,6 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
 - [Dataene i bruk](#dataene-i-bruk)
 - [Status](#status)
-- [Forvaltere](#forvaltere)
-- [Lisens](#lisens)
 
 <!-- tocstop -->
 
@@ -246,7 +244,7 @@ Den følgende listen viser status på innsamlede data.
 
 <!-- statusstart -->
 
-Vi har samlet data for 31 av 66 netteiere 🥳!
+Vi har samlet data for 31 av 84 netteiere 🥳!
 
 <table>
     <tr>
@@ -256,10 +254,22 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
         <th>Handling</th>
     </tr>
 <tr>
+    <td>AS Saudefaldene Nett</td>
+    <td>7080003674630</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBUyBTYXVkZWZhbGRlbmUgTmV0dCIsICJnbG4iOiAiNzA4MDAwMzY3NDYzMCJ9' title='Samle inn data for AS Saudefaldene Nett' target='_blank'>✏️</a></td>
+</tr>
+<tr>
     <td>Alut AS ✅</td>
     <td>7080010004383</td>
     <td><code>2024-11-09</code></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMTAwMDQzODMiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9hbHV0Lm5vL25ldHRsZWllLyJdLCAibmV0dGVpZXIiOiAiQWx1dCBBUyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTA5IiwgInRhcmlmZmVyIjogW3siZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTMuMX0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIk9WX1RSRUZBU0UiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJwcmlzIjogMzUwMCwgInRlcnNrZWwiOiAwfSwgeyJwcmlzIjogNDUwMCwgInRlcnNrZWwiOiAxMjV9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEiLCAiaWQiOiAiMjAyNCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQifV19' title='Samle inn data for Alut AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Area Nett AS</td>
+    <td>7080004087071</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcmVhIE5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMDQwODcwNzEifQ==' title='Samle inn data for Area Nett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Arva AS ✅</td>
@@ -268,10 +278,10 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcnZhIEFTIiwgImdsbiI6IFsiNzA4MDAwNTA1MTg1OSIsICI3MDgwMDA1MDUxMzYxIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI3IiwgImtpbGRlciI6IFsiaHR0cHM6Ly9hcnZhLm5vL2hqZW0vUHJpc2VyIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDEtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTAyMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjQxMn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDc3Nn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDcxNDB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA5NTA0fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTE4Njh9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyMzY2NH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDM1NDYwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNDcyNTZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzEzNDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMS42LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjMuMX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for Arva AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Arva AS ✅</td>
+    <td>Arva AS (tidligere Nordlandsnett) ✅</td>
     <td>7080005051361</td>
     <td><code>2024-11-27</code></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcnZhIEFTIiwgImdsbiI6IFsiNzA4MDAwNTA1MTg1OSIsICI3MDgwMDA1MDUxMzYxIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI3IiwgImtpbGRlciI6IFsiaHR0cHM6Ly9hcnZhLm5vL2hqZW0vUHJpc2VyIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDEtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTAyMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjQxMn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDc3Nn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDcxNDB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA5NTA0fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTE4Njh9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyMzY2NH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDM1NDYwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNDcyNTZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzEzNDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMS42LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjMuMX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for Arva AS' target='_blank'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcnZhIEFTIiwgImdsbiI6IFsiNzA4MDAwNTA1MTg1OSIsICI3MDgwMDA1MDUxMzYxIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI3IiwgImtpbGRlciI6IFsiaHR0cHM6Ly9hcnZhLm5vL2hqZW0vUHJpc2VyIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDEtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTAyMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjQxMn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDc3Nn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDcxNDB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA5NTA0fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTE4Njh9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyMzY2NH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDM1NDYwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNDcyNTZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzEzNDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMS42LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjMuMX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for Arva AS (tidligere Nordlandsnett)' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Asker Nett AS ✅</td>
@@ -284,6 +294,12 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td>7080005051378</td>
     <td><code>2024-11-27</code></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCS0sgQVMgIiwgImdsbiI6IFsiNzA4MDAwNTA1MTM3OCJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0yNyIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmJray5uby9hbHQtb20tbmV0dGxlaWUvbmV0dGxlaWVwcmlzZXIiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wNC1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAxNTM2fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyNDk2fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0MTI4fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNTk1Mn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDc2ODB9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA5MzYwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTc5NTJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyNjQ5Nn0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDM1MDQwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDY5MTIwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTkuNzc2LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3Qgdmlya2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjkuOTYsICJkYWdlciI6IFsidmlya2VkYWciXX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNC0wMSJ9XX0=' title='Samle inn data for BKK AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Barents Nett AS</td>
+    <td>7080005051934</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCYXJlbnRzIE5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMDUwNTE5MzQifQ==' title='Samle inn data for Barents Nett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Bindal Kraftlag Nett</td>
@@ -314,6 +330,12 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td>7080005053044</td>
     <td></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbGluZXR0IEFTIiwgImdsbiI6ICI3MDgwMDA1MDUzMDQ0In0=' title='Samle inn data for Elinett AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Elmea AS Nett</td>
+    <td>7080005046442</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbG1lYSBBUyBOZXR0IiwgImdsbiI6ICI3MDgwMDA1MDQ2NDQyIn0=' title='Samle inn data for Elmea AS Nett' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Elvenett AS</td>
@@ -364,28 +386,46 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMiLCAiZ2xuIjogIjcwODAwMDUwNDg0MTUifQ==' title='Samle inn data for Føie AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
+    <td>Føie AS – Hemsedal</td>
+    <td>7080004067882</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMgXHUyMDEzIEhlbXNlZGFsIiwgImdsbiI6ICI3MDgwMDA0MDY3ODgyIn0=' title='Samle inn data for Føie AS – Hemsedal' target='_blank'>✏️</a></td>
+</tr>
+<tr>
     <td>Føre AS</td>
     <td>7080010003836</td>
     <td></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4cmUgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDM4MzYifQ==' title='Samle inn data for Føre AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Glitre Nett AS ✅</td>
+    <td>Glitre Nett AS (tidl Glitre Energi Nett, Distrib.) ✅</td>
     <td>7080005052672</td>
     <td><code>2024-11-25</code></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTYwNjkiLCAiNzA4MDAwNTA1MjY3MiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0yNSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmdsaXRyZW5ldHQubm8va3VuZGUvbmV0dGxlaWUtb2ctcHJpc2VyL25ldHRsZWllcHJpc2VyLXByaXZhdGt1bmRlIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTAtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjA0MH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjU4MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDQ0MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDkxMjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxMTg4MH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDE0ODgwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMjMwNDB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzNjQ4MH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDQ4NjAwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDc4OTYwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTUuMzYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyNC45Nn1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMC0wMSJ9XX0=' title='Samle inn data for Glitre Nett AS' target='_blank'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTYwNjkiLCAiNzA4MDAwNTA1MjY3MiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0yNSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmdsaXRyZW5ldHQubm8va3VuZGUvbmV0dGxlaWUtb2ctcHJpc2VyL25ldHRsZWllcHJpc2VyLXByaXZhdGt1bmRlIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTAtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjA0MH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjU4MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDQ0MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDkxMjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxMTg4MH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDE0ODgwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMjMwNDB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzNjQ4MH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDQ4NjAwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDc4OTYwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTUuMzYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyNC45Nn1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMC0wMSJ9XX0=' title='Samle inn data for Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Glitre Nett AS ✅</td>
+    <td>Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)</td>
+    <td>7080005053273</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyAodGlkbC4gR2xpdHJlIEVuZXJnaSBOZXR0IC0gUmVnLm4uKSIsICJnbG4iOiAiNzA4MDAwNTA1MzI3MyJ9' title='Samle inn data for Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Glitre Nett AS (tidligere Agder Energi Nett) ✅</td>
     <td>7080005056069</td>
     <td><code>2024-11-25</code></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTYwNjkiLCAiNzA4MDAwNTA1MjY3MiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0yNSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmdsaXRyZW5ldHQubm8va3VuZGUvbmV0dGxlaWUtb2ctcHJpc2VyL25ldHRsZWllcHJpc2VyLXByaXZhdGt1bmRlIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTAtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjA0MH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjU4MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDQ0MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDkxMjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxMTg4MH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDE0ODgwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMjMwNDB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzNjQ4MH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDQ4NjAwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDc4OTYwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTUuMzYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyNC45Nn1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMC0wMSJ9XX0=' title='Samle inn data for Glitre Nett AS' target='_blank'>✏️</a></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTYwNjkiLCAiNzA4MDAwNTA1MjY3MiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0yNSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmdsaXRyZW5ldHQubm8va3VuZGUvbmV0dGxlaWUtb2ctcHJpc2VyL25ldHRsZWllcHJpc2VyLXByaXZhdGt1bmRlIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTAtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjA0MH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjU4MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDQ0MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDkxMjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxMTg4MH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDE0ODgwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMjMwNDB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzNjQ4MH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDQ4NjAwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDc4OTYwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTUuMzYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyNC45Nn1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMC0wMSJ9XX0=' title='Samle inn data for Glitre Nett AS (tidligere Agder Energi Nett)' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Griug AS ✅</td>
     <td>7080005052900</td>
     <td><code>2024-11-09</code></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMDUwNTI5MDAiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cuZ3JpdWcubm8vb20tbmV0dGxlaWUtb2ctcHJpc2VyL3ByaXNlci9uZXR0bGVpZXByaXNlci0yMDI0LyJdLCAibmV0dGVpZXIiOiAiR3JpdWcgQVMiLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0wOSIsICJ0YXJpZmZlciI6IFt7ImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDkuOCwgInVubnRhayI6IFt7ImRhZ2VyIjogWyJmcmVkYWciXSwgIm1cdTAwZTVuZWRlciI6IFsiamFudWFyIiwgImZlYnJ1YXIiLCAibWFycyIsICJva3RvYmVyIiwgIm5vdmVtYmVyIiwgImRlc2VtYmVyIl0sICJuYXZuIjogIkJydWtzdGlkc3RpbGxlZ2ciLCAidGlsbGVnZyI6IDExLCAidGltZXIiOiAiNi0yMSJ9XX0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sicHJpcyI6IDIxMTIsICJ0ZXJza2VsIjogMH0sIHsicHJpcyI6IDMxNjgsICJ0ZXJza2VsIjogMn0sIHsicHJpcyI6IDQ3NTIsICJ0ZXJza2VsIjogNX0sIHsicHJpcyI6IDYwOTYsICJ0ZXJza2VsIjogMTB9LCB7InByaXMiOiA3NjgwLCAidGVyc2tlbCI6IDE1fSwgeyJwcmlzIjogOTMxMiwgInRlcnNrZWwiOiAyMH0sIHsicHJpcyI6IDE3NDI0LCAidGVyc2tlbCI6IDI1fSwgeyJwcmlzIjogMjU1ODQsICJ0ZXJza2VsIjogNTB9LCB7InByaXMiOiAzNDMyMCwgInRlcnNrZWwiOiA3NX0sIHsicHJpcyI6IDY4MTEyLCAidGVyc2tlbCI6IDEwMH1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSIsICJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCJ9XX0=' title='Samle inn data for Griug AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Hallingdal Kraftnett AS</td>
+    <td>7080005050654</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYWxsaW5nZGFsIEtyYWZ0bmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwNTA1MDY1NCJ9' title='Samle inn data for Hallingdal Kraftnett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Havnett AS</td>
@@ -448,10 +488,22 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMZWRlIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUwOTc1In0=' title='Samle inn data for Lede AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
+    <td>Linea AS</td>
+    <td>7080003965325</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMaW5lYSBBUyIsICJnbG4iOiAiNzA4MDAwMzk2NTMyNSJ9' title='Samle inn data for Linea AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
     <td>Linja AS ✅</td>
     <td>7080001319830</td>
     <td><code>2024-11-03</code></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMDEzMTk4MzAiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubGluamEubm8vbmV0dGxlaWdlIl0sICJuZXR0ZWllciI6ICJMaW5qYSBBUyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTAzIiwgInRhcmlmZmVyIjogW3siZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMjAuNDI0LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAicHJpcyI6IDI3LjIzMiwgInRpbWVyIjogIjYtMjEifV19LCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InByaXMiOiAyNjQwLCAidGVyc2tlbCI6IDB9LCB7InByaXMiOiAzMjkyLjgsICJ0ZXJza2VsIjogMn0sIHsicHJpcyI6IDM5NDUuNiwgInRlcnNrZWwiOiA1fSwgeyJwcmlzIjogNjU4NS42LCAidGVyc2tlbCI6IDEwfSwgeyJwcmlzIjogNzkxMC40LCAidGVyc2tlbCI6IDE1fSwgeyJwcmlzIjogOTIxNiwgInRlcnNrZWwiOiAyMH0sIHsicHJpcyI6IDEzMTgwLjgsICJ0ZXJza2VsIjogMjV9LCB7InByaXMiOiAxNDQ5NiwgInRlcnNrZWwiOiA1MH0sIHsicHJpcyI6IDE1ODAxLjYsICJ0ZXJza2VsIjogNzV9LCB7InByaXMiOiAxOTc2Ni40LCAidGVyc2tlbCI6IDEwMH1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNy0wMSIsICJneWxkaWdfdGlsIjogbnVsbCwgImlkIjogIm5vcmQtcHJpdmF0IiwgIm5hdm4iOiAiTm9yZCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQifSwgeyJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNS4zODQsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJwcmlzIjogMjIuMzg0LCAidGltZXIiOiAiNi0yMSJ9XX0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sicHJpcyI6IDI2NjguOCwgInRlcnNrZWwiOiAwfSwgeyJwcmlzIjogMzcwNS42LCAidGVyc2tlbCI6IDJ9LCB7InByaXMiOiA0NzQyLjQsICJ0ZXJza2VsIjogNX0sIHsicHJpcyI6IDY4MTYuMCwgInRlcnNrZWwiOiAxMH0sIHsicHJpcyI6IDgxOTguNCwgInRlcnNrZWwiOiAxNX0sIHsicHJpcyI6IDk1OTAuNCwgInRlcnNrZWwiOiAyMH0sIHsicHJpcyI6IDEyMTgyLjQsICJ0ZXJza2VsIjogMjV9LCB7InByaXMiOiAxMzU2NC44LCAidGVyc2tlbCI6IDUwfSwgeyJwcmlzIjogMTQ5NTYuOCwgInRlcnNrZWwiOiA3NX0sIHsicHJpcyI6IDE4NDEyLjgsICJ0ZXJza2VsIjogMTAwfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTA3LTAxIiwgImd5bGRpZ190aWwiOiBudWxsLCAiaWQiOiAic1x1MDBmOHItcHJpdmF0IiwgIm5hdm4iOiAiU1x1MDBmOHIiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0In1dfQ==' title='Samle inn data for Linja AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Lnett AS</td>
+    <td>7080005046053</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMbmV0dCBBUyIsICJnbG4iOiAiNzA4MDAwNTA0NjA1MyJ9' title='Samle inn data for Lnett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Lucerna AS</td>
@@ -470,6 +522,12 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td>7080010013088</td>
     <td></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMeXNuYSBBUyIsICJnbG4iOiAiNzA4MDAxMDAxMzA4OCJ9' title='Samle inn data for Lysna AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Mellom AS</td>
+    <td>7080010004369</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNZWxsb20gQVMiLCAiZ2xuIjogIjcwODAwMTAwMDQzNjkifQ==' title='Samle inn data for Mellom AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Meløy Nett AS</td>
@@ -502,6 +560,18 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JhbmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDM4MTEzMTgiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubm9yYW5ldHQubm8vZ2V0ZmlsZS5waHAvMTMyMzMwNi0xNzA0OTUzNzQ4L05vcmFuZXR0L0ZpbGVyL05ldHRsZWllJTIwMjAyNCUyMC0lMjBIJUMzJUE1bG9nYWxhbmQlMjBwZGYucGRmIiwgImh0dHBzOi8vd3d3Lm5vcmFuZXR0Lm5vL25ldHRsZWllcHJpc2VyL25ldHRsZWllcHJpc2VyLWhhbG9nYWxhbmQtZnJhLTEtMS0yMDI0LWFydGljbGUzODcwLTI0MTUuaHRtbCJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogNDMyMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogNjEyMH0sIHsidGVyc2tlbCI6IDQsICJwcmlzIjogNzQ0MH0sIHsidGVyc2tlbCI6IDYsICJwcmlzIjogODQwMH0sIHsidGVyc2tlbCI6IDgsICJwcmlzIjogOTM2MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDEwMzIwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogMTIzNjB9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxNjgwMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE5MjAwfSwgeyJ0ZXJza2VsIjogMzAsICJwcmlzIjogMjI4MDB9LCB7InRlcnNrZWwiOiAzNSwgInByaXMiOiAyNjQwMH0sIHsidGVyc2tlbCI6IDQwLCAicHJpcyI6IDMwMDAwfSwgeyJ0ZXJza2VsIjogNDUsICJwcmlzIjogMzI0MDB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiA0OTIwMH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDc0NDAwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDk4NDAwfSwgeyJ0ZXJza2VsIjogMTI1LCAicHJpcyI6IDEyMzYwMH0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiAxNDc2MDB9LCB7InRlcnNrZWwiOiAxNzUsICJwcmlzIjogMTcyODAwfSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDI0NzIwMH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDAuOH0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTAxLTAxIn0=' title='Samle inn data for Noranett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
+    <td>Noranett Andøy AS</td>
+    <td>7080010002433</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JhbmV0dCBBbmRcdTAwZjh5IEFTIiwgImdsbiI6ICI3MDgwMDEwMDAyNDMzIn0=' title='Samle inn data for Noranett Andøy AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Noranett Hadsel AS</td>
+    <td>7080003857989</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JhbmV0dCBIYWRzZWwgQVMiLCAiZ2xuIjogIjcwODAwMDM4NTc5ODkifQ==' title='Samle inn data for Noranett Hadsel AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
     <td>Nordvest Nett AS ✅</td>
     <td>7080005052801</td>
     <td><code>2024-09-01</code></td>
@@ -520,10 +590,22 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JnZXNuZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA1MjcwMiJdLCAia2lsZGVyIjogWyJodHRwczovL25vcmdlc25ldHQubm8va3VuZGUvbmV0dGxlaWUtcHJpdmF0LyJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0wMSIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiA5ODQuMDk2fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAxNjQwLjI1Nn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMjY5Ny4zMTJ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA0Nzk4LjY1Nn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDYzNzEuNTJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3OTAyLjUyOH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDEyMjQ3LjI5Nn0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDE5MTcyLjkyOH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDI2MDk4LjQ2NH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA0MjI5Ny4xMn1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDExLjU1MiwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDE3LjYxNn1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMS0wMSJ9XX0=' title='Samle inn data for Norgesnett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
+    <td>Otra Kraft DA Nett</td>
+    <td>7080005056496</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJPdHJhIEtyYWZ0IERBIE5ldHQiLCAiZ2xuIjogIjcwODAwMDUwNTY0OTYifQ==' title='Samle inn data for Otra Kraft DA Nett' target='_blank'>✏️</a></td>
+</tr>
+<tr>
     <td>R-Nett AS</td>
     <td>7080010012852</td>
     <td></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSLU5ldHQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMTI4NTIifQ==' title='Samle inn data for R-Nett AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>RK Nett AS</td>
+    <td>7080010004017</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSSyBOZXR0IEFTIiwgImdsbiI6ICI3MDgwMDEwMDA0MDE3In0=' title='Samle inn data for RK Nett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Rakkestad Energi AS Nett</td>
@@ -548,6 +630,12 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td>7080010002464</td>
     <td></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTLU5FVFQgQVMiLCAiZ2xuIjogIjcwODAwMTAwMDI0NjQifQ==' title='Samle inn data for S-NETT AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Skagerak Kraft Nett</td>
+    <td>7080005056007</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTa2FnZXJhayBLcmFmdCBOZXR0IiwgImdsbiI6ICI3MDgwMDA1MDU2MDA3In0=' title='Samle inn data for Skagerak Kraft Nett' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>SkiakerNett AS</td>
@@ -598,6 +686,18 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTXHUwMGY4ciBBdXJkYWwgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDA1MDQ2NDU5Il0sICJraWxkZXIiOiBbImh0dHBzOi8vc2FlLm5vL3RhcmlmZmVyIiwgImh0dHBzOi8vc2FlLm5vL3VwbG9hZHMvS3VuZGVpbmZvcm1hc2pvbi8yMDI0XzA4X0t1bmRlaW5mb3JtYXNqb25fdGFyaWZmZXIucGRmIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI0IiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wOS1uMTAwIiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIk1ORF9NQVgiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiBmYWxzZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogNTQwMH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNjI0MH0sIHsidGVyc2tlbCI6IDgsICJwcmlzIjogNzQ0MH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg2NDB9LCB7InRlcnNrZWwiOiAzMCwgInByaXMiOiA5NzIwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTMyMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyMS41MiwgInVubnRhayI6IFt7Im5hdm4iOiAiVmludGVyIiwgInByaXMiOiAyNS41MiwgIm1cdTAwZTVuZWRlciI6IFsiamFudWFyIiwgImZlYnJ1YXIiLCAibWFycyIsICJva3RvYmVyIiwgIm5vdmVtYmVyIiwgImRlc2VtYmVyIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDktMDEifV19' title='Samle inn data for Sør Aurdal Energi AS Nett' target='_blank'>✏️</a></td>
 </tr>
 <tr>
+    <td>Tendranett AS</td>
+    <td>7080003897855</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJUZW5kcmFuZXR0IEFTIiwgImdsbiI6ICI3MDgwMDAzODk3ODU1In0=' title='Samle inn data for Tendranett AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Tensio TN AS</td>
+    <td>7080005052627</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJUZW5zaW8gVE4gQVMiLCAiZ2xuIjogIjcwODAwMDUwNTI2MjcifQ==' title='Samle inn data for Tensio TN AS' target='_blank'>✏️</a></td>
+</tr>
+<tr>
     <td>Tensio TS AS ✅</td>
     <td>7080005051880</td>
     <td><code>2024-11-09</code></td>
@@ -608,6 +708,12 @@ Vi har samlet data for 31 av 66 netteiere 🥳!
     <td>7080003612595</td>
     <td><code>2024-11-24</code></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJUaW5mb3MgQVMgTmV0dCIsICJnbG4iOiBbIjcwODAwMDM2MTI1OTUiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMjQiLCAia2lsZGVyIjogWyJodHRwczovL3d3dy50aW5mb3Mubm8vdGluZm9zLW5ldHQvIiwgImh0dHBzOi8vYmlhcGkubnZlLm5vL25ldHRsZWlldGFyaWZmZXIvc3dhZ2dlci9pbmRleC5odG1sIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIm52ZSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJVS0pFTlQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiBudWxsLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAzMTU2fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0OTU2fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjc1Nn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg1NTZ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMDM1Nn0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE1NzU2fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogNDUwMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxOX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV19' title='Samle inn data for Tinfos AS Nett' target='_blank'>✏️</a></td>
+</tr>
+<tr>
+    <td>Ulefos Kraftverk DA</td>
+    <td>7080003380630</td>
+    <td></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJVbGVmb3MgS3JhZnR2ZXJrIERBIiwgImdsbiI6ICI3MDgwMDAzMzgwNjMwIn0=' title='Samle inn data for Ulefos Kraftverk DA' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Uvdal Kraftforsyning ✅</td>

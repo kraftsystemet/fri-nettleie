@@ -32,13 +32,13 @@ def load_dsos():
     dsos = {}
 
     for mga in mgas:
-        if mga['mgaType'] != 'DISTRIBUTION':
+        if mga['mgaType'] not in ['DISTRIBUTION', 'REGIONAL']:
             continue
 
-        if mga['dsoName'] in dsos:
+        if mga['dsoCode'] in dsos:
             continue
 
-        dsos[mga['dsoName']] = mga["dsoCode"]
+        dsos[mga["dsoCode"]] = mga['dsoName']
     return dsos
 
 def load_status():
@@ -69,15 +69,18 @@ def print_status():
         <th>Handling</th>
     </tr>""")
 
-    for dso in sorted(list(dsos.keys())):
-        # fjerne " (tidligere xxx)" i netteiernavn
-        navn = dso.split('(')[0].strip()
-        gln = dsos[dso]
+    for dso in dict(sorted(dsos.items(), key=lambda x:x[1])):
+
+        gln = dso
+
+        # fjerne " (tidligere xxx)" i netteiernavn ? .split('(')[0].strip()
+        navn = dsos[dso]
+
         oppdatert = ''
         status = ''
 
         data = {
-            "netteier": dso,
+            "netteier": navn,
             "gln": gln
         }
 
