@@ -17,4 +17,6 @@ def get_grid_owner_data():
                 'organisationNumber': party['attributes']['organisationNumber']
             })
 
+    gos.sort(key=lambda x: x['name'])
+
     return gos

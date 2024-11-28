@@ -30,6 +30,9 @@ def get_esett_mgas():
             mgas.pop(m)
             continue
 
+
+    mgas.sort(key=lambda x: x['dsoName'])
+
     return mgas
 
 def get_esett_dsos():
@@ -63,4 +66,4 @@ if __name__ == "__main__":
             mgas[m]['dsoCode'] = dsos[mgas[m]['dsoName']]['dsoCode']
             mgas[m]['dsoCodingScheme'] = dsos[mgas[m]['dsoName']]['codingScheme']
 
-        json.dump(mgas, f, indent=4, sort_keys=True)
+        json.dump(mgas, f, indent=4, sort_keys=True, ensure_ascii=False)

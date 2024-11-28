@@ -3,6 +3,9 @@ _PHONY: readme vet fmt changedetection qa kilder bygg
 
 ci: fmt kilder readme bygg
 
+clear-cache:
+	rm -rf ~/.cache/kraftsystemet-fri-nettleie
+
 venv:
 	python3 -m venv venv
 	./venv/bin/pip install -r requirements-dev.txt
