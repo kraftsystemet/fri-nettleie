@@ -37,9 +37,6 @@ def load_dsos():
     dsos = {}
 
     for mga in mgas:
-        if mga['mgaType'] not in ['DISTRIBUTION', 'REGIONAL']:
-            continue
-
         if mga['dsoCode'] in dsos:
             continue
 
