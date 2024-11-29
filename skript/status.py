@@ -106,7 +106,7 @@ def print_status():
 
         data = {
             "netteier": name,
-            "gln": gln
+            "gln": [gln]
         }
 
         if gln in dso_status:
