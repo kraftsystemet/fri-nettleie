@@ -27,6 +27,8 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
 - [Dataene i bruk](#dataene-i-bruk)
 - [Status](#status)
+- [Forvaltere](#forvaltere)
+- [Lisens](#lisens)
 
 <!-- tocstop -->
 
@@ -244,7 +246,7 @@ Den følgende listen viser status på innsamlede data.
 
 <!-- statusstart -->
 
-Vi har samlet data for 31 av 84 netteiere 🥳!
+Vi har samlet data for 31 av 83 netteiere 🥳!
 
 <table>
     <tr>
@@ -510,12 +512,6 @@ Vi har samlet data for 31 av 84 netteiere 🥳!
     <td>7080005050661</td>
     <td></td>
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMdWNlcm5hIEFTIiwgImdsbiI6ICI3MDgwMDA1MDUwNjYxIn0=' title='Samle inn data for Lucerna AS' target='_blank'>✏️</a></td>
-</tr>
-<tr>
-    <td>Lyse Produksjon AS Nett</td>
-    <td>7080003307231</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMeXNlIFByb2R1a3Nqb24gQVMgTmV0dCIsICJnbG4iOiAiNzA4MDAwMzMwNzIzMSJ9' title='Samle inn data for Lyse Produksjon AS Nett' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Lysna AS</td>

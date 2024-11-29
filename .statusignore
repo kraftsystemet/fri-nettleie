@@ -1,0 +1,14 @@
+# Denne fila brukes for å ignorere GLN (netteiere) i status-oversikten.
+# Vi har denne fila fordi det er mange netteier i Norge som ikke har private sluttbrukere i sitt nett.
+# Derfor er det ikke noe poeng å rapportere på dem.
+#
+# For å ignorere en netteier, legg inn GLN'en i denne fila.
+# Du bør skrive kommentar til GLN'et sånn at det er lettere å gå tilbake å forstå hvorfor vi har ignorert.
+# Alt etter første hash (#) på en linje ignoreres. Det betyr at du kan ha kommentar på samme linje som GLN eller linja før
+# Tomme linjer ignoreres.
+
+# Statnett
+7080000923168
+
+# Lyse Produksjon
+7080003307231
