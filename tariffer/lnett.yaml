@@ -1,0 +1,39 @@
+---
+netteier: 'Lnett AS'
+gln: '7080005046053'
+sist_oppdatert: '2024-11-29'
+kilder:
+  - 'https://www.l-nett.no/nettleie/priser-og-vilkar-privat/'
+tariffer:
+  - id: 2024-07-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2784
+        - terskel: 5
+          pris: 4464
+        - terskel: 10
+          pris: 6864
+        - terskel: 15
+          pris: 9264
+        - terskel: 20
+          pris: 11664
+        - terskel: 25
+          pris: 21264
+        - terskel: 50
+          pris: 30864
+        - terskel: 75
+          pris: 40464
+        - terskel: 100
+          pris: 67200
+    energiledd:
+      grunnpris: 7.128
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          pris: 13.528
+          dager: [virkedag]
+    gyldig_fra: '2024-07-01'
