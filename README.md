@@ -26,6 +26,7 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Gi oss en stjerne](#gi-oss-en-stjerne)
   * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
 - [Dataene i bruk](#dataene-i-bruk)
+- [Netteiere](#netteiere)
 - [Status](#status)
 - [Forvaltere](#forvaltere)
 - [Lisens](#lisens)
@@ -87,6 +88,9 @@ Et skript som viser hvordan dette kan gjøres konseptuelt finnes i
 ./skript/prissignal.py --fra 2024-10-26 --til 2024-10-28 --tariff-fil tariffer/midtnett.yml
 ./skript/prissignal.py --fra 2024-10-25 --til 2024-10-28 --tariff-fil tariffer/griug.yml
 ```
+
+Dette prissignalet er uten alle avgifter. Det er mulig å beregne avgift basert
+på når og hvor (kommune) forbruket er. Se [avsnittet om avgifter](#avgifter).
 
 ## Mål
 
@@ -151,7 +155,6 @@ til forskjell fra den mer vanlige
 [tre timene i måneden med høyest forbruk](https://norgesnett.no/kunde/ny-nettleie/).
 I tilleg er det noen som oppgir priser per år mens andre per måned.
 
-
 ### Flere tariffer per netteier
 
 Noen netteiere har ulike tariffer for ulike deler av sitt nett. Dette er typisk
@@ -169,8 +172,16 @@ konsesjonær - det er fort å gjøre feil.
 Det er tre avgifter som gjelder for nettleie:
 
 * Enova-avgift
-* Elavgift
+* Elavgift/Forbruksavgift
 * Merverdiavgift
+
+Enova-avgiften gjelder alle, men forbruk- og merverdiavgiften er avhenging av
+hvor i landet forbruket er. De følgende underkapitlene beskriver de tre
+avgiftene, men i praksis deles landed inn i tre deler.
+
+* Tiltakssonen i Finnmark og Nord-Troms - hverken elavgift eller moms
+* Resten av Troms og Nordland - elavgift, men ikke moms
+* Alle fylker sør for Nordland - alle avgifter
 
 ### Enova-avgift
 
@@ -178,8 +189,7 @@ Det er tre avgifter som gjelder for nettleie:
 sier at netteier skal legge et påslag på tariffen til alle sluttbrukere på alle
 nettnivåer når det faktureres.
 
-> For husholdningsbruk skal påslaget utgjøre 1 øre/kWh. For andre sluttbrukere
-> enn husholdninger skal påslaget utgjøre 800 kroner/år per målepunkt-ID.
+> For husholdningsbruk skal påslaget utgjøre 1 øre/kWh.
 
 ### Forbruksavgift - Elavgift
 
@@ -197,7 +207,7 @@ har fritak for el-avgift på forbruk.
 
 ### Merverdiavgift
 
-Vanlig moms på 25% betales på nettleie, Enova-avgiften og elavgiften.
+Vanlig moms på 25% betales på nettleie, Enova-avgiften og Elavgiften.
 
 Det er
 [fritak for mva i Nord-Norge](https://www.skatteetaten.no/rettskilder/type/handboker/merverdiavgiftshandboken/2020/M-6/M-6-6/)
