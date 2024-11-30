@@ -6,6 +6,11 @@ import yaml
 import os
 import base64
 from datetime import date, datetime
+import sys
+
+def eprint(*args, **kwargs):
+    print(*args, file=sys.stderr, **kwargs)
+
 
 # https://stackoverflow.com/a/22238613
 def json_serial(obj):
@@ -32,9 +37,6 @@ def load_dsos():
     dsos = {}
 
     for mga in mgas:
-        if mga['mgaType'] not in ['DISTRIBUTION', 'REGIONAL']:
-            continue
-
         if mga['dsoCode'] in dsos:
             continue
 
@@ -54,10 +56,33 @@ def load_status():
 
     return status
 
+def load_ignores():
+    """
+    Yield all GLNs in .statusignore
+
+    .statusignore is expected to contain one GLN per line. Lines can be
+    commented out with a `#` and empty lines are ignored.
+    """
+    ignores = []
+    with open('./.statusignore', 'r') as file:
+        for line in file.readlines():
+            l = line.strip().split('#')[0]
+            if l.isdigit() and len(l) == 13:
+                ignores.append(l)
+
+    return ignores
+
 def print_status():
 
     dsos = load_dsos()
     dso_status = load_status()
+
+    ignores = load_ignores()
+    for dso in list(dsos.keys()):
+        if dso in ignores:
+            eprint(f"Ignoring {dso} - {dsos[dso]}")
+            dsos.pop(dso)
+
     print("")
     print(f"Vi har samlet data for {len(dso_status)} av {len(dsos)} netteiere 🥳!")
     print("")
@@ -74,14 +99,14 @@ def print_status():
         gln = dso
 
         # fjerne " (tidligere xxx)" i netteiernavn ? .split('(')[0].strip()
-        navn = dsos[dso]
+        name = dsos[dso]
 
         oppdatert = ''
         status = ''
 
         data = {
-            "netteier": navn,
-            "gln": gln
+            "netteier": name,
+            "gln": [gln]
         }
 
         if gln in dso_status:
@@ -99,10 +124,10 @@ def print_status():
         # ✏️
 
         print("<tr>")
-        print(f"    <td>{navn}{status}</td>")
+        print(f"    <td>{name}{status}</td>")
         print(f"    <td>{gln}</td>")
         print(f"    <td>{oppdatert}</td>")
-        print(f"    <td><a href='{edit_url}' title='Samle inn data for {navn}' target='_blank'>✏️</a></td>")
+        print(f"    <td><a href='{edit_url}' title='Samle inn data for {name}' target='_blank'>✏️</a></td>")
         print("</tr>")
 
     print("</table>")

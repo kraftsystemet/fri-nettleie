@@ -10,9 +10,13 @@ venv:
 	python3 -m venv venv
 	./venv/bin/pip install -r requirements-dev.txt
 
-readme: vet
-	npx markdown-toc -i README.md
+readme: vet toc status
+
+status:
 	./skript/status.py | sponge README.md
+
+toc:
+	npx markdown-toc -i README.md
 
 vet:
 	cue vet --schema "#Selskap" tariff.cue tariff-eksempel.yml tariffer/*.yml
