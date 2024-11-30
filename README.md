@@ -240,9 +240,31 @@ Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 * Bli den første på denne lista! Åpne en pull request eller gi beskjed i et
   issue.
 
-## Status
+## Netteiere
 
-Den følgende listen viser status på innsamlede data.
+Vi samler inn nettleie-tariffer per netteier. Listen over netteiere er
+fra [eSett Open Data](https://opendata.esett.com/dso) som er en kontinuerlig
+oppdatert liste over nåværende netteiere. Dette er ikke en statisk liste, men
+endrer seg over tid. Elhub publiserer informasjon om endring av f.eks.
+[navn](https://elhub.no/aktorer-og-markedsstruktur/opprette-endre-og-avslutte-aktorer/navneendringer-for-nettselskap/)
+og
+[nettavregningsområder](https://elhub.no/aktorer-og-markedsstruktur/opprette-endre-og-avslutte-aktorer/planlagte-strukturendringer/).
+
+Noen netteiere er ikke med i listen
+siden de ikke har private sluttkunder. Vi filtrerer ved hjelp av en
+[ignoreringsliste](./.statusignore).
+
+Netteiere i Norge identifiseres med Global Location Number (GLN). Øsnker du å
+vite organisasjonsnummeret kan du se på
+[referansedataene fra Elhub](./referanse-data/elhub/grid_owners.json).
+
+I noen
+tilfeller kan det være avvik mellom områdekonsesjonærer i
+[NVEs kartkatalog](https://kartkatalog.nve.no/) og eSett/Elhub. Dette skyldes
+oftes etterslep i registrering mellom systemene. Vi vil alltid bruke eSett som
+autoritativ kilde.
+
+## Status
 
 <!-- statusstart -->
 
