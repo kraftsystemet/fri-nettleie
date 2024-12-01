@@ -30,10 +30,10 @@ tariffer:
         - terskel: 100
           pris: 67200
     energiledd:
-      grunnpris: 7.128
+      grunnpris: 24.57
       unntak:
         - navn: Virkedag
           timer: 6-21
-          pris: 13.528
+          pris: 30.97
           dager: [virkedag]
     gyldig_fra: '2024-07-01'
