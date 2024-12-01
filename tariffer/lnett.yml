@@ -1,6 +1,7 @@
 ---
 netteier: 'Lnett AS'
-gln: '7080005046053'
+gln:
+  - '7080005046053'
 sist_oppdatert: '2024-11-29'
 kilder:
   - 'https://www.l-nett.no/nettleie/priser-og-vilkar-privat/'
