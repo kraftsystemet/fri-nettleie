@@ -1,0 +1,37 @@
+---
+netteier: 'Mellom AS'
+gln:
+  - '7080010004369'
+kilder:
+  - 'https://mellom.no/nettleie/nettleiepriser/'
+sist_oppdatert: '2024-12-02'
+tariffer:
+  - id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2438.4
+        - terskel: 2
+          pris: 3648
+        - terskel: 5
+          pris: 6057.6
+        - terskel: 10
+          pris: 8006.4
+        - terskel: 15
+          pris: 10137.6
+        - terskel: 20
+          pris: 12700.8
+        - terskel: 25
+          pris: 15993.6
+        - terskel: 50
+          pris: 21369.6
+    energiledd:
+      grunnpris: 29.34
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 37.21
+    gyldig_fra: '2024-08-01'
