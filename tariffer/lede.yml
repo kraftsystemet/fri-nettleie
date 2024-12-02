@@ -1,0 +1,40 @@
+---
+netteier: 'Lede AS'
+gln:
+  - '7080005050975'
+sist_oppdatert: '2024-12-02'
+kilder:
+  - 'https://lede.no/getfile.php/1353399-1720173926/Lede/Filer/Prislister/Priser%20nettleie%2001.08.24.pdf'
+  - 'https://lede.no/priser/nettleie-privatkunder/'
+tariffer:
+  - id: 2024-08-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2820
+        - terskel: 5
+          pris: 4824
+        - terskel: 10
+          pris: 6792
+        - terskel: 15
+          pris: 8796
+        - terskel: 20
+          pris: 10788
+        - terskel: 25
+          pris: 16764
+        - terskel: 50
+          pris: 26724
+        - terskel: 75
+          pris: 36672
+        - terskel: 100
+          pris: 51612
+        - terskel: 150
+          pris: 71520
+        - terskel: 200
+          pris: 101400
+    energiledd:
+      grunnpris: 24.38
+    gyldig_fra: '2024-08-01'
