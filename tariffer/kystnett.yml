@@ -1,0 +1,37 @@
+---
+netteier: 'Kystnett AS'
+gln:
+  - '7080010000064'
+sist_oppdatert: '2024-01-01'
+kilder:
+  - 'https://kystnett.no/Nettleie/?Article=68'
+tariffer:
+  - id: 2024-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 5916
+        - terskel: 5
+          pris: 10680
+        - terskel: 10
+          pris: 15432
+        - terskel: 15
+          pris: 20184
+        - terskel: 20
+          pris: 24948
+        - terskel: 25
+          pris: 39216
+        - terskel: 50
+          pris: 63000
+        - terskel: 75
+          pris: 86772
+        - terskel: 100
+          pris: 122448
+        - terskel: 150
+          pris: 170016
+    energiledd:
+      grunnpris: 18
+    gyldig_fra: '2024-01-01'
