@@ -7,6 +7,8 @@ import os
 import base64
 from datetime import date, datetime
 import sys
+import csv
+import math
 
 def eprint(*args, **kwargs):
     print(*args, file=sys.stderr, **kwargs)
@@ -72,6 +74,23 @@ def load_ignores():
 
     return ignores
 
+def load_mp_count():
+
+    total_count = 0
+    mp_counts = {}
+
+    with open('./referanse-data/elhub/grid_owner_mp_count.csv') as csvfile:
+        reader = csv.DictReader(csvfile)
+
+        for row in reader:
+            if not row['METERING_POINT_COUNT']:
+                continue
+            total_count += int(row['METERING_POINT_COUNT'])
+            mp_counts[row['GLN']] = int(row['METERING_POINT_COUNT'])
+
+    return total_count, mp_counts
+
+
 def print_status():
 
     dsos = load_dsos()
@@ -83,8 +102,16 @@ def print_status():
             eprint(f"Ignoring {dso} - {dsos[dso]}")
             dsos.pop(dso)
 
+    total_count, mp_counts = load_mp_count()
+    collected_count = 0
+    for dso in list(dso_status.keys()):
+        if dso in mp_counts:
+            collected_count += mp_counts[dso]
+
     print("")
     print(f"Vi har samlet data for {len(dso_status)} av {len(dsos)} netteiere 🥳!")
+    print("")
+    print(f"Dette dekker ~{math.floor(( collected_count / total_count ) * 100)}% ({collected_count}) av private husholdninger* 🎉.")
     print("")
     print("""<table>
     <tr>

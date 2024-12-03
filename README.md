@@ -280,6 +280,8 @@ autoritativ kilde.
 
 Vi har samlet data for 45 av 80 netteiere 🥳!
 
+Dette dekker ~91% (2254295) av private husholdninger* 🎉.
+
 <table>
     <tr>
         <th>Navn</th>
@@ -770,6 +772,11 @@ Vi har samlet data for 45 av 80 netteiere 🥳!
 </table>
 
 <!-- statusstop -->
+
+\* Tallet et basert på datasettet
+[CONSUMPTION_PER_GROUP_MGA_HOUR fra Elhub](https://api.elhub.no/api/energy-data#/Grid%20area/grid_areas)
+som ikke inneholder data for små nettavregningsområder. Derfor kan det reelle
+tallet avvike noe.
 
 ## Forvaltere
 
