@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Klive AS | Nettleie</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Klive AS</h1>
+      <dl>
+        <dt
+          data-tooltip="Global Location Number brukes for å identisere netteier"
+        >
+          GLN<span></span>
+        </dt>
+        <dd>7080010000132</dd>
+        <!-- TODO
+        <dt data-tooltip="Organisasjonsnummer">Org</dt>
+        <dd>
+          <a href="https://virksomhet.brreg.no/nb/oppslag/enheter/984882106"
+            >984882106</a
+          >
+        </dd>
+
+        <dt data-tooltip="Fylkene som netteier er konsesjonær i">Fylker</dt>
+        <dd>Oslo, Oslo</dd>
+        -->
+        <dt>Sist oppdatert</dt>
+        <dd>2024-12-03</dd>
+      </dl>
+      <article>
+        <header>❕Innsamlet på dugnad</header>
+        <p>
+          Informasjonen under er samlet inn på dugnad. Dersom du finner feil kan
+          du selv hjelpe oss med å oppdatere informasjonen.
+          <a href="https://github.com/kraftsystemet/fri-nettleie"
+            >Les mer om hvordan du kan bidra.</a
+          >
+        </p>
+      </article>
+      <h2>Tariffer</h2>
+      Klive AS har 1 aktiv tariff for private kunder.
+      <p></p>
+      <p>
+        For å finne ut av hvilken tariff har kan du logge inn på
+        <a href="https://minside.elhub.no">Elhub Min Side</a> for å finne din
+        nettier.
+      </p>
+
+      <p>Tariffene har vi samlet inn fra 2 kilder:</p>
+      <ul>
+        <li>
+          <a href="https://klive.no/har-strom/nettleiepriser/"
+            >https://klive.no/har-strom/nettleiepriser/</a
+          >
+        </li>
+
+        <li>
+          <a
+            href="https://klive.no/wp-content/uploads/2024/10/Nettleiepriser-2024-11-01-1.pdf"
+            >https://klive.no/wp-content/uploads/2024/10/Nettleiepriser-2024-11-01-1.pdf</a
+          >
+        </li>
+      </ul>
+
+      <details open>
+        <summary role="button" open>Tariff</summary>
+
+        <dl>
+          <dt>Gyldig fra</dt>
+          <dd>2024-11-01</dd>
+          <dt>Gyldig til</dt>
+          <dd>-</dd>
+        </dl>
+        <!-- TODO
+        <p>
+          Denne tariffen gjelder for nettavregningsområde
+          <abbr data-tooltip="50Y123123145">HSFL1</abbr>,
+          <abbr data-tooltip="50Y123123145">ALEX1</abbr>
+          .
+        </p>
+        -->
+        <article>
+          <h4>Fastledd</h4>
+
+          <p>
+            Fastledd er et prisledd som skjerpes etter en trinnvis skala. Jo mer
+            strøm en bruker «samtidig» jo dyrere blir det.
+          </p>
+
+          <p>
+            Beregnes ut fra
+            <mark
+              >de tre høyeste timer i forskellige døgn den foregående
+              måneden</mark
+            >.
+          </p>
+          <h5>Terskler</h5>
+          <p>
+            Netteieren inkluderer terskelen i det nye nivået. Det vil si at
+            dersom du havner akkurat på selve terskelen, ender du på nivået
+            <i>over</i>.
+          </p>
+          <p>
+            Prisen vises uten og med de forskjellige avgiftene på nettleie. Se
+            informasjon om avgifter på
+            <a href="#avgifter">vår side om avgifter</a>.
+          </p>
+          <table>
+            <tr>
+              <th>Terskel</th>
+              <th>kr/år u/ mva</th>
+              <th>kr/år m/ mva</th>
+            </tr>
+
+            <tr>
+              <td>0</td>
+              <td>4614.24</td>
+              <td>5767.8</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>5731.32</td>
+              <td>7164.15</td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td>7606.32</td>
+              <td>9507.9</td>
+            </tr>
+
+            <tr>
+              <td>15</td>
+              <td>10146.12</td>
+              <td>12682.65</td>
+            </tr>
+
+            <tr>
+              <td>20</td>
+              <td>12686.04</td>
+              <td>15857.55</td>
+            </tr>
+
+            <tr>
+              <td>25</td>
+              <td>25358.64</td>
+              <td>31698.3</td>
+            </tr>
+
+            <tr>
+              <td>50</td>
+              <td>38044.68</td>
+              <td>47555.85</td>
+            </tr>
+
+            <tr>
+              <td>75</td>
+              <td>50730.6</td>
+              <td>63413.25</td>
+            </tr>
+
+            <tr>
+              <td>100</td>
+              <td>76089.36</td>
+              <td>95111.7</td>
+            </tr>
+
+            <tr>
+              <td>150</td>
+              <td>101448</td>
+              <td>126810.0</td>
+            </tr>
+
+            <tr>
+              <td>200</td>
+              <td>152178.6</td>
+              <td>190223.25</td>
+            </tr>
+
+            <tr>
+              <td>300</td>
+              <td>253626.6</td>
+              <td>317033.25</td>
+            </tr>
+
+            <tr>
+              <td>500</td>
+              <td>355074.6</td>
+              <td>443843.25</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h4>Energiledd</h4>
+
+          <p>
+            Energiledd er prisen per
+            <span
+              data-tooltip="Kilowattime er energimengden vi måler strømforbruket i."
+              >kWh</span
+            >.
+          </p>
+          <h5>Grunnpris</h5>
+          <p>
+            Grunnprisen er standardprisen prisen du betaler. Det er typisk den
+            lave prisen som er på natta eller andre perioder når nettet har lav
+            last, men trenger ikke være det. Prisene med elavgift er oppgitt med
+            standard (sommer) avgift.
+          </p>
+          <dl>
+            17.632
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            18.632
+            <span
+              data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            35.07
+            <span
+              data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            43.84
+            <span data-tooltip="Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+          <h5>Unntak</h5>
+          <p>
+            Unntak er en pris som gjelder for spesielle perider. For eksempel på
+            høylastperider som midt på dagen på en virkedag.
+          </p>
+
+          <p><b>Netteieren har ingen unntak.</b></p>
+        </article>
+      </details>
+    </main>
+  </body>
+</html>

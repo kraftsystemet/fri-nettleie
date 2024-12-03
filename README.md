@@ -278,7 +278,7 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 44 av 81 netteiere 🥳!
+Vi har samlet data for 45 av 80 netteiere 🥳!
 
 <table>
     <tr>
@@ -468,12 +468,6 @@ Vi har samlet data for 44 av 81 netteiere 🥳!
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYXZuZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTgzMiJdfQ==' title='Samle inn data for Havnett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Hydro Energi AS nett</td>
-    <td>7080005052818</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIeWRybyBFbmVyZ2kgQVMgbmV0dCIsICJnbG4iOiBbIjcwODAwMDUwNTI4MTgiXX0=' title='Samle inn data for Hydro Energi AS nett' target='_blank'>✏️</a></td>
-</tr>
-<tr>
     <td>Høland og Setskog Elverk AS</td>
     <td>7080004320253</td>
     <td></td>
@@ -498,10 +492,10 @@ Vi har samlet data for 44 av 81 netteiere 🥳!
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLRSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA0NjA2MCJdfQ==' title='Samle inn data for KE Nett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Klive AS</td>
+    <td>Klive AS ✅</td>
     <td>7080010000132</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLbGl2ZSBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDAxMzIiXX0=' title='Samle inn data for Klive AS' target='_blank'>✏️</a></td>
+    <td><code>2024-12-03</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLbGl2ZSBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDAxMzIiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9rbGl2ZS5uby9oYXItc3Ryb20vbmV0dGxlaWVwcmlzZXIvIiwgImh0dHBzOi8va2xpdmUubm8vd3AtY29udGVudC91cGxvYWRzLzIwMjQvMTAvTmV0dGxlaWVwcmlzZXItMjAyNC0xMS0wMS0xLnBkZiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0wMyIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTEtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogNDYxNC4yNH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNTczMS4zMn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDc2MDYuMzJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxMDE0Ni4xMn0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDEyNjg2LjA0fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMjUzNTguNjR9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzODA0NC42OH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDUwNzMwLjZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzYwODkuMzZ9LCB7InRlcnNrZWwiOiAxNTAsICJwcmlzIjogMTAxNDQ4fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDE1MjE3OC42fSwgeyJ0ZXJza2VsIjogMzAwLCAicHJpcyI6IDI1MzYyNi42fSwgeyJ0ZXJza2VsIjogNTAwLCAicHJpcyI6IDM1NTA3NC42fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTcuNjMyfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMS0wMSJ9XX0=' title='Samle inn data for Klive AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Kvam Energi Nett AS</td>
