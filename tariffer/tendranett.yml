@@ -8,6 +8,8 @@ kilder:
   - 'https://www.tendranett.no/filer/Nettleige.pdf'
 tariffer:
   - kundegruppe: privat
+    id: '2024'
+    gyldig_fra: '2024-01-01'
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

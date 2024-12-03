@@ -1,6 +1,7 @@
 ---
 netteier: 'Lysna AS'
-gln: '7080010013088'
+gln:
+  - '7080010013088'
 sist_oppdatert: '2024-12-02'
 tariffer:
   - id: '2024'
