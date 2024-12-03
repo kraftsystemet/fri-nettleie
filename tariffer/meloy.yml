@@ -1,0 +1,42 @@
+---
+netteier: 'Meløy Nett AS'
+gln:
+  - '7080003968395'
+kilder:
+  - 'https://meloyenergi.no/a/aktuelt/nye-nettleiepriser'
+  - 'https://meloyenergi.no/ac/nettleie-avregning'
+tariffer:
+  - id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3013
+        - terskel: 2
+          pris: 3616
+        - terskel: 5
+          pris: 3917
+        - terskel: 10
+          pris: 4218
+        - terskel: 15
+          pris: 4520
+        - terskel: 20
+          pris: 5273
+        - terskel: 25
+          pris: 5725
+        - terskel: 50
+          pris: 6327
+        - terskel: 75
+          pris: 6930
+        - terskel: 100
+          pris: 7533
+    energiledd:
+      grunnpris: 18.3
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 22.3
+    gyldig_fra: '2024-01-01'
+sist_oppdatert: '2024-12-02'
