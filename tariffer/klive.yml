@@ -1,0 +1,44 @@
+---
+netteier: 'Klive AS'
+gln:
+  - '7080010000132'
+kilder:
+  - 'https://klive.no/har-strom/nettleiepriser/'
+  - 'https://klive.no/wp-content/uploads/2024/10/Nettleiepriser-2024-11-01-1.pdf'
+sist_oppdatert: '2024-12-03'
+tariffer:
+  - id: 2024-11-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 4614.24
+        - terskel: 5
+          pris: 5731.32
+        - terskel: 10
+          pris: 7606.32
+        - terskel: 15
+          pris: 10146.12
+        - terskel: 20
+          pris: 12686.04
+        - terskel: 25
+          pris: 25358.64
+        - terskel: 50
+          pris: 38044.68
+        - terskel: 75
+          pris: 50730.6
+        - terskel: 100
+          pris: 76089.36
+        - terskel: 150
+          pris: 101448
+        - terskel: 200
+          pris: 152178.6
+        - terskel: 300
+          pris: 253626.6
+        - terskel: 500
+          pris: 355074.6
+    energiledd:
+      grunnpris: 17.632
+    gyldig_fra: '2024-11-01'
