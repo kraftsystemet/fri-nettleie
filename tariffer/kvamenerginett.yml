@@ -1,0 +1,42 @@
+---
+netteier: 'Kvam Energi Nett AS'
+gln:
+  - '7080010001276'
+sist_oppdatert: '2024-05-01'
+kilder:
+  - 'https://www.kvamenerginett.no/nettleigeprisar2024'
+tariffer:
+  - id: 2024-05-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2400
+        - terskel: 2
+          pris: 3600
+        - terskel: 5
+          pris: 5520
+        - terskel: 10
+          pris: 8400
+        - terskel: 15
+          pris: 10080
+        - terskel: 20
+          pris: 12000
+        - terskel: 25
+          pris: 24000
+        - terskel: 50
+          pris: 36000
+        - terskel: 75
+          pris: 48000
+        - terskel: 100
+          pris: 72000
+    energiledd:
+      grunnpris: 14.5
+      unntak:
+        - navn: Ukedag
+          timer: 6-21
+          dager: [ukedag]
+          pris: 22.5
+    gyldig_fra: '2024-05-01'
