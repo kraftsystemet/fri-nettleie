@@ -784,6 +784,40 @@ Forvalterne av dette prosjektet er medlemmene av
 [github.com/kraftsystemet](https://github.com/kraftsystemet). Alt vi gjør på
 dette prosjektet er som privatpersoner.
 
+## Ofte stilte spørsmål
+
+### Hvorfor gidder dere?
+
+Vi er egentlig bare noen nørder som jobber i kraftbransjen som mener at dette
+datasettet bør eksistere. Mens vi venter på at det kommer en skikkelig løsning
+basert på rapporterte data fra nettselskapene er vårt forslag å invitere til
+dugnad.
+
+### Bør ikke noen andre gjøre dette?
+
+Jo. Vi tror også at det vil komme gode løsninger på dette med tiden. Men i
+mellomtiden skader det ikke med en liten dugnad. Det kan selvfølgelig være fare for å dø av kjedsomhet når man puncher tariffer, men den risikoen tar vi 🤓.
+
+### Hva med NVE sine data?
+
+NVE publiserer både
+[tariffer](https://biapi.nve.no/nettleietariffer/swagger/index.html) og
+[statistikk](https://api.nve.no/doc/nettleiestatistikk/) basert på
+innrapporterte data fra nettselskapene. Dette er gode datasett, men mangler
+faktiske beskrivelser av tariffene. Noe av det kan utledes, men ikke fullt ut.
+En entydig og korrekt beskrivelse er et godt grunnlag for både analyser og
+generering av prissignal. Vi ser også at i noen tilfeller avviker dataene hos
+NVE fra nettleien som netteierene oppgir på sine sider. Vi vet ikke hva det
+skyldes men vi vet at et dugnadsbasert datasett enkelt kan fikses med en
+pull-request.
+
+### Hva med Nettleie API fra Digin/Elbits?
+
+[API-nettleie-for-styring](https://github.com/3lbits/API-nettleie-for-styring)
+fungerer knallbra 🚀, men enn så lenge er det ikke alle netteiere som har
+implementert det. Et samlet datasett for hele Norge letter også tilgang og
+mulighet for analyse.
+
 ## Lisens
 
 Dataene og dokumentasjon i dette prosjektet er lisensiert under
