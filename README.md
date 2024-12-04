@@ -796,7 +796,8 @@ dugnad.
 ### Bør ikke noen andre gjøre dette?
 
 Jo. Vi tror også at det vil komme gode løsninger på dette med tiden. Men i
-mellomtiden skader det ikke med en liten dugnad. Det kan selvfølgelig være fare for å dø av kjedsomhet når man puncher tariffer, men den risikoen tar vi 🤓.
+mellomtiden skader det ikke med en liten dugnad. Det kan selvfølgelig være fare
+for å dø av kjedsomhet når man puncher tariffer, men den risikoen tar vi 🤓.
 
 ### Hva med NVE sine data?
 
