@@ -29,6 +29,11 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
 - [Netteiere](#netteiere)
 - [Status](#status)
 - [Forvaltere](#forvaltere)
+- [Ofte stilte spørsmål](#ofte-stilte-sporsmal)
+  * [Hvorfor gidder dere?](#hvorfor-gidder-dere)
+  * [Bør ikke noen andre gjøre dette?](#bor-ikke-noen-andre-gjore-dette)
+  * [Hva med NVE sine data?](#hva-med-nve-sine-data)
+  * [Hva med Nettleie API fra Digin/Elbits?](#hva-med-nettleie-api-fra-diginelbits)
 - [Lisens](#lisens)
 
 <!-- tocstop -->
