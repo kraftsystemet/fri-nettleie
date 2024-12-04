@@ -278,9 +278,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 45 av 80 netteiere 🥳!
+Vi har samlet data for 47 av 80 netteiere 🥳!
 
-Dette dekker ~91% (2254295) av private husholdninger* 🎉.
+Dette dekker ~92% (2262632) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -488,10 +488,10 @@ Dette dekker ~91% (2254295) av private husholdninger* 🎉.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJKXHUwMGU2cmVuIEV2ZXJrIEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMjQxOSJdfQ==' title='Samle inn data for Jæren Everk AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>KE Nett AS</td>
+    <td>KE Nett AS ✅</td>
     <td>7080005046060</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLRSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA0NjA2MCJdfQ==' title='Samle inn data for KE Nett AS' target='_blank'>✏️</a></td>
+    <td><code>2024-12-04</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLRSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA0NjA2MCJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0wNCIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTAtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzAwMH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDY4MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDYzNjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA4MDQwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogOTcyMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE5ODAwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjUyMDB9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzMzYwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA2NDY4MH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IC0yLCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMTAsICJkYWdlciI6IFsidWtlZGFnIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMTAtMDEifV0sICJraWxkZXIiOiBbImh0dHBzOi8va2UtbmV0dC5uby9nZXRmaWxlLnBocC8xMzIyNjUtMTczMDg4MzIyNS9Eb2t1bWVudGVyL05ldHRsZWlnZS9OZXR0bGVpZ2Vicm9zanlyZTIwMjQlMjBva3RvYmVyLnBkZiIsICJodHRwczovL2tlLW5ldHQubm8vTmV0dGxlaWVwcmlzZXIvIl19' title='Samle inn data for KE Nett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Klive AS ✅</td>
@@ -500,10 +500,10 @@ Dette dekker ~91% (2254295) av private husholdninger* 🎉.
     <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLbGl2ZSBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDAxMzIiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9rbGl2ZS5uby9oYXItc3Ryb20vbmV0dGxlaWVwcmlzZXIvIiwgImh0dHBzOi8va2xpdmUubm8vd3AtY29udGVudC91cGxvYWRzLzIwMjQvMTAvTmV0dGxlaWVwcmlzZXItMjAyNC0xMS0wMS0xLnBkZiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0wMyIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTEtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogNDYxNC4yNH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNTczMS4zMn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDc2MDYuMzJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxMDE0Ni4xMn0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDEyNjg2LjA0fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMjUzNTguNjR9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzODA0NC42OH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDUwNzMwLjZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzYwODkuMzZ9LCB7InRlcnNrZWwiOiAxNTAsICJwcmlzIjogMTAxNDQ4fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDE1MjE3OC42fSwgeyJ0ZXJza2VsIjogMzAwLCAicHJpcyI6IDI1MzYyNi42fSwgeyJ0ZXJza2VsIjogNTAwLCAicHJpcyI6IDM1NTA3NC42fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTcuNjMyfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMS0wMSJ9XX0=' title='Samle inn data for Klive AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
-    <td>Kvam Energi Nett AS</td>
+    <td>Kvam Energi Nett AS ✅</td>
     <td>7080010001276</td>
-    <td></td>
-    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLdmFtIEVuZXJnaSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTI3NiJdfQ==' title='Samle inn data for Kvam Energi Nett AS' target='_blank'>✏️</a></td>
+    <td><code>2024-05-01</code></td>
+    <td><a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLdmFtIEVuZXJnaSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTI3NiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0wNS0wMSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3Lmt2YW1lbmVyZ2luZXR0Lm5vL25ldHRsZWlnZXByaXNhcjIwMjQiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wNS1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyNDAwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzNjAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA1NTIwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogODQwMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDEwMDgwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTIwMDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyNDAwMH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDM2MDAwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNDgwMDB9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzIwMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNC41LCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJkYWdlciI6IFsidWtlZGFnIl0sICJwcmlzIjogMjIuNX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNS0wMSJ9XX0=' title='Samle inn data for Kvam Energi Nett AS' target='_blank'>✏️</a></td>
 </tr>
 <tr>
     <td>Kystnett AS ✅</td>
