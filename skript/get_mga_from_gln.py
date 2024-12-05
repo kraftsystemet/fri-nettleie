@@ -15,7 +15,7 @@ if __name__ == "__main__":
         encoding="utf-8",
     ) as f:
         writer = csv.writer(f, quoting=csv.QUOTE_NONNUMERIC)
-        writer.writerow(["PARTY_NAME", "GLN", "GRID_AREA_ID", "GRID_AREA_NAME"])
+        writer.writerow(["GRID_OWNER", "GLN", "GRID_AREA_ID", "GRID_AREA_NAME"])
 
         for party in parties:
             gln = party["id"]
