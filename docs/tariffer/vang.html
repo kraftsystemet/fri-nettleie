@@ -172,6 +172,14 @@
         <article>
           <h4>Energiledd</h4>
 
+          <h5>Energiledd den neste uken</h5>
+          <p>
+            Denne grafen viser prisen for den neste uken. Den er basert på
+            tariff-beskrivelsen under.
+          </p>
+          <div>
+            <canvas id="priceSignal"></canvas>
+          </div>
           <p>
             Energiledd er prisen per
             <span
@@ -251,4 +259,8 @@
       </details>
     </main>
   </body>
+  <script src=" https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js "></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1"></script>
+  <script src="../assets/priceSignal.js"></script>
 </html>
