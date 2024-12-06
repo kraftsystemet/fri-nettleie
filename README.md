@@ -291,7 +291,7 @@ Dette dekker ~92% (2270169) av private husholdninger* 🎉.
     <tr>
         <th>Navn</th>
         <th>GLN</th>
-        <th>Antall MP</th>
+        <th>Antall MP*</th>
         <th>Oppdatert</th>
         <th>Handling</th>
     </tr>

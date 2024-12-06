@@ -115,7 +115,7 @@ def print_status():
     <tr>
         <th>Navn</th>
         <th>GLN</th>
-        <th>Antall MP</th>
+        <th>Antall MP*</th>
         <th>Oppdatert</th>
         <th>Handling</th>
     </tr>""")
