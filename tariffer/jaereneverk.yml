@@ -1,0 +1,46 @@
+---
+netteier: 'Jæren Everk AS'
+gln:
+  - '7080010002419'
+kilder:
+  - 'https://jev.no/nettleie-for-kunder-med-forbruk-under-100-000-kwh-2-2-2-2'
+sist_oppdatert: '2024-12-06'
+tariffer:
+  - id: 2024-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1896
+        - terskel: 2
+          pris: 3060
+        - terskel: 5
+          pris: 4896
+        - terskel: 10
+          pris: 7200
+        - terskel: 15
+          pris: 9516
+        - terskel: 20
+          pris: 11820
+        - terskel: 25
+          pris: 18732
+        - terskel: 50
+          pris: 30264
+        - terskel: 75
+          pris: 41796
+        - terskel: 100
+          pris: 59100
+        - terskel: 150
+          pris: 82128
+        - terskel: 200
+          pris: 105156
+    energiledd:
+      grunnpris: 13
+      unntak:
+        - navn: Ukedag
+          timer: 6-21
+          dager: [ukedag]
+          pris: 19
+    gyldig_fra: '2024-01-01'
