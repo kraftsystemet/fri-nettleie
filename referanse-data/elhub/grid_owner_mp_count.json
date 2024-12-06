@@ -1,0 +1,612 @@
+[
+    {
+        "gln": "7080003674630",
+        "mp_count": 0,
+        "name": "Aktieselskabet Saudefaldene Nett"
+    },
+    {
+        "gln": "7080003674685",
+        "mp_count": 0,
+        "name": "Alcoa Norway Nett"
+    },
+    {
+        "gln": "7080010004383",
+        "mp_count": 10569,
+        "name": "Alut AS"
+    },
+    {
+        "gln": "7080004295377",
+        "mp_count": 0,
+        "name": "Aneo AS - Nett"
+    },
+    {
+        "gln": "7080004087071",
+        "mp_count": 0,
+        "name": "Area Nett AS "
+    },
+    {
+        "gln": "7080005051859",
+        "mp_count": 62848,
+        "name": "Arva AS"
+    },
+    {
+        "gln": "7080005051361",
+        "mp_count": 32212,
+        "name": "Arva AS (tidligere Nordlandsnett)"
+    },
+    {
+        "gln": "7080003858825",
+        "mp_count": 0,
+        "name": "Asker Nett AS"
+    },
+    {
+        "gln": "7080005051378",
+        "mp_count": 221627,
+        "name": "BKK AS"
+    },
+    {
+        "gln": "7080003864895",
+        "mp_count": 0,
+        "name": "Bane NOR Nett"
+    },
+    {
+        "gln": "7080005051934",
+        "mp_count": 7925,
+        "name": "Barents Nett AS"
+    },
+    {
+        "gln": "7080005055963",
+        "mp_count": 0,
+        "name": "Bindal Kraftlag SA"
+    },
+    {
+        "gln": "7080001033477",
+        "mp_count": 0,
+        "name": "Borregaard"
+    },
+    {
+        "gln": "7080010010919",
+        "mp_count": 0,
+        "name": "Breheim Nett"
+    },
+    {
+        "gln": "7080010002327",
+        "mp_count": 0,
+        "name": "Bømlo Kraftnett AS"
+    },
+    {
+        "gln": "7080004382671",
+        "mp_count": 0,
+        "name": "Clemens Kraft, Nett"
+    },
+    {
+        "gln": "7080010003614",
+        "mp_count": 0,
+        "name": "DE Nett AS"
+    },
+    {
+        "gln": "7080005053044",
+        "mp_count": 23927,
+        "name": "Elinett AS"
+    },
+    {
+        "gln": "7080003321466",
+        "mp_count": 0,
+        "name": "Elkem AS Nett"
+    },
+    {
+        "gln": "7080005046442",
+        "mp_count": 12135,
+        "name": "Elmea AS Nett"
+    },
+    {
+        "gln": "7080005052917",
+        "mp_count": 9694,
+        "name": "Elvenett AS"
+    },
+    {
+        "gln": "7080005046220",
+        "mp_count": 861140,
+        "name": "Elvia AS"
+    },
+    {
+        "gln": "7080003871534",
+        "mp_count": 10973,
+        "name": "Enida AS"
+    },
+    {
+        "gln": "7080005055772",
+        "mp_count": 0,
+        "name": "Equinor ASA Nett"
+    },
+    {
+        "gln": "7080001266455",
+        "mp_count": 0,
+        "name": "Eramet Norway AS DSO"
+    },
+    {
+        "gln": "7080005046404",
+        "mp_count": 0,
+        "name": "Etna Nett AS"
+    },
+    {
+        "gln": "7080005052825",
+        "mp_count": 0,
+        "name": "Everket AS"
+    },
+    {
+        "gln": "7080005052931",
+        "mp_count": 0,
+        "name": "Eviny Fornybar AS - Nett"
+    },
+    {
+        "gln": "7080004318335",
+        "mp_count": 0,
+        "name": "FELLESKJØPET NETT VAKSDAL"
+    },
+    {
+        "gln": "7080003809599",
+        "mp_count": 68802,
+        "name": "Fagne AS"
+    },
+    {
+        "gln": "7080003503541",
+        "mp_count": 0,
+        "name": "Finnfjord AS Nett"
+    },
+    {
+        "gln": "7080010000316",
+        "mp_count": 7184,
+        "name": "Fjellnett AS"
+    },
+    {
+        "gln": "7080005050654",
+        "mp_count": 9581,
+        "name": "Føie AS - Hallingdal"
+    },
+    {
+        "gln": "7080004067882",
+        "mp_count": 0,
+        "name": "Føie AS - Hemsedal"
+    },
+    {
+        "gln": "7080005048415",
+        "mp_count": 18675,
+        "name": "Føie AS - Ringerike, Hole, Nore"
+    },
+    {
+        "gln": "7080010003836",
+        "mp_count": 8841,
+        "name": "Føre AS"
+    },
+    {
+        "gln": "7080003807724",
+        "mp_count": 0,
+        "name": "Gassco AS"
+    },
+    {
+        "gln": "7080005052672",
+        "mp_count": 83425,
+        "name": "Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)"
+    },
+    {
+        "gln": "7080005056069",
+        "mp_count": 150687,
+        "name": "Glitre Nett AS (tidl. AEN)"
+    },
+    {
+        "gln": "7080005053273",
+        "mp_count": 0,
+        "name": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)"
+    },
+    {
+        "gln": "7080005052900",
+        "mp_count": 5471,
+        "name": "Griug AS"
+    },
+    {
+        "gln": "7080005055666",
+        "mp_count": 0,
+        "name": "Hafslund Eco Vannkraft AS Nett"
+    },
+    {
+        "gln": "7080003999207",
+        "mp_count": 0,
+        "name": "Hafslund Oslo Celsio AS"
+    },
+    {
+        "gln": "7080010001832",
+        "mp_count": 0,
+        "name": "Havnett AS"
+    },
+    {
+        "gln": "7080003659613",
+        "mp_count": 0,
+        "name": "Herøya Nett AS"
+    },
+    {
+        "gln": "7080003654786",
+        "mp_count": 0,
+        "name": "Hydro Aluminium AS (Nett)"
+    },
+    {
+        "gln": "7080005052818",
+        "mp_count": 0,
+        "name": "Hydro Energi AS (nett)"
+    },
+    {
+        "gln": "7080004320253",
+        "mp_count": 5341,
+        "name": "HØLAND OG SETSKOG ELVERK AS"
+    },
+    {
+        "gln": "7080010008367",
+        "mp_count": 0,
+        "name": "Indre Hordaland Kraftnett AS"
+    },
+    {
+        "gln": "7080003831811",
+        "mp_count": 0,
+        "name": "Infopark AS"
+    },
+    {
+        "gln": "7080010002419",
+        "mp_count": 7537,
+        "name": "Jæren Everk AS"
+    },
+    {
+        "gln": "7080005046060",
+        "mp_count": 8337,
+        "name": "KE NETT AS"
+    },
+    {
+        "gln": "7080010000132",
+        "mp_count": 0,
+        "name": "Klive AS"
+    },
+    {
+        "gln": "7080010001276",
+        "mp_count": 0,
+        "name": "Kvam Energi Nett AS"
+    },
+    {
+        "gln": "7080010000064",
+        "mp_count": 3926,
+        "name": "Kystnett AS"
+    },
+    {
+        "gln": "7080005050975",
+        "mp_count": 178069,
+        "name": "Lede AS"
+    },
+    {
+        "gln": "7080003965325",
+        "mp_count": 33729,
+        "name": "Linea AS"
+    },
+    {
+        "gln": "7080001319830",
+        "mp_count": 76992,
+        "name": "Linja AS"
+    },
+    {
+        "gln": "7080005046053",
+        "mp_count": 140237,
+        "name": "Lnett AS"
+    },
+    {
+        "gln": "7080005050661",
+        "mp_count": 0,
+        "name": "Lucerna AS"
+    },
+    {
+        "gln": "7080003307231",
+        "mp_count": 0,
+        "name": "Lyse Produksjon AS Nett"
+    },
+    {
+        "gln": "7080010013088",
+        "mp_count": 0,
+        "name": "Lysna AS"
+    },
+    {
+        "gln": "7080010004369",
+        "mp_count": 19101,
+        "name": "MELLOM AS"
+    },
+    {
+        "gln": "7080003968395",
+        "mp_count": 0,
+        "name": "Meløy Energi AS"
+    },
+    {
+        "gln": "7080003869012",
+        "mp_count": 0,
+        "name": "Midtnett AS"
+    },
+    {
+        "gln": "7080003816184",
+        "mp_count": 0,
+        "name": "Modalen Kraftlag SA Nett"
+    },
+    {
+        "gln": "7080004064553",
+        "mp_count": 17244,
+        "name": "Nettselskapet AS"
+    },
+    {
+        "gln": "7080003811318",
+        "mp_count": 19644,
+        "name": "Noranett AS"
+    },
+    {
+        "gln": "7080010002433",
+        "mp_count": 0,
+        "name": "Noranett Andøy AS"
+    },
+    {
+        "gln": "7080003857989",
+        "mp_count": 0,
+        "name": "Noranett Hadsel AS"
+    },
+    {
+        "gln": "7080010014368",
+        "mp_count": 0,
+        "name": "Nordkraft Industrinett AS"
+    },
+    {
+        "gln": "7080005050838",
+        "mp_count": 0,
+        "name": "Nordkraft Magasin AS"
+    },
+    {
+        "gln": "7080005052801",
+        "mp_count": 11996,
+        "name": "Nordvest Nett AS"
+    },
+    {
+        "gln": "7080010003911",
+        "mp_count": 0,
+        "name": "Norefjell Nett AS"
+    },
+    {
+        "gln": "7080005052702",
+        "mp_count": 71010,
+        "name": "Norgesnett AS"
+    },
+    {
+        "gln": "7080003654793",
+        "mp_count": 0,
+        "name": "Norsk Hydro ASA (Nett)"
+    },
+    {
+        "gln": "7080003406033",
+        "mp_count": 0,
+        "name": "Norske Skog Saugbrugs Nett"
+    },
+    {
+        "gln": "7080003823038",
+        "mp_count": 0,
+        "name": "Norske Skog Skogn AS Nett"
+    },
+    {
+        "gln": "7080005056496",
+        "mp_count": 0,
+        "name": "Otra Kraft DA Nett"
+    },
+    {
+        "gln": "7080010012852",
+        "mp_count": 0,
+        "name": "R-Nett AS"
+    },
+    {
+        "gln": "7080010004017",
+        "mp_count": 0,
+        "name": "RK Nett AS"
+    },
+    {
+        "gln": "7080005054898",
+        "mp_count": 0,
+        "name": "Rakkestad Energi AS Nett"
+    },
+    {
+        "gln": "7080010005427",
+        "mp_count": 3734,
+        "name": "Romsdalsnett AS"
+    },
+    {
+        "gln": "7080003947932",
+        "mp_count": 0,
+        "name": "Røros E-verk Nett AS"
+    },
+    {
+        "gln": "7080010002464",
+        "mp_count": 4389,
+        "name": "S-NETT AS"
+    },
+    {
+        "gln": "7080004122741",
+        "mp_count": 0,
+        "name": "SFE PRODUKSJON AS - NETTEIER"
+    },
+    {
+        "gln": "7080005062077",
+        "mp_count": 0,
+        "name": "Shell Energy Nett"
+    },
+    {
+        "gln": "7080005050944",
+        "mp_count": 0,
+        "name": "Sira-Kvina kraftselskap Nett"
+    },
+    {
+        "gln": "7080010014696",
+        "mp_count": 0,
+        "name": "Siso Energi AS"
+    },
+    {
+        "gln": "7080005056007",
+        "mp_count": 0,
+        "name": "Skagerak Kraft Nett"
+    },
+    {
+        "gln": "7080004062702",
+        "mp_count": 0,
+        "name": "SkiakerNett AS"
+    },
+    {
+        "gln": "7080004399877",
+        "mp_count": 0,
+        "name": "Smisto Kraft"
+    },
+    {
+        "gln": "7080001426842",
+        "mp_count": 0,
+        "name": "Småkraft AS Nett"
+    },
+    {
+        "gln": "7080010003959",
+        "mp_count": 0,
+        "name": "Stannum AS"
+    },
+    {
+        "gln": "7080005050982",
+        "mp_count": 0,
+        "name": "Statkraft Energi AS Nett"
+    },
+    {
+        "gln": "7080000923168",
+        "mp_count": 0,
+        "name": "Statnett SF"
+    },
+    {
+        "gln": "7080003822901",
+        "mp_count": 0,
+        "name": "Stram AS"
+    },
+    {
+        "gln": "7080010003720",
+        "mp_count": 0,
+        "name": "Straumen Nett AS"
+    },
+    {
+        "gln": "7080004053632",
+        "mp_count": 0,
+        "name": "Straumnett AS"
+    },
+    {
+        "gln": "7080010003218",
+        "mp_count": 0,
+        "name": "SuNett AS"
+    },
+    {
+        "gln": "7080003992680",
+        "mp_count": 0,
+        "name": "Svabo Industrinett AS"
+    },
+    {
+        "gln": "7080010009654",
+        "mp_count": 7572,
+        "name": "Sygnir AS"
+    },
+    {
+        "gln": "7080005046459",
+        "mp_count": 0,
+        "name": "Sør Aurdal Energi AS Nett"
+    },
+    {
+        "gln": "7080001180041",
+        "mp_count": 0,
+        "name": "Sør-Norge Aluminium AS (Nett)"
+    },
+    {
+        "gln": "7080003897855",
+        "mp_count": 7249,
+        "name": "Tendranett AS"
+    },
+    {
+        "gln": "7080005052627",
+        "mp_count": 62277,
+        "name": "Tensio TN AS"
+    },
+    {
+        "gln": "7080005051880",
+        "mp_count": 147146,
+        "name": "Tensio TS AS"
+    },
+    {
+        "gln": "7080003612595",
+        "mp_count": 0,
+        "name": "Tinfos AS Nett"
+    },
+    {
+        "gln": "7080003306401",
+        "mp_count": 0,
+        "name": "Titania AS"
+    },
+    {
+        "gln": "7080003380630",
+        "mp_count": 0,
+        "name": "Ulefos Kraftverk DA"
+    },
+    {
+        "gln": "7080005050500",
+        "mp_count": 0,
+        "name": "Uvdal Kraftforsyning - Nett SA"
+    },
+    {
+        "gln": "7080005050616",
+        "mp_count": 0,
+        "name": "VENI Metering AS"
+    },
+    {
+        "gln": "7080003807946",
+        "mp_count": 8924,
+        "name": "VEVIG AS"
+    },
+    {
+        "gln": "7080010002297",
+        "mp_count": 0,
+        "name": "Vang Energiverk AS"
+    },
+    {
+        "gln": "7080005051927",
+        "mp_count": 0,
+        "name": "Vest-Telemark Kraftlag AS Nett"
+    },
+    {
+        "gln": "7080005051897",
+        "mp_count": 9181,
+        "name": "Vestall AS"
+    },
+    {
+        "gln": "7080005054928",
+        "mp_count": 0,
+        "name": "Vestmar Nett AS"
+    },
+    {
+        "gln": "7080004045743",
+        "mp_count": 4835,
+        "name": "Vissi AS"
+    },
+    {
+        "gln": "7080005053259",
+        "mp_count": 0,
+        "name": "Yara Norge AS, Yara Glomfjord"
+    },
+    {
+        "gln": "7080005051637",
+        "mp_count": 0,
+        "name": "Ymber Produksjon AS"
+    },
+    {
+        "gln": "7080005051248",
+        "mp_count": 0,
+        "name": "Åbjørakraft Kolsvik Kraftverk"
+    },
+    {
+        "gln": "7080005053143",
+        "mp_count": 0,
+        "name": "Østfold Energi AS, Nett"
+    }
+]

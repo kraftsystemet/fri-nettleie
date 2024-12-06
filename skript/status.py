@@ -79,14 +79,12 @@ def load_mp_count():
     total_count = 0
     mp_counts = {}
 
-    with open('./referanse-data/elhub/grid_owner_mp_count.csv') as csvfile:
-        reader = csv.DictReader(csvfile)
+    with open('./referanse-data/elhub/grid_owner_mp_count.json') as file:
+        go_mp_counts = json.load(file)
 
-        for row in reader:
-            if not row['METERING_POINT_COUNT']:
-                continue
-            total_count += int(row['METERING_POINT_COUNT'])
-            mp_counts[row['GLN']] = int(row['METERING_POINT_COUNT'])
+    for go in go_mp_counts:
+        total_count += go['mp_count']
+        mp_counts[go['gln']] = go['mp_count']
 
     return total_count, mp_counts
 
@@ -117,6 +115,7 @@ def print_status():
     <tr>
         <th>Navn</th>
         <th>GLN</th>
+        <th>Antall MP</th>
         <th>Oppdatert</th>
         <th>Handling</th>
     </tr>""")
@@ -127,6 +126,7 @@ def print_status():
 
         # fjerne " (tidligere xxx)" i netteiernavn ? .split('(')[0].strip()
         name = dsos[dso]
+        antall_mp = mp_counts.get(gln, 0)
 
         oppdatert = ''
         status = ''
@@ -153,6 +153,7 @@ def print_status():
         print("<tr>")
         print(f"    <td>{name}{status}</td>")
         print(f"    <td>{gln}</td>")
+        print(f"    <td>{'<code>' + str(antall_mp) + '</code>*' if antall_mp > 0 else ''}</td>")
         print(f"    <td>{oppdatert}</td>")
         print(f"    <td><a href='{edit_url}' title='Samle inn data for {name}' target='_blank'>✏️</a></td>")
         print("</tr>")
