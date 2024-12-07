@@ -56,11 +56,13 @@ tariffer:
     # Valgfri kommentar om tariffen. Bruk er uspesifisert og ikke påkrevd p.t.
     kommentar: >
       Gjelder nettområder fra tidligere ABC AS nett.
+
     # Gyldig fra- og til-dato for tariffen.
     # Fra er påkrevd. Til-dato er eksklusiv.
     # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.
     gyldig_fra: 2024-01-01
-    gyldig_til: null
+    #gyldig_til: 2025-01-01
+
     # Nettavregningsområde brukes dersom en netteier har ulike tariffer for ulike nettavregningsområder.
     # Skal være en liste. Dersom mga er utelatt vil alle nettavregningsområder for netteieren brukes.
     mga:
@@ -166,16 +168,6 @@ tariffer:
           # En annen måte å si det på er: [16,22] = [16:00:00, 22:00:00)
           timer: 16-21
 
-          # Et unntak kan ENTEN spesifisere et tillegg eller en erstatningspris.
-          # Et tillegg legges til grunnprisen.
-          # Pris erstatter grunnprisen.
-          # Oppgis i øre/kWh.
-          tillegg: 11
-          pris: null # kan også utelates
-
-        # Nedenfor viser et eksempel på spesifisering av en erstatnisningspris.
-        - navn: Høylastpris på dagtid
-          dager:
-            - virkedag
-          timer: 6-21
-          pris: 24.56
+          # Et unntak oppgis ofte som et tillegg eller en erstatningspris.
+          # Vi har ikke modelleret tillegg, så da må det summeres til en erstatningspris.
+          pris: 18

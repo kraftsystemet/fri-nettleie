@@ -209,21 +209,21 @@
             standard (sommer) avgift.
           </p>
           <dl>
-            8.96
+            15.888
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            9.96
+            16.887999999999998
             <span
               data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            26.4
+            33.33
             <span
               data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            33.0
+            41.66
             <span data-tooltip="Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
             ><br />
@@ -243,51 +243,21 @@
           <p>Du betaler</p>
 
           <dl>
-            15.888
+            23.888
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            16.887999999999998
+            24.888
             <span
               data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            33.33
+            41.33
             <span
               data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            41.66
-            <span
-              data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
-              >øre m/ alle avgifter</span
-            ><br />
-          </dl>
-
-          <h6>Vinterlast</h6>
-          <p>Denne prisen gjelder for:</p>
-          <dl>
-            <dt>Måneder</dt>
-            <dd>januar, februar, mars</dd>
-          </dl>
-          <p>Du betaler</p>
-
-          <dl>
-            16.96
-            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
-              >øre u/ alle avgifter</span
-            ><br />
-            17.96
-            <span
-              data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
-              >øre m/ enovaavgift</span
-            ><br />
-            34.4
-            <span
-              data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
-              >øre m/ enova og elavgift</span
-            ><br />
-            43.0
+            51.66
             <span
               data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
@@ -302,15 +272,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1"></script>
   <script>
     const energiLedd = {
-      grunnpris: 8.96,
-      unntak: [
-        { navn: "Høylast", pris: 15.888, timer: "6-21" },
-        {
-          måneder: ["januar", "februar", "mars"],
-          navn: "Vinterlast",
-          tillegg: 8,
-        },
-      ],
+      grunnpris: 15.888,
+      unntak: [{ navn: "Høylast", pris: 23.888, timer: "6-21" }],
     };
   </script>
   <script src="../assets/priceSignal.js"></script>

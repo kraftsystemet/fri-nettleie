@@ -12,7 +12,7 @@ tariffer:
         - dager: [fredag]
           måneder: [januar, februar, mars, oktober, november, desember]
           navn: Brukstidstillegg
-          tillegg: 11
+          pris: 20.8
           timer: 6-21
     fastledd:
       metode: TRE_DØGNMAX_MND

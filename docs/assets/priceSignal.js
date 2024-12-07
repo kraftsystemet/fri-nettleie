@@ -105,7 +105,6 @@ new Chart(ctx, {
                 max: max+2.0,
                 beginAtZero: true,
                 stacked: true,
-
             }
         }
     }

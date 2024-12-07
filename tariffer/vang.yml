@@ -21,7 +21,7 @@ tariffer:
             - november
             - desember
           navn: Brukstidstillegg
-          tillegg: 10
+          pris: 18
           timer: 16-21
     fastledd:
       metode: "TRE_DØGNMAX_MND"
