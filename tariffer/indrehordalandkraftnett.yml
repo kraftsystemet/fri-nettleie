@@ -1,0 +1,32 @@
+---
+netteier: 'Indre Hordaland Kraftnett AS'
+gln:
+  - '7080010008367'
+tariffer:
+  - id: 2024-10-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2304
+        - terskel: 2
+          pris: 2880
+        - terskel: 5
+          pris: 3840
+        - terskel: 10
+          pris: 5760
+        - terskel: 15
+          pris: 7680
+        - terskel: 20
+          pris: 9600
+        - terskel: 25
+          pris: 11520
+    energiledd:
+      grunnpris: 28.56
+    gyldig_fra: '2024-10-01'
+sist_oppdatert: '2024-12-07'
+kilder:
+  - 'https://www.ihk.no/prisar/nettleige'
+  - 'https://www.ihk.no/images/pdf/Nettleige_privat_01.10.2024.pdf'
