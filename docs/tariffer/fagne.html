@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Fagne AS | Nettleie</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Fagne AS</h1>
+      <dl>
+        <dt
+          data-tooltip="Global Location Number brukes for å identisere netteier"
+        >
+          GLN<span></span>
+        </dt>
+        <dd>7080003809599</dd>
+        <!-- TODO
+        <dt data-tooltip="Organisasjonsnummer">Org</dt>
+        <dd>
+          <a href="https://virksomhet.brreg.no/nb/oppslag/enheter/984882106"
+            >984882106</a
+          >
+        </dd>
+
+        <dt data-tooltip="Fylkene som netteier er konsesjonær i">Fylker</dt>
+        <dd>Oslo, Oslo</dd>
+        -->
+        <dt>Sist oppdatert</dt>
+        <dd>2024-12-07</dd>
+      </dl>
+      <article>
+        <header>❕Innsamlet på dugnad</header>
+        <p>
+          Informasjonen under er samlet inn på dugnad. Dersom du finner feil kan
+          du selv hjelpe oss med å oppdatere informasjonen.
+          <a href="https://github.com/kraftsystemet/fri-nettleie"
+            >Les mer om hvordan du kan bidra.</a
+          >
+        </p>
+      </article>
+      <h2>Tariff</h2>
+      Fagne AS sin nåværende tariff for private husholdninger er gyldig fra
+      2024-04-01 til 2024-12-31.
+      <p></p>
+
+      <p>Tariffen har vi samlet inn fra 1 kilde:</p>
+      <ul>
+        <li>
+          <a
+            href="https://fagne.no/kunde-og-nettleie/nettleie-priser-og-vilkar/priser-privatkunder/"
+            >https://fagne.no/kunde-og-nettleie/nettleie-priser-og-vilkar/priser-privatkunder/</a
+          >
+        </li>
+      </ul>
+
+      <details open>
+        <summary role="button" open>Tariff</summary>
+
+        <dl>
+          <dt>Gyldig fra</dt>
+          <dd>2024-04-01</dd>
+          <dt>Gyldig til</dt>
+          <dd>2024-12-31</dd>
+        </dl>
+        <!-- TODO
+        <p>
+          Denne tariffen gjelder for nettavregningsområde
+          <abbr data-tooltip="50Y123123145">HSFL1</abbr>,
+          <abbr data-tooltip="50Y123123145">ALEX1</abbr>
+          .
+        </p>
+        -->
+        <article>
+          <h4>Fastledd</h4>
+
+          <p>
+            Fastledd er et prisledd som skjerpes etter en trinnvis skala. Jo mer
+            strøm en bruker «samtidig» jo dyrere blir det.
+          </p>
+
+          <p>
+            Beregnes ut fra
+            <mark
+              >de tre høyeste timer i forskellige døgn den foregående
+              måneden</mark
+            >.
+          </p>
+          <h5>Terskler</h5>
+          <p>
+            Netteieren inkluderer terskelen i det nye nivået. Det vil si at
+            dersom du havner akkurat på selve terskelen, ender du på nivået
+            <i>over</i>.
+          </p>
+          <p>
+            Prisen vises uten og med de forskjellige avgiftene på nettleie. Se
+            informasjon om avgifter på
+            <a href="#avgifter">vår side om avgifter</a>.
+          </p>
+          <table>
+            <tr>
+              <th>Terskel</th>
+              <th>kr/år u/ mva</th>
+              <th>kr/år m/ mva</th>
+            </tr>
+
+            <tr>
+              <td>0</td>
+              <td>3456</td>
+              <td>4320.0</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>4416</td>
+              <td>5520.0</td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td>5376</td>
+              <td>6720.0</td>
+            </tr>
+
+            <tr>
+              <td>15</td>
+              <td>6336</td>
+              <td>7920.0</td>
+            </tr>
+
+            <tr>
+              <td>20</td>
+              <td>7296</td>
+              <td>9120.0</td>
+            </tr>
+
+            <tr>
+              <td>25</td>
+              <td>21120</td>
+              <td>26400.0</td>
+            </tr>
+
+            <tr>
+              <td>50</td>
+              <td>30720</td>
+              <td>38400.0</td>
+            </tr>
+
+            <tr>
+              <td>75</td>
+              <td>40320</td>
+              <td>50400.0</td>
+            </tr>
+
+            <tr>
+              <td>100</td>
+              <td>49920</td>
+              <td>62400.0</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h4>Energiledd</h4>
+
+          <p>
+            Energiledd er prisen per
+            <span
+              data-tooltip="Kilowattime er energimengden vi måler strømforbruket i."
+              >kWh</span
+            >.
+          </p>
+          <h5>Grunnpris</h5>
+          <p>
+            Grunnprisen er standardprisen prisen du betaler. Det er typisk den
+            lave prisen som er på natta eller andre perioder når nettet har lav
+            last, men trenger ikke være det. Prisene med elavgift er oppgitt med
+            standard (sommer) avgift.
+          </p>
+          <dl>
+            20
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            21
+            <span
+              data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            37.44
+            <span
+              data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            46.8
+            <span data-tooltip="Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+          <h5>Unntak</h5>
+          <p>
+            Unntak er en pris som gjelder for spesielle perider. For eksempel på
+            høylastperider som midt på dagen på en virkedag.
+          </p>
+
+          <h6>Ukedager</h6>
+          <p>Denne prisen gjelder for:</p>
+          <dl>
+            <dt>Dager</dt>
+            <dd>ukedag</dd>
+
+            <dt>Timer</dt>
+            <dd>6-21</dd>
+          </dl>
+          <p>Du betaler</p>
+
+          <dl>
+            28
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            29
+            <span
+              data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            45.44
+            <span
+              data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            56.8
+            <span
+              data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+        </article>
+      </details>
+    </main>
+  </body>
+</html>

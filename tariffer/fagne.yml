@@ -1,0 +1,41 @@
+---
+netteier: 'Fagne AS'
+gln:
+  - '7080003809599'
+sist_oppdatert: '2024-12-07'
+kilder:
+  - 'https://fagne.no/kunde-og-nettleie/nettleie-priser-og-vilkar/priser-privatkunder/'
+tariffer:
+  - id: 2024-04
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3456
+        - terskel: 5
+          pris: 4416
+        - terskel: 10
+          pris: 5376
+        - terskel: 15
+          pris: 6336
+        - terskel: 20
+          pris: 7296
+        - terskel: 25
+          pris: 21120
+        - terskel: 50
+          pris: 30720
+        - terskel: 75
+          pris: 40320
+        - terskel: 100
+          pris: 49920
+    energiledd:
+      grunnpris: 20
+      unntak:
+        - navn: Ukedager
+          timer: 6-21
+          pris: 28
+          dager: [ukedag]
+    gyldig_fra: '2024-04-01'
+    gyldig_til: '2024-12-31'
