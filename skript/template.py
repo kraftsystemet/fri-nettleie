@@ -5,6 +5,7 @@ import json
 import yaml
 import os
 from datetime import date, datetime
+import dateutil.parser
 
 
 import os
@@ -27,10 +28,15 @@ for filename in os.listdir('tariffer'):
         with open(os.path.join('tariffer', filename), 'r') as f:
             data = yaml.safe_load(f)
 
+        # find current valid tariff
+        for t in data['tariffer']:
+            if dateutil.parser.parse(t['gyldig_fra']) <= datetime.today() and dateutil.parser.parse(t.get('gyldig_til','2099-01-01')) > datetime.today():
+                data['gyldig_tariff'] = t
 
         html = template.render(data)
 
         output_filename = filename.replace('.yml', '.html')
+
         with open(os.path.join('docs', 'tariffer', output_filename), 'w') as f:
             f.write(html)
 

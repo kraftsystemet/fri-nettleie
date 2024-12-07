@@ -50,21 +50,18 @@
           <a href="https://github.com/kraftsystemet/fri-nettleie">Les mer om hvordan du kan bidra.</a>
         </p>
       </article>
-      <h2>Tariffer</h2>
-        {{ netteier }} har {{ tariffer | count }} {{ 'aktiv tariff' if tariffer | count == 1 else 'aktive tariffer' }} for private kunder.
+      <h2>Tariff</h2>
+        {{ netteier }} sin nåværende tariff for private husholdninger
+        er gyldig fra {{ gyldig_tariff.gyldig_fra }}{{ ' til ' + gyldig_tariff.gyldig_til if 'gyldig_til' in gyldig_tariff }}.
       <p></p>
-      <p>
-        For å finne ut av hvilken tariff har kan du logge inn på
-        <a href="https://minside.elhub.no">Elhub Min Side</a> for å finne din nettier.
-      </p>
 
-      <p>Tariffene har vi samlet inn fra {{ kilder | count }} kilder:</p>
+      <p>Tariffen har vi samlet inn fra {{ kilder | count }} kilde{{ 'r' if kilder | count > 1 }}:</p>
       <ul>
         {% for kilde in kilder %}
         <li><a href="{{ kilde }}">{{ kilde }}</a></li>
         {% endfor %}
       </ul>
-      {% for tariff in tariffer %}
+      {% set tariff = gyldig_tariff  %}
       <details open>
         <summary role="button" open>Tariff {{ tariff.navn if 'navn' in tariff else '' }}</summary>
 
@@ -213,8 +210,6 @@
         {% endfor %}
       </article>
       </details>
-      {% endfor %}
-      {% set tariff = tariffer[-1] %}
 
     </main>
   </body>
