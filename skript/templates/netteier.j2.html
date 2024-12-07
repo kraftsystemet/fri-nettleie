@@ -121,11 +121,15 @@
 
         <h4>Energiledd</h4>
         {% set pris = tariff.energiledd.grunnpris %}
+
+        {% if show_price_signal %}
         <h5>Energiledd den neste uken</h5>
         <p>Denne grafen viser prisen for den neste uken. Den er basert på tariff-beskrivelsen under.</p>
         <div>
           <canvas id="priceSignal"></canvas>
         </div>
+        {% endif %}
+
         <p>
           Energiledd er prisen per
           <span
@@ -213,6 +217,7 @@
 
     </main>
   </body>
+  {% if show_price_signal %}
   <script src=" https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js "></script>
   <script src="https://cdn.jsdelivr.net/npm/moment@2"></script>
   <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1"></script>
@@ -220,5 +225,6 @@
     const energiLedd = {{ tariff.energiledd | tojson }}
   </script>
   <script src="../assets/priceSignal.js"></script>
+  {% endif %}
 
 </html>

@@ -33,6 +33,9 @@ for filename in os.listdir('tariffer'):
             if dateutil.parser.parse(t['gyldig_fra']) <= datetime.today() and dateutil.parser.parse(t.get('gyldig_til','2099-01-01')) > datetime.today():
                 data['gyldig_tariff'] = t
 
+        # Toggles
+        data["show_price_signal"] = False
+
         html = template.render(data)
 
         output_filename = filename.replace('.yml', '.html')
