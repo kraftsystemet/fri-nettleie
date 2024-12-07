@@ -185,7 +185,7 @@
           {% endif %}
         </dl>
         <p>Du betaler</p>
-        {% set pris = u.pris if 'pris' in u else pris + u.tillegg %}
+        {% set pris = u.pris %}
         <dl>
           {{ pris }}
           <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."

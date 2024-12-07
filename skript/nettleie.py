@@ -9,7 +9,6 @@ HELLIGDAGER = holidays.Norway()
 class Unntak:
     timer: List[int]
     pris: float | None
-    tillegg: float | None
     dager: List[str]
     mnd: List[str]
 
@@ -68,6 +67,4 @@ class Unntak:
         return self.matcher_timer(t) and self.matcher_dager(t) and self.matcher_mnd(t)
 
     def unntakspris(self, grunnpris: float) -> float:
-        if self.tillegg is not None:
-            return grunnpris + self.tillegg
         return self.pris
