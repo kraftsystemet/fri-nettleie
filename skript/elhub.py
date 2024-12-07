@@ -21,7 +21,7 @@ def get_grid_owner_data():
 
     return gos
 
-def get_metering_point_count():
+def get_grid_owner_metering_point_count():
     url = 'https://api.elhub.no/energy-data/v0/grid-areas'
     headers = {'accept': 'application/json'}
     params = {
@@ -43,3 +43,30 @@ def get_metering_point_count():
             go_mp_counts[gln] += grid_area['attributes']['consumptionPerGroupMgaHour'][0]['meteringPointCount']
 
     return go_mp_counts
+
+def get_price_area_metering_point_count():
+    url = 'https://api.elhub.no/energy-data/v0/price-areas'
+    headers = {'accept': 'application/json'}
+    params = {
+        'dataset': 'CONSUMPTION_PER_GROUP_MBA_HOUR',
+        'startDate': '2024-11-01T00:00:00+01:00',
+        'endDate': '2024-11-01T00:01:00+01:00',
+        'consumptionGroup': 'household'
+    }
+
+    response = requests.get(url, params=params, headers=headers)
+
+    price_areas = response.json()['data']
+    price_area_mp_counts = {}
+    for price_area in price_areas:
+
+        mba = price_area['id']
+
+        if not mba.startswith('NO'):
+            continue
+
+        mp_count = price_area['attributes']['consumptionPerGroupMbaHour'][0]['meteringPointCount']
+
+        price_area_mp_counts[mba] = mp_count
+
+    return price_area_mp_counts

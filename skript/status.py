@@ -75,20 +75,31 @@ def load_ignores():
 
     return ignores
 
-def load_mp_count():
+def load_go_mp_count():
 
     total_count = 0
-    mp_counts = {}
+    go_mp_counts = {}
 
     with open('./referanse-data/elhub/grid_owner_mp_count.json') as file:
-        go_mp_counts = json.load(file)
+        data = json.load(file)
 
-    for go in go_mp_counts:
+    for go in data:
+        if go['mp_count'] == 0:
+            continue
         total_count += go['mp_count']
-        mp_counts[go['gln']] = go['mp_count']
+        go_mp_counts[go['gln']] = go['mp_count']
 
-    return total_count, mp_counts
+    return total_count, go_mp_counts
 
+def load_total_mp_count():
+    with open('./referanse-data/elhub/price_area_mp_count.json') as file:
+        pa_mp_counts = json.load(file)
+
+    total_count = 0
+    for pa in pa_mp_counts:
+        total_count += pa['mp_count']
+
+    return total_count
 
 def print_status():
 
@@ -101,16 +112,21 @@ def print_status():
             eprint(f"Ignoring {dso} - {dsos[dso]}")
             dsos.pop(dso)
 
-    total_count, mp_counts = load_mp_count()
+    go_total_mp_count, go_mp_counts = load_go_mp_count()
+    total_mp_count = load_total_mp_count()
+
+    # distribute the difference between the total mp count and the grid owner count on the remaining dsos
+    mp_count_diff = total_mp_count - go_total_mp_count
+    default_mp_count = math.floor(mp_count_diff / (len(dsos)-len(dso_status)))
+
     collected_count = 0
     for dso in list(dso_status.keys()):
-        if dso in mp_counts:
-            collected_count += mp_counts[dso]
+        collected_count += go_mp_counts.get(dso, default_mp_count)
 
     print("")
     print(f"Vi har samlet data for {len(dso_status)} av {len(dsos)} netteiere 🥳!")
     print("")
-    print(f"Dette dekker ~{math.floor(( collected_count / total_count ) * 100)}% ({collected_count}) av private husholdninger* 🎉.")
+    print(f"Dette dekker ~{round(( collected_count / total_mp_count ) * 100, 1)}% ({collected_count} av {total_mp_count}) av private husholdninger* 🎉.")
     print("")
     print("""<table>
     <tr>
@@ -127,7 +143,7 @@ def print_status():
 
         # fjerne " (tidligere xxx)" i netteiernavn ? .split('(')[0].strip()
         name = dsos[dso]
-        antall_mp = mp_counts.get(gln, 0)
+        antall_mp = go_mp_counts.get(gln, default_mp_count)
 
         oppdatert = ''
         status = ''
@@ -159,7 +175,7 @@ def print_status():
         print("<tr>")
         print(f"  <td>{name}{status}</td>")
         print(f"  <td>{gln}</td>")
-        print(f"  <td>{'<em>' + str(antall_mp) + '</em>' if antall_mp > 0 else ''}</td>")
+        print(f"  <td><em>{antall_mp}{ '**' if antall_mp == default_mp_count else '' }</em></td>")
         print(f"  <td>{oppdatert}</td>")
         print(f"  <td>")
         print(f"    <a href='{edit_url}' title='Samle inn data for {name}' target='_blank'>✏️</a>")
