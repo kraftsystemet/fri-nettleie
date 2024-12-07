@@ -117,7 +117,7 @@ def print_status():
 
     # distribute the difference between the total mp count and the grid owner count on the remaining dsos
     mp_count_diff = total_mp_count - go_total_mp_count
-    default_mp_count = math.floor(mp_count_diff / (len(dsos)-len(dso_status)))
+    default_mp_count = math.floor(mp_count_diff / (len(dsos)-len(go_mp_counts)))
 
     collected_count = 0
     for dso in list(dso_status.keys()):
