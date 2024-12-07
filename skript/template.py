@@ -9,7 +9,10 @@ from datetime import date, datetime
 
 import os
 import yaml
-from jinja2 import Template, StrictUndefined
+from jinja2 import Template, StrictUndefined, Environment
+
+env = Environment()
+env.policies['json.dumps_kwargs']['ensure_ascii'] = False
 
 with open('skript/templates/netteier.j2.html', 'r') as f:
     template = Template(f.read(),undefined=StrictUndefined)

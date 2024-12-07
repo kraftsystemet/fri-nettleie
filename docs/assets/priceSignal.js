@@ -16,17 +16,12 @@ function rangeStringToList(rangeStr) {
 
 const ctx = document.getElementById('priceSignal');
 
-const tariff = {
-    "grunnpris" : 8.56,
-    "unntak" : [{
-        "timer" : "6-21",
-        "pris" : 16.56
-    }]
+const unntak = energiLedd.unntak ? energiLedd.unntak[0] : null;
+
+let hours = [];
+if (unntak) {
+    hours = rangeStringToList(unntak.timer);
 }
-
-
-const unntak = tariff.unntak[0];
-hours = rangeStringToList(unntak.timer);
 
 const localeStartOfDat = moment().startOf('day')
 const timeSeriesLabels = [];
@@ -39,25 +34,25 @@ const timeSeriesForbrukMVA = [];
 let max = 0;
 
 for (let i = 0; i < 24*7; i++) {
-const h = new Date(localeStartOfDat);
-h.addHours(i);
+    const h = new Date(localeStartOfDat);
+    h.addHours(i);
 
-timeSeriesLabels.push(h);
-if (hours.includes(h.getHours())) {
-    pris = unntak.pris;
-} else {
-    pris = tariff.grunnpris;
-}
+    timeSeriesLabels.push(h);
+    if (hours.includes(h.getHours())) {
+        pris = unntak.pris;
+    } else {
+        pris = energiLedd.grunnpris;
+    }
 
-timeSeriesPrice.push(pris);
-timeSeriesPriceMVA.push(0.25*pris);
-timeSeriesEnova.push(1);
-timeSeriesEnovaMVA.push(0.25);
-timeSeriesForbruk.push(16.44);
-timeSeriesForbrukMVA.push(16.44*0.25);
-if (pris > max) {
-    max = pris + 44;
-}
+    timeSeriesPrice.push(pris);
+    timeSeriesPriceMVA.push(0.25*pris);
+    timeSeriesEnova.push(1);
+    timeSeriesEnovaMVA.push(0.25);
+    timeSeriesForbruk.push(16.44);
+    timeSeriesForbrukMVA.push(16.44*0.25);
+    if (pris > max) {
+        max = pris + 44;
+    }
 }
 
 new Chart(ctx, {
