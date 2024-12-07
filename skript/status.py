@@ -55,6 +55,7 @@ def load_status():
 
         for gln in data["gln"]:
             status[gln] = data
+            status[gln]["file"] = f.replace(".yml", ".html")
 
     return status
 
@@ -115,7 +116,7 @@ def print_status():
     <tr>
         <th>Navn</th>
         <th>GLN</th>
-        <th>Antall MP*</th>
+        <th>Antall*</th>
         <th>Oppdatert</th>
         <th>Handling</th>
     </tr>""")
@@ -130,6 +131,7 @@ def print_status():
 
         oppdatert = ''
         status = ''
+        inspect_link = ''
 
         data = {
             "netteier": name,
@@ -146,16 +148,20 @@ def print_status():
 
             status = ' ✅'
 
+            inspect_href = f"https://kraftsystemet.no/fri-nettleie/tariffer/{data['file']}"
+            inspect_link = f'<a href="{inspect_href}" title="Se på tariffen for {name}" target="_blank">🔍</a>'
+
         edit_url = f"https://kraftsystemet.no/fri-nettleie/innsamler/?data={atob(json.dumps(data, default=json_serial))}"
 
-        # ✏️
-
         print("<tr>")
-        print(f"    <td>{name}{status}</td>")
-        print(f"    <td>{gln}</td>")
-        print(f"    <td>{'<code>' + str(antall_mp) + '</code>*' if antall_mp > 0 else ''}</td>")
-        print(f"    <td>{oppdatert}</td>")
-        print(f"    <td><a href='{edit_url}' title='Samle inn data for {name}' target='_blank'>✏️</a></td>")
+        print(f"  <td>{name}{status}</td>")
+        print(f"  <td>{gln}</td>")
+        print(f"  <td>{'<em>' + str(antall_mp) + '</em>' if antall_mp > 0 else ''}</td>")
+        print(f"  <td>{oppdatert}</td>")
+        print(f"  <td>")
+        print(f"    <a href='{edit_url}' title='Samle inn data for {name}' target='_blank'>✏️</a>")
+        if inspect_link: print(f"    {inspect_link}")
+        print(f"  </td>")
         print("</tr>")
 
     print("</table>")
