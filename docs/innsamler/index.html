@@ -212,64 +212,42 @@
                     <input type="text" id="timer" x-model="unntak.timer" placeholder="Eks: 6-21">
                 </div>
 
-                <button @click="toggleErstatningEllerTillegg(index,jndex)">Bytt mellom erstatningspris og tillegg</button>
                 <div class="input-collection">
-                <template x-if="unntak.pris != undefined">
                     <div class="input-group">
 
-                        <h6>Erstatningspris</h6>
-                        <table>
-                            <tr>
-                                <th>uten avgifter</th>
-                                <th>mva</th>
-                                <th>enova</th>
-                                <th>enova<br>forbruk(s)</th>
-                                <th>enova<br>forbruk(v)<br>mva</th>
-                                <th>enova<br>forbruk(s)<br>mva</th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="number" id="pris" x-model.number="unntak.pris" placeholder="Pris">
-                                </td>
-                                <td>
-                                    <input type="number" id="pris-mva" class="secondary-input" x-bind:value="unntak.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8">
-                                </td>
-                                <td>
-                                    <input type="number" id="pris-enova" class="secondary-input" x-bind:value="unntak.pris + 1" x-on:change="unntak.pris = $event.target.value - 1">
-                                </td>
-                                <td>
-                                    <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="unntak.pris + 1 + 16.44" x-on:change="unntak.pris = $event.target.value - 1 - 16.44">
-                                </td>
-                                <td>
-                                    <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 9.51) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 9.51">
-                                </td>
-                                <td>
-                                    <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 16.44) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 16.44">
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </template>
+                    <h6>Erstatningspris</h6>
+                    <table>
+                        <tr>
+                            <th>uten avgifter</th>
+                            <th>mva</th>
+                            <th>enova</th>
+                            <th>enova<br>forbruk(s)</th>
+                            <th>enova<br>forbruk(v)<br>mva</th>
+                            <th>enova<br>forbruk(s)<br>mva</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="number" id="pris" x-model.number="unntak.pris" placeholder="Pris">
+                            </td>
+                            <td>
+                                <input type="number" id="pris-mva" class="secondary-input" x-bind:value="unntak.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8">
+                            </td>
+                            <td>
+                                <input type="number" id="pris-enova" class="secondary-input" x-bind:value="unntak.pris + 1" x-on:change="unntak.pris = $event.target.value - 1">
+                            </td>
+                            <td>
+                                <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="unntak.pris + 1 + 16.44" x-on:change="unntak.pris = $event.target.value - 1 - 16.44">
+                            </td>
+                            <td>
+                                <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 9.51) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 9.51">
+                            </td>
+                            <td>
+                                <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 16.44) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 16.44">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
 
-                <template x-if="unntak.tillegg != undefined">
-                    <div class="input-group">
-                        <h6>Tillegg</h6>
-                        <table>
-                            <tr>
-                                <th>uten avgifter</th>
-                                <th>mva</th>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <input type="number" id="tillegg" x-model.number="unntak.tillegg" placeholder="Tillegg">
-                                </td>
-                                <td>
-                                    <input type="number" id="tillegg-mva" class="secondary-input" x-bind:value="unntak.tillegg * 1.25" x-on:change="unntak.tillegg = $event.target.value * 0.8">
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </template>
                 </div>
                 <div class="input-group">
                     <label for="dager">Dager:</label>
@@ -389,24 +367,6 @@
                 },
                 addUnntak(index) {
                     this.data.tariffer[index].energiledd.unntak.push({ navn: '', timer: '', dager: [], måneder: [], pris: 0 });
-                },
-                toggleErstatningEllerTillegg(index, jndex) {
-                    if (this.data.tariffer[index].energiledd.unntak[jndex].tillegg == undefined &&
-                        this.data.tariffer[index].energiledd.unntak[jndex].pris == undefined
-                    ) {
-                        this.data.tariffer[index].energiledd.unntak[jndex].pris = 0;
-                        return
-                    }
-                    if (this.data.tariffer[index].energiledd.unntak[jndex].tillegg != undefined){
-                        this.data.tariffer[index].energiledd.unntak[jndex].pris = this.data.tariffer[index].energiledd.unntak[jndex].tillegg
-                        this.data.tariffer[index].energiledd.unntak[jndex].tillegg = undefined
-                        return
-                    }
-                    if (this.data.tariffer[index].energiledd.unntak[jndex].pris != undefined){
-                        this.data.tariffer[index].energiledd.unntak[jndex].tillegg = this.data.tariffer[index].energiledd.unntak[jndex].pris
-                        this.data.tariffer[index].energiledd.unntak[jndex].pris = undefined
-                        return
-                    }
                 },
                 toYaml() {
                     const clone = JSON.parse(JSON.stringify(this.data));
