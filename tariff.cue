@@ -21,7 +21,7 @@ import (
 
 #Tariff: {
     gyldig_fra!: time.Format(time.RFC3339Date)
-    gyldig_til?: time.Format(time.RFC3339Date) | null
+    gyldig_til?: time.Format(time.RFC3339Date)
     id!: =~ "^[a-zæøå0-9-]+$"
     navn?: string
     kommentar?: string
@@ -42,9 +42,7 @@ import (
     timer?: string
     dager?: [...#Dag]
     måneder?: [...#Måned]
-    // TODO enten pris eller tillegg
-    pris?: float | int | null
-    tillegg?: float | int | null
+    pris!: float | int
 }
 
 #Dag: "mandag" | "tirsdag" | "onsdag" | "torsdag" | "fredag" | "lørdag" | "søndag" | "ukedag" | "helg" | "helligdager" | "fridag" | "virkedag" | "alle"

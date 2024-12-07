@@ -34,12 +34,9 @@ tariffer:
         - terskel: 100
           pris: 51840
     energiledd:
-      grunnpris: 8.96
+      grunnpris: 15.888
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 15.888
-        - navn: Vinterlast
-          måneder: [januar, februar, mars]
-          tillegg: 8
+          pris: 23.888
     gyldig_fra: '2024-01-01'

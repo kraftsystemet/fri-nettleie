@@ -5,7 +5,7 @@ kilder:
   - https://www.midtnett.no/nettleie
   - https://www.midtnett.no/media/2919/nettleiepriser-fra-1-april-2024.pdf
 netteier: Midtnett AS
-sist_oppdatert: 2024-11-03
+sist_oppdatert: '2024-11-03'
 tariffer:
   - energiledd:
       grunnpris: 26
@@ -35,7 +35,6 @@ tariffer:
           terskel: 75
         - pris: 36000
           terskel: 100
-    gyldig_fra: 2024-04-01
-    gyldig_til: null
+    gyldig_fra: '2024-04-01'
     id: hn22-privat
     kundegruppe: privat

@@ -4,7 +4,7 @@ gln:
 kilder:
   - https://vevig.no/nettleie-og-vilkar/nettleie-privat/
 netteier: Vevig AS
-sist_oppdatert: 2024-11-06
+sist_oppdatert: '2024-11-06'
 tariffer:
   - energiledd:
       grunnpris: 13.4
@@ -50,7 +50,6 @@ tariffer:
           terskel: 300
         - pris: 205104
           terskel: 400
-    gyldig_fra: 2024-06-01
-    gyldig_til: null
+    gyldig_fra: '2024-06-01'
     id: 2024-privat
     kundegruppe: privat

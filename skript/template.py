@@ -5,11 +5,15 @@ import json
 import yaml
 import os
 from datetime import date, datetime
+import dateutil.parser
 
 
 import os
 import yaml
-from jinja2 import Template, StrictUndefined
+from jinja2 import Template, StrictUndefined, Environment
+
+env = Environment()
+env.policies['json.dumps_kwargs']['ensure_ascii'] = False
 
 with open('skript/templates/netteier.j2.html', 'r') as f:
     template = Template(f.read(),undefined=StrictUndefined)
@@ -24,10 +28,18 @@ for filename in os.listdir('tariffer'):
         with open(os.path.join('tariffer', filename), 'r') as f:
             data = yaml.safe_load(f)
 
+        # find current valid tariff
+        for t in data['tariffer']:
+            if dateutil.parser.parse(t['gyldig_fra']) <= datetime.today() and dateutil.parser.parse(t.get('gyldig_til','2099-01-01')) > datetime.today():
+                data['gyldig_tariff'] = t
+
+        # Toggles
+        data["show_price_signal"] = False
 
         html = template.render(data)
 
         output_filename = filename.replace('.yml', '.html')
+
         with open(os.path.join('docs', 'tariffer', output_filename), 'w') as f:
             f.write(html)
 

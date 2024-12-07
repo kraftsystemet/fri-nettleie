@@ -54,8 +54,8 @@ def load_status():
             data = yaml.safe_load(file)
 
         for gln in data["gln"]:
-            status[gln] = data
-            status[gln]["file"] = f.replace(".yml", ".html")
+            status[gln] = { "data" : data }
+            status[gln]["file"] = f
 
     return status
 
@@ -132,6 +132,7 @@ def print_status():
         oppdatert = ''
         status = ''
         inspect_link = ''
+        yaml_link = ''
 
         data = {
             "netteier": name,
@@ -139,7 +140,8 @@ def print_status():
         }
 
         if gln in dso_status:
-            data = dso_status[gln]
+            data = dso_status[gln]['data']
+            file = dso_status[gln]['file']
 
             sist_oppdatert = data["sist_oppdatert"]
             if isinstance(sist_oppdatert, datetime):
@@ -148,8 +150,9 @@ def print_status():
 
             status = ' ✅'
 
-            inspect_href = f"https://kraftsystemet.no/fri-nettleie/tariffer/{data['file']}"
+            inspect_href = f"https://kraftsystemet.no/fri-nettleie/tariffer/{file.replace('.yml', '.html')}"
             inspect_link = f'<a href="{inspect_href}" title="Se på tariffen for {name}" target="_blank">🔍</a>'
+            yaml_link = f'<a href="./tariffer/{file}" title="Se dataene for {name} i YAML-format" target="_blank">📄</a>'
 
         edit_url = f"https://kraftsystemet.no/fri-nettleie/innsamler/?data={atob(json.dumps(data, default=json_serial))}"
 
@@ -161,6 +164,7 @@ def print_status():
         print(f"  <td>")
         print(f"    <a href='{edit_url}' title='Samle inn data for {name}' target='_blank'>✏️</a>")
         if inspect_link: print(f"    {inspect_link}")
+        if yaml_link: print(f"    {yaml_link}")
         print(f"  </td>")
         print("</tr>")
 

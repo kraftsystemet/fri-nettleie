@@ -35,6 +35,5 @@ kilder:
 	./skript/kilder.sh
 
 bygg:
-	#rm -f docs/tariffer/*
 	./skript/template.py
 	npx prettier docs/tariffer/*.html --write

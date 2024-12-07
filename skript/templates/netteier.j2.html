@@ -50,21 +50,18 @@
           <a href="https://github.com/kraftsystemet/fri-nettleie">Les mer om hvordan du kan bidra.</a>
         </p>
       </article>
-      <h2>Tariffer</h2>
-        {{ netteier }} har {{ tariffer | count }} {{ 'aktiv tariff' if tariffer | count == 1 else 'aktive tariffer' }} for private kunder.
+      <h2>Tariff</h2>
+        {{ netteier }} sin nåværende tariff for private husholdninger
+        er gyldig fra {{ gyldig_tariff.gyldig_fra }}{{ ' til ' + gyldig_tariff.gyldig_til if 'gyldig_til' in gyldig_tariff }}.
       <p></p>
-      <p>
-        For å finne ut av hvilken tariff har kan du logge inn på
-        <a href="https://minside.elhub.no">Elhub Min Side</a> for å finne din nettier.
-      </p>
 
-      <p>Tariffene har vi samlet inn fra {{ kilder | count }} kilder:</p>
+      <p>Tariffen har vi samlet inn fra {{ kilder | count }} kilde{{ 'r' if kilder | count > 1 }}:</p>
       <ul>
         {% for kilde in kilder %}
         <li><a href="{{ kilde }}">{{ kilde }}</a></li>
         {% endfor %}
       </ul>
-      {% for tariff in tariffer %}
+      {% set tariff = gyldig_tariff  %}
       <details open>
         <summary role="button" open>Tariff {{ tariff.navn if 'navn' in tariff else '' }}</summary>
 
@@ -125,6 +122,14 @@
         <h4>Energiledd</h4>
         {% set pris = tariff.energiledd.grunnpris %}
 
+        {% if show_price_signal %}
+        <h5>Energiledd den neste uken</h5>
+        <p>Denne grafen viser prisen for den neste uken. Den er basert på tariff-beskrivelsen under.</p>
+        <div>
+          <canvas id="priceSignal"></canvas>
+        </div>
+        {% endif %}
+
         <p>
           Energiledd er prisen per
           <span
@@ -184,7 +189,7 @@
           {% endif %}
         </dl>
         <p>Du betaler</p>
-        {% set pris = u.pris if 'pris' in u else pris + u.tillegg %}
+        {% set pris = u.pris %}
         <dl>
           {{ pris }}
           <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
@@ -209,8 +214,17 @@
         {% endfor %}
       </article>
       </details>
-      {% endfor %}
 
     </main>
   </body>
+  {% if show_price_signal %}
+  <script src=" https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js "></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1"></script>
+  <script>
+    const energiLedd = {{ tariff.energiledd | tojson }}
+  </script>
+  <script src="../assets/priceSignal.js"></script>
+  {% endif %}
+
 </html>

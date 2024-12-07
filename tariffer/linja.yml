@@ -4,7 +4,7 @@ gln:
 kilder:
   - https://www.linja.no/nettleige
 netteier: Linja AS
-sist_oppdatert: 2024-11-03
+sist_oppdatert: '2024-11-03'
 tariffer:
   - energiledd:
       grunnpris: 20.424
@@ -36,8 +36,7 @@ tariffer:
           terskel: 75
         - pris: 19766.4
           terskel: 100
-    gyldig_fra: 2024-07-01
-    gyldig_til: null
+    gyldig_fra: '2024-07-01'
     id: nord-privat
     navn: Nord
     kundegruppe: privat
@@ -71,8 +70,7 @@ tariffer:
           terskel: 75
         - pris: 18412.8
           terskel: 100
-    gyldig_fra: 2024-07-01
-    gyldig_til: null
+    gyldig_fra: '2024-07-01'
     id: "sør-privat"
     navn: Sør
     kundegruppe: privat

@@ -69,7 +69,6 @@ def main():
         unntak.append(Unntak(
             timer=hours(u.get('timer', '')),
             pris=u.get('pris',None),
-            tillegg=u.get('tillegg',None),
             dager=u.get('dager',[]),
             mnd=u.get('måneder',[])
         ))
