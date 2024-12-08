@@ -16,11 +16,19 @@
         margin-right: 1em;
         font-weight: bold;
       }
+      .breadcrumbs a {
+        margin-right: 0.5em;
+      }
     </style>
   </head>
   <body>
     <main class="container">
       <h1>Norgesnett AS</h1>
+      <p class="breadcrumbs">
+        <a href="/">Kraftsystemet</a>&rarr; <a href="../">Fri Nettleie</a>&rarr;
+        <a href="./">Tariffer</a>&rarr;
+        <span>Norgesnett AS</span>
+      </p>
       <dl>
         <dt
           data-tooltip="Global Location Number brukes for å identisere netteier"
@@ -180,6 +188,26 @@
         <article>
           <h4>Energiledd</h4>
 
+          <h5>Energiledd den neste uken</h5>
+          <p>
+            Denne grafen viser energi-ledd prisen for den neste uken. Den er
+            basert på tariff-beskrivelsen under. Du kan fjerne de ulike
+            priselementene ved å trykke på etikettene. Avgifter varierer
+            avhengig av hvor du bor. Enova-avgift gjelder for alle.
+          </p>
+          <dl>
+            <dt>Tiltakssonen i Finnmark og Nord-Troms</dt>
+            <dd>Hverken forbruksavgift eller moms</dd>
+            <dt>Resten av Troms og Nordland</dt>
+            <dd>Forbruksavgift, men ikke moms</dd>
+            <dt>Alle fylker sør for Nordland</dt>
+            <dd>Alle avgifter</dd>
+          </dl>
+
+          <div>
+            <canvas id="priceSignal"></canvas>
+          </div>
+
           <p>
             Energiledd er prisen per
             <span
@@ -253,4 +281,17 @@
       </details>
     </main>
   </body>
+
+  <script src=" https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js "></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/date-holidays@3/dist/umd.min.js"></script>
+  <!-- TODO norway bundle -->
+  <script>
+    const energiLedd = {
+      grunnpris: 11.552,
+      unntak: [{ navn: "Høylast", pris: 17.616, timer: "6-21" }],
+    };
+  </script>
+  <script src="../assets/priceSignal.js"></script>
 </html>

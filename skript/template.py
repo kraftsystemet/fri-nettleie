@@ -34,7 +34,7 @@ for filename in os.listdir('tariffer'):
                 data['gyldig_tariff'] = t
 
         # Toggles
-        data["show_price_signal"] = False
+        data["show_price_signal"] = True
 
         html = template.render(data)
 
