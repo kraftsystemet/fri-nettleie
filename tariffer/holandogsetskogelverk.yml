@@ -1,0 +1,42 @@
+---
+netteier: 'Høland og Setskog Elverk AS'
+gln:
+  - '7080004320253'
+sist_oppdatert: '2024-12-08'
+kilder:
+  - 'https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6Ikj4bGFuZCBvZyBTZXRza29nIEVsdmVyayBBUyIsImdsbiI6WyI3MDgwMDA0MzIwMjUzIl0sInNpc3Rfb3BwZGF0ZXJ0IjoiMjAyNC0xMi0wOCIsImtpbGRlciI6WyIiXX0%3D'
+tariffer:
+  - id: 2024-10-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2064
+        - terskel: 2
+          pris: 2880
+        - terskel: 5
+          pris: 4080
+        - terskel: 10
+          pris: 5760
+        - terskel: 15
+          pris: 6912
+        - terskel: 20
+          pris: 8832
+        - terskel: 25
+          pris: 15552
+        - terskel: 50
+          pris: 24000
+        - terskel: 75
+          pris: 30720
+        - terskel: 100
+          pris: 59520
+    energiledd:
+      grunnpris: 20
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          pris: 25
+          dager: [virkedag]
+    gyldig_fra: '2024-10-01'
