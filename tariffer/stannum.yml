@@ -1,0 +1,37 @@
+---
+netteier: 'Stannum AS'
+gln:
+  - '7080010003959'
+kilder:
+  - 'https://stannum.no/nettleiepriser'
+  - 'https://stannum.no/uploads/Nettleiepriser-01.09.24-V3.00.pdf'
+tariffer:
+  - id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3033
+        - terskel: 2
+          pris: 3640
+        - terskel: 5
+          pris: 3943
+        - terskel: 10
+          pris: 4550
+        - terskel: 15
+          pris: 5156
+        - terskel: 20
+          pris: 5308
+        - terskel: 25
+          pris: 5763
+        - terskel: 50
+          pris: 6370
+    energiledd:
+      grunnpris: 25.33
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 28.33
+    gyldig_fra: '2024-09-01'
