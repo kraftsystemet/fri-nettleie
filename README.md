@@ -292,9 +292,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 51 av 80 netteiere 🥳!
+Vi har samlet data for 53 av 80 netteiere 🥳!
 
-Dette dekker ~93.3% (2456411 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -512,12 +512,14 @@ Dette dekker ~93.3% (2456411 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Føie AS</td>
+  <td>Føie AS ✅</td>
   <td>7080005048415</td>
   <td><em>18675</em></td>
-  <td></td>
+  <td><code>2024-12-10</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDQ4NDE1Il19' title='Samle inn data for Føie AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDQ4NDE1Il0sICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmZvaWUubm8vbmV0dGxlaWUvcHJpc2VyLWF2dGFsZXIvIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTEyLTEwIiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wNSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDEyMzguNH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMTUzNn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzc5Mn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDYyOTcuNn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg4NjAuOH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDExODA4fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTM3NzZ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAxNTc0NH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDIxNjAwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTEsICJ1bm50YWsiOiBbeyJuYXZuIjogIkRhZyIsICJ0aW1lciI6ICI3LTIxIiwgInByaXMiOiAxNy41fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTA1LTAxIn1dfQ==' title='Samle inn data for Føie AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/foie.html" title="Se på tariffen for Føie AS" target="_blank">🔍</a>
+    <a href="./tariffer/foie.yml" title="Se dataene for Føie AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
@@ -601,12 +603,14 @@ Dette dekker ~93.3% (2456411 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Høland og Setskog Elverk AS</td>
+  <td>Høland og Setskog Elverk AS ✅</td>
   <td>7080004320253</td>
   <td><em>5341</em></td>
-  <td></td>
+  <td><code>2024-12-08</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIXHUwMGY4bGFuZCBvZyBTZXRza29nIEVsdmVyayBBUyIsICJnbG4iOiBbIjcwODAwMDQzMjAyNTMiXX0=' title='Samle inn data for Høland og Setskog Elverk AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIXHUwMGY4bGFuZCBvZyBTZXRza29nIEVsdmVyayBBUyIsICJnbG4iOiBbIjcwODAwMDQzMjAyNTMiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMDgiLCAia2lsZGVyIjogWyJodHRwczovL2hzZXYubm8vdXBsb2Fkcy8yMDI0LTA5LTA5LUhTRVYtbmV0dGxlaWUtbiVDMyVBNnJpbmctbWVkLWZvcmJydWstbWluZHJlLWVubi0xMDAtMDAwLWtXaC0xLW9rdG9iZXItMjAyNC5wZGYiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0xMC1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyMDY0fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyODgwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0MDgwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNTc2MH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDY5MTJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA4ODMyfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTU1NTJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyNDAwMH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDMwNzIwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDU5NTIwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMjAsICJ1bm50YWsiOiBbeyJuYXZuIjogIlZpcmtlZGFnIiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDI1LCAiZGFnZXIiOiBbInZpcmtlZGFnIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMTAtMDEifV19' title='Samle inn data for Høland og Setskog Elverk AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/holandogsetskogelverk.html" title="Se på tariffen for Høland og Setskog Elverk AS" target="_blank">🔍</a>
+    <a href="./tariffer/holandogsetskogelverk.yml" title="Se dataene for Høland og Setskog Elverk AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
