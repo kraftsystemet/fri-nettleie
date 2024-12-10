@@ -1,0 +1,41 @@
+---
+netteier: 'RK Nett AS'
+gln:
+  - '7080010004017'
+kilder:
+  - 'https://www.rauland-nett.no/nettprisar'
+sist_oppdatert: '2024-12-10'
+tariffer:
+  - id: 2024-05-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3096
+        - terskel: 2
+          pris: 4020
+        - terskel: 5
+          pris: 5568
+        - terskel: 10
+          pris: 7116
+        - terskel: 15
+          pris: 8664
+        - terskel: 20
+          pris: 10212
+        - terskel: 25
+          pris: 17952
+        - terskel: 50
+          pris: 25692
+        - terskel: 75
+          pris: 33432
+        - terskel: 100
+          pris: 48900
+        - terskel: 150
+          pris: 64380
+        - terskel: 200
+          pris: 92856
+    energiledd:
+      grunnpris: 24.65
+    gyldig_fra: '2024-05-01'
