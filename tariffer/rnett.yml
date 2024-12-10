@@ -1,0 +1,40 @@
+---
+netteier: 'R-Nett AS'
+gln:
+  - '7080010012852'
+sist_oppdatert: '2024-01-01'
+kilder:
+  - 'https://r-nett.no/wp-content/uploads/application/pdf/Nettleietariffer_fra_01012024.pdf'
+tariffer:
+  - id: 2024-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3196.8
+        - terskel: 5
+          pris: 4790.4
+        - terskel: 10
+          pris: 7027.2
+        - terskel: 15
+          pris: 13411.2
+        - terskel: 20
+          pris: 19795.2
+        - terskel: 25
+          pris: 29376
+        - terskel: 50
+          pris: 45350.4
+        - terskel: 75
+          pris: 64512
+        - terskel: 100
+          pris: 90057.6
+    energiledd:
+      grunnpris: 14.56
+      unntak:
+        - navn: alle
+          timer: 6-21
+          pris: 22.56
+          dager: [alle]
+    gyldig_fra: '2024-01-01'
