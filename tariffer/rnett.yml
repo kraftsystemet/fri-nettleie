@@ -33,8 +33,8 @@ tariffer:
     energiledd:
       grunnpris: 14.56
       unntak:
-        - navn: Ukedag
+        - navn: alle
           timer: 6-21
           pris: 22.56
-          dager: [ukedag]
+          dager: [alle]
     gyldig_fra: '2024-01-01'
