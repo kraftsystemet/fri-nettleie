@@ -1,0 +1,29 @@
+---
+netteier: 'Straumen Nett AS'
+gln:
+  - '7080010003720'
+kilder:
+  - 'https://www.straumen-nett.no/nettleige/nettleige-private-2024/'
+sist_oppdatert: '2024-12-10'
+tariffer:
+  - id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2784
+        - terskel: 5
+          pris: 3206.4
+        - terskel: 10
+          pris: 4752
+        - terskel: 15
+          pris: 5587.2
+        - terskel: 20
+          pris: 8380.8
+        - terskel: 25
+          pris: 11164.8
+    energiledd:
+      grunnpris: 18.304
+    gyldig_fra: '2024-10-01'

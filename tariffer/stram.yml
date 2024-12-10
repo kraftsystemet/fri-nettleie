@@ -1,0 +1,43 @@
+---
+netteier: 'Stram AS'
+gln:
+  - '7080003822901'
+sist_oppdatert: '2024-12-10'
+kilder:
+  - 'https://static1.squarespace.com/static/66bdd03417d9bd3545f8559c/t/673da00f304d9f305cfe4be4/1732091919973/Tariffhefte_nov+2024.pdf'
+  - 'https://www.stram.no/nettleiepris'
+tariffer:
+  - id: '2024'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: false
+      terskler:
+        - terskel: 0
+          pris: 1320
+        - terskel: 2
+          pris: 3960
+        - terskel: 5
+          pris: 5292
+        - terskel: 10
+          pris: 6612
+        - terskel: 15
+          pris: 7932
+        - terskel: 20
+          pris: 9252
+        - terskel: 25
+          pris: 23784
+        - terskel: 50
+          pris: 38328
+        - terskel: 75
+          pris: 52860
+        - terskel: 100
+          pris: 81936
+    energiledd:
+      grunnpris: 4.11
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 14.11
+          dager: [virkedag]
+    gyldig_fra: '2024-10-01'
