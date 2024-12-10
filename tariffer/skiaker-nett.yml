@@ -1,12 +1,13 @@
 ---
-netteier: 'Skagerak Kraft Nett'
+netteier: 'SkiakerNett AS'
 gln:
-  - '7080005056007'
+  - '7080004062702'
 kilder:
   - 'https://skiakernett.no/nettleigeprisar'
 sist_oppdatert: '2024-12-10'
 tariffer:
   - kundegruppe: privat
+    id: '2024-10'
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -37,3 +38,4 @@ tariffer:
           pris: 30000
     energiledd:
       grunnpris: 21
+    gyldig_fra: '2024-10-01'
