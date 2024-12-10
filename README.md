@@ -292,9 +292,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 57 av 79 netteiere 🥳!
+Vi har samlet data for 61 av 79 netteiere 🥳!
 
-Dette dekker ~95.2% (2506103 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~95.9% (2524371 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -929,39 +929,47 @@ Dette dekker ~95.2% (2506103 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>SkiakerNett AS</td>
+  <td>SkiakerNett AS ✅</td>
   <td>7080004062702</td>
   <td><em>4567**</em></td>
-  <td></td>
+  <td><code>2024-12-10</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTa2lha2VyTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDQwNjI3MDIiXX0=' title='Samle inn data for SkiakerNett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTa2lha2VyTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDQwNjI3MDIiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9za2lha2VybmV0dC5uby9uZXR0bGVpZ2VwcmlzYXIiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMTAiLCAidGFyaWZmZXIiOiBbeyJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiaWQiOiAiMjAyNC0xMCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzA3Mn0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMzg0MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDgwMH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDU5OTAuNH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDc0NzguNH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDg2NDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMTY1NC40fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTQ1NDR9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAxODE1My42fSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDIyNjY1LjZ9LCB7InRlcnNrZWwiOiAxNTAsICJwcmlzIjogMjQwMDB9LCB7InRlcnNrZWwiOiAyMDAsICJwcmlzIjogMzAwMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyMX0sICJneWxkaWdfZnJhIjogIjIwMjQtMTAtMDEifV19' title='Samle inn data for SkiakerNett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/skiaker-nett.html" title="Se på tariffen for SkiakerNett AS" target="_blank">🔍</a>
+    <a href="./tariffer/skiaker-nett.yml" title="Se dataene for SkiakerNett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
-  <td>Stannum AS</td>
+  <td>Stannum AS ✅</td>
   <td>7080010003959</td>
   <td><em>4567**</em></td>
-  <td></td>
+  <td><code>2024-12-10</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdGFubnVtIEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzk1OSJdfQ==' title='Samle inn data for Stannum AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdGFubnVtIEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzk1OSJdLCAia2lsZGVyIjogWyJodHRwczovL3N0YW5udW0ubm8vbmV0dGxlaWVwcmlzZXIiLCAiaHR0cHM6Ly9zdGFubnVtLm5vL3VwbG9hZHMvTmV0dGxlaWVwcmlzZXItMDEuMDkuMjQtVjMuMDAucGRmIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTEyLTEwIiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDMwMzN9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDM2NDB9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDM5NDN9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA0NTUwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNTE1Nn0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDUzMDh9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiA1NzYzfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogNjM3MH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI1LjMzLCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjguMzN9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDktMDEifV19' title='Samle inn data for Stannum AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/stannum.html" title="Se på tariffen for Stannum AS" target="_blank">🔍</a>
+    <a href="./tariffer/stannum.yml" title="Se dataene for Stannum AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
-  <td>Stram AS</td>
+  <td>Stram AS ✅</td>
   <td>7080003822901</td>
   <td><em>4567**</em></td>
-  <td></td>
+  <td><code>2024-12-10</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhbSBBUyIsICJnbG4iOiBbIjcwODAwMDM4MjI5MDEiXX0=' title='Samle inn data for Stram AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhbSBBUyIsICJnbG4iOiBbIjcwODAwMDM4MjI5MDEiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMTAiLCAia2lsZGVyIjogWyJodHRwczovL3N0YXRpYzEuc3F1YXJlc3BhY2UuY29tL3N0YXRpYy82NmJkZDAzNDE3ZDliZDM1NDVmODU1OWMvdC82NzNkYTAwZjMwNGQ5ZjMwNWNmZTRiZTQvMTczMjA5MTkxOTk3My9UYXJpZmZoZWZ0ZV9ub3YrMjAyNC5wZGYiLCAiaHR0cHM6Ly93d3cuc3RyYW0ubm8vbmV0dGxlaWVwcmlzIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiBmYWxzZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTMyMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMzk2MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNTI5Mn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDY2MTJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA3OTMyfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogOTI1Mn0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDIzNzg0fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMzgzMjh9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiA1Mjg2MH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA4MTkzNn1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDQuMTEsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAxNC4xMSwgImRhZ2VyIjogWyJ2aXJrZWRhZyJdfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTEwLTAxIn1dfQ==' title='Samle inn data for Stram AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/stram.html" title="Se på tariffen for Stram AS" target="_blank">🔍</a>
+    <a href="./tariffer/stram.yml" title="Se dataene for Stram AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
-  <td>Straumen Nett AS</td>
+  <td>Straumen Nett AS ✅</td>
   <td>7080010003720</td>
   <td><em>4567**</em></td>
-  <td></td>
+  <td><code>2024-12-10</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1lbiBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzcyMCJdfQ==' title='Samle inn data for Straumen Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1lbiBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzcyMCJdLCAia2lsZGVyIjogWyJodHRwczovL3d3dy5zdHJhdW1lbi1uZXR0Lm5vL25ldHRsZWlnZS9uZXR0bGVpZ2UtcHJpdmF0ZS0yMDI0LyJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0xMCIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyNzg0fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMjA2LjR9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA0NzUyfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNTU4Ny4yfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogODM4MC44fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTExNjQuOH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDE4LjMwNH0sICJneWxkaWdfZnJhIjogIjIwMjQtMTAtMDEifV19' title='Samle inn data for Straumen Nett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/straumen-nett.html" title="Se på tariffen for Straumen Nett AS" target="_blank">🔍</a>
+    <a href="./tariffer/straumen-nett.yml" title="Se dataene for Straumen Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
