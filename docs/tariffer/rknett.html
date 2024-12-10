@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>RK Nett AS | Nettleie</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+      .breadcrumbs a {
+        margin-right: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1>RK Nett AS</h1>
+      <p class="breadcrumbs">
+        <a href="/">Kraftsystemet</a>&rarr; <a href="../">Fri Nettleie</a>&rarr;
+        <a href="./">Tariffer</a>&rarr;
+        <span>RK Nett AS</span>
+      </p>
+      <dl>
+        <dt
+          data-tooltip="Global Location Number brukes for å identisere netteier"
+        >
+          GLN<span></span>
+        </dt>
+        <dd>7080010004017</dd>
+        <!-- TODO
+        <dt data-tooltip="Organisasjonsnummer">Org</dt>
+        <dd>
+          <a href="https://virksomhet.brreg.no/nb/oppslag/enheter/984882106"
+            >984882106</a
+          >
+        </dd>
+
+        <dt data-tooltip="Fylkene som netteier er konsesjonær i">Fylker</dt>
+        <dd>Oslo, Oslo</dd>
+        -->
+        <dt>Sist oppdatert</dt>
+        <dd>2024-12-10</dd>
+      </dl>
+      <article>
+        <header>❕Innsamlet på dugnad</header>
+        <p>
+          Informasjonen under er samlet inn på dugnad. Dersom du finner feil kan
+          du selv hjelpe oss med å oppdatere informasjonen.
+          <a href="https://github.com/kraftsystemet/fri-nettleie"
+            >Les mer om hvordan du kan bidra.</a
+          >
+        </p>
+      </article>
+      <h2>Tariff</h2>
+      RK Nett AS sin nåværende tariff for private husholdninger er gyldig fra
+      2024-05-01.
+      <p></p>
+
+      <p>Tariffen har vi samlet inn fra 1 kilde:</p>
+      <ul>
+        <li>
+          <a href="https://www.rauland-nett.no/nettprisar"
+            >https://www.rauland-nett.no/nettprisar</a
+          >
+        </li>
+      </ul>
+
+      <details open>
+        <summary role="button" open>Tariff</summary>
+
+        <dl>
+          <dt>Gyldig fra</dt>
+          <dd>2024-05-01</dd>
+          <dt>Gyldig til</dt>
+          <dd>-</dd>
+        </dl>
+        <!-- TODO
+        <p>
+          Denne tariffen gjelder for nettavregningsområde
+          <abbr data-tooltip="50Y123123145">HSFL1</abbr>,
+          <abbr data-tooltip="50Y123123145">ALEX1</abbr>
+          .
+        </p>
+        -->
+        <article>
+          <h4>Fastledd</h4>
+
+          <p>
+            Fastledd er et prisledd som skjerpes etter en trinnvis skala. Jo mer
+            strøm en bruker «samtidig» jo dyrere blir det.
+          </p>
+
+          <p>
+            Beregnes ut fra
+            <mark
+              >de tre høyeste timer i forskellige døgn den foregående
+              måneden</mark
+            >.
+          </p>
+          <h5>Terskler</h5>
+          <p>
+            Netteieren inkluderer terskelen i det nye nivået. Det vil si at
+            dersom du havner akkurat på selve terskelen, ender du på nivået
+            <i>over</i>.
+          </p>
+          <p>
+            Prisen vises uten og med de forskjellige avgiftene på nettleie. Se
+            informasjon om avgifter på
+            <a href="#avgifter">vår side om avgifter</a>.
+          </p>
+          <table>
+            <tr>
+              <th>Terskel</th>
+              <th>kr/år u/ mva</th>
+              <th>kr/år m/ mva</th>
+            </tr>
+
+            <tr>
+              <td>0</td>
+              <td>3096</td>
+              <td>3870.0</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>4020</td>
+              <td>5025.0</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>5568</td>
+              <td>6960.0</td>
+            </tr>
+
+            <tr>
+              <td>10</td>
+              <td>7116</td>
+              <td>8895.0</td>
+            </tr>
+
+            <tr>
+              <td>15</td>
+              <td>8664</td>
+              <td>10830.0</td>
+            </tr>
+
+            <tr>
+              <td>20</td>
+              <td>10212</td>
+              <td>12765.0</td>
+            </tr>
+
+            <tr>
+              <td>25</td>
+              <td>17952</td>
+              <td>22440.0</td>
+            </tr>
+
+            <tr>
+              <td>50</td>
+              <td>25692</td>
+              <td>32115.0</td>
+            </tr>
+
+            <tr>
+              <td>75</td>
+              <td>33432</td>
+              <td>41790.0</td>
+            </tr>
+
+            <tr>
+              <td>100</td>
+              <td>48900</td>
+              <td>61125.0</td>
+            </tr>
+
+            <tr>
+              <td>150</td>
+              <td>64380</td>
+              <td>80475.0</td>
+            </tr>
+
+            <tr>
+              <td>200</td>
+              <td>92856</td>
+              <td>116070.0</td>
+            </tr>
+          </table>
+        </article>
+        <article>
+          <h4>Energiledd</h4>
+
+          <h5>Energiledd den neste uken</h5>
+          <p>
+            Denne grafen viser energi-ledd prisen for den neste uken. Den er
+            basert på tariff-beskrivelsen under. Du kan fjerne de ulike
+            priselementene ved å trykke på etikettene. Avgifter varierer
+            avhengig av hvor du bor. Enova-avgift gjelder for alle.
+          </p>
+          <dl>
+            <dt>Tiltakssonen i Finnmark og Nord-Troms</dt>
+            <dd>Hverken forbruksavgift eller moms</dd>
+            <dt>Resten av Troms og Nordland</dt>
+            <dd>Forbruksavgift, men ikke moms</dd>
+            <dt>Alle fylker sør for Nordland</dt>
+            <dd>Alle avgifter</dd>
+          </dl>
+
+          <div>
+            <canvas id="priceSignal"></canvas>
+          </div>
+
+          <p>
+            Energiledd er prisen per
+            <span
+              data-tooltip="Kilowattime er energimengden vi måler strømforbruket i."
+              >kWh</span
+            >.
+          </p>
+          <h5>Grunnpris</h5>
+          <p>
+            Grunnprisen er standardprisen prisen du betaler. Det er typisk den
+            lave prisen som er på natta eller andre perioder når nettet har lav
+            last, men trenger ikke være det. Prisene med elavgift er oppgitt med
+            standard (sommer) avgift.
+          </p>
+          <dl>
+            24.65
+            <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
+              >øre u/ alle avgifter</span
+            ><br />
+            25.65
+            <span
+              data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
+              >øre m/ enovaavgift</span
+            ><br />
+            42.09
+            <span
+              data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
+              >øre m/ enova og elavgift</span
+            ><br />
+            52.61
+            <span data-tooltip="Relevant for sluttkunder sør for Troms."
+              >øre m/ alle avgifter</span
+            ><br />
+          </dl>
+          <h5>Unntak</h5>
+          <p>
+            Unntak er en pris som gjelder for spesielle perider. For eksempel på
+            høylastperider som midt på dagen på en virkedag.
+          </p>
+
+          <p><b>Netteieren har ingen unntak.</b></p>
+        </article>
+      </details>
+    </main>
+  </body>
+
+  <script src=" https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js "></script>
+  <script src="https://cdn.jsdelivr.net/npm/moment@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-moment@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/date-holidays@3/dist/umd.min.js"></script>
+  <!-- TODO norway bundle -->
+  <script>
+    const energiLedd = { grunnpris: 24.65 };
+  </script>
+  <script src="../assets/priceSignal.js"></script>
+</html>
