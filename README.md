@@ -292,9 +292,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 53 av 80 netteiere 🥳!
+Vi har samlet data for 57 av 79 netteiere 🥳!
 
-Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~95.2% (2506103 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -307,7 +307,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>AS Saudefaldene Nett</td>
   <td>7080003674630</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBUyBTYXVkZWZhbGRlbmUgTmV0dCIsICJnbG4iOiBbIjcwODAwMDM2NzQ2MzAiXX0=' title='Samle inn data for AS Saudefaldene Nett' target='_blank'>✏️</a>
@@ -327,7 +327,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Area Nett AS</td>
   <td>7080004087071</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcmVhIE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDA0MDg3MDcxIl19' title='Samle inn data for Area Nett AS' target='_blank'>✏️</a>
@@ -358,7 +358,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Asker Nett AS ✅</td>
   <td>7080003858825</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-27</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBc2tlciBOZXR0IiwgImdsbiI6IFsiNzA4MDAwMzg1ODgyNSJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0yNyIsICJraWxkZXIiOiBbImh0dHBzOi8vYXNrZXJuZXR0Lm5vL25ldHRsZWllLW9nLXByaXNlci8iLCAiaHR0cHM6Ly9hc2tlcm5ldHQubm8vcHJpc2xpc3RlLWZvci1wcml2YXRrdW5kZXItaS0yMDI0LyJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LTAxLXByaXZhdCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDE3NzZ9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDIyMDh9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDMyNjR9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA2ODE2fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogODU5Mn0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDEwODQ4fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTUzNjB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyNDM4NH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDMyNDQ4fSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDUxODQwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTUuODg4LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjMuODg4fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIn1dfQ==' title='Samle inn data for Asker Nett AS' target='_blank'>✏️</a>
@@ -389,7 +389,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Bindal Kraftlag Nett</td>
   <td>7080005055963</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCaW5kYWwgS3JhZnRsYWcgTmV0dCIsICJnbG4iOiBbIjcwODAwMDUwNTU5NjMiXX0=' title='Samle inn data for Bindal Kraftlag Nett' target='_blank'>✏️</a>
@@ -398,7 +398,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Breheim Nett</td>
   <td>7080010010919</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCcmVoZWltIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDEwMDEwOTE5Il19' title='Samle inn data for Breheim Nett' target='_blank'>✏️</a>
@@ -407,7 +407,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Bømlo Kraftnett AS</td>
   <td>7080010002327</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCXHUwMGY4bWxvIEtyYWZ0bmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDIzMjciXX0=' title='Samle inn data for Bømlo Kraftnett AS' target='_blank'>✏️</a>
@@ -416,7 +416,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>DE Nett AS</td>
   <td>7080010003614</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJERSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzYxNCJdfQ==' title='Samle inn data for DE Nett AS' target='_blank'>✏️</a>
@@ -474,7 +474,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Etna Nett AS</td>
   <td>7080005046404</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdG5hIE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDQ2NDA0Il19' title='Samle inn data for Etna Nett AS' target='_blank'>✏️</a>
@@ -483,7 +483,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Everket AS</td>
   <td>7080005052825</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdmVya2V0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA1MjgyNSJdfQ==' title='Samle inn data for Everket AS' target='_blank'>✏️</a>
@@ -517,18 +517,20 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
   <td><em>18675</em></td>
   <td><code>2024-12-10</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDQ4NDE1Il0sICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmZvaWUubm8vbmV0dGxlaWUvcHJpc2VyLWF2dGFsZXIvIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTEyLTEwIiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wNSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDEyMzguNH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMTUzNn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzc5Mn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDYyOTcuNn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg4NjAuOH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDExODA4fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTM3NzZ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAxNTc0NH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDIxNjAwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTEsICJ1bm50YWsiOiBbeyJuYXZuIjogIkRhZyIsICJ0aW1lciI6ICI3LTIxIiwgInByaXMiOiAxNy41fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTA1LTAxIn1dfQ==' title='Samle inn data for Føie AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDQ4NDE1IiwgIjcwODAwMDQwNjc4ODIiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cuZm9pZS5uby9uZXR0bGVpZS9wcmlzZXItYXZ0YWxlci8iXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMTAiLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LTA1IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTIzOC40fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAxNTM2fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzNzkyfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjI5Ny42fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogODg2MC44fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTE4MDh9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMzc3Nn0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDE1NzQ0fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMjE2MDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMSwgInVubnRhayI6IFt7Im5hdm4iOiAiRGFnIiwgInRpbWVyIjogIjctMjEiLCAicHJpcyI6IDE3LjV9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDUtMDEifV19' title='Samle inn data for Føie AS' target='_blank'>✏️</a>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/foie.html" title="Se på tariffen for Føie AS" target="_blank">🔍</a>
     <a href="./tariffer/foie.yml" title="Se dataene for Føie AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
-  <td>Føie AS – Hemsedal</td>
+  <td>Føie AS – Hemsedal ✅</td>
   <td>7080004067882</td>
-  <td><em>4453**</em></td>
-  <td></td>
+  <td><em>4567**</em></td>
+  <td><code>2024-12-10</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMgXHUyMDEzIEhlbXNlZGFsIiwgImdsbiI6IFsiNzA4MDAwNDA2Nzg4MiJdfQ==' title='Samle inn data for Føie AS – Hemsedal' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4aWUgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDQ4NDE1IiwgIjcwODAwMDQwNjc4ODIiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cuZm9pZS5uby9uZXR0bGVpZS9wcmlzZXItYXZ0YWxlci8iXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMTAiLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LTA1IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTIzOC40fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAxNTM2fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzNzkyfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjI5Ny42fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogODg2MC44fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTE4MDh9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMzc3Nn0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDE1NzQ0fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMjE2MDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMSwgInVubnRhayI6IFt7Im5hdm4iOiAiRGFnIiwgInRpbWVyIjogIjctMjEiLCAicHJpcyI6IDE3LjV9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDUtMDEifV19' title='Samle inn data for Føie AS – Hemsedal' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/foie.html" title="Se på tariffen for Føie AS – Hemsedal" target="_blank">🔍</a>
+    <a href="./tariffer/foie.yml" title="Se dataene for Føie AS – Hemsedal i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
@@ -554,7 +556,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.) ✅</td>
   <td>7080005053273</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-25</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJHbGl0cmUgTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTYwNjkiLCAiNzA4MDAwNTA1MjY3MiIsICI3MDgwMDA1MDUzMjczIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI1IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cuZ2xpdHJlbmV0dC5uby9rdW5kZS9uZXR0bGVpZS1vZy1wcmlzZXIvbmV0dGxlaWVwcmlzZXItcHJpdmF0a3VuZGUiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0xMC1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyMDQwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyNTgwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0NDQwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogOTEyMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDExODgwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTQ4ODB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyMzA0MH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDM2NDgwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNDg2MDB9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzg5NjB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNS4zNiwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDI0Ljk2fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTEwLTAxIn1dfQ==' title='Samle inn data for Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)' target='_blank'>✏️</a>
@@ -585,18 +587,20 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Hallingdal Kraftnett AS</td>
+  <td>Hallingdal Kraftnett AS ✅</td>
   <td>7080005050654</td>
   <td><em>9581</em></td>
-  <td></td>
+  <td><code>2024-07-01</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYWxsaW5nZGFsIEtyYWZ0bmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTA2NTQiXX0=' title='Samle inn data for Hallingdal Kraftnett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYWxsaW5nZGFsIEtyYWZ0bmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTA2NTQiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMDctMDEiLCAia2lsZGVyIjogWyJodHRwczovL3d3dy5oYWxsaW5nZGFsLWtyYWZ0bmV0dC5uby91cGxvYWRzL0hhbGxpbmdkYWwtS3JhZnRuZXR0LU5ldHRsZWllLXByLTA3LTIwMjQucGRmIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDctcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjM1Mn0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjg0NH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzc0NH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDQ2MzJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA1NTMyfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogNjQyMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDczMjB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiA4MjA4fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogODQ3Mn0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA4NzEyfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogNi42OCwgInVubnRhayI6IFt7Im5hdm4iOiAiYWxsZSIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAxMC45MywgImRhZ2VyIjogWyJhbGxlIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDctMDEifV19' title='Samle inn data for Hallingdal Kraftnett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/hallingdalkraftnett.html" title="Se på tariffen for Hallingdal Kraftnett AS" target="_blank">🔍</a>
+    <a href="./tariffer/hallingdalkraftnett.yml" title="Se dataene for Hallingdal Kraftnett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
   <td>Havnett AS</td>
   <td>7080010001832</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYXZuZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTgzMiJdfQ==' title='Samle inn data for Havnett AS' target='_blank'>✏️</a>
@@ -616,7 +620,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Indre Hordaland Kraftnett AS ✅</td>
   <td>7080010008367</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-12-07</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJJbmRyZSBIb3JkYWxhbmQgS3JhZnRuZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwODM2NyJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LTEwLXByaXZhdCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDIzMDR9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDI4ODB9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDM4NDB9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA1NzYwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNzY4MH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDk2MDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMTUyMH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI4LjU2fSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMC0wMSJ9XSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMDciLCAia2lsZGVyIjogWyJodHRwczovL3d3dy5paGsubm8vcHJpc2FyL25ldHRsZWlnZSIsICJodHRwczovL3d3dy5paGsubm8vaW1hZ2VzL3BkZi9OZXR0bGVpZ2VfcHJpdmF0XzAxLjEwLjIwMjQucGRmIl19' title='Samle inn data for Indre Hordaland Kraftnett AS' target='_blank'>✏️</a>
@@ -649,7 +653,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Klive AS ✅</td>
   <td>7080010000132</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-12-03</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLbGl2ZSBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDAxMzIiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9rbGl2ZS5uby9oYXItc3Ryb20vbmV0dGxlaWVwcmlzZXIvIiwgImh0dHBzOi8va2xpdmUubm8vd3AtY29udGVudC91cGxvYWRzLzIwMjQvMTAvTmV0dGxlaWVwcmlzZXItMjAyNC0xMS0wMS0xLnBkZiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0wMyIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTEtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogNDYxNC4yNH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNTczMS4zMn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDc2MDYuMzJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxMDE0Ni4xMn0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDEyNjg2LjA0fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMjUzNTguNjR9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzODA0NC42OH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDUwNzMwLjZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzYwODkuMzZ9LCB7InRlcnNrZWwiOiAxNTAsICJwcmlzIjogMTAxNDQ4fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDE1MjE3OC42fSwgeyJ0ZXJza2VsIjogMzAwLCAicHJpcyI6IDI1MzYyNi42fSwgeyJ0ZXJza2VsIjogNTAwLCAicHJpcyI6IDM1NTA3NC42fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTcuNjMyfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0xMS0wMSJ9XX0=' title='Samle inn data for Klive AS' target='_blank'>✏️</a>
@@ -660,7 +664,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Kvam Energi Nett AS ✅</td>
   <td>7080010001276</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-05-01</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLdmFtIEVuZXJnaSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTI3NiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0wNS0wMSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3Lmt2YW1lbmVyZ2luZXR0Lm5vL25ldHRsZWlnZXByaXNhcjIwMjQiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wNS1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyNDAwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzNjAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA1NTIwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogODQwMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDEwMDgwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTIwMDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyNDAwMH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDM2MDAwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNDgwMDB9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzIwMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNC41LCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJkYWdlciI6IFsidWtlZGFnIl0sICJwcmlzIjogMjIuNX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNS0wMSJ9XX0=' title='Samle inn data for Kvam Energi Nett AS' target='_blank'>✏️</a>
@@ -726,7 +730,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Lucerna AS ✅</td>
   <td>7080005050661</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-12-02</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMdWNlcm5hIEFTIiwgImdsbiI6IFsiNzA4MDAwNTA1MDY2MSJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzEwOH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMzczMn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDUxMn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDQ5ODB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA2MjI4fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogNzAwOH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDc3ODh9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiA4NTU2fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogOTMzNn1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDEyLjQ1LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMTguNDV9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTEyLTAyIiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubHVjZXJuYS5uby9wcmlzZXIiXX0=' title='Samle inn data for Lucerna AS' target='_blank'>✏️</a>
@@ -737,7 +741,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Lysna AS ✅</td>
   <td>7080010013088</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-12-02</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJMeXNuYSBBUyIsICJnbG4iOiBbIjcwODAwMTAwMTMwODgiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMDIiLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzcyMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogNDc0MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNTcyNH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDY5NjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA4MjIwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogOTQyMH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI0LCAidW5udGFrIjogW3sibmF2biI6ICJEYWciLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMzJ9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDItMDEifV0sICJraWxkZXIiOiBbImh0dHBzOi8vbHlzbmEubm8vcHJpc2FyLWZvci1wcml2YXRlLWt1bmRhci0yMDI0Il19' title='Samle inn data for Lysna AS' target='_blank'>✏️</a>
@@ -759,7 +763,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Meløy Nett AS ✅</td>
   <td>7080003968395</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-12-02</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNZWxcdTAwZjh5IE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDAzOTY4Mzk1Il0sICJraWxkZXIiOiBbImh0dHBzOi8vbWVsb3llbmVyZ2kubm8vYS9ha3R1ZWx0L255ZS1uZXR0bGVpZXByaXNlciIsICJodHRwczovL21lbG95ZW5lcmdpLm5vL2FjL25ldHRsZWllLWF2cmVnbmluZyJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzAxM30sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMzYxNn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzkxN30sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDQyMTh9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA0NTIwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogNTI3M30sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDU3MjV9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiA2MzI3fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNjkzMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA3NTMzfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTguMywgInVubnRhayI6IFt7Im5hdm4iOiAiRGFnIiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDIyLjN9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTEyLTAyIn0=' title='Samle inn data for Meløy Nett AS' target='_blank'>✏️</a>
@@ -770,7 +774,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Midtnett AS ✅</td>
   <td>7080003869012</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-03</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMDM4NjkwMTIiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubWlkdG5ldHQubm8vbmV0dGxlaWUiLCAiaHR0cHM6Ly93d3cubWlkdG5ldHQubm8vbWVkaWEvMjkxOS9uZXR0bGVpZXByaXNlci1mcmEtMS1hcHJpbC0yMDI0LnBkZiJdLCAibmV0dGVpZXIiOiAiTWlkdG5ldHQgQVMiLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0wMyIsICJ0YXJpZmZlciI6IFt7ImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI2LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAicHJpcyI6IDMxLCAidGltZXIiOiAiNi0yMSJ9XX0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sicHJpcyI6IDI2NDAsICJ0ZXJza2VsIjogMH0sIHsicHJpcyI6IDM5NjAsICJ0ZXJza2VsIjogNX0sIHsicHJpcyI6IDYwMDAsICJ0ZXJza2VsIjogMTB9LCB7InByaXMiOiA5MDAwLCAidGVyc2tlbCI6IDE1fSwgeyJwcmlzIjogMTIwMDAsICJ0ZXJza2VsIjogMjB9LCB7InByaXMiOiAxNjc2NCwgInRlcnNrZWwiOiAyNX0sIHsicHJpcyI6IDI1MTUyLCAidGVyc2tlbCI6IDUwfSwgeyJwcmlzIjogMzEyMDAsICJ0ZXJza2VsIjogNzV9LCB7InByaXMiOiAzNjAwMCwgInRlcnNrZWwiOiAxMDB9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDQtMDEiLCAiaWQiOiAiaG4yMi1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0In1dfQ==' title='Samle inn data for Midtnett AS' target='_blank'>✏️</a>
@@ -781,7 +785,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Modalen Kraftlag Nett ✅</td>
   <td>7080003816184</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-27</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJNb2RhbGVuIEtyYWZ0bGFnIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDAzODE2MTg0Il0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI3IiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDYwMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogOTg4Ljh9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDE2ODB9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiAyMzcxLjJ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAzMDYyLjR9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAzNzQ3LjJ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAzMCwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDB9XX0sICJneWxkaWdfZnJhIjogIjIwMjItMTAtMDEifV0sICJraWxkZXIiOiBbImh0dHBzOi8vd3d3Lm1vZGFsZW5rcmFmdGxhZy5uby9WaWV3RmlsZS5hc3B4P0l0ZW1JRD0xMjg0Il19' title='Samle inn data for Modalen Kraftlag Nett' target='_blank'>✏️</a>
@@ -814,7 +818,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Noranett Andøy AS ✅</td>
   <td>7080010002433</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-29</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JhbmV0dCBBbmRcdTAwZjh5IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMjQzMyJdLCAia2lsZGVyIjogWyJodHRwczovL3d3dy5ub3JhbmV0dC5uby9uZXR0bGVpZXByaXNlci9uZXR0bGVpZXByaXNlci1hbmRveS1mcmEtMS0xLTIwMjQtYXJ0aWNsZTM4NzEtMjQxNS5odG1sIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI5IiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wMSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDM3MjB9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDQ5MjB9LCB7InRlcnNrZWwiOiA0LCAicHJpcyI6IDYyNDB9LCB7InRlcnNrZWwiOiA2LCAicHJpcyI6IDc1NjB9LCB7InRlcnNrZWwiOiA4LCAicHJpcyI6IDg3NjB9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiAxMTA0MH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDE0MTYwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTc0MDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyMDQwMH0sIHsidGVyc2tlbCI6IDMwLCAicHJpcyI6IDIzNzYwfSwgeyJ0ZXJza2VsIjogMzUsICJwcmlzIjogMjcxMjB9LCB7InRlcnNrZWwiOiA0MCwgInByaXMiOiAzMDQ4MH0sIHsidGVyc2tlbCI6IDQ1LCAicHJpcyI6IDMzOTYwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogNDMyMDB9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiA1OTQwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA3NjA4MH0sIHsidGVyc2tlbCI6IDEyNSwgInByaXMiOiA5Mjc2MH0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiAxMDk0NDB9LCB7InRlcnNrZWwiOiAxNzUsICJwcmlzIjogMTI2MjQwfSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDE0MjkyMH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI2LjV9LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIn1dfQ==' title='Samle inn data for Noranett Andøy AS' target='_blank'>✏️</a>
@@ -825,7 +829,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Noranett Hadsel AS ✅</td>
   <td>7080003857989</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-29</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JhbmV0dCBIYWRzZWwgQVMiLCAiZ2xuIjogWyI3MDgwMDAzODU3OTg5Il0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI5IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubm9yYW5ldHQubm8vbmV0dGxlaWVwcmlzZXIvbmV0dGxlaWVwcmlzZXItaGFkc2VsLWZyYS0xLTEwLTIwMjQtYXJ0aWNsZTM5ODItMjQxNS5odG1sIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDEiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJwcmlzIjogMzg4OCwgInRlcnNrZWwiOiAwfSwgeyJwcmlzIjogNDg5NiwgInRlcnNrZWwiOiAyfSwgeyJwcmlzIjogNTkwNCwgInRlcnNrZWwiOiA0fSwgeyJwcmlzIjogNjkxMiwgInRlcnNrZWwiOiA2fSwgeyJwcmlzIjogNzkyMCwgInRlcnNrZWwiOiA4fSwgeyJwcmlzIjogOTIxNiwgInRlcnNrZWwiOiAxMH0sIHsicHJpcyI6IDExNTIwLCAidGVyc2tlbCI6IDE1fSwgeyJwcmlzIjogMTM5NjgsICJ0ZXJza2VsIjogMjB9LCB7InByaXMiOiAxNjQxNiwgInRlcnNrZWwiOiAyNX0sIHsicHJpcyI6IDE4NzIwLCAidGVyc2tlbCI6IDMwfSwgeyJwcmlzIjogMjEwMjQsICJ0ZXJza2VsIjogMzV9LCB7InByaXMiOiAyMzMyOCwgInRlcnNrZWwiOiA0MH0sIHsicHJpcyI6IDI1NjMyLCAidGVyc2tlbCI6IDQ1fSwgeyJwcmlzIjogMzI0MDAsICJ0ZXJza2VsIjogNTB9LCB7InByaXMiOiA0MzkyMCwgInRlcnNrZWwiOiA3NX0sIHsicHJpcyI6IDU1NzI4LCAidGVyc2tlbCI6IDEwMH0sIHsicHJpcyI6IDY3OTY4LCAidGVyc2tlbCI6IDEyNX0sIHsicHJpcyI6IDgwMzUyLCAidGVyc2tlbCI6IDE1MH0sIHsicHJpcyI6IDkyNTkyLCAidGVyc2tlbCI6IDE3NX0sIHsicHJpcyI6IDEwNDgzMiwgInRlcnNrZWwiOiAyMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyMi44LCAidW5udGFrIjogW3sibmF2biI6ICJEYWciLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjguOH1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for Noranett Hadsel AS' target='_blank'>✏️</a>
@@ -847,7 +851,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Norefjell Nett AS ✅</td>
   <td>7080010003911</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-01-01</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JlZmplbGwgTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDM5MTEiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMDEtMDEiLCAia2lsZGVyIjogWyJodHRwOi8vd3d3Lmtyb2RzaGVyYWQtbmV0dC5uby9uZXR0amVuZXN0ZXIvaHl0dGVtYXJrZWRldC9uZXR0bGVpZXByaXNlciIsICJodHRwOi8vd3d3Lmtyb2RzaGVyYWQtbmV0dC5uby9hc3NldHMvRG9rdW1lbnRlci9OZXR0bGVpZXByaXNlciUyMDAxLjAxLjIwMjQucGRmIl0sICJ0YXJpZmZlciI6IFt7Imt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJpZCI6ICIyMDI0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAxOTY4fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyNTQ0fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzNTI4fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNTMwNH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDY4NjR9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA4NDQ4fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTM3NTJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyMDYxNn0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDI3NDkyfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDM5MjY0fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTIuNzUzLCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMTkuMDUzfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIn1dfQ==' title='Samle inn data for Norefjell Nett AS' target='_blank'>✏️</a>
@@ -867,27 +871,31 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>R-Nett AS</td>
+  <td>R-Nett AS ✅</td>
   <td>7080010012852</td>
-  <td><em>4453**</em></td>
-  <td></td>
+  <td><em>4567**</em></td>
+  <td><code>2024-01-01</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSLU5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDEyODUyIl19' title='Samle inn data for R-Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSLU5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDEyODUyIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTAxLTAxIiwgImtpbGRlciI6IFsiaHR0cHM6Ly9yLW5ldHQubm8vd3AtY29udGVudC91cGxvYWRzL2FwcGxpY2F0aW9uL3BkZi9OZXR0bGVpZXRhcmlmZmVyX2ZyYV8wMTAxMjAyNC5wZGYiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wMS1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAzMTk2Ljh9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDQ3OTAuNH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDcwMjcuMn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDEzNDExLjJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxOTc5NS4yfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMjkzNzZ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiA0NTM1MC40fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNjQ1MTJ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogOTAwNTcuNn1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDE0LjU2LCAidW5udGFrIjogW3sibmF2biI6ICJhbGxlIiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDIyLjU2LCAiZGFnZXIiOiBbImFsbGUiXX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for R-Nett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/rnett.html" title="Se på tariffen for R-Nett AS" target="_blank">🔍</a>
+    <a href="./tariffer/rnett.yml" title="Se dataene for R-Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
-  <td>RK Nett AS</td>
+  <td>RK Nett AS ✅</td>
   <td>7080010004017</td>
-  <td><em>4453**</em></td>
-  <td></td>
+  <td><em>4567**</em></td>
+  <td><code>2024-12-10</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSSyBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwNDAxNyJdfQ==' title='Samle inn data for RK Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSSyBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwNDAxNyJdLCAia2lsZGVyIjogWyJodHRwczovL3d3dy5yYXVsYW5kLW5ldHQubm8vbmV0dHByaXNhciJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0xMCIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDUtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzA5Nn0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogNDAyMH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNTU2OH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDcxMTZ9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA4NjY0fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTAyMTJ9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxNzk1Mn0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDI1NjkyfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMzM0MzJ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNDg5MDB9LCB7InRlcnNrZWwiOiAxNTAsICJwcmlzIjogNjQzODB9LCB7InRlcnNrZWwiOiAyMDAsICJwcmlzIjogOTI4NTZ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyNC42NX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDUtMDEifV19' title='Samle inn data for RK Nett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/rknett.html" title="Se på tariffen for RK Nett AS" target="_blank">🔍</a>
+    <a href="./tariffer/rknett.yml" title="Se dataene for RK Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
   <td>Rakkestad Energi AS Nett</td>
   <td>7080005054898</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSYWtrZXN0YWQgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDA1MDU0ODk4Il19' title='Samle inn data for Rakkestad Energi AS Nett' target='_blank'>✏️</a>
@@ -905,7 +913,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Røros E-verk Nett AS</td>
   <td>7080003947932</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSXHUwMGY4cm9zIEUtdmVyayBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwMzk0NzkzMiJdfQ==' title='Samle inn data for Røros E-verk Nett AS' target='_blank'>✏️</a>
@@ -921,18 +929,9 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Skagerak Kraft Nett</td>
-  <td>7080005056007</td>
-  <td><em>4453**</em></td>
-  <td></td>
-  <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTa2FnZXJhayBLcmFmdCBOZXR0IiwgImdsbiI6IFsiNzA4MDAwNTA1NjAwNyJdfQ==' title='Samle inn data for Skagerak Kraft Nett' target='_blank'>✏️</a>
-  </td>
-</tr>
-<tr>
   <td>SkiakerNett AS</td>
   <td>7080004062702</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTa2lha2VyTmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDQwNjI3MDIiXX0=' title='Samle inn data for SkiakerNett AS' target='_blank'>✏️</a>
@@ -941,7 +940,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Stannum AS</td>
   <td>7080010003959</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdGFubnVtIEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzk1OSJdfQ==' title='Samle inn data for Stannum AS' target='_blank'>✏️</a>
@@ -950,7 +949,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Stram AS</td>
   <td>7080003822901</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhbSBBUyIsICJnbG4iOiBbIjcwODAwMDM4MjI5MDEiXX0=' title='Samle inn data for Stram AS' target='_blank'>✏️</a>
@@ -959,7 +958,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Straumen Nett AS</td>
   <td>7080010003720</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1lbiBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzcyMCJdfQ==' title='Samle inn data for Straumen Nett AS' target='_blank'>✏️</a>
@@ -968,7 +967,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Straumnett AS ✅</td>
   <td>7080004053632</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-25</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdHJhdW1uZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwNDA1MzYzMiJdLCAia2lsZGVyIjogWyJodHRwczovL3N0cmF1bW5ldHQubm8vcHJpc2FyLWZvci1uZXR0bGVpZ2UiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMjUiLCAidGFyaWZmZXIiOiBbeyJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiaWQiOiAiMjAyNCIsICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDI0MzUuMzI4fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyOTIyLjQzMn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogMzE2NS45ODR9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiAzNDA5LjUzNn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDM2NTMuMDg4fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogNDI2MS45Mn0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDQ2MjcuMn0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDUxMTQuMzA0fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNTYwMS4zMTJ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNjA4OC40MTZ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMS41NiwgInVubnRhayI6IFt7Im5hdm4iOiAiRGFnIiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDE2LjU2fV19fV19' title='Samle inn data for Straumnett AS' target='_blank'>✏️</a>
@@ -979,7 +978,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>SuNett AS ✅</td>
   <td>7080010003218</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-24</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTdU5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDAzMjE4Il0sICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LnN1bm5kYWxlbmVyZ2luZXR0Lm5vL25ldHRsZWllLyIsICJodHRwczovL3d3dy5zdW5uZGFsZW5lcmdpbmV0dC5uby9uZXR0bGVpZS9uZXR0YXZ0YWxlci9uZXR0bGVpZS1wcml2YXQvIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI0IiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wNC1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiT1ZfVFJFRkFTRSIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDE2NDYuNH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDMyOTJ9LCB7InRlcnNrZWwiOiA2MywgInByaXMiOiA2NTg0Ljh9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNi44OCwgInVubnRhayI6IFt7Im5hdm4iOiAiVmludGVyIiwgInByaXMiOiAxOS4yOCwgIm1cdTAwZTVuZWRlciI6IFsiamFudWFyIiwgImZlYnJ1YXIiLCAibWFycyIsICJhcHJpbCIsICJub3ZlbWJlciIsICJkZXNlbWJlciJdfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTA0LTAxIn1dfQ==' title='Samle inn data for SuNett AS' target='_blank'>✏️</a>
@@ -1001,7 +1000,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Sør Aurdal Energi AS Nett ✅</td>
   <td>7080005046459</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-24</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTXHUwMGY4ciBBdXJkYWwgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDA1MDQ2NDU5Il0sICJraWxkZXIiOiBbImh0dHBzOi8vc2FlLm5vL3RhcmlmZmVyIiwgImh0dHBzOi8vc2FlLm5vL3VwbG9hZHMvS3VuZGVpbmZvcm1hc2pvbi8yMDI0XzA4X0t1bmRlaW5mb3JtYXNqb25fdGFyaWZmZXIucGRmIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI0LTExLTI0IiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wOS1uMTAwIiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIk1ORF9NQVgiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiBmYWxzZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogNTQwMH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNjI0MH0sIHsidGVyc2tlbCI6IDgsICJwcmlzIjogNzQ0MH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg2NDB9LCB7InRlcnNrZWwiOiAzMCwgInByaXMiOiA5NzIwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTMyMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyMS41MiwgInVubnRhayI6IFt7Im5hdm4iOiAiVmludGVyIiwgInByaXMiOiAyNS41MiwgIm1cdTAwZTVuZWRlciI6IFsiamFudWFyIiwgImZlYnJ1YXIiLCAibWFycyIsICJva3RvYmVyIiwgIm5vdmVtYmVyIiwgImRlc2VtYmVyIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDktMDEifV19' title='Samle inn data for Sør Aurdal Energi AS Nett' target='_blank'>✏️</a>
@@ -1045,7 +1044,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Tinfos AS Nett ✅</td>
   <td>7080003612595</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-24</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJUaW5mb3MgQVMgTmV0dCIsICJnbG4iOiBbIjcwODAwMDM2MTI1OTUiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMjQiLCAia2lsZGVyIjogWyJodHRwczovL3d3dy50aW5mb3Mubm8vdGluZm9zLW5ldHQvIiwgImh0dHBzOi8vYmlhcGkubnZlLm5vL25ldHRsZWlldGFyaWZmZXIvc3dhZ2dlci9pbmRleC5odG1sIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIm52ZSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJVS0pFTlQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiBudWxsLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAzMTU2fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0OTU2fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjc1Nn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg1NTZ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMDM1Nn0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE1NzU2fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogNDUwMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxOX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV19' title='Samle inn data for Tinfos AS Nett' target='_blank'>✏️</a>
@@ -1056,7 +1055,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Uvdal Kraftforsyning ✅</td>
   <td>7080005050500</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-15</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJVdmRhbCBLcmFmdGZvcnN5bmluZyIsICJnbG4iOiBbIjcwODAwMDUwNTA1MDAiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMTUiLCAia2lsZGVyIjogWyJodHRwOi8vd3d3LnV2ZGFsa3JhZnQubm8vY29udGFjdC9uZXR0LyIsICJodHRwOi8vd3d3LnV2ZGFsa3JhZnQubm8vcGRmL1RhcmlmZmhlZnRlMDEwNTIwMjQucGRmIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDUiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiBmYWxzZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzgxMS4yfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA1NzIxLjZ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA4MzkwLjR9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxNjAyMi40fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMjM2NTQuNH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDM1MDk3LjZ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiA1NDE4Mi40fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNzcwNjguOH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiAxMDc1OTYuOH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDIyLjU4LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMzAuNTh9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDUtMDEifV19' title='Samle inn data for Uvdal Kraftforsyning' target='_blank'>✏️</a>
@@ -1067,7 +1066,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Vang Energiverk AS ✅</td>
   <td>7080010002297</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-09</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMTAwMDIyOTciXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cudmFuZ2VuZXJnaS5uby9uZXR0bGVpZ2UvZm9yYnJ1a2Fya3VuZGFyLyIsICJodHRwczovL3d3dy52YW5nZW5lcmdpLm5vL255aGV0ZXIvIl0sICJuZXR0ZWllciI6ICJWYW5nIEVuZXJnaXZlcmsgQVMiLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0wOSIsICJ0YXJpZmZlciI6IFt7ImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDgsICJ1bm50YWsiOiBbeyJkYWdlciI6IFsiZnJlZGFnIl0sICJtXHUwMGU1bmVkZXIiOiBbImphbnVhciIsICJmZWJydWFyIiwgIm1hcnMiLCAiYXByaWwiLCAib2t0b2JlciIsICJub3ZlbWJlciIsICJkZXNlbWJlciJdLCAibmF2biI6ICJCcnVrc3RpZHN0aWxsZWdnIiwgInByaXMiOiAxOCwgInRpbWVyIjogIjE2LTIxIn1dfSwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJwcmlzIjogNDgwMCwgInRlcnNrZWwiOiAwfSwgeyJwcmlzIjogNjAwMCwgInRlcnNrZWwiOiAyfSwgeyJwcmlzIjogNzI2MCwgInRlcnNrZWwiOiA1fSwgeyJwcmlzIjogODUyMCwgInRlcnNrZWwiOiA4fSwgeyJwcmlzIjogMTAwMjAsICJ0ZXJza2VsIjogMTJ9LCB7InByaXMiOiAxMTU4MCwgInRlcnNrZWwiOiAxOH0sIHsicHJpcyI6IDEzMzgwLCAidGVyc2tlbCI6IDI1fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIiwgImlkIjogIjIwMjQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0In1dfQ==' title='Samle inn data for Vang Energiverk AS' target='_blank'>✏️</a>
@@ -1078,7 +1077,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Vest-Telemark Kraftlag AS Nett ✅</td>
   <td>7080005051927</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-09</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMDUwNTE5MjciXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cudGVsZW1hcmstbmV0dC5uby9wcmlzYXIvbmV0dGxlaWdlLTEvIl0sICJuZXR0ZWllciI6ICJWZXN0LVRlbGVtYXJrIEtyYWZ0bGFnIEFTIE5ldHQiLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMS0wOSIsICJ0YXJpZmZlciI6IFt7ImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI2fSwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJwcmlzIjogMzU0MCwgInRlcnNrZWwiOiAwfSwgeyJwcmlzIjogNDU2MCwgInRlcnNrZWwiOiA1fSwgeyJwcmlzIjogODQwMCwgInRlcnNrZWwiOiAxMH0sIHsicHJpcyI6IDExNDAwLCAidGVyc2tlbCI6IDE1fSwgeyJwcmlzIjogMTM5MjAsICJ0ZXJza2VsIjogMjB9LCB7InByaXMiOiAyNDAwMCwgInRlcnNrZWwiOiAyNX0sIHsicHJpcyI6IDM5MTIwLCAidGVyc2tlbCI6IDUwfSwgeyJwcmlzIjogNTMxNjAsICJ0ZXJza2VsIjogNzV9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDMtMDEiLCAiaWQiOiAiMjAyNC0wMyIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQifV19' title='Samle inn data for Vest-Telemark Kraftlag AS Nett' target='_blank'>✏️</a>
@@ -1100,7 +1099,7 @@ Dette dekker ~94.2% (2480427 av 2632326) av private husholdninger* 🎉.
 <tr>
   <td>Vestmar Nett AS ✅</td>
   <td>7080005054928</td>
-  <td><em>4453**</em></td>
+  <td><em>4567**</em></td>
   <td><code>2024-11-09</code></td>
   <td>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMDUwNTQ5MjgiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly92ZXN0bWFyLW5ldHQubm8vbmV0dC1vZy1uZXR0bGVpZS8iLCAiaHR0cHM6Ly92ZXN0bWFyLW5ldHQubm8vd3AtY29udGVudC91cGxvYWRzLzIwMjQvMDEvVGFyaWZmZXItMDEwMjI0LnBkZiJdLCAibmV0dGVpZXIiOiAiVmVzdG1hciBOZXR0IEFTIiwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTEtMDkiLCAidGFyaWZmZXIiOiBbeyJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxOS44Nn0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sicHJpcyI6IDQxMDcuMjQsICJ0ZXJza2VsIjogMH0sIHsicHJpcyI6IDcyNjEuOTIsICJ0ZXJza2VsIjogNX0sIHsicHJpcyI6IDEwNDE2LjYsICJ0ZXJza2VsIjogMTB9LCB7InByaXMiOiAxMzU3MS4yOCwgInRlcnNrZWwiOiAxNX0sIHsicHJpcyI6IDE2NzI0LjY0LCAidGVyc2tlbCI6IDIwfSwgeyJwcmlzIjogMjYxODguNjgsICJ0ZXJza2VsIjogMjV9LCB7InByaXMiOiA0MTk2MC43NiwgInRlcnNrZWwiOiA1MH0sIHsicHJpcyI6IDU3NzMyLjk2LCAidGVyc2tlbCI6IDc1fSwgeyJwcmlzIjogODEzOTAuNDgsICJ0ZXJza2VsIjogMTAwfSwgeyJwcmlzIjogMTEyOTM0Ljc2LCAidGVyc2tlbCI6IDE1MH0sIHsicHJpcyI6IDE2MDI1MS4xMiwgInRlcnNrZWwiOiAyMDB9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDItMDEiLCAiaWQiOiAiMjAyNC0wMi1uMTAwIiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCJ9XX0=' title='Samle inn data for Vestmar Nett AS' target='_blank'>✏️</a>
