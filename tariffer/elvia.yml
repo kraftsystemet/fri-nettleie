@@ -39,7 +39,7 @@ tariffer:
         - navn: Virkedag
           timer: 6-21
           dager: [virkedag]
-          pris: 24.16
+          pris: 24.56
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-01-01'
   - id: 2025-01-privat
