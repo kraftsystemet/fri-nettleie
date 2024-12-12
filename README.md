@@ -66,9 +66,9 @@ tilgengelig på standardisert format her på GitHub.** Hensikten er å legge til
 
 At sluttkunder får oversikt over alle komponentene i strømregningen er viktig
 for energiøkonomisering, men det er vanskelig å oppnå uten at dataene er lett
-tilgjengelig for hele Norge. Lett tilgjengelige data vil også legge til rette
-for at nettkundene reagerer på prissignalene i nettleien og styrer sitt forbruk
-på en måte som hjelper nettet samtidig som de sparer penger.
+tilgjengelig for hele Norge. Lett tilgjengelige data vil legge til rette for at
+nettkundene reagerer på prissignalene i nettleien og styrer sitt forbruk på en
+måte som hjelper nettet samtidig som de sparer penger.
 
 ## Ta kontakt! 👋🏻
 
@@ -81,20 +81,16 @@ på GitHub.
 
 ## Dataene
 
-Tariff-dataene inkluderer:
+Dataene finner du under [tariffer](./tariffer/) som yaml-filer. Dataene
+inneholder en beskrivelse av fastledd og energiledd uten avgifter.
 
-* fastledd
-* energiledd
-
-Selve tariff-dataene inkluderer ikke avgifter, men prosjektet vil inkludere
-maskinlesbare definisjoner av relevante avgifter.
-
-Vi samler inn data per netteier og gjør tilgjengelig data per nettavregningsområde.
+Vi samler inn data per netteier og vil gjøre tilgjengelig data per
+nettavregningsområde.
 
 ### Prissignal
 
-Tariff-dataene inneholder en _beskrivelse_ av tariffen. I tillegg er det et mål
-å genererer pris-signal basert på de innsamlede dataene.
+Selv om tariff-dataene kun inneholder en _beskrivelse_ av tariffen er det fullt
+mulig å lage en tidsserie - prissignal - basert på dette.
 
 Et skript som viser hvordan dette kan gjøres konseptuelt finnes i
 [skript/prissignal.py](./skript/prissignal.py). Brukes slik:
@@ -105,7 +101,11 @@ Et skript som viser hvordan dette kan gjøres konseptuelt finnes i
 ```
 
 Dette prissignalet er uten alle avgifter. Det er mulig å beregne avgift basert
-på når og hvor (kommune) forbruket er. Se [avsnittet om avgifter](#avgifter).
+på når og hvor (hvilken kommune) forbruket er. Se [avsnittet om avgifter](#avgifter).
+
+Et annet eksempel finnes på
+[visningssidene for tariffene på kraftsystemet.no](https://kraftsystemet.no/fri-nettleie/tariffer/).
+Der viser vi også en forenklet bereging av avgifter.
 
 ## Mål
 
@@ -116,7 +116,7 @@ på når og hvor (kommune) forbruket er. Se [avsnittet om avgifter](#avgifter).
   format for et utvalg nettselskaper (med varierende tariffer)
 - [x] Overvåke nettselskapenes sider for å varsle ved endring
 - [x] Sammenstille og publisere informasjon per netteier på et "menneskelig" format på kraftsystemet.no/fri-nettleie
-- [ ] Publisere visualisert prissignal basert på de innsamlede tariffene
+- [x] Publisere visualisert prissignal basert på de innsamlede tariffene
 - [ ] Samle tariffer for husholdninger og hytter/fritidshus for alle nettområder
 - [ ] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
 - [ ] Maskinlesbare filer for avgifter
@@ -150,9 +150,11 @@ lignende dersom det ikke eksplisitt er angitt som public domain.
 Vi har også et verktøy som kan brukes ved innsamling som finnes på på
 [kraftsystemet.no/fri-nettleie/innsamler/](http://kraftsystemet.no/fri-nettleie/innsamler/).
 
-## Utfordringer
+## Utfordringer ved innsamling
 
-Ved innsamling og struktuering av data er det flere utfordringer.
+Ved innsamling og struktuering av data møter vi noen (overkommelige)
+utfordringer. Kort fortalt er det variasjon i både tariffene og hvordan de
+presenteres som gjør det lett å gjøre feil ved innsamling.
 
 ### Ulike modeller
 
@@ -167,7 +169,8 @@ ut
 [fem høyeste effektene, løpende siste 12 mnd](https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/)
 til forskjell fra den mer vanlige
 [tre timene i måneden med høyest forbruk](https://norgesnett.no/kunde/ny-nettleie/).
-I tilleg er det noen som oppgir priser per år mens andre per måned.
+I tilleg er det noen som oppgir priser per år mens andre per måned, samt om de
+ulike trinnene er "til og med" eller "opp til, men ikke med".
 
 ### Flere tariffer per netteier
 
@@ -176,8 +179,8 @@ dersom det har vært sammenslåing av konsesjonsområder.
 
 ### Priser oppgitt med og uten avgifter
 
-Ved innsamling av tariffer er det utfordrende når noen netteiere gjør
-tilgjengelig sine priser med avgifter, mens andre ikke inkluderer avgifter.
+Ved innsamling av tariffer er det utfordrende for innsamling når noen netteiere
+gjør tilgjengelig sine priser med avgifter, mens andre ikke inkluderer avgifter.
 Avgiftsnivået er forskjellig avhengig av hvor i landet en netteier er
 konsesjonær - det er fort å gjøre feil.
 
@@ -204,6 +207,8 @@ sier at netteier skal legge et påslag på tariffen til alle sluttbrukere på al
 nettnivåer når det faktureres.
 
 > For husholdningsbruk skal påslaget utgjøre 1 øre/kWh.
+
+Inkludert moms blir avgiften 1,25 øre/kWh.
 
 ### Forbruksavgift - Elavgift
 
@@ -240,13 +245,14 @@ filen [tariff-eksempel.yml](./tariff-eksempel.yml) og kan valideres med
 noen av de allerede innsamlede tariffene for å få en følelse av formatet.
 
 Primært ønsker vi at bidrag gjøres gjennom pull-requests. Men du kan også åpne
-et issue og lime inn data i yaml-format som en del av beskrivelsen. Alle bidrag
-teller!
+et issue eller levere [kontaktskjema på tally.so](https://tally.so/r/wol2v1).
+Alle bidrag teller!
 
 ### Gi beskjed om feil eller kom med ideer
 
-Dersom du ser feil i dataene, status eller annet - åpne et issue her på GitHub!
-Det samme gjelder om du har gode ideer om hvordan vi kan samle inn og/eller
+Dersom du ser feil i dataene, status eller annet - åpne et issue her på GitHub
+eller bruk vårt [kontaktskjema på tally.so](https://tally.so/r/wol2v1)! Det
+samme gjelder om du har gode ideer om hvordan vi kan samle inn og/eller
 strukturere data.
 
 ### Gi oss en stjerne
