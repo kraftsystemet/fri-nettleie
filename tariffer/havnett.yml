@@ -1,0 +1,27 @@
+---
+netteier: 'Havnett AS'
+gln:
+  - '7080010001832'
+sist_oppdatert: '2024-12-12'
+kilder:
+  - 'https://www.aknett.no/Produkt-og-tenester/Priser/Nettleigetariff'
+tariffer:
+  - id: 2024-08-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 200
+        - terskel: 5
+          pris: 256
+        - terskel: 10
+          pris: 450.4
+        - terskel: 15
+          pris: 630.4
+        - terskel: 20
+          pris: 690.4
+    energiledd:
+      grunnpris: 29.72
+    gyldig_fra: '2024-08-01'
