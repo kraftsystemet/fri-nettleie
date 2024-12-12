@@ -243,7 +243,7 @@ Primært ønsker vi at bidrag gjøres gjennom pull-requests. Men du kan også å
 et issue og lime inn data i yaml-format som en del av beskrivelsen. Alle bidrag
 teller!
 
-### Gi besked om feil eller kom med ideer
+### Gi beskjed om feil eller kom med ideer
 
 Dersom du ser feil i dataene, status eller annet - åpne et issue her på GitHub!
 Det samme gjelder om du har gode ideer om hvordan vi kan samle inn og/eller
@@ -261,8 +261,7 @@ Se under.
 
 Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 
-* Bli den første på denne lista! Åpne en pull request eller gi beskjed i et
-  issue.
+* [Slipper](https://slipper.no/) har brukt dataene i sin app siden desember 2024 📈
 
 ## Netteiere
 
