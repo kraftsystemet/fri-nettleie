@@ -13,7 +13,7 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
 - [Mål](#mal)
 - [Anti-mål](#anti-mal)
 - [Innsamling](#innsamling)
-- [Utfordringer](#utfordringer)
+- [Utfordringer ved innsamling](#utfordringer-ved-innsamling)
   * [Ulike modeller](#ulike-modeller)
   * [Flere tariffer per netteier](#flere-tariffer-per-netteier)
   * [Priser oppgitt med og uten avgifter](#priser-oppgitt-med-og-uten-avgifter)
@@ -23,7 +23,7 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Merverdiavgift](#merverdiavgift)
 - [Bidra](#bidra)
   * [Samle data](#samle-data)
-  * [Gi besked om feil eller kom med ideer](#gi-besked-om-feil-eller-kom-med-ideer)
+  * [Gi beskjed om feil eller kom med ideer](#gi-beskjed-om-feil-eller-kom-med-ideer)
   * [Gi oss en stjerne](#gi-oss-en-stjerne)
   * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
 - [Dataene i bruk](#dataene-i-bruk)
@@ -297,9 +297,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 61 av 79 netteiere 🥳!
+Vi har samlet data for 62 av 79 netteiere 🥳!
 
-Dette dekker ~95.9% (2524371 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~96.1% (2528938 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -603,12 +603,14 @@ Dette dekker ~95.9% (2524371 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Havnett AS</td>
+  <td>Havnett AS ✅</td>
   <td>7080010001832</td>
   <td><em>4567**</em></td>
-  <td></td>
+  <td><code>2024-12-12</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYXZuZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTgzMiJdfQ==' title='Samle inn data for Havnett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYXZuZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTgzMiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0xMiIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmFrbmV0dC5uby9Qcm9kdWt0LW9nLXRlbmVzdGVyL1ByaXNlci9OZXR0bGVpZ2V0YXJpZmYiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wOC1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyMDB9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDI1Nn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDQ1MC40fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNjMwLjR9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA2OTAuNH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI5LjcyfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wOC0wMSJ9XX0=' title='Samle inn data for Havnett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/havnett.html" title="Se på tariffen for Havnett AS" target="_blank">🔍</a>
+    <a href="./tariffer/havnett.yml" title="Se dataene for Havnett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
