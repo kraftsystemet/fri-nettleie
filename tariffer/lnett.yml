@@ -38,3 +38,39 @@ tariffer:
           pris: 30.97
           dager: [virkedag]
     gyldig_fra: '2024-07-01'
+    gyldig_til: '2025-01-01'
+
+  - id: 2025-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1632
+        - terskel: 2
+          pris: 2784
+        - terskel: 5
+          pris: 4464
+        - terskel: 10
+          pris: 6864
+        - terskel: 15
+          pris: 9264
+        - terskel: 20
+          pris: 11664
+        - terskel: 25
+          pris: 21264
+        - terskel: 50
+          pris: 30864
+        - terskel: 75
+          pris: 40464
+        - terskel: 100
+          pris: 67200
+    energiledd:
+      grunnpris: 24.57
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          pris: 30.97
+          dager: [virkedag]
+    gyldig_fra: '2025-01-01'

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -euxo pipefail
 
 API_KEY=$(curl -s http://localhost:5000/settings | grep -oP '(?<=<span id="api-key">).*?(?=</span>)')
 
@@ -18,7 +18,7 @@ echo
 echo "In Changedetection, but not in tariffer:"
 echo
 
-cat $TMP_FILE |  grep -E '^<' | grep -Eo 'http.*' | cat
+cat $TMP_FILE |  grep -E '^<' | grep -Eo 'http.*' | cat || true
 
 
 echo
