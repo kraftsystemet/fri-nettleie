@@ -2,8 +2,9 @@
 set -euo pipefail
 
 API_KEY=$(curl -s http://localhost:5000/settings | grep -oP '(?<=<span id="api-key">).*?(?=</span>)')
-
+echo API Key: $API_KEY
 TMP_FILE=$(mktemp)
+echo Temp file: $TMP_FILE
 
 diff <( \
     curl --silent --header "x-api-key: ${API_KEY}" \
