@@ -8,7 +8,25 @@ services:
       - changedetection-data:/datastore
     ports:
       - 5000:5000
-
+    environment:
+      - PLAYWRIGHT_DRIVER_URL=ws://sockpuppetbrowser:3000
+      - DISABLE_VERSION_CHECK=true
     restart: unless-stopped
+    depends_on:
+      sockpuppetbrowser:
+        condition: service_started
+
+  # Sockpuppetbrowser is basically chrome wrapped in an API for allowing fast fetching of web-pages.
+  sockpuppetbrowser:
+    image: dgtlmoon/sockpuppetbrowser:latest
+    container_name: sockpuppetbrowser
+    hostname: sockpuppetbrowser
+    environment:
+        - SCREEN_WIDTH=1920
+        - SCREEN_HEIGHT=1024
+        - SCREEN_DEPTH=16
+        - MAX_CONCURRENT_CHROME_PROCESSES=10
+    restart: unless-stopped
+
 volumes:
   changedetection-data:
