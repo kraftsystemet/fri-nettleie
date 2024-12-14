@@ -31,6 +31,9 @@ changedetection:
 	docker compose up -d
 	echo "Visit http://localhost:5000"
 
+stop:
+	docker compose stop
+
 kilder:
 	./skript/kilder.sh
 
