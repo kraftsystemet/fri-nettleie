@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euxo pipefail
+set -euo pipefail
 
 API_KEY=$(curl -s http://localhost:5000/settings | grep -oP '(?<=<span id="api-key">).*?(?=</span>)')
 

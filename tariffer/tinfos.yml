@@ -6,7 +6,6 @@ sist_oppdatert: '2024-11-24'
 # TODO Tinfos publiserer ikke tariffer på sine sider. Har sendt epost til post@tinfos.no.
 kilder:
   - https://www.tinfos.no/tinfos-nett/
-  - https://biapi.nve.no/nettleietariffer/swagger/index.html
 tariffer:
   - id: nve
     kundegruppe: privat

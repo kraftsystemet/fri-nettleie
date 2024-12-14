@@ -4,6 +4,7 @@ gln:
   - '7080004320253'
 sist_oppdatert: '2024-12-08'
 kilder:
+  - 'https://hsev.no/nettleie'
   - 'https://hsev.no/uploads/2024-09-09-HSEV-nettleie-n%C3%A6ring-med-forbruk-mindre-enn-100-000-kWh-1-oktober-2024.pdf'
 tariffer:
   - id: 2024-10-privat

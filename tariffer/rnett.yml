@@ -4,6 +4,7 @@ gln:
   - '7080010012852'
 sist_oppdatert: '2024-01-01'
 kilder:
+  - 'https://r-nett.no/overforingspriser/'
   - 'https://r-nett.no/wp-content/uploads/application/pdf/Nettleietariffer_fra_01012024.pdf'
 tariffer:
   - id: 2024-01-privat

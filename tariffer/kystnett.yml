@@ -4,6 +4,7 @@ gln:
   - '7080010000064'
 sist_oppdatert: '2024-01-01'
 kilder:
+  - 'https://kystnett.no/Nettleie'
   - 'https://kystnett.no/Nettleie/?Article=68'
 tariffer:
   - id: 2024-01-privat

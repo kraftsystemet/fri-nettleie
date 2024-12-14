@@ -30,4 +30,5 @@ tariffer:
           pris: 0
     gyldig_fra: '2022-10-01'
 kilder:
+  - 'https://www.modalenkraftlag.no/kraftprisar'
   - 'https://www.modalenkraftlag.no/ViewFile.aspx?ItemID=1284'
