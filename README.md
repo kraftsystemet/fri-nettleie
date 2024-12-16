@@ -297,9 +297,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 62 av 79 netteiere 🥳!
+Vi har samlet data for 63 av 79 netteiere 🥳!
 
-Dette dekker ~96.1% (2528938 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~96.2% (2533327 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -927,12 +927,14 @@ Dette dekker ~96.1% (2528938 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>S-NETT AS</td>
+  <td>S-NETT AS ✅</td>
   <td>7080010002464</td>
   <td><em>4389</em></td>
-  <td></td>
+  <td><code>2024-12-16</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTLU5FVFQgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDAyNDY0Il19' title='Samle inn data for S-NETT AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJTLU5FVFQgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDAyNDY0Il0sICJraWxkZXIiOiBbImh0dHBzOi8vc25ldHQubm8vbmV0dGxlaWUvcHJpdmF0LyJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0xNiIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMDEiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyNTIwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzNDkyfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA1MDUyfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjk4NH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg5Mjh9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMDg3Mn0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE2NzA0fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjY0MTJ9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzNjEyMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA1MDcwMH0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiA3MDExNn0sIHsidGVyc2tlbCI6IDIwMCwgInByaXMiOiA5OTI2NH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDIxLjQxLCAidW5udGFrIjogW3sidGltZXIiOiAiNi0yMSIsICJuYXZuIjogIkRhZyIsICJwcmlzIjogMjYuNH1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for S-NETT AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/snett.html" title="Se på tariffen for S-NETT AS" target="_blank">🔍</a>
+    <a href="./tariffer/snett.yml" title="Se dataene for S-NETT AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>

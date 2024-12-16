@@ -1,0 +1,45 @@
+---
+netteier: 'S-NETT AS'
+gln:
+  - '7080010002464'
+kilder:
+  - 'https://snett.no/nettleie/privat/'
+sist_oppdatert: '2024-12-16'
+tariffer:
+  - id: 2024-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2520
+        - terskel: 2
+          pris: 3492
+        - terskel: 5
+          pris: 5052
+        - terskel: 10
+          pris: 6984
+        - terskel: 15
+          pris: 8928
+        - terskel: 20
+          pris: 10872
+        - terskel: 25
+          pris: 16704
+        - terskel: 50
+          pris: 26412
+        - terskel: 75
+          pris: 36120
+        - terskel: 100
+          pris: 50700
+        - terskel: 150
+          pris: 70116
+        - terskel: 200
+          pris: 99264
+    energiledd:
+      grunnpris: 21.41
+      unntak:
+        - timer: 6-21
+          navn: Dag
+          pris: 26.4
+    gyldig_fra: '2024-01-01'
