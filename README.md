@@ -259,6 +259,16 @@ strukturere data.
 
 Det holder oss motivert!
 
+### Utvikle med oss.
+
+Se [UTVIKLING.md](./UTVIKLING.md).
+
+### Spons Changedetection
+
+Vi kjører for øyeblikket [changedetection](https://changedetection.io/) lokalt
+for å detektere endringer på tariffer hos netteiere. Kan du sponse en hostet
+instans? Ta kontakt.
+
 ### Si at du bruker våre data
 
 Se under.
