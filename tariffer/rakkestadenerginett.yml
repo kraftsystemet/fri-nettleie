@@ -23,6 +23,16 @@ tariffer:
           pris: 5760
         - terskel: 15
           pris: 7080
+        - terskel: 20
+          pris: 8640
+        - terskel: 25
+          pris: 15600
+        - terskel: 50
+          pris: 24000
+        - terskel: 75
+          pris: 30000
+        - terskel: 100
+          pris: 60000
     energiledd:
       grunnpris: 21
       unntak:
