@@ -39,5 +39,41 @@ tariffer:
         - pris: 37632
           terskel: 200
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-01-01'
     id: 2024-privat
     kundegruppe: privat
+  - id: 2025-01
+    gyldig_fra: '2024-01-01'
+    kundegruppe: privat
+    fastledd:
+      metode: "TRE_DØGNMAX_MND"
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3360
+        - terskel: 5
+          pris: 5760
+        - terskel: 10
+          pris: 7800
+        - terskel: 15
+          pris: 9840
+        - terskel: 20
+          pris: 11880
+        - terskel: 25
+          pris: 18600
+        - terskel: 50
+          pris: 24900
+        - terskel: 75
+          pris: 30600
+        - terskel: 100
+          pris: 36600
+        - terskel: 150
+          pris: 41400
+        - terskel: 200
+          pris: 47400
+    energiledd:
+      grunnpris: 13
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 29
