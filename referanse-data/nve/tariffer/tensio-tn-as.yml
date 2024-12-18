@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '18'
   - '50'
@@ -9,8 +9,8 @@ fylker_navn:
 navn: TENSIO TN AS
 org: '988807648'
 priser:
-  - 15.3
   - 29.5
+  - 15.3
 terskler:
   - pris: 1420.8000000000002
     terskel: 0

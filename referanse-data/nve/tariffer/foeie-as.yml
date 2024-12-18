@@ -1,32 +1,32 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
-  - '32'
   - '33'
 fylker_navn:
-  - Akershus
   - Buskerud
 navn: "FØIE AS"
-org: '987626844'
+org: '971589752'
 priser:
-  - 11
-  - 17.5
+  - 10.93
+  - 6.68
 terskler:
-  - pris: 1238.4
+  - pris: 2352
     terskel: 0
-  - pris: 1536
+  - pris: 2844
     terskel: 2
-  - pris: 3792
+  - pris: 3744
     terskel: 5
-  - pris: 6297.599999999999
+  - pris: 4632
     terskel: 10
-  - pris: 8860.8
+  - pris: 5532
     terskel: 15
-  - pris: 10636.8
+  - pris: 6420
     terskel: 20
-  - pris: 13776
+  - pris: 7320
     terskel: 25
-  - pris: 15744
+  - pris: 8208
     terskel: 50
-  - pris: 21600
+  - pris: 8472
     terskel: 75
+  - pris: 8712
+    terskel: 100

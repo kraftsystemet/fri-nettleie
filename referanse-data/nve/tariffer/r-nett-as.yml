@@ -1,0 +1,30 @@
+---
+dato: '2024-12-31'
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: R-NETT AS
+org: '925067911'
+priser:
+  - 23.29
+  - 15.29
+terskler:
+  - pris: 3196.7999999999997
+    terskel: 0
+  - pris: 4790.4
+    terskel: 5
+  - pris: 7027.200000000001
+    terskel: 10
+  - pris: 13411.199999999999
+    terskel: 15
+  - pris: 19795.199999999997
+    terskel: 20
+  - pris: 29376
+    terskel: 25
+  - pris: 45350.399999999994
+    terskel: 50
+  - pris: 64512
+    terskel: 75
+  - pris: 90057.6
+    terskel: 100

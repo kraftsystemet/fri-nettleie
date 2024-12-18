@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '40'
 fylker_navn:
@@ -7,8 +7,8 @@ fylker_navn:
 navn: STANNUM AS
 org: '924940379'
 priser:
-  - 25.33
   - 28.33
+  - 25.33
 terskler:
   - pris: 3033.0
     terskel: 0

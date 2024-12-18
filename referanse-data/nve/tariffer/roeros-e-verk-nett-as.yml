@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '34'
   - '50'
@@ -9,8 +9,8 @@ fylker_navn:
 navn: "RØROS E-VERK NETT AS"
 org: '919884452'
 priser:
-  - 20.8
   - 14.4
+  - 20.8
 terskler:
   - pris: 3405.96
     terskel: 0

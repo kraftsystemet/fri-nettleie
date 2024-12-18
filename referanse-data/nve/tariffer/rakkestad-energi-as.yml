@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '31'
 fylker_navn:
@@ -7,8 +7,8 @@ fylker_navn:
 navn: RAKKESTAD ENERGI AS
 org: '968398083'
 priser:
-  - 27
   - 22
+  - 27
 terskler:
   - pris: 2520
     terskel: 0

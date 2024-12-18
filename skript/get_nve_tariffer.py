@@ -14,10 +14,10 @@ def slugify(s):
 if __name__ == '__main__':
 
     # Dato å hente data fra NVE
-    dato = "2024-11-01"
+    dato = "2024-12-31"
 
     if len(sys.argv) != 2:
-        print(f"Usage: {sys.argv[0]} <output_directory")
+        print(f"Usage: {sys.argv[0]} <output_directory>")
         sys.exit(1)
 
     output_dir = sys.argv[1]

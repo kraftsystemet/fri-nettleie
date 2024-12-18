@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '32'
 fylker_navn:
@@ -7,8 +7,8 @@ fylker_navn:
 navn: ASKER NETT AS
 org: '917743193'
 priser:
-  - 16.89
   - 24.89
+  - 16.89
 terskler:
   - pris: 1776
     terskel: 0

@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '03'
   - '11'
@@ -21,8 +21,8 @@ fylker_navn:
 navn: GLITRE NETT AS
 org: '982974011'
 priser:
-  - 25.96
   - 16.36
+  - 25.96
 terskler:
   - pris: 1632
     terskel: 0

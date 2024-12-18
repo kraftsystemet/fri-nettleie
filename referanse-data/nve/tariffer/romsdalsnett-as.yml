@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '15'
 fylker_navn:
@@ -7,8 +7,8 @@ fylker_navn:
 navn: ROMSDALSNETT AS
 org: '926377841'
 priser:
-  - 18.85
   - 28.85
+  - 18.85
 terskler:
   - pris: 2540.7599999999998
     terskel: 0

@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '15'
 fylker_navn:
@@ -7,8 +7,8 @@ fylker_navn:
 navn: ELINETT AS
 org: '979379455'
 priser:
-  - 17.84
   - 25.84
+  - 17.84
 terskler:
   - pris: 2408.04
     terskel: 0

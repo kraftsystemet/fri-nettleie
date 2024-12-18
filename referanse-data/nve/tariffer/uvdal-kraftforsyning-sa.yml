@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '33'
 fylker_navn:
@@ -7,8 +7,8 @@ fylker_navn:
 navn: UVDAL KRAFTFORSYNING SA
 org: '967670170'
 priser:
-  - 20.68
   - 12.68
+  - 20.68
 terskler:
   - pris: 2304
     terskel: 0

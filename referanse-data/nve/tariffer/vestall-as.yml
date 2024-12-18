@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '18'
   - '55'
@@ -9,8 +9,8 @@ fylker_navn:
 navn: VESTALL AS
 org: '968168134'
 priser:
-  - 9.6
   - 5.3
+  - 9.6
 terskler:
   - pris: 5424
     terskel: 0

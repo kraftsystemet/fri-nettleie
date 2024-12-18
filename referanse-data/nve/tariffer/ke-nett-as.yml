@@ -1,5 +1,5 @@
 ---
-dato: '2024-11-01'
+dato: '2024-12-31'
 fylker:
   - '11'
 fylker_navn:
@@ -7,8 +7,8 @@ fylker_navn:
 navn: KE NETT AS
 org: '977285712'
 priser:
-  - 14
   - 26
+  - 14
 terskler:
   - pris: 3000
     terskel: 0
