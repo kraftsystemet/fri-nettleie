@@ -25,6 +25,8 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Samle data](#samle-data)
   * [Gi beskjed om feil eller kom med ideer](#gi-beskjed-om-feil-eller-kom-med-ideer)
   * [Gi oss en stjerne](#gi-oss-en-stjerne)
+  * [Utvikle med oss.](#utvikle-med-oss)
+  * [Spons Changedetection](#spons-changedetection)
   * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
 - [Dataene i bruk](#dataene-i-bruk)
 - [Netteiere](#netteiere)
@@ -307,9 +309,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 63 av 79 netteiere 🥳!
+Vi har samlet data for 64 av 79 netteiere 🥳!
 
-Dette dekker ~96.2% (2533327 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~96.4% (2537894 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -662,7 +664,7 @@ Dette dekker ~96.2% (2533327 av 2632326) av private husholdninger* 🎉.
   <td><em>8337</em></td>
   <td><code>2024-12-04</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLRSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA0NjA2MCJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0wNCIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTAtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzAwMH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDY4MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDYzNjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA4MDQwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogOTcyMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE5ODAwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjUyMDB9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzMzYwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA2NDY4MH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IC0yLCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMTAsICJkYWdlciI6IFsidWtlZGFnIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMTAtMDEifV0sICJraWxkZXIiOiBbImh0dHBzOi8va2UtbmV0dC5uby9nZXRmaWxlLnBocC8xMzIyNjUtMTczMDg4MzIyNS9Eb2t1bWVudGVyL05ldHRsZWlnZS9OZXR0bGVpZ2Vicm9zanlyZTIwMjQlMjBva3RvYmVyLnBkZiIsICJodHRwczovL2tlLW5ldHQubm8vTmV0dGxlaWVwcmlzZXIvIl19' title='Samle inn data for KE Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLRSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA0NjA2MCJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0xMi0wNCIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjQtMTAtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzAwMH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDY4MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDYzNjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA4MDQwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogOTcyMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE5ODAwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjUyMDB9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzMzYwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA2NDY4MH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IC0yLCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMTAsICJkYWdlciI6IFsidWtlZGFnIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMTAtMDEiLCAiZ3lsZGlnX3RpbCI6ICIyMDI1LTAxLTAxIn0sIHsiaWQiOiAiMjAyNS0wMS1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAzMDAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0NjgwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjM2MH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDgwNDB9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA5NzIwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTk4MDB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyNTIwMH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDMzNjAwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDY0NjgwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTEsICJ1bm50YWsiOiBbeyJuYXZuIjogIlVrZWRhZyIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyM31dfSwgImd5bGRpZ19mcmEiOiAiMjAyNS0wMS0wMSJ9XSwgImtpbGRlciI6IFsiaHR0cHM6Ly9rZS1uZXR0Lm5vL2dldGZpbGUucGhwLzEzMjI2NS0xNzMwODgzMjI1L0Rva3VtZW50ZXIvTmV0dGxlaWdlL05ldHRsZWlnZWJyb3NqeXJlMjAyNCUyMG9rdG9iZXIucGRmIiwgImh0dHBzOi8va2UtbmV0dC5uby9OZXR0bGVpZXByaXNlci8iXX0=' title='Samle inn data for KE Nett AS' target='_blank'>✏️</a>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/kenett.html" title="Se på tariffen for KE Nett AS" target="_blank">🔍</a>
     <a href="./tariffer/kenett.yml" title="Se dataene for KE Nett AS i YAML-format" target="_blank">📄</a>
   </td>
@@ -910,12 +912,14 @@ Dette dekker ~96.2% (2533327 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Rakkestad Energi AS Nett</td>
+  <td>Rakkestad Energi AS Nett ✅</td>
   <td>7080005054898</td>
   <td><em>4567**</em></td>
-  <td></td>
+  <td><code>2024-12-16</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSYWtrZXN0YWQgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDA1MDU0ODk4Il19' title='Samle inn data for Rakkestad Energi AS Nett' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSYWtrZXN0YWQgRW5lcmdpIEFTIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDA1MDU0ODk4Il0sICJraWxkZXIiOiBbImh0dHBzOi8vcmFra2VzdGFkZW5lcmdpLm5vL3ByaXNlci11bmRlci0xMDAtMDAwLWt3aC0yIiwgImh0dHBzOi8vcmFra2VzdGFkZW5lcmdpLm5vL3VwbG9hZHMvSGlzdG9yaXNrZS1uZXR0bGVpZXByaXNlci9Qcml2YXRrdW5kZXJfMjAyNC0xMi0xMC0xMzA3NDRfb2J2ZS5wZGYiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMTYiLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LTA3LXByaXZhdCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDI1MjB9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDM0ODB9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDQ0NDB9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA1NzYwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogNzA4MH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDg2NDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxNTYwMH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDI0MDAwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMzAwMDB9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNjAwMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyMSwgInVubnRhayI6IFt7Im5hdm4iOiAiVWtlZGFnIiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDI2LCAiZGFnZXIiOiBbInVrZWRhZyJdfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTA3LTAxIiwgImd5bGRpZ190aWwiOiAiMjAyNS0wMS0wMSJ9LCB7ImlkIjogIjIwMjUtMDEtcHJpdmF0IiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjUyMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMzQ4MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDgwMH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDY0MjB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA4MDQwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogOTY2MH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE3NzAwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjU4MDB9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzNDIwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA2Nzg2MH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDIzLCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjgsICJkYWdlciI6IFsidWtlZGFnIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjUtMDEtMDEifV19' title='Samle inn data for Rakkestad Energi AS Nett' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/rakkestadenerginett.html" title="Se på tariffen for Rakkestad Energi AS Nett" target="_blank">🔍</a>
+    <a href="./tariffer/rakkestadenerginett.yml" title="Se dataene for Rakkestad Energi AS Nett i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
