@@ -60,6 +60,23 @@
         Se <a href="https://github.com/kraftsystemet/fri-nettleie">github.com/kraftsystemet/fri-nettleie</a> for mer info.
     </p>
 
+    <p><b style="color: red;">Forbruksavgiften endrer seg fra 2024 til 2025.</b>
+        <br/>
+        Se <a href="https://www.regjeringen.no/no/tema/okonomi-og-budsjett/skatter-og-avgifter/avgiftssatser-2025/id3057881/">regjeringens sider</a> og bruk disse boksene til å justere satsene.
+    </p>
+    <div class="input-group">
+        <label for="forbruksavgift-vinter">Forbruksavgift (jan-mars):</label>
+        <input type="number" id="forbruksavgift-vinter" x-model="meta.forbruksavgift_vinter" placeholder="Forbruksavgift vinter">
+        <span><b>2024</b>: 9.51 <b>2025</b>: 9.79</span>
+    </div>
+    <div class="input-group">
+        <label for="forbruksavgift">Forbruksavgift (apr-des):</label>
+        <input type="number" id="forbruksavgift" x-model="meta.forbruksavgift" placeholder="Forbruksavgift">
+        <span><b>2024</b>: 16.44, <b>2025</b>: 16.93</span>
+    </div>
+
+    <h2>Netteier</h2>
+
     <div class="input-group">
         <label for="netteier">Netteier:</label>
         <input type="text" id="netteier" x-model="data.netteier" placeholder="Navn på netteier">
@@ -188,13 +205,13 @@
                             <input type="number" id="pris-enova" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1 + 16.93" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1 - 16.93">
+                            <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1 + meta.forbruksavgift" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1 - meta.forbruksavgift">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + 9.79) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - 9.79">
+                            <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + meta.forbruksavgift_vinter) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift_vinter">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + 16.93) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - 16.93">
+                            <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + meta.forbruksavgift) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift">
                         </td>
                     </tr>
                 </table>
@@ -236,13 +253,13 @@
                                 <input type="number" id="pris-enova" class="secondary-input" x-bind:value="unntak.pris + 1" x-on:change="unntak.pris = $event.target.value - 1">
                             </td>
                             <td>
-                                <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="unntak.pris + 1 + 16.93" x-on:change="unntak.pris = $event.target.value - 1 - 16.93">
+                                <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="unntak.pris + 1 + meta.forbruksavgift" x-on:change="unntak.pris = $event.target.value - 1 - meta.forbruksavgift">
                             </td>
                             <td>
-                                <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 9.79) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 9.79">
+                                <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + meta.forbruksavgift_vinter) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift_vinter">
                             </td>
                             <td>
-                                <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + 16.93) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - 16.93">
+                                <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + meta.forbruksavgift) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift">
                             </td>
                         </tr>
                     </table>
@@ -325,7 +342,10 @@
                     'netteier': 'NY',
                     tariffer: [structuredClone(newTariff)]
                 },
-
+                meta: {
+                    forbruksavgift: 16.93,
+                    forbruksavgift_vinter: 9.79
+                },
                 init() {
                     this.getDataFromUrl();
                     this.toYaml();
