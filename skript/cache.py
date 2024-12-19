@@ -5,5 +5,6 @@ import requests_cache
 requests_cache.install_cache(
     'kraftsystemet-fri-nettleie',
     backend='filesystem',
-    use_cache_dir=True
+    use_cache_dir=True,
+    expire_after=3600*32 # seconds
 )

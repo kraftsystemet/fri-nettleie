@@ -615,6 +615,17 @@ Dette dekker ~96.4% (2537894 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
+  <td>Haringnett AS ✅</td>
+  <td>7080010001276</td>
+  <td><em>4567**</em></td>
+  <td><code>2024-05-01</code></td>
+  <td>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJIYXJpbmduZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTI3NiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0wNS0wMSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3Lmt2YW1lbmVyZ2luZXR0Lm5vL25ldHRsZWlnZXByaXNhcjIwMjQiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wNS1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyNDAwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzNjAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA1NTIwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogODQwMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDEwMDgwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTIwMDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyNDAwMH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDM2MDAwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNDgwMDB9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzIwMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNC41LCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJkYWdlciI6IFsidWtlZGFnIl0sICJwcmlzIjogMjIuNX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNS0wMSJ9XX0=' title='Samle inn data for Haringnett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/haringnett.html" title="Se på tariffen for Haringnett AS" target="_blank">🔍</a>
+    <a href="./tariffer/haringnett.yml" title="Se dataene for Haringnett AS i YAML-format" target="_blank">📄</a>
+  </td>
+</tr>
+<tr>
   <td>Havnett AS ✅</td>
   <td>7080010001832</td>
   <td><em>4567**</em></td>
@@ -678,17 +689,6 @@ Dette dekker ~96.4% (2537894 av 2632326) av private husholdninger* 🎉.
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLbGl2ZSBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDAxMzIiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9rbGl2ZS5uby9oYXItc3Ryb20vIiwgImh0dHBzOi8va2xpdmUubm8vaGFyLXN0cm9tL25ldHRsZWllcHJpc2VyLyIsICJodHRwczovL2tsaXZlLm5vL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDI0LzEwL05ldHRsZWllcHJpc2VyLTIwMjQtMTEtMDEtMS5wZGYiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMDMiLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LTExLXByaXZhdCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDQ2MTQuMjR9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDU3MzEuMzJ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA3NjA2LjMyfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogMTAxNDYuMTJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMjY4Ni4wNH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDI1MzU4LjY0fSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMzgwNDQuNjh9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiA1MDczMC42fSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDc2MDg5LjM2fSwgeyJ0ZXJza2VsIjogMTUwLCAicHJpcyI6IDEwMTQ0OH0sIHsidGVyc2tlbCI6IDIwMCwgInByaXMiOiAxNTIxNzguNn0sIHsidGVyc2tlbCI6IDMwMCwgInByaXMiOiAyNTM2MjYuNn0sIHsidGVyc2tlbCI6IDUwMCwgInByaXMiOiAzNTUwNzQuNn1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDE3LjYzMn0sICJneWxkaWdfZnJhIjogIjIwMjQtMTEtMDEifV19' title='Samle inn data for Klive AS' target='_blank'>✏️</a>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/klive.html" title="Se på tariffen for Klive AS" target="_blank">🔍</a>
     <a href="./tariffer/klive.yml" title="Se dataene for Klive AS i YAML-format" target="_blank">📄</a>
-  </td>
-</tr>
-<tr>
-  <td>Kvam Energi Nett AS ✅</td>
-  <td>7080010001276</td>
-  <td><em>4567**</em></td>
-  <td><code>2024-05-01</code></td>
-  <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJLdmFtIEVuZXJnaSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMTI3NiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNC0wNS0wMSIsICJraWxkZXIiOiBbImh0dHBzOi8vd3d3Lmt2YW1lbmVyZ2luZXR0Lm5vL25ldHRsZWlnZXByaXNhcjIwMjQiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wNS1wcml2YXQiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyNDAwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzNjAwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA1NTIwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogODQwMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDEwMDgwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTIwMDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyNDAwMH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDM2MDAwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogNDgwMDB9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzIwMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNC41LCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJkYWdlciI6IFsidWtlZGFnIl0sICJwcmlzIjogMjIuNX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNS0wMSJ9XX0=' title='Samle inn data for Kvam Energi Nett AS' target='_blank'>✏️</a>
-    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/kvamenerginett.html" title="Se på tariffen for Kvam Energi Nett AS" target="_blank">🔍</a>
-    <a href="./tariffer/kvamenerginett.yml" title="Se dataene for Kvam Energi Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>

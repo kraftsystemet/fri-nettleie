@@ -1061,6 +1061,26 @@
     },
     {
         "country": "NO",
+        "dsoCode": "7080010001276",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Haringnett AS",
+        "mba": "NO5",
+        "mgaCode": "50YFCPBKPMW89LMV",
+        "mgaName": "KVAM1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010001276",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Haringnett AS",
+        "mba": "NO5",
+        "mgaCode": "50Y7IG8DNEE3UFSC",
+        "mgaName": "KVAM2",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
         "dsoCode": "7080010001832",
         "dsoCodingScheme": "GS1",
         "dsoName": "Havnett AS",
@@ -1257,26 +1277,6 @@
         "mba": "NO3",
         "mgaCode": "50YT4QWAA7SOPNSC",
         "mgaName": "NØSTERD2",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080010001276",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Kvam Energi Nett AS",
-        "mba": "NO5",
-        "mgaCode": "50YFCPBKPMW89LMV",
-        "mgaName": "KVAM1",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080010001276",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Kvam Energi Nett AS",
-        "mba": "NO5",
-        "mgaCode": "50Y7IG8DNEE3UFSC",
-        "mgaName": "KVAM2",
         "mgaType": "DISTRIBUTION"
     },
     {

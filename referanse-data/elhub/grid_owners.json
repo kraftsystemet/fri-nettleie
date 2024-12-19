@@ -390,6 +390,11 @@
         "organisationNumber": "983502601"
     },
     {
+        "gln": "7080010001276",
+        "name": "Haringnett AS",
+        "organisationNumber": "923789324"
+    },
+    {
         "gln": "7080010001832",
         "name": "Havnett AS",
         "organisationNumber": "924004150"
@@ -488,11 +493,6 @@
         "gln": "7080005053181",
         "name": "Krødsherad Everk KF - Nett",
         "organisationNumber": "971030658"
-    },
-    {
-        "gln": "7080010001276",
-        "name": "Kvam Energi Nett AS",
-        "organisationNumber": "923789324"
     },
     {
         "gln": "7080005051620",
