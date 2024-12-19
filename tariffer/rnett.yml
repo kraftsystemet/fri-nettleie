@@ -2,7 +2,7 @@
 netteier: 'R-Nett AS'
 gln:
   - '7080010012852'
-sist_oppdatert: '2024-01-01'
+sist_oppdatert: '2025-12-19'
 kilder:
   - 'https://r-nett.no/overforingspriser/'
   - 'https://r-nett.no/wp-content/uploads/application/pdf/Nettleietariffer_fra_01012024.pdf'
@@ -39,3 +39,69 @@ tariffer:
           pris: 22.56
           dager: [alle]
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3196.8
+        - terskel: 5
+          pris: 4790.4
+        - terskel: 10
+          pris: 7027.2
+        - terskel: 15
+          pris: 13420.8
+        - terskel: 20
+          pris: 19814.4
+        - terskel: 25
+          pris: 29404.8
+        - terskel: 50
+          pris: 45379.2
+        - terskel: 75
+          pris: 64550.4
+        - terskel: 100
+          pris: 90124.8
+    energiledd:
+      grunnpris: 14.81
+      unntak:
+        - navn: alle
+          timer: 6-21
+          pris: 24.41
+          dager: [alle]
+    gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-04-01'
+  - id: 2025-04-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3196.8
+        - terskel: 5
+          pris: 4790.4
+        - terskel: 10
+          pris: 7027.2
+        - terskel: 15
+          pris: 13420.8
+        - terskel: 20
+          pris: 19814.4
+        - terskel: 25
+          pris: 29404.8
+        - terskel: 50
+          pris: 45379.2
+        - terskel: 75
+          pris: 64550.4
+        - terskel: 100
+          pris: 90124.8
+    energiledd:
+      grunnpris: 14.872
+      unntak:
+        - navn: alle
+          timer: 6-21
+          pris: 24.47
+          dager: [alle]
+    gyldig_fra: '2025-04-01'
