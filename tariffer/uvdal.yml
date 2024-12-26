@@ -6,6 +6,7 @@ sist_oppdatert: '2024-11-15'
 kilder:
   - 'http://www.uvdalkraft.no/contact/nett/'
   - 'http://www.uvdalkraft.no/pdf/Tariffhefte01052024.pdf'
+  - 'http://www.uvdalkraft.no/pdf/Tariffhefte01012025.pdf'
 tariffer:
   - id: 2024-05
     kundegruppe: privat
@@ -38,3 +39,35 @@ tariffer:
           timer: 6-21
           pris: 30.58
     gyldig_fra: '2024-05-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3532.8
+        - terskel: 5
+          pris: 5308.8
+        - terskel: 10
+          pris: 7785.6
+        - terskel: 15
+          pris: 14860.8
+        - terskel: 20
+          pris: 21936
+        - terskel: 25
+          pris: 32544
+        - terskel: 50
+          pris: 50236.8
+        - terskel: 75
+          pris: 71452.8
+        - terskel: 100
+          pris: 99753.6
+    energiledd:
+      grunnpris: 16.23
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 24.23
+    gyldig_fra: '2025-01-01'
