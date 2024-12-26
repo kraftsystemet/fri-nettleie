@@ -2,29 +2,21 @@
 gln:
   - '7080010002297'
 kilder:
-  - https://www.vangenergi.no/nettleige/forbrukarkundar/
-  - https://www.vangenergi.no/nyheter/
-netteier: Vang Energiverk AS
+  - 'https://www.vangenergi.no/nettleige/forbrukarkundar/'
+  - 'https://www.vangenergi.no/nyheter/'
+netteier: 'Vang Energiverk AS'
 sist_oppdatert: '2024-11-09'
 tariffer:
   - energiledd:
       grunnpris: 8
       unntak:
-        - dager:
-            - fredag
-          måneder:
-            - januar
-            - februar
-            - mars
-            - april
-            - oktober
-            - november
-            - desember
+        - dager: [fredag]
+          måneder: [januar, februar, mars, april, oktober, november, desember]
           navn: Brukstidstillegg
           pris: 18
           timer: 16-21
     fastledd:
-      metode: "TRE_DØGNMAX_MND"
+      metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
       terskler:
         - pris: 4800
@@ -44,3 +36,33 @@ tariffer:
     gyldig_fra: '2024-01-01'
     id: '2024'
     kundegruppe: privat
+    gyldig_til: '2025-01-01'
+  - id: '2025'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 5400
+        - terskel: 2
+          pris: 6600
+        - terskel: 5
+          pris: 7860
+        - terskel: 8
+          pris: 9120
+        - terskel: 12
+          pris: 10620
+        - terskel: 18
+          pris: 12180
+        - terskel: 25
+          pris: 13980
+    energiledd:
+      grunnpris: 13
+      unntak:
+        - navn: Brukstidstillegg
+          timer: 16-21
+          pris: 23
+          måneder: [januar, februar, mars, april, oktober, november, desember]
+          dager: [fredag]
+    gyldig_fra: '2025-01-01'
