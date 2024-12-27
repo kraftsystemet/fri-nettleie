@@ -5,7 +5,8 @@ gln:
 kilder:
   - 'https://nettselskapet.as/nettleie/'
   - 'https://nettselskapet.as/privat-2024/'
-sist_oppdatert: '2024-01-01'
+  - 'https://nettselskapet.as/privat-priser2025/'
+sist_oppdatert: '2024-12-27'
 tariffer:
   - id: '2024'
     kundegruppe: privat
@@ -36,3 +37,41 @@ tariffer:
           timer: 6-21
           pris: 21.504
     gyldig_fra: '2024-01-01'
+  - id: 2025-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1320
+        - terskel: 2
+          pris: 2400
+        - terskel: 5
+          pris: 4080
+        - terskel: 10
+          pris: 6000
+        - terskel: 15
+          pris: 7800
+        - terskel: 20
+          pris: 9840
+        - terskel: 25
+          pris: 16800
+        - terskel: 50
+          pris: 26400
+    energiledd:
+      grunnpris: 4.904
+      unntak:
+        - navn: 'Høylast sommer'
+          timer: 6-21
+          pris: 14.904
+          måneder: [mai, juni, juli, august, september, oktober]
+        - navn: 'Høylast vinter'
+          timer: 6-21
+          måneder: [januar, februar, mars, april, november, desember]
+          pris: 16.8
+        - navn: 'Lavlast vinter'
+          timer: 22-5
+          måneder: [januar, februar, mars, april, november, desember]
+          pris: 6.8
+    gyldig_fra: '2025-01-01'
