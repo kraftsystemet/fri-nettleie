@@ -2,3 +2,4 @@ requests-cache
 pyyaml
 holidays
 jinja2
+yamlfmt
