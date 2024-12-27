@@ -6,7 +6,7 @@ kilder:
   - 'https://klive.no/har-strom/'
   - 'https://klive.no/har-strom/nettleiepriser/'
   - 'https://klive.no/wp-content/uploads/2024/10/Nettleiepriser-2024-11-01-1.pdf'
-sist_oppdatert: '2024-12-03'
+sist_oppdatert: '2024-12-27'
 tariffer:
   - id: 2024-11-privat
     kundegruppe: privat
