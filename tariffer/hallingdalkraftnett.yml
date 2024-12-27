@@ -31,8 +31,6 @@ tariffer:
           pris: 8208
         - terskel: 75
           pris: 8472
-        - terskel: 100
-          pris: 8712
     energiledd:
       grunnpris: 6.68
       unntak:
@@ -40,4 +38,34 @@ tariffer:
           timer: 6-21
           pris: 10.93
           dager: [alle]
-    gyldig_fra: '2024-07-01'
+    gyldig_fra: '2024-07-01's
+  - id: 2025-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2772
+        - terskel: 0
+          pris: 3360
+        - terskel: 0
+          pris: 4404
+        - terskel: 0
+          pris: 6297.6
+        - terskel: 0
+          pris: 8860.8
+        - terskel: 0
+          pris: 10636.8
+        - terskel: 0
+          pris: 13776
+        - terskel: 0
+          pris: 15744
+        - terskel: 0
+          pris: 21600
+    energiledd:
+      grunnpris: 9.5
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 14.5
