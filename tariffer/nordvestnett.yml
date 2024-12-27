@@ -42,6 +42,7 @@ tariffer:
           timer: 6-21
           pris: 23.608
     gyldig_fra: '2024-09-01'
+    gyldig_til: '2025-01-01'
   - id: 2025-privat
     kundegruppe: privat
     fastledd:
@@ -49,29 +50,29 @@ tariffer:
       terskel_inkludert: true
       terskler:
         - terskel: 0
-          pris: 1800
+          pris: 1440
         - terskel: 2
-          pris: 4428
+          pris: 3542.4
         - terskel: 5
-          pris: 5460
+          pris: 4368
         - terskel: 10
-          pris: 8292
+          pris: 6633.6
         - terskel: 15
-          pris: 9840
+          pris: 7872
         - terskel: 20
-          pris: 11472
+          pris: 9177.6
         - terskel: 25
-          pris: 22008
+          pris: 17606.4
         - terskel: 50
-          pris: 32568
+          pris: 26054.4
         - terskel: 75
-          pris: 43116
+          pris: 34492.8
         - terskel: 100
-          pris: 84804
+          pris: 67843.2
     energiledd:
-      grunnpris: 18.794
+      grunnpris: 18.79
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 24.794
+          pris: 24.79
     gyldig_fra: '2025-01-01'

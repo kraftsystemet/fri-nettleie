@@ -37,6 +37,7 @@ tariffer:
           timer: 6-21
           pris: 21.504
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-01-01'
   - id: 2025-privat
     kundegruppe: privat
     fastledd:
