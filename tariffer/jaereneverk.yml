@@ -5,7 +5,7 @@ gln:
 kilder:
   - 'https://jev.no/tariffer'
   - 'https://jev.no/nettleie-for-kunder-med-forbruk-under-100-000-kwh-2-2-2-2'
-sist_oppdatert: '2024-12-06'
+sist_oppdatert: '2024-12-27'
 tariffer:
   - id: 2024-01-privat
     kundegruppe: privat
