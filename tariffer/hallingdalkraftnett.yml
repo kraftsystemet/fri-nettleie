@@ -2,10 +2,11 @@
 netteier: 'Hallingdal Kraftnett AS'
 gln:
   - '7080005050654'
-sist_oppdatert: '2024-07-01'
+sist_oppdatert: '2024-12-27'
 kilder:
   - 'https://www.hallingdal-kraftnett.no/priser'
   - 'https://www.hallingdal-kraftnett.no/uploads/Hallingdal-Kraftnett-Nettleie-pr-07-2024.pdf'
+  - 'https://www.hallingdal-kraftnett.no/uploads/F%C3%B8ie-Nettleie-pr-1-2025-Priser-12-24-PRINT.pdf'
 tariffer:
   - id: 2024-07-privat
     kundegruppe: privat
@@ -31,8 +32,6 @@ tariffer:
           pris: 8208
         - terskel: 75
           pris: 8472
-        - terskel: 100
-          pris: 8712
     energiledd:
       grunnpris: 6.68
       unntak:
@@ -41,3 +40,35 @@ tariffer:
           pris: 10.93
           dager: [alle]
     gyldig_fra: '2024-07-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-privat
+    gyldig_fra: '2025-01-01'
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2772
+        - terskel: 0
+          pris: 3360
+        - terskel: 0
+          pris: 4404
+        - terskel: 0
+          pris: 6297.6
+        - terskel: 0
+          pris: 8860.8
+        - terskel: 0
+          pris: 10636.8
+        - terskel: 0
+          pris: 13776
+        - terskel: 0
+          pris: 15744
+        - terskel: 0
+          pris: 21600
+    energiledd:
+      grunnpris: 9.5
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 14.5

@@ -6,7 +6,8 @@ kilder:
   - 'https://www.nvn.no/nettleige/'
   - 'https://www.nvn.no/aktuelt/nye-nettleiepriser-fra-1-september-2024/'
   - 'https://www.nvn.no/download?objectPath=/upload_images/E43613082C2644C7B67DCFA221473FB5.pdf'
-sist_oppdatert: '2024-09-01'
+  - 'https://www.nvn.no/download?objectPath=/upload_images/B648735052B6498A938809E6E2664C7E.pdf'
+sist_oppdatert: '2024-12-27'
 tariffer:
   - id: '2024'
     kundegruppe: privat
@@ -41,3 +42,37 @@ tariffer:
           timer: 6-21
           pris: 23.608
     gyldig_fra: '2024-09-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1440
+        - terskel: 2
+          pris: 3542.4
+        - terskel: 5
+          pris: 4368
+        - terskel: 10
+          pris: 6633.6
+        - terskel: 15
+          pris: 7872
+        - terskel: 20
+          pris: 9177.6
+        - terskel: 25
+          pris: 17606.4
+        - terskel: 50
+          pris: 26054.4
+        - terskel: 75
+          pris: 34492.8
+        - terskel: 100
+          pris: 67843.2
+    energiledd:
+      grunnpris: 18.79
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 24.79
+    gyldig_fra: '2025-01-01'
