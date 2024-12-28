@@ -27,7 +27,7 @@ tariffer:
         - terskel: 25
           pris: 11164.8
     energiledd:
-      grunnpris: 17.814
+      grunnpris: 18.304
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-01-01'
   - id: 2025-01-privat
@@ -49,5 +49,5 @@ tariffer:
         - terskel: 25
           pris: 11164.8
     energiledd:
-      grunnpris: 18.302
+      grunnpris: 18.304
     gyldig_fra: '2025-01-01'
