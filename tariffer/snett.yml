@@ -4,7 +4,7 @@ gln:
   - '7080010002464'
 kilder:
   - 'https://snett.no/nettleie/privat/'
-sist_oppdatert: '2024-12-16'
+sist_oppdatert: '2024-12-28'
 tariffer:
   - id: 2024-01
     kundegruppe: privat
@@ -43,3 +43,42 @@ tariffer:
           navn: Dag
           pris: 26.4
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2520
+        - terskel: 2
+          pris: 4368
+        - terskel: 5
+          pris: 6312
+        - terskel: 10
+          pris: 8724
+        - terskel: 15
+          pris: 11160
+        - terskel: 20
+          pris: 13584
+        - terskel: 25
+          pris: 20880
+        - terskel: 50
+          pris: 33012
+        - terskel: 75
+          pris: 45156
+        - terskel: 100
+          pris: 63372
+        - terskel: 150
+          pris: 87648
+        - terskel: 200
+          pris: 124080
+    energiledd:
+      grunnpris: 21.41
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 26.4
+          dager: [alle]
+    gyldig_fra: '2025-01-01'
