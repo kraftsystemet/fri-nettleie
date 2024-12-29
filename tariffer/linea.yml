@@ -2,9 +2,10 @@
 netteier: 'Linea AS'
 gln:
   - '7080003965325'
-sist_oppdatert: '2024-12-01'
+sist_oppdatert: '2024-12-29'
 kilder:
   - 'https://www.linea.no/no/kunde/nettleie/nettleiepriser'
+  - 'https://cdn.sanity.io/files/fqnowpz5/open-prod/aaec4fe54a6d5ddd8fe31807ae33542bcd482ca3.pdf'
 tariffer:
   - id: 2024-05-privat
     kundegruppe: privat
@@ -44,3 +45,48 @@ tariffer:
           pris: 19.7
           dager: [virkedag]
     gyldig_fra: '2024-05-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3000
+        - terskel: 2
+          pris: 3000
+        - terskel: 5
+          pris: 4656
+        - terskel: 10
+          pris: 6540
+        - terskel: 15
+          pris: 8436
+        - terskel: 20
+          pris: 10344
+        - terskel: 25
+          pris: 17292
+        - terskel: 50
+          pris: 26772
+        - terskel: 75
+          pris: 36252
+        - terskel: 100
+          pris: 52068
+        - terskel: 150
+          pris: 71016
+        - terskel: 200
+          pris: 102576
+        - terskel: 300
+          pris: 140544
+        - terskel: 400
+          pris: 178440
+        - terskel: 500
+          pris: 216372
+    energiledd:
+      grunnpris: 16.1
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 26.1
+          dager: [virkedag]
+    gyldig_fra: '2024-12-01'
