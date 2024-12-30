@@ -13,7 +13,7 @@ venv:
 readme: vet toc status
 
 status:
-	./script/status.py | sponge README.md
+	./scripts/status.py | sponge README.md
 
 toc:
 	npx markdown-toc -i README.md
@@ -25,7 +25,7 @@ fmt:
 	yamlfmt tariff-eksempel.yml tariffer/*.yml referanse-data/nve/tariffer/*.yml
 
 qa:
-	ls -1 tariffer/ | xargs -I% ./script/qa_nve.py ./tariffer/%
+	ls -1 tariffer/ | xargs -I% ./scripts/qa_nve.py ./tariffer/%
 
 changedetection:
 	docker compose up -d
@@ -35,8 +35,8 @@ stop:
 	docker compose stop
 
 kilder:
-	./script/kilder.sh
+	./scripts/kilder.sh
 
 bygg:
-	./script/template.py
+	./scripts/template.py
 	npx prettier docs/tariffer/*.html --write

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Sjekk innsamlede verdier mot NVE sitt api
 #
-# Usage: ./script/qa_nve.py tariffer/<netteier>.yml
+# Usage: ./scripts/qa_nve.py tariffer/<netteier>.yml
 
 import cache
 

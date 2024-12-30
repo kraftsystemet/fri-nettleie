@@ -15,7 +15,7 @@ from jinja2 import Template, StrictUndefined, Environment
 env = Environment()
 env.policies['json.dumps_kwargs']['ensure_ascii'] = False
 
-with open('script/templates/netteier.j2.html', 'r') as f:
+with open('scripts/templates/netteier.j2.html', 'r') as f:
     template = Template(f.read(),undefined=StrictUndefined)
 
 netteiere = []
@@ -50,7 +50,7 @@ for filename in os.listdir('tariffer'):
 
 # Oversikt
 
-with open('script/templates/oversikt.j2.html', 'r') as f:
+with open('scripts/templates/oversikt.j2.html', 'r') as f:
     template = Template(f.read(),undefined=StrictUndefined)
 
 html = template.render({ 'netteiere' : netteiere })
