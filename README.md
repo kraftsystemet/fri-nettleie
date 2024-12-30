@@ -95,11 +95,11 @@ Selv om tariff-dataene kun inneholder en _beskrivelse_ av tariffen er det fullt
 mulig å lage en tidsserie - prissignal - basert på dette.
 
 Et skript som viser hvordan dette kan gjøres konseptuelt finnes i
-[skript/prissignal.py](./skript/prissignal.py). Brukes slik:
+[script/prissignal.py](./script/prissignal.py). Brukes slik:
 
 ```bash
-./skript/prissignal.py --fra 2024-10-26 --til 2024-10-28 --tariff-fil tariffer/midtnett.yml
-./skript/prissignal.py --fra 2024-10-25 --til 2024-10-28 --tariff-fil tariffer/griug.yml
+./script/prissignal.py --fra 2024-10-26 --til 2024-10-28 --tariff-fil tariffer/midtnett.yml
+./script/prissignal.py --fra 2024-10-25 --til 2024-10-28 --tariff-fil tariffer/griug.yml
 ```
 
 Dette prissignalet er uten alle avgifter. Det er mulig å beregne avgift basert
