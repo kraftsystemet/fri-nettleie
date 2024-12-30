@@ -1,19 +1,5 @@
-#!/usr/bin/env python3
-# Downloads data from eSett APIs faciliate status reporting
-
 import requests
-import json
-
-# Cache is used to do local iterations on scripts w/o putting load on the external APIs.
-# Clear cache with `rm -rf ~/.cache/raftsystemet-fri-nettleie`
-import requests_cache
-requests_cache.install_cache(
-    'kraftsystemet-fri-nettleie',
-    backend='filesystem',
-    use_cache_dir=True
-)
-
-def get_esett_mgas():
+def get_mgas():
     """
     Return a set of Norwegian distribution system operators from eSett API
     """
@@ -35,7 +21,7 @@ def get_esett_mgas():
 
     return mgas
 
-def get_esett_dsos():
+def get_dsos():
     """
     Return a set of Norwegian distribution system operators from eSett API
     """
@@ -54,16 +40,3 @@ def get_esett_dsos():
         dsos[dso['dsoName']] = dso
 
     return dsos
-
-if __name__ == "__main__":
-
-    dsos = get_esett_dsos()
-
-    with open('./referanse-data/esett/metering_grid_areas.json', 'w') as f:
-
-        mgas = get_esett_mgas()
-        for m in range(len(mgas)):
-            mgas[m]['dsoCode'] = dsos[mgas[m]['dsoName']]['dsoCode']
-            mgas[m]['dsoCodingScheme'] = dsos[mgas[m]['dsoName']]['codingScheme']
-
-        json.dump(mgas, f, indent=4, sort_keys=True, ensure_ascii=False)
