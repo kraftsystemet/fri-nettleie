@@ -62,7 +62,7 @@
       </article>
       <h2>Tariff</h2>
       S-NETT AS sin nåværende tariff for private husholdninger er gyldig fra
-      2024-01-01 til 2025-01-01.
+      2025-01-01.
       <p></p>
 
       <p>Tariffen har vi samlet inn fra 1 kilde:</p>
@@ -79,9 +79,9 @@
 
         <dl>
           <dt>Gyldig fra</dt>
-          <dd>2024-01-01</dd>
-          <dt>Gyldig til</dt>
           <dd>2025-01-01</dd>
+          <dt>Gyldig til</dt>
+          <dd>-</dd>
         </dl>
         <!-- TODO
         <p>
@@ -132,68 +132,68 @@
 
             <tr>
               <td>2</td>
-              <td>3492</td>
-              <td>4365.0</td>
+              <td>4368</td>
+              <td>5460.0</td>
             </tr>
 
             <tr>
               <td>5</td>
-              <td>5052</td>
-              <td>6315.0</td>
+              <td>6312</td>
+              <td>7890.0</td>
             </tr>
 
             <tr>
               <td>10</td>
-              <td>6984</td>
-              <td>8730.0</td>
+              <td>8724</td>
+              <td>10905.0</td>
             </tr>
 
             <tr>
               <td>15</td>
-              <td>8928</td>
-              <td>11160.0</td>
+              <td>11160</td>
+              <td>13950.0</td>
             </tr>
 
             <tr>
               <td>20</td>
-              <td>10872</td>
-              <td>13590.0</td>
+              <td>13584</td>
+              <td>16980.0</td>
             </tr>
 
             <tr>
               <td>25</td>
-              <td>16704</td>
-              <td>20880.0</td>
+              <td>20880</td>
+              <td>26100.0</td>
             </tr>
 
             <tr>
               <td>50</td>
-              <td>26412</td>
-              <td>33015.0</td>
+              <td>33012</td>
+              <td>41265.0</td>
             </tr>
 
             <tr>
               <td>75</td>
-              <td>36120</td>
-              <td>45150.0</td>
+              <td>45156</td>
+              <td>56445.0</td>
             </tr>
 
             <tr>
               <td>100</td>
-              <td>50700</td>
-              <td>63375.0</td>
+              <td>63372</td>
+              <td>79215.0</td>
             </tr>
 
             <tr>
               <td>150</td>
-              <td>70116</td>
-              <td>87645.0</td>
+              <td>87648</td>
+              <td>109560.0</td>
             </tr>
 
             <tr>
               <td>200</td>
-              <td>99264</td>
-              <td>124080.0</td>
+              <td>124080</td>
+              <td>155100.0</td>
             </tr>
           </table>
         </article>
@@ -263,6 +263,9 @@
           <h6>Dag</h6>
           <p>Denne prisen gjelder for:</p>
           <dl>
+            <dt>Dager</dt>
+            <dd>alle</dd>
+
             <dt>Timer</dt>
             <dd>6-21</dd>
           </dl>
@@ -302,7 +305,7 @@
   <script>
     const energiLedd = {
       grunnpris: 21.41,
-      unntak: [{ navn: "Dag", pris: 26.4, timer: "6-21" }],
+      unntak: [{ dager: ["alle"], navn: "Dag", pris: 26.4, timer: "6-21" }],
     };
   </script>
   <script src="../assets/priceSignal.js"></script>

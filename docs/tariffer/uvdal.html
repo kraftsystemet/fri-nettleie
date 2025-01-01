@@ -62,7 +62,7 @@
       </article>
       <h2>Tariff</h2>
       Uvdal Kraftforsyning sin nåværende tariff for private husholdninger er
-      gyldig fra 2024-05-01 til 2025-01-01.
+      gyldig fra 2025-01-01.
       <p></p>
 
       <p>Tariffen har vi samlet inn fra 3 kilder:</p>
@@ -91,9 +91,9 @@
 
         <dl>
           <dt>Gyldig fra</dt>
-          <dd>2024-05-01</dd>
-          <dt>Gyldig til</dt>
           <dd>2025-01-01</dd>
+          <dt>Gyldig til</dt>
+          <dd>-</dd>
         </dl>
         <!-- TODO
         <p>
@@ -120,9 +120,9 @@
           </p>
           <h5>Terskler</h5>
           <p>
-            Netteieren inkluderer <b>ikke</b> terskelen i det nye nivået. Det
-            vil si at dersom du havner akkurat på selve terskelen, ender du på
-            nivået <i>under</i>.
+            Netteieren inkluderer terskelen i det nye nivået. Det vil si at
+            dersom du havner akkurat på selve terskelen, ender du på nivået
+            <i>over</i>.
           </p>
           <p>
             Prisen vises uten og med de forskjellige avgiftene på nettleie. Se
@@ -138,56 +138,56 @@
 
             <tr>
               <td>0</td>
-              <td>3811.2</td>
-              <td>4764.0</td>
+              <td>3532.8</td>
+              <td>4416.0</td>
             </tr>
 
             <tr>
               <td>5</td>
-              <td>5721.6</td>
-              <td>7152.0</td>
+              <td>5308.8</td>
+              <td>6636.0</td>
             </tr>
 
             <tr>
               <td>10</td>
-              <td>8390.4</td>
-              <td>10488.0</td>
+              <td>7785.6</td>
+              <td>9732.0</td>
             </tr>
 
             <tr>
               <td>15</td>
-              <td>16022.4</td>
-              <td>20028.0</td>
+              <td>14860.8</td>
+              <td>18576.0</td>
             </tr>
 
             <tr>
               <td>20</td>
-              <td>23654.4</td>
-              <td>29568.0</td>
+              <td>21936</td>
+              <td>27420.0</td>
             </tr>
 
             <tr>
               <td>25</td>
-              <td>35097.6</td>
-              <td>43872.0</td>
+              <td>32544</td>
+              <td>40680.0</td>
             </tr>
 
             <tr>
               <td>50</td>
-              <td>54182.4</td>
-              <td>67728.0</td>
+              <td>50236.8</td>
+              <td>62796.0</td>
             </tr>
 
             <tr>
               <td>75</td>
-              <td>77068.8</td>
-              <td>96336.0</td>
+              <td>71452.8</td>
+              <td>89316.0</td>
             </tr>
 
             <tr>
               <td>100</td>
-              <td>107596.8</td>
-              <td>134496.0</td>
+              <td>99753.6</td>
+              <td>124692.0</td>
             </tr>
           </table>
         </article>
@@ -229,21 +229,21 @@
             standard (sommer) avgift.
           </p>
           <dl>
-            22.58
+            16.23
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            23.58
+            17.23
             <span
               data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            40.02
+            33.67
             <span
               data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            50.02
+            42.09
             <span data-tooltip="Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
             ><br />
@@ -263,21 +263,21 @@
           <p>Du betaler</p>
 
           <dl>
-            30.58
+            24.23
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            31.58
+            25.23
             <span
               data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            48.02
+            41.67
             <span
               data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            60.02
+            52.09
             <span
               data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
@@ -295,8 +295,8 @@
   <!-- TODO norway bundle -->
   <script>
     const energiLedd = {
-      grunnpris: 22.58,
-      unntak: [{ navn: "Høylast", pris: 30.58, timer: "6-21" }],
+      grunnpris: 16.23,
+      unntak: [{ navn: "Høylast", pris: 24.23, timer: "6-21" }],
     };
   </script>
   <script src="../assets/priceSignal.js"></script>

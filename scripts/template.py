@@ -33,6 +33,10 @@ for filename in os.listdir('tariffer'):
             if dateutil.parser.parse(t['gyldig_fra']) <= datetime.today() and dateutil.parser.parse(t.get('gyldig_til','2099-01-01')) > datetime.today():
                 data['gyldig_tariff'] = t
 
+        if 'gyldig_tariff' not in data:
+            print(f'Ingen gyldig tariff for {data["netteier"]}')
+            data['gyldig_tariff'] = data['tariffer'][0]
+
         # Toggles
         data["show_price_signal"] = True
 
