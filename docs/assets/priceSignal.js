@@ -77,6 +77,8 @@ for (const u of unntakInput){
 };
 console.log(unntakList);
 
+const elFee = 9.79 // 2025
+
 const localeStartOfDat = moment().startOf('day')
 const timeSeriesLabels = [];
 const timeSeriesPrice = [];
@@ -105,8 +107,8 @@ for (let i = 0; i < 24*7; i++) {
   timeSeriesPriceMVA.push(0.25*pris);
   timeSeriesEnova.push(1);
   timeSeriesEnovaMVA.push(0.25);
-  timeSeriesForbruk.push(16.44);
-  timeSeriesForbrukMVA.push(16.44*0.25);
+  timeSeriesForbruk.push(elFee);
+  timeSeriesForbrukMVA.push(elFee*0.25);
   if (pris > max) {
     max = pris + 44;
   }

@@ -130,6 +130,7 @@
 
         <h4>Energiledd</h4>
         {% set pris = tariff.energiledd.grunnpris %}
+        {% set elFee = 9.79 %}
 
         {% if show_price_signal %}
         <h5>Energiledd den neste uken</h5>
@@ -178,12 +179,12 @@
             data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
             >øre m/ enovaavgift</span
           ><br />
-          {{ ( pris + 1 + 16.44 ) | round(2) }}
+          {{ ( pris + 1 + elFee ) | round(2) }}
           <span
             data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
             >øre m/ enova og elavgift</span
           ><br />
-          {{ ( ( pris + 1 + 16.44 ) * 1.25 ) | round(2) }}
+          {{ ( ( pris + 1 + elFee ) * 1.25 ) | round(2) }}
           <span
             data-tooltip="Relevant for sluttkunder sør for Troms."
             >øre m/ alle avgifter</span
@@ -225,12 +226,12 @@
             data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
             >øre m/ enovaavgift</span
           ><br />
-          {{ ( pris + 1 + 16.44 ) | round(2) }}
+          {{ ( pris + 1 + elFee ) | round(2) }}
           <span
             data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
             >øre m/ enova og elavgift</span
           ><br />
-          {{ ( ( pris + 1 + 16.44 ) * 1.25 ) | round(2) }}
+          {{ ( ( pris + 1 + elFee ) * 1.25 ) | round(2) }}
           <span
             data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
             >øre m/ alle avgifter</span
