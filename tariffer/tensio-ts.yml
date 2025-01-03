@@ -8,10 +8,10 @@ netteier: 'Tensio TS AS'
 sist_oppdatert: '2025-01-02'
 tariffer:
   - energiledd:
-      grunnpris: 10.814
+      grunnpris: 11.304
       unntak:
         - navn: Dag
-          pris: 22.214
+          pris: 22.704
           timer: 6-21
     fastledd:
       metode: TRE_DØGNMAX_MND
