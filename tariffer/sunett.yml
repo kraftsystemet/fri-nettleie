@@ -26,3 +26,24 @@ tariffer:
           pris: 19.28
           måneder: [januar, februar, mars, april, november, desember]
     gyldig_fra: '2024-04-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: OV_TREFASE
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1600
+        - terskel: 10
+          pris: 3200
+        - terskel: 63
+          pris: 6400
+    energiledd:
+      grunnpris: 11.43
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 13.75
+          måneder: [januar, februar, mars, april, november, desember]
+    gyldig_fra: '2025-01-01'
