@@ -67,6 +67,36 @@ def get_mnd_data(dato):
     response = requests.get(url, headers=headers, params=params)
     return response.json()
 
+def get_consessionares():
+    url = 'https://nve.geodataonline.no/arcgis/rest/services/Nettanlegg2/MapServer/6/query'
+    params = {
+        'where': '1=1',
+        'outFields': '*',
+        'f': 'json'
+    }
+    response = requests.get(url, params=params)
+
+    data = response.json()
+    features = data['features']
+
+    # Extract attributes from features and sort by NAVN
+
+    # "KONSTYPE": "VANLIG",
+    # "NAVN": "SYGNIR AS",
+    # "EIER_ID": 924619260,
+    # "EIERTYPE": "EVERK",
+
+    consessionares = {}
+
+    for feature in features:
+        org = str(feature['attributes']['EIER_ID'])
+        name = feature['attributes']['NAVN']
+
+        if org not in consessionares:
+            consessionares[org] = name
+
+    return consessionares
+
 def get_konsesjonarer(dato):
 
     data = get_mnd_data(dato)

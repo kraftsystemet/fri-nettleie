@@ -48,7 +48,7 @@
         <dd>Oslo, Oslo</dd>
         -->
         <dt>Sist oppdatert</dt>
-        <dd>2024-11-03</dd>
+        <dd>2024-12-27</dd>
       </dl>
       <article>
         <header>❕Innsamlet på dugnad</header>
@@ -62,10 +62,10 @@
       </article>
       <h2>Tariff</h2>
       Midtnett AS sin nåværende tariff for private husholdninger er gyldig fra
-      2024-04-01.
+      2025-01-01.
       <p></p>
 
-      <p>Tariffen har vi samlet inn fra 2 kilder:</p>
+      <p>Tariffen har vi samlet inn fra 3 kilder:</p>
       <ul>
         <li>
           <a href="https://www.midtnett.no/nettleie"
@@ -79,6 +79,12 @@
             >https://www.midtnett.no/media/2919/nettleiepriser-fra-1-april-2024.pdf</a
           >
         </li>
+
+        <li>
+          <a href="https://midtnett.no/nettleie-informasjon-og-priser/"
+            >https://midtnett.no/nettleie-informasjon-og-priser/</a
+          >
+        </li>
       </ul>
 
       <details open>
@@ -86,7 +92,7 @@
 
         <dl>
           <dt>Gyldig fra</dt>
-          <dd>2024-04-01</dd>
+          <dd>2025-01-01</dd>
           <dt>Gyldig til</dt>
           <dd>-</dd>
         </dl>
@@ -139,8 +145,8 @@
 
             <tr>
               <td>5</td>
-              <td>3960</td>
-              <td>4950.0</td>
+              <td>3964.8</td>
+              <td>4956.0</td>
             </tr>
 
             <tr>
@@ -151,8 +157,8 @@
 
             <tr>
               <td>15</td>
-              <td>9000</td>
-              <td>11250.0</td>
+              <td>9004.8</td>
+              <td>11256.0</td>
             </tr>
 
             <tr>
@@ -163,8 +169,8 @@
 
             <tr>
               <td>25</td>
-              <td>16764</td>
-              <td>20955.0</td>
+              <td>16761.6</td>
+              <td>20952.0</td>
             </tr>
 
             <tr>
@@ -224,21 +230,21 @@
             standard (sommer) avgift.
           </p>
           <dl>
-            26
+            32.65
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            27
+            33.65
             <span
               data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            43.44
+            50.09
             <span
               data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            54.3
+            62.61
             <span data-tooltip="Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
             ><br />
@@ -252,27 +258,30 @@
           <h6>Høylast</h6>
           <p>Denne prisen gjelder for:</p>
           <dl>
+            <dt>Dager</dt>
+            <dd>alle</dd>
+
             <dt>Timer</dt>
             <dd>6-21</dd>
           </dl>
           <p>Du betaler</p>
 
           <dl>
-            31
+            37.65
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            32
+            38.65
             <span
               data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            48.44
+            55.09
             <span
               data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            60.55
+            68.86
             <span
               data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
@@ -290,8 +299,10 @@
   <!-- TODO norway bundle -->
   <script>
     const energiLedd = {
-      grunnpris: 26,
-      unntak: [{ navn: "Høylast", pris: 31, timer: "6-21" }],
+      grunnpris: 32.65,
+      unntak: [
+        { dager: ["alle"], navn: "Høylast", pris: 37.65, timer: "6-21" },
+      ],
     };
   </script>
   <script src="../assets/priceSignal.js"></script>

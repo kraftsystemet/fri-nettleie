@@ -2,19 +2,20 @@
 gln:
   - '7080003869012'
 kilder:
-  - https://www.midtnett.no/nettleie
-  - https://www.midtnett.no/media/2919/nettleiepriser-fra-1-april-2024.pdf
-netteier: Midtnett AS
-sist_oppdatert: '2024-11-03'
+  - 'https://www.midtnett.no/nettleie'
+  - 'https://www.midtnett.no/media/2919/nettleiepriser-fra-1-april-2024.pdf'
+  - 'https://midtnett.no/nettleie-informasjon-og-priser/'
+netteier: 'Midtnett AS'
+sist_oppdatert: '2024-12-27'
 tariffer:
   - energiledd:
       grunnpris: 26
       unntak:
-        - navn: "Høylast"
+        - navn: Høylast
           pris: 31
           timer: 6-21
     fastledd:
-      metode: "TRE_DØGNMAX_MND"
+      metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
       terskler:
         - pris: 2640
@@ -38,3 +39,36 @@ tariffer:
     gyldig_fra: '2024-04-01'
     id: hn22-privat
     kundegruppe: privat
+    gyldig_til: '2025-01-01'
+  - id: 2025-01-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2640
+        - terskel: 5
+          pris: 3964.8
+        - terskel: 10
+          pris: 6000
+        - terskel: 15
+          pris: 9004.8
+        - terskel: 20
+          pris: 12000
+        - terskel: 25
+          pris: 16761.6
+        - terskel: 50
+          pris: 25152
+        - terskel: 75
+          pris: 31200
+        - terskel: 100
+          pris: 36000
+    energiledd:
+      grunnpris: 32.65
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 37.65
+          dager: [alle]
+    gyldig_fra: '2025-01-01'

@@ -15,7 +15,7 @@ from jinja2 import Template, StrictUndefined, Environment
 env = Environment()
 env.policies['json.dumps_kwargs']['ensure_ascii'] = False
 
-with open('skript/templates/netteier.j2.html', 'r') as f:
+with open('scripts/templates/netteier.j2.html', 'r') as f:
     template = Template(f.read(),undefined=StrictUndefined)
 
 netteiere = []
@@ -32,6 +32,10 @@ for filename in os.listdir('tariffer'):
         for t in data['tariffer']:
             if dateutil.parser.parse(t['gyldig_fra']) <= datetime.today() and dateutil.parser.parse(t.get('gyldig_til','2099-01-01')) > datetime.today():
                 data['gyldig_tariff'] = t
+
+        if 'gyldig_tariff' not in data:
+            print(f'Ingen gyldig tariff for {data["netteier"]}')
+            data['gyldig_tariff'] = data['tariffer'][0]
 
         # Toggles
         data["show_price_signal"] = True
@@ -50,7 +54,7 @@ for filename in os.listdir('tariffer'):
 
 # Oversikt
 
-with open('skript/templates/oversikt.j2.html', 'r') as f:
+with open('scripts/templates/oversikt.j2.html', 'r') as f:
     template = Template(f.read(),undefined=StrictUndefined)
 
 html = template.render({ 'netteiere' : netteiere })
