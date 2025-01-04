@@ -48,7 +48,7 @@
         <dd>Oslo, Oslo</dd>
         -->
         <dt>Sist oppdatert</dt>
-        <dd>2024-11-24</dd>
+        <dd>2025-01-04</dd>
       </dl>
       <article>
         <header>❕Innsamlet på dugnad</header>
@@ -62,7 +62,7 @@
       </article>
       <h2>Tariff</h2>
       SuNett AS sin nåværende tariff for private husholdninger er gyldig fra
-      2024-04-01.
+      2025-01-01.
       <p></p>
 
       <p>Tariffen har vi samlet inn fra 2 kilder:</p>
@@ -86,7 +86,7 @@
 
         <dl>
           <dt>Gyldig fra</dt>
-          <dd>2024-04-01</dd>
+          <dd>2025-01-01</dd>
           <dt>Gyldig til</dt>
           <dd>-</dd>
         </dl>
@@ -127,20 +127,20 @@
 
             <tr>
               <td>0</td>
-              <td>1646.4</td>
-              <td>2058.0</td>
+              <td>1600</td>
+              <td>2000.0</td>
             </tr>
 
             <tr>
               <td>10</td>
-              <td>3292</td>
-              <td>4115.0</td>
+              <td>3200</td>
+              <td>4000.0</td>
             </tr>
 
             <tr>
               <td>63</td>
-              <td>6584.8</td>
-              <td>8231.0</td>
+              <td>6400</td>
+              <td>8000.0</td>
             </tr>
           </table>
         </article>
@@ -182,21 +182,21 @@
             standard (sommer) avgift.
           </p>
           <dl>
-            16.88
+            11.43
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            17.88
+            12.43
             <span
               data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            27.67
+            22.22
             <span
               data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            34.59
+            27.77
             <span data-tooltip="Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
             ><br />
@@ -207,30 +207,33 @@
             høylastperider som midt på dagen på en virkedag.
           </p>
 
-          <h6>Vinter</h6>
+          <h6>Høylast</h6>
           <p>Denne prisen gjelder for:</p>
           <dl>
             <dt>Måneder</dt>
             <dd>januar, februar, mars, april, november, desember</dd>
+
+            <dt>Timer</dt>
+            <dd>6-21</dd>
           </dl>
           <p>Du betaler</p>
 
           <dl>
-            19.28
+            13.75
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            20.28
+            14.75
             <span
               data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            30.07
+            24.54
             <span
               data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            37.59
+            30.67
             <span
               data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
@@ -248,7 +251,7 @@
   <!-- TODO norway bundle -->
   <script>
     const energiLedd = {
-      grunnpris: 16.88,
+      grunnpris: 11.43,
       unntak: [
         {
           måneder: [
@@ -259,8 +262,9 @@
             "november",
             "desember",
           ],
-          navn: "Vinter",
-          pris: 19.28,
+          navn: "Høylast",
+          pris: 13.75,
+          timer: "6-21",
         },
       ],
     };
