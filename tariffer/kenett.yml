@@ -67,6 +67,7 @@ tariffer:
         - navn: Ukedag
           timer: 6-21
           pris: 23
+          dager: [ukedag]
     gyldig_fra: '2025-01-01'
 kilder:
   - 'https://ke-nett.no/getfile.php/132265-1730883225/Dokumenter/Nettleige/Nettleigebrosjyre2024%20oktober.pdf'
