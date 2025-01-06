@@ -252,6 +252,9 @@
           <h6>Ukedag</h6>
           <p>Denne prisen gjelder for:</p>
           <dl>
+            <dt>Dager</dt>
+            <dd>ukedag</dd>
+
             <dt>Timer</dt>
             <dd>6-21</dd>
           </dl>
@@ -291,7 +294,7 @@
   <script>
     const energiLedd = {
       grunnpris: 11,
-      unntak: [{ navn: "Ukedag", pris: 23, timer: "6-21" }],
+      unntak: [{ dager: ["ukedag"], navn: "Ukedag", pris: 23, timer: "6-21" }],
     };
   </script>
   <script src="../assets/priceSignal.js"></script>
