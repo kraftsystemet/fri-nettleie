@@ -40,10 +40,10 @@ tariffer:
         - terskel: 63
           pris: 6400
     energiledd:
-      grunnpris: 11.43
+      grunnpris: 18.6
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 13.75
+          pris: 20.9
           måneder: [januar, februar, mars, april, november, desember]
     gyldig_fra: '2025-01-01'
