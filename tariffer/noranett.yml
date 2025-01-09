@@ -6,6 +6,7 @@ kilder:
   - 'https://www.noranett.no/nettleiepriser/category2415.html'
   - 'https://www.noranett.no/getfile.php/1323306-1704953748/Noranett/Filer/Nettleie%202024%20-%20H%C3%A5logaland%20pdf.pdf'
   - 'https://www.noranett.no/nettleiepriser/nettleiepriser-halogaland-fra-1-1-2024-article3870-2415.html'
+  - 'https://www.noranett.no/getfile.php/1326768-1736159212/Noranett/Filer/Kopi%20av%20Nettleie%202025%20-%20H%C3%A5logaland%20pdf.pdf'
 tariffer:
   - id: '2024'
     kundegruppe: privat
@@ -56,4 +57,55 @@ tariffer:
     energiledd:
       grunnpris: 0.8
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-01-01'
 sist_oppdatert: '2024-01-01'
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3720
+        - terskel: 2
+          pris: 5280
+        - terskel: 4
+          pris: 6360
+        - terskel: 6
+          pris: 7320
+        - terskel: 8
+          pris: 8160
+        - terskel: 10
+          pris: 9000
+        - terskel: 15
+          pris: 10680
+        - terskel: 20
+          pris: 14400
+        - terskel: 25
+          pris: 16800
+        - terskel: 30
+          pris: 20400
+        - terskel: 35
+          pris: 22800
+        - terskel: 40
+          pris: 25200
+        - terskel: 45
+          pris: 28800
+        - terskel: 50
+          pris: 43200
+        - terskel: 75
+          pris: 63600
+        - terskel: 100
+          pris: 85200
+        - terskel: 125
+          pris: 106800
+        - terskel: 150
+          pris: 128400
+        - terskel: 175
+          pris: 150000
+        - terskel: 200
+          pris: 213600
+    energiledd:
+      grunnpris: 0.8
+    gyldig_fra: '2025-01-01'
+sist_oppdatert: '2025-01-09'
