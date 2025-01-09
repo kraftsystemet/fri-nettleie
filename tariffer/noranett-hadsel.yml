@@ -6,6 +6,7 @@ sist_oppdatert: '2024-11-29'
 kilder:
   - 'https://www.noranett.no/nettleiepriser/category2415.html'
   - 'https://www.noranett.no/nettleiepriser/nettleiepriser-hadsel-fra-1-10-2024-article3982-2415.html'
+  - 'https://www.noranett.no/getfile.php/1326765-1736159200/Noranett/Filer/Kopi%20av%20Nettleie%202025%20-%20Hadsel%20pdf.pdf'
 tariffer:
   - id: 2024-01
     kundegruppe: privat
@@ -60,3 +61,57 @@ tariffer:
           timer: 6-21
           pris: 28.8
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - pris: 3240
+          terskel: 0
+        - pris: 4200
+          terskel: 2
+        - pris: 5040
+          terskel: 4
+        - pris: 5880
+          terskel: 6
+        - pris: 6720
+          terskel: 8
+        - pris: 7800
+          terskel: 10
+        - pris: 9840
+          terskel: 15
+        - pris: 11760
+          terskel: 20
+        - pris: 14040
+          terskel: 25
+        - pris: 15960
+          terskel: 30
+        - pris: 17880
+          terskel: 35
+        - pris: 19800
+          terskel: 40
+        - pris: 21840
+          terskel: 45
+        - pris: 27360
+          terskel: 50
+        - pris: 37080
+          terskel: 75
+        - pris: 47280
+          terskel: 100
+        - pris: 57720
+          terskel: 125
+        - pris: 68280
+          terskel: 150
+        - pris: 78720
+          terskel: 175
+        - pris: 89160
+          terskel: 200
+    energiledd:
+      grunnpris: 21.8
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 26.8
+    gyldig_fra: '2025-01-01'
