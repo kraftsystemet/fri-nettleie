@@ -1,0 +1,40 @@
+netteier: 'Bindal Kraftlag Nett'
+gln:
+  - '7080005055963'
+kilder:
+  - 'https://nett.bindalkraftlag.no/2024/12/30/nettleie-2025/'
+tariffer:
+  - id: 2025-1
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: false
+      terskler:
+        - terskel: 0
+          pris: 3168
+        - terskel: 5
+          pris: 4740
+        - terskel: 10
+          pris: 6960
+        - terskel: 15
+          pris: 8856
+        - terskel: 20
+          pris: 10752
+        - terskel: 25
+          pris: 12660
+        - terskel: 30
+          pris: 15816
+        - terskel: 50
+          pris: 25308
+        - terskel: 75
+          pris: 37968
+        - terskel: 100
+          pris: 47448
+    energiledd:
+      grunnpris: 21.3
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 26.3
+    gyldig_fra: '2025-01-01'
+sist_oppdatert: '2025-01-09'
