@@ -5,6 +5,7 @@ gln:
 kilder:
   - 'https://www.noranett.no/nettleiepriser/category2415.html'
   - 'https://www.noranett.no/nettleiepriser/nettleiepriser-andoy-fra-1-1-2024-article3871-2415.html'
+  - 'https://www.noranett.no/getfile.php/1326762-1736159187/Noranett/Filer/Kopi%20av%20Nettleie%202025%20-%20And%C3%B8y%20pdf.pdf'
 sist_oppdatert: '2024-11-29'
 tariffer:
   - id: 2024-01
@@ -56,3 +57,54 @@ tariffer:
     energiledd:
       grunnpris: 26.5
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-01-01'
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3720
+        - terskel: 2
+          pris: 4920
+        - terskel: 4
+          pris: 6240
+        - terskel: 6
+          pris: 7560
+        - terskel: 8
+          pris: 8760
+        - terskel: 10
+          pris: 11040
+        - terskel: 15
+          pris: 14160
+        - terskel: 20
+          pris: 17400
+        - terskel: 25
+          pris: 20400
+        - terskel: 30
+          pris: 23760
+        - terskel: 35
+          pris: 27120
+        - terskel: 40
+          pris: 30480
+        - terskel: 45
+          pris: 33960
+        - terskel: 50
+          pris: 43200
+        - terskel: 75
+          pris: 59400
+        - terskel: 100
+          pris: 76080
+        - terskel: 125
+          pris: 92760
+        - terskel: 150
+          pris: 109440
+        - terskel: 175
+          pris: 126240
+        - terskel: 200
+          pris: 142920
+    energiledd:
+      grunnpris: 21.2
+    gyldig_fra: '2025-01-01'
+
