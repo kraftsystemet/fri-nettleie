@@ -1,0 +1,42 @@
+netteier: 'Elmea AS Nett'
+gln:
+  - '7080005046442'
+sist_oppdatert: '2025-01-09'
+kilder:
+  - 'https://www.elmea.no/nettleiepriser/'
+tariffer:
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3924
+        - terskel: 2
+          pris: 5868
+        - terskel: 5
+          pris: 8964
+        - terskel: 10
+          pris: 12840
+        - terskel: 15
+          pris: 16704
+        - terskel: 20
+          pris: 20580
+        - terskel: 25
+          pris: 8196
+        - terskel: 50
+          pris: 51564
+        - terskel: 75
+          pris: 70932
+        - terskel: 100
+          pris: 138696
+        - terskel: 200
+          pris: 293616
+    energiledd:
+      grunnpris: 25.6
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 37.9
+    gyldig_fra: '2025-01-01'
