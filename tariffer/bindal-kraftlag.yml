@@ -2,6 +2,7 @@ netteier: 'Bindal Kraftlag Nett'
 gln:
   - '7080005055963'
 kilder:
+  - 'https://nett.bindalkraftlag.no/nett/priser/'
   - 'https://nett.bindalkraftlag.no/2024/12/30/nettleie-2025/'
 tariffer:
   - id: 2025-1
