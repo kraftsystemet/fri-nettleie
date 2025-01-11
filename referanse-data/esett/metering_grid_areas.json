@@ -1811,16 +1811,6 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080004062702",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "SkiakerNett AS",
-        "mba": "NO3",
-        "mgaCode": "50YL7BHE5AXXBJUY",
-        "mgaName": "SKJÅK1",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
         "dsoCode": "7080004399877",
         "dsoCodingScheme": "GS1",
         "dsoName": "Smisto Kraft AS",
@@ -3026,7 +3016,17 @@
         "dsoName": "Vevig AS",
         "mba": "NO1",
         "mgaCode": "50YTXA640FCP5KPV",
-        "mgaName": "GE1",
+        "mgaName": "VEVIG1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080003807946",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Vevig AS",
+        "mba": "NO3",
+        "mgaCode": "50YL7BHE5AXXBJUY",
+        "mgaName": "VEVIG2",
         "mgaType": "DISTRIBUTION"
     },
     {
