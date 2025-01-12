@@ -40,7 +40,7 @@ tariffer:
     id: 2024-02-n100
     kundegruppe: privat
     gyldig_til: '2025-01-01'
-  - id: 2024-01
+  - id: 2025-01
     kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
