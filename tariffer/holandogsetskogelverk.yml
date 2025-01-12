@@ -6,6 +6,7 @@ sist_oppdatert: '2024-12-08'
 kilder:
   - 'https://hsev.no/nettleie'
   - 'https://hsev.no/uploads/2024-09-09-HSEV-nettleie-n%C3%A6ring-med-forbruk-mindre-enn-100-000-kWh-1-oktober-2024.pdf'
+  - 'https://hsev.no/uploads/2025-02-08-HSEV-nettleie-privatkunder-1-februar-2025.pdf'
 tariffer:
   - id: 2024-10-privat
     kundegruppe: privat
@@ -41,3 +42,38 @@ tariffer:
           pris: 25
           dager: [virkedag]
     gyldig_fra: '2024-10-01'
+    gyldig_til: '2025-02-01'
+  - id: 2025-02-privat
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2016
+        - terskel: 2
+          pris: 2400
+        - terskel: 5
+          pris: 3744
+        - terskel: 10
+          pris: 4320
+        - terskel: 15
+          pris: 5760
+        - terskel: 20
+          pris: 6720
+        - terskel: 25
+          pris: 14400
+        - terskel: 50
+          pris: 22080
+        - terskel: 75
+          pris: 28800
+        - terskel: 100
+          pris: 57600
+    energiledd:
+      grunnpris: 21.5
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          pris: 26.5
+          dager: [virkedag]
+    gyldig_fra: '2025-02-01'
