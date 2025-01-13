@@ -1,0 +1,46 @@
+---
+netteier: 'Romsdalsnett AS'
+gln:
+  - '7080010005427'
+kilder:
+  - 'https://www.romsdalsnettas.no/nettleie#block-65b22d41f1b4d4addd134ddf'
+  - 'https://static1.squarespace.com/static/620bcff88341485206072068/t/6503f82f34f76d4e1c61a97a/1694758959517/Tariff+01102023+v1.pdf'
+sist_oppdatert: '2025-01-13'
+tariffer:
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2364
+        - terskel: 2
+          pris: 2952
+        - terskel: 5
+          pris: 3540
+        - terskel: 10
+          pris: 5904
+        - terskel: 15
+          pris: 8268
+        - terskel: 20
+          pris: 9456
+        - terskel: 25
+          pris: 12996
+        - terskel: 50
+          pris: 17724
+        - terskel: 75
+          pris: 20088
+        - terskel: 100
+          pris: 23640
+    energiledd:
+      grunnpris: 14.82
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 24.82
+        - navn: Helg
+          timer: 6-21
+          dager: [helg]
+          pris: 14.82
+    gyldig_fra: '2025-01-01'
