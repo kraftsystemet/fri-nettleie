@@ -35,7 +35,7 @@ tariffer:
           pris: 23640
     energiledd:
       grunnpris: 14.82
-             unntak:
+      unntak:
         - navn: Ukedager
           timer: 6-21
           pris: 24.82

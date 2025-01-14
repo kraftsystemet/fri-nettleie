@@ -309,9 +309,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 65 av 77 netteiere 🥳!
+Vi har samlet data for 67 av 77 netteiere 🥳!
 
-Dette dekker ~97.2% (2557439 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~97.6% (2570014 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -546,12 +546,14 @@ Dette dekker ~97.2% (2557439 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Føre AS</td>
+  <td>Føre AS ✅</td>
   <td>7080010003836</td>
   <td><em>8841</em></td>
-  <td></td>
+  <td><code>2025-01-13</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4cmUgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDAzODM2Il19' title='Samle inn data for Føre AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJGXHUwMGY4cmUgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDAzODM2Il0sICJraWxkZXIiOiBbImh0dHBzOi8vZm9lcmUubmV0L25ldHRsZWllLyJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNS0wMS0xMyIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjUtMSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IGZhbHNlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAzMTU2fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiA0MTA0fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA1MDUyfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjAwMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDY5NDh9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMzI2MH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE5NTcyfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjU4ODR9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzMjE5Nn0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiAzODUwOH0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiA0NDgyMH0sIHsidGVyc2tlbCI6IDIwMCwgInByaXMiOiA0MjYxfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTkuMjl9LCAiZ3lsZGlnX2ZyYSI6ICIyMDI1LTAxLTAxIn1dfQ==' title='Samle inn data for Føre AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/foere.html" title="Se på tariffen for Føre AS" target="_blank">🔍</a>
+    <a href="./tariffer/foere.yml" title="Se dataene for Føre AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
@@ -918,12 +920,14 @@ Dette dekker ~97.2% (2557439 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Romsdalsnett AS</td>
+  <td>Romsdalsnett AS ✅</td>
   <td>7080010005427</td>
   <td><em>3734</em></td>
-  <td></td>
+  <td><code>2025-01-13</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSb21zZGFsc25ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDA1NDI3Il19' title='Samle inn data for Romsdalsnett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSb21zZGFsc25ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDEwMDA1NDI3Il0sICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LnJvbXNkYWxzbmV0dGFzLm5vL25ldHRsZWllI2Jsb2NrLTY1YjIyZDQxZjFiNGQ0YWRkZDEzNGRkZiIsICJodHRwczovL3N0YXRpYzEuc3F1YXJlc3BhY2UuY29tL3N0YXRpYy82MjBiY2ZmODgzNDE0ODUyMDYwNzIwNjgvdC82NTAzZjgyZjM0Zjc2ZDRlMWM2MWE5N2EvMTY5NDc1ODk1OTUxNy9UYXJpZmYrMDExMDIwMjMrdjEucGRmIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI1LTAxLTEzIiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNS0wMSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDIzNjR9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDI5NTJ9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDM1NDB9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA1OTA0fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogODI2OH0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDk0NTZ9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxMjk5Nn0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDE3NzI0fSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMjAwODh9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogMjM2NDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNC44MiwgInVubnRhayI6IFt7Im5hdm4iOiAiVWtlZGFnZXIiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjQuODIsICJkYWdlciI6IFsidWtlZGFnIl19XX0sICJneWxkaWdfZnJhIjogIjIwMjUtMDEtMDEifV19' title='Samle inn data for Romsdalsnett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/romsdalsnett.html" title="Se på tariffen for Romsdalsnett AS" target="_blank">🔍</a>
+    <a href="./tariffer/romsdalsnett.yml" title="Se dataene for Romsdalsnett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
