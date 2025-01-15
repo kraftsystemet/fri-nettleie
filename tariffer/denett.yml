@@ -40,7 +40,16 @@ tariffer:
     energiledd:
       grunnpris: 21.15
       unntak:
-        - navn: Høylast
+        - navn: 'Sommer dag'
           timer: 6-21
           pris: 24.15
+          måneder: [april, mai, juni, juli, august, september]
+        - navn: 'Vinter dag'
+          timer: 6-21
+          måneder: [januar, februar, mars, oktober, november, desember]
+          pris: 28.35
+        - navn: 'Vinter natt'
+          timer: 22-5
+          måneder: [januar, februar, mars, oktober, november, desember]
+          pris: 25.35
     gyldig_fra: '2025-01-01'
