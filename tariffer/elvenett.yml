@@ -1,0 +1,36 @@
+---
+netteier: 'Elvenett AS'
+gln:
+  - '7080005052917'
+sist_oppdatert: '2025-01-15'
+kilder:
+  - 'https://www.elvenett.no/priser-og-avtaler/'
+  - 'https://www.elvenett.no/media/z0onennj/nye-priser-privat-01012025_kun-fob.pdf'
+tariffer:
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: false
+      terskler:
+        - terskel: 0
+          pris: 2931
+        - terskel: 2
+          pris: 3518
+        - terskel: 5
+          pris: 3811
+        - terskel: 10
+          pris: 4104
+        - terskel: 15
+          pris: 4397
+        - terskel: 20
+          pris: 5130
+        - terskel: 25
+          pris: 5569
+    energiledd:
+      grunnpris: 19.5
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 24.5
+    gyldig_fra: '2025-01-01'

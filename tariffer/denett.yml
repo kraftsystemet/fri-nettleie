@@ -1,0 +1,46 @@
+---
+netteier: 'DE Nett AS'
+gln:
+  - '7080010003614'
+sist_oppdatert: '2025-01-15'
+kilder:
+  - 'https://denett.no/priser-tariffer'
+  - 'https://denett.no/uploads/Nettleietariffer-fra-01.01.2025.pdf'
+tariffer:
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3120
+        - terskel: 2
+          pris: 4020
+        - terskel: 5
+          pris: 4920
+        - terskel: 10
+          pris: 6780
+        - terskel: 15
+          pris: 8580
+        - terskel: 20
+          pris: 10440
+        - terskel: 25
+          pris: 15840
+        - terskel: 50
+          pris: 24960
+        - terskel: 75
+          pris: 34080
+        - terskel: 100
+          pris: 48000
+        - terskel: 150
+          pris: 66000
+        - terskel: 200
+          pris: 93300
+    energiledd:
+      grunnpris: 21.15
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 24.15
+    gyldig_fra: '2025-01-01'
