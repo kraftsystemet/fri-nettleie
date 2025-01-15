@@ -1,0 +1,43 @@
+---
+netteier: 'Enida AS'
+gln:
+  - '7080003871534'
+sist_oppdatert: '2025-01-15'
+kilder:
+  - 'https://enida.no/strompris'
+  - 'https://enida.no/uploads/Tariffer-fra-1.jan-2024.pdf'
+tariffer:
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2784
+        - terskel: 2
+          pris: 3360
+        - terskel: 5
+          pris: 4560
+        - terskel: 10
+          pris: 5460
+        - terskel: 15
+          pris: 6516
+        - terskel: 20
+          pris: 7584
+        - terskel: 25
+          pris: 12000
+        - terskel: 50
+          pris: 18000
+        - terskel: 75
+          pris: 24000
+        - terskel: 100
+          pris: 48000
+    energiledd:
+      grunnpris: 16
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 22
+          dager: [ukedag]
+    gyldig_fra: '2024-01-01'
