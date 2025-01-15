@@ -1,0 +1,39 @@
+---
+netteier: 'Røros E-verk Nett AS'
+gln:
+  - '7080003947932'
+sist_oppdatert: '2025-01-15'
+kilder:
+  - 'https://revnett.no/index.php/nettlei/nettleie-fra-1-januar-under-100-000'
+tariffer:
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3408
+        - terskel: 5
+          pris: 4944
+        - terskel: 10
+          pris: 6924
+        - terskel: 15
+          pris: 9612
+        - terskel: 20
+          pris: 12468
+        - terskel: 25
+          pris: 23700
+        - terskel: 50
+          pris: 43464
+        - terskel: 100
+          pris: 78456
+        - terskel: 200
+          pris: 120744
+    energiledd:
+      grunnpris: 14.4
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 20.8
+    gyldig_fra: '2024-01-01'

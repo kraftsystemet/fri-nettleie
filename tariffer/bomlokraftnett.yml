@@ -1,0 +1,42 @@
+---
+netteier: 'Bømlo Kraftnett AS'
+gln:
+  - '7080010002327'
+kilder:
+  - 'https://nett.finnas-kraftlag.no/nettleige-og-vilkar/category1618.html'
+  - 'https://nett.finnas-kraftlag.no/getfile.php/139292-1734615691/Filer/NETT/Tariffar/Tariffar%20B%C3%B8mlo%20Kraftnett%20AS%20gjeldande%20fr%C3%A5%2001.01.25%20Etter%20RME%20endring%281%29.pdf'
+sist_oppdatert: '2025-01-15'
+tariffer:
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1920
+        - terskel: 2
+          pris: 2880
+        - terskel: 5
+          pris: 3840
+        - terskel: 10
+          pris: 4800
+        - terskel: 15
+          pris: 6240
+        - terskel: 20
+          pris: 7680
+        - terskel: 25
+          pris: 19200
+        - terskel: 50
+          pris: 28800
+        - terskel: 75
+          pris: 38400
+        - terskel: 100
+          pris: 48000
+    energiledd:
+      grunnpris: 26.064
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 31.064
+    gyldig_fra: '2025-01-01'
