@@ -7,7 +7,7 @@ kilder:
   - 'https://etna.no/uploads/Kunde-og-nettleie/NETTLEIEPRISER-GJELDENE-FRA-1-MARS-2024.pdf'
   - 'https://etna.no/om-nettleie'
 tariffer:
-  - id: 2025-01
+  - id: 2024-03
     kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
@@ -26,9 +26,10 @@ tariffer:
         - terskel: 20
           pris: 12000
     energiledd:
-      grunnpris: 7.742
+      grunnpris: 15.16
       unntak:
-        - navn: Høylast
+        - navn: Virkedag
           timer: 6-21
-          pris: 13.742
+          pris: 21.16
+          dager: [virkedag]
     gyldig_fra: '2024-03-01'
