@@ -309,9 +309,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 67 av 77 netteiere 🥳!
+Vi har samlet data for 76 av 77 netteiere 🥳!
 
-Dette dekker ~97.6% (2570014 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~99.8% (2627490 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -333,12 +333,14 @@ Dette dekker ~97.6% (2570014 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Area Nett AS</td>
+  <td>Area Nett AS ✅</td>
   <td>7080004087071</td>
   <td><em>4814**</em></td>
-  <td></td>
+  <td><code>2025-01-14</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcmVhIE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDA0MDg3MDcxIl19' title='Samle inn data for Area Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJBcmVhIE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDA0MDg3MDcxIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI1LTAxLTE0IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cuYXJlYS5uby9rdW5kZS1vZy1uZXR0bGVpZS9wcmlzZXItb2ctbmV0dGxlaWUvIiwgImh0dHBzOi8vd3d3LmFyZWEubm8vZ2V0ZmlsZS5waHAvMTMxMzE5LTE3MzQ1MjUxMjEvRmlsZXIvUFJJU0JMQUQlMjBUQVJJRkZFUiUyMDIwMjUucGRmIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogImdhbWxlLW5ldHRpbm9yZCIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDYzMDB9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDY2MTV9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDcyNDV9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiAxMDA4MH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDEyMTQwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTQwMzB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxNzE4MH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI2Ljg5LCAidW5udGFrIjogW3sibmF2biI6ICJMYXZsYXN0IHNvbW1lciIsICJ0aW1lciI6ICIyMi01IiwgInByaXMiOiAyNC44OSwgIm1cdTAwZTVuZWRlciI6IFsiYXByaWwiLCAibWFpIiwgImp1bmkiLCAianVsaSIsICJhdWd1c3QiLCAic2VwdGVtYmVyIiwgIm9rdG9iZXIiLCAibm92ZW1iZXIiLCAiZGVzZW1iZXIiXX0sIHsibmF2biI6ICJIXHUwMGY4eWxhc3QgdmludGVyIiwgInRpbWVyIjogIjYtMjEiLCAibVx1MDBlNW5lZGVyIjogWyJqYW51YXIiLCAiZmVicnVhciIsICJtYXJzIl0sICJwcmlzIjogMjkuODl9XX0sICJneWxkaWdfZnJhIjogIjIwMjUtMDEtMDEifSwgeyJpZCI6ICJnYW1sZS1sZWdhIiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzMwMH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogNDI5MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNTI4MH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDg1ODB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiAxMDA2NX0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDExODgwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTMyMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAyMS4zLCAidW5udGFrIjogW3sibmF2biI6ICJMYXZsYXN0IC0gc29tbWVyIiwgInRpbWVyIjogIjIyLTUiLCAicHJpcyI6IDE5LjMsICJtXHUwMGU1bmVkZXIiOiBbImFwcmlsIiwgIm1haSIsICJqdW5pIiwgImp1bGkiLCAiYXVndXN0IiwgInNlcHRlbWJlciIsICJva3RvYmVyIiwgIm5vdmVtYmVyIiwgImRlc2VtYmVyIl19LCB7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IC0gdmludGVyIiwgInRpbWVyIjogIjYtMjEiLCAibVx1MDBlNW5lZGVyIjogWyJqYW51YXIiLCAiZmVicnVhciIsICJtYXJzIl0sICJwcmlzIjogMjQuM31dfSwgImd5bGRpZ19mcmEiOiAiMjAyNS0wMS0wMSJ9LCB7ImlkIjogImdhbWxlLWx1b3N0ZWpvayIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDM5MDB9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDY1NTJ9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDg1ODB9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiAxMDc2NH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDEyNDgwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTQ1MDh9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyNDY0OH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI2Ljg5LCAidW5udGFrIjogW3sibmF2biI6ICJMYXZsYXN0IC0gc29tbWVyIiwgInRpbWVyIjogIjIyLTUiLCAicHJpcyI6IDIzLjg5LCAibVx1MDBlNW5lZGVyIjogWyJhcHJpbCIsICJtYWkiLCAianVuaSIsICJqdWxpIiwgImF1Z3VzdCIsICJzZXB0ZW1iZXIiLCAib2t0b2JlciIsICJub3ZlbWJlciIsICJkZXNlbWJlciJdfSwgeyJuYXZuIjogIkhcdTAwZjh5bGFzdCAtIHZpbnRlciIsICJ0aW1lciI6ICI2LTIxIiwgIm1cdTAwZTVuZWRlciI6IFsiamFudWFyIiwgImZlYnJ1YXIiLCAibWFycyJdLCAicHJpcyI6IDI5Ljg5fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI1LTAxLTAxIn1dfQ==' title='Samle inn data for Area Nett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/areanett.html" title="Se på tariffen for Area Nett AS" target="_blank">🔍</a>
+    <a href="./tariffer/areanett.yml" title="Se dataene for Area Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
@@ -386,12 +388,14 @@ Dette dekker ~97.6% (2570014 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Barents Nett AS</td>
+  <td>Barents Nett AS ✅</td>
   <td>7080005051934</td>
   <td><em>7925</em></td>
-  <td></td>
+  <td><code>2025-01-15</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCYXJlbnRzIE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDUxOTM0Il19' title='Samle inn data for Barents Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCYXJlbnRzIE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDUxOTM0Il0sICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmJhcmVudHMtbmV0dC5uby9rdW5kZXNlcnZpY2UvbmV0dC1vZy1uZXR0bGVpZS8iLCAiaHR0cHM6Ly93d3cuYmFyZW50cy1uZXR0Lm5vL2dldGZpbGUucGhwLzEzMTI2OTQtMTczNDQzNDY0OS9Eb2t1bWVudGVyL05ldHQvTmV0dGxlaWVicm9zanlyZSUyMDAxLjAxLjIwMjUlMjAlMjgwMDIlMjkucGRmIl0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI1LTAxLTE1IiwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNS0wMSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDcyMjR9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDc5NDR9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDg2NjR9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA5Mzg0fSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogMTA4MzZ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMzAwOH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDEzLjF9LCAiZ3lsZGlnX2ZyYSI6ICIyMDI1LTAxLTAxIn1dfQ==' title='Samle inn data for Barents Nett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/barentsnett.html" title="Se på tariffen for Barents Nett AS" target="_blank">🔍</a>
+    <a href="./tariffer/barentsnett.yml" title="Se dataene for Barents Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
@@ -406,30 +410,36 @@ Dette dekker ~97.6% (2570014 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Breheim Nett</td>
+  <td>Breheim Nett ✅</td>
   <td>7080010010919</td>
   <td><em>4814**</em></td>
-  <td></td>
+  <td><code>2025-01-15</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCcmVoZWltIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDEwMDEwOTE5Il19' title='Samle inn data for Breheim Nett' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCcmVoZWltIE5ldHQiLCAiZ2xuIjogWyI3MDgwMDEwMDEwOTE5Il0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI1LTAxLTE1IiwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cuYnJlaGVpbW5ldHQubm8vdmFyZS10YXJpZmZhcjIwMjUiLCAiaHR0cHM6Ly93d3cuYnJlaGVpbW5ldHQubm8vbmV0dGxlaWdlLWZvci1rdW5kYXItdW5kZXItMTAwLTAwMC1rd2gtaS1hcnNmb3JicnVrMjAyNSJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI1LTAxIiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMjE2MH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDMyMH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDY0ODB9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA4NjQwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTA5MjQuOH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDIxNzI0Ljh9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzMjY0MH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDQzNTY0Ljh9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNjUyODB9LCB7InRlcnNrZWwiOiAxNTAsICJwcmlzIjogODcxMjB9LCB7InRlcnNrZWwiOiAyMDAsICJwcmlzIjogMTMwNjg0Ljh9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiA2LjUwMiwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDE0LjUwMn1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNS0wMS0wMSJ9XX0=' title='Samle inn data for Breheim Nett' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/breheimnett.html" title="Se på tariffen for Breheim Nett" target="_blank">🔍</a>
+    <a href="./tariffer/breheimnett.yml" title="Se dataene for Breheim Nett i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
-  <td>Bømlo Kraftnett AS</td>
+  <td>Bømlo Kraftnett AS ✅</td>
   <td>7080010002327</td>
   <td><em>4814**</em></td>
-  <td></td>
+  <td><code>2025-01-15</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCXHUwMGY4bWxvIEtyYWZ0bmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDIzMjciXX0=' title='Samle inn data for Bømlo Kraftnett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJCXHUwMGY4bWxvIEtyYWZ0bmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMTAwMDIzMjciXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9uZXR0LmZpbm5hcy1rcmFmdGxhZy5uby9uZXR0bGVpZ2Utb2ctdmlsa2FyL2NhdGVnb3J5MTYxOC5odG1sIiwgImh0dHBzOi8vbmV0dC5maW5uYXMta3JhZnRsYWcubm8vZ2V0ZmlsZS5waHAvMTM5MjkyLTE3MzQ2MTU2OTEvRmlsZXIvTkVUVC9UYXJpZmZhci9UYXJpZmZhciUyMEIlQzMlQjhtbG8lMjBLcmFmdG5ldHQlMjBBUyUyMGdqZWxkYW5kZSUyMGZyJUMzJUE1JTIwMDEuMDEuMjUlMjBFdHRlciUyMFJNRSUyMGVuZHJpbmclMjgxJTI5LnBkZiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNS0wMS0xNSIsICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjUtMDEiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAxOTIwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyODgwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzODQwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNDgwMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDYyNDB9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3NjgwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTkyMDB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAyODgwMH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDM4NDAwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDQ4MDAwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMjYuMDY0LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMzEuMDY0fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI1LTAxLTAxIn1dfQ==' title='Samle inn data for Bømlo Kraftnett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/bomlokraftnett.html" title="Se på tariffen for Bømlo Kraftnett AS" target="_blank">🔍</a>
+    <a href="./tariffer/bomlokraftnett.yml" title="Se dataene for Bømlo Kraftnett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
-  <td>DE Nett AS</td>
+  <td>DE Nett AS ✅</td>
   <td>7080010003614</td>
   <td><em>4814**</em></td>
-  <td></td>
+  <td><code>2025-01-15</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJERSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzYxNCJdfQ==' title='Samle inn data for DE Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJERSBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMzYxNCJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNS0wMS0xNSIsICJraWxkZXIiOiBbImh0dHBzOi8vZGVuZXR0Lm5vL3ByaXNlci10YXJpZmZlciIsICJodHRwczovL2RlbmV0dC5uby91cGxvYWRzL05ldHRsZWlldGFyaWZmZXItZnJhLTAxLjAxLjIwMjUucGRmIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjUtMDEiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAzMTIwfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiA0MDIwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0OTIwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjc4MH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg1ODB9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMDQ0MH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE1ODQwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjQ5NjB9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzNDA4MH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA0ODAwMH0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiA2NjAwMH0sIHsidGVyc2tlbCI6IDIwMCwgInByaXMiOiA5MzMwMH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDIxLjE1LCAidW5udGFrIjogW3sibmF2biI6ICJTb21tZXIgZGFnIiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDI0LjE1LCAibVx1MDBlNW5lZGVyIjogWyJhcHJpbCIsICJtYWkiLCAianVuaSIsICJqdWxpIiwgImF1Z3VzdCIsICJzZXB0ZW1iZXIiXX0sIHsibmF2biI6ICJWaW50ZXIgZGFnIiwgInRpbWVyIjogIjYtMjEiLCAibVx1MDBlNW5lZGVyIjogWyJqYW51YXIiLCAiZmVicnVhciIsICJtYXJzIiwgIm9rdG9iZXIiLCAibm92ZW1iZXIiLCAiZGVzZW1iZXIiXSwgInByaXMiOiAyOC4zNX0sIHsibmF2biI6ICJWaW50ZXIgbmF0dCIsICJ0aW1lciI6ICIyMi01IiwgIm1cdTAwZTVuZWRlciI6IFsiamFudWFyIiwgImZlYnJ1YXIiLCAibWFycyIsICJva3RvYmVyIiwgIm5vdmVtYmVyIiwgImRlc2VtYmVyIl0sICJwcmlzIjogMjUuMzV9XX0sICJneWxkaWdfZnJhIjogIjIwMjUtMDEtMDEifV19' title='Samle inn data for DE Nett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/denett.html" title="Se på tariffen for DE Nett AS" target="_blank">🔍</a>
+    <a href="./tariffer/denett.yml" title="Se dataene for DE Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
@@ -455,12 +465,14 @@ Dette dekker ~97.6% (2570014 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Elvenett AS</td>
+  <td>Elvenett AS ✅</td>
   <td>7080005052917</td>
   <td><em>9694</em></td>
-  <td></td>
+  <td><code>2025-01-15</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbHZlbmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTI5MTciXX0=' title='Samle inn data for Elvenett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbHZlbmV0dCBBUyIsICJnbG4iOiBbIjcwODAwMDUwNTI5MTciXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjUtMDEtMTUiLCAia2lsZGVyIjogWyJodHRwczovL3d3dy5lbHZlbmV0dC5uby9wcmlzZXItb2ctYXZ0YWxlci8iLCAiaHR0cHM6Ly93d3cuZWx2ZW5ldHQubm8vbWVkaWEvejBvbmVubmovbnllLXByaXNlci1wcml2YXQtMDEwMTIwMjVfa3VuLWZvYi5wZGYiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNS0wMSIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IGZhbHNlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyOTMxfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzNTE4fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzODExfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNDEwNH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDQzOTd9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA1MTMwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogNTU2OX1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDE5LjUsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyNC41fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI1LTAxLTAxIn1dfQ==' title='Samle inn data for Elvenett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/elvenett.html" title="Se på tariffen for Elvenett AS" target="_blank">🔍</a>
+    <a href="./tariffer/elvenett.yml" title="Se dataene for Elvenett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
@@ -475,21 +487,25 @@ Dette dekker ~97.6% (2570014 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Enida AS</td>
+  <td>Enida AS ✅</td>
   <td>7080003871534</td>
   <td><em>10973</em></td>
-  <td></td>
+  <td><code>2025-01-15</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbmlkYSBBUyIsICJnbG4iOiBbIjcwODAwMDM4NzE1MzQiXX0=' title='Samle inn data for Enida AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFbmlkYSBBUyIsICJnbG4iOiBbIjcwODAwMDM4NzE1MzQiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjUtMDEtMTUiLCAia2lsZGVyIjogWyJodHRwczovL2VuaWRhLm5vL3N0cm9tcHJpcyIsICJodHRwczovL2VuaWRhLm5vL3VwbG9hZHMvVGFyaWZmZXItZnJhLTEuamFuLTIwMjQucGRmIl0sICJ0YXJpZmZlciI6IFt7ImlkIjogIjIwMjUtMDEiLCAia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAyNzg0fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzMzYwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0NTYwfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNTQ2MH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDY1MTZ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3NTg0fSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTIwMDB9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAxODAwMH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDI0MDAwfSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDQ4MDAwfV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyMiwgImRhZ2VyIjogWyJ1a2VkYWciXX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wMS0wMSJ9XX0=' title='Samle inn data for Enida AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/enida.html" title="Se på tariffen for Enida AS" target="_blank">🔍</a>
+    <a href="./tariffer/enida.yml" title="Se dataene for Enida AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
-  <td>Etna Nett AS</td>
+  <td>Etna Nett AS ✅</td>
   <td>7080005046404</td>
   <td><em>4814**</em></td>
-  <td></td>
+  <td><code>2025-01-15</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdG5hIE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDQ2NDA0Il19' title='Samle inn data for Etna Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdG5hIE5ldHQgQVMiLCAiZ2xuIjogWyI3MDgwMDA1MDQ2NDA0Il0sICJzaXN0X29wcGRhdGVydCI6ICIyMDI1LTAxLTE1IiwgImtpbGRlciI6IFsiaHR0cHM6Ly9ldG5hLm5vL3VwbG9hZHMvS3VuZGUtb2ctbmV0dGxlaWUvTkVUVExFSUVQUklTRVItR0pFTERFTkUtRlJBLTEtTUFSUy0yMDI0LnBkZiIsICJodHRwczovL2V0bmEubm8vb20tbmV0dGxlaWUiXSwgInRhcmlmZmVyIjogW3siaWQiOiAiMjAyNC0wMyIsICJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDI2NDB9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDM5NjB9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDUxNjB9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA2MzYwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogMTAyMDB9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMjAwMH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDE1LjE2LCAidW5udGFrIjogW3sibmF2biI6ICJWaXJrZWRhZyIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyMS4xNiwgImRhZ2VyIjogWyJ2aXJrZWRhZyJdfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAzLTAxIn1dfQ==' title='Samle inn data for Etna Nett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/etnanett.html" title="Se på tariffen for Etna Nett AS" target="_blank">🔍</a>
+    <a href="./tariffer/etnanett.yml" title="Se dataene for Etna Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
@@ -931,12 +947,14 @@ Dette dekker ~97.6% (2570014 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Røros E-verk Nett AS</td>
+  <td>Røros E-verk Nett AS ✅</td>
   <td>7080003947932</td>
   <td><em>4814**</em></td>
-  <td></td>
+  <td><code>2025-01-15</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSXHUwMGY4cm9zIEUtdmVyayBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwMzk0NzkzMiJdfQ==' title='Samle inn data for Røros E-verk Nett AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJSXHUwMGY4cm9zIEUtdmVyayBOZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwMzk0NzkzMiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNS0wMS0xNSIsICJraWxkZXIiOiBbImh0dHBzOi8vcmV2bmV0dC5uby9pbmRleC5waHAvbmV0dGxlaS9uZXR0bGVpZS1mcmEtMS1qYW51YXItdW5kZXItMTAwLTAwMCJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI1LTAxIiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzQwOH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDk0NH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDY5MjR9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA5NjEyfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTI0Njh9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAyMzcwMH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDQzNDY0fSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDc4NDU2fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDEyMDc0NH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDE0LjQsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyMC44fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIn1dfQ==' title='Samle inn data for Røros E-verk Nett AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/roros-everk.html" title="Se på tariffen for Røros E-verk Nett AS" target="_blank">🔍</a>
+    <a href="./tariffer/roros-everk.yml" title="Se dataene for Røros E-verk Nett AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
