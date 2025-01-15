@@ -1,0 +1,30 @@
+---
+netteier: 'Barents Nett AS'
+gln:
+  - '7080005051934'
+kilder:
+  - 'https://www.barents-nett.no/kundeservice/nett-og-nettleie/'
+  - 'https://www.barents-nett.no/getfile.php/1312694-1734434649/Dokumenter/Nett/Nettleiebrosjyre%2001.01.2025%20%28002%29.pdf'
+sist_oppdatert: '2025-01-15'
+tariffer:
+  - id: 2025-01
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 7224
+        - terskel: 2
+          pris: 7944
+        - terskel: 5
+          pris: 8664
+        - terskel: 10
+          pris: 9384
+        - terskel: 15
+          pris: 10836
+        - terskel: 20
+          pris: 13008
+    energiledd:
+      grunnpris: 13.1
+    gyldig_fra: '2025-01-01'

@@ -1,0 +1,35 @@
+---
+netteier: 'Etna Nett AS'
+gln:
+  - '7080005046404'
+sist_oppdatert: '2025-01-15'
+kilder:
+  - 'https://etna.no/uploads/Kunde-og-nettleie/NETTLEIEPRISER-GJELDENE-FRA-1-MARS-2024.pdf'
+  - 'https://etna.no/om-nettleie'
+tariffer:
+  - id: 2024-03
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2640
+        - terskel: 2
+          pris: 3960
+        - terskel: 5
+          pris: 5160
+        - terskel: 10
+          pris: 6360
+        - terskel: 15
+          pris: 10200
+        - terskel: 20
+          pris: 12000
+    energiledd:
+      grunnpris: 15.16
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          pris: 21.16
+          dager: [virkedag]
+    gyldig_fra: '2024-03-01'
