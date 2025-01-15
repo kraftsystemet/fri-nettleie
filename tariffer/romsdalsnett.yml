@@ -36,11 +36,8 @@ tariffer:
     energiledd:
       grunnpris: 14.82
       unntak:
-        - navn: Høylast
+        - navn: Ukedager
           timer: 6-21
           pris: 24.82
-        - navn: Helg
-          timer: 6-21
-          dager: [helg]
-          pris: 14.82
+          dager: [ukedag]
     gyldig_fra: '2025-01-01'
