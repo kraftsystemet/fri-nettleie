@@ -309,9 +309,9 @@ autoritativ kilde.
 
 <!-- statusstart -->
 
-Vi har samlet data for 76 av 77 netteiere 🥳!
+Vi har samlet data for 77 av 77 netteiere 🥳!
 
-Dette dekker ~99.8% (2627490 av 2632326) av private husholdninger* 🎉.
+Dette dekker ~100.0% (2632304 av 2632326) av private husholdninger* 🎉.
 
 <table>
     <tr>
@@ -509,12 +509,14 @@ Dette dekker ~99.8% (2627490 av 2632326) av private husholdninger* 🎉.
   </td>
 </tr>
 <tr>
-  <td>Everket AS</td>
+  <td>Everket AS ✅</td>
   <td>7080005052825</td>
   <td><em>4814**</em></td>
-  <td></td>
+  <td><code>2025-01-16</code></td>
   <td>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdmVya2V0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA1MjgyNSJdfQ==' title='Samle inn data for Everket AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJFdmVya2V0IEFTIiwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjUtMDEtMTYiLCAiZ2xuIjogWyI3MDgwMDA1MDUyODI1Il0sICJraWxkZXIiOiBbImh0dHBzOi8vZXZlcmtldC1ub3RvZGRlbi5uby93cC1jb250ZW50L3VwbG9hZHMvMjAyMy8xMi8yNDAxMDEtTmV0dGxlaWUtRXZlcmtldC5wZGYiLCAiaHR0cHM6Ly9ldmVya2V0LW5vdG9kZGVuLm5vL2t1bmRlLyNuZXR0bGVpZSJdLCAidGFyaWZmZXIiOiBbeyJpZCI6ICIyMDI0LTAxIiwgImt1bmRlZ3J1cHBlIjogInByaXZhdCIsICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMzI2NH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogNDEyOH0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDk5Mn0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDYwNDh9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA3NDg4fSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogOTYwMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDEyOTYwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMTc3NjB9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAyNDAwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiAzMjY0MH0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiA0MzIwMH0sIHsidGVyc2tlbCI6IDIwMCwgInByaXMiOiA1NzYwMH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDI0Ljh9LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIn1dfQ==' title='Samle inn data for Everket AS' target='_blank'>✏️</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/everket.html" title="Se på tariffen for Everket AS" target="_blank">🔍</a>
+    <a href="./tariffer/everket.yml" title="Se dataene for Everket AS i YAML-format" target="_blank">📄</a>
   </td>
 </tr>
 <tr>
