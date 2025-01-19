@@ -19,7 +19,6 @@
 # Ting å huske på
 #  * alle priser uten avgifter
 #  * tall oppgis med punktum som desimalskilletegn
-#  * vi bruker yaml bl.a. fordi det støtter kommentarer - bruk de dersom det er naturlig
 #  * Å utelate et element ansees for å være likt som å sette det som `null`.
 ## Start
 
@@ -58,9 +57,7 @@ tariffer:
     # Innsamler står fritt til å gi en id, men her vil det typisk brukes år.
     # Format: ^[0-9a-z-]+$
     id: 2024-nord
-    # Valgfri kommentar om tariffen. Bruk er uspesifisert og ikke påkrevd p.t.
-    kommentar: >
-      Gjelder nettområder fra tidligere ABC AS nett. #magic___^_^___line #magic___^_^___line
+
     # Gyldig fra- og til-dato for tariffen.
     # Fra er påkrevd. Til-dato er eksklusiv.
     # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.

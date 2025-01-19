@@ -25,7 +25,6 @@ import (
     gyldig_til?: time.Format(time.RFC3339Date)
     id!: =~ "^[a-zæøå0-9-]+$"
     navn?: string
-    kommentar?: string
     kundegruppe!: "husholdning" | "hytte" | "privat"
     energiledd!: #Energiledd
     fastledd!: #Fastledd
