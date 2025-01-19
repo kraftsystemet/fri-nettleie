@@ -23,7 +23,6 @@ import (
 #Tariff: {
     gyldig_fra!: time.Format(time.RFC3339Date)
     gyldig_til?: time.Format(time.RFC3339Date)
-    id!: =~ "^[a-zæøå0-9-]+$"
     navn?: string
     kundegruppe!: "husholdning" | "hytte" | "privat"
     energiledd!: #Energiledd

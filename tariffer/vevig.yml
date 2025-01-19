@@ -52,10 +52,8 @@ tariffer:
           terskel: 400
     gyldig_fra: '2024-06-01'
     gyldig_til: '2025-01-01'
-    id: 2024-privat
     kundegruppe: privat
-  - id: 2025-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: false

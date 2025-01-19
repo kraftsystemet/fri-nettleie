@@ -7,8 +7,7 @@ kilder:
   - 'https://static1.squarespace.com/static/620bcff88341485206072068/t/6503f82f34f76d4e1c61a97a/1694758959517/Tariff+01102023+v1.pdf'
 sist_oppdatert: '2025-01-13'
 tariffer:
-  - id: 2025-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

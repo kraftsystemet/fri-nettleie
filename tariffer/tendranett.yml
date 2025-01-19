@@ -9,7 +9,6 @@ kilder:
   - 'https://www.tendranett.no/filer/Dokumenter/Tariffhefte-2025.pdf'
 tariffer:
   - kundegruppe: privat
-    id: '2024'
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
     fastledd:
@@ -43,7 +42,6 @@ tariffer:
           timer: 6-21
           pris: 12.08
   - kundegruppe: privat
-    id: '2025'
     gyldig_fra: '2025-01-01'
     fastledd:
       metode: TRE_DØGNMAX_MND

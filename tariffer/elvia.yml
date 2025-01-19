@@ -7,8 +7,7 @@ kilder:
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/'
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/'
 tariffer:
-  - id: 2024-10-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -42,8 +41,7 @@ tariffer:
           pris: 24.56
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-01-01'
-  - id: 2025-01-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

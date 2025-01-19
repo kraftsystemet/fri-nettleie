@@ -7,8 +7,7 @@ kilder:
   - 'https://www.elinett.no/kunde/nettleie-2/nettleie'
 sist_oppdatert: '2024-12-07'
 tariffer:
-  - id: 2024-04
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

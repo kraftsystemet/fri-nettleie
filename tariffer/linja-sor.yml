@@ -42,6 +42,5 @@ tariffer:
         - pris: 18412.8
           terskel: 100
     gyldig_fra: '2024-07-01'
-    id: sør-privat
     navn: Sør
     kundegruppe: privat

@@ -51,26 +51,19 @@ kilder:
 #  - tariffer for ulike kundegrupper
 
 tariffer:
-  - # ID er påkrevd og lar oss unikt identifisere en tariff for en netteier
-    # For eksempel kan man bruke navn på fil og id slik at denne tariffen heter
-    # 'tariff-eksempel.2024-nord'
-    # Innsamler står fritt til å gi en id, men her vil det typisk brukes år.
-    # Format: ^[0-9a-z-]+$
-    id: 2024-nord
-
-    # Gyldig fra- og til-dato for tariffen.
-    # Fra er påkrevd. Til-dato er eksklusiv.
-    # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.
-    gyldig_fra: 2024-01-01
-    #gyldig_til: 2025-01-01
-
-    # Kundegruppe definerer hvem tariffen gjelder for.
+  - # Kundegruppe definerer hvem tariffen gjelder for.
     # Husk at vi kun samler inn for husholdinger og hytter/fritidshus.
     # Mulige verdier
     #  - husholdning
     #  - hytter
     #  - privat - gjelder både husholdning og hytter
     kundegruppe: privat
+
+    # Gyldig fra- og til-dato for tariffen.
+    # Fra er påkrevd. Til-dato er eksklusiv.
+    # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.
+    gyldig_fra: 2024-01-01
+    #gyldig_til: 2025-01-01
 
     # Fastledd skal differensieres på grunnlag av kundens etterspørsel etter effekt.
     fastledd:

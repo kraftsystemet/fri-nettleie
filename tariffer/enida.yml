@@ -7,8 +7,7 @@ kilder:
   - 'https://enida.no/strompris'
   - 'https://enida.no/uploads/Tariffer-fra-1.jan-2024.pdf'
 tariffer:
-  - id: 2025-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

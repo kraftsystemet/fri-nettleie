@@ -17,5 +17,4 @@ tariffer:
         - pris: 4500
           terskel: 125
     gyldig_fra: '2024-01-01'
-    id: '2024'
     kundegruppe: privat

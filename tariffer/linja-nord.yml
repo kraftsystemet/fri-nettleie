@@ -40,6 +40,5 @@ tariffer:
         - pris: 19766.4
           terskel: 100
     gyldig_fra: '2024-07-01'
-    id: nord-privat
     navn: Nord
     kundegruppe: privat

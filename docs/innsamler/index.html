@@ -124,10 +124,6 @@
         <div class="input-collection">
             <h3 x-text="'Tariff ' + ( index + 1 ) + ' - ' + tariff.id"></h3>
             <div class="input-group">
-                <label for="id">ID:</label>
-                <input type="text" id="id" x-model="tariff.id" placeholder="Enter ID">
-            </div>
-            <div class="input-group">
                 <label for="gyldig_fra">Gyldig fra:</label>
                 <input type="date" id="gyldig_fra" x-model="tariff.gyldig_fra" placeholder="Enter gyldig fra">
                 <label for="gyldig_til">Gyldig til:</label>
@@ -328,7 +324,6 @@
         function app() {
 
             newTariff = {
-                        id: '',
                         kundegruppe: 'privat',
                         fastledd: {
                             metode: 'TRE_DØGNMAX_MND',

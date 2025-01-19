@@ -9,7 +9,6 @@ kilder:
   - 'https://norefjell-nett.no/uploads/Dok/Nettleiepriser/Nettleiepriser-fra-01.01.2025.pdf'
 tariffer:
   - kundegruppe: privat
-    id: '2024'
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -42,8 +41,7 @@ tariffer:
           pris: 19.053
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
-  - id: 2025-01-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

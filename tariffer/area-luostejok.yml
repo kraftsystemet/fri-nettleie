@@ -7,8 +7,7 @@ kilder:
   - 'https://www.area.no/kunde-og-nettleie/priser-og-nettleie/'
   - 'https://www.area.no/getfile.php/131319-1734525121/Filer/PRISBLAD%20TARIFFER%202025.pdf'
 tariffer:
-  - id: gamle-luostejok
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

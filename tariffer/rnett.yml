@@ -7,8 +7,7 @@ kilder:
   - 'https://r-nett.no/overforingspriser/'
   - 'https://r-nett.no/wp-content/uploads/application/pdf/Nettleietariffer_fra_01012024.pdf'
 tariffer:
-  - id: 2024-01-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -40,8 +39,7 @@ tariffer:
           dager: [alle]
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
-  - id: 2025-01-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -73,8 +71,7 @@ tariffer:
           dager: [alle]
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-04-01'
-  - id: 2025-04-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

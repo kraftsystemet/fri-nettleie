@@ -8,8 +8,7 @@ kilder:
   - 'https://www.noranett.no/getfile.php/1326762-1736159187/Noranett/Filer/Kopi%20av%20Nettleie%202025%20-%20And%C3%B8y%20pdf.pdf'
 sist_oppdatert: '2024-11-29'
 tariffer:
-  - id: 2024-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -58,8 +57,7 @@ tariffer:
       grunnpris: 26.5
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
-  - id: 2025-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -107,4 +105,3 @@ tariffer:
     energiledd:
       grunnpris: 21.2
     gyldig_fra: '2025-01-01'
-
