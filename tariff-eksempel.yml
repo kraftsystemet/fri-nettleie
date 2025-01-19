@@ -60,8 +60,7 @@ tariffer:
     id: 2024-nord
     # Valgfri kommentar om tariffen. Bruk er uspesifisert og ikke påkrevd p.t.
     kommentar: >
-      Gjelder nettområder fra tidligere ABC AS nett. #magic___^_^___line
-
+      Gjelder nettområder fra tidligere ABC AS nett. #magic___^_^___line #magic___^_^___line
     # Gyldig fra- og til-dato for tariffen.
     # Fra er påkrevd. Til-dato er eksklusiv.
     # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.

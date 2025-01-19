@@ -1,0 +1,41 @@
+---
+netteier: 'Area Nett AS - Lega'
+gln:
+  - '7080004087071'
+sist_oppdatert: '2025-01-14'
+kilder:
+  - 'https://www.area.no/kunde-og-nettleie/priser-og-nettleie/'
+  - 'https://www.area.no/getfile.php/131319-1734525121/Filer/PRISBLAD%20TARIFFER%202025.pdf'
+tariffer:
+  - id: gamle-lega
+    kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3300
+        - terskel: 2
+          pris: 4290
+        - terskel: 5
+          pris: 5280
+        - terskel: 10
+          pris: 8580
+        - terskel: 15
+          pris: 10065
+        - terskel: 20
+          pris: 11880
+        - terskel: 25
+          pris: 13200
+    energiledd:
+      grunnpris: 21.3
+      unntak:
+        - navn: 'Lavlast - sommer'
+          timer: 22-5
+          pris: 19.3
+          måneder: [april, mai, juni, juli, august, september, oktober, november, desember]
+        - navn: 'Høylast - vinter'
+          timer: 6-21
+          måneder: [januar, februar, mars]
+          pris: 24.3
+    gyldig_fra: '2025-01-01'

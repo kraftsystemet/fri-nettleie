@@ -1,0 +1,47 @@
+---
+gln:
+  - '7080001319830'
+mga:
+  - '50Y4F26BF0CRRCDE'
+  - '50YP-ZBEG9O0VH8J'
+  - '50Y7Q1NT7E5QLMKX'
+  - '50YSPZBCOPYG1IWV'
+kilder:
+  - 'https://www.linja.no/nettleige'
+netteier: 'Linja AS - Sør'
+sist_oppdatert: '2024-12-27'
+tariffer:
+  - energiledd:
+      grunnpris: 15.384
+      unntak:
+        - navn: Høylast
+          pris: 22.384
+          timer: 6-21
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - pris: 2668.8
+          terskel: 0
+        - pris: 3705.6
+          terskel: 2
+        - pris: 4742.4
+          terskel: 5
+        - pris: 6816
+          terskel: 10
+        - pris: 8198.4
+          terskel: 15
+        - pris: 9590.4
+          terskel: 20
+        - pris: 12182.4
+          terskel: 25
+        - pris: 13564.8
+          terskel: 50
+        - pris: 14956.8
+          terskel: 75
+        - pris: 18412.8
+          terskel: 100
+    gyldig_fra: '2024-07-01'
+    id: sør-privat
+    navn: Sør
+    kundegruppe: privat
