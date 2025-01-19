@@ -14,6 +14,7 @@ import (
 #Selskap: {
     netteier!: string
     gln!: [...#GLN]
+    mga?: [...#MGA]
     sist_oppdatert!: time.Format(time.RFC3339Date)
     kilder!: list.MinItems(1)
     tariffer!: [...#Tariff]
@@ -26,7 +27,6 @@ import (
     navn?: string
     kommentar?: string
     kundegruppe!: "husholdning" | "hytte" | "privat"
-    mga?: [...#MGA]
     energiledd!: #Energiledd
     fastledd!: #Fastledd
 }
