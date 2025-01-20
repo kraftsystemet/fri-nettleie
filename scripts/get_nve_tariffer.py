@@ -8,11 +8,18 @@ import nve
 import yaml
 import dataclasses
 
+
 def slugify(s):
-    return s.lower().replace(" ", "-").replace("æ", "ae").replace("ø", "oe").replace("å", "a")
+    return (
+        s.lower()
+        .replace(" ", "-")
+        .replace("æ", "ae")
+        .replace("ø", "oe")
+        .replace("å", "a")
+    )
 
-if __name__ == '__main__':
 
+if __name__ == "__main__":
     # Dato å hente data fra NVE
     dato = "2024-12-31"
 
@@ -31,7 +38,5 @@ if __name__ == '__main__':
         print(file_name)
         nve_tariff.update(dataclasses.asdict(k))
         nve_tariff["dato"] = dato
-        with open(file_name, 'w') as f:
-            yaml.dump(
-                nve_tariff
-            , f)
+        with open(file_name, "w") as f:
+            yaml.dump(nve_tariff, f)

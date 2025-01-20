@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# Diff sources in tariffer with sources in local dockerized Changedetection
+# If the source is not in Changedetection, it will be added.
 set -euo pipefail
 
 API_KEY=$(curl -s http://localhost:5000/settings | grep -oP '(?<=<span id="api-key">).*?(?=</span>)')
