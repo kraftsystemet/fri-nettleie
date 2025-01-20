@@ -1,36 +1,31 @@
 ---
-dato: '2024-12-31'
-fylker:
-  - '15'
-  - '46'
-fylker_navn:
-  - "Møre og Romsdal"
-  - Vestland
-navn: LINJA AS
-org: '912631532'
-priser:
+energiledd:
   - 23.38
   - 16.38
-  - 21.42
-  - 28.23
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: LINJA AS
+org: '912631532'
 terskler:
-  - pris: 2640
+  - pris: 3300
     terskel: 0
-  - pris: 3288
+  - pris: 4116
     terskel: 2
-  - pris: 3948
+  - pris: 4932
     terskel: 5
-  - pris: 6588
+  - pris: 8232
     terskel: 10
-  - pris: 7908
+  - pris: 9888
     terskel: 15
-  - pris: 9216
+  - pris: 11520
     terskel: 20
-  - pris: 13176
+  - pris: 16746.0
     terskel: 25
-  - pris: 14496
+  - pris: 18120
     terskel: 50
-  - pris: 15804
+  - pris: 19752
     terskel: 75
-  - pris: 19764
+  - pris: 24708
     terskel: 100

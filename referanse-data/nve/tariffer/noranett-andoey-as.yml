@@ -1,5 +1,6 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 22.2
 fylker:
   - '18'
   - '55'
@@ -8,8 +9,6 @@ fylker_navn:
   - Troms
 navn: "NORANETT ANDØY AS"
 org: '921680554'
-priser:
-  - 27.5
 terskler:
   - pris: 3720
     terskel: 0

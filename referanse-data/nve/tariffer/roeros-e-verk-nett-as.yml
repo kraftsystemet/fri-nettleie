@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 20.8
+  - 14.4
 fylker:
   - '34'
   - '50'
@@ -8,9 +10,6 @@ fylker_navn:
   - "Trøndelag"
 navn: "RØROS E-VERK NETT AS"
 org: '919884452'
-priser:
-  - 14.4
-  - 20.8
 terskler:
   - pris: 3405.96
     terskel: 0
@@ -18,7 +17,7 @@ terskler:
     terskel: 5
   - pris: 6927.0
     terskel: 10
-  - pris: 9615.960000000001
+  - pris: 9615.96
     terskel: 15
   - pris: 12468
     terskel: 20
@@ -26,7 +25,7 @@ terskler:
     terskel: 25
   - pris: 43458.96
     terskel: 50
-  - pris: 78450.95999999999
+  - pris: 78450.96
     terskel: 100
   - pris: 120744
     terskel: 200

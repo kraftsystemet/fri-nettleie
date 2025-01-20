@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 15.5
+  - 7.5
 fylker:
   - '46'
 fylker_navn:
   - Vestland
 navn: BREHEIM NETT AS
 org: '924527994'
-priser:
-  - 15.5
-  - 7.5
 terskler:
   - pris: 2160
     terskel: 0
@@ -18,7 +17,7 @@ terskler:
     terskel: 10
   - pris: 8640
     terskel: 15
-  - pris: 10925.039999999999
+  - pris: 10925.04
     terskel: 20
   - pris: 21725.04
     terskel: 25
@@ -30,5 +29,5 @@ terskler:
     terskel: 100
   - pris: 87120
     terskel: 150
-  - pris: 130683.95999999999
+  - pris: 130683.96
     terskel: 200

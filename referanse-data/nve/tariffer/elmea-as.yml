@@ -1,34 +1,33 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 25.6
+  - 37.9
 fylker:
   - '18'
 fylker_navn:
   - Nordland
 navn: ELMEA AS
 org: '986347801'
-priser:
-  - 35.2
-  - 23.77
 terskler:
-  - pris: 3652.32
+  - pris: 4912.32
     terskel: 0
-  - pris: 5451.6
+  - pris: 7332.36
     terskel: 2
-  - pris: 8330.400000000001
+  - pris: 11204.28
     terskel: 5
-  - pris: 11930.52
+  - pris: 16046.52
     terskel: 10
-  - pris: 15529.32
+  - pris: 20886.96
     terskel: 15
-  - pris: 19129.44
+  - pris: 25728.96
     terskel: 20
-  - pris: 29925.72
+  - pris: 40250.16
     terskel: 25
-  - pris: 47922.36
+  - pris: 64455.36
     terskel: 50
-  - pris: 65917.44
+  - pris: 88659.0
     terskel: 75
-  - pris: 128904
+  - pris: 173375.88
     terskel: 100
-  - pris: 272872.44
+  - pris: 367012.44
     terskel: 200

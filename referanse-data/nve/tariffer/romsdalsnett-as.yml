@@ -1,30 +1,29 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 18.85
+  - 28.85
 fylker:
   - '15'
 fylker_navn:
   - "Møre og Romsdal"
 navn: ROMSDALSNETT AS
 org: '926377841'
-priser:
-  - 28.85
-  - 18.85
 terskler:
-  - pris: 2540.7599999999998
+  - pris: 2540.76
     terskel: 0
-  - pris: 3175.2000000000003
+  - pris: 3175.2
     terskel: 2
-  - pris: 3810.3599999999997
+  - pris: 3810.36
     terskel: 5
   - pris: 6351.24
     terskel: 10
   - pris: 8891.16
     terskel: 15
-  - pris: 10161.599999999999
+  - pris: 10161.6
     terskel: 20
   - pris: 13971.96
     terskel: 25
-  - pris: 19052.760000000002
+  - pris: 19052.76
     terskel: 50
   - pris: 21593.64
     terskel: 75

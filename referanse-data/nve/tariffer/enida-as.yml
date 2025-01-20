@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 22
+  - 16
 fylker:
   - '11'
   - '42'
@@ -8,9 +10,6 @@ fylker_navn:
   - Agder
 navn: ENIDA AS
 org: '918312730'
-priser:
-  - 22
-  - 16
 terskler:
   - pris: 2784
     terskel: 0

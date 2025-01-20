@@ -1,32 +1,31 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 25.79
+  - 19.79
 fylker:
   - '15'
 fylker_navn:
   - "Møre og Romsdal"
 navn: NORDVEST NETT AS
 org: '980824586'
-priser:
-  - 24.61
-  - 18.61
 terskler:
-  - pris: 1372.8000000000002
+  - pris: 1140
     terskel: 0
-  - pris: 3369.6000000000004
+  - pris: 3542.4
     terskel: 2
-  - pris: 4156.799999999999
+  - pris: 4368
     terskel: 5
-  - pris: 6316.799999999999
+  - pris: 6633.6
     terskel: 10
-  - pris: 7497.599999999999
+  - pris: 7872
     terskel: 15
-  - pris: 8736
+  - pris: 9177.6
     terskel: 20
-  - pris: 16771.199999999997
+  - pris: 17606.4
     terskel: 25
-  - pris: 24816
+  - pris: 26054.4
     terskel: 50
-  - pris: 32851.2
+  - pris: 34492.8
     terskel: 75
-  - pris: 64608
+  - pris: 67843.2
     terskel: 100

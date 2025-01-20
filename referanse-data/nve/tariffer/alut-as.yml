@@ -1,5 +1,6 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 13.1
 fylker:
   - '55'
   - '56'
@@ -8,8 +9,6 @@ fylker_navn:
   - Finnmark
 navn: ALUT AS
 org: '925336637'
-priser:
-  - 13.1
 terskler:
   - pris: 3500.04
     terskel: 0

@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 24
+  - 32
 fylker:
   - '46'
 fylker_navn:
   - Vestland
 navn: LYSNA AS
 org: '923833706'
-priser:
-  - 24
-  - 32
 terskler:
   - pris: 3720
     terskel: 0

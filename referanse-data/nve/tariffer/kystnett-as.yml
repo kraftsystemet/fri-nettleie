@@ -1,13 +1,12 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 17
 fylker:
   - '18'
 fylker_navn:
   - Nordland
 navn: KYSTNETT AS
 org: '923152601'
-priser:
-  - 17
 terskler:
   - pris: 5916
     terskel: 0

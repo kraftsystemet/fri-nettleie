@@ -1,13 +1,12 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 24.8
 fylker:
   - '40'
 fylker_navn:
   - Telemark
 navn: EVERKET AS
 org: '966731508'
-priser:
-  - 24.8
 terskler:
   - pris: 3264
     terskel: 0

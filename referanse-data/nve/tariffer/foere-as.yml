@@ -1,17 +1,16 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 20.29
 fylker:
   - '40'
 fylker_navn:
   - Telemark
 navn: "FØRE AS"
 org: '925549738'
-priser:
-  - 20.29
 terskler:
   - pris: 3156
     terskel: 0
-  - pris: 4104
+  - pris: 3888
     terskel: 2
   - pris: 5052
     terskel: 5

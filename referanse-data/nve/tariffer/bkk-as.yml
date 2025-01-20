@@ -1,32 +1,31 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 19.78
+  - 29.96
 fylker:
   - '46'
 fylker_navn:
   - Vestland
 navn: BKK AS
 org: '976944801'
-priser:
-  - 28.75
-  - 19.31
 terskler:
-  - pris: 1392
+  - pris: 1536
     terskel: 0
-  - pris: 2304
+  - pris: 2496
     terskel: 2
-  - pris: 3840
+  - pris: 4128
     terskel: 5
-  - pris: 5472
+  - pris: 5952
     terskel: 10
-  - pris: 7056
+  - pris: 7680
     terskel: 15
-  - pris: 8640
+  - pris: 9360
     terskel: 20
-  - pris: 16560
+  - pris: 17952
     terskel: 25
-  - pris: 24480
+  - pris: 26496
     terskel: 50
-  - pris: 32400
+  - pris: 35040
     terskel: 75
-  - pris: 64080
+  - pris: 69120
     terskel: 100

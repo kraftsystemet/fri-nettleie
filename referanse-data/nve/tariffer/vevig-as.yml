@@ -1,26 +1,25 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 16.1
+  - 24.5
 fylker:
   - '34'
+  - '46'
 fylker_navn:
   - Innlandet
+  - Vestland
 navn: VEVIG AS
 org: '916319908'
-priser:
-  - 21.4
-  - 13.8
 terskler:
-  - pris: 1920
+  - pris: 176.04
     terskel: 0
-  - pris: 2496
+  - pris: 228.96
     terskel: 2
-  - pris: 3468
+  - pris: 318.0
     terskel: 5
-  - pris: 4440
+  - pris: 408
     terskel: 10
-  - pris: 5412
+  - pris: 498.0
     terskel: 15
-  - pris: 6372
+  - pris: 585.96
     terskel: 20
-  - pris: 7344
-    terskel: 25

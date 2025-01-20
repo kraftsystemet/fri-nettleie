@@ -1,13 +1,12 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 19.3
 fylker:
   - '15'
 fylker_navn:
   - "Møre og Romsdal"
 navn: STRAUMEN NETT AS
 org: '925354813'
-priser:
-  - 19.3
 terskler:
   - pris: 2787.96
     terskel: 0
@@ -19,5 +18,5 @@ terskler:
     terskel: 15
   - pris: 8379.0
     terskel: 20
-  - pris: 11166.960000000001
+  - pris: 11166.96
     terskel: 25

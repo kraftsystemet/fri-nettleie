@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 18.62
+  - 12.55
 fylker:
   - '31'
   - '32'
@@ -10,11 +12,8 @@ fylker_navn:
   - Vestland
 navn: NORGESNETT AS
 org: '980234088'
-priser:
-  - 12.55
-  - 18.62
 terskler:
-  - pris: 984.1200000000001
+  - pris: 984.12
     terskel: 0
   - pris: 1640.28
     terskel: 2

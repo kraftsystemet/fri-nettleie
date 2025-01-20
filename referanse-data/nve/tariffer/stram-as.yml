@@ -1,32 +1,31 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 14.11
+  - 4.11
 fylker:
   - '18'
 fylker_navn:
   - Nordland
 navn: STRAM AS
 org: '914385261'
-priser:
-  - 2.5
-  - 12.5
 terskler:
-  - pris: 1190.04
+  - pris: 1322.04
     terskel: 0
-  - pris: 3569.04
+  - pris: 3965.04
     terskel: 2
-  - pris: 4758.0
+  - pris: 5286.96
     terskel: 5
-  - pris: 5948.04
+  - pris: 6608.04
     terskel: 10
-  - pris: 7137.0
+  - pris: 7929.96
     terskel: 15
-  - pris: 8327.039999999999
+  - pris: 9251.04
     terskel: 20
-  - pris: 21411.96
+  - pris: 23789.04
     terskel: 25
-  - pris: 34497.0
+  - pris: 38327.04
     terskel: 50
-  - pris: 47583.0
+  - pris: 52865.04
     terskel: 75
-  - pris: 73752.95999999999
+  - pris: 81941.04
     terskel: 100

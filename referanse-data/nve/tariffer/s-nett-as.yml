@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 22.41
+  - 27.4
 fylker:
   - '15'
   - '50'
@@ -8,9 +10,6 @@ fylker_navn:
   - "Trøndelag"
 navn: S-NETT AS
 org: '923819177'
-priser:
-  - 27.4
-  - 22.41
 terskler:
   - pris: 2520
     terskel: 0

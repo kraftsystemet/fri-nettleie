@@ -1,32 +1,31 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 15.03
+  - 21.96
 fylker:
   - '33'
 fylker_navn:
   - Buskerud
 navn: NOREFJELL NETT AS
 org: '824701482'
-priser:
-  - 19.05
-  - 12.75
 terskler:
-  - pris: 1968
+  - pris: 2160
     terskel: 0
-  - pris: 2544
+  - pris: 2808
     terskel: 2
-  - pris: 3528
+  - pris: 3888
     terskel: 5
-  - pris: 5304
+  - pris: 5832
     terskel: 10
-  - pris: 6864
+  - pris: 7560
     terskel: 15
-  - pris: 8448
+  - pris: 9288
     terskel: 20
-  - pris: 13752
+  - pris: 15120
     terskel: 25
-  - pris: 20616
+  - pris: 22680
     terskel: 50
-  - pris: 27492
+  - pris: 30240
     terskel: 75
-  - pris: 39264
+  - pris: 43200
     terskel: 100

@@ -1,27 +1,26 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 29
 fylker:
   - '40'
 fylker_navn:
   - Telemark
 navn: TELEMARK NETT AS
 org: '925803375'
-priser:
-  - 27.9
 terskler:
-  - pris: 3786.0
+  - pris: 3696
     terskel: 0
-  - pris: 4872
+  - pris: 4740
     terskel: 5
-  - pris: 9240
+  - pris: 8820
     terskel: 10
-  - pris: 12180
+  - pris: 11880
     terskel: 15
-  - pris: 14880
+  - pris: 14640
     terskel: 20
-  - pris: 27120
+  - pris: 25320
     terskel: 25
-  - pris: 40560
+  - pris: 39600
     terskel: 50
-  - pris: 56820
+  - pris: 55200
     terskel: 75

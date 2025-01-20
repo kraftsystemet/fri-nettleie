@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 30.4
+  - 15.7
 fylker:
   - '18'
   - '50'
@@ -8,37 +10,34 @@ fylker_navn:
   - "Trøndelag"
 navn: TENSIO TN AS
 org: '988807648'
-priser:
-  - 29.5
-  - 15.3
 terskler:
-  - pris: 1420.8000000000002
+  - pris: 1459.2
     terskel: 0
-  - pris: 2841.6000000000004
+  - pris: 2928
     terskel: 2
-  - pris: 5145.6
+  - pris: 5299.2
     terskel: 5
-  - pris: 7804.799999999999
+  - pris: 8035.2
     terskel: 10
-  - pris: 10454.400000000001
+  - pris: 10771.2
     terskel: 15
-  - pris: 13123.199999999999
+  - pris: 13516.8
     terskel: 20
-  - pris: 22857.6
+  - pris: 23539.2
     terskel: 25
-  - pris: 36163.2
+  - pris: 37248
     terskel: 50
-  - pris: 49449.600000000006
+  - pris: 50937.6
     terskel: 75
-  - pris: 71587.20000000001
+  - pris: 73737.6
     terskel: 100
-  - pris: 98198.4
+  - pris: 101145.6
     terskel: 150
-  - pris: 142473.59999999998
+  - pris: 146745.6
     terskel: 200
-  - pris: 195657.59999999998
+  - pris: 201523.2
     terskel: 300
-  - pris: 248832
+  - pris: 256300.8
     terskel: 400
-  - pris: 301968
+  - pris: 311030.4
     terskel: 500

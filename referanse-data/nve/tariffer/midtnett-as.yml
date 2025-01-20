@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 32
+  - 27
 fylker:
   - '33'
 fylker_navn:
   - Buskerud
 navn: MIDTNETT AS
 org: '917856222'
-priser:
-  - 27
-  - 32
 terskler:
   - pris: 2640
     terskel: 0

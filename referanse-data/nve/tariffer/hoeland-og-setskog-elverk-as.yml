@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 21
+  - 26
 fylker:
   - '32'
 fylker_navn:
   - Akershus
 navn: "HØLAND OG SETSKOG ELVERK AS"
 org: '923488960'
-priser:
-  - 26
-  - 21
 terskler:
   - pris: 2064
     terskel: 0

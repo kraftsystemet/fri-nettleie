@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 30
+  - 14
 fylker:
   - '55'
   - '56'
@@ -8,29 +10,26 @@ fylker_navn:
   - Finnmark
 navn: VISSI AS
 org: '921683057'
-priser:
-  - 12
-  - 25
 terskler:
-  - pris: 3000
+  - pris: 3360
     terskel: 0
-  - pris: 5040
+  - pris: 5760
     terskel: 5
-  - pris: 7080
+  - pris: 8160
     terskel: 10
-  - pris: 9120
+  - pris: 10560
     terskel: 15
-  - pris: 11160
+  - pris: 12960
     terskel: 20
-  - pris: 18240
+  - pris: 18600
     terskel: 25
-  - pris: 24540
+  - pris: 24900
     terskel: 50
-  - pris: 30240
+  - pris: 30600
     terskel: 75
-  - pris: 36240
+  - pris: 36600
     terskel: 100
-  - pris: 41040
+  - pris: 41400
     terskel: 150
-  - pris: 47040
+  - pris: 47400
     terskel: 200

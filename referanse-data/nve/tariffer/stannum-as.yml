@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 28.33
+  - 25.33
 fylker:
   - '40'
 fylker_navn:
   - Telemark
 navn: STANNUM AS
 org: '924940379'
-priser:
-  - 28.33
-  - 25.33
 terskler:
   - pris: 3033.0
     terskel: 0
@@ -24,9 +23,9 @@ terskler:
     terskel: 20
   - pris: 5763.0
     terskel: 25
-  - pris: 6369.960000000001
+  - pris: 6369.96
     terskel: 50
-  - pris: 6975.960000000001
+  - pris: 6975.96
     terskel: 75
-  - pris: 7583.039999999999
+  - pris: 7583.04
     terskel: 100

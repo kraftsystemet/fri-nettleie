@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 25.14
+  - 17.14
 fylker:
   - '32'
 fylker_navn:
   - Akershus
 navn: ASKER NETT AS
 org: '917743193'
-priser:
-  - 24.89
-  - 16.89
 terskler:
   - pris: 1776
     terskel: 0

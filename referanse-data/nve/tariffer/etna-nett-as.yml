@@ -1,13 +1,23 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 31.67
+  - 25.67
 fylker:
   - '34'
 fylker_navn:
   - Innlandet
 navn: ETNA NETT AS
 org: '882783022'
-priser:
-  - 11.86
 terskler:
-  - pris: 5130.0
+  - pris: 2640
     terskel: 0
+  - pris: 3960
+    terskel: 2
+  - pris: 5160
+    terskel: 5
+  - pris: 6360
+    terskel: 10
+  - pris: 10200
+    terskel: 15
+  - pris: 12000
+    terskel: 20

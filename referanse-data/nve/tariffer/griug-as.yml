@@ -1,31 +1,30 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 13.32
 fylker:
   - '34'
 fylker_navn:
   - Innlandet
 navn: GRIUG AS
 org: '953681781'
-priser:
-  - 9.8
 terskler:
-  - pris: 2112
+  - pris: 2400
     terskel: 0
-  - pris: 3168
+  - pris: 3648
     terskel: 2
-  - pris: 4752
+  - pris: 5472
     terskel: 5
-  - pris: 6096
+  - pris: 7008
     terskel: 10
-  - pris: 7680
+  - pris: 8832
     terskel: 15
-  - pris: 9312
+  - pris: 10704
     terskel: 20
-  - pris: 17424
+  - pris: 20016
     terskel: 25
-  - pris: 25584
+  - pris: 29376
     terskel: 50
-  - pris: 34320
+  - pris: 39456
     terskel: 75
-  - pris: 68112
+  - pris: 78240
     terskel: 100

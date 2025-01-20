@@ -1,13 +1,12 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 25.52
 fylker:
   - '34'
 fylker_navn:
   - Innlandet
 navn: "SØR AURDAL ENERGI AS"
 org: '997712099'
-priser:
-  - 30.52
 terskler:
   - pris: 5400
     terskel: 0

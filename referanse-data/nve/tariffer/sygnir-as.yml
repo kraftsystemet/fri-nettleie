@@ -1,5 +1,6 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 18.79
 fylker:
   - '34'
   - '46'
@@ -8,8 +9,6 @@ fylker_navn:
   - Vestland
 navn: SYGNIR AS
 org: '924619260'
-priser:
-  - 18.79
 terskler:
   - pris: 2421.96
     terskel: 0
@@ -29,9 +28,9 @@ terskler:
     terskel: 7
   - pris: 7266.0
     terskel: 8
-  - pris: 7992.960000000001
+  - pris: 7992.96
     terskel: 9
-  - pris: 9446.039999999999
+  - pris: 9446.04
     terskel: 10
   - pris: 10899.0
     terskel: 12
@@ -49,7 +48,7 @@ terskler:
     terskel: 60
   - pris: 63701.04
     terskel: 80
-  - pris: 112142.04000000001
+  - pris: 112142.04
     terskel: 100
   - pris: 160583.04
     terskel: 200

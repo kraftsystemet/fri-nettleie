@@ -1,16 +1,15 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 23.81
+  - 28.81
 fylker:
   - '46'
 fylker_navn:
   - Vestland
 navn: STRAUMNETT AS
 org: '922694435'
-priser:
-  - 28.81
-  - 23.81
 terskler:
-  - pris: 2435.3999999999996
+  - pris: 2435.4
     terskel: 0
   - pris: 2922.48
     terskel: 2
@@ -22,11 +21,11 @@ terskler:
     terskel: 15
   - pris: 4261.92
     terskel: 20
-  - pris: 4627.200000000001
+  - pris: 4627.2
     terskel: 25
   - pris: 5114.28
     terskel: 50
   - pris: 5601.36
     terskel: 75
-  - pris: 6088.4400000000005
+  - pris: 6088.44
     terskel: 100

@@ -3,13 +3,16 @@ import enum
 import dataclasses
 from typing import List
 
+
 class Endpoint(enum.Enum):
     Maned = "NettleiePerOmradePrManedHusholdningFritidEffekttariffer"
     Time = "NettleiePerOmradePrTimeHusholdningFritidEffekttariffer"
 
+
 class TariffGruppe(enum.Enum):
     Husholdning = "Husholdning"
     Hytter = "Hytter og fritidshus"
+
 
 @dataclasses.dataclass
 class Konsesjonar:
@@ -20,7 +23,8 @@ class Konsesjonar:
 
 
 # https://biapi.nve.no/nettleietariffer/swagger/index.html
-TARIFFER_URL="https://biapi.nve.no/nettleietariffer/api/"
+TARIFFER_URL = "https://biapi.nve.no/nettleietariffer/api/"
+
 
 def get_mnd_data(dato):
     """
@@ -57,27 +61,24 @@ def get_mnd_data(dato):
     """
     url = f"{TARIFFER_URL}{Endpoint.Maned.value}"
 
-    headers = {'accept': 'application/json'}
+    headers = {"accept": "application/json"}
     params = {
         "FraDato": dato,
         "Tariffgruppe": TariffGruppe.Husholdning.value,
-        "Kundegruppe" : "2"
+        "Kundegruppe": "2",
     }
 
     response = requests.get(url, headers=headers, params=params)
     return response.json()
 
+
 def get_consessionares():
-    url = 'https://nve.geodataonline.no/arcgis/rest/services/Nettanlegg2/MapServer/6/query'
-    params = {
-        'where': '1=1',
-        'outFields': '*',
-        'f': 'json'
-    }
+    url = "https://nve.geodataonline.no/arcgis/rest/services/Nettanlegg2/MapServer/6/query"
+    params = {"where": "1=1", "outFields": "*", "f": "json"}
     response = requests.get(url, params=params)
 
     data = response.json()
-    features = data['features']
+    features = data["features"]
 
     # Extract attributes from features and sort by NAVN
 
@@ -89,30 +90,30 @@ def get_consessionares():
     consessionares = {}
 
     for feature in features:
-        org = str(feature['attributes']['EIER_ID'])
-        name = feature['attributes']['NAVN']
+        org = str(feature["attributes"]["EIER_ID"])
+        name = feature["attributes"]["NAVN"]
 
         if org not in consessionares:
             consessionares[org] = name
 
     return consessionares
 
-def get_konsesjonarer(dato):
 
+def get_konsesjonarer(dato):
     data = get_mnd_data(dato)
 
     konsesjonarer = {}
     for k in data:
         org = k["organisasjonsnr"]
-        navn = k["konsesjonar"].replace("*","").split("(")[0].strip()
+        navn = k["konsesjonar"].replace("*", "").split("(")[0].strip()
 
         if org not in konsesjonarer:
             konsesjonarer[org] = Konsesjonar(
                 org=org,
                 navn=navn,
                 fylker=[k["fylkeNr"]],
-                fylker_navn=[k["fylke"].strip()]
-        )
+                fylker_navn=[k["fylke"].strip()],
+            )
 
         if k["fylkeNr"] not in konsesjonarer[org].fylker:
             konsesjonarer[org].fylker.append(k["fylkeNr"])
@@ -120,16 +121,16 @@ def get_konsesjonarer(dato):
 
     return konsesjonarer
 
-def get_time_data(dato, fylke, org):
 
+def get_time_data(dato, fylke, org):
     url = f"{TARIFFER_URL}{Endpoint.Time.value}"
 
-    headers = {'accept': 'application/json'}
+    headers = {"accept": "application/json"}
     params = {
         "ValgtDato": dato,
         "Tariffgruppe": "Husholdning",
         "FylkeNr": fylke,
-        "OrganisasjonsNr" : org,
+        "OrganisasjonsNr": org,
     }
 
     response = requests.get(url, headers=headers, params=params)
@@ -154,19 +155,16 @@ def get_time_data(dato, fylke, org):
     #     "time": 19
     # }
 
-
     data = response.json()
     return data
 
-def get_oppsummering(dato, fylker: List[str], org: str):
 
+def get_oppsummering(dato, fylker: List[str], org: str):
     priser = []
     terskler = {}
 
     for fylke in fylker:
-
         data = get_time_data(dato, fylke, org)
-
 
         for d in data:
             if d["energileddEks"] not in priser:
@@ -177,5 +175,48 @@ def get_oppsummering(dato, fylker: List[str], org: str):
 
     return {
         "priser": priser,
-        "terskler": [{ "terskel" : t, "pris" : terskler[t]*12} for t in sorted(list(terskler.keys())) ]
+        "terskler": [
+            {"terskel": t, "pris": terskler[t] * 12}
+            for t in sorted(list(terskler.keys()))
+        ],
+    }
+
+
+def get_summary(dates: List[str], counties: List[str], org: str):
+    """
+    Fetches and summarizes energy tariff data for given dates, counties, and organization.
+
+    Args:
+        dates (List[str]): A list of dates for which to fetch the energy data.
+        counties (List[str]): A list of county identifiers to fetch the data for.
+        org (str): The organization identifier.
+
+    Returns:
+        dict: A dictionary containing:
+            - "prices": A list of unique energy prices (energileddEks) encountered.
+            - "levels": A list of dictionaries, each containing:
+                - "levels": The power threshold (effekttrinnFraKw).
+                - "price": The corresponding fixed charge (fastleddEks) multiplied by 12.
+    """
+
+    prices = []
+    levels = {}
+
+    for dt in dates:
+        for fylke in counties:
+            data = get_time_data(dt, fylke, org)
+
+            for d in data:
+                if d["energileddEks"] not in prices:
+                    prices.append(d["energileddEks"])
+
+                if d["effekttrinnFraKw"] not in levels:
+                    levels[d["effekttrinnFraKw"]] = d["fastleddEks"]
+
+    return {
+        "energiledd": prices,
+        "terskler": [
+            {"terskel": t, "pris": round(levels[t] * 12, 3)}
+            for t in sorted(list(levels.keys()))
+        ],
     }

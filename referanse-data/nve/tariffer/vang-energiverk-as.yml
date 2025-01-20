@@ -1,5 +1,6 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 14
 fylker:
   - '34'
   - '46'
@@ -8,20 +9,18 @@ fylker_navn:
   - Vestland
 navn: VANG ENERGIVERK AS
 org: '824368082'
-priser:
-  - 9
 terskler:
-  - pris: 4800
+  - pris: 5400
     terskel: 0
-  - pris: 6000
+  - pris: 6600
     terskel: 2
-  - pris: 7260
+  - pris: 7860
     terskel: 5
-  - pris: 8520
+  - pris: 9120
     terskel: 8
-  - pris: 10020
+  - pris: 10620
     terskel: 12
-  - pris: 11580
+  - pris: 12180
     terskel: 18
-  - pris: 13380
+  - pris: 13980
     terskel: 25

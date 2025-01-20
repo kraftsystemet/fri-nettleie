@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 25.96
+  - 16.36
 fylker:
   - '03'
   - '11'
@@ -20,9 +22,6 @@ fylker_navn:
   - Vestland
 navn: GLITRE NETT AS
 org: '982974011'
-priser:
-  - 16.36
-  - 25.96
 terskler:
   - pris: 1632
     terskel: 0

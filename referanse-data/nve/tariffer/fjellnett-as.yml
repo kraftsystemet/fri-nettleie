@@ -1,0 +1,30 @@
+---
+energiledd:
+  - 12.4
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: FJELLNETT AS
+org: '923354204'
+terskler:
+  - pris: 2523.96
+    terskel: 0
+  - pris: 3050.04
+    terskel: 1
+  - pris: 3573.96
+    terskel: 2
+  - pris: 4098.96
+    terskel: 3
+  - pris: 4623.96
+    terskel: 4
+  - pris: 5148.96
+    terskel: 5
+  - pris: 5673.96
+    terskel: 6
+  - pris: 6198.0
+    terskel: 7
+  - pris: 6723.0
+    terskel: 8
+  - pris: 7248
+    terskel: 9

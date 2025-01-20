@@ -1,33 +1,32 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 19.86
 fylker:
   - '40'
 fylker_navn:
   - Telemark
 navn: VESTMAR NETT AS
 org: '979399901'
-priser:
-  - 15.64
 terskler:
-  - pris: 3234.0
+  - pris: 4104
     terskel: 0
-  - pris: 5718.0
+  - pris: 7260
     terskel: 5
-  - pris: 8202.0
+  - pris: 10416
     terskel: 10
-  - pris: 10686.0
+  - pris: 13572.96
     terskel: 15
-  - pris: 13169.04
+  - pris: 16728
     terskel: 20
-  - pris: 20621.04
+  - pris: 26184
     terskel: 25
-  - pris: 33039.96
+  - pris: 41964
     terskel: 50
-  - pris: 45459.0
+  - pris: 57732
     terskel: 75
-  - pris: 64086.96
+  - pris: 81396
     terskel: 100
-  - pris: 88925.04000000001
+  - pris: 112932
     terskel: 150
-  - pris: 126182.04000000001
+  - pris: 160248
     terskel: 200

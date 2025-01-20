@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 8
+  - 15
 fylker:
   - '18'
   - '55'
@@ -8,25 +10,22 @@ fylker_navn:
   - Troms
 navn: VESTALL AS
 org: '968168134'
-priser:
-  - 5.3
-  - 9.6
 terskler:
-  - pris: 5424
+  - pris: 5736
     terskel: 0
-  - pris: 9024
+  - pris: 9564
     terskel: 5
-  - pris: 12756
+  - pris: 13512
     terskel: 10
-  - pris: 16488
+  - pris: 17472
     terskel: 15
-  - pris: 20064
+  - pris: 21252
     terskel: 20
-  - pris: 31092
+  - pris: 32940
     terskel: 25
-  - pris: 35100
+  - pris: 37188
     terskel: 50
-  - pris: 67764
+  - pris: 50844
     terskel: 75
-  - pris: 95280
+  - pris: 73548
     terskel: 100

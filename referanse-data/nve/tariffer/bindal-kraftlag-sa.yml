@@ -1,22 +1,31 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 26.3
+  - 21.3
 fylker:
   - '18'
 fylker_navn:
   - Nordland
 navn: BINDAL KRAFTLAG SA
 org: '953181606'
-priser:
-  - 21.3
-  - 26.3
 terskler:
-  - pris: 3167.04
+  - pris: 264
     terskel: 0
-  - pris: 4740
+  - pris: 395.04
     terskel: 5
-  - pris: 6960
+  - pris: 579.96
     terskel: 10
-  - pris: 8856
+  - pris: 738.0
     terskel: 15
-  - pris: 10752
+  - pris: 896.04
     terskel: 20
+  - pris: 1055.04
+    terskel: 25
+  - pris: 1317.96
+    terskel: 30
+  - pris: 2109.0
+    terskel: 50
+  - pris: 3164.04
+    terskel: 75
+  - pris: 3954.0
+    terskel: 100

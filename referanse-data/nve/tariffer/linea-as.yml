@@ -1,36 +1,39 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 27.1
+  - 17.1
 fylker:
   - '18'
 fylker_navn:
   - Nordland
 navn: LINEA AS
 org: '917424799'
-priser:
-  - 25.6
-  - 16.6
 terskler:
-  - pris: 3120
+  - pris: 3000
     terskel: 0
-  - pris: 3120
-    terskel: 2
-  - pris: 3960
+  - pris: 4656
     terskel: 5
-  - pris: 5760
+  - pris: 6540
     terskel: 10
-  - pris: 8160
+  - pris: 8436
     terskel: 15
-  - pris: 11160
+  - pris: 10344
     terskel: 20
-  - pris: 15960
+  - pris: 17292
     terskel: 25
-  - pris: 23160
+  - pris: 26772
     terskel: 50
-  - pris: 30360
+  - pris: 36252
     terskel: 75
-  - pris: 41160
+  - pris: 52068
     terskel: 100
-  - pris: 55560
+  - pris: 71016
     terskel: 150
-  - pris: 77160
+  - pris: 102576
     terskel: 200
+  - pris: 140544
+    terskel: 300
+  - pris: 178440
+    terskel: 400
+  - pris: 216372
+    terskel: 500

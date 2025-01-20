@@ -1,13 +1,12 @@
 ---
-dato: '2025-01-01'
+energiledd:
+  - 28.56
 fylker:
   - '46'
 fylker_navn:
   - Vestland
 navn: INDRE HORDALAND KRAFTNETT AS
 org: '919415096'
-priser:
-  - 28.56
 terskler:
   - pris: 2304
     terskel: 0

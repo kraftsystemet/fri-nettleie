@@ -1,13 +1,12 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 20
 fylker:
   - '15'
 fylker_navn:
   - "Møre og Romsdal"
 navn: SUNETT AS
 org: '924330678'
-priser:
-  - 19.3
 terskler:
-  - pris: 3291.96
+  - pris: 3200.04
     terskel: 1

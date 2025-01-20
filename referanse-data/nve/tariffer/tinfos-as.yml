@@ -1,5 +1,6 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 19
 fylker:
   - '40'
   - '42'
@@ -10,8 +11,6 @@ fylker_navn:
   - Finnmark
 navn: TINFOS AS
 org: '916763476'
-priser:
-  - 19
 terskler:
   - pris: 3156
     terskel: 0

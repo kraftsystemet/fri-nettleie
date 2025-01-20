@@ -1,13 +1,12 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 24.65
 fylker:
   - '40'
 fylker_navn:
   - Telemark
 navn: RK NETT AS
 org: '925017809'
-priser:
-  - 24.65
 terskler:
   - pris: 3095.04
     terskel: 0
@@ -17,9 +16,9 @@ terskler:
     terskel: 5
   - pris: 7119.0
     terskel: 10
-  - pris: 8666.039999999999
+  - pris: 8666.04
     terskel: 15
-  - pris: 10214.039999999999
+  - pris: 10214.04
     terskel: 20
   - pris: 17951.04
     terskel: 25

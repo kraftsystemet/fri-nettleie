@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 12.6
+  - 24.1
 fylker:
   - '55'
 fylker_navn:
   - Troms
 navn: ARVA AS
 org: 979151950*
-priser:
-  - 24.1
-  - 12.6
 terskler:
   - pris: 1019.04
     terskel: 0
@@ -16,11 +15,11 @@ terskler:
     terskel: 2
   - pris: 4781.04
     terskel: 5
-  - pris: 7145.039999999999
+  - pris: 7145.04
     terskel: 10
-  - pris: 9507.960000000001
+  - pris: 9507.96
     terskel: 15
-  - pris: 11871.960000000001
+  - pris: 11871.96
     terskel: 20
   - pris: 23666.04
     terskel: 25

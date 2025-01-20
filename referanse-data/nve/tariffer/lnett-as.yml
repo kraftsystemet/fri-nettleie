@@ -1,30 +1,31 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 25.57
+  - 31.97
 fylker:
   - '11'
 fylker_navn:
   - Rogaland
 navn: LNETT AS
 org: '980038408'
-priser:
-  - 19.07
-  - 25.47
 terskler:
-  - pris: 2736
+  - pris: 1632
     terskel: 0
-  - pris: 4176
+  - pris: 2784
+    terskel: 2
+  - pris: 4464
     terskel: 5
-  - pris: 5616
+  - pris: 6864
     terskel: 10
-  - pris: 7056
+  - pris: 9264
     terskel: 15
-  - pris: 8496
+  - pris: 11664
     terskel: 20
-  - pris: 14976
+  - pris: 21264
     terskel: 25
-  - pris: 21456
+  - pris: 30864
     terskel: 50
-  - pris: 27936
+  - pris: 40464
     terskel: 75
-  - pris: 54000
+  - pris: 67200
     terskel: 100

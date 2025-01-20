@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 21
+  - 29
 fylker:
   - '11'
   - '46'
@@ -8,9 +10,6 @@ fylker_navn:
   - Vestland
 navn: FAGNE AS
 org: '915635857'
-priser:
-  - 29
-  - 21
 terskler:
   - pris: 3456
     terskel: 0
@@ -24,7 +23,7 @@ terskler:
     terskel: 20
   - pris: 21120
     terskel: 25
-  - pris: 30720
+  - pris: 30726.0
     terskel: 50
   - pris: 40320
     terskel: 75

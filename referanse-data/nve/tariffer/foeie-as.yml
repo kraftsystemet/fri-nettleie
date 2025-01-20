@@ -1,32 +1,33 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 12
+  - 18.5
+  - 17
+  - 11.25
 fylker:
+  - '32'
   - '33'
 fylker_navn:
+  - Akershus
   - Buskerud
 navn: "FØIE AS"
 org: '971589752'
-priser:
-  - 10.93
-  - 6.68
 terskler:
-  - pris: 2352
+  - pris: 1238.4
     terskel: 0
-  - pris: 2844
+  - pris: 1536
     terskel: 2
-  - pris: 3744
+  - pris: 3792
     terskel: 5
-  - pris: 4632
+  - pris: 6297.6
     terskel: 10
-  - pris: 5532
+  - pris: 8860.8
     terskel: 15
-  - pris: 6420
+  - pris: 10636.8
     terskel: 20
-  - pris: 7320
+  - pris: 13776
     terskel: 25
-  - pris: 8208
+  - pris: 15744
     terskel: 50
-  - pris: 8472
+  - pris: 21600
     terskel: 75
-  - pris: 8712
-    terskel: 100

@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 25.5
+  - 20.5
 fylker:
   - '33'
 fylker_navn:
   - Buskerud
 navn: ELVENETT AS
 org: '979497482'
-priser:
-  - 25.5
-  - 20.5
 terskler:
   - pris: 2931.0
     terskel: 0

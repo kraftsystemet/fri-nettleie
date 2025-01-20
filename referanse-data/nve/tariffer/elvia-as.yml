@@ -1,5 +1,7 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 16.21
+  - 24.21
 fylker:
   - '03'
   - '31'
@@ -14,27 +16,24 @@ fylker_navn:
   - Innlandet
 navn: ELVIA AS
 org: '980489698'
-priser:
-  - 25.56
-  - 19.56
 terskler:
-  - pris: 1344
+  - pris: 1296
     terskel: 0
-  - pris: 2208
+  - pris: 2064
     terskel: 2
-  - pris: 3600
+  - pris: 3360
     terskel: 5
-  - pris: 5040
+  - pris: 4656
     terskel: 10
-  - pris: 6480
+  - pris: 5952
     terskel: 15
-  - pris: 7872
+  - pris: 7248
     terskel: 20
-  - pris: 14976
+  - pris: 13680
     terskel: 25
-  - pris: 22080
+  - pris: 20160
     terskel: 50
-  - pris: 29088
+  - pris: 26640
     terskel: 75
-  - pris: 58080
+  - pris: 53808
     terskel: 100

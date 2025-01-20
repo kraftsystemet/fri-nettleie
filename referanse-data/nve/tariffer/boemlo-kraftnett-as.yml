@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 31.06
+  - 26.06
 fylker:
   - '46'
 fylker_navn:
   - Vestland
 navn: "BØMLO KRAFTNETT AS"
 org: '923934138'
-priser:
-  - 31.06
-  - 26.06
 terskler:
   - pris: 1920
     terskel: 0

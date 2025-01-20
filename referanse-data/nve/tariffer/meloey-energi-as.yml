@@ -1,32 +1,31 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 20
+  - 25.2
 fylker:
   - '18'
 fylker_navn:
   - Nordland
 navn: "MELØY ENERGI AS"
 org: '919173122'
-priser:
-  - 23.3
-  - 18.3
 terskler:
-  - pris: 3012.96
+  - pris: 3167.04
     terskel: 0
-  - pris: 3615.96
+  - pris: 3800.04
     terskel: 2
-  - pris: 3917.04
+  - pris: 4116.96
     terskel: 5
-  - pris: 4218.0
+  - pris: 4434.0
     terskel: 10
-  - pris: 4520.04
+  - pris: 4749.96
     terskel: 15
-  - pris: 5273.04
+  - pris: 5541.96
     terskel: 20
-  - pris: 5724.96
+  - pris: 6017.04
     terskel: 25
-  - pris: 6327.0
+  - pris: 6650.04
     terskel: 50
-  - pris: 6930.0
+  - pris: 7284
     terskel: 75
-  - pris: 7533.0
+  - pris: 7917.0
     terskel: 100

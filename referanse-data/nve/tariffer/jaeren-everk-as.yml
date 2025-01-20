@@ -1,14 +1,13 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 14
+  - 20
 fylker:
   - '11'
 fylker_navn:
   - Rogaland
 navn: "JÆREN EVERK AS"
 org: '824914982'
-priser:
-  - 20
-  - 14
 terskler:
   - pris: 1896
     terskel: 0

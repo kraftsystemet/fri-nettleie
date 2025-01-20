@@ -27,6 +27,11 @@ fmt:
 qa:
 	ls -1 tariffer/ | xargs -I% ./scripts/qa_nve.py ./tariffer/%
 
+nve-data:
+	rm -f referanse-data/nve/tariffer/*.yml
+	./scripts/get_nve_price_data.py referanse-data/nve/tariffer/
+	yamlfmt referanse-data/nve/tariffer/*.yml
+
 changedetection:
 	docker compose up -d
 	echo "Visit http://localhost:5000"

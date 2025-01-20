@@ -1,23 +1,22 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 40
 fylker:
   - '46'
 fylker_navn:
   - Vestland
 navn: MODALEN KRAFTLAG SA
 org: '877051412'
-priser:
-  - 27.97
 terskler:
-  - pris: 600
+  - pris: 750.0
     terskel: 0
-  - pris: 988.8000000000001
+  - pris: 1236
     terskel: 2
-  - pris: 1680
+  - pris: 2100
     terskel: 5
-  - pris: 2371.2
+  - pris: 2964
     terskel: 10
-  - pris: 3062.3999999999996
+  - pris: 3828
     terskel: 15
-  - pris: 3748.7999999999997
+  - pris: 4686.0
     terskel: 20

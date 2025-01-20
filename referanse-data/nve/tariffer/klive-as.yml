@@ -1,35 +1,34 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 17.47
 fylker:
   - '34'
 fylker_navn:
   - Innlandet
 navn: KLIVE AS
 org: '923436596'
-priser:
-  - 15.33
 terskler:
-  - pris: 4012.44
+  - pris: 4616.28
     terskel: 0
-  - pris: 4983.72
+  - pris: 5731.32
     terskel: 5
-  - pris: 6614.16
+  - pris: 7606.32
     terskel: 10
-  - pris: 8822.76
+  - pris: 10146.12
     terskel: 15
-  - pris: 11031.24
+  - pris: 12686.04
     terskel: 20
-  - pris: 22051.079999999998
+  - pris: 25358.64
     terskel: 25
-  - pris: 33082.32
+  - pris: 38044.68
     terskel: 50
-  - pris: 44113.32
+  - pris: 50730.6
     terskel: 75
-  - pris: 66164.64
+  - pris: 76089.36
     terskel: 100
-  - pris: 88215.6
+  - pris: 101448
     terskel: 150
-  - pris: 132329.04
+  - pris: 152178.96
     terskel: 200
-  - pris: 220545.0
+  - pris: 253626.96
     terskel: 300

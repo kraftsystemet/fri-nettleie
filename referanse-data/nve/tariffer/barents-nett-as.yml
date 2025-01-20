@@ -1,13 +1,12 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 15.1
 fylker:
   - '56'
 fylker_navn:
   - Finnmark
 navn: BARENTS NETT AS
 org: '971058854'
-priser:
-  - 15.1
 terskler:
   - pris: 7224
     terskel: 0

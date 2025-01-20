@@ -1,5 +1,6 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 24.38
 fylker:
   - '33'
   - '39'
@@ -10,8 +11,6 @@ fylker_navn:
   - Telemark
 navn: LEDE AS
 org: '979422679'
-priser:
-  - 24.38
 terskler:
   - pris: 2820
     terskel: 0

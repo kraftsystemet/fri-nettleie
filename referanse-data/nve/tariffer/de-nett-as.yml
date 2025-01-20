@@ -1,36 +1,33 @@
 ---
-dato: '2024-12-31'
+energiledd:
+  - 29.35
+  - 26.35
 fylker:
   - '40'
 fylker_navn:
   - Telemark
 navn: DE NETT AS
 org: '924862602'
-priser:
-  - 27
-  - 24
 terskler:
-  - pris: 2964
+  - pris: 3120
     terskel: 0
-  - pris: 3828
+  - pris: 4020
     terskel: 2
-  - pris: 4692
+  - pris: 4920
     terskel: 5
-  - pris: 6432
+  - pris: 6780
     terskel: 10
-  - pris: 8160
+  - pris: 8580
     terskel: 15
-  - pris: 9900
+  - pris: 10440
     terskel: 20
-  - pris: 15096
+  - pris: 15840
     terskel: 25
-  - pris: 23772
+  - pris: 24960
     terskel: 50
-  - pris: 32436
+  - pris: 34080
     terskel: 75
-  - pris: 45492
+  - pris: 48000
     terskel: 100
-  - pris: 62832
+  - pris: 66000
     terskel: 150
-  - pris: 88848
-    terskel: 200
