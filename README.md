@@ -119,8 +119,8 @@ Der viser vi også en forenklet bereging av avgifter.
 - [x] Overvåke nettselskapenes sider for å varsle ved endring
 - [x] Sammenstille og publisere informasjon per netteier på et "menneskelig" format på kraftsystemet.no/fri-nettleie
 - [x] Publisere visualisert prissignal basert på de innsamlede tariffene
-- [ ] Samle tariffer for husholdninger og hytter/fritidshus for alle nettområder
-- [ ] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
+- [x] Samle tariffer for husholdninger og hytter/fritidshus for alle nettområder
+- [x] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
 - [ ] Maskinlesbare filer for avgifter
 
 ## Anti-mål
@@ -240,9 +240,15 @@ Vi trenger all den hjelp vi kan få!
 
 ### Samle data
 
-Status-lista under viser at det er mange nettselskaper igjen å samle data for!
-Velg et nettselskap og finn fram nettleien deres. Formatet er formalisert i
-filen [tariff-eksempel.yml](./tariff-eksempel.yml) og kan valideres med
+Vi har data for alle netteiere, men det oppstår stadig endringer. Følg med på
+[issues](https://github.com/kraftsystemet/fri-nettleie/issues). Vi legger til
+saker med `collecting` og `help wanted` labels når vi oppdager endringer.
+
+Trykk på ✏️ ved netteieren for å bli sendt til innsamleren. Legg til nye data og
+kopier tilbake til `.yml` filen.
+
+Formatet er formalisert i filen
+[tariff-eksempel.yml](./tariff-eksempel.yml) og kan valideres med
 [cue](https://cuelang.org/) basert på [tariff.cue](./tariff.cue). Du bør se på
 noen av de allerede innsamlede tariffene for å få en følelse av formatet.
 
@@ -252,7 +258,7 @@ Alle bidrag teller!
 
 ### Gi beskjed om feil eller kom med ideer
 
-Dersom du ser feil i dataene, status eller annet - åpne et issue her på GitHub
+Dersom du ser feil i dataeneeller annet - åpne et issue her på GitHub
 eller bruk vårt [kontaktskjema på tally.so](https://tally.so/r/wol2v1)! Det
 samme gjelder om du har gode ideer om hvordan vi kan samle inn og/eller
 strukturere data.
@@ -302,7 +308,7 @@ vite organisasjonsnummeret kan du se på
 I noen
 tilfeller kan det være avvik mellom områdekonsesjonærer i
 [NVEs kartkatalog](https://kartkatalog.nve.no/) og eSett/Elhub. Dette skyldes
-oftes etterslep i registrering mellom systemene. Vi vil alltid bruke eSett som
+ofte etterslep i registrering mellom systemene. Vi vil alltid bruke eSett som
 autoritativ kilde.
 
 ## Status
@@ -1135,7 +1141,7 @@ All kode er lisensiert under [MIT](https://opensource.org/license/MIT). En kopi 
 og opphavsrett må følge med programvaren.
 
 Data i mappen `referanse-data` er lastet fra andre kilder og brukes for
-status-rapportering. Disse dataene har egne lisenser.
+rapportering og QA. Disse dataene har egne lisenser.
 
 * `esett` - Data fra [eSett](https://opendata.esett.com/) lisensiert med
   [CC0](https://creativecommons.org/publicdomain/zero/1.0/)
