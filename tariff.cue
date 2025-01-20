@@ -14,6 +14,7 @@ import (
 #Selskap: {
     netteier!: string
     gln!: [...#GLN]
+    mga?: [...#MGA]
     sist_oppdatert!: time.Format(time.RFC3339Date)
     kilder!: list.MinItems(1)
     tariffer!: [...#Tariff]
@@ -22,11 +23,8 @@ import (
 #Tariff: {
     gyldig_fra!: time.Format(time.RFC3339Date)
     gyldig_til?: time.Format(time.RFC3339Date)
-    id!: =~ "^[a-zæøå0-9-]+$"
     navn?: string
-    kommentar?: string
     kundegruppe!: "husholdning" | "hytte" | "privat"
-    mga?: [...#MGA]
     energiledd!: #Energiledd
     fastledd!: #Fastledd
 }

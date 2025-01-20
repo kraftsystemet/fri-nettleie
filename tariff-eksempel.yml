@@ -19,7 +19,6 @@
 # Ting å huske på
 #  * alle priser uten avgifter
 #  * tall oppgis med punktum som desimalskilletegn
-#  * vi bruker yaml bl.a. fordi det støtter kommentarer - bruk de dersom det er naturlig
 #  * Å utelate et element ansees for å være likt som å sette det som `null`.
 ## Start
 
@@ -32,6 +31,11 @@ netteier: Eksempel AS
 # GLN er en liste fordi noen nettselskaper har flere GLN ifbm. sammenslåing.
 gln:
   - "7080123456789"
+# Nettavregningsområde brukes dersom en netteier har ulike tariffer for ulike nettavregningsområder.
+# Skal være en liste. Dersom mga er utelatt vil alle nettavregningsområder for netteieren brukes.
+mga:
+  - 50Y12315125158JK
+  - 50Y12315125158JS
 # Når det sist ble samlet inn/sjekket at tariffene er riktige
 sist_oppdatert: 2024-11-03
 # Kilder er lenker/urler hvor tariffene finnes.
@@ -47,33 +51,19 @@ kilder:
 #  - tariffer for ulike kundegrupper
 
 tariffer:
-  - # ID er påkrevd og lar oss unikt identifisere en tariff for en netteier
-    # For eksempel kan man bruke navn på fil og id slik at denne tariffen heter
-    # 'tariff-eksempel.2024-nord'
-    # Innsamler står fritt til å gi en id, men her vil det typisk brukes år.
-    # Format: ^[0-9a-z-]+$
-    id: 2024-nord
-    # Valgfri kommentar om tariffen. Bruk er uspesifisert og ikke påkrevd p.t.
-    kommentar: >
-      Gjelder nettområder fra tidligere ABC AS nett. #magic___^_^___line
-    # Gyldig fra- og til-dato for tariffen.
-    # Fra er påkrevd. Til-dato er eksklusiv.
-    # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.
-    gyldig_fra: 2024-01-01
-    #gyldig_til: 2025-01-01
-
-    # Nettavregningsområde brukes dersom en netteier har ulike tariffer for ulike nettavregningsområder.
-    # Skal være en liste. Dersom mga er utelatt vil alle nettavregningsområder for netteieren brukes.
-    mga:
-      - 50Y12315125158JK
-      - 50Y12315125158JS
-    # Kundegruppe definerer hvem tariffen gjelder for.
+  - # Kundegruppe definerer hvem tariffen gjelder for.
     # Husk at vi kun samler inn for husholdinger og hytter/fritidshus.
     # Mulige verdier
     #  - husholdning
     #  - hytter
     #  - privat - gjelder både husholdning og hytter
     kundegruppe: privat
+
+    # Gyldig fra- og til-dato for tariffen.
+    # Fra er påkrevd. Til-dato er eksklusiv.
+    # Dersom det er gjeldende tariff uten sluttdato kan gydlig_til utelates.
+    gyldig_fra: 2024-01-01
+    #gyldig_til: 2025-01-01
 
     # Fastledd skal differensieres på grunnlag av kundens etterspørsel etter effekt.
     fastledd:

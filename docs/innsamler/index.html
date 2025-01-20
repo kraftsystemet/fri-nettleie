@@ -92,6 +92,16 @@
         </template>
     </div>
     <div class="input-group">
+        <button @click="addMGA">Legg til MGA</button>
+        <label for="mga">MGA:</label>
+        <template x-for="(mga, index) in data.mga" :key="index">
+            <div class="input-group">
+                <input type="text" x-model="data.mga[index]" placeholder="Enter MGA">
+                <button @click="removeMGA(index)">Fjern</button>
+            </div>
+        </template>
+    </div>
+    <div class="input-group">
         <label for="sist_oppdatert">Sist oppdatert:</label>
         <input type="date" id="sist_oppdatert" x-model="data.sist_oppdatert" placeholder="Enter sist oppdatert">
     </div>
@@ -113,10 +123,6 @@
     <template x-for="(tariff, index) in data.tariffer" :key="index">
         <div class="input-collection">
             <h3 x-text="'Tariff ' + ( index + 1 ) + ' - ' + tariff.id"></h3>
-            <div class="input-group">
-                <label for="id">ID:</label>
-                <input type="text" id="id" x-model="tariff.id" placeholder="Enter ID">
-            </div>
             <div class="input-group">
                 <label for="gyldig_fra">Gyldig fra:</label>
                 <input type="date" id="gyldig_fra" x-model="tariff.gyldig_fra" placeholder="Enter gyldig fra">
@@ -318,7 +324,6 @@
         function app() {
 
             newTariff = {
-                        id: '',
                         kundegruppe: 'privat',
                         fastledd: {
                             metode: 'TRE_DØGNMAX_MND',
@@ -369,6 +374,15 @@
                 },
                 removeGLN(index) {
                     this.data.gln.splice(index, 1);
+                },
+                addMGA() {
+                    if (!this.data.mga) {
+                        this.data.mga = [];
+                    }
+                    this.data.mga.push('');
+                },
+                removeMGA(index) {
+                    this.data.mga.splice(index, 1);
                 },
                 addTariff() {
                     if (!this.data.tariffer) {

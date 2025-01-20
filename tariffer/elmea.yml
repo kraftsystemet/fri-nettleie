@@ -6,8 +6,7 @@ sist_oppdatert: '2025-01-09'
 kilder:
   - 'https://www.elmea.no/nettleiepriser/'
 tariffer:
-  - id: 2025-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

@@ -6,8 +6,7 @@ kilder:
   - 'https://foere.net/nettleie/'
 sist_oppdatert: '2025-01-13'
 tariffer:
-  - id: 2025-1
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: false

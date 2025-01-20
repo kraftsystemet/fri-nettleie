@@ -7,8 +7,7 @@ kilder:
   - 'https://everket-notodden.no/wp-content/uploads/2023/12/240101-Nettleie-Everket.pdf'
   - 'https://everket-notodden.no/kunde/#nettleie'
 tariffer:
-  - id: 2024-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

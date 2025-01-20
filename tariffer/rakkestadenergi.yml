@@ -7,8 +7,7 @@ kilder:
   - 'https://rakkestadenergi.no/uploads/Historiske-nettleiepriser/Privatkunder_2024-12-10-130744_obve.pdf'
 sist_oppdatert: '2024-12-16'
 tariffer:
-  - id: 2024-07-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -42,8 +41,7 @@ tariffer:
           dager: [ukedag]
     gyldig_fra: '2024-07-01'
     gyldig_til: '2025-01-01'
-  - id: 2025-01-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

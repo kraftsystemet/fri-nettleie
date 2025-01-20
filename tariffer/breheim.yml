@@ -7,8 +7,7 @@ kilder:
   - 'https://www.breheimnett.no/vare-tariffar2025'
   - 'https://www.breheimnett.no/nettleige-for-kundar-under-100-000-kwh-i-arsforbruk2025'
 tariffer:
-  - id: 2025-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

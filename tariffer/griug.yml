@@ -40,5 +40,4 @@ tariffer:
         - pris: 68112
           terskel: 100
     gyldig_fra: '2024-01-01'
-    id: '2024'
     kundegruppe: privat

@@ -8,8 +8,7 @@ kilder:
   - 'https://hsev.no/uploads/2024-09-09-HSEV-nettleie-n%C3%A6ring-med-forbruk-mindre-enn-100-000-kWh-1-oktober-2024.pdf'
   - 'https://hsev.no/uploads/2025-02-08-HSEV-nettleie-privatkunder-1-februar-2025.pdf'
 tariffer:
-  - id: 2024-10-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -43,8 +42,7 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-02-01'
-  - id: 2025-02-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

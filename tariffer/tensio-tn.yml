@@ -48,12 +48,10 @@ tariffer:
         - pris: 301968
           terskel: 500
     gyldig_fra: '2024-09-01'
-    id: 2024-07-tn
     navn: Nord
     kundegruppe: privat
     gyldig_til: '2025-01-01'
-  - id: 2025-01-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

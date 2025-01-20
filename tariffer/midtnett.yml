@@ -37,11 +37,9 @@ tariffer:
         - pris: 36000
           terskel: 100
     gyldig_fra: '2024-04-01'
-    id: hn22-privat
     kundegruppe: privat
     gyldig_til: '2025-01-01'
-  - id: 2025-01-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

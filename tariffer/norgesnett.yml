@@ -6,8 +6,7 @@ kilder:
   - 'https://norgesnett.no/kunde/nettleie-privat/'
 sist_oppdatert: '2024-11-01'
 tariffer:
-  - id: '2024'
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

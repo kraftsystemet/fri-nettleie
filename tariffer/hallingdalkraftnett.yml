@@ -8,8 +8,7 @@ kilder:
   - 'https://www.hallingdal-kraftnett.no/uploads/Hallingdal-Kraftnett-Nettleie-pr-07-2024.pdf'
   - 'https://www.hallingdal-kraftnett.no/uploads/F%C3%B8ie-Nettleie-pr-1-2025-Priser-12-24-PRINT.pdf'
 tariffer:
-  - id: 2024-07-privat
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -41,8 +40,7 @@ tariffer:
           dager: [alle]
     gyldig_fra: '2024-07-01'
     gyldig_til: '2025-01-01'
-  - id: 2025-privat
-    gyldig_fra: '2025-01-01'
+  - gyldig_fra: '2025-01-01'
     kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND

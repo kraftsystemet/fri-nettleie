@@ -7,8 +7,7 @@ kilder:
   - 'https://etna.no/uploads/Kunde-og-nettleie/NETTLEIEPRISER-GJELDENE-FRA-1-MARS-2024.pdf'
   - 'https://etna.no/om-nettleie'
 tariffer:
-  - id: 2024-03
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

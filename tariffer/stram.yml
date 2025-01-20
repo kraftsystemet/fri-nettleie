@@ -7,8 +7,7 @@ kilder:
   - 'https://static1.squarespace.com/static/66bdd03417d9bd3545f8559c/t/673da00f304d9f305cfe4be4/1732091919973/Tariffhefte_nov+2024.pdf'
   - 'https://www.stram.no/nettleiepris'
 tariffer:
-  - id: '2024'
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: false

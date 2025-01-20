@@ -37,11 +37,9 @@ tariffer:
         - pris: 160251.12
           terskel: 200
     gyldig_fra: '2024-02-01'
-    id: 2024-02-n100
     kundegruppe: privat
     gyldig_til: '2025-01-01'
-  - id: 2025-01
-    kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
