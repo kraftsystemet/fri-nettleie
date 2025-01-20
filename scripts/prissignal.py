@@ -100,7 +100,6 @@ def parse_args():
     parser.add_argument("--fra", help="Start date in ISO format (YYYY-MM-DDTHH:MM:SS)")
     parser.add_argument("--til", help="End date in ISO format (YYYY-MM-DDTHH:MM:SS)")
     parser.add_argument("--tariff-fil", help="Innsamlet tariff-fil")
-    parser.add_argument("--tariff", help="Tariff-id", default=None)
     return parser.parse_args()
 
 
@@ -134,22 +133,17 @@ def main():
 
     data = load_tariff(args.tariff_fil)
 
-    print("INNSAMLET TARIFF:")
-    print("")
-    print(yaml.dump(data))
-
     tariffer = data.get("tariffer")
 
-    tariff = tariffer[0]
+    # This is just an approximation at picking out the correct tariff based on dates
+    tariff = tariffer[len(tariffer) - 1]
+    for t in reversed(sorted(tariffer, key=lambda t: t["gyldig_fra"])):
+        gyldig_fra = datetime.datetime.fromisoformat(t["gyldig_fra"])
+        if gyldig_fra < from_date:
+            tariff = t
+            break
 
-    if args.tariff is not None:
-        treff = [i for t, i in tariffer if t["id"] == args.tariff]
-        if len(treff) == 0:
-            print(f"Tariff {args.tariff} ikke funnet")
-            os.exit(1)
-        tariff = treff[0]
-
-    print(f"TARIFF: {tariff['id']}\n")
+    print(f"TARIFF:\n\n{yaml.dump(tariff)}\n")
 
     grunnpris = tariff["energiledd"]["grunnpris"]
 
