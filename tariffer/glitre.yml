@@ -4,7 +4,7 @@ gln:
   - '7080005056069'
   - '7080005052672'
   - '7080005053273'
-sist_oppdatert: '2024-12-27'
+sist_oppdatert: '2025-01-21'
 kilder:
   - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-privatkunde'
 tariffer:
@@ -14,25 +14,25 @@ tariffer:
       terskel_inkludert: true
       terskler:
         - terskel: 0
-          pris: 2040
+          pris: 1632
         - terskel: 2
-          pris: 2580
+          pris: 2064
         - terskel: 5
-          pris: 4440
+          pris: 3552
         - terskel: 10
-          pris: 9120
+          pris: 7296
         - terskel: 15
-          pris: 11880
+          pris: 9504
         - terskel: 20
-          pris: 14880
+          pris: 11904
         - terskel: 25
-          pris: 23040
+          pris: 18432
         - terskel: 50
-          pris: 36480
+          pris: 29184
         - terskel: 75
-          pris: 48600
+          pris: 38880
         - terskel: 100
-          pris: 78960
+          pris: 63168
     energiledd:
       grunnpris: 15.36
       unntak:
