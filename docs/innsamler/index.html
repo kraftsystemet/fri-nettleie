@@ -171,16 +171,34 @@
                             <input type="number" id="terskel" x-model.number="terskel.terskel">
                         </td>
                         <td>
-                            <input type="number" id="pris" x-model.number="terskel.pris">
+                            <input
+                                type="number"
+                                id="pris"
+                                x-bind:value="formatFloat(terskel.pris)">
                         </td>
                         <td>
-                            <input type="number" id="pris-mva" class="secondary-input" x-bind:value="terskel.pris * 1.25" x-on:change="terskel.pris = $event.target.value * 0.8">
+                            <input
+                                type="number"
+                                id="pris-mva"
+                                class="secondary-input"
+                                x-bind:value="formatFloat(terskel.pris * 1.25)"
+                                x-on:change="terskel.pris = formatFloat($event.target.value * 0.8)">
                         </td>
                         <td>
-                            <input type="number" id="pris-mnd" class="secondary-input" x-bind:value="terskel.pris / 12" x-on:change="terskel.pris = $event.target.value * 12">
+                            <input
+                                type="number"
+                                id="pris-mnd"
+                                class="secondary-input"
+                                x-bind:value="formatFloat(terskel.pris / 12)"
+                                x-on:change="terskel.pris = formatFloat($event.target.value * 12)">
                         </td>
                         <td>
-                            <input type="number" id="pris-mnd-mva" class="secondary-input" x-bind:value="(terskel.pris / 12)*1.25" x-on:change="terskel.pris = ($event.target.value * 0.8) * 12">
+                            <input
+                                type="number"
+                                id="pris-mnd-mva"
+                                class="secondary-input" 
+                                x-bind:value="formatFloat((terskel.pris / 12)*1.25)" 
+                                x-on:change="terskel.pris = formatFloat(($event.target.value * 0.8) * 12)">
                         </td>
                         <td>
                             <button @click="removeTerskforbruk(index,jndex)">Fjern</button>
@@ -202,22 +220,51 @@
                     </tr>
                     <tr>
                         <td>
-                            <input type="number" id="pris" x-model.number="tariff.energiledd.grunnpris" placeholder="Pris">
+                            <input
+                                type="number"
+                                id="pris"
+                                x-model.number="tariff.energiledd.grunnpris" 
+                                placeholder="Pris">
                         </td>
                         <td>
-                            <input type="number" id="pris-mva" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris * 1.25" x-on:change="tariff.energiledd.grunnpris = $event.target.value * 0.8">
+                            <input
+                                type="number"
+                                id="pris-mva"
+                                class="secondary-input"
+                                x-bind:value="formatFloat(tariff.energiledd.grunnpris * 1.25)"
+                                x-on:change="tariff.energiledd.grunnpris = formatFloat($event.target.value * 0.8)">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1">
+                            <input
+                                type="number"
+                                id="pris-enova"
+                                class="secondary-input"
+                                x-bind:value="formatFloat(tariff.energiledd.grunnpris + 1)"
+                                x-on:change="tariff.energiledd.grunnpris = formatFloat($event.target.value - 1)">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="tariff.energiledd.grunnpris + 1 + meta.forbruksavgift" x-on:change="tariff.energiledd.grunnpris = $event.target.value - 1 - meta.forbruksavgift">
+                            <input
+                                type="number"
+                                id="pris-enova-forbruks"
+                                class="secondary-input"
+                                x-bind:value="formatFloat(tariff.energiledd.grunnpris + 1 + meta.forbruksavgift)"
+                                x-on:change="tariff.energiledd.grunnpris = formatFloat($event.target.value - 1 - meta.forbruksavgift)">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + meta.forbruksavgift_vinter) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift_vinter">
+                            <input
+                                type="number"
+                                id="pris-enova-forbrukv-mva"
+                                class="secondary-input"
+                                x-bind:value="formatFloat((tariff.energiledd.grunnpris + 1 + meta.forbruksavgift_vinter) * 1.25)"
+                                x-on:change="tariff.energiledd.grunnpris = formatFloat(( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift_vinter)">
                         </td>
                         <td>
-                            <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(tariff.energiledd.grunnpris + 1 + meta.forbruksavgift) * 1.25" x-on:change="tariff.energiledd.grunnpris = ( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift">
+                            <input
+                                type="number"
+                                id="pris-enova-forbruks-mva"
+                                class="secondary-input"
+                                x-bind:value="formatFloat((tariff.energiledd.grunnpris + 1 + meta.forbruksavgift) * 1.25)"
+                                x-on:change="tariff.energiledd.grunnpris = formatFloat(( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift)">
                         </td>
                     </tr>
                 </table>
@@ -250,22 +297,51 @@
                         </tr>
                         <tr>
                             <td>
-                                <input type="number" id="pris" x-model.number="unntak.pris" placeholder="Pris">
+                                <input
+                                    type="number"
+                                    id="pris"
+                                    x-model.number="unntak.pris"
+                                    placeholder="Pris">
                             </td>
                             <td>
-                                <input type="number" id="pris-mva" class="secondary-input" x-bind:value="unntak.pris * 1.25" x-on:change="unntak.pris = $event.target.value * 0.8">
+                                <input
+                                    type="number"
+                                    id="pris-mva"
+                                    class="secondary-input"
+                                    x-bind:value="formatFloat(unntak.pris * 1.25)"
+                                    x-on:change="unntak.pris = formatFloat($event.target.value * 0.8)">
                             </td>
                             <td>
-                                <input type="number" id="pris-enova" class="secondary-input" x-bind:value="unntak.pris + 1" x-on:change="unntak.pris = $event.target.value - 1">
+                                <input
+                                    type="number"
+                                    id="pris-enova"
+                                    class="secondary-input"
+                                    x-bind:value="formatFloat(unntak.pris + 1)"
+                                    x-on:change="unntak.pris = formatFloat($event.target.value - 1)">
                             </td>
                             <td>
-                                <input type="number" id="pris-enova-forbruks" class="secondary-input" x-bind:value="unntak.pris + 1 + meta.forbruksavgift" x-on:change="unntak.pris = $event.target.value - 1 - meta.forbruksavgift">
+                                <input
+                                    type="number"
+                                    id="pris-enova-forbruks"
+                                    class="secondary-input"
+                                    x-bind:value="formatFloat(unntak.pris + 1 + meta.forbruksavgift)"
+                                    x-on:change="unntak.pris = formatFloat($event.target.value - 1 - meta.forbruksavgift)">
                             </td>
                             <td>
-                                <input type="number" id="pris-enova-forbrukv-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + meta.forbruksavgift_vinter) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift_vinter">
+                                <input
+                                    type="number"
+                                    id="pris-enova-forbrukv-mva"
+                                    class="secondary-input"
+                                    x-bind:value="formatFloat((unntak.pris + 1 + meta.forbruksavgift_vinter) * 1.25)"
+                                    x-on:change="unntak.pris = formatFloat(( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift_vinter)">
                             </td>
                             <td>
-                                <input type="number" id="pris-enova-forbruks-mva" class="secondary-input" x-bind:value="(unntak.pris + 1 + meta.forbruksavgift) * 1.25" x-on:change="unntak.pris = ( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift">
+                                <input
+                                    type="number"
+                                    id="pris-enova-forbruks-mva"
+                                    class="secondary-input"
+                                    x-bind:value="formatFloat((unntak.pris + 1 + meta.forbruksavgift) * 1.25)"
+                                    x-on:change="unntak.pris = formatFloat(( $event.target.value * 0.8 ) - 1 - meta.forbruksavgift)">
                             </td>
                         </tr>
                     </table>
@@ -439,6 +515,10 @@
                 }
 
             };
+        }
+
+        function formatFloat(value) {
+            return Number(value.toFixed(2));
         }
     </script>
 </body>
