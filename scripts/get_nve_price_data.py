@@ -34,6 +34,13 @@ if __name__ == "__main__":
     weekday_date = dt.strftime("%Y-%m-%d")
 
     while True:
+        if dt.weekday() == 4:
+            break
+        dt += timedelta(days=1)
+
+    friday_date = dt.strftime("%Y-%m-%d")
+
+    while True:
         if dt.weekday() == 6:
             break
         dt += timedelta(days=1)
@@ -44,13 +51,17 @@ if __name__ == "__main__":
         print(f"Usage: {sys.argv[0]} <output_directory>")
         sys.exit(1)
 
+    dates = list(set([weekday_date, friday_date, sunday_date]))
+
+    print(f"Getting data for: {', '.join(dates)}")
+
     output_dir = sys.argv[1]
 
     consessionaires = nve.get_konsesjonarer(weekday_date)
 
     for org, c in consessionaires.items():
         print(f"{org}: {c}")
-        nve_tariff = nve.get_summary([weekday_date, sunday_date], c.fylker, c.org)
+        nve_tariff = nve.get_summary(dates, c.fylker, c.org)
         file_name = f"{output_dir}/{slugify(c.navn)}.yml".replace("//", "/")
         print(file_name)
         nve_tariff.update(dataclasses.asdict(c))
@@ -62,6 +73,6 @@ if __name__ == "__main__":
             f"""
 # Tariffer er sist oppdatert {datetime.now().strftime("%Y-%m-%d %H:%M")}
 
-Tariffene gjelder for {weekday_date} og {sunday_date}.
+Tariffene gjelder for: {", ".join(dates)}.
 """
         )
