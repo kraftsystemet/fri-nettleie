@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 26.3
   - 21.3
+  - 26.3
 fylker:
   - '18'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: BINDAL KRAFTLAG SA
 org: '953181606'
 terskler:
-  - pris: 264
+  - pris: 3168
     terskel: 0
-  - pris: 395.04
+  - pris: 4740
     terskel: 5
-  - pris: 579.96
+  - pris: 6960
     terskel: 10
-  - pris: 738.0
+  - pris: 8856
     terskel: 15
-  - pris: 896.04
+  - pris: 10752
     terskel: 20
-  - pris: 1055.04
+  - pris: 12660
     terskel: 25
-  - pris: 1317.96
+  - pris: 15816
     terskel: 30
-  - pris: 2109.0
+  - pris: 25308
     terskel: 50
-  - pris: 3164.04
+  - pris: 37968
     terskel: 75
-  - pris: 3954.0
+  - pris: 47448
     terskel: 100

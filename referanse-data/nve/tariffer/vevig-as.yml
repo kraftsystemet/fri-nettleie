@@ -11,15 +11,15 @@ fylker_navn:
 navn: VEVIG AS
 org: '916319908'
 terskler:
-  - pris: 176.04
+  - pris: 2112
     terskel: 0
-  - pris: 228.96
+  - pris: 2748
     terskel: 2
-  - pris: 318.0
+  - pris: 3816
     terskel: 5
-  - pris: 408
+  - pris: 4896
     terskel: 10
-  - pris: 498.0
+  - pris: 5976
     terskel: 15
-  - pris: 585.96
+  - pris: 7032
     terskel: 20

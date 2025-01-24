@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 21
-  - 26
+  - 22.5
+  - 27.5
 fylker:
   - '32'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: "HØLAND OG SETSKOG ELVERK AS"
 org: '923488960'
 terskler:
-  - pris: 2064
+  - pris: 2016
     terskel: 0
-  - pris: 2880
+  - pris: 2400
     terskel: 2
-  - pris: 4080
+  - pris: 3744
     terskel: 5
-  - pris: 5760
+  - pris: 4320
     terskel: 10
-  - pris: 6912
+  - pris: 5760
     terskel: 15
-  - pris: 8832
+  - pris: 6720
     terskel: 20
-  - pris: 15552
+  - pris: 14400
     terskel: 25
-  - pris: 24000
+  - pris: 22080
     terskel: 50
-  - pris: 32720.04
+  - pris: 28800
     terskel: 75
-  - pris: 59520
+  - pris: 57600
     terskel: 100

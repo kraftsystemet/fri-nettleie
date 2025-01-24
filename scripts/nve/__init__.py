@@ -214,7 +214,7 @@ def get_summary(dates: List[str], counties: List[str], org: str):
                     levels[d["effekttrinnFraKw"]] = d["fastleddEks"]
 
     return {
-        "energiledd": prices,
+        "energiledd": sorted(prices),
         "terskler": [
             {"terskel": t, "pris": round(levels[t] * 12, 3)}
             for t in sorted(list(levels.keys()))
