@@ -1,63 +1,132 @@
 #!/usr/bin/env python3
-# Sjekk innsamlede verdier mot NVE sitt api
+# Sjekk innsamlede verdier mot NVE referanse-data
 #
-# Usage: ./scripts/qa_nve.py tariffer/<netteier>.yml
+# Usage: ./scripts/qa_nve.py
 
 import cache
 
 import sys
+import os
 import nve
 import elhub
 import yaml
+import json
+from datetime import datetime
+import dateutil.parser
+
+# gln: org
+GRID_OWNERS = {}
+
+
+def org_from_gln(gln):
+    global GRID_OWNERS
+
+    if len(GRID_OWNERS.keys()) == 0:
+        with open("./referanse-data/elhub/grid_owners.json", "r") as f:
+            gos = json.load(f)
+            for go in gos:
+                GRID_OWNERS[go["gln"]] = go["organisationNumber"]
+
+    return GRID_OWNERS.get(gln)
+
+
+def load_collected_tariffs():
+    """
+    Loads the collected tariffs on a format that can be compared to the ones collected from NVE
+    """
+    files = [f for f in os.listdir("./tariffer") if f.endswith(".yml")]
+
+    tariffs = {}
+
+    for f in files:
+        with open("./tariffer/" + f, "r") as file:
+            data = yaml.safe_load(file)
+            tariff = None
+            for t in data["tariffer"]:
+                if (
+                    dateutil.parser.parse(t["gyldig_fra"]) <= datetime.today()
+                    and dateutil.parser.parse(t.get("gyldig_til", "2099-01-01"))
+                    > datetime.today()
+                ):
+                    energiledd = []
+                    energiledd.append(t["energiledd"]["grunnpris"])
+                    for u in t["energiledd"].get("unntak", []):
+                        energiledd.append(u["pris"])
+                        energiledd.sort()
+                        energiledd = [round(p, 2) for p in energiledd]
+                    tariff = {
+                        "name": data["netteier"],
+                        "data": {
+                            "energiledd": energiledd,
+                            "terskler": {
+                                t["terskel"]: round(t["pris"])
+                                for t in t["fastledd"]["terskler"]
+                            },
+                        },
+                    }
+
+            if tariff is None:
+                print(f"Could not find current tariff for {f}")
+                continue
+
+            for gln in data["gln"]:
+                org = org_from_gln(gln)
+                if org is None:
+                    print(f"Could not find org for gln {gln}")
+                    continue
+
+                if org not in tariffs:
+                    tariffs[org] = tariff
+
+    return tariffs
+
+
+def load_nve_tariffs():
+    files = [
+        f for f in os.listdir("./referanse-data/nve/tariffer") if f.endswith(".yml")
+    ]
+    tariffs = {}
+    for f in files:
+        with open("./referanse-data/nve/tariffer/" + f, "r") as file:
+            data = yaml.safe_load(file)
+            tariffs[data["org"]] = {
+                # energiledd er med enova-avgift, så det trekker vi fra
+                "energiledd": [round(p, 2) for p in data["energiledd"]],
+                "terskler": {t["terskel"]: round(t["pris"]) for t in data["terskler"]},
+            }
+
+    return tariffs
+
 
 if __name__ == "__main__":
-    # Dato å hente data fra NVE
-    dato = "2024-11-01"
+    collected_tariffs = load_collected_tariffs()
+    nve_tariffs = load_nve_tariffs()
 
-    if len(sys.argv) != 2:
-        print("Usage: python script.py <yml_file>")
-        sys.exit(1)
+    for org in collected_tariffs:
+        name = collected_tariffs[org]["name"]
 
-    tariff_fil = sys.argv[1]
+        if org not in nve_tariffs:
+            print(f"{name} - {org} - Missing in NVE data")
+            continue
 
-    with open(tariff_fil, "r") as f:
-        data = yaml.safe_load(f)
+        ct = collected_tariffs[org]["data"]
+        cte = ct["energiledd"]
+        ctt = ct["terskler"]
 
-    tariffer = data["tariffer"]
+        nt = nve_tariffs[org]
+        nte = nt["energiledd"]
+        ntt = nt["terskler"]
 
-    for gln in data["gln"]:
-        print(f"\nSjekker tariffer for {gln} - {data['netteier']}")
+        if cte != nte:
+            print(f"{name} - {org} - Energiledd not the same: {cte} != {nte}")
 
-        gos = {g["gln"]: g["organisationNumber"] for g in elhub.get_grid_owner_data()}
+        if ctt != ntt:
+            print(f"{name} - {org} - Fastledd is not the same")
 
-        if gln not in gos:
-            print(f"Gln {gln} not found in Elhub Grid Owner Data")
-            sys.exit(1)
-
-        org = gos[gln]
-        print("Organisasjonsnummer:", org)
-
-        konsesjonarer = nve.get_konsesjonarer_fylker(dato)
-
-        if org not in konsesjonarer:
-            print(f"Organisasjonsnummer {org} not found in NVE data")
-            sys.exit(1)
-
-        fylker = konsesjonarer[org]
-
-        nve_tariff = nve.get_oppsummering(dato, fylker, org)
-
-        for t in tariffer:
-            if t["energiledd"]["grunnpris"] not in nve_tariff["priser"]:
+            all_terskler = list(ctt.keys())
+            all_terskler.extend(list(ntt.keys()))
+            all_terskler = sorted(list(set(all_terskler)))
+            for t in all_terskler:
                 print(
-                    f"Tariff {t['id']} har ikke-eksisterende grunnpris {t['energiledd']['grunnpris']} - NVE => {nve_tariff['priser']}"
+                    f"    {t} - Collected: {ctt.get(t, '  ')} - NVE: {ntt.get(t, '    ')}"
                 )
-            else:
-                print("Grunnpris OK")
-
-            if t["fastledd"]["terskler"] != nve_tariff["terskler"]:
-                print(
-                    f"Tariff {t['id']} har ikke-eksisterende terskler {t['fastledd']['terskler']} - NVE => {nve_tariff['terskler']}"
-                )
-            else:
-                print("Terskler OK")
