@@ -2,7 +2,7 @@
 netteier: 'Elvia AS'
 gln:
   - '7080005046220'
-sist_oppdatert: '2024-11-27'
+sist_oppdatert: '2025-01-25'
 kilder:
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/'
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/'
@@ -67,10 +67,10 @@ tariffer:
         - terskel: 100
           pris: 53808
     energiledd:
-      grunnpris: 8.56
+      grunnpris: 15.21
       unntak:
         - navn: Virkedag
           timer: 6-21
           dager: [virkedag]
-          pris: 16.56
+          pris: 23.21
     gyldig_fra: '2025-01-01'

@@ -17,6 +17,10 @@ import dateutil.parser
 # gln: org
 GRID_OWNERS = {}
 
+KNOWN_ERRORS = {
+    "980489698": ["energiledd"]  # Elvia har enova-avgift i NVE sine data
+}
+
 
 def org_from_gln(gln):
     global GRID_OWNERS
@@ -118,7 +122,8 @@ if __name__ == "__main__":
         ntt = nt["terskler"]
 
         if cte != nte:
-            print(f"{name} - {org} - Energiledd not the same: {cte} != {nte}")
+            if not (org in KNOWN_ERRORS and "energiledd" in KNOWN_ERRORS[org]):
+                print(f"{name} - {org} - Energiledd not the same: {cte} != {nte}")
 
         if ctt != ntt:
             print(f"{name} - {org} - Fastledd is not the same")
