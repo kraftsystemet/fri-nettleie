@@ -34,6 +34,7 @@ KNOWN_ERRORS = {
     "986347801" : ["fastledd"], # Elmea rot i NVE sine fastledd
     "926377841" : ["energiledd"], # Romsdalsnett har enova-avgift i NVE sine data
     "923488960" : ["energiledd"], # HSEV har enova-avgift i NVE sine data
+    "882783022" : ["energiledd"], # Etna sine priser har enova og elavgift host NVE
 }
 # fmt: on
 
