@@ -2,7 +2,7 @@
 netteier: 'Hallingdal Kraftnett AS'
 gln:
   - '7080005050654'
-sist_oppdatert: '2024-12-27'
+sist_oppdatert: '2025-01-25'
 kilder:
   - 'https://www.hallingdal-kraftnett.no/priser'
   - 'https://www.hallingdal-kraftnett.no/uploads/Hallingdal-Kraftnett-Nettleie-pr-07-2024.pdf'
@@ -48,21 +48,21 @@ tariffer:
       terskler:
         - terskel: 0
           pris: 2772
-        - terskel: 0
+        - terskel: 2
           pris: 3360
-        - terskel: 0
+        - terskel: 5
           pris: 4404
-        - terskel: 0
+        - terskel: 10
           pris: 6297.6
-        - terskel: 0
+        - terskel: 15
           pris: 8860.8
-        - terskel: 0
+        - terskel: 20
           pris: 10636.8
-        - terskel: 0
+        - terskel: 25
           pris: 13776
-        - terskel: 0
+        - terskel: 50
           pris: 15744
-        - terskel: 0
+        - terskel: 75
           pris: 21600
     energiledd:
       grunnpris: 9.5

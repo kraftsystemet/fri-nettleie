@@ -17,10 +17,15 @@ import dateutil.parser
 # gln: org
 GRID_OWNERS = {}
 
+# fmt: off
 KNOWN_ERRORS = {
     "980489698": ["energiledd"],  # Elvia har enova-avgift i NVE sine data
     "877051412": ["energiledd"],  # Modalen har enova-avgift i NVE sine data
+    "979399901": ["fastledd"],  # Vestmar har avrundingfeil i NVE/på sine sider
+    "924862602": ["energiledd","fastledd"],  # DE Nett har enova-avgift og mangler et fastledd i NVE sine data
+    "971589752": ["energiledd","fastledd"], # Hallingdal/Føie har endel rot i sine NVE data
 }
+# fmt: on
 
 
 def org_from_gln(gln):
@@ -127,12 +132,13 @@ if __name__ == "__main__":
                 print(f"{name} - {org} - Energiledd not the same: {cte} != {nte}")
 
         if ctt != ntt:
-            print(f"{name} - {org} - Fastledd is not the same")
+            if not (org in KNOWN_ERRORS and "fastledd" in KNOWN_ERRORS[org]):
+                print(f"{name} - {org} - Fastledd is not the same")
 
-            all_terskler = list(ctt.keys())
-            all_terskler.extend(list(ntt.keys()))
-            all_terskler = sorted(list(set(all_terskler)))
-            for t in all_terskler:
-                print(
-                    f"    {t} - Collected: {ctt.get(t, '  ')} - NVE: {ntt.get(t, '    ')}"
-                )
+                all_terskler = list(ctt.keys())
+                all_terskler.extend(list(ntt.keys()))
+                all_terskler = sorted(list(set(all_terskler)))
+                for t in all_terskler:
+                    print(
+                        f"    {t} - Collected: {ctt.get(t, '  ')} - NVE: {ntt.get(t, '    ')}"
+                    )
