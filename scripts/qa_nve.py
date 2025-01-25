@@ -18,7 +18,8 @@ import dateutil.parser
 GRID_OWNERS = {}
 
 KNOWN_ERRORS = {
-    "980489698": ["energiledd"]  # Elvia har enova-avgift i NVE sine data
+    "980489698": ["energiledd"],  # Elvia har enova-avgift i NVE sine data
+    "877051412": ["energiledd"],  # Modalen har enova-avgift i NVE sine data
 }
 
 
