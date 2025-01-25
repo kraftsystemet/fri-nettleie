@@ -11,7 +11,7 @@ import nve
 import elhub
 import yaml
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 import dateutil.parser
 
 # gln: org
@@ -32,7 +32,8 @@ KNOWN_ERRORS = {
     "925336637" : ["fastledd"], # Alut avvik på fastledd pga terskel_inkludert
     "953681781" : ["energiledd"], # Griug har enova-avgift i NVE sine data
     "986347801" : ["fastledd"], # Elmea rot i NVE sine fastledd
-    "926377841" : ["energiledd"] # Romsdalsnett har enova-avgift i NVE sine data
+    "926377841" : ["energiledd"], # Romsdalsnett har enova-avgift i NVE sine data
+    "923488960" : ["energiledd"], # HSEV har enova-avgift i NVE sine data
 }
 # fmt: on
 
@@ -62,11 +63,12 @@ def load_collected_tariffs():
             data = yaml.safe_load(file)
             tariff = None
             for t in data["tariffer"]:
-                if (
-                    dateutil.parser.parse(t["gyldig_fra"]) <= datetime.today()
-                    and dateutil.parser.parse(t.get("gyldig_til", "2099-01-01"))
-                    > datetime.today()
-                ):
+                # TODO better time sync between collected and NVE
+                if dateutil.parser.parse(
+                    t["gyldig_fra"]
+                ) <= datetime.today() + timedelta(days=14) and dateutil.parser.parse(
+                    t.get("gyldig_til", "2099-01-01")
+                ) > datetime.today() + timedelta(days=14):
                     energiledd = []
                     energiledd.append(t["energiledd"]["grunnpris"])
                     for u in t["energiledd"].get("unntak", []):
