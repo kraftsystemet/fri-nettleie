@@ -10,7 +10,7 @@ tariffer:
       grunnpris: 13.1
     fastledd:
       metode: OV_TREFASE
-      terskel_inkludert: true
+      terskel_inkludert: false
       terskler:
         - pris: 3500
           terskel: 0

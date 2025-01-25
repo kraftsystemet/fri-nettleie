@@ -28,6 +28,8 @@ KNOWN_ERRORS = {
     "924527994": ["energiledd", "fastledd"], # Breheim har enova-avgift og feil avrunding på fastledd i NVE sine data
     "924330678": ["energiledd", "fastledd"], # SuNett våre priser er bekreftet på epost. Fastledd er vanskelig ref issue #4
     "980824586": ["energiledd", "fastledd"], # Nordvestnett har enova-avgift og feil i første fastledd i NVE sine data
+    "923819177" : ["energiledd", "fastledd"], # S-NETT har enova-avgift og rot på fastledd i NVE sine data
+    "925336637" : ["fastledd"], # Alut avvik på fastledd pga terskel_inkludert
 }
 # fmt: on
 
