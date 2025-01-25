@@ -32,6 +32,7 @@ KNOWN_ERRORS = {
     "925336637" : ["fastledd"], # Alut avvik på fastledd pga terskel_inkludert
     "953681781" : ["energiledd"], # Griug har enova-avgift i NVE sine data
     "986347801" : ["fastledd"], # Elmea rot i NVE sine fastledd
+    "926377841" : ["energiledd"] # Romsdalsnett har enova-avgift i NVE sine data
 }
 # fmt: on
 
