@@ -24,6 +24,7 @@ KNOWN_ERRORS = {
     "979399901": ["fastledd"],  # Vestmar har avrundingfeil i NVE/på sine sider
     "924862602": ["energiledd","fastledd"],  # DE Nett har enova-avgift og mangler et fastledd i NVE sine data
     "971589752": ["energiledd","fastledd"], # Hallingdal/Føie har endel rot i sine NVE data
+    "923789324": ["energiledd"] # Haringnett rett og slett bare feil energiledd hos NVE
 }
 # fmt: on
 

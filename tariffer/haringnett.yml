@@ -2,9 +2,10 @@
 netteier: 'Haringnett AS'
 gln:
   - '7080010001276'
-sist_oppdatert: '2024-05-01'
+sist_oppdatert: '2025-01-25'
 kilder:
   - 'https://www.kvamenerginett.no/nettleigeprisar2024'
+  - 'https://www.haringnett.no/nettleigeprisar2025'
 tariffer:
   - kundegruppe: privat
     fastledd:
@@ -39,3 +40,29 @@ tariffer:
           dager: [ukedag]
           pris: 22.5
     gyldig_fra: '2024-05-01'
+    gyldig_til: '2025-01-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2640
+        - terskel: 2
+          pris: 3600
+        - terskel: 5
+          pris: 5520
+        - terskel: 10
+          pris: 8400
+        - terskel: 15
+          pris: 10080
+        - terskel: 20
+          pris: 12000
+    energiledd:
+      grunnpris: 14.5
+      unntak:
+        - navn: Ukedag
+          timer: 6-21
+          pris: 22.5
+          dager: [ukedag]
+    gyldig_fra: '2025-01-01'
