@@ -1,0 +1,29 @@
+---
+energiledd:
+  - 11
+  - 23
+fylker:
+  - '11'
+fylker_navn:
+  - Rogaland
+navn: KE NETT AS
+org: '977285712'
+terskler:
+  - pris: 3800.0
+    terskel: 0
+  - pris: 5480.0
+    terskel: 5
+  - pris: 7160.0
+    terskel: 10
+  - pris: 8840.0
+    terskel: 15
+  - pris: 10520.0
+    terskel: 20
+  - pris: 20599.999
+    terskel: 25
+  - pris: 26000.0
+    terskel: 50
+  - pris: 34400.0
+    terskel: 75
+  - pris: 65479.998
+    terskel: 100

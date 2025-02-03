@@ -5,13 +5,17 @@ from typing import List
 
 
 class Endpoint(enum.Enum):
-    Maned = "NettleiePerOmradePrManedHusholdningFritidEffekttariffer"
-    Time = "NettleiePerOmradePrTimeHusholdningFritidEffekttariffer"
+    PrivateMonth = "NettleiePerOmradePrManedHusholdningFritidEffekttariffer"
+    PrivateHour = "NettleiePerOmradePrTimeHusholdningFritidEffekttariffer"
+    IndustryHour = "NettleiePrFylkePrTimeNaringEffekttariffer"
 
 
-class TariffGruppe(enum.Enum):
-    Husholdning = "Husholdning"
-    Hytter = "Hytter og fritidshus"
+class TariffGroup(enum.Enum):
+    # For use with Endpoints for private tariffs
+    Household = "Husholdning"
+    Cabin = "Hytter og fritidshus"
+    # For use with Endpoint for industry tariffs
+    Industry = "2"  # Distribusjonsnett Lavspent Næringskunder Under100 MWh
 
 
 @dataclasses.dataclass
@@ -59,12 +63,12 @@ def get_mnd_data(dato):
     }
     ```
     """
-    url = f"{TARIFFER_URL}{Endpoint.Maned.value}"
+    url = f"{TARIFFER_URL}{Endpoint.PrivateMonth.value}"
 
     headers = {"accept": "application/json"}
     params = {
         "FraDato": dato,
-        "Tariffgruppe": TariffGruppe.Husholdning.value,
+        "Tariffgruppe": TariffGroup.Household.value,
         "Kundegruppe": "2",
     }
 
@@ -122,20 +126,25 @@ def get_konsesjonarer(dato):
     return konsesjonarer
 
 
-def get_time_data(dato, fylke, org):
-    url = f"{TARIFFER_URL}{Endpoint.Time.value}"
+def get_hour_data(date, tariffGroup: TariffGroup, county, org):
+    url = f"{TARIFFER_URL}"
+    if tariffGroup == TariffGroup.Household:
+        url += Endpoint.PrivateHour.value
+    else:
+        url += Endpoint.IndustryHour.value
 
     headers = {"accept": "application/json"}
     params = {
-        "ValgtDato": dato,
-        "Tariffgruppe": "Husholdning",
-        "FylkeNr": fylke,
+        "ValgtDato": date,
+        "Tariffgruppe": tariffGroup.value,
+        "FylkeNr": county,
         "OrganisasjonsNr": org,
     }
 
     response = requests.get(url, headers=headers, params=params)
 
-    # response is a list of
+    # response is a list of_
+    # PRIVATE
     # {
     #     "datoId": "2024-11-01T00:00:00",
     #     "tariffgruppe": "Husholdning",
@@ -155,6 +164,23 @@ def get_time_data(dato, fylke, org):
     #     "time": 19
     # }
 
+    # INDUSTRY
+    # {
+    #      "datoId": "2024-01-01T00:00:00",
+    #      "tariffgruppe": "Distribusjonsnett Lavspent Næringskunder Under100 MWh",
+    #      "konsesjonar": "ELVIA AS",
+    #      "organisasjonsnr": "980489698",
+    #      "fylkeNr": "03",
+    #      "fylke": "Oslo",
+    #      "fastleddKrMnd": 162.66667,
+    #      "effektleddKrKW": null,
+    #      "energileddOreKWh": 15.16,
+    #      "effekttrinnFraKw": 0,
+    #      "effekttrinnTilKw": 2,
+    #      "grunnlagEffektrinn": "Topp 3 forbrukstopper innenfor 1 siste måneder",
+    #      "time": 0
+    # },
+
     data = response.json()
     return data
 
@@ -164,7 +190,7 @@ def get_oppsummering(dato, fylker: List[str], org: str):
     terskler = {}
 
     for fylke in fylker:
-        data = get_time_data(dato, fylke, org)
+        data = get_hour_data(dato, fylke, org)
 
         for d in data:
             if d["energileddEks"] not in priser:
@@ -182,7 +208,9 @@ def get_oppsummering(dato, fylker: List[str], org: str):
     }
 
 
-def get_summary(dates: List[str], counties: List[str], org: str):
+def get_summary(
+    dates: List[str], tariffGroup: TariffGroup, counties: List[str], org: str
+):
     """
     Fetches and summarizes energy tariff data for given dates, counties, and organization.
 
@@ -203,15 +231,17 @@ def get_summary(dates: List[str], counties: List[str], org: str):
     levels = {}
 
     for dt in dates:
-        for fylke in counties:
-            data = get_time_data(dt, fylke, org)
+        for county in counties:
+            data = get_hour_data(dt, tariffGroup, county, org)
 
             for d in data:
-                if d["energileddEks"] not in prices:
-                    prices.append(d["energileddEks"])
+                price = d.get("energileddEks", d.get("energileddOreKWh"))
+                if price not in prices:
+                    prices.append(price)
 
                 if d["effekttrinnFraKw"] not in levels:
-                    levels[d["effekttrinnFraKw"]] = d["fastleddEks"]
+                    levelPrice = d.get("fastleddEks", d.get("fastleddKrMnd"))
+                    levels[d["effekttrinnFraKw"]] = levelPrice
 
     return {
         "energiledd": sorted(prices),

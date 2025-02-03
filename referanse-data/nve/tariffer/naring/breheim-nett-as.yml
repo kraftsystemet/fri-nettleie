@@ -1,0 +1,33 @@
+---
+energiledd:
+  - 6.5
+  - 14.5
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: BREHEIM NETT AS
+org: '924527994'
+terskler:
+  - pris: 2960.0
+    terskel: 0
+  - pris: 5120.0
+    terskel: 5
+  - pris: 7280.0
+    terskel: 10
+  - pris: 9440.0
+    terskel: 15
+  - pris: 11725.0
+    terskel: 20
+  - pris: 22525.001
+    terskel: 25
+  - pris: 33440.0
+    terskel: 50
+  - pris: 44365.0
+    terskel: 75
+  - pris: 66079.998
+    terskel: 100
+  - pris: 87919.998
+    terskel: 150
+  - pris: 131484.996
+    terskel: 200

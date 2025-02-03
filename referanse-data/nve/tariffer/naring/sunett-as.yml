@@ -1,0 +1,12 @@
+---
+energiledd:
+  - 20
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: SUNETT AS
+org: '924330678'
+terskler:
+  - pris: 4000.0
+    terskel: 1

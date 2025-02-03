@@ -23,6 +23,10 @@ def slugify(s):
     )
 
 
+def usage():
+    print(f"Usage: {sys.argv[0]} <type> <output_directory>")
+
+
 if __name__ == "__main__":
     dt = date.today() + timedelta(days=14)
 
@@ -47,21 +51,31 @@ if __name__ == "__main__":
 
     sunday_date = dt.strftime("%Y-%m-%d")
 
-    if len(sys.argv) != 2:
-        print(f"Usage: {sys.argv[0]} <output_directory>")
+    if len(sys.argv) != 3:
+        usage()
         sys.exit(1)
 
-    dates = list(set([weekday_date, friday_date, sunday_date]))
+    dates = sorted(list(set([weekday_date, friday_date, sunday_date])))
 
     print(f"Getting data for: {', '.join(dates)}")
 
-    output_dir = sys.argv[1]
+    type = sys.argv[1]
+
+    if type not in ["private", "industry"]:
+        usage()
+        print("Type must be 'private' or 'industry'")
+        sys.exit(1)
+
+    output_dir = sys.argv[2]
+    tariffGroup = (
+        nve.TariffGroup.Household if type == "private" else nve.TariffGroup.Industry
+    )
 
     consessionaires = nve.get_konsesjonarer(weekday_date)
 
     for org, c in consessionaires.items():
         print(f"{org}: {c}")
-        nve_tariff = nve.get_summary(dates, c.fylker, c.org)
+        nve_tariff = nve.get_summary(dates, tariffGroup, c.fylker, c.org)
         file_name = f"{output_dir}/{slugify(c.navn)}.yml".replace("//", "/")
         print(file_name)
         nve_tariff.update(dataclasses.asdict(c))

@@ -1,0 +1,28 @@
+---
+energiledd:
+  - 27
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: INDRE HORDALAND KRAFTNETT AS
+org: '919415096'
+terskler:
+  - pris: 2820
+    terskel: 0
+  - pris: 4260
+    terskel: 5
+  - pris: 5580
+    terskel: 10
+  - pris: 7680
+    terskel: 15
+  - pris: 12720
+    terskel: 20
+  - pris: 19200
+    terskel: 25
+  - pris: 30000
+    terskel: 50
+  - pris: 36000
+    terskel: 75
+  - pris: 51000
+    terskel: 100

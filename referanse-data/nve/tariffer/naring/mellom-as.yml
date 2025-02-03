@@ -1,0 +1,27 @@
+---
+energiledd:
+  - 24.47
+  - 30.77
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: MELLOM AS
+org: '925668389'
+terskler:
+  - pris: 2438.0
+    terskel: 0
+  - pris: 3648
+    terskel: 2
+  - pris: 6058.0
+    terskel: 5
+  - pris: 8006.0
+    terskel: 10
+  - pris: 10138.0
+    terskel: 15
+  - pris: 12700.999
+    terskel: 20
+  - pris: 15994.001
+    terskel: 25
+  - pris: 21370.001
+    terskel: 50

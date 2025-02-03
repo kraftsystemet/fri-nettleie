@@ -1,0 +1,29 @@
+---
+energiledd:
+  - 26
+  - 31
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: MIDTNETT AS
+org: '917856222'
+terskler:
+  - pris: 3440.0
+    terskel: 0
+  - pris: 4760.0
+    terskel: 5
+  - pris: 6800.0
+    terskel: 10
+  - pris: 9800.0
+    terskel: 15
+  - pris: 12799.999
+    terskel: 20
+  - pris: 17563.999
+    terskel: 25
+  - pris: 25952.0
+    terskel: 50
+  - pris: 32000.0
+    terskel: 75
+  - pris: 36800.0
+    terskel: 100

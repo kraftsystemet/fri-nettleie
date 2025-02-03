@@ -1,0 +1,37 @@
+---
+energiledd:
+  - 21.41
+  - 26.4
+fylker:
+  - '15'
+  - '50'
+fylker_navn:
+  - "Møre og Romsdal"
+  - "Trøndelag"
+navn: S-NETT AS
+org: '923819177'
+terskler:
+  - pris: 3320.0
+    terskel: 0
+  - pris: 4292.0
+    terskel: 2
+  - pris: 5852.0
+    terskel: 5
+  - pris: 7784.0
+    terskel: 10
+  - pris: 9728.0
+    terskel: 15
+  - pris: 11672.0
+    terskel: 20
+  - pris: 17503.999
+    terskel: 25
+  - pris: 27212.0
+    terskel: 50
+  - pris: 36920.0
+    terskel: 75
+  - pris: 51499.998
+    terskel: 100
+  - pris: 70915.998
+    terskel: 150
+  - pris: 100064.004
+    terskel: 200

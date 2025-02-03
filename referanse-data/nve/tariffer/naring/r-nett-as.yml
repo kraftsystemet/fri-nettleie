@@ -1,0 +1,29 @@
+---
+energiledd:
+  - 14.81
+  - 24.41
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: R-NETT AS
+org: '925067911'
+terskler:
+  - pris: 3996.8
+    terskel: 0
+  - pris: 5590.4
+    terskel: 5
+  - pris: 7827.2
+    terskel: 10
+  - pris: 14220.8
+    terskel: 15
+  - pris: 20614.4
+    terskel: 20
+  - pris: 30204.8
+    terskel: 25
+  - pris: 46179.199
+    terskel: 50
+  - pris: 65350.4
+    terskel: 75
+  - pris: 90924.804
+    terskel: 100

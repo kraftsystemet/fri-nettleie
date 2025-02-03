@@ -1,0 +1,28 @@
+---
+energiledd:
+  - 29.72
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: HAVNETT AS
+org: '924004150'
+terskler:
+  - pris: 3200.0
+    terskel: 0
+  - pris: 3872.0
+    terskel: 5
+  - pris: 6200.0
+    terskel: 10
+  - pris: 8360.0
+    terskel: 15
+  - pris: 9080.0
+    terskel: 20
+  - pris: 15679.999
+    terskel: 25
+  - pris: 23359.999
+    terskel: 50
+  - pris: 31040.0
+    terskel: 75
+  - pris: 38720.0
+    terskel: 100

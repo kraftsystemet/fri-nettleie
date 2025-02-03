@@ -1,0 +1,26 @@
+---
+energiledd:
+  - 24.65
+fylker:
+  - '40'
+fylker_navn:
+  - Telemark
+navn: RK NETT AS
+org: '925017809'
+terskler:
+  - pris: 3095.0
+    terskel: 0
+  - pris: 4024.0
+    terskel: 2
+  - pris: 5271.0
+    terskel: 5
+  - pris: 7119.0
+    terskel: 10
+  - pris: 8666.0
+    terskel: 15
+  - pris: 10214.0
+    terskel: 20
+  - pris: 17950.999
+    terskel: 25
+  - pris: 25689.0
+    terskel: 50

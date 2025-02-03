@@ -1,0 +1,22 @@
+---
+energiledd:
+  - 25.52
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: "SØR AURDAL ENERGI AS"
+org: '997712099'
+terskler:
+  - pris: 6200.0
+    terskel: 0
+  - pris: 7040.0
+    terskel: 5
+  - pris: 8240.0
+    terskel: 8
+  - pris: 9440.0
+    terskel: 15
+  - pris: 10520.0
+    terskel: 30
+  - pris: 13999.999
+    terskel: 50

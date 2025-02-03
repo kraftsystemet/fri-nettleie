@@ -1,0 +1,29 @@
+---
+energiledd:
+  - 12.45
+  - 18.45
+fylker:
+  - '56'
+fylker_navn:
+  - Finnmark
+navn: LUCERNA AS
+org: '982897327'
+terskler:
+  - pris: 3113.0
+    terskel: 0
+  - pris: 3735.0
+    terskel: 2
+  - pris: 4514.0
+    terskel: 5
+  - pris: 4981.0
+    terskel: 10
+  - pris: 6226.0
+    terskel: 15
+  - pris: 7004.0
+    terskel: 20
+  - pris: 7783.0
+    terskel: 25
+  - pris: 8561.0
+    terskel: 50
+  - pris: 9339.0
+    terskel: 75

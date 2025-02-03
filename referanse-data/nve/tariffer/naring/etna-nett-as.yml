@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 15.16
+  - 21.16
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: ETNA NETT AS
+org: '882783022'
+terskler:
+  - pris: 3440.04
+    terskel: 0
+  - pris: 4760.04
+    terskel: 2
+  - pris: 5960.04
+    terskel: 5
+  - pris: 7160.04
+    terskel: 10
+  - pris: 11000.04
+    terskel: 15
+  - pris: 12800.04
+    terskel: 20
+  - pris: 16400.04
+    terskel: 25
+  - pris: 24800.04
+    terskel: 50
+  - pris: 30800.04
+    terskel: 75
+  - pris: 36800.04
+    terskel: 100

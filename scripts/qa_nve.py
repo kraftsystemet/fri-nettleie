@@ -105,7 +105,9 @@ def load_collected_tariffs():
 
 def load_nve_tariffs():
     files = [
-        f for f in os.listdir("./referanse-data/nve/tariffer") if f.endswith(".yml")
+        f
+        for f in os.listdir("./referanse-data/nve/tariffer/privat")
+        if f.endswith(".yml")
     ]
     tariffs = {}
     for f in files:

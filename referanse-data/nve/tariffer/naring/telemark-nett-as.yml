@@ -1,0 +1,26 @@
+---
+energiledd:
+  - 28
+fylker:
+  - '40'
+fylker_navn:
+  - Telemark
+navn: TELEMARK NETT AS
+org: '925803375'
+terskler:
+  - pris: 4496.0
+    terskel: 0
+  - pris: 5540.0
+    terskel: 5
+  - pris: 9620.0
+    terskel: 10
+  - pris: 12679.999
+    terskel: 15
+  - pris: 15439.999
+    terskel: 20
+  - pris: 26120.0
+    terskel: 25
+  - pris: 40400.0
+    terskel: 50
+  - pris: 55999.998
+    terskel: 75

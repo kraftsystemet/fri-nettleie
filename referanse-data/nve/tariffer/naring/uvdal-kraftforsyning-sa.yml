@@ -1,0 +1,29 @@
+---
+energiledd:
+  - 16.23
+  - 24.23
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: UVDAL KRAFTFORSYNING SA
+org: '967670170'
+terskler:
+  - pris: 4332.8
+    terskel: 0
+  - pris: 6108.8
+    terskel: 5
+  - pris: 8585.6
+    terskel: 10
+  - pris: 15660.8
+    terskel: 15
+  - pris: 22735.999
+    terskel: 20
+  - pris: 33344.0
+    terskel: 25
+  - pris: 51036.804
+    terskel: 50
+  - pris: 72252.804
+    terskel: 75
+  - pris: 100553.604
+    terskel: 100

@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 14.03
+  - 20.96
+fylker:
+  - '33'
+fylker_navn:
+  - Buskerud
+navn: NOREFJELL NETT AS
+org: '824701482'
+terskler:
+  - pris: 2960.0
+    terskel: 0
+  - pris: 3608.0
+    terskel: 2
+  - pris: 4688.0
+    terskel: 5
+  - pris: 6632.0
+    terskel: 10
+  - pris: 8360.0
+    terskel: 15
+  - pris: 10088.0
+    terskel: 20
+  - pris: 15919.999
+    terskel: 25
+  - pris: 23479.999
+    terskel: 50
+  - pris: 31040.0
+    terskel: 75
+  - pris: 44000.0
+    terskel: 100

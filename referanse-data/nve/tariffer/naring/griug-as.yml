@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 12.32
+  - 27.52
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: GRIUG AS
+org: '953681781'
+terskler:
+  - pris: 3200.0
+    terskel: 0
+  - pris: 4448.0
+    terskel: 2
+  - pris: 6272.0
+    terskel: 5
+  - pris: 7808.0
+    terskel: 10
+  - pris: 9632.0
+    terskel: 15
+  - pris: 11504.0
+    terskel: 20
+  - pris: 20815.999
+    terskel: 25
+  - pris: 30176.0
+    terskel: 50
+  - pris: 40256.0
+    terskel: 75
+  - pris: 79039.998
+    terskel: 100

@@ -1,0 +1,43 @@
+---
+energiledd:
+  - 11.5
+  - 23.2
+fylker:
+  - '34'
+  - '50'
+fylker_navn:
+  - Innlandet
+  - "Trøndelag"
+navn: TENSIO TS AS
+org: '978631029'
+terskler:
+  - pris: 2115.2
+    terskel: 0
+  - pris: 3142.4
+    terskel: 2
+  - pris: 4793.6
+    terskel: 5
+  - pris: 6684.8
+    terskel: 10
+  - pris: 8576.0
+    terskel: 15
+  - pris: 10486.4
+    terskel: 20
+  - pris: 17436.8
+    terskel: 25
+  - pris: 26912.0
+    terskel: 50
+  - pris: 36396.8
+    terskel: 75
+  - pris: 52207.998
+    terskel: 100
+  - pris: 71158.4
+    terskel: 150
+  - pris: 102742.392
+    terskel: 200
+  - pris: 140710.404
+    terskel: 300
+  - pris: 178601.592
+    terskel: 400
+  - pris: 216540.792
+    terskel: 500

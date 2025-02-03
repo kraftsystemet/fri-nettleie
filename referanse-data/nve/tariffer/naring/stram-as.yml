@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 4.11
+  - 14.11
+fylker:
+  - '18'
+fylker_navn:
+  - Nordland
+navn: STRAM AS
+org: '914385261'
+terskler:
+  - pris: 1322.0
+    terskel: 0
+  - pris: 3965.0
+    terskel: 2
+  - pris: 5287.0
+    terskel: 5
+  - pris: 6608.0
+    terskel: 10
+  - pris: 7930.0
+    terskel: 15
+  - pris: 9251.0
+    terskel: 20
+  - pris: 23788.999
+    terskel: 25
+  - pris: 38327.0
+    terskel: 50
+  - pris: 52864.998
+    terskel: 75
+  - pris: 81940.998
+    terskel: 100

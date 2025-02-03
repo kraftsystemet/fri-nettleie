@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 15.89
+  - 23.89
+fylker:
+  - '32'
+fylker_navn:
+  - Akershus
+navn: ASKER NETT AS
+org: '917743193'
+terskler:
+  - pris: 2576.0
+    terskel: 0
+  - pris: 3008.0
+    terskel: 2
+  - pris: 4064.0
+    terskel: 5
+  - pris: 7616.0
+    terskel: 10
+  - pris: 9392.0
+    terskel: 15
+  - pris: 11648.0
+    terskel: 20
+  - pris: 16159.999
+    terskel: 25
+  - pris: 25184.0
+    terskel: 50
+  - pris: 33248.0
+    terskel: 75
+  - pris: 52639.998
+    terskel: 100

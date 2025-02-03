@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 17.84
+  - 25.84
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: ELINETT AS
+org: '979379455'
+terskler:
+  - pris: 2412
+    terskel: 0
+  - pris: 3112.0
+    terskel: 2
+  - pris: 3612
+    terskel: 5
+  - pris: 6024
+    terskel: 10
+  - pris: 7224
+    terskel: 15
+  - pris: 8424
+    terskel: 20
+  - pris: 12036
+    terskel: 25
+  - pris: 13248
+    terskel: 50
+  - pris: 14448
+    terskel: 75
+  - pris: 18060
+    terskel: 100

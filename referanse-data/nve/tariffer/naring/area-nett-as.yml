@@ -1,0 +1,25 @@
+---
+energiledd:
+  - 24.49
+  - 26.99
+fylker:
+  - '56'
+fylker_navn:
+  - Finnmark
+navn: AREA NETT AS
+org: '923993355'
+terskler:
+  - pris: 5150.0
+    terskel: 0
+  - pris: 6802.25
+    terskel: 2
+  - pris: 8221.25
+    terskel: 5
+  - pris: 10847.0
+    terskel: 10
+  - pris: 12391.249
+    terskel: 15
+  - pris: 14331.499
+    terskel: 20
+  - pris: 20518.999
+    terskel: 25

@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 7
+  - 14
+fylker:
+  - '18'
+  - '55'
+fylker_navn:
+  - Nordland
+  - Troms
+navn: VESTALL AS
+org: '968168134'
+terskler:
+  - pris: 5736
+    terskel: 0
+  - pris: 9564
+    terskel: 5
+  - pris: 13512
+    terskel: 10
+  - pris: 17472
+    terskel: 15
+  - pris: 21252
+    terskel: 20
+  - pris: 32940
+    terskel: 25
+  - pris: 37188
+    terskel: 50
+  - pris: 50844
+    terskel: 75
+  - pris: 73548
+    terskel: 100

@@ -1,0 +1,35 @@
+---
+energiledd:
+  - 11.55
+  - 17.62
+fylker:
+  - '31'
+  - '32'
+  - '46'
+fylker_navn:
+  - "Østfold"
+  - Akershus
+  - Vestland
+navn: NORGESNETT AS
+org: '980234088'
+terskler:
+  - pris: 1784.16
+    terskel: 0
+  - pris: 2440.2
+    terskel: 2
+  - pris: 3497.28
+    terskel: 5
+  - pris: 5596.92
+    terskel: 10
+  - pris: 7171.44
+    terskel: 15
+  - pris: 8702.52
+    terskel: 20
+  - pris: 13047.36
+    terskel: 25
+  - pris: 19972.92
+    terskel: 50
+  - pris: 26898.48
+    terskel: 75
+  - pris: 43097.16
+    terskel: 100

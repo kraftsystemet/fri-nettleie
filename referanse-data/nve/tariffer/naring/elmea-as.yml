@@ -1,0 +1,33 @@
+---
+energiledd:
+  - 25.6
+  - 37.9
+fylker:
+  - '18'
+fylker_navn:
+  - Nordland
+navn: ELMEA AS
+org: '986347801'
+terskler:
+  - pris: 5712.3
+    terskel: 0
+  - pris: 8132.4
+    terskel: 2
+  - pris: 12004.3
+    terskel: 5
+  - pris: 16846.5
+    terskel: 10
+  - pris: 21686.9
+    terskel: 15
+  - pris: 26529.0
+    terskel: 20
+  - pris: 41050.099
+    terskel: 25
+  - pris: 65255.4
+    terskel: 50
+  - pris: 89458.998
+    terskel: 75
+  - pris: 174175.908
+    terskel: 100
+  - pris: 367813.404
+    terskel: 200

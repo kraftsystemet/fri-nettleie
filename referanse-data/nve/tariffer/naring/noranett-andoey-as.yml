@@ -1,0 +1,42 @@
+---
+energiledd:
+  - 26.5
+fylker:
+  - '18'
+  - '55'
+fylker_navn:
+  - Nordland
+  - Troms
+navn: "NORANETT ANDØY AS"
+org: '921680554'
+terskler:
+  - pris: 4520.0
+    terskel: 0
+  - pris: 5720.0
+    terskel: 2
+  - pris: 7040.0
+    terskel: 4
+  - pris: 8360.0
+    terskel: 6
+  - pris: 9560.0
+    terskel: 8
+  - pris: 11840.0
+    terskel: 10
+  - pris: 14959.999
+    terskel: 15
+  - pris: 18199.999
+    terskel: 20
+  - pris: 21199.999
+    terskel: 25
+  - pris: 24559.999
+    terskel: 30
+  - pris: 27920.0
+    terskel: 35
+  - pris: 31280.0
+    terskel: 40
+  - pris: 34760.0
+    terskel: 45
+  - pris: 44000.0
+    terskel: 50
+  - pris: 60199.998
+    terskel: 75

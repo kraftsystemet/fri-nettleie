@@ -1,0 +1,22 @@
+---
+energiledd:
+  - 40
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: MODALEN KRAFTLAG SA
+org: '877051412'
+terskler:
+  - pris: 750.0
+    terskel: 0
+  - pris: 1236
+    terskel: 2
+  - pris: 2100
+    terskel: 5
+  - pris: 2964
+    terskel: 10
+  - pris: 3828
+    terskel: 15
+  - pris: 4686.0
+    terskel: 20

@@ -1,0 +1,29 @@
+---
+energiledd:
+  - 26.06
+  - 31.06
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: "BØMLO KRAFTNETT AS"
+org: '923934138'
+terskler:
+  - pris: 1920
+    terskel: 0
+  - pris: 2880
+    terskel: 2
+  - pris: 3840
+    terskel: 5
+  - pris: 4800
+    terskel: 10
+  - pris: 6240
+    terskel: 15
+  - pris: 7680
+    terskel: 20
+  - pris: 19200
+    terskel: 50
+  - pris: 38400
+    terskel: 75
+  - pris: 48000
+    terskel: 100

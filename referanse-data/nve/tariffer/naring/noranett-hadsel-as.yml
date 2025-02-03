@@ -1,0 +1,41 @@
+---
+energiledd:
+  - 19
+  - 24
+fylker:
+  - '18'
+fylker_navn:
+  - Nordland
+navn: NORANETT HADSEL AS
+org: '917983550'
+terskler:
+  - pris: 4040.0
+    terskel: 0
+  - pris: 4880.0
+    terskel: 2
+  - pris: 5720.0
+    terskel: 4
+  - pris: 6560.0
+    terskel: 6
+  - pris: 7400.0
+    terskel: 8
+  - pris: 8480.0
+    terskel: 10
+  - pris: 10400.0
+    terskel: 15
+  - pris: 12439.999
+    terskel: 20
+  - pris: 14479.999
+    terskel: 25
+  - pris: 16399.999
+    terskel: 30
+  - pris: 18319.999
+    terskel: 35
+  - pris: 20239.999
+    terskel: 40
+  - pris: 22159.999
+    terskel: 45
+  - pris: 27800.0
+    terskel: 50
+  - pris: 37400.0
+    terskel: 75

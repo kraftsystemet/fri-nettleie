@@ -1,0 +1,22 @@
+---
+energiledd:
+  - 18.3
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: STRAUMEN NETT AS
+org: '925354813'
+terskler:
+  - pris: 3588
+    terskel: 0
+  - pris: 4008
+    terskel: 5
+  - pris: 5551.0
+    terskel: 10
+  - pris: 6390.0
+    terskel: 15
+  - pris: 9179.0
+    terskel: 20
+  - pris: 11967.0
+    terskel: 25

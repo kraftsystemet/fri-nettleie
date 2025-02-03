@@ -1,0 +1,88 @@
+---
+energiledd:
+  - 18.79
+fylker:
+  - '34'
+  - '46'
+fylker_navn:
+  - Innlandet
+  - Vestland
+navn: SYGNIR AS
+org: '924619260'
+terskler:
+  - pris: 2422.0
+    terskel: 0
+  - pris: 2906.0
+    terskel: 1
+  - pris: 3391.0
+    terskel: 2
+  - pris: 3875.0
+    terskel: 3
+  - pris: 4360.0
+    terskel: 4
+  - pris: 5086.0
+    terskel: 5
+  - pris: 5813.0
+    terskel: 6
+  - pris: 6540
+    terskel: 7
+  - pris: 7266.0
+    terskel: 8
+  - pris: 7993.0
+    terskel: 9
+  - pris: 9446.0
+    terskel: 10
+  - pris: 10899.0
+    terskel: 12
+  - pris: 12352.999
+    terskel: 14
+  - pris: 13806.0
+    terskel: 16
+  - pris: 15259.001
+    terskel: 18
+  - pris: 27369.0
+    terskel: 20
+  - pris: 39480
+    terskel: 40
+  - pris: 51589.998
+    terskel: 60
+  - pris: 63700.998
+    terskel: 80
+  - pris: 112142.004
+    terskel: 100
+  - pris: 160583.004
+    terskel: 200
+  - pris: 209025.0
+    terskel: 300
+  - pris: 257466.0
+    terskel: 400
+  - pris: 305908.008
+    terskel: 500
+  - pris: 354349.008
+    terskel: 600
+  - pris: 402791.016
+    terskel: 700
+  - pris: 451232.016
+    terskel: 800
+  - pris: 499674.0
+    terskel: 900
+  - pris: 548115.0
+    terskel: 1000
+  - pris: 596556.984
+    terskel: 1100
+  - pris: 644997.984
+    terskel: 1200
+  - pris: 693440.016
+    terskel: 1300
+  - pris: 741881.016
+    terskel: 1400
+  - pris: 790323.0
+    terskel: 1500
+  - pris: 838764
+    terskel: 1600
+  - pris: 887206.032
+    terskel: 1700
+  - pris: 935647.032
+    terskel: 1800
+  - pris: 984088.032
+    terskel: 1900

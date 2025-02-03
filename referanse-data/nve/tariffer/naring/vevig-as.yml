@@ -1,0 +1,47 @@
+---
+energiledd:
+  - 14.1
+  - 22.5
+fylker:
+  - '34'
+  - '46'
+fylker_navn:
+  - Innlandet
+  - Vestland
+navn: VEVIG AS
+org: '916319908'
+terskler:
+  - pris: 2904
+    terskel: 0
+  - pris: 3547.92
+    terskel: 2
+  - pris: 4608
+    terskel: 5
+  - pris: 5695.2
+    terskel: 10
+  - pris: 6775.2
+    terskel: 15
+  - pris: 7831.2
+    terskel: 20
+  - pris: 8899.2
+    terskel: 25
+  - pris: 11047.2
+    terskel: 30
+  - pris: 13176
+    terskel: 40
+  - pris: 18516
+    terskel: 50
+  - pris: 23863.2
+    terskel: 75
+  - pris: 29196
+    terskel: 100
+  - pris: 34548
+    terskel: 125
+  - pris: 45228
+    terskel: 150
+  - pris: 66600
+    terskel: 200
+  - pris: 87960
+    terskel: 300
+  - pris: 216168
+    terskel: 400

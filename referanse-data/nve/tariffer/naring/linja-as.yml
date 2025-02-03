@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 15.38
+  - 22.38
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: LINJA AS
+org: '912631532'
+terskler:
+  - pris: 3444
+    terskel: 0
+  - pris: 4092
+    terskel: 2
+  - pris: 4752
+    terskel: 5
+  - pris: 7392
+    terskel: 10
+  - pris: 8712
+    terskel: 15
+  - pris: 10200
+    terskel: 20
+  - pris: 13980
+    terskel: 25
+  - pris: 15300
+    terskel: 50
+  - pris: 16608
+    terskel: 75
+  - pris: 20568
+    terskel: 100

@@ -1,0 +1,35 @@
+---
+energiledd:
+  - 13
+  - 19
+fylker:
+  - '11'
+fylker_navn:
+  - Rogaland
+navn: "JÆREN EVERK AS"
+org: '824914982'
+terskler:
+  - pris: 2696.0
+    terskel: 0
+  - pris: 3860.0
+    terskel: 2
+  - pris: 5696.0
+    terskel: 5
+  - pris: 8000.0
+    terskel: 10
+  - pris: 10316.0
+    terskel: 15
+  - pris: 12619.999
+    terskel: 20
+  - pris: 19531.999
+    terskel: 25
+  - pris: 31064.0
+    terskel: 50
+  - pris: 42596.0
+    terskel: 75
+  - pris: 59899.998
+    terskel: 100
+  - pris: 82927.998
+    terskel: 150
+  - pris: 105956.004
+    terskel: 200

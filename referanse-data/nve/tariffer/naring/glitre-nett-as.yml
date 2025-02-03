@@ -1,0 +1,45 @@
+---
+energiledd:
+  - 15.36
+  - 24.96
+fylker:
+  - '03'
+  - '11'
+  - '32'
+  - '33'
+  - '34'
+  - '40'
+  - '42'
+  - '46'
+fylker_navn:
+  - Oslo
+  - Rogaland
+  - Akershus
+  - Buskerud
+  - Innlandet
+  - Telemark
+  - Agder
+  - Vestland
+navn: GLITRE NETT AS
+org: '982974011'
+terskler:
+  - pris: 2432.0
+    terskel: 0
+  - pris: 2864.0
+    terskel: 2
+  - pris: 4352.0
+    terskel: 5
+  - pris: 8096.0
+    terskel: 10
+  - pris: 10304.0
+    terskel: 15
+  - pris: 12703.999
+    terskel: 20
+  - pris: 19231.999
+    terskel: 25
+  - pris: 29984.0
+    terskel: 50
+  - pris: 39680.0
+    terskel: 75
+  - pris: 63967.998
+    terskel: 100

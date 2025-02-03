@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 14.4
+  - 20.8
+fylker:
+  - '34'
+  - '50'
+fylker_navn:
+  - Innlandet
+  - "Trøndelag"
+navn: "RØROS E-VERK NETT AS"
+org: '919884452'
+terskler:
+  - pris: 3408
+    terskel: 0
+  - pris: 4944
+    terskel: 5
+  - pris: 6924
+    terskel: 10
+  - pris: 9612
+    terskel: 15
+  - pris: 12468
+    terskel: 20
+  - pris: 23700
+    terskel: 25
+  - pris: 43464
+    terskel: 50
+  - pris: 78456
+    terskel: 100
+  - pris: 120744
+    terskel: 200

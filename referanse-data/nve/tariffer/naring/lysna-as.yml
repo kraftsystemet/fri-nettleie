@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 22
+  - 30
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: LYSNA AS
+org: '923833706'
+terskler:
+  - pris: 5400
+    terskel: 0
+  - pris: 6000
+    terskel: 2
+  - pris: 6600
+    terskel: 5
+  - pris: 7200
+    terskel: 10
+  - pris: 8400
+    terskel: 15
+  - pris: 9600
+    terskel: 20
+  - pris: 10800
+    terskel: 25
+  - pris: 12000
+    terskel: 50
+  - pris: 13200
+    terskel: 75
+  - pris: 14400
+    terskel: 100

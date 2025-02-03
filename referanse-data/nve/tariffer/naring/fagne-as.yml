@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 20
+  - 28
+fylker:
+  - '11'
+  - '46'
+fylker_navn:
+  - Rogaland
+  - Vestland
+navn: FAGNE AS
+org: '915635857'
+terskler:
+  - pris: 4256.0
+    terskel: 0
+  - pris: 5216.0
+    terskel: 5
+  - pris: 6176.0
+    terskel: 10
+  - pris: 7136.0
+    terskel: 15
+  - pris: 8096.0
+    terskel: 20
+  - pris: 21919.999
+    terskel: 25
+  - pris: 31520.0
+    terskel: 50
+  - pris: 41120.0
+    terskel: 75
+  - pris: 50719.998
+    terskel: 100

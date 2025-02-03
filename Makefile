@@ -25,9 +25,11 @@ fmt:
 	yamlfmt tariff-eksempel.yml tariffer/*.yml referanse-data/nve/tariffer/*.yml
 
 nve-data:
-	rm -f referanse-data/nve/tariffer/*.yml
-	./scripts/get_nve_price_data.py referanse-data/nve/tariffer/
-	yamlfmt referanse-data/nve/tariffer/*.yml
+	mkdir -p referanse-data/nve/tariffer/privat referanse-data/nve/tariffer/naring
+	rm -f referanse-data/nve/tariffer/privat/*.yml referanse-data/nve/tariffer/naring/*.yml
+	./scripts/get_nve_price_data.py private referanse-data/nve/tariffer/privat/
+	./scripts/get_nve_price_data.py industry referanse-data/nve/tariffer/naring/
+	yamlfmt referanse-data/nve/tariffer/**/*.yml
 
 changedetection:
 	docker compose up -d

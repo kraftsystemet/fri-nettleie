@@ -1,0 +1,34 @@
+---
+energiledd:
+  - 17.63
+fylker:
+  - '34'
+fylker_navn:
+  - Innlandet
+navn: KLIVE AS
+org: '923436596'
+terskler:
+  - pris: 4614.24
+    terskel: 0
+  - pris: 5731.33
+    terskel: 5
+  - pris: 7606.32
+    terskel: 10
+  - pris: 10146.1
+    terskel: 15
+  - pris: 12685.999
+    terskel: 20
+  - pris: 25358.599
+    terskel: 25
+  - pris: 38044.699
+    terskel: 50
+  - pris: 50730.6
+    terskel: 75
+  - pris: 76089.396
+    terskel: 100
+  - pris: 101448
+    terskel: 150
+  - pris: 152178.996
+    terskel: 200
+  - pris: 253627.008
+    terskel: 300

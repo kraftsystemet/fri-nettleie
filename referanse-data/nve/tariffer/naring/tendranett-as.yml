@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 18.5
+  - 23.5
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: TENDRANETT AS
+org: '918999361'
+terskler:
+  - pris: 2808
+    terskel: 0
+  - pris: 3411.0
+    terskel: 2
+  - pris: 4013.0
+    terskel: 5
+  - pris: 5218.0
+    terskel: 10
+  - pris: 6423.0
+    terskel: 15
+  - pris: 7628.0
+    terskel: 20
+  - pris: 9235.0
+    terskel: 25
+  - pris: 10841.0
+    terskel: 50
+  - pris: 12248.0
+    terskel: 75
+  - pris: 12849.0
+    terskel: 100

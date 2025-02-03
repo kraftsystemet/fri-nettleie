@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 18.79
+  - 24.79
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: NORDVEST NETT AS
+org: '980824586'
+terskler:
+  - pris: 2240.0
+    terskel: 0
+  - pris: 4342.4
+    terskel: 2
+  - pris: 5168.0
+    terskel: 5
+  - pris: 7433.6
+    terskel: 10
+  - pris: 8672.0
+    terskel: 15
+  - pris: 9977.6
+    terskel: 20
+  - pris: 18406.4
+    terskel: 25
+  - pris: 26854.4
+    terskel: 50
+  - pris: 35292.8
+    terskel: 75
+  - pris: 68643.199
+    terskel: 100

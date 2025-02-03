@@ -1,0 +1,35 @@
+---
+energiledd:
+  - 25.35
+  - 28.35
+fylker:
+  - '40'
+fylker_navn:
+  - Telemark
+navn: DE NETT AS
+org: '924862602'
+terskler:
+  - pris: 3920.0
+    terskel: 0
+  - pris: 4820.0
+    terskel: 2
+  - pris: 5720.0
+    terskel: 5
+  - pris: 7580.0
+    terskel: 10
+  - pris: 9380.0
+    terskel: 15
+  - pris: 11240.0
+    terskel: 20
+  - pris: 16639.999
+    terskel: 25
+  - pris: 25760.0
+    terskel: 50
+  - pris: 34880.0
+    terskel: 75
+  - pris: 48800.0
+    terskel: 100
+  - pris: 66799.998
+    terskel: 150
+  - pris: 94099.998
+    terskel: 200

@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 19.78
+  - 29.96
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: BKK AS
+org: '976944801'
+terskler:
+  - pris: 1536
+    terskel: 0
+  - pris: 2496
+    terskel: 2
+  - pris: 4128
+    terskel: 5
+  - pris: 5952
+    terskel: 10
+  - pris: 7680
+    terskel: 15
+  - pris: 9360
+    terskel: 20
+  - pris: 17952
+    terskel: 25
+  - pris: 26496
+    terskel: 50
+  - pris: 35040
+    terskel: 75
+  - pris: 69120
+    terskel: 100
