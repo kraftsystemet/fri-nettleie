@@ -19,22 +19,17 @@ GRID_OWNERS = {}
 
 # fmt: off
 KNOWN_ERRORS = {
-    "980489698": ["energiledd"],  # Elvia har enova-avgift i NVE sine data
-    "877051412": ["energiledd"],  # Modalen har enova-avgift i NVE sine data
     "979399901": ["fastledd"],  # Vestmar har avrundingfeil i NVE/på sine sider
-    "924862602": ["energiledd","fastledd"],  # DE Nett har enova-avgift og mangler et fastledd i NVE sine data
+    "924862602": ["fastledd"],  # DE Nett har enova-avgift og mangler et fastledd i NVE sine data
     "971589752": ["energiledd","fastledd"], # Hallingdal/Føie har endel rot i sine NVE data
     "923789324": ["energiledd"], # Haringnett rett og slett bare feil energiledd hos NVE
-    "924527994": ["energiledd", "fastledd"], # Breheim har enova-avgift og feil avrunding på fastledd i NVE sine data
+    "924527994": ["fastledd"], # Breheim har enova-avgift og feil avrunding på fastledd i NVE sine data
     "924330678": ["energiledd", "fastledd"], # SuNett våre priser er bekreftet på epost. Fastledd er vanskelig ref issue #4
-    "980824586": ["energiledd", "fastledd"], # Nordvestnett har enova-avgift og feil i første fastledd i NVE sine data
-    "923819177" : ["energiledd", "fastledd"], # S-NETT har enova-avgift og rot på fastledd i NVE sine data
+    "980824586": ["fastledd"], # Nordvestnett har enova-avgift og feil i første fastledd i NVE sine data
+    "923819177" : ["fastledd"], # S-NETT har enova-avgift og rot på fastledd i NVE sine data
     "925336637" : ["fastledd"], # Alut avvik på fastledd pga terskel_inkludert
-    "953681781" : ["energiledd"], # Griug har enova-avgift i NVE sine data
     "986347801" : ["fastledd"], # Elmea rot i NVE sine fastledd
-    "926377841" : ["energiledd"], # Romsdalsnett har enova-avgift i NVE sine data
-    "923488960" : ["energiledd"], # HSEV har enova-avgift i NVE sine data
-    "882783022" : ["energiledd"], # Etna sine priser har enova og elavgift host NVE
+    "882783022" : ["energiledd"], # Etna sine priser har elavgift host NVE
 }
 # fmt: on
 
@@ -111,11 +106,11 @@ def load_nve_tariffs():
     ]
     tariffs = {}
     for f in files:
-        with open("./referanse-data/nve/tariffer/" + f, "r") as file:
+        with open("./referanse-data/nve/tariffer/privat/" + f, "r") as file:
             data = yaml.safe_load(file)
             tariffs[data["org"]] = {
                 # energiledd er med enova-avgift, så det trekker vi fra
-                "energiledd": [round(p, 2) for p in data["energiledd"]],
+                "energiledd": [round(p - 1, 2) for p in data["energiledd"]],
                 "terskler": {t["terskel"]: round(t["pris"]) for t in data["terskler"]},
             }
 
