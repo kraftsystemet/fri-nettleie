@@ -4,7 +4,7 @@ gln:
   - '7080004053632'
 kilder:
   - 'https://straumnett.no/prisar-for-nettleige'
-sist_oppdatert: '2024-11-25'
+sist_oppdatert: '2025-02-04'
 tariffer:
   - kundegruppe: privat
     gyldig_fra: '2024-01-01'
@@ -33,8 +33,8 @@ tariffer:
         - terskel: 100
           pris: 6088.416
     energiledd:
-      grunnpris: 11.56
+      grunnpris: 11.07
       unntak:
         - navn: Dag
           timer: 6-21
-          pris: 16.56
+          pris: 16.07
