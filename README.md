@@ -152,6 +152,38 @@ lignende dersom det ikke eksplisitt er angitt som public domain.
 Vi har også et verktøy som kan brukes ved innsamling som finnes på på
 [kraftsystemet.no/fri-nettleie/innsamler/](http://kraftsystemet.no/fri-nettleie/innsamler/).
 
+## Hvordan gjør vi det
+
+Denne figuren gir et noe forenklet bilde av hvordan dataene til fri-nettleie
+blir til.
+
+![diagram som viser flyten for nettleiedata](./docs/assets/hvordan-vi-gjor-det.drawio.png)
+
+Som figuren viser skjer følgende
+
+* Noen hos nettselskapene bruker et system til å beregne nettleietariffer. De
+  rapporterer så tariffene til NVE ved nyttår og ved endringer gjennom året.
+  Dette er et myndighetskrav og gjøres med et skjema på Altinn. I tillegg
+  publiseres tariffene til kundene på netteiers hjemmeside. Et fåtall netteiere
+  publiserer også nettleien gjennom API'er.
+* NVE mottar tariffene, og med noe forsinkelse publiseres disse hos NVE som
+  statistikk (med støttende APIer).
+* Vi i fri-nettleie overvåker nettsidene til netteierne og NVEs datasett. Når vi
+  oppdager endringer samler vi inn dataene manuelt og oppdaterer dataene i dette
+  repoet.
+* Brukerne av nettleiedata kan benytte netteiers hjemmesider og APIer, NVEs statistikk
+  eller fri-nettleie (eller en kombinasjon) til sine formål (forskning,
+  tjenesteutvikling, styring osv). Formatene, og til dels dataene, er ulike
+  mellom kildene.
+
+Man kan se for seg at dette kan gjøres på en annen/enklere måte. Under følger en
+illustrasjon hvor netteier rapporterer til _en_ part som publiserer til alle
+formål og som ansees som autorativ kilde til nettleiedata i Norge. Legg merke
+til at dette ikke er fri-nettleie. Vi er en midlertidig dugnad frem til en slik
+løsning kommer på plass. Hvem som skal ta denne rollen er ikke opp til oss.
+
+![hvordan nettleie-distribusjon vurde vært](./docs/assets/hvordan-det-burde-vart.drawio.png)
+
 ## Utfordringer ved innsamling
 
 Ved innsamling og struktuering av data møter vi noen (overkommelige)
