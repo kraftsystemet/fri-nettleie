@@ -166,7 +166,7 @@ Som figuren viser skjer følgende
   Dette er et myndighetskrav og gjøres med et skjema på Altinn. I tillegg
   publiseres tariffene til kundene på netteiers hjemmeside. Et fåtall netteiere
   publiserer også nettleien gjennom API'er.
-* NVE mottar tariffene, og med noe forsinkelse publiseres disse hos NVE som
+* [NVE mottar tariffene](#hva-med-nve-sine-data), og med noe forsinkelse publiseres disse hos NVE som
   statistikk (med støttende APIer).
 * Vi i fri-nettleie overvåker nettsidene til netteierne og NVEs datasett. Når vi
   oppdager endringer samler vi inn dataene manuelt og oppdaterer dataene i dette
