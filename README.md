@@ -182,7 +182,7 @@ formål og som ansees som autorativ kilde til nettleiedata i Norge. Legg merke
 til at dette ikke er fri-nettleie. Vi er en midlertidig dugnad frem til en slik
 løsning kommer på plass. Hvem som skal ta denne rollen er ikke opp til oss.
 
-![hvordan nettleie-distribusjon vurde vært](./docs/assets/hvordan-det-burde-vart.drawio.png)
+![hvordan nettleie-distribusjon burde vært](./docs/assets/hvordan-det-burde-vart.drawio.png)
 
 ## Utfordringer ved innsamling
 
