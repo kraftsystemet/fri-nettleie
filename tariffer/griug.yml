@@ -15,7 +15,7 @@ tariffer:
           måneder: [januar, februar, mars, oktober, november, desember]
           navn: Brukstidstillegg
           pris: 20.8
-          timer: 6-21
+          timer: 16-21
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -75,5 +75,5 @@ tariffer:
           dager: [fredag]
           måneder: [januar, februar, mars, oktober, november, desember]
           pris: 27.52
-          timer: 6-21
+          timer: 16-21
     gyldig_fra: '2025-01-01'
