@@ -67,10 +67,13 @@ def load_collected_tariffs():
                 ) > datetime.today() + timedelta(days=14):
                     energiledd = []
                     energiledd.append(t["energiledd"]["grunnpris"])
+
                     for u in t["energiledd"].get("unntak", []):
                         energiledd.append(u["pris"])
-                        energiledd.sort()
-                        energiledd = [round(p, 2) for p in energiledd]
+
+                    energiledd.sort()
+                    energiledd = [round(p, 2) for p in energiledd]
+
                     tariff = {
                         "name": data["netteier"],
                         "data": {
@@ -109,12 +112,25 @@ def load_nve_tariffs():
         with open("./referanse-data/nve/tariffer/privat/" + f, "r") as file:
             data = yaml.safe_load(file)
             tariffs[data["org"]] = {
-                # energiledd er med enova-avgift, så det trekker vi fra
-                "energiledd": [round(p - 1, 2) for p in data["energiledd"]],
+                "energiledd": sorted([round(p, 2) for p in data["energiledd"]]),
                 "terskler": {t["terskel"]: round(t["pris"]) for t in data["terskler"]},
             }
 
     return tariffs
+
+
+def energiledd_equal(collected, nve):
+    if len(collected) != len(nve):
+        return False
+
+    for i in range(len(collected)):
+        # we are doing a fuzzy match here since NVE has some prices with Enova tarrifs
+        # and some without
+
+        if abs(collected[i] - nve[i]) > 1:
+            return False
+
+    return True
 
 
 if __name__ == "__main__":
@@ -136,7 +152,7 @@ if __name__ == "__main__":
         nte = nt["energiledd"]
         ntt = nt["terskler"]
 
-        if cte != nte:
+        if not energiledd_equal(cte, nte):
             if not (org in KNOWN_ERRORS and "energiledd" in KNOWN_ERRORS[org]):
                 print(f"{name} - {org} - Energiledd not the same: {cte} != {nte}")
 
