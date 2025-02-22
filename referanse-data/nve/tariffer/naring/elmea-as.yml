@@ -9,25 +9,25 @@ fylker_navn:
 navn: ELMEA AS
 org: '986347801'
 terskler:
-  - pris: 5712.3
+  - pris: 4729.8
     terskel: 0
-  - pris: 8132.4
+  - pris: 6666.0
     terskel: 2
-  - pris: 12004.3
+  - pris: 9763.5
     terskel: 5
-  - pris: 16846.5
+  - pris: 13637.2
     terskel: 10
-  - pris: 21686.9
+  - pris: 17509.5
     terskel: 15
-  - pris: 26529.0
+  - pris: 21383.2
     terskel: 20
-  - pris: 41050.099
+  - pris: 33000
     terskel: 25
-  - pris: 65255.4
+  - pris: 52364.304
     terskel: 50
-  - pris: 89458.998
+  - pris: 71727.199
     terskel: 75
-  - pris: 174175.908
+  - pris: 139500.708
     terskel: 100
-  - pris: 367813.404
+  - pris: 294410.7
     terskel: 200
