@@ -46,23 +46,23 @@ tariffer:
       terskler:
         - terskel: 0
           pris: 3168
-        - terskel: 0
+        - terskel: 2
           pris: 3804
-        - terskel: 0
+        - terskel: 5
           pris: 4116
-        - terskel: 0
+        - terskel: 10
           pris: 4440
-        - terskel: 0
+        - terskel: 15
           pris: 4752
-        - terskel: 0
+        - terskel: 20
           pris: 5544
-        - terskel: 0
+        - terskel: 25
           pris: 6012
-        - terskel: 0
+        - terskel: 50
           pris: 6648
-        - terskel: 0
+        - terskel: 75
           pris: 7284
-        - terskel: 0
+        - terskel: 100
           pris: 7920
     energiledd:
       grunnpris: 20
@@ -71,4 +71,4 @@ tariffer:
           timer: 6-21
           pris: 25.2
     gyldig_fra: '2025-01-01'
-sist_oppdatert: '2025-01-16'
+sist_oppdatert: '2025-02-24'
