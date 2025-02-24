@@ -2,7 +2,7 @@
 netteier: 'Havnett AS'
 gln:
   - '7080010001832'
-sist_oppdatert: '2024-12-12'
+sist_oppdatert: '2025-02-24'
 kilder:
   - 'https://www.aknett.no/Produkt-og-tenester/Priser/Nettleigetariff'
 tariffer:
@@ -12,15 +12,15 @@ tariffer:
       terskel_inkludert: true
       terskler:
         - terskel: 0
-          pris: 200
+          pris: 2400
         - terskel: 5
-          pris: 256
+          pris: 3072
         - terskel: 10
-          pris: 450.4
+          pris: 5404.8
         - terskel: 15
-          pris: 630.4
+          pris: 7564.8
         - terskel: 20
-          pris: 690.4
+          pris: 8284.8
     energiledd:
       grunnpris: 29.72
     gyldig_fra: '2024-08-01'
