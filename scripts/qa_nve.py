@@ -1,14 +1,21 @@
 #!/usr/bin/env python3
-# Sjekk innsamlede verdier mot NVE referanse-data
+# Sjekk innsamlede /tariffer mot referanse-data/nve/tariffer/privat
+#
+# Bruker data fra Elhub til å mappe gln til organisasjonsnummer.
+#
+# Sjekken mot NVE sine data er litt "fuzzy". Det er en veldig forenklet sjekk på flere måter.
+#
+#   * vi avrunder verdier på begge sider - energiledd til to desimaler, fastledd til hel krone
+#   * vi sjekker kun om vi finner de samme energiledd-prisene på begge sider, uten vurdering av når prisene er
+#   * energiledd i NVE innholder ca 50/50 enova-avgift og ikke. Sjekken for energiledd er derfor +-1 øre
+#
+# Sjekken håndterer også konsesjonærer med flere GLN dårlig, siden NVE-data er på organisasjonsnummer, ikke GLN.
 #
 # Usage: ./scripts/qa_nve.py
 
 import cache
 
-import sys
 import os
-import nve
-import elhub
 import yaml
 import json
 from datetime import datetime, timedelta
@@ -16,22 +23,6 @@ import dateutil.parser
 
 # gln: org
 GRID_OWNERS = {}
-
-# fmt: off
-KNOWN_ERRORS = {
-    "979399901": ["fastledd"],  # Vestmar har avrundingfeil i NVE/på sine sider
-    "924862602": ["fastledd"],  # DE Nett har enova-avgift og mangler et fastledd i NVE sine data
-    "971589752": ["energiledd","fastledd"], # Hallingdal/Føie har endel rot i sine NVE data
-    "923789324": ["energiledd"], # Haringnett rett og slett bare feil energiledd hos NVE
-    "924527994": ["fastledd"], # Breheim har enova-avgift og feil avrunding på fastledd i NVE sine data
-    "924330678": ["energiledd", "fastledd"], # SuNett våre priser er bekreftet på epost. Fastledd er vanskelig ref issue #4
-    "980824586": ["fastledd"], # Nordvestnett har enova-avgift og feil i første fastledd i NVE sine data
-    "923819177" : ["fastledd"], # S-NETT har enova-avgift og rot på fastledd i NVE sine data
-    "925336637" : ["fastledd"], # Alut avvik på fastledd pga terskel_inkludert
-    "986347801" : ["fastledd"], # Elmea rot i NVE sine fastledd
-    "882783022" : ["energiledd"], # Etna sine priser har elavgift host NVE
-}
-# fmt: on
 
 
 def org_from_gln(gln):
@@ -153,17 +144,15 @@ if __name__ == "__main__":
         ntt = nt["terskler"]
 
         if not energiledd_equal(cte, nte):
-            if not (org in KNOWN_ERRORS and "energiledd" in KNOWN_ERRORS[org]):
-                print(f"{name} - {org} - Energiledd not the same: {cte} != {nte}")
+            print(f"{name} - {org} - Energiledd not the same: {cte} != {nte}")
 
         if ctt != ntt:
-            if not (org in KNOWN_ERRORS and "fastledd" in KNOWN_ERRORS[org]):
-                print(f"{name} - {org} - Fastledd is not the same")
+            print(f"{name} - {org} - Fastledd is not the same")
 
-                all_terskler = list(ctt.keys())
-                all_terskler.extend(list(ntt.keys()))
-                all_terskler = sorted(list(set(all_terskler)))
-                for t in all_terskler:
-                    print(
-                        f"    {t} - Collected: {ctt.get(t, '  ')} - NVE: {ntt.get(t, '    ')}"
-                    )
+            all_terskler = list(ctt.keys())
+            all_terskler.extend(list(ntt.keys()))
+            all_terskler = sorted(list(set(all_terskler)))
+            for t in all_terskler:
+                print(
+                    f"    {t} - Collected: {ctt.get(t, '  ')} - NVE: {ntt.get(t, '    ')}"
+                )
