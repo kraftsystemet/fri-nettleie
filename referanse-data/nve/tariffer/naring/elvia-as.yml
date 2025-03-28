@@ -1,9 +1,7 @@
 ---
 energiledd:
   - 12.99
-  - 15.21
   - 20.99
-  - 23.21
 fylker:
   - '03'
   - '31'
@@ -19,23 +17,23 @@ fylker_navn:
 navn: ELVIA AS
 org: '980489698'
 terskler:
-  - pris: 2096.0
+  - pris: 2000.0
     terskel: 0
-  - pris: 2864.0
+  - pris: 2624.0
     terskel: 2
-  - pris: 4160.0
+  - pris: 3680.0
     terskel: 5
-  - pris: 5456.0
+  - pris: 4736.0
     terskel: 10
-  - pris: 6752.0
+  - pris: 5792.0
     terskel: 15
-  - pris: 8048.0
+  - pris: 6848.0
     terskel: 20
-  - pris: 14479.999
+  - pris: 12080.0
     terskel: 25
-  - pris: 20959.999
+  - pris: 17311.999
     terskel: 50
-  - pris: 27440.0
+  - pris: 22591.999
     terskel: 75
-  - pris: 54607.998
+  - pris: 44672.0
     terskel: 100
