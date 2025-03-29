@@ -102,10 +102,10 @@ tariffer:
         - terskel: 100
           pris: 43872
     energiledd:
-      grunnpris: 20.99
+      grunnpris: 12.99
       unntak:
-        - navn: Natt/helg
+        - navn: Virkedag
           timer: 6-21
-          pris: 12.99
+          pris: 20.99
           dager: [virkedag]
     gyldig_fra: '2025-04-01'
