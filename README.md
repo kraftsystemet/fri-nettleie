@@ -320,6 +320,7 @@ Se under.
 Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 
 * [Slipper](https://slipper.no/) har brukt dataene i sin app siden desember 2024 📈
+* [Tadata](https://tadata.no/products/56efa72d-88a9-4688-aa66-df0cd1dd40bb) tilbyr et API for nettleiepriser basert på data fra ***fri-nettleie***
 
 ## Netteiere
 
