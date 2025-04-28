@@ -48,7 +48,7 @@
         <dd>Oslo, Oslo</dd>
         -->
         <dt>Sist oppdatert</dt>
-        <dd>2025-01-25</dd>
+        <dd>2025-03-30</dd>
       </dl>
       <article>
         <header>❕Innsamlet på dugnad</header>
@@ -62,17 +62,11 @@
       </article>
       <h2>Tariff</h2>
       Haringnett AS sin nåværende tariff for private husholdninger er gyldig fra
-      2025-01-01.
+      2025-04-01.
       <p></p>
 
-      <p>Tariffen har vi samlet inn fra 2 kilder:</p>
+      <p>Tariffen har vi samlet inn fra 1 kilde:</p>
       <ul>
-        <li>
-          <a href="https://www.kvamenerginett.no/nettleigeprisar2024"
-            >https://www.kvamenerginett.no/nettleigeprisar2024</a
-          >
-        </li>
-
         <li>
           <a href="https://www.haringnett.no/nettleigeprisar2025"
             >https://www.haringnett.no/nettleigeprisar2025</a
@@ -85,7 +79,7 @@
 
         <dl>
           <dt>Gyldig fra</dt>
-          <dd>2025-01-01</dd>
+          <dd>2025-04-01</dd>
           <dt>Gyldig til</dt>
           <dd>-</dd>
         </dl>
@@ -205,21 +199,21 @@
             standard (sommer) avgift.
           </p>
           <dl>
-            14.5
+            12
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            15.5
+            13
             <span
               data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            25.29
+            22.79
             <span
               data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            31.61
+            28.49
             <span data-tooltip="Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
             ><br />
@@ -242,21 +236,21 @@
           <p>Du betaler</p>
 
           <dl>
-            22.5
+            20
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            23.5
+            21
             <span
               data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            33.29
+            30.79
             <span
               data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            41.61
+            38.49
             <span
               data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
@@ -274,10 +268,8 @@
   <!-- TODO norway bundle -->
   <script>
     const energiLedd = {
-      grunnpris: 14.5,
-      unntak: [
-        { dager: ["ukedag"], navn: "Ukedag", pris: 22.5, timer: "6-21" },
-      ],
+      grunnpris: 12,
+      unntak: [{ dager: ["ukedag"], navn: "Ukedag", pris: 20, timer: "6-21" }],
     };
   </script>
   <script src="../assets/priceSignal.js"></script>
