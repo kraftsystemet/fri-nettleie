@@ -2,10 +2,10 @@
 netteier: 'Elvenett AS'
 gln:
   - '7080005052917'
-sist_oppdatert: '2025-01-15'
+sist_oppdatert: '2025-05-03'
 kilder:
   - 'https://www.elvenett.no/priser-og-avtaler/'
-  - 'https://www.elvenett.no/media/z0onennj/nye-priser-privat-01012025_kun-fob.pdf'
+  - 'https://www.elvenett.no/media/guapqy0g/nye-priser-privat-01042025_nye-trinn.pdf'
 tariffer:
   - kundegruppe: privat
     fastledd:
@@ -33,3 +33,36 @@ tariffer:
           timer: 6-21
           pris: 24.5
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-04-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1860
+        - terskel: 2
+          pris: 2640
+        - terskel: 5
+          pris: 3648
+        - terskel: 10
+          pris: 4764
+        - terskel: 15
+          pris: 6120
+        - terskel: 20
+          pris: 7704
+        - terskel: 25
+          pris: 10872
+        - terskel: 50
+          pris: 14508
+        - terskel: 75
+          pris: 18180
+        - terskel: 100
+          pris: 21840
+    energiledd:
+      grunnpris: 20
+      unntak:
+        - navn: Natt
+          timer: 22-5
+          pris: 11
+    gyldig_fra: '2025-04-01'
