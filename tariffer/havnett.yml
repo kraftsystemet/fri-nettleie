@@ -4,7 +4,7 @@ gln:
   - '7080010001832'
 sist_oppdatert: '2025-02-24'
 kilder:
-  - 'https://www.aknett.no/Produkt-og-tenester/Priser/Nettleigetariff'
+  - 'https://havnett.as/priser/nettleigetariff/'
 tariffer:
   - kundegruppe: privat
     fastledd:
