@@ -1,8 +1,8 @@
 ---
 energiledd:
   - 11.25
-  - 12
-  - 17
+  - 12.0
+  - 17.0
   - 18.5
 fylker:
   - '32'
@@ -14,20 +14,20 @@ navn: "FØIE AS"
 org: '971589752'
 terskler:
   - pris: 1238.4
-    terskel: 0
-  - pris: 1536
-    terskel: 2
-  - pris: 3792
-    terskel: 5
+    terskel: 0.0
+  - pris: 1536.0
+    terskel: 2.0
+  - pris: 3792.0
+    terskel: 5.0
   - pris: 6297.6
-    terskel: 10
+    terskel: 10.0
   - pris: 8860.8
-    terskel: 15
+    terskel: 15.0
   - pris: 10636.8
-    terskel: 20
-  - pris: 13776
-    terskel: 25
-  - pris: 15744
-    terskel: 50
-  - pris: 21600
-    terskel: 75
+    terskel: 20.0
+  - pris: 13776.0
+    terskel: 25.0
+  - pris: 15744.0
+    terskel: 50.0
+  - pris: 21600.0
+    terskel: 75.0

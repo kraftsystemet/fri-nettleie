@@ -8,15 +8,15 @@ fylker_navn:
 navn: STRAUMEN NETT AS
 org: '925354813'
 terskler:
-  - pris: 3588
-    terskel: 0
-  - pris: 4008
-    terskel: 5
+  - pris: 3588.0
+    terskel: 0.0
+  - pris: 4008.0
+    terskel: 5.0
   - pris: 5551.0
-    terskel: 10
+    terskel: 10.0
   - pris: 6390.0
-    terskel: 15
+    terskel: 15.0
   - pris: 9179.0
-    terskel: 20
+    terskel: 20.0
   - pris: 11967.0
-    terskel: 25
+    terskel: 25.0

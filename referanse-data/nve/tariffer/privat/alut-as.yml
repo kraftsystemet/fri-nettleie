@@ -11,6 +11,6 @@ navn: ALUT AS
 org: '925336637'
 terskler:
   - pris: 3500.04
-    terskel: 0
-  - pris: 4500
-    terskel: 126
+    terskel: 0.0
+  - pris: 4500.0
+    terskel: 126.0

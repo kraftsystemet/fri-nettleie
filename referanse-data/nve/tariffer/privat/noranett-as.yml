@@ -10,43 +10,43 @@ fylker_navn:
 navn: NORANETT AS
 org: '985411131'
 terskler:
-  - pris: 3720
-    terskel: 0
-  - pris: 5280
-    terskel: 2
-  - pris: 6360
-    terskel: 4
-  - pris: 7320
-    terskel: 6
-  - pris: 8160
-    terskel: 8
-  - pris: 9000
-    terskel: 10
-  - pris: 10680
-    terskel: 15
-  - pris: 14400
-    terskel: 20
-  - pris: 16800
-    terskel: 25
-  - pris: 20400
-    terskel: 30
-  - pris: 22800
-    terskel: 35
-  - pris: 25200
-    terskel: 40
-  - pris: 28800
-    terskel: 45
-  - pris: 43200
-    terskel: 50
-  - pris: 63600
-    terskel: 75
-  - pris: 85200
-    terskel: 100
-  - pris: 106800
-    terskel: 125
-  - pris: 128400
-    terskel: 150
-  - pris: 150000
-    terskel: 175
-  - pris: 213600
-    terskel: 200
+  - pris: 3720.0
+    terskel: 0.0
+  - pris: 5280.0
+    terskel: 2.0
+  - pris: 6360.0
+    terskel: 4.0
+  - pris: 7320.0
+    terskel: 6.0
+  - pris: 8160.0
+    terskel: 8.0
+  - pris: 9000.0
+    terskel: 10.0
+  - pris: 10680.0
+    terskel: 15.0
+  - pris: 14400.0
+    terskel: 20.0
+  - pris: 16800.0
+    terskel: 25.0
+  - pris: 20400.0
+    terskel: 30.0
+  - pris: 22800.0
+    terskel: 35.0
+  - pris: 25200.0
+    terskel: 40.0
+  - pris: 28800.0
+    terskel: 45.0
+  - pris: 43200.0
+    terskel: 50.0
+  - pris: 63600.0
+    terskel: 75.0
+  - pris: 85200.0
+    terskel: 100.0
+  - pris: 106800.0
+    terskel: 125.0
+  - pris: 128400.0
+    terskel: 150.0
+  - pris: 150000.0
+    terskel: 175.0
+  - pris: 213600.0
+    terskel: 200.0

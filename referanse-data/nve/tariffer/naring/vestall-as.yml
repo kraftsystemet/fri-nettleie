@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 7
-  - 14
+  - 7.0
+  - 14.0
 fylker:
   - '18'
   - '55'
@@ -11,21 +11,21 @@ fylker_navn:
 navn: VESTALL AS
 org: '968168134'
 terskler:
-  - pris: 5736
-    terskel: 0
-  - pris: 9564
-    terskel: 5
-  - pris: 13512
-    terskel: 10
-  - pris: 17472
-    terskel: 15
-  - pris: 21252
-    terskel: 20
-  - pris: 32940
-    terskel: 25
-  - pris: 37188
-    terskel: 50
-  - pris: 50844
-    terskel: 75
-  - pris: 73548
-    terskel: 100
+  - pris: 5736.0
+    terskel: 0.0
+  - pris: 9564.0
+    terskel: 5.0
+  - pris: 13512.0
+    terskel: 10.0
+  - pris: 17472.0
+    terskel: 15.0
+  - pris: 21252.0
+    terskel: 20.0
+  - pris: 32940.0
+    terskel: 25.0
+  - pris: 37188.0
+    terskel: 50.0
+  - pris: 50844.0
+    terskel: 75.0
+  - pris: 73548.0
+    terskel: 100.0

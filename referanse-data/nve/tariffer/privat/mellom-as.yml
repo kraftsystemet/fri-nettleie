@@ -10,18 +10,18 @@ navn: MELLOM AS
 org: '925668389'
 terskler:
   - pris: 2438.04
-    terskel: 0
-  - pris: 3648
-    terskel: 2
+    terskel: 0.0
+  - pris: 3648.0
+    terskel: 2.0
   - pris: 6057.96
-    terskel: 5
+    terskel: 5.0
   - pris: 8006.04
-    terskel: 10
+    terskel: 10.0
   - pris: 10137.96
-    terskel: 15
+    terskel: 15.0
   - pris: 12701.04
-    terskel: 20
+    terskel: 20.0
   - pris: 15993.96
-    terskel: 25
+    terskel: 25.0
   - pris: 21369.96
-    terskel: 50
+    terskel: 50.0

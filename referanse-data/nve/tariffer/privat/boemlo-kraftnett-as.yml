@@ -9,23 +9,23 @@ fylker_navn:
 navn: "BØMLO KRAFTNETT AS"
 org: '923934138'
 terskler:
-  - pris: 1920
-    terskel: 0
-  - pris: 2880
-    terskel: 2
-  - pris: 3840
-    terskel: 5
-  - pris: 4800
-    terskel: 10
-  - pris: 6240
-    terskel: 15
-  - pris: 7680
-    terskel: 20
-  - pris: 19200
-    terskel: 25
-  - pris: 28800
-    terskel: 50
-  - pris: 38400
-    terskel: 75
-  - pris: 48000
-    terskel: 100
+  - pris: 1920.0
+    terskel: 0.0
+  - pris: 2880.0
+    terskel: 2.0
+  - pris: 3840.0
+    terskel: 5.0
+  - pris: 4800.0
+    terskel: 10.0
+  - pris: 6240.0
+    terskel: 15.0
+  - pris: 7680.0
+    terskel: 20.0
+  - pris: 19200.0
+    terskel: 25.0
+  - pris: 28800.0
+    terskel: 50.0
+  - pris: 38400.0
+    terskel: 75.0
+  - pris: 48000.0
+    terskel: 100.0

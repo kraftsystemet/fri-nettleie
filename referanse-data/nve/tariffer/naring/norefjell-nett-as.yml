@@ -10,22 +10,22 @@ navn: NOREFJELL NETT AS
 org: '824701482'
 terskler:
   - pris: 2960.0
-    terskel: 0
+    terskel: 0.0
   - pris: 3608.0
-    terskel: 2
+    terskel: 2.0
   - pris: 4688.0
-    terskel: 5
+    terskel: 5.0
   - pris: 6632.0
-    terskel: 10
+    terskel: 10.0
   - pris: 8360.0
-    terskel: 15
+    terskel: 15.0
   - pris: 10088.0
-    terskel: 20
-  - pris: 15919.999
-    terskel: 25
-  - pris: 23479.999
-    terskel: 50
+    terskel: 20.0
+  - pris: 15920.0
+    terskel: 25.0
+  - pris: 23480.0
+    terskel: 50.0
   - pris: 31040.0
-    terskel: 75
+    terskel: 75.0
   - pris: 44000.0
-    terskel: 100
+    terskel: 100.0

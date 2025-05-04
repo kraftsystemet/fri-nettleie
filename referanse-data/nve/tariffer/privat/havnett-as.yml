@@ -8,13 +8,13 @@ fylker_navn:
 navn: HAVNETT AS
 org: '924004150'
 terskler:
-  - pris: 2400
-    terskel: 0
-  - pris: 3072
-    terskel: 5
+  - pris: 2400.0
+    terskel: 0.0
+  - pris: 3072.0
+    terskel: 5.0
   - pris: 5405.04
-    terskel: 10
+    terskel: 10.0
   - pris: 7565.04
-    terskel: 15
+    terskel: 15.0
   - pris: 8285.04
-    terskel: 20
+    terskel: 20.0

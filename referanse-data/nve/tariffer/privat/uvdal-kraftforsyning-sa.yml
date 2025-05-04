@@ -10,20 +10,20 @@ navn: UVDAL KRAFTFORSYNING SA
 org: '967670170'
 terskler:
   - pris: 3532.8
-    terskel: 0
+    terskel: 0.0
   - pris: 5308.8
-    terskel: 5
+    terskel: 5.0
   - pris: 7785.6
-    terskel: 10
+    terskel: 10.0
   - pris: 14860.8
-    terskel: 15
-  - pris: 21936
-    terskel: 20
-  - pris: 32544
-    terskel: 25
+    terskel: 15.0
+  - pris: 21936.0
+    terskel: 20.0
+  - pris: 32544.0
+    terskel: 25.0
   - pris: 50236.8
-    terskel: 50
+    terskel: 50.0
   - pris: 71452.8
-    terskel: 75
+    terskel: 75.0
   - pris: 99753.6
-    terskel: 100
+    terskel: 100.0

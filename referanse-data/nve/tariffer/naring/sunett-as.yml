@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 20
+  - 20.0
 fylker:
   - '15'
 fylker_navn:
@@ -9,4 +9,4 @@ navn: SUNETT AS
 org: '924330678'
 terskler:
   - pris: 4000.0
-    terskel: 1
+    terskel: 1.0

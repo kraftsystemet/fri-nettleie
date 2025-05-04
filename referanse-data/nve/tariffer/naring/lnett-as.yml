@@ -10,22 +10,22 @@ navn: LNETT AS
 org: '980038408'
 terskler:
   - pris: 2432.0
-    terskel: 0
+    terskel: 0.0
   - pris: 3584.0
-    terskel: 2
+    terskel: 2.0
   - pris: 5264.0
-    terskel: 5
+    terskel: 5.0
   - pris: 7664.0
-    terskel: 10
+    terskel: 10.0
   - pris: 10064.0
-    terskel: 15
-  - pris: 12463.999
-    terskel: 20
-  - pris: 22063.999
-    terskel: 25
+    terskel: 15.0
+  - pris: 12464.0
+    terskel: 20.0
+  - pris: 22064.0
+    terskel: 25.0
   - pris: 31664.0
-    terskel: 50
+    terskel: 50.0
   - pris: 41264.0
-    terskel: 75
-  - pris: 67999.998
-    terskel: 100
+    terskel: 75.0
+  - pris: 68000.0
+    terskel: 100.0

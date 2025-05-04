@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 24
-  - 32
+  - 24.0
+  - 32.0
 fylker:
   - '46'
 fylker_navn:
@@ -9,15 +9,15 @@ fylker_navn:
 navn: LYSNA AS
 org: '923833706'
 terskler:
-  - pris: 3720
-    terskel: 0
-  - pris: 4740
-    terskel: 2
-  - pris: 5724
-    terskel: 5
-  - pris: 6960
-    terskel: 10
-  - pris: 8220
-    terskel: 15
-  - pris: 9420
-    terskel: 20
+  - pris: 3720.0
+    terskel: 0.0
+  - pris: 4740.0
+    terskel: 2.0
+  - pris: 5724.0
+    terskel: 5.0
+  - pris: 6960.0
+    terskel: 10.0
+  - pris: 8220.0
+    terskel: 15.0
+  - pris: 9420.0
+    terskel: 20.0

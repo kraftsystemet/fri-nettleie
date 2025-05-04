@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 20
-  - 28
+  - 20.0
+  - 28.0
 fylker:
   - '11'
   - '46'
@@ -12,20 +12,20 @@ navn: FAGNE AS
 org: '915635857'
 terskler:
   - pris: 4256.0
-    terskel: 0
+    terskel: 0.0
   - pris: 5216.0
-    terskel: 5
+    terskel: 5.0
   - pris: 6176.0
-    terskel: 10
+    terskel: 10.0
   - pris: 7136.0
-    terskel: 15
+    terskel: 15.0
   - pris: 8096.0
-    terskel: 20
-  - pris: 21919.999
-    terskel: 25
+    terskel: 20.0
+  - pris: 21920.0
+    terskel: 25.0
   - pris: 31520.0
-    terskel: 50
+    terskel: 50.0
   - pris: 41120.0
-    terskel: 75
-  - pris: 50719.998
-    terskel: 100
+    terskel: 75.0
+  - pris: 50720.0
+    terskel: 100.0

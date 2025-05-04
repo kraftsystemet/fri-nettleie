@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 16
-  - 22
+  - 16.0
+  - 22.0
 fylker:
   - '11'
   - '42'
@@ -11,23 +11,23 @@ fylker_navn:
 navn: ENIDA AS
 org: '918312730'
 terskler:
-  - pris: 2784
-    terskel: 0
-  - pris: 3360
-    terskel: 2
-  - pris: 4560
-    terskel: 5
-  - pris: 5460
-    terskel: 10
-  - pris: 6516
-    terskel: 15
-  - pris: 7584
-    terskel: 20
-  - pris: 12000
-    terskel: 25
-  - pris: 18000
-    terskel: 50
-  - pris: 24000
-    terskel: 75
-  - pris: 48000
-    terskel: 100
+  - pris: 2784.0
+    terskel: 0.0
+  - pris: 3360.0
+    terskel: 2.0
+  - pris: 4560.0
+    terskel: 5.0
+  - pris: 5460.0
+    terskel: 10.0
+  - pris: 6516.0
+    terskel: 15.0
+  - pris: 7584.0
+    terskel: 20.0
+  - pris: 12000.0
+    terskel: 25.0
+  - pris: 18000.0
+    terskel: 50.0
+  - pris: 24000.0
+    terskel: 75.0
+  - pris: 48000.0
+    terskel: 100.0

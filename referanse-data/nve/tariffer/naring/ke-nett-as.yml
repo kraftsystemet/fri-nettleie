@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 11
-  - 23
+  - 1.0
+  - 13.0
 fylker:
   - '11'
 fylker_navn:
@@ -10,20 +10,20 @@ navn: KE NETT AS
 org: '977285712'
 terskler:
   - pris: 3800.0
-    terskel: 0
+    terskel: 0.0
   - pris: 5480.0
-    terskel: 5
+    terskel: 5.0
   - pris: 7160.0
-    terskel: 10
+    terskel: 10.0
   - pris: 8840.0
-    terskel: 15
+    terskel: 15.0
   - pris: 10520.0
-    terskel: 20
-  - pris: 20599.999
-    terskel: 25
+    terskel: 20.0
+  - pris: 20600.0
+    terskel: 25.0
   - pris: 26000.0
-    terskel: 50
+    terskel: 50.0
   - pris: 34400.0
-    terskel: 75
-  - pris: 65479.998
-    terskel: 100
+    terskel: 75.0
+  - pris: 65480.0
+    terskel: 100.0

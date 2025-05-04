@@ -11,21 +11,21 @@ fylker_navn:
 navn: "RØROS E-VERK NETT AS"
 org: '919884452'
 terskler:
-  - pris: 3408
-    terskel: 0
-  - pris: 4944
-    terskel: 5
-  - pris: 6924
-    terskel: 10
-  - pris: 9612
-    terskel: 15
-  - pris: 12468
-    terskel: 20
-  - pris: 23700
-    terskel: 25
-  - pris: 43464
-    terskel: 50
-  - pris: 78456
-    terskel: 100
-  - pris: 120744
-    terskel: 200
+  - pris: 3408.0
+    terskel: 0.0
+  - pris: 4944.0
+    terskel: 5.0
+  - pris: 6924.0
+    terskel: 10.0
+  - pris: 9612.0
+    terskel: 15.0
+  - pris: 12468.0
+    terskel: 20.0
+  - pris: 23700.0
+    terskel: 25.0
+  - pris: 43464.0
+    terskel: 50.0
+  - pris: 78456.0
+    terskel: 100.0
+  - pris: 120744.0
+    terskel: 200.0

@@ -9,23 +9,23 @@ fylker_navn:
 navn: BKK AS
 org: '976944801'
 terskler:
-  - pris: 1536
-    terskel: 0
-  - pris: 2496
-    terskel: 2
-  - pris: 4128
-    terskel: 5
-  - pris: 5952
-    terskel: 10
-  - pris: 7680
-    terskel: 15
-  - pris: 9360
-    terskel: 20
-  - pris: 17952
-    terskel: 25
-  - pris: 26496
-    terskel: 50
-  - pris: 35040
-    terskel: 75
-  - pris: 69120
-    terskel: 100
+  - pris: 1536.0
+    terskel: 0.0
+  - pris: 2496.0
+    terskel: 2.0
+  - pris: 4128.0
+    terskel: 5.0
+  - pris: 5952.0
+    terskel: 10.0
+  - pris: 7680.0
+    terskel: 15.0
+  - pris: 9360.0
+    terskel: 20.0
+  - pris: 17952.0
+    terskel: 25.0
+  - pris: 26496.0
+    terskel: 50.0
+  - pris: 35040.0
+    terskel: 75.0
+  - pris: 69120.0
+    terskel: 100.0

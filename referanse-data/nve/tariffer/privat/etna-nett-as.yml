@@ -9,15 +9,15 @@ fylker_navn:
 navn: ETNA NETT AS
 org: '882783022'
 terskler:
-  - pris: 2640
-    terskel: 0
-  - pris: 2640
-    terskel: 2
-  - pris: 2640
-    terskel: 5
-  - pris: 2640
-    terskel: 10
-  - pris: 2640
-    terskel: 15
-  - pris: 2640
-    terskel: 20
+  - pris: 2640.0
+    terskel: 0.0
+  - pris: 2640.0
+    terskel: 2.0
+  - pris: 2640.0
+    terskel: 5.0
+  - pris: 2640.0
+    terskel: 10.0
+  - pris: 2640.0
+    terskel: 15.0
+  - pris: 2640.0
+    terskel: 20.0

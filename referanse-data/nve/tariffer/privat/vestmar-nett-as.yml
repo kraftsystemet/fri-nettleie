@@ -8,25 +8,25 @@ fylker_navn:
 navn: VESTMAR NETT AS
 org: '979399901'
 terskler:
-  - pris: 4104
-    terskel: 0
-  - pris: 7260
-    terskel: 5
-  - pris: 10416
-    terskel: 10
+  - pris: 4104.0
+    terskel: 0.0
+  - pris: 7260.0
+    terskel: 5.0
+  - pris: 10416.0
+    terskel: 10.0
   - pris: 13572.96
-    terskel: 15
-  - pris: 16728
-    terskel: 20
-  - pris: 26184
-    terskel: 25
-  - pris: 41964
-    terskel: 50
-  - pris: 57732
-    terskel: 75
-  - pris: 81396
-    terskel: 100
-  - pris: 112932
-    terskel: 150
-  - pris: 160248
-    terskel: 200
+    terskel: 15.0
+  - pris: 16728.0
+    terskel: 20.0
+  - pris: 26184.0
+    terskel: 25.0
+  - pris: 41964.0
+    terskel: 50.0
+  - pris: 57732.0
+    terskel: 75.0
+  - pris: 81396.0
+    terskel: 100.0
+  - pris: 112932.0
+    terskel: 150.0
+  - pris: 160248.0
+    terskel: 200.0

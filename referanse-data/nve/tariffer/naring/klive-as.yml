@@ -9,26 +9,26 @@ navn: KLIVE AS
 org: '923436596'
 terskler:
   - pris: 4614.24
-    terskel: 0
+    terskel: 0.0
   - pris: 5731.33
-    terskel: 5
+    terskel: 5.0
   - pris: 7606.32
-    terskel: 10
+    terskel: 10.0
   - pris: 10146.1
-    terskel: 15
-  - pris: 12685.999
-    terskel: 20
-  - pris: 25358.599
-    terskel: 25
-  - pris: 38044.699
-    terskel: 50
+    terskel: 15.0
+  - pris: 12686.0
+    terskel: 20.0
+  - pris: 25358.6
+    terskel: 25.0
+  - pris: 38044.7
+    terskel: 50.0
   - pris: 50730.6
-    terskel: 75
-  - pris: 76089.396
-    terskel: 100
-  - pris: 101448
-    terskel: 150
-  - pris: 152178.996
-    terskel: 200
-  - pris: 253627.008
-    terskel: 300
+    terskel: 75.0
+  - pris: 76089.4
+    terskel: 100.0
+  - pris: 101448.0
+    terskel: 150.0
+  - pris: 152179.0
+    terskel: 200.0
+  - pris: 253627.0
+    terskel: 300.0

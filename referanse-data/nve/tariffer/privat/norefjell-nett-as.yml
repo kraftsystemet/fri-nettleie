@@ -9,23 +9,23 @@ fylker_navn:
 navn: NOREFJELL NETT AS
 org: '824701482'
 terskler:
-  - pris: 2160
-    terskel: 0
-  - pris: 2808
-    terskel: 2
-  - pris: 3888
-    terskel: 5
-  - pris: 5832
-    terskel: 10
-  - pris: 7560
-    terskel: 15
-  - pris: 9288
-    terskel: 20
-  - pris: 15120
-    terskel: 25
-  - pris: 22680
-    terskel: 50
-  - pris: 30240
-    terskel: 75
-  - pris: 43200
-    terskel: 100
+  - pris: 2160.0
+    terskel: 0.0
+  - pris: 2808.0
+    terskel: 2.0
+  - pris: 3888.0
+    terskel: 5.0
+  - pris: 5832.0
+    terskel: 10.0
+  - pris: 7560.0
+    terskel: 15.0
+  - pris: 9288.0
+    terskel: 20.0
+  - pris: 15120.0
+    terskel: 25.0
+  - pris: 22680.0
+    terskel: 50.0
+  - pris: 30240.0
+    terskel: 75.0
+  - pris: 43200.0
+    terskel: 100.0

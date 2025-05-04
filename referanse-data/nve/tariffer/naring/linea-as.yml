@@ -10,30 +10,30 @@ navn: LINEA AS
 org: '917424799'
 terskler:
   - pris: 3800.0
-    terskel: 0
+    terskel: 0.0
   - pris: 5456.0
-    terskel: 5
+    terskel: 5.0
   - pris: 7340.0
-    terskel: 10
+    terskel: 10.0
   - pris: 9236.0
-    terskel: 15
+    terskel: 15.0
   - pris: 11144.0
-    terskel: 20
-  - pris: 18091.999
-    terskel: 25
+    terskel: 20.0
+  - pris: 18092.0
+    terskel: 25.0
   - pris: 27572.0
-    terskel: 50
+    terskel: 50.0
   - pris: 37052.0
-    terskel: 75
-  - pris: 52867.998
-    terskel: 100
-  - pris: 71815.998
-    terskel: 150
-  - pris: 103376.004
-    terskel: 200
-  - pris: 141344.004
-    terskel: 300
-  - pris: 179240.004
-    terskel: 400
-  - pris: 217171.992
-    terskel: 500
+    terskel: 75.0
+  - pris: 52868.0
+    terskel: 100.0
+  - pris: 71816.0
+    terskel: 150.0
+  - pris: 103376.0
+    terskel: 200.0
+  - pris: 141344.0
+    terskel: 300.0
+  - pris: 179240.0
+    terskel: 400.0
+  - pris: 217172.0
+    terskel: 500.0

@@ -10,16 +10,16 @@ navn: AREA NETT AS
 org: '923993355'
 terskler:
   - pris: 4350.0
-    terskel: 0
+    terskel: 0.0
   - pris: 6002.28
-    terskel: 2
+    terskel: 2.0
   - pris: 7421.28
-    terskel: 5
+    terskel: 5.0
   - pris: 10047.0
-    terskel: 10
+    terskel: 10.0
   - pris: 11591.28
-    terskel: 15
+    terskel: 15.0
   - pris: 13531.56
-    terskel: 20
+    terskel: 20.0
   - pris: 19719.0
-    terskel: 25
+    terskel: 25.0

@@ -4,36 +4,36 @@ energiledd:
   - 20.99
 fylker:
   - '03'
-  - '31'
   - '32'
+  - '31'
   - '33'
   - '34'
 fylker_navn:
   - Oslo
-  - "Østfold"
   - Akershus
+  - "Østfold"
   - Buskerud
   - Innlandet
 navn: ELVIA AS
 org: '980489698'
 terskler:
   - pris: 2000.0
-    terskel: 0
+    terskel: 0.0
   - pris: 2624.0
-    terskel: 2
+    terskel: 2.0
   - pris: 3680.0
-    terskel: 5
+    terskel: 5.0
   - pris: 4736.0
-    terskel: 10
+    terskel: 10.0
   - pris: 5792.0
-    terskel: 15
+    terskel: 15.0
   - pris: 6848.0
-    terskel: 20
+    terskel: 20.0
   - pris: 12080.0
-    terskel: 25
-  - pris: 17311.999
-    terskel: 50
-  - pris: 22591.999
-    terskel: 75
+    terskel: 25.0
+  - pris: 17312.0
+    terskel: 50.0
+  - pris: 22592.0
+    terskel: 75.0
   - pris: 44672.0
-    terskel: 100
+    terskel: 100.0

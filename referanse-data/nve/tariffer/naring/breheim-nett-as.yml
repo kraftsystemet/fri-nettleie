@@ -10,24 +10,24 @@ navn: BREHEIM NETT AS
 org: '924527994'
 terskler:
   - pris: 2960.0
-    terskel: 0
+    terskel: 0.0
   - pris: 5120.0
-    terskel: 5
+    terskel: 5.0
   - pris: 7280.0
-    terskel: 10
+    terskel: 10.0
   - pris: 9440.0
-    terskel: 15
+    terskel: 15.0
   - pris: 11725.0
-    terskel: 20
-  - pris: 22525.001
-    terskel: 25
+    terskel: 20.0
+  - pris: 22525.0
+    terskel: 25.0
   - pris: 33440.0
-    terskel: 50
+    terskel: 50.0
   - pris: 44365.0
-    terskel: 75
-  - pris: 66079.998
-    terskel: 100
-  - pris: 87919.998
-    terskel: 150
-  - pris: 131484.996
-    terskel: 200
+    terskel: 75.0
+  - pris: 66080.0
+    terskel: 100.0
+  - pris: 87920.0
+    terskel: 150.0
+  - pris: 131485.0
+    terskel: 200.0

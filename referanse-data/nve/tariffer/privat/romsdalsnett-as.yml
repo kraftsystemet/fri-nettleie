@@ -10,22 +10,22 @@ navn: ROMSDALSNETT AS
 org: '926377841'
 terskler:
   - pris: 2540.76
-    terskel: 0
+    terskel: 0.0
   - pris: 3175.2
-    terskel: 2
+    terskel: 2.0
   - pris: 3810.36
-    terskel: 5
+    terskel: 5.0
   - pris: 6351.24
-    terskel: 10
+    terskel: 10.0
   - pris: 8891.16
-    terskel: 15
+    terskel: 15.0
   - pris: 10161.6
-    terskel: 20
+    terskel: 20.0
   - pris: 13971.96
-    terskel: 25
+    terskel: 25.0
   - pris: 19052.76
-    terskel: 50
+    terskel: 50.0
   - pris: 21593.64
-    terskel: 75
-  - pris: 25404
-    terskel: 100
+    terskel: 75.0
+  - pris: 25404.0
+    terskel: 100.0

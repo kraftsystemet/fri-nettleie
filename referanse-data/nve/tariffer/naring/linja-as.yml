@@ -9,23 +9,23 @@ fylker_navn:
 navn: LINJA AS
 org: '912631532'
 terskler:
-  - pris: 3444
-    terskel: 0
-  - pris: 4092
-    terskel: 2
-  - pris: 4752
-    terskel: 5
-  - pris: 7392
-    terskel: 10
-  - pris: 8712
-    terskel: 15
-  - pris: 10200
-    terskel: 20
-  - pris: 13980
-    terskel: 25
-  - pris: 15300
-    terskel: 50
-  - pris: 16608
-    terskel: 75
-  - pris: 20568
-    terskel: 100
+  - pris: 3444.0
+    terskel: 0.0
+  - pris: 4092.0
+    terskel: 2.0
+  - pris: 4752.0
+    terskel: 5.0
+  - pris: 7392.0
+    terskel: 10.0
+  - pris: 8712.0
+    terskel: 15.0
+  - pris: 10200.0
+    terskel: 20.0
+  - pris: 13980.0
+    terskel: 25.0
+  - pris: 15300.0
+    terskel: 50.0
+  - pris: 16608.0
+    terskel: 75.0
+  - pris: 20568.0
+    terskel: 100.0

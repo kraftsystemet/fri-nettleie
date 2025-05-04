@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 19.5
-  - 24.5
+  - 11.0
+  - 20.0
 fylker:
   - '33'
 fylker_navn:
@@ -9,17 +9,23 @@ fylker_navn:
 navn: ELVENETT AS
 org: '979497482'
 terskler:
-  - pris: 3731.0
-    terskel: 0
-  - pris: 4318.0
-    terskel: 2
-  - pris: 4611.0
-    terskel: 5
-  - pris: 4904.0
-    terskel: 10
-  - pris: 5197.0
-    terskel: 15
-  - pris: 5930.0
-    terskel: 20
-  - pris: 6369.0
-    terskel: 25
+  - pris: 155.0
+    terskel: 0.0
+  - pris: 220.0
+    terskel: 2.0
+  - pris: 304.0
+    terskel: 5.0
+  - pris: 397.0
+    terskel: 10.0
+  - pris: 510.0
+    terskel: 15.0
+  - pris: 642.0
+    terskel: 20.0
+  - pris: 906.0
+    terskel: 25.0
+  - pris: 1209.0
+    terskel: 50.0
+  - pris: 1515.0
+    terskel: 75.0
+  - pris: 1820.0
+    terskel: 100.0

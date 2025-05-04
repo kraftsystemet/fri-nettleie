@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 27
-  - 32
+  - 27.0
+  - 32.0
 fylker:
   - '33'
 fylker_navn:
@@ -9,21 +9,21 @@ fylker_navn:
 navn: MIDTNETT AS
 org: '917856222'
 terskler:
-  - pris: 2640
-    terskel: 0
-  - pris: 3960
-    terskel: 5
-  - pris: 6000
-    terskel: 10
-  - pris: 9000
-    terskel: 15
-  - pris: 12000
-    terskel: 20
-  - pris: 16764
-    terskel: 25
-  - pris: 25152
-    terskel: 50
-  - pris: 31200
-    terskel: 75
-  - pris: 36000
-    terskel: 100
+  - pris: 2640.0
+    terskel: 0.0
+  - pris: 3960.0
+    terskel: 5.0
+  - pris: 6000.0
+    terskel: 10.0
+  - pris: 9000.0
+    terskel: 15.0
+  - pris: 12000.0
+    terskel: 20.0
+  - pris: 16764.0
+    terskel: 25.0
+  - pris: 25152.0
+    terskel: 50.0
+  - pris: 31200.0
+    terskel: 75.0
+  - pris: 36000.0
+    terskel: 100.0

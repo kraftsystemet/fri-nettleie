@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 40
+  - 40.0
 fylker:
   - '46'
 fylker_navn:
@@ -9,14 +9,14 @@ navn: MODALEN KRAFTLAG SA
 org: '877051412'
 terskler:
   - pris: 750.0
-    terskel: 0
-  - pris: 1236
-    terskel: 2
-  - pris: 2100
-    terskel: 5
-  - pris: 2964
-    terskel: 10
-  - pris: 3828
-    terskel: 15
+    terskel: 0.0
+  - pris: 1236.0
+    terskel: 2.0
+  - pris: 2100.0
+    terskel: 5.0
+  - pris: 2964.0
+    terskel: 10.0
+  - pris: 3828.0
+    terskel: 15.0
   - pris: 4686.0
-    terskel: 20
+    terskel: 20.0

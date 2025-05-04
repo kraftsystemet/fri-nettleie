@@ -10,22 +10,22 @@ navn: ARVA AS
 org: 979151950*
 terskler:
   - pris: 1019.04
-    terskel: 0
+    terskel: 0.0
   - pris: 2415.0
-    terskel: 2
+    terskel: 2.0
   - pris: 4781.04
-    terskel: 5
+    terskel: 5.0
   - pris: 7145.04
-    terskel: 10
+    terskel: 10.0
   - pris: 9507.96
-    terskel: 15
+    terskel: 15.0
   - pris: 11871.96
-    terskel: 20
+    terskel: 20.0
   - pris: 23666.04
-    terskel: 25
+    terskel: 25.0
   - pris: 35463.0
-    terskel: 50
+    terskel: 50.0
   - pris: 47261.04
-    terskel: 75
+    terskel: 75.0
   - pris: 71334.0
-    terskel: 100
+    terskel: 100.0

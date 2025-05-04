@@ -3,41 +3,41 @@ energiledd:
   - 14.7
   - 29.4
 fylker:
-  - '18'
   - '50'
+  - '18'
 fylker_navn:
-  - Nordland
   - "Trøndelag"
+  - Nordland
 navn: TENSIO TN AS
 org: '988807648'
 terskler:
   - pris: 2529.2
-    terskel: 0
+    terskel: 0.0
   - pris: 3728.0
-    terskel: 2
+    terskel: 2.0
   - pris: 6099.2
-    terskel: 5
+    terskel: 5.0
   - pris: 8835.2
-    terskel: 10
+    terskel: 10.0
   - pris: 11571.2
-    terskel: 15
+    terskel: 15.0
   - pris: 14316.8
-    terskel: 20
+    terskel: 20.0
   - pris: 24339.2
-    terskel: 25
+    terskel: 25.0
   - pris: 38048.0
-    terskel: 50
-  - pris: 51737.604
-    terskel: 75
-  - pris: 74537.604
-    terskel: 100
-  - pris: 101945.604
-    terskel: 150
-  - pris: 147545.592
-    terskel: 200
-  - pris: 202323.216
-    terskel: 300
-  - pris: 257100.792
-    terskel: 400
-  - pris: 311830.404
-    terskel: 500
+    terskel: 50.0
+  - pris: 51737.6
+    terskel: 75.0
+  - pris: 74537.6
+    terskel: 100.0
+  - pris: 101945.6
+    terskel: 150.0
+  - pris: 147545.59
+    terskel: 200.0
+  - pris: 202323.2
+    terskel: 300.0
+  - pris: 257100.8
+    terskel: 400.0
+  - pris: 311830.41
+    terskel: 500.0

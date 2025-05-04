@@ -9,23 +9,23 @@ fylker_navn:
 navn: ELINETT AS
 org: '979379455'
 terskler:
-  - pris: 2412
-    terskel: 0
+  - pris: 2412.0
+    terskel: 0.0
   - pris: 3112.0
-    terskel: 2
-  - pris: 3612
-    terskel: 5
-  - pris: 6024
-    terskel: 10
-  - pris: 7224
-    terskel: 15
-  - pris: 8424
-    terskel: 20
-  - pris: 12036
-    terskel: 25
-  - pris: 13248
-    terskel: 50
-  - pris: 14448
-    terskel: 75
-  - pris: 18060
-    terskel: 100
+    terskel: 2.0
+  - pris: 3612.0
+    terskel: 5.0
+  - pris: 6024.0
+    terskel: 10.0
+  - pris: 7224.0
+    terskel: 15.0
+  - pris: 8424.0
+    terskel: 20.0
+  - pris: 12036.0
+    terskel: 25.0
+  - pris: 13248.0
+    terskel: 50.0
+  - pris: 14448.0
+    terskel: 75.0
+  - pris: 18060.0
+    terskel: 100.0

@@ -9,22 +9,22 @@ navn: GRIUG AS
 org: '953681781'
 terskler:
   - pris: 3200.0
-    terskel: 0
+    terskel: 0.0
   - pris: 4448.0
-    terskel: 2
+    terskel: 2.0
   - pris: 6272.0
-    terskel: 5
+    terskel: 5.0
   - pris: 7808.0
-    terskel: 10
+    terskel: 10.0
   - pris: 9632.0
-    terskel: 15
+    terskel: 15.0
   - pris: 11504.0
-    terskel: 20
-  - pris: 20815.999
-    terskel: 25
+    terskel: 20.0
+  - pris: 20816.0
+    terskel: 25.0
   - pris: 30176.0
-    terskel: 50
+    terskel: 50.0
   - pris: 40256.0
-    terskel: 75
-  - pris: 79039.998
-    terskel: 100
+    terskel: 75.0
+  - pris: 79040.0
+    terskel: 100.0

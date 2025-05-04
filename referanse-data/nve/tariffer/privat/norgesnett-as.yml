@@ -14,22 +14,22 @@ navn: NORGESNETT AS
 org: '980234088'
 terskler:
   - pris: 984.12
-    terskel: 0
+    terskel: 0.0
   - pris: 1640.28
-    terskel: 2
+    terskel: 2.0
   - pris: 2697.36
-    terskel: 5
+    terskel: 5.0
   - pris: 4796.88
-    terskel: 10
+    terskel: 10.0
   - pris: 6371.52
-    terskel: 15
+    terskel: 15.0
   - pris: 7902.48
-    terskel: 20
+    terskel: 20.0
   - pris: 12247.32
-    terskel: 25
+    terskel: 25.0
   - pris: 19172.88
-    terskel: 50
+    terskel: 50.0
   - pris: 26098.44
-    terskel: 75
+    terskel: 75.0
   - pris: 42297.12
-    terskel: 100
+    terskel: 100.0

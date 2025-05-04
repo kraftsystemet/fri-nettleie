@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 28
+  - 28.0
 fylker:
   - '40'
 fylker_navn:
@@ -9,18 +9,18 @@ navn: TELEMARK NETT AS
 org: '925803375'
 terskler:
   - pris: 4496.0
-    terskel: 0
+    terskel: 0.0
   - pris: 5540.0
-    terskel: 5
+    terskel: 5.0
   - pris: 9620.0
-    terskel: 10
-  - pris: 12679.999
-    terskel: 15
-  - pris: 15439.999
-    terskel: 20
+    terskel: 10.0
+  - pris: 12680.0
+    terskel: 15.0
+  - pris: 15440.0
+    terskel: 20.0
   - pris: 26120.0
-    terskel: 25
+    terskel: 25.0
   - pris: 40400.0
-    terskel: 50
-  - pris: 55999.998
-    terskel: 75
+    terskel: 50.0
+  - pris: 56000.0
+    terskel: 75.0

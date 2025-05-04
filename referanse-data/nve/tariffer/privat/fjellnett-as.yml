@@ -9,22 +9,22 @@ navn: FJELLNETT AS
 org: '923354204'
 terskler:
   - pris: 2523.96
-    terskel: 0
+    terskel: 0.0
   - pris: 3050.04
-    terskel: 1
+    terskel: 1.0
   - pris: 3573.96
-    terskel: 2
+    terskel: 2.0
   - pris: 4098.96
-    terskel: 3
+    terskel: 3.0
   - pris: 4623.96
-    terskel: 4
+    terskel: 4.0
   - pris: 5148.96
-    terskel: 5
+    terskel: 5.0
   - pris: 5673.96
-    terskel: 6
+    terskel: 6.0
   - pris: 6198.0
-    terskel: 7
+    terskel: 7.0
   - pris: 6723.0
-    terskel: 8
-  - pris: 7248
-    terskel: 9
+    terskel: 8.0
+  - pris: 7248.0
+    terskel: 9.0

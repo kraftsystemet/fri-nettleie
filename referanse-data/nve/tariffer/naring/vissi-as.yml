@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 13
-  - 29
+  - 13.0
+  - 29.0
 fylker:
   - '55'
   - '56'
@@ -12,24 +12,24 @@ navn: VISSI AS
 org: '921683057'
 terskler:
   - pris: 4160.0
-    terskel: 0
+    terskel: 0.0
   - pris: 6560.0
-    terskel: 5
+    terskel: 5.0
   - pris: 8960.0
-    terskel: 10
+    terskel: 10.0
   - pris: 11360.0
-    terskel: 15
-  - pris: 13759.999
-    terskel: 20
-  - pris: 19399.999
-    terskel: 25
+    terskel: 15.0
+  - pris: 13760.0
+    terskel: 20.0
+  - pris: 19400.0
+    terskel: 25.0
   - pris: 25700.0
-    terskel: 50
+    terskel: 50.0
   - pris: 31400.0
-    terskel: 75
+    terskel: 75.0
   - pris: 37400.0
-    terskel: 100
+    terskel: 100.0
   - pris: 42200.0
-    terskel: 150
+    terskel: 150.0
   - pris: 48200.0
-    terskel: 200
+    terskel: 200.0

@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 17
+  - 17.0
 fylker:
   - '18'
 fylker_navn:
@@ -9,22 +9,22 @@ navn: KYSTNETT AS
 org: '923152601'
 terskler:
   - pris: 6716.0
-    terskel: 0
+    terskel: 0.0
   - pris: 11480.0
-    terskel: 5
-  - pris: 16231.999
-    terskel: 10
-  - pris: 20983.999
-    terskel: 15
+    terskel: 5.0
+  - pris: 16232.0
+    terskel: 10.0
+  - pris: 20984.0
+    terskel: 15.0
   - pris: 25748.0
-    terskel: 20
+    terskel: 20.0
   - pris: 40016.0
-    terskel: 25
-  - pris: 63799.998
-    terskel: 50
-  - pris: 87571.998
-    terskel: 75
-  - pris: 123680.004
-    terskel: 100
-  - pris: 170816.004
-    terskel: 150
+    terskel: 25.0
+  - pris: 63800.0
+    terskel: 50.0
+  - pris: 87572.0
+    terskel: 75.0
+  - pris: 123680.0
+    terskel: 100.0
+  - pris: 170816.0
+    terskel: 150.0

@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 12
-  - 20
+  - 12.0
+  - 20.0
 fylker:
   - '46'
 fylker_navn:
@@ -10,22 +10,22 @@ navn: KVAM ENERGI NETT AS
 org: '923789324'
 terskler:
   - pris: 3440.0
-    terskel: 0
+    terskel: 0.0
   - pris: 4400.0
-    terskel: 2
+    terskel: 2.0
   - pris: 6320.0
-    terskel: 5
+    terskel: 5.0
   - pris: 9200.0
-    terskel: 10
+    terskel: 10.0
   - pris: 10880.0
-    terskel: 15
-  - pris: 12799.999
-    terskel: 20
+    terskel: 15.0
+  - pris: 12800.0
+    terskel: 20.0
   - pris: 24800.0
-    terskel: 25
+    terskel: 25.0
   - pris: 36800.0
-    terskel: 50
+    terskel: 50.0
   - pris: 48800.0
-    terskel: 75
-  - pris: 72799.998
-    terskel: 100
+    terskel: 75.0
+  - pris: 72800.0
+    terskel: 100.0

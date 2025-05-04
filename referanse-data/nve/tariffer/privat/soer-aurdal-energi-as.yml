@@ -8,15 +8,15 @@ fylker_navn:
 navn: "SØR AURDAL ENERGI AS"
 org: '997712099'
 terskler:
-  - pris: 5400
-    terskel: 0
-  - pris: 6240
-    terskel: 5
-  - pris: 7440
-    terskel: 8
-  - pris: 8640
-    terskel: 15
-  - pris: 9720
-    terskel: 30
-  - pris: 13200
-    terskel: 50
+  - pris: 5400.0
+    terskel: 0.0
+  - pris: 6240.0
+    terskel: 5.0
+  - pris: 7440.0
+    terskel: 8.0
+  - pris: 8640.0
+    terskel: 15.0
+  - pris: 9720.0
+    terskel: 30.0
+  - pris: 13200.0
+    terskel: 50.0

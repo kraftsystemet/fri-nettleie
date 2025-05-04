@@ -10,20 +10,20 @@ navn: R-NETT AS
 org: '925067911'
 terskler:
   - pris: 3196.8
-    terskel: 0
+    terskel: 0.0
   - pris: 3196.8
-    terskel: 5
+    terskel: 5.0
   - pris: 3196.8
-    terskel: 10
+    terskel: 10.0
   - pris: 13420.8
-    terskel: 15
+    terskel: 15.0
   - pris: 19814.4
-    terskel: 20
+    terskel: 20.0
   - pris: 29404.8
-    terskel: 25
+    terskel: 25.0
   - pris: 45379.2
-    terskel: 50
+    terskel: 50.0
   - pris: 64550.4
-    terskel: 75
+    terskel: 75.0
   - pris: 90124.8
-    terskel: 100
+    terskel: 100.0

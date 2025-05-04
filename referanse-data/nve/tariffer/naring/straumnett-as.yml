@@ -10,22 +10,22 @@ navn: STRAUMNETT AS
 org: '922694435'
 terskler:
   - pris: 2435.4
-    terskel: 0
+    terskel: 0.0
   - pris: 2922.48
-    terskel: 2
+    terskel: 2.0
   - pris: 3165.96
-    terskel: 5
+    terskel: 5.0
   - pris: 3409.56
-    terskel: 10
+    terskel: 10.0
   - pris: 3653.04
-    terskel: 15
+    terskel: 15.0
   - pris: 4261.92
-    terskel: 20
+    terskel: 20.0
   - pris: 4627.2
-    terskel: 25
+    terskel: 25.0
   - pris: 5114.28
-    terskel: 50
+    terskel: 50.0
   - pris: 5601.44
-    terskel: 75
+    terskel: 75.0
   - pris: 6088.44
-    terskel: 100
+    terskel: 100.0

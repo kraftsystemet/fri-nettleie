@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 9
+  - 9.0
 fylker:
   - '40'
 fylker_navn:
@@ -9,6 +9,6 @@ navn: STANNUM AS
 org: '924940379'
 terskler:
   - pris: 6800.0
-    terskel: 0
+    terskel: 0.0
   - pris: 6800.0
-    terskel: 100
+    terskel: 100.0

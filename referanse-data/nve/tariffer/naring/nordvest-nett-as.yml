@@ -10,22 +10,22 @@ navn: NORDVEST NETT AS
 org: '980824586'
 terskler:
   - pris: 2240.0
-    terskel: 0
+    terskel: 0.0
   - pris: 4342.4
-    terskel: 2
+    terskel: 2.0
   - pris: 5168.0
-    terskel: 5
+    terskel: 5.0
   - pris: 7433.6
-    terskel: 10
+    terskel: 10.0
   - pris: 8672.0
-    terskel: 15
+    terskel: 15.0
   - pris: 9977.6
-    terskel: 20
+    terskel: 20.0
   - pris: 18406.4
-    terskel: 25
+    terskel: 25.0
   - pris: 26854.4
-    terskel: 50
+    terskel: 50.0
   - pris: 35292.8
-    terskel: 75
-  - pris: 68643.199
-    terskel: 100
+    terskel: 75.0
+  - pris: 68643.2
+    terskel: 100.0

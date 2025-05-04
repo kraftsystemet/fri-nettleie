@@ -11,78 +11,78 @@ navn: SYGNIR AS
 org: '924619260'
 terskler:
   - pris: 2422.0
-    terskel: 0
+    terskel: 0.0
   - pris: 2906.0
-    terskel: 1
+    terskel: 1.0
   - pris: 3391.0
-    terskel: 2
+    terskel: 2.0
   - pris: 3875.0
-    terskel: 3
+    terskel: 3.0
   - pris: 4360.0
-    terskel: 4
+    terskel: 4.0
   - pris: 5086.0
-    terskel: 5
+    terskel: 5.0
   - pris: 5813.0
-    terskel: 6
-  - pris: 6540
-    terskel: 7
+    terskel: 6.0
+  - pris: 6540.0
+    terskel: 7.0
   - pris: 7266.0
-    terskel: 8
+    terskel: 8.0
   - pris: 7993.0
-    terskel: 9
+    terskel: 9.0
   - pris: 9446.0
-    terskel: 10
+    terskel: 10.0
   - pris: 10899.0
-    terskel: 12
-  - pris: 12352.999
-    terskel: 14
+    terskel: 12.0
+  - pris: 12353.0
+    terskel: 14.0
   - pris: 13806.0
-    terskel: 16
-  - pris: 15259.001
-    terskel: 18
+    terskel: 16.0
+  - pris: 15259.0
+    terskel: 18.0
   - pris: 27369.0
-    terskel: 20
-  - pris: 39480
-    terskel: 40
-  - pris: 51589.998
-    terskel: 60
-  - pris: 63700.998
-    terskel: 80
-  - pris: 112142.004
-    terskel: 100
-  - pris: 160583.004
-    terskel: 200
+    terskel: 20.0
+  - pris: 39480.0
+    terskel: 40.0
+  - pris: 51590.0
+    terskel: 60.0
+  - pris: 63701.0
+    terskel: 80.0
+  - pris: 112142.0
+    terskel: 100.0
+  - pris: 160583.0
+    terskel: 200.0
   - pris: 209025.0
-    terskel: 300
+    terskel: 300.0
   - pris: 257466.0
-    terskel: 400
-  - pris: 305908.008
-    terskel: 500
-  - pris: 354349.008
-    terskel: 600
-  - pris: 402791.016
-    terskel: 700
-  - pris: 451232.016
-    terskel: 800
+    terskel: 400.0
+  - pris: 305908.0
+    terskel: 500.0
+  - pris: 354349.0
+    terskel: 600.0
+  - pris: 402791.0
+    terskel: 700.0
+  - pris: 451232.0
+    terskel: 800.0
   - pris: 499674.0
-    terskel: 900
+    terskel: 900.0
   - pris: 548115.0
-    terskel: 1000
-  - pris: 596556.984
-    terskel: 1100
-  - pris: 644997.984
-    terskel: 1200
-  - pris: 693440.016
-    terskel: 1300
-  - pris: 741881.016
-    terskel: 1400
+    terskel: 1000.0
+  - pris: 596557.0
+    terskel: 1100.0
+  - pris: 644998.0
+    terskel: 1200.0
+  - pris: 693440.0
+    terskel: 1300.0
+  - pris: 741881.0
+    terskel: 1400.0
   - pris: 790323.0
-    terskel: 1500
-  - pris: 838764
-    terskel: 1600
-  - pris: 887206.032
-    terskel: 1700
-  - pris: 935647.032
-    terskel: 1800
-  - pris: 984088.032
-    terskel: 1900
+    terskel: 1500.0
+  - pris: 838764.0
+    terskel: 1600.0
+  - pris: 887206.0
+    terskel: 1700.0
+  - pris: 935647.0
+    terskel: 1800.0
+  - pris: 984088.0
+    terskel: 1900.0

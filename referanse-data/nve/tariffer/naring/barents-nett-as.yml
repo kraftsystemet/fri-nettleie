@@ -8,15 +8,15 @@ fylker_navn:
 navn: BARENTS NETT AS
 org: '971058854'
 terskler:
-  - pris: 7224
-    terskel: 0
-  - pris: 7944
-    terskel: 2
-  - pris: 8664
-    terskel: 5
-  - pris: 9384
-    terskel: 10
-  - pris: 10836
-    terskel: 15
-  - pris: 13008
-    terskel: 20
+  - pris: 7224.0
+    terskel: 0.0
+  - pris: 7944.0
+    terskel: 2.0
+  - pris: 8664.0
+    terskel: 5.0
+  - pris: 9384.0
+    terskel: 10.0
+  - pris: 10836.0
+    terskel: 15.0
+  - pris: 13008.0
+    terskel: 20.0

@@ -8,21 +8,21 @@ fylker_navn:
 navn: EVERKET AS
 org: '966731508'
 terskler:
-  - pris: 3264
-    terskel: 0
-  - pris: 4128
-    terskel: 2
-  - pris: 4992
-    terskel: 5
-  - pris: 6048
-    terskel: 10
-  - pris: 7488
-    terskel: 15
-  - pris: 9600
-    terskel: 20
-  - pris: 12960
-    terskel: 25
-  - pris: 17760
-    terskel: 50
-  - pris: 24000
-    terskel: 75
+  - pris: 3264.0
+    terskel: 0.0
+  - pris: 4128.0
+    terskel: 2.0
+  - pris: 4992.0
+    terskel: 5.0
+  - pris: 6048.0
+    terskel: 10.0
+  - pris: 7488.0
+    terskel: 15.0
+  - pris: 9600.0
+    terskel: 20.0
+  - pris: 12960.0
+    terskel: 25.0
+  - pris: 17760.0
+    terskel: 50.0
+  - pris: 24000.0
+    terskel: 75.0

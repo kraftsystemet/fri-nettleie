@@ -10,22 +10,22 @@ navn: STRAM AS
 org: '914385261'
 terskler:
   - pris: 1322.04
-    terskel: 0
+    terskel: 0.0
   - pris: 3965.04
-    terskel: 2
+    terskel: 2.0
   - pris: 5286.96
-    terskel: 5
+    terskel: 5.0
   - pris: 6608.04
-    terskel: 10
+    terskel: 10.0
   - pris: 7929.96
-    terskel: 15
+    terskel: 15.0
   - pris: 9251.04
-    terskel: 20
+    terskel: 20.0
   - pris: 23789.04
-    terskel: 25
+    terskel: 25.0
   - pris: 38327.04
-    terskel: 50
+    terskel: 50.0
   - pris: 52865.04
-    terskel: 75
+    terskel: 75.0
   - pris: 81941.04
-    terskel: 100
+    terskel: 100.0
