@@ -27,7 +27,7 @@ class Konsesjonar:
 
 
 # https://biapi.nve.no/nettleietariffer/swagger/index.html
-TARIFFER_URL = "https://biapi.nve.no/nettleietariffer/api/"
+TARIFFER_URL = "https://nettleietariffer.dataplattform.nve.no/v1/"
 
 
 def get_mnd_data(dato):

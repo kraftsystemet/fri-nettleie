@@ -71,7 +71,12 @@ if __name__ == "__main__":
         nve.TariffGroup.Household if type == "private" else nve.TariffGroup.Industry
     )
 
-    consessionaires = nve.get_konsesjonarer(weekday_date)
+    # FIXME: We observe that the api is missing data for some dates mid-month.
+    # See issue #107.
+    # Using the first-in-month is kind of a workaround since we don't get consessionaires
+    # for the same date that we get data.
+    current_year_month = datetime.now().strftime("%Y-%m")
+    consessionaires = nve.get_konsesjonarer(current_year_month + "-01")
 
     for org, c in consessionaires.items():
         print(f"{org}: {c}")
