@@ -67,6 +67,38 @@ tariffer:
           pris: 23
           dager: [ukedag]
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-05-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3000
+        - terskel: 5
+          pris: 4680
+        - terskel: 10
+          pris: 6360
+        - terskel: 15
+          pris: 8040
+        - terskel: 20
+          pris: 9720
+        - terskel: 25
+          pris: 19800
+        - terskel: 50
+          pris: 25200
+        - terskel: 75
+          pris: 33600
+        - terskel: 100
+          pris: 64680
+    energiledd:
+      grunnpris: 1
+      unntak:
+        - navn: Ukedag
+          timer: 6-21
+          pris: 13
+          dager: [ukedag]
+    gyldig_fra: '2025-05-01'
 kilder:
-  - 'https://ke-nett.no/getfile.php/132265-1730883225/Dokumenter/Nettleige/Nettleigebrosjyre2024%20oktober.pdf'
+  - 'https://ke-nett.no/getfile.php/132285-1744710972/Dokumenter/Nettleige/Nettleigebrosjyre%202025_01052025.pdf'
   - 'https://ke-nett.no/Nettleiepriser/'
