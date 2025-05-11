@@ -85,11 +85,11 @@ tariffer:
         - terskel: 25
           pris: 13980
     energiledd:
-      grunnpris: 27.93
+      grunnpris: 10
       unntak:
         - navn: Brukstidstillegg
           timer: 6-21
-          pris: 37.93
+          pris: 20
           dager: [fredag]
           måneder: [januar, februar, mars, april, oktober, november, desember]
     gyldig_fra: '2025-04-01'
