@@ -55,3 +55,28 @@ tariffer:
     energiledd:
       grunnpris: 28
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-03-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3408
+        - terskel: 5
+          pris: 4344
+        - terskel: 10
+          pris: 8124
+        - terskel: 15
+          pris: 10932
+        - terskel: 20
+          pris: 13464
+        - terskel: 25
+          pris: 23280
+        - terskel: 50
+          pris: 36624
+        - terskel: 75
+          pris: 51060
+    energiledd:
+      grunnpris: 25
+    gyldig_fra: '2025-03-01'
