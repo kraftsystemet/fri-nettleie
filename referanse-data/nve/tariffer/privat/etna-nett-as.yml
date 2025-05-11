@@ -11,13 +11,13 @@ org: '882783022'
 terskler:
   - pris: 2640.0
     terskel: 0.0
-  - pris: 2640.0
+  - pris: 3960.0
     terskel: 2.0
-  - pris: 2640.0
+  - pris: 5160.0
     terskel: 5.0
-  - pris: 2640.0
+  - pris: 6360.0
     terskel: 10.0
-  - pris: 2640.0
+  - pris: 10200.0
     terskel: 15.0
-  - pris: 2640.0
+  - pris: 12000.0
     terskel: 20.0

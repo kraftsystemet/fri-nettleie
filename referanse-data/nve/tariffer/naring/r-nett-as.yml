@@ -11,19 +11,19 @@ org: '925067911'
 terskler:
   - pris: 3996.8
     terskel: 0.0
-  - pris: 3996.8
+  - pris: 5590.4
     terskel: 5.0
-  - pris: 3996.8
+  - pris: 7827.2
     terskel: 10.0
-  - pris: 3996.8
+  - pris: 14220.8
     terskel: 15.0
-  - pris: 3996.8
+  - pris: 20614.4
     terskel: 20.0
-  - pris: 3996.8
+  - pris: 30204.8
     terskel: 25.0
-  - pris: 3996.8
+  - pris: 46179.2
     terskel: 50.0
-  - pris: 3996.8
+  - pris: 65350.4
     terskel: 75.0
-  - pris: 3996.8
+  - pris: 90924.8
     terskel: 100.0
