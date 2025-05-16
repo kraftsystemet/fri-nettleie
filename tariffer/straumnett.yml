@@ -13,28 +13,61 @@ tariffer:
       terskel_inkludert: true
       terskler:
         - terskel: 0
-          pris: 2435.328
+          pris: 2435.33
         - terskel: 2
-          pris: 2922.432
+          pris: 2922.43
         - terskel: 5
-          pris: 3165.984
+          pris: 3165.98
         - terskel: 10
-          pris: 3409.536
+          pris: 3409.54
         - terskel: 15
-          pris: 3653.088
+          pris: 3653.09
         - terskel: 20
           pris: 4261.92
         - terskel: 25
           pris: 4627.2
         - terskel: 50
-          pris: 5114.304
+          pris: 5114.3
         - terskel: 75
-          pris: 5601.312
+          pris: 5601.31
         - terskel: 100
-          pris: 6088.416
+          pris: 6088.42
     energiledd:
       grunnpris: 11.07
       unntak:
         - navn: Dag
           timer: 6-21
           pris: 16.07
+    gyldig_til: '2025-05-09'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3494.21
+        - terskel: 2
+          pris: 4192.99
+        - terskel: 5
+          pris: 4542.43
+        - terskel: 10
+          pris: 4891.87
+        - terskel: 15
+          pris: 5241.31
+        - terskel: 20
+          pris: 6114.53
+        - terskel: 25
+          pris: 6638.98
+        - terskel: 50
+          pris: 7337.76
+        - terskel: 75
+          pris: 8036.64
+        - terskel: 100
+          pris: 8735.42
+    energiledd:
+      grunnpris: 15.97
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 20.97
+    gyldig_fra: '2025-05-09'
