@@ -62,7 +62,7 @@
       </article>
       <h2>Tariff</h2>
       Vang Energiverk AS sin nåværende tariff for private husholdninger er
-      gyldig fra 2025-01-01.
+      gyldig fra 2025-04-01 til 2025-12-31.
       <p></p>
 
       <p>Tariffen har vi samlet inn fra 2 kilder:</p>
@@ -85,9 +85,9 @@
 
         <dl>
           <dt>Gyldig fra</dt>
-          <dd>2025-01-01</dd>
+          <dd>2025-04-01</dd>
           <dt>Gyldig til</dt>
-          <dd>-</dd>
+          <dd>2025-12-31</dd>
         </dl>
         <!-- TODO
         <p>
@@ -211,21 +211,21 @@
             standard (sommer) avgift.
           </p>
           <dl>
-            13
+            10
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            14
+            11
             <span
               data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            23.79
+            20.79
             <span
               data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            29.74
+            25.99
             <span data-tooltip="Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
             ><br />
@@ -246,26 +246,26 @@
             <dd>januar, februar, mars, april, oktober, november, desember</dd>
 
             <dt>Timer</dt>
-            <dd>16-21</dd>
+            <dd>6-21</dd>
           </dl>
           <p>Du betaler</p>
 
           <dl>
-            23
+            20
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            24
+            21
             <span
               data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            33.79
+            30.79
             <span
               data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            42.24
+            38.49
             <span
               data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
@@ -283,7 +283,7 @@
   <!-- TODO norway bundle -->
   <script>
     const energiLedd = {
-      grunnpris: 13,
+      grunnpris: 10,
       unntak: [
         {
           dager: ["fredag"],
@@ -297,8 +297,8 @@
             "desember",
           ],
           navn: "Brukstidstillegg",
-          pris: 23,
-          timer: "16-21",
+          pris: 20,
+          timer: "6-21",
         },
       ],
     };
