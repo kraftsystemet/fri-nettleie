@@ -5,8 +5,6 @@ gln:
 sist_oppdatert: '2024-12-02'
 kilder:
   - 'https://www.tendranett.no/prisar-og-vilkar-for-nettleige'
-  - 'https://www.tendranett.no/filer/Nettleige.pdf'
-  - 'https://www.tendranett.no/filer/Dokumenter/Tariffhefte-2025.pdf'
 tariffer:
   - kundegruppe: privat
     gyldig_fra: '2024-01-01'
@@ -73,3 +71,36 @@ tariffer:
         - navn: Dag
           timer: 6-21
           pris: 19
+    gyldig_til: '2025-06-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2008
+        - terskel: 2
+          pris: 2610.4
+        - terskel: 5
+          pris: 3212.8
+        - terskel: 10
+          pris: 4418.4
+        - terskel: 15
+          pris: 5623.2
+        - terskel: 20
+          pris: 6828
+        - terskel: 25
+          pris: 8434.4
+        - terskel: 50
+          pris: 10040.8
+        - terskel: 75
+          pris: 11648
+        - terskel: 100
+          pris: 12049.6
+    energiledd:
+      grunnpris: 18.47
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 23.51
+    gyldig_fra: '2025-06-01'
