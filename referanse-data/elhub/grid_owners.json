@@ -630,6 +630,11 @@
         "organisationNumber": "877051412"
     },
     {
+        "gln": "7080011085770",
+        "name": "Mostraum Nett AS",
+        "organisationNumber": "933584801"
+    },
+    {
         "gln": "2000000000000",
         "name": "Mykleby Maskin AS",
         "organisationNumber": "950311916"
@@ -648,6 +653,11 @@
         "gln": "7080005050807",
         "name": "Nesset Kraft AS Nett",
         "organisationNumber": "981375521"
+    },
+    {
+        "gln": "7080010003218",
+        "name": "Netera AS",
+        "organisationNumber": "924330678"
     },
     {
         "gln": "7080004064553",
@@ -958,11 +968,6 @@
         "gln": "7080005051040",
         "name": "Stryn Energi AS, Nett",
         "organisationNumber": "976626192"
-    },
-    {
-        "gln": "7080010003218",
-        "name": "SuNett AS",
-        "organisationNumber": "924330678"
     },
     {
         "gln": "7080005051804",

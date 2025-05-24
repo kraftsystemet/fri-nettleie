@@ -85,29 +85,29 @@
         "dsoCodingScheme": "GS1",
         "dsoName": "Arva AS",
         "mba": "NO4",
-        "mgaCode": "50YXBU3F1E25LBGK",
-        "mgaName": "TROMS1",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080005051361",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Arva AS (tidligere Nordlandsnett)",
-        "mba": "NO4",
         "mgaCode": "50Y0PZ1-8GH-06KI",
         "mgaName": "NLANDSN1",
         "mgaType": "DISTRIBUTION"
     },
     {
         "country": "NO",
-        "dsoCode": "7080005051361",
+        "dsoCode": "7080005051859",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Arva AS (tidligere Nordlandsnett)",
+        "dsoName": "Arva AS",
         "mba": "NO4",
         "mgaCode": "50Y2UI3GR1N0QUER",
         "mgaName": "NLANDSN2",
         "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005051859",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Arva AS",
+        "mba": "NO4",
+        "mgaCode": "50YXBU3F1E25LBGK",
+        "mgaName": "TROMS1",
+        "mgaType": "DISTRIBUTION"
     },
     {
         "country": "NO",
@@ -1321,6 +1321,16 @@
     },
     {
         "country": "NO",
+        "dsoCode": "7080005050975",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Lede AS",
+        "mba": "NO1",
+        "mgaCode": "50YAK9N0G0A5E6JB",
+        "mgaName": "SKAGN4",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
         "dsoCode": "7080003965325",
         "dsoCodingScheme": "GS1",
         "dsoName": "Linea AS",
@@ -1481,12 +1491,22 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080003816184",
+        "dsoCode": "7080011085770",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Modalen Kraftlag Nett",
+        "dsoName": "Mostraum Nett AS",
         "mba": "NO5",
         "mgaCode": "50YK1DZ108BH-069",
         "mgaName": "MODALEN",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080010003218",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Netera AS",
+        "mba": "NO3",
+        "mgaCode": "50YO-DD05AYDXGP1",
+        "mgaName": "SUNNDAL1",
         "mgaType": "DISTRIBUTION"
     },
     {
@@ -1678,6 +1698,16 @@
         "mgaCode": "50YUC8RSBTY2WEMN",
         "mgaName": "OTRA2",
         "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056496",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Otra Kraft DA Nett",
+        "mba": "NO2",
+        "mgaCode": "50YT3P2SWG530EB5",
+        "mgaName": "OTRA3",
+        "mgaType": "PRODUCTION"
     },
     {
         "country": "NO",
@@ -2747,16 +2777,6 @@
         "mba": "NO5",
         "mgaCode": "50YFTXZSBHB4RT8M",
         "mgaName": "ÅRDAL1",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080010003218",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "SuNett AS",
-        "mba": "NO3",
-        "mgaCode": "50YO-DD05AYDXGP1",
-        "mgaName": "SUNNDAL1",
         "mgaType": "DISTRIBUTION"
     },
     {

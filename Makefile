@@ -44,3 +44,7 @@ kilder:
 bygg:
 	./scripts/template.py
 	npx prettier docs/tariffer/*.html --write
+
+refdata:
+	./scripts/get_grid_owner_data.py
+	./scripts/get_mga_data.py
