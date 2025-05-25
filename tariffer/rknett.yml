@@ -38,3 +38,36 @@ tariffer:
     energiledd:
       grunnpris: 24.65
     gyldig_fra: '2024-05-01'
+    gyldig_til: '2025-06-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2556
+        - terskel: 2
+          pris: 3324
+        - terskel: 5
+          pris: 4608
+        - terskel: 10
+          pris: 5892
+        - terskel: 15
+          pris: 7164
+        - terskel: 20
+          pris: 8448
+        - terskel: 25
+          pris: 14844
+        - terskel: 50
+          pris: 21252
+        - terskel: 75
+          pris: 27648
+        - terskel: 100
+          pris: 40452
+        - terskel: 150
+          pris: 53244
+        - terskel: 200
+          pris: 76800
+    energiledd:
+      grunnpris: 22.65
+    gyldig_fra: '2025-06-01'
