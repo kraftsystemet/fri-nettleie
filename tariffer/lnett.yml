@@ -72,6 +72,7 @@ tariffer:
           pris: 30.97
           dager: [virkedag]
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-06-01'
   - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
