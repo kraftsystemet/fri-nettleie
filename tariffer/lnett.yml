@@ -5,6 +5,7 @@ gln:
 sist_oppdatert: '2024-11-29'
 kilder:
   - 'https://www.l-nett.no/nettleie/priser-og-vilkar-privat/'
+  - 'https://www.l-nett.no/getfile.php/131545710-1747299144/Dokumenter/Prishefter%20og%20vilk%C3%A5r/Prishefte2025%2C%201.%20juni-31.%20des.pdf'
 tariffer:
   - kundegruppe: privat
     fastledd:
@@ -38,7 +39,6 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2024-07-01'
     gyldig_til: '2025-01-01'
-
   - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
@@ -72,3 +72,37 @@ tariffer:
           pris: 30.97
           dager: [virkedag]
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-06-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1632
+        - terskel: 2
+          pris: 2784
+        - terskel: 5
+          pris: 4464
+        - terskel: 10
+          pris: 6864
+        - terskel: 15
+          pris: 9264
+        - terskel: 20
+          pris: 11664
+        - terskel: 25
+          pris: 21264
+        - terskel: 50
+          pris: 30864
+        - terskel: 75
+          pris: 40464
+        - terskel: 100
+          pris: 67200
+    energiledd:
+      grunnpris: 17.6
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 29.6
+          dager: [virkedag]
+    gyldig_fra: '2025-06-01'
