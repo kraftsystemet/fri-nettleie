@@ -57,7 +57,7 @@ og formater. Selv om det finnes
 [standarder for deling av nettleie](https://github.com/3lbits/API-nettleie-for-styring)
 finnes det ikke noen åpen, gratis oversikt over nettleie på tvers av alle
 nettselskaper i Norge som er oppdatert, uten feil og som inneholder både tariffmodeller og
-prissignal.
+prissignal. Før nå!
 
 Dette prosjektet bruker kraften av en nettdugnad for å samle og systematisere
 nettleie-priser for hele landet. **De innsamlede dataene er gratis og åpent
@@ -292,10 +292,10 @@ Alle bidrag teller!
 
 ### Gi beskjed om feil eller kom med ideer
 
-Dersom du ser feil i dataeneeller annet - åpne et issue her på GitHub
-eller bruk vårt [kontaktskjema på tally.so](https://tally.so/r/wol2v1)! Det
-samme gjelder om du har gode ideer om hvordan vi kan samle inn og/eller
-strukturere data.
+Dersom du ser feil i dataene eller annet - åpne et issue her på GitHub eller
+bruk vårt [kontaktskjema på tally.so](https://tally.so/r/wol2v1)! Det samme
+gjelder om du har gode ideer om hvordan vi kan samle inn og/eller strukturere
+data.
 
 ### Gi oss en stjerne
 
@@ -321,6 +321,12 @@ Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 
 * [Slipper](https://slipper.no/) har brukt dataene i sin app siden desember 2024 📈
 * [Tadata](https://tadata.no/products/56efa72d-88a9-4688-aa66-df0cd1dd40bb) tilbyr et API for nettleiepriser basert på data fra ***fri-nettleie***
+* EnergiWatch har brukt dataene i sin journalistikk bl.a. i [mai 2025](https://energiwatch.no/nyheter/nett_teknologi/article18222699.ece) 🗞️
+
+## fri-nettleie i media
+
+* Presentasjon av prosjektet på TechDay 2025 - [Fri Nettleie - en krevende travers gjennom tariffveggen](https://www.statnett.no/techday?videoId=6372414675112)
+* Omtale i energiteknikk April 2025 - [Ryddet i jungelen av nettleie på dugnad](https://energiteknikk.net/2025/04/ryddet-i-jungelen-av-nettleie-pa-dugnad/)
 
 ## Netteiere
 
