@@ -30,6 +30,7 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Spons Changedetection](#spons-changedetection)
   * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
 - [Dataene i bruk](#dataene-i-bruk)
+- [fri-nettleie i media](#fri-nettleie-i-media)
 - [Netteiere](#netteiere)
 - [Status](#status)
 - [Forvaltere](#forvaltere)
