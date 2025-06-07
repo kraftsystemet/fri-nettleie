@@ -4,22 +4,22 @@ energiledd:
   - 25.96
 fylker:
   - '03'
-  - '33'
   - '11'
+  - '32'
+  - '33'
   - '34'
   - '40'
-  - '32'
-  - '46'
   - '42'
+  - '46'
 fylker_navn:
-  - Oslo
-  - Buskerud
-  - Rogaland
-  - Innlandet
-  - Telemark
-  - Akershus
-  - Vestland
   - Agder
+  - Akershus
+  - Buskerud
+  - Innlandet
+  - Oslo
+  - Rogaland
+  - Telemark
+  - Vestland
 navn: GLITRE NETT AS
 org: '982974011'
 terskler:

@@ -6,8 +6,8 @@ fylker:
   - '11'
   - '42'
 fylker_navn:
-  - Rogaland
   - Agder
+  - Rogaland
 navn: ENIDA AS
 org: '918312730'
 terskler:

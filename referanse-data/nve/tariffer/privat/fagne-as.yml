@@ -3,11 +3,11 @@ energiledd:
   - 21.0
   - 29.0
 fylker:
-  - '46'
   - '11'
+  - '46'
 fylker_navn:
-  - Vestland
   - Rogaland
+  - Vestland
 navn: FAGNE AS
 org: '915635857'
 terskler:

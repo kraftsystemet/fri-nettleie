@@ -5,19 +5,19 @@ energiledd:
   - 17.0
   - 18.5
 fylker:
-  - '33'
   - '32'
+  - '33'
 fylker_navn:
-  - Buskerud
   - Akershus
+  - Buskerud
 navn: "FØIE AS"
 org: '971589752'
 terskler:
-  - pris: 2005.2
+  - pris: 1238.4
     terskel: 0.0
-  - pris: 2448.0
+  - pris: 1536.0
     terskel: 2.0
-  - pris: 4098.0
+  - pris: 3792.0
     terskel: 5.0
   - pris: 6297.6
     terskel: 10.0

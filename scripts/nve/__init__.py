@@ -123,6 +123,10 @@ def get_konsesjonarer(dato):
             konsesjonarer[org].fylker.append(k["fylkeNr"])
             konsesjonarer[org].fylker_navn.append(k["fylke"].strip())
 
+        # Make sure results are sorted
+        konsesjonarer[org].fylker = sorted(konsesjonarer[org].fylker)
+        konsesjonarer[org].fylker_navn = sorted(konsesjonarer[org].fylker_navn)
+
     return konsesjonarer
 
 

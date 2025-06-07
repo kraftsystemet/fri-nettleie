@@ -2,11 +2,11 @@
 energiledd:
   - 22.2
 fylker:
-  - '55'
   - '18'
+  - '55'
 fylker_navn:
-  - Troms
   - Nordland
+  - Troms
 navn: "NORANETT ANDØY AS"
 org: '921680554'
 terskler:
