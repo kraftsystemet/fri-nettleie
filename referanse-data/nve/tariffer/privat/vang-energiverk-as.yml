@@ -2,11 +2,11 @@
 energiledd:
   - 14.0
 fylker:
-  - '46'
   - '34'
+  - '46'
 fylker_navn:
-  - Vestland
   - Innlandet
+  - Vestland
 navn: VANG ENERGIVERK AS
 org: '824368082'
 terskler:

@@ -2,13 +2,13 @@
 energiledd:
   - 19.0
 fylker:
+  - '42'
   - '40'
   - '56'
-  - '42'
 fylker_navn:
+  - Agder
   - Telemark
   - Finnmark
-  - Agder
 navn: TINFOS AS
 org: '916763476'
 terskler:

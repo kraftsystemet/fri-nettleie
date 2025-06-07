@@ -2,11 +2,11 @@
 energiledd:
   - 13.1
 fylker:
-  - '55'
   - '56'
+  - '55'
 fylker_navn:
-  - Troms
   - Finnmark
+  - Troms
 navn: ALUT AS
 org: '925336637'
 terskler:

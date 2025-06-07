@@ -3,17 +3,17 @@ energiledd:
   - 13.99
   - 21.99
 fylker:
-  - '03'
-  - '32'
   - '31'
-  - '33'
+  - '03'
   - '34'
+  - '32'
+  - '33'
 fylker_navn:
-  - Oslo
-  - Akershus
   - "Østfold"
-  - Buskerud
+  - Oslo
   - Innlandet
+  - Akershus
+  - Buskerud
 navn: ELVIA AS
 org: '980489698'
 terskler:

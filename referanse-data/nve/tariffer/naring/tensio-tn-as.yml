@@ -3,11 +3,11 @@ energiledd:
   - 14.7
   - 29.4
 fylker:
-  - '50'
   - '18'
+  - '50'
 fylker_navn:
-  - "Trøndelag"
   - Nordland
+  - "Trøndelag"
 navn: TENSIO TN AS
 org: '988807648'
 terskler:

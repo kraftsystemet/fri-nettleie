@@ -3,12 +3,12 @@ energiledd:
   - 11.55
   - 17.62
 fylker:
-  - '31'
   - '32'
+  - '31'
   - '46'
 fylker_navn:
-  - "Østfold"
   - Akershus
+  - "Østfold"
   - Vestland
 navn: NORGESNETT AS
 org: '980234088'

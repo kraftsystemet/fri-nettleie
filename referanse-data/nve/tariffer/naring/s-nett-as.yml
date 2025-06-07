@@ -3,11 +3,11 @@ energiledd:
   - 21.41
   - 26.4
 fylker:
-  - '50'
   - '15'
+  - '50'
 fylker_navn:
-  - "Trøndelag"
   - "Møre og Romsdal"
+  - "Trøndelag"
 navn: S-NETT AS
 org: '923819177'
 terskler:

@@ -3,12 +3,12 @@ energiledd:
   - 24.38
 fylker:
   - '39'
-  - '33'
   - '40'
+  - '33'
 fylker_navn:
   - Vestfold
-  - Buskerud
   - Telemark
+  - Buskerud
 navn: LEDE AS
 org: '979422679'
 terskler:

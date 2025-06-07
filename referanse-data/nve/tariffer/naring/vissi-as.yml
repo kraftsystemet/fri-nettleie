@@ -3,11 +3,11 @@ energiledd:
   - 13.0
   - 29.0
 fylker:
-  - '55'
   - '56'
+  - '55'
 fylker_navn:
-  - Troms
   - Finnmark
+  - Troms
 navn: VISSI AS
 org: '921683057'
 terskler:
