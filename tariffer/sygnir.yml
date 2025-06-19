@@ -2,13 +2,55 @@
 gln:
   - '7080010009654'
 kilder:
-  - 'https://static1.squarespace.com/static/61dfe7b31999591972254dea/t/657af1bc8b3b35794715bef7/1702556094118/Nettleigeprisar+pr+01.01.24.pdf'
   - 'https://www.sygnir.no/nettleige'
+  - 'https://www.sygnir.no/s/Nettleigeprisar-fra-1-juli-2025-2.pdf'
 netteier: 'Sygnir AS'
-sist_oppdatert: '2024-11-26'
+sist_oppdatert: '2025-06-19'
 tariffer:
   - energiledd:
-      grunnpris: 18.784
+      grunnpris: 18.78
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - pris: 2422.4
+          terskel: 0
+        - pris: 2906.4
+          terskel: 1
+        - pris: 3391.2
+          terskel: 2
+        - pris: 3875.2
+          terskel: 3
+        - pris: 4360
+          terskel: 4
+        - pris: 5086.4
+          terskel: 5
+        - pris: 5812.8
+          terskel: 6
+        - pris: 6539.2
+          terskel: 7
+        - pris: 7266.4
+          terskel: 8
+        - pris: 7992.8
+          terskel: 9
+        - pris: 9446.4
+          terskel: 10
+        - pris: 10899.2
+          terskel: 12
+        - pris: 12352.8
+          terskel: 14
+        - pris: 13805.6
+          terskel: 16
+        - pris: 15259.2
+          terskel: 18
+        - pris: 27369.6
+          terskel: 20
+        - pris: 39480
+          terskel: 40
+    gyldig_fra: '2024-01-01'
+    kundegruppe: privat
+    gyldig_til: '2025-07-01'
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -47,5 +89,6 @@ tariffer:
           terskel: 20
         - pris: 39480
           terskel: 40
-    gyldig_fra: '2024-01-01'
-    kundegruppe: privat
+    energiledd:
+      grunnpris: 23.19
+    gyldig_fra: '2025-07-01'
