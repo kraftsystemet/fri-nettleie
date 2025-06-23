@@ -16,7 +16,7 @@ tariffer:
       unntak:
         - navn: Høylast
           pris: 27.232
-          timer: 6-22
+          timer: 6-21
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
