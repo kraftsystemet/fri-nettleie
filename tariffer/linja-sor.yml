@@ -9,13 +9,13 @@ mga:
 kilder:
   - 'https://www.linja.no/nettleige'
 netteier: 'Linja AS - Sør'
-sist_oppdatert: '2024-12-27'
+sist_oppdatert: '2025-06-23'
 tariffer:
   - energiledd:
-      grunnpris: 15.384
+      grunnpris: 20.424
       unntak:
         - navn: Høylast
-          pris: 22.384
+          pris: 27.232
           timer: 6-21
     fastledd:
       metode: TRE_DØGNMAX_MND
