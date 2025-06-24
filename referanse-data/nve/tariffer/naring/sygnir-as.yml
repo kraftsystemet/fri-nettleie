@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 18.79
+  - 23.19
 fylker:
   - '34'
   - '46'
@@ -46,7 +46,7 @@ terskler:
     terskel: 40.0
   - pris: 51590.0
     terskel: 60.0
-  - pris: 63701.0
+  - pris: 63710.0
     terskel: 80.0
   - pris: 112142.0
     terskel: 100.0
