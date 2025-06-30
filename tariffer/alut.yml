@@ -17,4 +17,18 @@ tariffer:
         - pris: 4500
           terskel: 125
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-07-01'
+    kundegruppe: privat
+  - energiledd:
+      grunnpris: 9.1
+    fastledd:
+      metode: OV_TREFASE
+      terskel_inkludert: false
+      terskler:
+        - pris: 3500
+          terskel: 0
+        - pris: 4500
+          terskel: 125
+    gyldig_fra: '2025-07-01'
+    gyldig_til: '2026-01-01'
     kundegruppe: privat
