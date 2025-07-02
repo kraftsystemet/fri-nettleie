@@ -5,7 +5,7 @@ kilder:
   - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-for-privat'
   - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-ts'
 netteier: 'Tensio TS AS'
-sist_oppdatert: '2025-01-03'
+sist_oppdatert: '2025-07-02'
 tariffer:
   - energiledd:
       grunnpris: 11.304
@@ -93,4 +93,47 @@ tariffer:
           timer: 6-21
           pris: 23.202
           dager: [alle]
+    gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-07-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1248
+        - terskel: 2
+          pris: 2227.2
+        - terskel: 5
+          pris: 3792
+        - terskel: 10
+          pris: 5587.2
+        - terskel: 15
+          pris: 7392
+        - terskel: 20
+          pris: 9206.4
+        - terskel: 25
+          pris: 15801.6
+        - terskel: 50
+          pris: 24806.4
+        - terskel: 75
+          pris: 33820.8
+        - terskel: 100
+          pris: 48835.2
+        - terskel: 150
+          pris: 66844.8
+        - terskel: 200
+          pris: 96844.8
+        - terskel: 300
+          pris: 132912
+        - terskel: 400
+          pris: 168912
+        - terskel: 500
+          pris: 204950.4
+    energiledd:
+      grunnpris: 10.9
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 22
     gyldig_fra: '2025-01-01'
