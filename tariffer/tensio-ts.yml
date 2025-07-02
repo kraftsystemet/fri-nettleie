@@ -136,4 +136,4 @@ tariffer:
         - navn: Dag
           timer: 6-21
           pris: 22
-    gyldig_fra: '2025-01-01'
+    gyldig_fra: '2025-07-01'
