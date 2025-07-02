@@ -5,15 +5,15 @@ kilder:
   - 'https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/'
   - 'https://www.fjellnett.no/nettleie/nettleiepriser/'
 netteier: 'Fjellnett AS'
-sist_oppdatert: '2024-12-27'
+sist_oppdatert: '2025-07-02'
 tariffer:
   - energiledd:
-      grunnpris: 10.608
+      grunnpris: 10.61
     fastledd:
       metode: FEM_VEKTET_ÅR
       terskel_inkludert: true
       terskler:
-        - pris: 1700.004
+        - pris: 1700
           terskel: 0
         - pris: 2168.8
           terskel: 2
@@ -108,3 +108,60 @@ tariffer:
     energiledd:
       grunnpris: 12.43
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-07-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: FEM_VEKTET_ÅR
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2000
+        - terskel: 0
+          pris: 2482.4
+        - terskel: 1
+          pris: 2964
+        - terskel: 2
+          pris: 3446.4
+        - terskel: 3
+          pris: 3928
+        - terskel: 5
+          pris: 4410.4
+        - terskel: 6
+          pris: 4892
+        - terskel: 7
+          pris: 5374.4
+        - terskel: 8
+          pris: 5856
+        - terskel: 9
+          pris: 6338.4
+        - terskel: 10
+          pris: 6820
+        - terskel: 11
+          pris: 7302.4
+        - terskel: 12
+          pris: 7784
+        - terskel: 13
+          pris: 8266.4
+        - terskel: 14
+          pris: 8748
+        - terskel: 15
+          pris: 9230.4
+        - terskel: 16
+          pris: 9712
+        - terskel: 17
+          pris: 10194.4
+        - terskel: 18
+          pris: 10676
+        - terskel: 19
+          pris: 11158.4
+        - terskel: 20
+          pris: 11640
+        - terskel: 25
+          pris: 14050.4
+    energiledd:
+      grunnpris: 11.43
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 0
+    gyldig_fra: '2025-07-01'
