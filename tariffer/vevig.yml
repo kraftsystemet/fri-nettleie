@@ -120,25 +120,25 @@ tariffer:
         - terskel: 25
           pris: 9240
         - terskel: 30
-          pris: 9350.4
+          pris: 1688.00
         - terskel: 40
-          pris: 11952
+          pris: 14940.00
         - terskel: 50
-          pris: 16156.8
+          pris: 20196.00
         - terskel: 75
-          pris: 21033.6
+          pris: 26292.00
         - terskel: 100
-          pris: 25891.2
+          pris: 32364.00
         - terskel: 125
-          pris: 30777.6
+          pris: 38472.00
         - terskel: 150
-          pris: 40512
+          pris: 50640.00
         - terskel: 200
-          pris: 56073.6
+          pris: 70092.00
         - terskel: 300
-          pris: 78384
+          pris: 97980.00
         - terskel: 400
-          pris: 157344
+          pris: 196680.00
     energiledd:
       grunnpris: 15.81
       unntak:
