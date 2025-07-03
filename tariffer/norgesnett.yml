@@ -12,29 +12,62 @@ tariffer:
       terskel_inkludert: true
       terskler:
         - terskel: 0
-          pris: 984.096
+          pris: 984.1
         - terskel: 2
-          pris: 1640.256
+          pris: 1640.26
         - terskel: 5
-          pris: 2697.312
+          pris: 2697.31
         - terskel: 10
-          pris: 4798.656
+          pris: 4798.66
         - terskel: 15
           pris: 6371.52
         - terskel: 20
-          pris: 7902.528
+          pris: 7902.53
         - terskel: 25
-          pris: 12247.296
+          pris: 12247.3
         - terskel: 50
-          pris: 19172.928
+          pris: 19172.93
         - terskel: 75
-          pris: 26098.464
+          pris: 26098.46
         - terskel: 100
           pris: 42297.12
     energiledd:
-      grunnpris: 11.552
+      grunnpris: 11.55
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 17.616
+          pris: 17.62
     gyldig_fra: '2024-11-01'
+    gyldig_til: '2025-07-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1131.74
+        - terskel: 2
+          pris: 1886.3
+        - terskel: 5
+          pris: 3101.95
+        - terskel: 10
+          pris: 5516.45
+        - terskel: 15
+          pris: 7327.2
+        - terskel: 20
+          pris: 9087.84
+        - terskel: 25
+          pris: 14084.45
+        - terskel: 50
+          pris: 22048.9
+        - terskel: 75
+          pris: 30013.25
+        - terskel: 100
+          pris: 48641.66
+    energiledd:
+      grunnpris: 13.29
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 20.26
+    gyldig_fra: '2025-07-01'
