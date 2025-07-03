@@ -40,7 +40,7 @@ tariffer:
           pris: 26
           dager: [ukedag]
     gyldig_fra: '2024-07-01'
-    gyldig_til: '2025-01-01'
+    gyldig_til: '2025-07-01'
   - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
@@ -74,3 +74,80 @@ tariffer:
           pris: 28
           dager: [ukedag]
     gyldig_fra: '2025-01-01'
+    
+---
+netteier: 'Rakkestad Energi AS Nett'
+gln:
+  - '7080005054898'
+kilder:
+  - 'https://rakkestadenergi.no/priser-under-100-000-kwh-2'
+  - 'https://rakkestadenergi.no/uploads/Historiske-nettleiepriser/Privatkunder_2024-12-10-130744_obve.pdf'
+sist_oppdatert: '2024-12-16'
+tariffer:
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2520
+        - terskel: 2
+          pris: 3480
+        - terskel: 5
+          pris: 4440
+        - terskel: 10
+          pris: 5760
+        - terskel: 15
+          pris: 7080
+        - terskel: 20
+          pris: 8640
+        - terskel: 25
+          pris: 15600
+        - terskel: 50
+          pris: 24000
+        - terskel: 75
+          pris: 30000
+        - terskel: 100
+          pris: 60000
+    energiledd:
+      grunnpris: 20
+      unntak:
+        - navn: Ukedag
+          timer: 6-21
+          pris: 25
+          dager: [ukedag]
+    gyldig_fra: '2024-07-01'
+    gyldig_til: '2025-01-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2520
+        - terskel: 2
+          pris: 3480
+        - terskel: 5
+          pris: 4800
+        - terskel: 10
+          pris: 6420
+        - terskel: 15
+          pris: 8040
+        - terskel: 20
+          pris: 9660
+        - terskel: 25
+          pris: 17700
+        - terskel: 50
+          pris: 25800
+        - terskel: 75
+          pris: 34200
+        - terskel: 100
+          pris: 67860
+    energiledd:
+      grunnpris: 23
+      unntak:
+        - navn: Ukedag
+          timer: 6-21
+          pris: 28
+          dager: [ukedag]
+    gyldig_fra: '2025-07-01'
