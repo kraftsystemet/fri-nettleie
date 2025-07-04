@@ -74,3 +74,37 @@ tariffer:
           pris: 28
           dager: [ukedag]
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-07-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2520
+        - terskel: 2
+          pris: 3480
+        - terskel: 5
+          pris: 4800
+        - terskel: 10
+          pris: 6420
+        - terskel: 15
+          pris: 8040
+        - terskel: 20
+          pris: 9660
+        - terskel: 25
+          pris: 17700
+        - terskel: 50
+          pris: 25800
+        - terskel: 75
+          pris: 34200
+        - terskel: 100
+          pris: 67860
+    energiledd:
+      grunnpris: 20
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 25
+          dager: [ukedag]
+    gyldig_fra: '2025-07-01'
