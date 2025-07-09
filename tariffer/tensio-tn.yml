@@ -135,6 +135,6 @@ tariffer:
       unntak:
         - navn: Dag
           timer: 6-21
-          pris: 29.4
+          pris: 27
           dager: [alle]
     gyldig_fra: '2025-07-01'
