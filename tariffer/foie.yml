@@ -106,4 +106,4 @@ tariffer:
         - navn: Dag
           timer: 6-21
           pris: 17.5
-    gyldig_fra: '2025-08-01'
+    gyldig_fra: '2025-07-01'
