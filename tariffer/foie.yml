@@ -2,9 +2,9 @@
 netteier: 'Føie AS'
 gln:
   - '7080005048415'
-  - '7080004067882' # Hemsedal
+  - '7080004067882'
 kilder:
-  - 'https://www.foie.no/nettleie/priser-avtaler/'
+  - 'https://www.foie.no/nettleie/priser'
 sist_oppdatert: '2024-12-27'
 tariffer:
   - kundegruppe: privat
@@ -37,3 +37,34 @@ tariffer:
           timer: 7-21
           pris: 17.5
     gyldig_fra: '2024-05-01'
+    gyldig_til: '2025-07-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2400
+        - terskel: 2
+          pris: 3000
+        - terskel: 5
+          pris: 4200
+        - terskel: 10
+          pris: 6600
+        - terskel: 15
+          pris: 8400
+        - terskel: 20
+          pris: 10800
+        - terskel: 25
+          pris: 14400
+        - terskel: 50
+          pris: 24000
+        - terskel: 75
+          pris: 39000
+    energiledd:
+      grunnpris: 11
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 17.5
+    gyldig_fra: '2025-07-01'
