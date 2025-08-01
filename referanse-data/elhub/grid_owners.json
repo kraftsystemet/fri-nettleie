@@ -370,13 +370,18 @@
         "organisationNumber": "981915550"
     },
     {
+        "gln": "7080011113176",
+        "name": "Godfarfoss Kraft AS",
+        "organisationNumber": "891634102"
+    },
+    {
         "gln": "7080005052900",
         "name": "Griug AS",
         "organisationNumber": "953681781"
     },
     {
         "gln": "7080005055666",
-        "name": "Hafslund Eco Vannkraft AS Nett",
+        "name": "Hafslund Kraft AS Nett",
         "organisationNumber": "976894677"
     },
     {
@@ -840,11 +845,6 @@
         "organisationNumber": "926377841"
     },
     {
-        "gln": "7080003947932",
-        "name": "Røros E-verk Nett AS",
-        "organisationNumber": "919884452"
-    },
-    {
         "gln": "7080005055499",
         "name": "Røros Elektrisitetsverk AS",
         "organisationNumber": "915591302"
@@ -1120,9 +1120,9 @@
         "organisationNumber": "968168134"
     },
     {
-        "gln": "7080005054928",
-        "name": "Vestmar Nett AS",
-        "organisationNumber": "979399901"
+        "gln": "7080003947932",
+        "name": "Viermie AS",
+        "organisationNumber": "919884452"
     },
     {
         "gln": "7080004045743",
