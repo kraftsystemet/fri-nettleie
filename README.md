@@ -1111,8 +1111,8 @@ når vi blir oppmerksom på endringer/oppdatering 🎉🥳!
   <td>7080003947932</td>
   <td>2025-01-15</td>
   <td>
-    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/vermie.html" title="Se på tariffen for Viermie AS" target="_blank">🔍</a>
-    <a href="./tariffer/vermie.yml" title="Se dataene for Viermie AS i YAML-format" target="_blank">📄</a>
+    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/viermie.html" title="Se på tariffen for Viermie AS" target="_blank">🔍</a>
+    <a href="./tariffer/viermie.yml" title="Se dataene for Viermie AS i YAML-format" target="_blank">📄</a>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJWaWVybWllIEFTIiwgImdsbiI6IFsiNzA4MDAwMzk0NzkzMiJdLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNS0wMS0xNSIsICJraWxkZXIiOiBbImh0dHBzOi8vdmllcm1pZS5uby9uZXR0bGVpZXByaXNlci9wcmlzZXItZm9yLWt1bmRlci1tZWQtZm9yYnJ1ay11bmRlci0xMDAtMDAwLWt3aC1hci8iXSwgInRhcmlmZmVyIjogW3sia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAzNDA4fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0OTQ0fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjkyNH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDk2MTJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMjQ2OH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDIzNzAwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogNDM0NjR9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNzg0NTZ9LCB7InRlcnNrZWwiOiAyMDAsICJwcmlzIjogMTIwNzQ0fV19LCAiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTQuNCwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDIwLjh9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV19' title='Samle inn data for Viermie AS' target='_blank'>✏️</a>
   </td>
 </tr>
