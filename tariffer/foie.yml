@@ -6,39 +6,8 @@ gln:
   - '7080005050654'
 kilder:
   - 'https://www.foie.no/nettleie/priser'
-sist_oppdatert: '2024-12-27'
+sist_oppdatert: '2025-08-11'
 tariffer:
-  - kundegruppe: privat
-    fastledd:
-      metode: TRE_DØGNMAX_MND
-      terskel_inkludert: true
-      terskler:
-        - terskel: 0
-          pris: 1238.4
-        - terskel: 2
-          pris: 1536
-        - terskel: 5
-          pris: 3792
-        - terskel: 10
-          pris: 6297.6
-        - terskel: 15
-          pris: 8860.8
-        - terskel: 20
-          pris: 11808
-        - terskel: 25
-          pris: 13776
-        - terskel: 50
-          pris: 15744
-        - terskel: 75
-          pris: 21600
-    energiledd:
-      grunnpris: 11
-      unntak:
-        - navn: Dag
-          timer: 7-21
-          pris: 17.5
-    gyldig_fra: '2024-05-01'
-    gyldig_til: '2025-07-01'
   - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
