@@ -42,6 +42,7 @@ kilder:
 	./scripts/kilder.sh
 
 bygg:
+	rm docs/tariffer/*.html
 	./scripts/template.py
 	npx prettier docs/tariffer/*.html --write
 
