@@ -1,4 +1,4 @@
 
-# Tariffer er sist oppdatert 2025-07-11 08:48
+# Tariffer er sist oppdatert 2025-08-17 15:16
 
-Tariffene gjelder for: 2025-07-25, 2025-07-27.
+Tariffene gjelder for: 2025-09-01, 2025-09-05, 2025-09-07.
