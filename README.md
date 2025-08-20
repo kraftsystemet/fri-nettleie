@@ -323,6 +323,7 @@ Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 * [Slipper](https://slipper.no/) har brukt dataene i sin app siden desember 2024 📈
 * [Tadata](https://tadata.no/products/56efa72d-88a9-4688-aa66-df0cd1dd40bb) tilbyr et API for nettleiepriser basert på data fra ***fri-nettleie***
 * EnergiWatch har brukt dataene i sin journalistikk bl.a. i [mai 2025](https://energiwatch.no/nyheter/nett_teknologi/article18222699.ece) 🗞️
+* [Elmera Group](https://elmeragroup.no/about-elmeragroup/elmeragroup-in-brief/) bruker dataene i alle sine whitelabled apper i Norge fra august 2025 💡
 
 ## fri-nettleie i media
 
