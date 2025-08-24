@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="En oversikt over alle nettleie APIer i Norge.">
+    />
+    <!-- https://picocss.com/docs/classless#usage -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Nettleie API - Oversikt - Kraftsystemet</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+      .breadcrumbs a {
+        margin-right: 0.5em;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <h1 id="nettleie-api-i-norge---en-oversikt">
+        Nettleie API i Norge - en oversikt
+      </h1>
+      <p class="breadcrumbs">
+        <a href="/">Kraftsystemet</a>&rarr; <a href="./">Artikler</a>&rarr;
+        <span>Nettleie API - Oversikt</span>
+      </p>
+      <hr>
+      <dl>
+        <dt>Sist oppdatert</dt>
+        <dd>2025-08-24</dd>
+        <dt>Skrevet av</dt>
+        <dd>Kristoffer Lorentsen</dd>
+      </dl>
+      <hr>
+      <p>
+        Denne siden gir en oversikt over hvilke API for nettleie som eksisterer
+        i Norge i dag. I bunnen av siden vil du også finne en sammenligning av
+        APIene. Men først - noen definisjoner.
+      </p>
+      <h2>Nettleie</h2>
+      <p>
+        Nettleien skal dekke netteieres kostnader for drift av nettet og
+        transport av strøm. Måten nettleien er satt sammen ble endret i 2022.
+        Hensikten med endringen var å få oss til å bruke strøm smartere. En
+        forutsetning for at sluttbrukere i det norske kraftsystemet skal kunne
+        tilpasse sitt forbruk til nettleie-tariffen er at de som lager systemer,
+        apper og annen styring av forbruk får enkel tilgang til tariffene til
+        alle nettselskaper i Norge. Det er fornuftig at dataene gjøres
+        tilgjengelig på et applikasjonsgrensesnitt - et nettleie API.
+      </p>
+
+      <h2 id="hva-er-api">Hva er API?</h2>
+      <p>
+        API er forkortelsen for det engelske begrepet Application Programming
+        Interface. På norsk kan vi kalle det et applikasjonsgrensesnitt eller
+        maskingrensesnitt. Et slikt grensesnitt gir et system direkte tilgang
+        til data. API brukes av utviklere - det er sjeldent vanlige brukere har
+        behov for å benytte et API direkte.
+      </p>
+      <p>
+        En datafil kan også regnes for å være et API, så lenge det
+        tilgjengeliggjøres på et kjent format og plassering.
+      </p>
+      <h2 id="tariffer-og-prissignal">
+        Tariffer og prissignal
+      </h2>
+      <p>
+        Det er to typer data som er relevante å hente ut fra et nettleie API -
+        tariffer og prissignal.
+      </p>
+      <p>
+        En tariff beskriver eller styrer et produkts pris - i dette tilfellet
+        nettleie. Nettleietariffen består av et fastledd og energiledd.
+        Energileddet betaler man for hvor mye energi man bruker. Energileddet
+        varierer gjennom døgnet og året. For eksempel er det vanlig at prisen er
+        lavere om natten enn om dagen. Fastleddet betaler man for hvor mye strøm
+        man bruker eller kan bruke samtidig. Les mer om
+        <a
+          href="https://www.nve.no/reguleringsmyndigheten/kunde/stroemnettet/hva-er-nettleie/"
+          >nettleie hos NVE</a
+        >. Måten tariffen er satt sammen på og prisen på de ulike leddene
+        varierer fra netteier til netteier.
+      </p>
+      <p>
+        Et prissignal er en angivelse av hvor mye strømmen koster for en
+        forbruker - time for time. Der hvor tariffen <em>beskriver</em> hvordan
+        prisen settes, viser prissignalet hva prisen er for hver time. Det er
+        kun energiledd som er en del av prissignalet.
+      </p>
+      <h2 id="tilgjengelige-nettleie-apier">Tilgjengelige nettleie APIer</h2>
+      <p>
+        Tradisjonelt at hvert enkelt nettselskap publisert sine tariffer som
+        tariffhefter og på sine nettsider. Det gjør det vanskelig å få tilgang
+        til nettleie på tvers av Norge. Heldigvis eksisterer det flere APIer som
+        tilbyr datasett som dekker hele Norge.
+      </p>
+      <p>
+        Under følger en oversikt over nettleie API. APIene er sortert
+        alfabetisk.
+      </p>
+      <h3 id="lbitsapi-nettleie-for-styring">
+        3lbits/API-nettleie-for-styring
+      </h3>
+      <p>
+        <strong>URL</strong>:
+        <a href="https://github.com/3lbits/API-nettleie-for-styring"
+          >https://github.com/3lbits/API-nettleie-for-styring</a
+        >
+      </p>
+      <p>
+        Opphav fra DIGIN og nå overtatt av Elbits. Tariffer per målepunkt og per
+        netteier. Hver netteier som har implementert APIet vises i mappingen i
+        repoet. Ikke alle netteiere har implementert dette enda.
+      </p>
+      <h3 id="fri-nettleie">fri-nettleie</h3>
+      <p>
+        <strong>URL</strong>:
+        <a href="https://github.com/kraftsystemet/fri-nettleie"
+          >https://github.com/kraftsystemet/fri-nettleie</a
+        >
+      </p>
+      <p>
+        fri-nettleie er en dugnad for å samle alle nettleie-tariffer i Norge.
+        Dugnaden gjøres av privatpersoner og bedrifter som er bruker dataene.
+        Tilgjengeliggjør ikke dataene som et tradisjonelt API, men som filer på
+        GitHub..
+      </p>
+      <h3 id="hark.eco">Hark.eco</h3>
+      <p>
+        <strong>URL</strong>:
+        <a href="https://docs.hark.eco/docs/developers/delivery-charge-api/"
+          >https://docs.hark.eco/docs/developers/delivery-charge-api/</a
+        >
+      </p>
+      <p>
+        Hark eco har levert et kommersielt nettleie-API på GraphQL. Selskapet er
+        <a href="https://virksomhet.brreg.no/nb/oppslag/enheter/817927262"
+          >meldt konkurs</a
+        >.
+      </p>
+      <h3 id="nve-nettleietariffer">NVE Nettleietariffer</h3>
+      <p>
+        <strong>URL</strong>:
+        <a href="https://nettleietariffer.dataplattform.nve.no/docs"
+          >https://nettleietariffer.dataplattform.nve.no/docs</a
+        >
+      </p>
+      <p>
+        Alle netteiere må rapportere sin nettleie til NVE. NVE tilgjengeliggjør
+        dataene for både næring og husholdning i sitt API for nettleietariffer.
+      </p>
+      <h3 id="tadata">Tadata</h3>
+      <p>
+        <strong>URL</strong>:
+        <a
+          href="https://tadata.no/products/56efa72d-88a9-4688-aa66-df0cd1dd40bb"
+          >https://tadata.no/products/56efa72d-88a9-4688-aa66-df0cd1dd40bb</a
+        >
+      </p>
+      <p>Tadata tilgjengeliggjør fri-nettleie data som et API.</p>
+      <h3 id="zohm-api-fra-strømradar">Zohm API fra Strømradar</h3>
+      <p>
+        <strong>URL</strong>:
+        <a href="https://stromradar.no/zohmapi/"
+          >https://stromradar.no/zohmapi/</a
+        >
+      </p>
+      <p>
+        REST APIet som blant annet gir nettleie fra samtlige nettselskaper i
+        Norge.
+      </p>
+      <h2 id="sammenligning-av-api-for-nettleie">
+        Sammenligning av API for nettleie
+      </h2>
+      <p>
+        Nedenfor finner du en oppstilling av ulike karakteristikker for de
+        forskjellige nettleie APIene. Noen celler er merket med "?" fordi vi
+        ikke er sikker på hva som er riktig.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>API</th>
+            <th>Hele Norge</th>
+            <th>Åpent</th>
+            <th>Privat</th>
+            <th>Næring</th>
+            <th>Tariff-beskrivelse</th>
+            <th>Prissignal</th>
+            <th>Format</th>
+            <th>Granularitet</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>3lbits</td>
+            <td>Nei</td>
+            <td>Nei, krever brukerkonto</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Json REST</td>
+            <td>Netteier</td>
+          </tr>
+          <tr>
+            <td>fri-nettleie</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Nei</td>
+            <td>Ja</td>
+            <td>Må utledes</td>
+            <td>yml på GitHub</td>
+            <td>Netteier (GLN)</td>
+          </tr>
+          <tr>
+            <td>Hark.eco</td>
+            <td>Ja</td>
+            <td>Nei, krever betaling</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>?</td>
+            <td>GraphQL</td>
+            <td>?</td>
+          </tr>
+          <tr>
+            <td>NVE</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Ja</td>
+            <td>Delvis (fastledd-terskler)</td>
+            <td>Ja</td>
+            <td>Json API</td>
+            <td>Konsesjonær</td>
+          </tr>
+          <tr>
+            <td>Tadata</td>
+            <td>Ja</td>
+            <td>Nei, krever registreringg</td>
+            <td>Ja</td>
+            <td>Nei</td>
+            <td>Ja</td>
+            <td>Må utledes</td>
+            <td>Json m/søk</td>
+            <td>Netteier (GLN)</td>
+          </tr>
+          <tr>
+            <td>Zohm API</td>
+            <td>Ja</td>
+            <td>Nei, krever registrering</td>
+            <td>Ja</td>
+            <td>Nei</td>
+            <td>?</td>
+            <td>?</td>
+            <td>?</td>
+            <td>?</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>

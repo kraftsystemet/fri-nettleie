@@ -2,5 +2,6 @@
 !.gitignore
 !.statusignore
 !.yamlfmt.yml
+!.nojekyll
 venv
 __pycache__
