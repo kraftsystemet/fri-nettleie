@@ -13,7 +13,7 @@ venv:
 readme: vet toc status
 
 status:
-	./scripts/status.py | sponge README.md
+	./venv/bin/python ./scripts/status.py | sponge README.md
 
 toc:
 	npx markdown-toc -i README.md
@@ -42,8 +42,8 @@ kilder:
 	./scripts/kilder.sh
 
 bygg:
-	rm docs/tariffer/*.html
-	./scripts/template.py
+	rm -f docs/tariffer/*.html
+	venv/bin/python ./scripts/template.py
 	npx prettier docs/tariffer/*.html --write
 
 refdata:
