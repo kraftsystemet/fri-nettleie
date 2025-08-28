@@ -1161,6 +1161,16 @@
     },
     {
         "country": "NO",
+        "dsoCode": "7080003654786",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Hydro Aluminium AS Nett",
+        "mba": "NO2",
+        "mgaCode": "50Y6ANDMGD-PNHY3",
+        "mgaName": "HYDROAL6",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
         "dsoCode": "7080005052818",
         "dsoCodingScheme": "GS1",
         "dsoName": "Hydro Energi AS nett",
@@ -1763,7 +1773,7 @@
         "country": "NO",
         "dsoCode": "7080004122741",
         "dsoCodingScheme": "GS1",
-        "dsoName": "SFE Produksjon AS – Netteier",
+        "dsoName": "SFE AS – Netteier",
         "mba": "NO5",
         "mgaCode": "50YOEWOFS0MLA5M8",
         "mgaName": "SFEPN1",
@@ -2828,16 +2838,6 @@
         "mgaCode": "50YF2GCFETG-MIFT",
         "mgaName": "SAURD1",
         "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080001180041",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Sør-Norge Aluminium AS Nett",
-        "mba": "NO2",
-        "mgaCode": "50Y6ANDMGD-PNHY3",
-        "mgaName": "HYDROAL6",
-        "mgaType": "INDUSTRIAL"
     },
     {
         "country": "NO",
