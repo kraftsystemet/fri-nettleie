@@ -40,3 +40,36 @@ tariffer:
           timer: 6-21
           pris: 24.96
     gyldig_fra: '2024-10-01'
+    gyldig_til: '2025-09-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1536
+        - terskel: 2
+          pris: 1968
+        - terskel: 5
+          pris: 3360
+        - terskel: 10
+          pris: 6960
+        - terskel: 15
+          pris: 9024
+        - terskel: 20
+          pris: 11328
+        - terskel: 25
+          pris: 17520
+        - terskel: 50
+          pris: 27744
+        - terskel: 75
+          pris: 36960
+        - terskel: 100
+          pris: 60000
+    energiledd:
+      grunnpris: 12.6
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 24.6
+    gyldig_fra: '2025-09-01'
