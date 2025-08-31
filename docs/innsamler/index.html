@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>fri-nettleie - innsamler</title>
-    <script src=" https://cdn.jsdelivr.net/npm/yamljs@0.3.0/dist/yaml.min.js" defer></script>
+    <link rel="canonical" href="https://kraftsystemet.no/fri-nettleie/innsamler/" />
+    <script src="https://cdn.jsdelivr.net/npm/yamljs@0.3.0/dist/yaml.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
     <style>
@@ -196,8 +197,8 @@
                             <input
                                 type="number"
                                 id="pris-mnd-mva"
-                                class="secondary-input" 
-                                x-bind:value="formatFloat((terskel.pris / 12)*1.25)" 
+                                class="secondary-input"
+                                x-bind:value="formatFloat((terskel.pris / 12)*1.25)"
                                 x-on:change="terskel.pris = formatFloat(($event.target.value * 0.8) * 12)">
                         </td>
                         <td>
@@ -223,7 +224,7 @@
                             <input
                                 type="number"
                                 id="pris"
-                                x-model.number="tariff.energiledd.grunnpris" 
+                                x-model.number="tariff.energiledd.grunnpris"
                                 placeholder="Pris">
                         </td>
                         <td>
