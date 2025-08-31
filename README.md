@@ -312,9 +312,9 @@ Vi kjører for øyeblikket [changedetection](https://changedetection.io/) lokalt
 for å detektere endringer på tariffer hos netteiere. Kan du sponse en hostet
 instans? Ta kontakt.
 
-### Si at du bruker våre data
+### Si at du bruker våre data 📢
 
-Se under.
+Se under. Gi oss beskjed om du bruker dataene så legger vi deg til i lista.
 
 ## Dataene i bruk
 
@@ -1161,6 +1161,14 @@ pull-request.
 fungerer knallbra 🚀, men enn så lenge er det ikke alle netteiere som har
 implementert det. Et samlet datasett for hele Norge letter også tilgang og
 mulighet for analyse.
+
+### Tilbyr dere et API?
+
+Vi mener at yaml-filer i et GitHub repo er et slags API, men erkjenner at det
+kan være behov for et HTTP API som gjør det enda lettere å integrere
+nettleie-data i sine løsninger. Kraftsystemet (som er gjengen som står bak
+fri-nettleie) tilbyr ikke et API, men vi vedlikeholder en
+[oversikt over hvilke nettleie API som eksisterer](https://kraftsystemet.no/artikler/nettleie-api-oversikt).
 
 ## Lisens
 
