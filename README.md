@@ -28,7 +28,7 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Gi oss en stjerne](#gi-oss-en-stjerne)
   * [Utvikle med oss.](#utvikle-med-oss)
   * [Spons Changedetection](#spons-changedetection)
-  * [Si at du bruker våre data](#si-at-du-bruker-vare-data)
+  * [Si at du bruker våre data 📢](#si-at-du-bruker-vare-data-%F0%9F%93%A2)
 - [Dataene i bruk](#dataene-i-bruk)
 - [fri-nettleie i media](#fri-nettleie-i-media)
 - [Netteiere](#netteiere)
@@ -39,6 +39,7 @@ En _dugnad_ for å samle nettleie-tariffer i det norske kraftsystemet.
   * [Bør ikke noen andre gjøre dette?](#bor-ikke-noen-andre-gjore-dette)
   * [Hva med NVE sine data?](#hva-med-nve-sine-data)
   * [Hva med Nettleie API fra Digin/Elbits?](#hva-med-nettleie-api-fra-diginelbits)
+  * [Tilbyr dere et API?](#tilbyr-dere-et-api)
 - [Lisens](#lisens)
 
 <!-- tocstop -->
@@ -660,11 +661,11 @@ når vi blir oppmerksom på endringer/oppdatering 🎉🥳!
 <tr>
   <td>Jæren Everk AS</td>
   <td>7080010002419</td>
-  <td>2024-12-27</td>
+  <td>2025-09-01</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/jaereneverk.html" title="Se på tariffen for Jæren Everk AS" target="_blank">🔍</a>
     <a href="./tariffer/jaereneverk.yml" title="Se dataene for Jæren Everk AS i YAML-format" target="_blank">📄</a>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJKXHUwMGU2cmVuIEV2ZXJrIEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMjQxOSJdLCAia2lsZGVyIjogWyJodHRwczovL2pldi5uby90YXJpZmZlciIsICJodHRwczovL2pldi5uby9uZXR0bGVpZS1mb3Ita3VuZGVyLW1lZC1mb3JicnVrLXVuZGVyLTEwMC0wMDAta3doLTItMi0yLTIiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjQtMTItMjciLCAidGFyaWZmZXIiOiBbeyJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDE4OTZ9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDMwNjB9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDQ4OTZ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA3MjAwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogOTUxNn0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDExODIwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTg3MzJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzMDI2NH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDQxNzk2fSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDU5MTAwfSwgeyJ0ZXJza2VsIjogMTUwLCAicHJpcyI6IDgyMTI4fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDEwNTE1Nn1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDEzLCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJkYWdlciI6IFsidWtlZGFnIl0sICJwcmlzIjogMTl9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEifV19' title='Samle inn data for Jæren Everk AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJKXHUwMGU2cmVuIEV2ZXJrIEFTIiwgImdsbiI6IFsiNzA4MDAxMDAwMjQxOSJdLCAia2lsZGVyIjogWyJodHRwczovL2pldi5uby90YXJpZmZlciIsICJodHRwczovL2pldi5uby9uZXR0bGVpZS1mb3Ita3VuZGVyLW1lZC1mb3JicnVrLXVuZGVyLTEwMC0wMDAta3doLTItMi0yLTIiXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjUtMDktMDEiLCAidGFyaWZmZXIiOiBbeyJrdW5kZWdydXBwZSI6ICJwcml2YXQiLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDE4OTZ9LCB7InRlcnNrZWwiOiAyLCAicHJpcyI6IDMwNjB9LCB7InRlcnNrZWwiOiA1LCAicHJpcyI6IDQ4OTZ9LCB7InRlcnNrZWwiOiAxMCwgInByaXMiOiA3MjAwfSwgeyJ0ZXJza2VsIjogMTUsICJwcmlzIjogOTUxNn0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDExODIwfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTg3MzJ9LCB7InRlcnNrZWwiOiA1MCwgInByaXMiOiAzMDI2NH0sIHsidGVyc2tlbCI6IDc1LCAicHJpcyI6IDQxNzk2fSwgeyJ0ZXJza2VsIjogMTAwLCAicHJpcyI6IDU5MTAwfSwgeyJ0ZXJza2VsIjogMTUwLCAicHJpcyI6IDgyMTI4fSwgeyJ0ZXJza2VsIjogMjAwLCAicHJpcyI6IDEwNTE1Nn1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDEzLCAidW5udGFrIjogW3sibmF2biI6ICJVa2VkYWciLCAidGltZXIiOiAiNi0yMSIsICJkYWdlciI6IFsidWtlZGFnIl0sICJwcmlzIjogMTl9XX0sICJneWxkaWdfZnJhIjogIjIwMjQtMDEtMDEiLCAiZ3lsZGlnX3RpbCI6ICIyMDI1LTA5LTAxIn0sIHsia3VuZGVncnVwcGUiOiAicHJpdmF0IiwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAxODk2fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAzMDYwfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiA0ODk2fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNzIwMH0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDk1MTZ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMTgyMH0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE4NzMyfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMzAyNjR9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiA0MTc5Nn0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA1OTEwMH0sIHsidGVyc2tlbCI6IDE1MCwgInByaXMiOiA4MjEyOH0sIHsidGVyc2tlbCI6IDIwMCwgInByaXMiOiAxMDUxNTZ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMCwgInVubnRhayI6IFt7Im5hdm4iOiAiVWtlZGFnIiwgInRpbWVyIjogIjYtMjEiLCAiZGFnZXIiOiBbInVrZWRhZyJdLCAicHJpcyI6IDE2fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI1LTA5LTAxIn1dfQ==' title='Samle inn data for Jæren Everk AS' target='_blank'>✏️</a>
   </td>
 </tr>
 <tr>
