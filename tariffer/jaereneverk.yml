@@ -44,7 +44,7 @@ tariffer:
           dager: [ukedag]
           pris: 19
     gyldig_fra: '2024-01-01'
-    gyldig_ti: '2025-09-01'
+    gyldig_til: '2025-09-01'
   - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
