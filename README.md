@@ -255,8 +255,8 @@ En avgift på strøm som betales til netteier og netteier viderefører til Skatt
 [Forskrift om særavgifter](https://lovdata.no/dokument/SF/forskrift/2001-12-11-1451/KAPITTEL_3-12#KAPITTEL_3-12)
 fastsetter at avgift på elektrisk kraft settes ved
 [stortingsvedtak](https://lovdata.no/register/stortingsvedtak).
-[Vedtaket for 2024](https://lovdata.no/dokument/STV/forskrift/2023-12-14-2075/KAPITTEL_14#KAPITTEL_14)
-fastsetter også lavere avgift for jan-mars og redusert sats for en del næringer.
+[Vedtaket for 2024](https://lovdata.no/dokument/STV/forskrift/2024-12-13-3216)
+fastsetter også lavere avgift for jan-mars og redusert sats for en del næringer. Fra 01.10.2025 er det forslått en [endring i særavgiften](https://lovdata.no/dokument/STV/forskrift/2025-06-20-1183/KAPITTEL_2#KAPITTEL_2), denne vil tre i kraft når departementet avgjør det. 
 
 Personer som bor i
 [tiltakssonen i Finnmark og Nord-Troms](https://www.regjeringen.no/no/tema/kommuner-og-regioner/regional--og-distriktspolitikk/Berekraftig-regional-utvikling-i-nord/virkemidler-i-tiltakssonen/id2362290/)
