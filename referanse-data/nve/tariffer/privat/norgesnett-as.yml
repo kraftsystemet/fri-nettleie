@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 12.55
-  - 18.62
+  - 14.28
+  - 21.26
 fylker:
   - '31'
   - '32'
@@ -13,23 +13,23 @@ fylker_navn:
 navn: NORGESNETT AS
 org: '980234088'
 terskler:
-  - pris: 984.12
+  - pris: 1131.72
     terskel: 0.0
-  - pris: 1640.28
+  - pris: 1886.28
     terskel: 2.0
-  - pris: 2697.36
+  - pris: 3101.88
     terskel: 5.0
-  - pris: 4796.88
+  - pris: 5516.4
     terskel: 10.0
-  - pris: 6371.52
+  - pris: 7327.2
     terskel: 15.0
-  - pris: 7902.48
+  - pris: 9087.84
     terskel: 20.0
-  - pris: 12247.32
+  - pris: 14084.4
     terskel: 25.0
-  - pris: 19172.88
+  - pris: 22048.92
     terskel: 50.0
-  - pris: 26098.44
+  - pris: 30013.2
     terskel: 75.0
-  - pris: 42297.12
+  - pris: 48641.64
     terskel: 100.0

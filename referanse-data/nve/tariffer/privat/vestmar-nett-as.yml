@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 19.86
+  - 18.87
 fylker:
   - '40'
 fylker_navn:
@@ -8,25 +8,25 @@ fylker_navn:
 navn: VESTMAR NETT AS
 org: '979399901'
 terskler:
-  - pris: 4104.0
+  - pris: 3898.8
     terskel: 0.0
-  - pris: 7260.0
+  - pris: 6897.0
     terskel: 5.0
-  - pris: 10416.0
+  - pris: 9895.2
     terskel: 10.0
-  - pris: 13572.96
+  - pris: 12893.4
     terskel: 15.0
-  - pris: 16728.0
+  - pris: 15891.6
     terskel: 20.0
-  - pris: 26184.0
+  - pris: 24874.8
     terskel: 25.0
-  - pris: 41964.0
+  - pris: 39865.8
     terskel: 50.0
-  - pris: 57732.0
+  - pris: 54845.4
     terskel: 75.0
-  - pris: 81396.0
+  - pris: 77326.2
     terskel: 100.0
-  - pris: 112932.0
+  - pris: 107285.4
     terskel: 150.0
-  - pris: 160248.0
+  - pris: 152235.6
     terskel: 200.0

@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 14.1
+  - 11.0
 fylker:
   - '56'
 fylker_navn:
@@ -8,15 +8,15 @@ fylker_navn:
 navn: BARENTS NETT AS
 org: '971058854'
 terskler:
-  - pris: 7224.0
+  - pris: 6824.0
     terskel: 0.0
-  - pris: 7944.0
+  - pris: 7424.0
     terskel: 2.0
-  - pris: 8664.0
+  - pris: 8024.0
     terskel: 5.0
-  - pris: 9384.0
+  - pris: 8636.0
     terskel: 10.0
-  - pris: 10836.0
+  - pris: 9836.0
     terskel: 15.0
-  - pris: 13008.0
+  - pris: 11648.0
     terskel: 20.0

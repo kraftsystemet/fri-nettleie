@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 14.0
-  - 27.9
+  - 13.5
+  - 27.0
 fylker:
   - '18'
   - '50'
@@ -11,33 +11,33 @@ fylker_navn:
 navn: TENSIO TN AS
 org: '988807648'
 terskler:
-  - pris: 2182.4
+  - pris: 2144.0
     terskel: 0.0
-  - pris: 3584.0
+  - pris: 3497.6
     terskel: 2.0
-  - pris: 5830.4
+  - pris: 5676.8
     terskel: 5.0
-  - pris: 8432.0
+  - pris: 8192.0
     terskel: 10.0
-  - pris: 11033.6
+  - pris: 10707.2
     terskel: 15.0
-  - pris: 13644.8
+  - pris: 13232.0
     terskel: 20.0
-  - pris: 23158.4
+  - pris: 22457.6
     terskel: 25.0
-  - pris: 36185.6
+  - pris: 35072.0
     terskel: 50.0
-  - pris: 49193.6
+  - pris: 47667.2
     terskel: 75.0
-  - pris: 70851.2
+  - pris: 68643.2
     terskel: 100.0
-  - pris: 96886.4
+  - pris: 93852.8
     terskel: 150.0
-  - pris: 140211.2
+  - pris: 135804.8
     terskel: 200.0
-  - pris: 192243.2
+  - pris: 186204.8
     terskel: 300.0
-  - pris: 244284.8
+  - pris: 236595.2
     terskel: 400.0
-  - pris: 296278.41
+  - pris: 286947.19
     terskel: 500.0
