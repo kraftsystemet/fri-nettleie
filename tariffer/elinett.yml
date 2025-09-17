@@ -5,7 +5,7 @@ gln:
 kilder:
   - 'https://www.elinett.no/kunde/nettleie-2'
   - 'https://www.elinett.no/kunde/nettleie-2/nettleie'
-sist_oppdatert: '2024-12-07'
+sist_oppdatert: '2025-09-16'
 tariffer:
   - kundegruppe: privat
     fastledd:
@@ -40,3 +40,37 @@ tariffer:
           pris: 25.84
           dager: [virkedag]
     gyldig_fra: '2024-04-01'
+    gyldig_til: '2025-08-01'
+     - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2409.6
+        - terskel: 2
+          pris: 3014.4
+        - terskel: 5
+          pris: 3609.6
+        - terskel: 10
+          pris: 6019.2
+        - terskel: 15
+          pris: 7228.8
+        - terskel: 20
+          pris: 8428.8
+        - terskel: 25
+          pris: 12038.4
+        - terskel: 50
+          pris: 13238.4
+        - terskel: 75
+          pris: 14448
+        - terskel: 100
+          pris: 18057.6
+    energiledd:
+      grunnpris: 14.64
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          pris: 22.64
+          dager: [virkedag]
+    gyldig_fra: '2025-08-01'
