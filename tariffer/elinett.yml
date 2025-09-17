@@ -41,7 +41,7 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2024-04-01'
     gyldig_til: '2025-08-01'
-     - kundegruppe: privat
+  - kundegruppe: privat
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
