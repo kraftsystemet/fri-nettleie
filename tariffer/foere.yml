@@ -4,7 +4,7 @@ gln:
   - '7080010003836'
 kilder:
   - 'https://foere.net/nettleie/'
-sist_oppdatert: '2025-01-13'
+sist_oppdatert: '2025-09-19'
 tariffer:
   - kundegruppe: privat
     fastledd:
@@ -34,7 +34,7 @@ tariffer:
         - terskel: 150
           pris: 44820
         - terskel: 200
-          pris: 4261
+          pris: 51132
     energiledd:
       grunnpris: 19.29
     gyldig_fra: '2025-01-01'
