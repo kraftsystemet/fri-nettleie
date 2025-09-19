@@ -4,7 +4,7 @@ gln:
   - '7080010002464'
 kilder:
   - 'https://snett.no/nettleie/privat/'
-sist_oppdatert: '2024-12-28'
+sist_oppdatert: '2025-09-19'
 tariffer:
   - kundegruppe: privat
     fastledd:
@@ -51,27 +51,27 @@ tariffer:
         - terskel: 0
           pris: 2520
         - terskel: 2
-          pris: 4368
+          pris: 3492
         - terskel: 5
-          pris: 6312
+          pris: 5052
         - terskel: 10
-          pris: 8724
+          pris: 6984
         - terskel: 15
-          pris: 11160
+          pris: 8928
         - terskel: 20
-          pris: 13584
+          pris: 10872
         - terskel: 25
-          pris: 20880
+          pris: 16704
         - terskel: 50
-          pris: 33012
+          pris: 26412
         - terskel: 75
-          pris: 45156
+          pris: 36120
         - terskel: 100
-          pris: 63372
+          pris: 50700
         - terskel: 150
-          pris: 87648
+          pris: 70116
         - terskel: 200
-          pris: 124080
+          pris: 99264
     energiledd:
       grunnpris: 21.41
       unntak:
