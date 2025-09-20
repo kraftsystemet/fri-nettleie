@@ -3,6 +3,9 @@ netteier: 'KE Nett AS'
 gln:
   - '7080005046060'
 sist_oppdatert: '2024-12-04'
+kilder:
+  - 'https://ke-nett.no/getfile.php/132301-1757669563/Dokumenter/Nettleige/Nettleigebrosjyre%202025_01102025.pdf'
+  - 'https://ke-nett.no/Nettleiepriser/'
 tariffer:
   - kundegruppe: privat
     fastledd:
@@ -99,6 +102,35 @@ tariffer:
           pris: 13
           dager: [ukedag]
     gyldig_fra: '2025-05-01'
-kilder:
-  - 'https://ke-nett.no/getfile.php/132285-1744710972/Dokumenter/Nettleige/Nettleigebrosjyre%202025_01052025.pdf'
-  - 'https://ke-nett.no/Nettleiepriser/'
+    gyldig_til: '2025-10-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1440
+        - terskel: 5
+          pris: 3120
+        - terskel: 10
+          pris: 4800
+        - terskel: 15
+          pris: 6480
+        - terskel: 20
+          pris: 8160
+        - terskel: 25
+          pris: 18240
+        - terskel: 50
+          pris: 23640
+        - terskel: 75
+          pris: 32040
+        - terskel: 100
+          pris: 63120
+    energiledd:
+      grunnpris: 1
+      unntak:
+        - navn: Ukedag
+          timer: 6-21
+          pris: 13
+          dager: [ukedag]
+    gyldig_fra: '2025-10-01'
