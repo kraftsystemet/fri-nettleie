@@ -1,10 +1,10 @@
 ---
 netteier: 'Everket AS'
-sist_oppdatert: "2025-01-16"
+sist_oppdatert: '2025-09-21'
 gln:
   - '7080005052825'
 kilder:
-  - 'https://everket-notodden.no/wp-content/uploads/2023/12/240101-Nettleie-Everket.pdf'
+  - 'https://everket-notodden.no/wp-content/uploads/2025/09/251001-Nettleie-Everket.pdf'
   - 'https://everket-notodden.no/kunde/#nettleie'
 tariffer:
   - kundegruppe: privat
@@ -39,3 +39,36 @@ tariffer:
     energiledd:
       grunnpris: 24.8
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2025-10-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2976
+        - terskel: 2
+          pris: 3648
+        - terskel: 5
+          pris: 4608
+        - terskel: 10
+          pris: 6048
+        - terskel: 15
+          pris: 7488
+        - terskel: 20
+          pris: 9600
+        - terskel: 25
+          pris: 12960
+        - terskel: 50
+          pris: 17760
+        - terskel: 75
+          pris: 24000
+        - terskel: 100
+          pris: 32640
+        - terskel: 150
+          pris: 43200
+        - terskel: 200
+          pris: 57600
+    energiledd:
+      grunnpris: 19.2
+    gyldig_fra: '2025-10-01'
