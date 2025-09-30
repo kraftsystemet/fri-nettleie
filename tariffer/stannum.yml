@@ -70,3 +70,37 @@ tariffer:
           pris: 28.33
           dager: [alle]
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-10-01'
+  - kundegruppe: privat
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3033
+        - terskel: 2
+          pris: 3640
+        - terskel: 5
+          pris: 3943
+        - terskel: 10
+          pris: 4550
+        - terskel: 15
+          pris: 5156
+        - terskel: 20
+          pris: 5308
+        - terskel: 25
+          pris: 5763
+        - terskel: 50
+          pris: 6370
+        - terskel: 75
+          pris: 6976
+        - terskel: 100
+          pris: 7583
+    energiledd:
+      grunnpris: 22.01
+      unntak:
+        - navn: alle
+          timer: 6-21
+          pris: 25.01
+          dager: [alle]
+    gyldig_fra: '2025-10-01'
