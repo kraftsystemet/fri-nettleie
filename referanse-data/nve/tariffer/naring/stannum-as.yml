@@ -1,0 +1,14 @@
+---
+energiledd:
+  - 8.5
+fylker:
+  - '40'
+fylker_navn:
+  - Telemark
+navn: STANNUM AS
+org: '924940379'
+terskler:
+  - pris: 56.0
+    terskel: 0.0
+  - pris: 56.0
+    terskel: 100.0
