@@ -8,7 +8,9 @@ kilder:
   - 'https://www.noranett.no/nettleiepriser/nettleiepriser-hadsel-fra-1-10-2024-article3982-2415.html'
   - 'https://www.noranett.no/getfile.php/1326765-1736159200/Noranett/Filer/Kopi%20av%20Nettleie%202025%20-%20Hadsel%20pdf.pdf'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -61,7 +63,9 @@ tariffer:
           pris: 28.8
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

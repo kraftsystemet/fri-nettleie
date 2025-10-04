@@ -8,7 +8,9 @@ kilder:
   - 'http://www.uvdalkraft.no/pdf/Tariffhefte01052024.pdf'
   - 'http://www.uvdalkraft.no/pdf/Tariffhefte01012025.pdf'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: false
@@ -39,7 +41,9 @@ tariffer:
           pris: 30.58
     gyldig_fra: '2024-05-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -70,7 +74,9 @@ tariffer:
           pris: 24.23
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-06-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

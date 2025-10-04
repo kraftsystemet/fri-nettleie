@@ -7,7 +7,9 @@ kilder:
   - 'https://www.linea.no/no/kunde/nettleie/nettleiepriser'
   - 'https://cdn.sanity.io/files/fqnowpz5/open-prod/aaec4fe54a6d5ddd8fe31807ae33542bcd482ca3.pdf'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -45,7 +47,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2024-05-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -89,7 +93,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-07-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

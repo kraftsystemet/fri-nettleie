@@ -7,7 +7,9 @@ kilder:
   - 'https://kystnett.no/Nettleie'
   - 'https://kystnett.no/Nettleie/?Article=68'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

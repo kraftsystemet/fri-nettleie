@@ -4,7 +4,9 @@ gln:
   - '7080010013088'
 sist_oppdatert: '2024-12-02'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

@@ -18,7 +18,9 @@ tariffer:
           terskel: 125
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-07-01'
-    kundegruppe: privat
+    kundegrupper:
+      - husholdning
+      - fritid
   - energiledd:
       grunnpris: 9.1
     fastledd:
@@ -31,4 +33,6 @@ tariffer:
           terskel: 125
     gyldig_fra: '2025-07-01'
     gyldig_til: '2026-01-01'
-    kundegruppe: privat
+    kundegrupper:
+      - husholdning
+      - fritid

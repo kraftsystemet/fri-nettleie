@@ -7,7 +7,9 @@ kilder:
   - 'https://hsev.no/nettleie'
   - 'https://hsev.no/uploads/HSEV-nettleie-privatkunder-1.-juli-2025.pdf'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -41,7 +43,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-02-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -75,7 +79,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2025-02-01'
     gyldig_til: '2025-07-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

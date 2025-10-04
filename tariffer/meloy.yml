@@ -6,7 +6,9 @@ kilder:
   - 'https://meloyenergi.no/a/aktuelt/nye-nettleiepriser'
   - 'https://meloyenergi.no/ac/nettleie-avregning'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -39,7 +41,9 @@ tariffer:
           pris: 22.3
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

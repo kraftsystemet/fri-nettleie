@@ -48,9 +48,13 @@ tariffer:
         - pris: 39480
           terskel: 40
     gyldig_fra: '2024-01-01'
-    kundegruppe: privat
+    kundegrupper:
+      - husholdning
+      - fritid
     gyldig_til: '2025-07-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
