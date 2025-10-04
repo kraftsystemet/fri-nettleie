@@ -117,12 +117,11 @@ Der viser vi også en forenklet bereging av avgifter.
 - [x] Samle strukturdata for å identifisere alle netteier og nettområder
 - [x] Definere format for innsamling
 - [x] Vise at det kan genereres prissignal basert på formatet
-- [x] Samle tariffer for private husholdninger og hytter/fritidseiendom på yaml
-  format for et utvalg nettselskaper (med varierende tariffer)
 - [x] Overvåke nettselskapenes sider for å varsle ved endring
 - [x] Sammenstille og publisere informasjon per netteier på et "menneskelig" format på kraftsystemet.no/fri-nettleie
 - [x] Publisere visualisert prissignal basert på de innsamlede tariffene
-- [x] Samle tariffer for husholdninger og hytter/fritidshus for alle nettområder
+- [x] Samle tariffer for husholdninger og hytter/fritidshus
+- [ ] Samle tariffer for lavspent næringskunder under 100 MWh
 - [x] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
 - [ ] Maskinlesbare filer for avgifter
 
@@ -131,7 +130,6 @@ Der viser vi også en forenklet bereging av avgifter.
 Selv om det kan være nyttig er det følgende foreløpig ikke en del av dette
 prosjektet
 
-* tariffer for næring
 * tariff for ikke automatisk avlesning
 * vedlikeholde historiske priser
 
@@ -256,7 +254,7 @@ En avgift på strøm som betales til netteier og netteier viderefører til Skatt
 fastsetter at avgift på elektrisk kraft settes ved
 [stortingsvedtak](https://lovdata.no/register/stortingsvedtak).
 [Vedtaket for 2024](https://lovdata.no/dokument/STV/forskrift/2024-12-13-3216)
-fastsetter også lavere avgift for jan-mars og redusert sats for en del næringer. Fra 01.10.2025 er det forslått en [endring i særavgiften](https://lovdata.no/dokument/STV/forskrift/2025-06-20-1183/KAPITTEL_2#KAPITTEL_2), denne vil tre i kraft når departementet avgjør det. 
+fastsetter også lavere avgift for jan-mars og redusert sats for en del næringer. Fra 01.10.2025 er det forslått en [endring i særavgiften](https://lovdata.no/dokument/STV/forskrift/2025-06-20-1183/KAPITTEL_2#KAPITTEL_2), denne vil tre i kraft når departementet avgjør det.
 
 Personer som bor i
 [tiltakssonen i Finnmark og Nord-Troms](https://www.regjeringen.no/no/tema/kommuner-og-regioner/regional--og-distriktspolitikk/Berekraftig-regional-utvikling-i-nord/virkemidler-i-tiltakssonen/id2362290/)
