@@ -7,7 +7,9 @@ kilder:
   - 'https://etna.no/uploads/Kunde-og-nettleie/Etna-Nett-Nettariff-1-oktober-2025.pdf'
   - 'https://etna.no/om-nettleie'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -33,7 +35,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2024-03-01'
     gyldig_til: '2025-03-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -59,7 +63,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2025-03-01'
     gyldig_til: '2025-10-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

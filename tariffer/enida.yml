@@ -8,7 +8,9 @@ kilder:
   - 'https://enida.no/uploads/Tariffer-fra-1.jan-2024.pdf'
   - 'https://enida.no/uploads/Tariffer-fra-1.aug-2025_2025-07-04-121258_zzqn.pdf'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -42,7 +44,9 @@ tariffer:
           dager: [ukedag]
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-08-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

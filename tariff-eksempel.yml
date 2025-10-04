@@ -51,13 +51,14 @@ kilder:
 #  - tariffer for ulike kundegrupper
 
 tariffer:
-  - # Kundegruppe definerer hvem tariffen gjelder for.
-    # Husk at vi kun samler inn for husholdinger og hytter/fritidshus.
+  - # Kundegrupper er en liste over hvem tariffen gjelder for.
     # Mulige verdier
-    #  - husholdning
-    #  - hytter
-    #  - privat - gjelder både husholdning og hytter
-    kundegruppe: privat
+    #  - husholdning - Husholdning
+    #  - fritid - Hytter og fritidshus
+    #  - næring - Lavspent næringskunder under 100 MWh
+    kundegrupper:
+      - husholdning
+      - fritid
 
     # Gyldig fra- og til-dato for tariffen.
     # Fra er påkrevd. Til-dato er eksklusiv.

@@ -3,7 +3,9 @@ netteier: 'Indre Hordaland Kraftnett AS'
 gln:
   - '7080010008367'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -26,7 +28,9 @@ tariffer:
       grunnpris: 28.56
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-05-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

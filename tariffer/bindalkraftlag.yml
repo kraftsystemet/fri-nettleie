@@ -6,7 +6,9 @@ kilder:
   - 'https://nett.bindalkraftlag.no/nett/priser/'
   - 'https://nett.bindalkraftlag.no/2024/12/30/nettleie-2025/'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: false

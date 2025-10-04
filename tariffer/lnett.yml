@@ -7,7 +7,9 @@ kilder:
   - 'https://www.l-nett.no/nettleie/priser-og-vilkar-privat/'
   - 'https://www.l-nett.no/getfile.php/131545710-1747299144/Dokumenter/Prishefter%20og%20vilk%C3%A5r/Prishefte2025%2C%201.%20juni-31.%20des.pdf'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -39,7 +41,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2024-07-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -73,7 +77,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-06-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

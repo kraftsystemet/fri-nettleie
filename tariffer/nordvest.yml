@@ -9,7 +9,9 @@ kilder:
   - 'https://www.nvn.no/download?objectPath=/upload_images/B648735052B6498A938809E6E2664C7E.pdf'
 sist_oppdatert: '2024-12-27'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -42,7 +44,9 @@ tariffer:
           pris: 23.608
     gyldig_fra: '2024-09-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

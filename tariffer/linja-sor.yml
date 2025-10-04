@@ -43,4 +43,6 @@ tariffer:
           terskel: 100
     gyldig_fra: '2024-07-01'
     navn: Sør
-    kundegruppe: privat
+    kundegrupper:
+      - husholdning
+      - fritid
