@@ -121,7 +121,7 @@ Der viser vi også en forenklet bereging av avgifter.
 - [x] Sammenstille og publisere informasjon per netteier på et "menneskelig" format på kraftsystemet.no/fri-nettleie
 - [x] Publisere visualisert prissignal basert på de innsamlede tariffene
 - [x] Samle tariffer for husholdninger og hytter/fritidshus
-- [ ] Samle tariffer for lavspent næringskunder under 100 MWh
+- [ ] Samle tariffer for lavspent næringskunder under 100 MWh - liten næring
 - [x] Kontinuerlig oppdatere dataene ved endring hos nettselskapene
 - [ ] Maskinlesbare filer for avgifter
 
@@ -340,7 +340,7 @@ og
 [nettavregningsområder](https://elhub.no/aktorer-og-markedsstruktur/opprette-endre-og-avslutte-aktorer/planlagte-strukturendringer/).
 
 Noen netteiere er ikke med i listen
-siden de ikke har private sluttkunder. Vi filtrerer ved hjelp av en
+siden de ikke har relevante sluttkunder. Vi filtrerer ved hjelp av en
 [ignoreringsliste](./.statusignore).
 
 Netteiere i Norge identifiseres med Global Location Number (GLN). Øsnker du å
@@ -1168,6 +1168,14 @@ kan være behov for et HTTP API som gjør det enda lettere å integrere
 nettleie-data i sine løsninger. Kraftsystemet (som er gjengen som står bak
 fri-nettleie) tilbyr ikke et API, men vi vedlikeholder en
 [oversikt over hvilke nettleie API som eksisterer](https://kraftsystemet.no/artikler/nettleie-api-oversikt).
+
+### Inkluderer dere nettleie for næring?
+
+Ja, vi samler også tariffer for næring. Se status på samling i tabellen over.
+Vi samler kun for "små" næringskunder. Vi kaller det `liten_næring` og
+betyr lavspent næringskunder i distribusjonsnettet som bruker under 100 MWh. Du
+kan lese litt om bakgrunnen til hvorfor vi samler for kun denne gruppen i
+[issue #92](https://github.com/kraftsystemet/fri-nettleie/issues/92).
 
 ## Lisens
 
