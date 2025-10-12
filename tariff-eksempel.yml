@@ -55,7 +55,7 @@ tariffer:
     # Mulige verdier
     #  - husholdning - Husholdning
     #  - fritid - Hytter og fritidshus
-    #  - næring - Lavspent næringskunder under 100 MWh
+    #  - liten_næring - Lavspent næringskunder under 100 MWh
     kundegrupper:
       - husholdning
       - fritid
