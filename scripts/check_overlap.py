@@ -11,7 +11,7 @@ if __name__ == "__main__":
                 data = yaml.safe_load(f)
 
             # Check overlap between tariffs
-            intervals_private = []
+            intervals_household = []
             intervals_cabins = []
             intervals_business = []
             for t in data["tariffer"]:
@@ -19,14 +19,14 @@ if __name__ == "__main__":
                 valid_to = dateutil.parser.parse(t.get("gyldig_til", "2099-01-01"))
 
                 if "husholdning" in t["kundegrupper"]:
-                    intervals_private.append((valid_from, valid_to))
+                    intervals_household.append((valid_from, valid_to))
                 if "fritid" in t["kundegrupper"]:
                     intervals_cabins.append((valid_from, valid_to))
                 if "liten_næring" in t["kundegrupper"]:
                     intervals_business.append((valid_from, valid_to))
 
             for type, intervals in [
-                ("private", intervals_private),
+                ("household", intervals_household),
                 ("cabins", intervals_cabins),
                 ("business", intervals_business),
             ]:

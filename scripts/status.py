@@ -54,7 +54,7 @@ def print_status():
         <th>Navn</th>
         <th>GLN</th>
         <th>Oppdatert</th>
-        <th><span title="Privat">🏡</span></th>
+        <th><span title="Husholdning<f">🏡</span></th>
         <th><span title="Fritid">🏕️</span></th>
         <th><span title="Liten næring">🏭️</span></th>
         <th>Handling</th>
@@ -77,9 +77,9 @@ def print_status():
             ):
                 kundegrupper = kundegrupper.union(set(t["kundegrupper"]))
 
-        has_private = "husholdning" in kundegrupper
+        has_household = "husholdning" in kundegrupper
         has_cabins = "fritid" in kundegrupper
-        has_busniess = "liten_næring" in kundegrupper
+        has_business = "liten_næring" in kundegrupper
 
         file_name = tariff["file_name"]
         tariff.pop("file_name")
@@ -96,9 +96,9 @@ def print_status():
         print(f"  <td>{name}</td>")
         print(f"  <td>{', '.join(gln)}</td>")
         print(f'  <td style="white-space: nowrap;">{last_updated}</td>')
-        print(f"  <td>{'✅' if has_private else '❌'}</td>")
+        print(f"  <td>{'✅' if has_household else '❌'}</td>")
         print(f"  <td>{'✅' if has_cabins else '❌'}</td>")
-        print(f"  <td>{'✅' if has_busniess else '❌'}</td>")
+        print(f"  <td>{'✅' if has_business else '❌'}</td>")
         print(f"  <td>\n    {inspect_link}\n    {yaml_link}\n    {edit_link}\n  </td>")
         print("</tr>")
 
