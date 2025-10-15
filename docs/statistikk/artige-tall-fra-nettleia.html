@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Artige tall og funfacts fra nettleiepriser i Norge basert på data fra fri-nettleie prosjektet."
+    />
+    <meta property="og:image" content="../assets/artige-tall-splash.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+    <title>Artige tall fra nettleia - Kraftsystemet</title>
+    <style>
+      dt {
+        clear: both;
+        float: left;
+        margin-right: 1em;
+        font-weight: bold;
+      }
+      .breadcrumbs a {
+        margin-right: 0.5em;
+      }
+      .fun-fact {
+        background: #f9f7f1;
+        border-left: 4px solid #d4a574;
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: var(--pico-border-radius);
+        box-shadow: 0 2px 4px rgba(212, 165, 116, 0.1);
+      }
+      .fun-fact h3 {
+        margin-top: 0;
+        color: #8b5a3c;
+      }
+      .big-number {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #a0522d;
+        display: block;
+      }
+      .comparison-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin: 1rem 0;
+      }
+      @media (max-width: 768px) {
+        .comparison-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+      .highlight-box {
+        background: #f4f1ec;
+        padding: 1rem;
+        border-radius: var(--pico-border-radius);
+        text-align: center;
+        border: 1px solid #e6d7c3;
+        box-shadow: 0 1px 3px rgba(212, 165, 116, 0.08);
+      }
+      .highlight-box h4 {
+        color: #8b5a3c;
+        margin-bottom: 0.5rem;
+      }
+      .highlight-box .big-number {
+        color: #a0522d;
+      }
+      .intro-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+        margin-bottom: 2rem;
+      }
+      @media (max-width: 900px) {
+        .intro-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div role="document">
+        <h1 id="artige-tall-fra-nettleia">
+          Artige tall fra nettleia ⚡
+        </h1>
+        <p class="breadcrumbs">
+          <a href="/">Kraftsystemet</a>&rarr; <a href="./">Artikler</a>&rarr;
+          <span>Artige tall fra nettleia</span>
+        </p>
+        <hr />
+        <dl>
+          <dt>Sist oppdatert</dt>
+          <dd data-field="last_updated"></dd>
+          <dt>Skrevet av</dt>
+          <dd>Christoffer Sannes</dd>
+          <dt>Datakilde</dt>
+          <dd><a href="../../analytics/funfacts.json">Lokal data fra fri-nettleie</a></dd>
+        </dl>
+        <hr />
+
+        <div class="intro-grid">
+          <div>
+            <p>
+              
+              Nettleiepriser i Norge varierer kraftig fra netteier til netteier. Ved hjelp 
+              av data samlet inn i fri-nettleie-prosjektet har vi analysert alle 
+              <strong data-field="total_companies"></strong> netteierne i Norge for å finne 
+              de mest interessante tallene. <br /><br />Her er noen artige funn! 🔍
+            </p>
+            <p>
+              Tallene vil oppdateres periodevis når dataene i fri-nettleie-prosjektet 
+              oppdateres, så kom gjerne tilbake senere for å se om det har skjedd noen endringer! 
+              <br /><br />
+              <em>Alle tariffene er samlet inn på dugnad, bli gjerne med!</em>
+            </p>
+          </div>
+          <figure>
+            <img
+              src="../assets/artige-tall-splash.jpg"
+              alt="View to the fjord (Storfjorden) with huge electric pylons on the top of a hill, Sjøholt, Norway"
+              style="max-width:100%;height:auto;"
+            />
+            <figcaption>
+              Strøm-master på ved fjord. Foto av
+              <a href="https://unsplash.com/@davotibarna">Barnabas Davoti</a> på
+              <a
+                href="https://unsplash.com/photos/a-road-with-trees-on-the-side-grljdHG_hI4"
+                >Unsplash</a
+              >
+            </figcaption>
+          </figure>
+        </div>
+
+        <h2 id="energipriser">💡 Energiledd - hva koster strømmen?</h2>
+        
+        <div class="comparison-grid">
+          <div class="highlight-box">
+            <h4>💰 Billigst</h4>
+            <p><strong data-field="cheapest_company"></strong></p>
+            <p class="big-number" style="font-size: 1.8rem;" data-field="cheapest_price"></p>
+            <p><small>i grunnpris, unntak kan forekomme</small></p>
+          </div>
+          <div class="highlight-box">
+            <h4>💸 Dyrest</h4>
+            <p><strong data-field="most_expensive_company"></strong></p>
+            <p class="big-number" style="font-size: 1.8rem;" data-field="most_expensive_price"></p>
+            <p><small>i grunnpris, unntak kan forekomme</small></p>
+          </div>
+        </div>
+
+        <div class="fun-fact">
+          <h3>Gjennomsnittsprisen</h3>
+          <p>
+            for energi i Norge er <strong data-field="average_price"></strong>, 
+          mens <strong>medianprisen</strong> er <strong data-field="median_price"></strong>. 
+          Altså har halvparten av netteierene en pris på <span data-field="median_price_ref"></span> eller mindre.
+          </p>
+        </div>
+
+        <h2 id="fastledd">🔧 Fastledd - hvor mye koster det å være tilkoblet?</h2>
+        <p>
+            Ettersom flere netteiere har mange ulike tariffer basert på forbruk og effekttrinn,
+            sammenligner vi her kun minimumsterskler for fastledd. Det er altså minsteprisen du
+            må betale kun for å være tilkoblet strømnettet. Prisene her er uten mva da nettområdene
+            i tiltakssonene er unntatt mva på nettleie.
+
+        <div class="comparison-grid">
+          <div class="highlight-box">
+            <h4>💎 Lavest fastledd</h4>
+            <p><strong data-field="lowest_fixed_company"></strong></p>
+            <p class="big-number" style="font-size: 1.8rem;" data-field="lowest_fixed_price"></p>
+            <p><small>for laveste terskel</small></p>
+          </div>
+          <div class="highlight-box">
+            <h4>♦️ Høyest fastledd</h4>
+            <p><strong data-field="highest_fixed_company"></strong></p>
+            <p class="big-number" style="font-size: 1.8rem;" data-field="highest_fixed_price"></p>
+            <p><small>for laveste terskel</small></p>
+          </div>
+        </div>
+
+        <div class="fun-fact">
+          <h3>⚡ Ekstrem forskjell i fastledd</h3>
+          <p>
+            Forskjellen mellom høyeste og laveste fastledd i Norge er hele 
+            <span class="big-number" data-field="fixed_charge_spread"></span>
+            Det <strong>gjennomsnittlige fastleddet</strong> i Norge er <strong data-field="average_fixed"></strong>. 
+          </p>
+        </div>
+
+        <p>
+          
+          Interessant nok er det <span data-field="lowest_fixed_company_ref"></span> som både har høyest energipris 
+          <em>og</em> lavest fastledd!
+        </p>
+
+        <h2 id="kompleksitet">🧩 Kompleksitet - hvor avanserte er tariffene?</h2>
+
+        <div class="fun-fact">
+          <h3>🏗️ Mest kompliserte tariffer</h3>
+          <p>
+            <strong data-field="most_complex_company"></strong> har den mest komplekse tariffstrukturen med hele 
+            <span class="big-number" data-field="most_complex_tiers"></span>
+          </p>
+        </div>
+
+        <p>
+          <strong data-field="all_companies_with_tiers"></strong> bruker effekttrinn i sine tariffer, noe som viser at 
+          den nye nettleiemodellen fra 2022 er fullt implementert over hele landet. 
+          Effekttrinn betyr at prisen på fastledd øker jo mer strøm du bruker samtidig.
+        </p>
+
+        <h2 id="oppdateringer">🔄 Oppdateringer - hvem endrer tariffene oftest?</h2>
+
+        <div class="comparison-grid">
+          <div class="highlight-box">
+            <h4>🆕 Sist oppdatert</h4>
+            <p><strong data-field="most_recent_company"></strong></p>
+            <p>For <strong data-field="most_recent_days"></strong> siden</p>
+            <p><small data-field="most_recent_date"></small></p>
+          </div>
+          <div class="highlight-box">
+            <h4>⏰ Lengst siden oppdatering</h4>
+            <p><strong data-field="oldest_company"></strong></p>
+            <p>For <strong data-field="oldest_days"></strong> siden</p>
+            <p><small data-field="oldest_date"></small></p>
+          </div>
+        </div>
+
+        <div class="fun-fact">
+          <h3>🗓️ Aktivitet siste måneden</h3>
+          <p>
+            Kun <span class="big-number" data-field="last_30_days"></span> netteiere har oppdatert 
+            tariffene sine de siste 30 dagene.
+          </p>
+        </div>
+
+        <h2 id="dekning">🗺️ Dekning - hvem dekker flest områder?</h2>
+
+        <p>
+          De fleste netteiere dekker kun ett område, men <strong data-field="multiple_areas_count"></strong> 
+          dekker flere områder. <strong data-field="largest_coverage_company"></strong> topper listen med 
+          <strong data-field="largest_coverage_areas"></strong>.
+        </p>
+
+        <h2 id="konklusjon">🎯 Hva betyr dette for deg?</h2>
+
+        <div class="fun-fact">
+          <h3>💡 Viktig å vite</h3>
+          <p>
+            Som forbruker har du normalt ikke valg av netteier - det bestemmes av hvor du bor. 
+            Men tallene viser at det lønner seg å forstå din egen tariff for å kunne 
+            styre strømforbruket smart! 
+          </p>
+        </div>
+
+        <p>
+          De store forskjellene i nettleiepriser gjenspeiler ulike forhold som:
+        </p>
+        <ul>
+          <li><strong>Geografi</strong> - lange avstander og få kunder er dyrere å betjene</li>
+          <li><strong>Infrastruktur</strong> - alder og tilstand på nettet påvirker kostnadene</li>
+          <li><strong>Kundetetthet</strong> - mange kunder per kilometer nett gir lavere kostnader per kunde</li>
+          <li><strong>Topografi</strong> - fjell og vann gjør utbygging dyrere</li>
+        </ul>
+
+        <h2 id="metodikk">📋 Om dataene</h2>
+
+        <p>
+          Alle tall i denne analysen er basert på data fra 
+          <a href="https://github.com/kraftsystemet/fri-nettleie">fri-nettleie prosjektet</a>, 
+          som er en dugnad for å samle alle nettleie-tariffer i Norge på et åpent og tilgjengelig format. 
+        </p>
+
+        <p>
+          Dataene ble sist oppdatert <strong data-field="last_updated"></strong> og dekker 
+          <strong data-field="total_companies_ref"></strong> i Norge. Analysen fokuserer på privatkunder 
+          og ser på gjeldende tariffer per <span data-field="analysis_date"></span>.
+        </p>
+
+        <p>
+          <em>
+            Har du spørsmål om analysen eller dataene? 
+            <a href="https://github.com/kraftsystemet/fri-nettleie/issues">Ta kontakt via GitHub Issues</a> 
+            eller via e-post til prosjektet.
+          </em>
+        </p>
+
+      </div>
+    </main>
+
+    <script>
+      // Constants
+      const LOADING_TEXT = 'Laster...';
+      
+      // Fetch and update data from lokal funfacts.json
+      async function updateFunFacts() {
+        try {
+          const response = await fetch('../assets/funfacts.json');
+          const data = await response.json();
+          
+          // Format helpers
+          const formatDate = (dateStr) => new Date(dateStr).toLocaleDateString('nb-NO');
+          const formatNumber = (num) => num.toLocaleString('nb-NO');
+          const generatedDate = new Date(data.meta.generated_at);
+          
+          const fieldMap = {
+            // Meta data
+            'last_updated': generatedDate.toLocaleDateString('nb-NO', { day: 'numeric', month: 'long', year: 'numeric' }),
+            'total_companies': `${data.meta.total_companies}`,
+            'total_companies_ref': `${data.meta.total_companies} netteiere`,
+            'analysis_date': generatedDate.toLocaleDateString('nb-NO', { month: 'long', year: 'numeric' }),
+            
+            // Energy prices
+            'cheapest_company': data.energy_prices.cheapest.company,
+            'cheapest_price': `${data.energy_prices.cheapest.price_ore_kwh} øre/kWh`,
+            'most_expensive_company': data.energy_prices.most_expensive.company,
+            'most_expensive_price': `${data.energy_prices.most_expensive.price_ore_kwh} øre/kWh`,
+            'average_price': `${data.energy_prices.average_ore_kwh} øre/kWh`,
+            'median_price': `${data.energy_prices.median_ore_kwh} øre/kWh`,
+            'median_price_ref': `${data.energy_prices.median_ore_kwh} øre`,
+            
+            // Fixed charges
+            'fixed_charge_spread': `${formatNumber(data.fixed_charges.spread_kr_year)} kr/år`,
+            'lowest_fixed_company': data.fixed_charges.lowest.company,
+            'lowest_fixed_price': `${formatNumber(data.fixed_charges.lowest.amount_kr_year)} kr/år`,
+            'highest_fixed_company': data.fixed_charges.highest.company,
+            'highest_fixed_price': `${formatNumber(data.fixed_charges.highest.amount_kr_year)} kr/år`,
+            'average_fixed': `${formatNumber(Math.round(data.fixed_charges.average_kr_year))} kr/år`,
+            'lowest_fixed_company_ref': data.fixed_charges.lowest.company,
+            
+            // Complexity
+            'most_complex_company': data.complexity.most_complex.company,
+            'most_complex_tiers': `${data.complexity.most_complex.power_tiers} effekttrinn`,
+            'all_companies_with_tiers': `Alle ${data.complexity.companies_with_multiple_tiers} netteiere`,
+            
+            // Updates
+            'most_recent_company': data.updates.most_recent.company,
+            'most_recent_days': `${data.updates.most_recent.days_ago} dager`,
+            'most_recent_date': `(${formatDate(data.updates.most_recent.date)})`,
+            'oldest_company': data.updates.oldest.company,
+            'oldest_days': `${data.updates.oldest.days_ago} dager`,
+            'oldest_date': `(${formatDate(data.updates.oldest.date)})`,
+            'last_30_days': `${data.updates.updated_last_30_days} av ${data.meta.total_companies}`,
+            
+            // Coverage
+            'multiple_areas_count': `${data.coverage.large_companies_multiple_areas} netteiere`,
+            'largest_coverage_company': data.coverage.largest_coverage.company,
+            'largest_coverage_areas': `${data.coverage.largest_coverage.area_count} ulike tariffmodeller`
+          };
+          
+          // Update all elements with data-field attributes
+          document.querySelectorAll('[data-field]').forEach(element => {
+            const field = element.getAttribute('data-field');
+            if (fieldMap[field]) {
+              element.textContent = fieldMap[field];
+            }
+          });
+          
+          console.log('Fun facts updated successfully!');
+        } catch (error) {
+          console.error('Failed to fetch fun facts:', error);
+        }
+      }
+      
+      // Set loading text on all data fields
+      function setLoadingText() {
+        document.querySelectorAll('[data-field]').forEach(element => {
+          element.textContent = LOADING_TEXT;
+        });
+      }
+      
+      // Initialize page
+      document.addEventListener('DOMContentLoaded', () => {
+        setLoadingText();
+        updateFunFacts();
+      });
+    </script>
+  </body>
+</html>

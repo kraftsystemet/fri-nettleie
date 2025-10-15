@@ -240,7 +240,7 @@ def generate_funfacts_json():
     
     return funfacts
 
-def save_funfacts_json(filename="funfacts.json"):
+def save_funfacts_json(filename="../docs/assets/funfacts.json"):
     """Save fun facts to JSON file."""
     funfacts = generate_funfacts_json()
     
