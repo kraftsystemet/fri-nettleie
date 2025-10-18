@@ -3,7 +3,9 @@ netteier: 'Lucerna AS'
 gln:
   - '7080005050661'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

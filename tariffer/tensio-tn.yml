@@ -49,9 +49,13 @@ tariffer:
           terskel: 500
     gyldig_fra: '2024-09-01'
     navn: Nord
-    kundegruppe: privat
+    kundegrupper:
+      - husholdning
+      - fritid
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -95,7 +99,9 @@ tariffer:
           dager: [alle]
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-07-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

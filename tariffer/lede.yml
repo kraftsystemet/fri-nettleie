@@ -7,7 +7,9 @@ kilder:
   - 'https://lede.no/getfile.php/1353399-1720173926/Lede/Filer/Prislister/Priser%20nettleie%2001.08.24.pdf'
   - 'https://lede.no/priser/nettleie-privatkunder/'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

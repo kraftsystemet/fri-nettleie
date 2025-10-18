@@ -7,7 +7,9 @@ kilder:
   - 'https://ke-nett.no/getfile.php/132301-1757669563/Dokumenter/Nettleige/Nettleigebrosjyre%202025_01102025.pdf'
   - 'https://ke-nett.no/Nettleiepriser/'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -39,7 +41,9 @@ tariffer:
           dager: [ukedag]
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -71,7 +75,9 @@ tariffer:
           dager: [ukedag]
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-05-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -103,7 +109,9 @@ tariffer:
           dager: [ukedag]
     gyldig_fra: '2025-05-01'
     gyldig_til: '2025-10-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

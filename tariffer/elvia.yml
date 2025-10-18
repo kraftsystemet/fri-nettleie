@@ -8,7 +8,9 @@ kilder:
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/'
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleie-pris/'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -42,7 +44,9 @@ tariffer:
           pris: 24.56
     gyldig_fra: '2024-10-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -76,7 +80,9 @@ tariffer:
           pris: 23.21
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-04-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

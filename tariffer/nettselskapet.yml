@@ -8,7 +8,9 @@ kilder:
   - 'https://nettselskapet.as/privat-priser2025/'
 sist_oppdatert: '2024-12-27'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -37,7 +39,9 @@ tariffer:
           pris: 21.504
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

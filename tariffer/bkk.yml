@@ -7,7 +7,9 @@ kilder:
   - 'https://www.bkk.no/alt-om-nettleie/nettleiepriser'
   - 'https://www.bkk.no/nettleiepriser/priser-privatkunder'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -41,7 +43,9 @@ tariffer:
           dager: [virkedag]
     gyldig_fra: '2024-04-01'
     gyldig_til: '2025-09-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

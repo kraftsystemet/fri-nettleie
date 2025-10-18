@@ -4,7 +4,9 @@ gln:
   - '7080011085770'
 sist_oppdatert: '2025-01-25'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -25,7 +27,9 @@ tariffer:
       grunnpris: 30
     gyldig_fra: '2022-10-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

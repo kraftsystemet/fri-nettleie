@@ -51,11 +51,13 @@ def load_collected_tariffs():
             tariff = None
             for t in data["tariffer"]:
                 # TODO better time sync between collected and NVE
-                if dateutil.parser.parse(
-                    t["gyldig_fra"]
-                ) <= datetime.today() + timedelta(days=14) and dateutil.parser.parse(
-                    t.get("gyldig_til", "2099-01-01")
-                ) > datetime.today() + timedelta(days=14):
+                if (
+                    dateutil.parser.parse(t["gyldig_fra"])
+                    <= datetime.today() + timedelta(days=14)
+                    and dateutil.parser.parse(t.get("gyldig_til", "2099-01-01"))
+                    > datetime.today() + timedelta(days=14)
+                    and "husholdning" in t["kundegrupper"]
+                ):
                     energiledd = []
                     energiledd.append(t["energiledd"]["grunnpris"])
 

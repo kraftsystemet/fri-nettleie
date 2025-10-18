@@ -133,11 +133,11 @@
                 <input type="date" id="gyldig_til" x-model="tariff.gyldig_til" placeholder="Enter gyldig til">
             </div>
             <div class="input-group">
-                <label for="kundegruppe">Kundegruppe:</label>
-                <select id="kundegruppe" x-model="tariff.kundegruppe" default="privat" placeholder="Enter kundegruppe">
-                    <option value="privat">privat</option>
-                    <option value="hytter">hytter</option>
+                <label for="kundegrupper">Kundegrupper:</label>
+                <select id="kundegrupper" x-model="tariff.kundegrupper" default="husholdning, fritid" placeholder="Enter kundegruppe(r)" multiple>
                     <option value="husholdning">husholdning</option>
+                    <option value="fritid">fritid</option>
+                    <option value="liten_næring">liten_næring</option>
                 </select>
             </div>
 
@@ -395,7 +395,7 @@
         function app() {
 
             newTariff = {
-                        kundegruppe: 'privat',
+                        kundegrupper: ['husholdning', 'fritid'],
                         fastledd: {
                             metode: 'TRE_DØGNMAX_MND',
                             terskel_inkludert: true,

@@ -33,9 +33,13 @@ tariffer:
         - pris: 13380
           terskel: 25
     gyldig_fra: '2024-01-01'
-    kundegruppe: privat
+    kundegrupper:
+      - husholdning
+      - fritid
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -64,7 +68,9 @@ tariffer:
           dager: [fredag]
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-04-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

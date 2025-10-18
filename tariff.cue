@@ -24,7 +24,7 @@ import (
     gyldig_fra!: time.Format(time.RFC3339Date)
     gyldig_til?: time.Format(time.RFC3339Date)
     navn?: string
-    kundegruppe!: "husholdning" | "hytte" | "privat"
+    kundegrupper!: [...#Kundegrupper]
     energiledd!: #Energiledd
     fastledd!: #Fastledd
 }
@@ -45,6 +45,7 @@ import (
 
 #Dag: "mandag" | "tirsdag" | "onsdag" | "torsdag" | "fredag" | "lørdag" | "søndag" | "ukedag" | "helg" | "helligdager" | "fridag" | "virkedag" | "alle"
 #Måned: "januar" | "februar" | "mars" | "april" | "mai" | "juni" | "juli" | "august" | "september" | "oktober" | "november" | "desember"
+#Kundegrupper: "husholdning" | "fritid" | "liten_næring"
 
 #Fastledd: {
     metode!: "TRE_DØGNMAX_MND" | "FEM_VEKTET_ÅR" | "OV_TREFASE" | "MND_MAX" | "UKJENT"
