@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-10-13T21:20:44.509814",
+    "generated_at": "2025-10-18T08:58:57.550349",
     "total_companies": 75
   },
   "energy_prices": {
@@ -38,18 +38,17 @@
   "updates": {
     "most_recent": {
       "company": "Everket AS",
-      "days_ago": 22,
+      "days_ago": 27,
       "date": "2025-09-21"
     },
     "oldest": {
       "company": "Kystnett AS",
-      "days_ago": 651,
+      "days_ago": 656,
       "date": "2024-01-01"
     },
-    "updated_last_30_days": 5
+    "updated_last_30_days": 4
   },
   "coverage": {
-    "total_companies": 75,
     "large_companies_multiple_areas": 3,
     "largest_coverage": {
       "company": "Føie AS",
