@@ -27,7 +27,7 @@ if __name__ == "__main__":
                             f"Level {next_level} in {filename} - {valid_from} is lower or equal to level {level}"
                         )
 
-                    if next_price <= price:
+                    if next_price < price:
                         print(
                             f"Price {next_price} on level {next_level} in {filename} - {valid_from} is lower or equal to price {price} on level {level}"
                         )
