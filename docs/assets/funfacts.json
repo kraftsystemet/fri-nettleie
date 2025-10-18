@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2025-10-18T08:58:57.550349",
+    "generated_at": "2025-10-18T17:50:04.152120",
     "total_companies": 75
   },
   "energy_prices": {
@@ -37,16 +37,16 @@
   },
   "updates": {
     "most_recent": {
-      "company": "Everket AS",
-      "days_ago": 27,
-      "date": "2025-09-21"
+      "company": "KE Nett AS",
+      "days_ago": 17,
+      "date": "2025-10-01"
     },
     "oldest": {
-      "company": "Kystnett AS",
+      "company": "Lucerna AS",
       "days_ago": 656,
       "date": "2024-01-01"
     },
-    "updated_last_30_days": 4
+    "updated_last_30_days": 5
   },
   "coverage": {
     "large_companies_multiple_areas": 3,

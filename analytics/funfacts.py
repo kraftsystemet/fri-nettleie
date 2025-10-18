@@ -104,26 +104,29 @@ def analyze_tariff_complexity(tariffs):
     return complexity
 
 def analyze_update_frequency(tariffs):
-    """Analyze how often tariffs are updated."""
+    """Analyze how often tariffs are updated. We do this using the gyldig_fra as
+    sist_oppdatert is when we last changed the data, not when the tariff was last changed."""
     updates = []
     today = datetime.now().date()
-    
+
     for name, data in tariffs.items():
         netteier = data.get('netteier', name)
-        sist_oppdatert = data.get('sist_oppdatert')
-        
-        if sist_oppdatert:
-            try:
-                update_date = dateutil.parser.parse(sist_oppdatert).date()
-                days_since_update = (today - update_date).days
-                
-                # Only include updates that are not in the future as there shouldn't be
-                # should track the ones that are somewhere else
-                if days_since_update >= 0:
-                    updates.append((netteier, update_date, days_since_update, name))
-            except:
-                pass
-    
+        # Find the most recent gyldig_fra among all tariffs
+        latest_date = None
+        for tariff in data.get('tariffer', []):
+            gyldig_fra = tariff.get('gyldig_fra')
+            if gyldig_fra:
+                try:
+                    update_date = dateutil.parser.parse(gyldig_fra).date()
+                    if update_date <= today:
+                        if latest_date is None or update_date > latest_date:
+                            latest_date = update_date
+                except:
+                    pass
+        if latest_date:
+            days_since_update = (today - latest_date).days
+            updates.append((netteier, latest_date, days_since_update, name))
+
     updates.sort(key=lambda x: x[2])
     return updates
 
