@@ -131,6 +131,7 @@ Der viser vi også en forenklet bereging av avgifter.
 Selv om det kan være nyttig er det følgende foreløpig ikke en del av dette
 prosjektet
 
+* tariff for høyspent næring
 * tariff for ikke automatisk avlesning
 * vedlikeholde historiske priser
 
