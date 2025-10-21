@@ -209,6 +209,13 @@
                     </tr>
                 </template>
             </table>
+            <div x-show="!isTerskelLevelStrictlyIncreasing(index)" style="color: red; margin-bottom: 1em;">
+                Terskelnivåene må være strengt stigende!
+            </div>
+            <div x-show="!isTerskelPriceMonotonicallyIncreasing(index)" style="color: red; margin-bottom: 1em;">
+                Terskelprisene må være like eller stigende!
+            </div>
+
 
             <h4>Energiledd (øre)</h4>
             <div class="input-group">
@@ -499,6 +506,20 @@
                         return;
                     }
                     this.data = JSON.parse(atob(dataParam));
+                },
+                isTerskelLevelStrictlyIncreasing(index) {
+                    const terskler = this.data.tariffer[index].fastledd.terskler;
+                    for (let i = 1; i < terskler.length; i++) {
+                        if (terskler[i].terskel <= terskler[i-1].terskel) return false;
+                    }
+                    return true;
+                },
+                isTerskelPriceMonotonicallyIncreasing(index) {
+                    const terskler = this.data.tariffer[index].fastledd.terskler;
+                    for (let i = 1; i < terskler.length; i++) {
+                        if (terskler[i].pris < terskler[i-1].pris) return false;
+                    }
+                    return true;
                 }
 
             };

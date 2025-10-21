@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "generated_at": "2025-10-18T17:50:04.152120",
+    "total_companies": 75
+  },
+  "energy_prices": {
+    "cheapest": {
+      "company": "Noranett AS",
+      "price_ore_kwh": 0.8
+    },
+    "most_expensive": {
+      "company": "Mostraum Nett AS",
+      "price_ore_kwh": 39
+    },
+    "price_spread_ore_kwh": 38.2,
+    "average_ore_kwh": 17.2,
+    "median_ore_kwh": 18
+  },
+  "fixed_charges": {
+    "highest": {
+      "company": "Area Nett AS - NettiNord",
+      "amount_kr_year": 6300
+    },
+    "lowest": {
+      "company": "Mostraum Nett AS",
+      "amount_kr_year": 750
+    },
+    "average_kr_year": 2809.0,
+    "spread_kr_year": 5550
+  },
+  "complexity": {
+    "most_complex": {
+      "company": "Fjellnett AS",
+      "power_tiers": 22
+    },
+    "companies_with_multiple_tiers": 75
+  },
+  "updates": {
+    "most_recent": {
+      "company": "KE Nett AS",
+      "days_ago": 17,
+      "date": "2025-10-01"
+    },
+    "oldest": {
+      "company": "Lucerna AS",
+      "days_ago": 656,
+      "date": "2024-01-01"
+    },
+    "updated_last_30_days": 5
+  },
+  "coverage": {
+    "large_companies_multiple_areas": 3,
+    "largest_coverage": {
+      "company": "Føie AS",
+      "area_count": 3
+    }
+  }
+}

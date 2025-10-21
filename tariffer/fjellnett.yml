@@ -122,13 +122,13 @@ tariffer:
       terskler:
         - terskel: 0
           pris: 2000
-        - terskel: 0
-          pris: 2482.4
         - terskel: 1
-          pris: 2964
+          pris: 2482.4
         - terskel: 2
-          pris: 3446.4
+          pris: 2964
         - terskel: 3
+          pris: 3446.4
+        - terskel: 4
           pris: 3928
         - terskel: 5
           pris: 4410.4

@@ -54,7 +54,7 @@ def print_status():
         <th>Navn</th>
         <th>GLN</th>
         <th>Oppdatert</th>
-        <th><span title="Husholdning<f">🏡</span></th>
+        <th><span title="Husholdning">🏡</span></th>
         <th><span title="Fritid">🏕️</span></th>
         <th><span title="Liten næring">🏭️</span></th>
         <th>Handling</th>
