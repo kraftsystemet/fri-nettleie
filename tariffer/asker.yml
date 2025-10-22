@@ -2,10 +2,11 @@
 netteier: 'Asker Nett'
 gln:
   - '7080003858825'
-sist_oppdatert: '2024-11-27'
+sist_oppdatert: '2025-10-22'
 kilder:
   - 'https://askernett.no/nettleie-og-priser/'
   - 'https://askernett.no/prisliste-for-privatkunder-i-2024/'
+  - 'https://askernett.no/prisliste-for-naeringskunder-i-2025/'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -35,9 +36,9 @@ tariffer:
         - terskel: 100
           pris: 51840
     energiledd:
-      grunnpris: 15.888
+      grunnpris: 15.89
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 23.888
+          pris: 23.89
     gyldig_fra: '2024-01-01'
