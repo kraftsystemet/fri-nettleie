@@ -5,7 +5,7 @@ gln:
 kilder:
   - 'https://www.elinett.no/kunde/nettleie-2'
   - 'https://www.elinett.no/kunde/nettleie-2/nettleie'
-sist_oppdatert: '2025-09-16'
+sist_oppdatert: '2025-10-22'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -46,30 +46,31 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
       terskler:
         - terskel: 0
-          pris: 2409.6
+          pris: 2412
         - terskel: 2
-          pris: 3014.4
+          pris: 3012
         - terskel: 5
-          pris: 3609.6
+          pris: 3612
         - terskel: 10
-          pris: 6019.2
+          pris: 6024
         - terskel: 15
-          pris: 7228.8
+          pris: 7224
         - terskel: 20
-          pris: 8428.8
+          pris: 8424
         - terskel: 25
-          pris: 12038.4
+          pris: 12036
         - terskel: 50
-          pris: 13238.4
+          pris: 13248
         - terskel: 75
           pris: 14448
         - terskel: 100
-          pris: 18057.6
+          pris: 18060
     energiledd:
       grunnpris: 14.64
       unntak:
