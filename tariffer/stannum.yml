@@ -4,9 +4,8 @@ gln:
   - '7080010003959'
 kilder:
   - 'https://stannum.no/nettleiepriser'
-  - 'https://stannum.no/uploads/Nettleiepriser-01.09.24-V3.00.pdf'
-  - 'https://stannum.no/uploads/Nettleiepriser-01.01.25.pdf'
-sist_oppdatert: '2024-12-20'
+  - 'https://stannum.no/uploads/Nettleiepriser-01.10.25.pdf'
+sist_oppdatert: '2025-10-22'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -78,6 +77,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
