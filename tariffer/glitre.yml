@@ -4,9 +4,10 @@ gln:
   - '7080005056069'
   - '7080005052672'
   - '7080005053273'
-sist_oppdatert: '2025-01-21'
+sist_oppdatert: '2025-10-22'
 kilder:
   - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-privatkunde'
+  - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-mindre-bedriftskunder'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -46,6 +47,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
