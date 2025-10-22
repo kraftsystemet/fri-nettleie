@@ -3,12 +3,14 @@ netteier: 'Bindal Kraftlag Nett'
 gln:
   - '7080005055963'
 kilder:
-  - 'https://nett.bindalkraftlag.no/nett/priser/'
-  - 'https://nett.bindalkraftlag.no/2024/12/30/nettleie-2025/'
+  - 'https://bindalkraftlag.no/tariffer'
+  - 'https://bindalkraftlag.no/uploads/Dok/nett-tariffer-2025-2.pdf'
+sist_oppdatert: '2025-10-22'
 tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: false
@@ -40,4 +42,3 @@ tariffer:
           timer: 6-21
           pris: 26.3
     gyldig_fra: '2025-01-01'
-sist_oppdatert: '2025-01-09'
