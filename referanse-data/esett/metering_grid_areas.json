@@ -1387,7 +1387,7 @@
         "mba": "NO3",
         "mgaCode": "50Y4F26BF0CRRCDE",
         "mgaName": "SFE1",
-        "mgaType": "REGIONAL"
+        "mgaType": "DISTRIBUTION"
     },
     {
         "country": "NO",
@@ -1407,6 +1407,16 @@
         "mba": "NO5",
         "mgaCode": "50Y7Q1NT7E5QLMKX",
         "mgaName": "SFE3",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080001319830",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Linja AS",
+        "mba": "NO3",
+        "mgaCode": "50YRHZQIU1OOD8PZ",
+        "mgaName": "SFE4",
         "mgaType": "REGIONAL"
     },
     {
@@ -1598,6 +1608,16 @@
         "mgaCode": "50YIV1POD8P6ANDW",
         "mgaName": "TROLLF1",
         "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080011115484",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Nordic paper",
+        "mba": "NO1",
+        "mgaCode": "50YA7IG8DMEE3TFZ",
+        "mgaName": "NORPAP",
+        "mgaType": "INDUSTRIAL"
     },
     {
         "country": "NO",
