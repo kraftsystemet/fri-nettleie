@@ -2,10 +2,11 @@
 netteier: 'BKK AS '
 gln:
   - '7080005051378'
-sist_oppdatert: '2025-08-25'
+sist_oppdatert: '2025-10-22'
 kilder:
   - 'https://www.bkk.no/alt-om-nettleie/nettleiepriser'
   - 'https://www.bkk.no/nettleiepriser/priser-privatkunder'
+  - 'https://www.bkk.no/alt-om-nettleie/nettleie-for-bedriftskunder'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -46,6 +47,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
