@@ -2,7 +2,7 @@
 netteier: 'Area Nett AS - NettiNord'
 gln:
   - '7080004087071'
-sist_oppdatert: '2025-01-14'
+sist_oppdatert: '2025-10-22'
 kilder:
   - 'https://www.area.no/kunde-og-nettleie/priser-og-nettleie/'
   - 'https://www.area.no/getfile.php/131319-1734525121/Filer/PRISBLAD%20TARIFFER%202025.pdf'
@@ -10,6 +10,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
