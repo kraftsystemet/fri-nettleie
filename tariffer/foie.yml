@@ -6,11 +6,12 @@ gln:
   - '7080005050654'
 kilder:
   - 'https://www.foie.no/nettleie/priser'
-sist_oppdatert: '2025-08-11'
+sist_oppdatert: '2025-10-22'
 tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
