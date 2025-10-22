@@ -3,13 +3,14 @@ netteier: 'Arva AS'
 gln:
   - '7080005051859'
   - '7080005051361'
-sist_oppdatert: '2024-12-27'
+sist_oppdatert: '2024-10-22'
 kilder:
   - 'https://arva.no/hjem/Priser'
 tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
