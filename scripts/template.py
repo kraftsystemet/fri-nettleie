@@ -33,6 +33,7 @@ for filename in os.listdir("tariffer"):
                 dateutil.parser.parse(t["gyldig_fra"]) <= datetime.today()
                 and dateutil.parser.parse(t.get("gyldig_til", "2099-01-01"))
                 > datetime.today()
+                and "husholdning" in t["kundegrupper"]
             ):
                 data["gyldig_tariff"] = t
 

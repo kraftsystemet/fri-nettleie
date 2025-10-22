@@ -7,7 +7,9 @@ kilder:
   - 'https://www.barents-nett.no/getfile.php/1314116-1751007532/Dokumenter/Nett/Nettleie/Nettleiebrosjyre%2001.07.2025.pdf'
 sist_oppdatert: '2025-07-02'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -28,7 +30,9 @@ tariffer:
       grunnpris: 13.1
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-07-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

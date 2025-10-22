@@ -41,4 +41,6 @@ tariffer:
           terskel: 100
     gyldig_fra: '2024-07-01'
     navn: Nord
-    kundegruppe: privat
+    kundegrupper:
+      - husholdning
+      - fritid

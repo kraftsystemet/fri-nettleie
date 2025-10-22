@@ -55,8 +55,12 @@ tariffer:
           terskel: 20
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
-    kundegruppe: privat
-  - kundegruppe: privat
+    kundegrupper:
+      - husholdning
+      - fritid
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: FEM_VEKTET_ÅR
       terskel_inkludert: true
@@ -109,7 +113,9 @@ tariffer:
       grunnpris: 12.43
     gyldig_fra: '2025-01-01'
     gyldig_til: '2025-07-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: FEM_VEKTET_ÅR
       terskel_inkludert: true

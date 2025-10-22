@@ -6,7 +6,9 @@ sist_oppdatert: '2024-12-02'
 kilder:
   - 'https://www.tendranett.no/prisar-og-vilkar-for-nettleige'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
     fastledd:
@@ -39,7 +41,9 @@ tariffer:
         - navn: Dag
           timer: 6-21
           pris: 12.08
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     gyldig_fra: '2025-01-01'
     fastledd:
       metode: TRE_DØGNMAX_MND
@@ -72,7 +76,9 @@ tariffer:
           timer: 6-21
           pris: 19
     gyldig_til: '2025-06-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

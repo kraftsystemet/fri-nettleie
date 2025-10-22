@@ -8,7 +8,9 @@ kilder:
   - 'https://www.foie.no/nettleie/priser'
 sist_oppdatert: '2025-08-11'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true

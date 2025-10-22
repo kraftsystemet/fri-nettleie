@@ -7,7 +7,9 @@ kilder:
   - 'https://www.sunndalenerginett.no/nettleie/nettavtaler/nettleie-privat/'
 sist_oppdatert: '2025-01-04'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: OV_TREFASE
       terskel_inkludert: true
@@ -26,7 +28,9 @@ tariffer:
           måneder: [januar, februar, mars, april, november, desember]
     gyldig_fra: '2024-04-01'
     gyldig_til: '2025-01-01'
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: OV_TREFASE
       terskel_inkludert: true

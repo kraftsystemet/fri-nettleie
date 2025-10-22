@@ -6,7 +6,9 @@ sist_oppdatert: '2024-12-07'
 kilder:
   - 'https://fagne.no/kunde-og-nettleie/nettleie-priser-og-vilkar/priser-privatkunder/'
 tariffer:
-  - kundegruppe: privat
+  - kundegrupper:
+      - husholdning
+      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
