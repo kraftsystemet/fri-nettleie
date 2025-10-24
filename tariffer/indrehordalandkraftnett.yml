@@ -31,7 +31,7 @@ tariffer:
     energiledd:
       grunnpris: 28.56
     gyldig_fra: '2024-10-01'
-    gyldig_til: '2025-05-01'
+    gyldig_til: '2025-10-01'
   - kundegrupper:
       - husholdning
       - fritid
@@ -62,4 +62,4 @@ tariffer:
           pris: 69120
     energiledd:
       grunnpris: 28.55
-    gyldig_fra: '2025-05-01'
+    gyldig_fra: '2025-10-01'
