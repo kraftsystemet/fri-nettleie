@@ -2,7 +2,11 @@
 netteier: 'Lysna AS'
 gln:
   - '7080010013088'
-sist_oppdatert: '2024-12-02'
+sist_oppdatert: '2025-10-23'
+kilder:
+  - 'https://lysna.no/prisar-for-private-kundar-2024'
+  - 'https://lysna.no/prisar-for-mindre-naeringslivskundar-2024-forbruk-under-100-000-kwh-2'
+  - 'https://lysna.no/prisar-2'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -30,6 +34,36 @@ tariffer:
           timer: 6-21
           pris: 32
     gyldig_fra: '2024-02-01'
-kilder:
-  - 'https://lysna.no/prisar-for-private-kundar-2024'
-  - 'https://lysna.no/prisar-2'
+  - kundegrupper:
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 5400
+        - terskel: 2
+          pris: 6000
+        - terskel: 5
+          pris: 6600
+        - terskel: 10
+          pris: 7200
+        - terskel: 15
+          pris: 8400
+        - terskel: 20
+          pris: 9600
+        - terskel: 25
+          pris: 10800
+        - terskel: 50
+          pris: 12000
+        - terskel: 75
+          pris: 13200
+        - terskel: 100
+          pris: 14400
+    energiledd:
+      grunnpris: 22
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 30
+    gyldig_fra: '2024-02-01'
