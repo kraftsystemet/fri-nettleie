@@ -2,7 +2,7 @@
 netteier: 'Haringnett AS'
 gln:
   - '7080010001276'
-sist_oppdatert: '2025-03-30'
+sist_oppdatert: '2025-10-23'
 kilder:
   - 'https://www.haringnett.no/nettleigeprisar2025'
 tariffer:
@@ -73,6 +73,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -89,6 +90,14 @@ tariffer:
           pris: 10080
         - terskel: 20
           pris: 12000
+        - terskel: 25
+          pris: 24000
+        - terskel: 50
+          pris: 36000
+        - terskel: 75
+          pris: 48000
+        - terskel: 100
+          pris: 72000
     energiledd:
       grunnpris: 12
       unntak:
