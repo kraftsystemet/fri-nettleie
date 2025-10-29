@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # A script to check for overlapping tariff intervals within each tarrif file.
+# Also checks for gaps in the intervals.
 import os
 import dateutil.parser
 import yaml
@@ -36,4 +37,8 @@ if __name__ == "__main__":
                     if intervals[i + 1][0] < intervals[i][1]:
                         print(
                             f"Overlap between {intervals[i][0]} and {intervals[i + 1][0]} in {filename} for {type}"
+                        )
+                    if intervals[i + 1][0] > intervals[i][1]:
+                        print(
+                            f"Gap between {intervals[i][1]} and {intervals[i + 1][0]} in {filename} for {type}"
                         )
