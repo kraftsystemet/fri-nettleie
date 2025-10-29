@@ -3,8 +3,8 @@ netteier: 'Netera AS'
 gln:
   - '7080010003218'
 kilder:
-  - 'https://www.sunndalenerginett.no/nettleie/'
-  - 'https://www.sunndalenerginett.no/nettleie/nettavtaler/nettleie-privat/'
+  - 'https://netera.no/nettleie/avtaler/bedrift/'
+  - 'https://netera.no/nettleie/avtaler/privat/'
 sist_oppdatert: '2025-01-04'
 tariffer:
   - kundegrupper:
