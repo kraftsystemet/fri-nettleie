@@ -3,9 +3,8 @@ netteier: 'Nettselskapet AS'
 gln:
   - '7080004064553'
 kilder:
-  - 'https://nettselskapet.as/nettleie/'
-  - 'https://nettselskapet.as/privat-2024/'
-  - 'https://nettselskapet.as/privat-priser2025/'
+  - 'https://nettselskapet.as/strompris'
+  - 'https://nettselskapet.as/strompris-2'
 sist_oppdatert: '2024-12-27'
 tariffer:
   - kundegrupper:
