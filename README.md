@@ -276,9 +276,13 @@ Vi trenger all den hjelp vi kan få!
 
 ### Samle data
 
-Vi har data for alle netteiere, men det oppstår stadig endringer. Følg med på
+Vi har data for husholdning og fritid for alle netteiere, men det oppstår stadig
+endringer. Følg med på
 [issues](https://github.com/kraftsystemet/fri-nettleie/issues). Vi legger til
-saker med `collecting` og `help wanted` labels når vi oppdager endringer.
+saker med `collecting` og `help wanted` labels når vi oppdager endringer. Sjekk
+også
+[denne kommentaren på issue #92](https://github.com/kraftsystemet/fri-nettleie/issues/92#issuecomment-3438437071)
+for informasjon om hvordan du kan hjelpe med å samle data for liten næring.
 
 Trykk på ✏️ ved netteieren for å bli sendt til innsamleren. Legg til nye data og
 kopier tilbake til `.yml` filen.
@@ -357,8 +361,17 @@ autoritativ kilde.
 
 ## Status
 
-Vi har data for alle relevante netteiere og (prøver å) oppdatere dem kontinerlig
-når vi blir oppmerksom på endringer/oppdatering 🎉🥳!
+Vi har data for husholdning (🏡) og fritid (🏕️) alle relevante netteiere.
+Dataene oppdateres kontinerlig når vi blir oppmerksom på endringer eller feil
+🎉🥳! Når vi oppdager at vi må samle nye data lager vi et
+[issue her på GitHub](https://github.com/kraftsystemet/fri-nettleie/issues)
+tagget med `collecting` og `help wanted`. Bidra gjerne!
+
+Data for liten næring (🏭️) jobber vi med å komplettere. Se
+[issue #92](https://github.com/kraftsystemet/fri-nettleie/issues/92) for
+bakgrunn. Sjekk
+[denne kommentaren](https://github.com/kraftsystemet/fri-nettleie/issues/92#issuecomment-3438437071)
+for informasjon om hvordan du kan hjelpe.
 
 <!-- statusstart -->
 <table>
