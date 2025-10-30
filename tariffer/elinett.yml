@@ -50,7 +50,7 @@ tariffer:
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
-       terskler:
+      terskler:
         - terskel: 0
           pris: 2409.6
         - terskel: 2
