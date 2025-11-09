@@ -2,14 +2,16 @@
 netteier: 'Lede AS'
 gln:
   - '7080005050975'
-sist_oppdatert: '2024-12-02'
+sist_oppdatert: '2025-11-09'
 kilder:
   - 'https://lede.no/getfile.php/1353399-1720173926/Lede/Filer/Prislister/Priser%20nettleie%2001.08.24.pdf'
   - 'https://lede.no/priser/nettleie-privatkunder/'
+  - 'https://lede.no/priser/nettleie-naeringskunder/'
 tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
