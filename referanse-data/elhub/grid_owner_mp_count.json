@@ -26,13 +26,8 @@
     },
     {
         "gln": "7080005051859",
-        "mp_count": 62848,
+        "mp_count": 95079,
         "name": "Arva AS"
-    },
-    {
-        "gln": "7080005051361",
-        "mp_count": 32212,
-        "name": "Arva AS (tidligere Nordlandsnett)"
     },
     {
         "gln": "7080003858825",
@@ -41,7 +36,7 @@
     },
     {
         "gln": "7080005051378",
-        "mp_count": 221627,
+        "mp_count": 221679,
         "name": "BKK AS"
     },
     {
@@ -86,7 +81,7 @@
     },
     {
         "gln": "7080005053044",
-        "mp_count": 23927,
+        "mp_count": 23956,
         "name": "Elinett AS"
     },
     {
@@ -96,22 +91,22 @@
     },
     {
         "gln": "7080005046442",
-        "mp_count": 12135,
+        "mp_count": 12136,
         "name": "Elmea AS Nett"
     },
     {
         "gln": "7080005052917",
-        "mp_count": 9694,
+        "mp_count": 9698,
         "name": "Elvenett AS"
     },
     {
         "gln": "7080005046220",
-        "mp_count": 861140,
+        "mp_count": 862683,
         "name": "Elvia AS"
     },
     {
         "gln": "7080003871534",
-        "mp_count": 10973,
+        "mp_count": 10976,
         "name": "Enida AS"
     },
     {
@@ -146,7 +141,7 @@
     },
     {
         "gln": "7080003809599",
-        "mp_count": 68802,
+        "mp_count": 68762,
         "name": "Fagne AS"
     },
     {
@@ -156,12 +151,12 @@
     },
     {
         "gln": "7080010000316",
-        "mp_count": 7184,
+        "mp_count": 7186,
         "name": "Fjellnett AS"
     },
     {
         "gln": "7080005050654",
-        "mp_count": 9581,
+        "mp_count": 9579,
         "name": "Føie AS - Hallingdal"
     },
     {
@@ -171,12 +166,12 @@
     },
     {
         "gln": "7080005048415",
-        "mp_count": 18675,
+        "mp_count": 18676,
         "name": "Føie AS - Ringerike, Hole, Nore"
     },
     {
         "gln": "7080010003836",
-        "mp_count": 8841,
+        "mp_count": 8840,
         "name": "Føre AS"
     },
     {
@@ -186,12 +181,12 @@
     },
     {
         "gln": "7080005052672",
-        "mp_count": 83425,
+        "mp_count": 83435,
         "name": "Glitre Nett AS (tidl Glitre Energi Nett, Distrib.)"
     },
     {
         "gln": "7080005056069",
-        "mp_count": 150687,
+        "mp_count": 150628,
         "name": "Glitre Nett AS (tidl. AEN)"
     },
     {
@@ -200,19 +195,29 @@
         "name": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)"
     },
     {
+        "gln": "7080011113176",
+        "mp_count": 0,
+        "name": "Godfarfoss Kraft AS"
+    },
+    {
         "gln": "7080005052900",
-        "mp_count": 5471,
+        "mp_count": 5472,
         "name": "Griug AS"
     },
     {
         "gln": "7080005055666",
         "mp_count": 0,
-        "name": "Hafslund Eco Vannkraft AS Nett"
+        "name": "Hafslund Kraft AS Nett"
     },
     {
         "gln": "7080003999207",
         "mp_count": 0,
         "name": "Hafslund Oslo Celsio AS"
+    },
+    {
+        "gln": "7080010001276",
+        "mp_count": 0,
+        "name": "Haringnett AS"
     },
     {
         "gln": "7080010001832",
@@ -236,7 +241,7 @@
     },
     {
         "gln": "7080004320253",
-        "mp_count": 5341,
+        "mp_count": 5339,
         "name": "HØLAND OG SETSKOG ELVERK AS"
     },
     {
@@ -251,12 +256,12 @@
     },
     {
         "gln": "7080010002419",
-        "mp_count": 7537,
+        "mp_count": 7543,
         "name": "Jæren Everk AS"
     },
     {
         "gln": "7080005046060",
-        "mp_count": 8337,
+        "mp_count": 8336,
         "name": "KE NETT AS"
     },
     {
@@ -265,33 +270,28 @@
         "name": "Klive AS"
     },
     {
-        "gln": "7080010001276",
-        "mp_count": 0,
-        "name": "Kvam Energi Nett AS"
-    },
-    {
         "gln": "7080010000064",
-        "mp_count": 3926,
+        "mp_count": 3672,
         "name": "Kystnett AS"
     },
     {
         "gln": "7080005050975",
-        "mp_count": 178069,
+        "mp_count": 178080,
         "name": "Lede AS"
     },
     {
         "gln": "7080003965325",
-        "mp_count": 33729,
+        "mp_count": 33748,
         "name": "Linea AS"
     },
     {
         "gln": "7080001319830",
-        "mp_count": 76992,
+        "mp_count": 77004,
         "name": "Linja AS"
     },
     {
         "gln": "7080005046053",
-        "mp_count": 140237,
+        "mp_count": 140287,
         "name": "Lnett AS"
     },
     {
@@ -311,7 +311,7 @@
     },
     {
         "gln": "7080010004369",
-        "mp_count": 19101,
+        "mp_count": 19098,
         "name": "MELLOM AS"
     },
     {
@@ -325,18 +325,23 @@
         "name": "Midtnett AS"
     },
     {
-        "gln": "7080003816184",
+        "gln": "7080011085770",
         "mp_count": 0,
-        "name": "Modalen Kraftlag SA Nett"
+        "name": "Mostraum Nett AS"
+    },
+    {
+        "gln": "7080010003218",
+        "mp_count": 0,
+        "name": "Netera AS"
     },
     {
         "gln": "7080004064553",
-        "mp_count": 17244,
+        "mp_count": 17246,
         "name": "Nettselskapet AS"
     },
     {
         "gln": "7080003811318",
-        "mp_count": 19644,
+        "mp_count": 19646,
         "name": "Noranett AS"
     },
     {
@@ -350,6 +355,11 @@
         "name": "Noranett Hadsel AS"
     },
     {
+        "gln": "7080011115484",
+        "mp_count": 0,
+        "name": "Nordic Paper"
+    },
+    {
         "gln": "7080010014368",
         "mp_count": 0,
         "name": "Nordkraft Industrinett AS"
@@ -361,7 +371,7 @@
     },
     {
         "gln": "7080005052801",
-        "mp_count": 11996,
+        "mp_count": 11997,
         "name": "Nordvest Nett AS"
     },
     {
@@ -371,7 +381,7 @@
     },
     {
         "gln": "7080005052702",
-        "mp_count": 71010,
+        "mp_count": 71063,
         "name": "Norgesnett AS"
     },
     {
@@ -411,13 +421,8 @@
     },
     {
         "gln": "7080010005427",
-        "mp_count": 3734,
+        "mp_count": 3738,
         "name": "Romsdalsnett AS"
-    },
-    {
-        "gln": "7080003947932",
-        "mp_count": 0,
-        "name": "Røros E-verk Nett AS"
     },
     {
         "gln": "7080010002464",
@@ -448,11 +453,6 @@
         "gln": "7080005056007",
         "mp_count": 0,
         "name": "Skagerak Kraft Nett"
-    },
-    {
-        "gln": "7080004062702",
-        "mp_count": 0,
-        "name": "SkiakerNett AS"
     },
     {
         "gln": "7080004399877",
@@ -495,18 +495,13 @@
         "name": "Straumnett AS"
     },
     {
-        "gln": "7080010003218",
-        "mp_count": 0,
-        "name": "SuNett AS"
-    },
-    {
         "gln": "7080003992680",
         "mp_count": 0,
         "name": "Svabo Industrinett AS"
     },
     {
         "gln": "7080010009654",
-        "mp_count": 7572,
+        "mp_count": 7576,
         "name": "Sygnir AS"
     },
     {
@@ -515,23 +510,18 @@
         "name": "Sør Aurdal Energi AS Nett"
     },
     {
-        "gln": "7080001180041",
-        "mp_count": 0,
-        "name": "Sør-Norge Aluminium AS (Nett)"
-    },
-    {
         "gln": "7080003897855",
-        "mp_count": 7249,
+        "mp_count": 7252,
         "name": "Tendranett AS"
     },
     {
         "gln": "7080005052627",
-        "mp_count": 62277,
+        "mp_count": 62323,
         "name": "Tensio TN AS"
     },
     {
         "gln": "7080005051880",
-        "mp_count": 147146,
+        "mp_count": 147336,
         "name": "Tensio TS AS"
     },
     {
@@ -561,7 +551,7 @@
     },
     {
         "gln": "7080003807946",
-        "mp_count": 8924,
+        "mp_count": 8923,
         "name": "VEVIG AS"
     },
     {
@@ -576,7 +566,7 @@
     },
     {
         "gln": "7080005051897",
-        "mp_count": 9181,
+        "mp_count": 9179,
         "name": "Vestall AS"
     },
     {
@@ -585,8 +575,13 @@
         "name": "Vestmar Nett AS"
     },
     {
+        "gln": "7080003947932",
+        "mp_count": 0,
+        "name": "Viermie AS"
+    },
+    {
         "gln": "7080004045743",
-        "mp_count": 4835,
+        "mp_count": 4832,
         "name": "Vissi AS"
     },
     {
