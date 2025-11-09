@@ -3,9 +3,10 @@ gln:
   - '7080005051880'
 kilder:
   - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-for-privat'
+  - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-for-bedrift'
   - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-ts'
 netteier: 'Tensio TS AS'
-sist_oppdatert: '2025-07-02'
+sist_oppdatert: '2025-11-09'
 tariffer:
   - energiledd:
       grunnpris: 11.304
@@ -102,6 +103,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
