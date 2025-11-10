@@ -2,9 +2,10 @@
 netteier: 'Lnett AS'
 gln:
   - '7080005046053'
-sist_oppdatert: '2024-11-29'
+sist_oppdatert: '2025-11-09'
 kilder:
   - 'https://www.l-nett.no/nettleie/priser-og-vilkar-privat/'
+  - https://www.l-nett.no/nettleie/priser-og-vilkar-bedrift/
   - 'https://www.l-nett.no/getfile.php/131545710-1747299144/Dokumenter/Prishefter%20og%20vilk%C3%A5r/Prishefte2025%2C%201.%20juni-31.%20des.pdf'
 tariffer:
   - kundegrupper:
@@ -80,6 +81,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
