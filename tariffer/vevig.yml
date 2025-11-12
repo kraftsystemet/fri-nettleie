@@ -4,7 +4,7 @@ gln:
 kilder:
   - 'https://vevig.no/nettleie-og-vilkar/nettleie-privat/'
 netteier: 'Vevig AS'
-sist_oppdatert: '2025-07-02'
+sist_oppdatert: '2025-11-12'
 tariffer:
   - energiledd:
       grunnpris: 13.4
@@ -107,6 +107,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -126,25 +127,25 @@ tariffer:
         - terskel: 25
           pris: 9240
         - terskel: 30
-          pris: 11688.00
+          pris: 11688
         - terskel: 40
-          pris: 14940.00
+          pris: 14940
         - terskel: 50
-          pris: 20196.00
+          pris: 20196
         - terskel: 75
-          pris: 26292.00
+          pris: 26292
         - terskel: 100
-          pris: 32364.00
+          pris: 32364
         - terskel: 125
-          pris: 38472.00
+          pris: 38472
         - terskel: 150
-          pris: 50640.00
+          pris: 50640
         - terskel: 200
-          pris: 70092.00
+          pris: 70092
         - terskel: 300
-          pris: 97980.00
+          pris: 97980
         - terskel: 400
-          pris: 196680.00
+          pris: 196680
     energiledd:
       grunnpris: 15.81
       unntak:
