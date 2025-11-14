@@ -2,13 +2,14 @@
 netteier: 'Viermie AS'
 gln:
   - '7080003947932'
-sist_oppdatert: '2025-01-15'
+sist_oppdatert: '2025-11-14'
 kilder:
   - 'https://viermie.no/nettleiepriser/priser-for-kunder-med-forbruk-under-100-000-kwh-ar/'
 tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
