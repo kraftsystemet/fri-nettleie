@@ -27,8 +27,8 @@ fmt:
 nve-data:
 	mkdir -p referanse-data/nve/tariffer/privat referanse-data/nve/tariffer/naring
 	rm -f referanse-data/nve/tariffer/privat/*.yml referanse-data/nve/tariffer/naring/*.yml
-	./scripts/get_nve_price_data.py private referanse-data/nve/tariffer/privat/
-	./scripts/get_nve_price_data.py industry referanse-data/nve/tariffer/naring/
+	venv/bin/python ./scripts/get_nve_price_data.py private referanse-data/nve/tariffer/privat/
+	venv/bin/python ./scripts/get_nve_price_data.py industry referanse-data/nve/tariffer/naring/
 	yamlfmt referanse-data/nve/tariffer/**/*.yml
 
 changedetection:
@@ -47,5 +47,5 @@ bygg:
 	npx prettier docs/tariffer/*.html --write
 
 refdata:
-	./scripts/get_grid_owner_data.py
-	./scripts/get_mga_data.py
+	venv/bin/python ./scripts/get_grid_owner_data.py
+	venv/bin/python ./scripts/get_mga_data.py
