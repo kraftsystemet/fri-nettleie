@@ -60,7 +60,13 @@ def print_status():
         <th>Handling</th>
     </tr>""")
 
+    num_household = 0
+    num_cabins = 0
+    num_business = 0
+    num_total = 0
+
     for tariff in tariffs:
+        num_total += 1
         gln = tariff["gln"]
         name = tariff["netteier"]
 
@@ -78,8 +84,16 @@ def print_status():
                 kundegrupper = kundegrupper.union(set(t["kundegrupper"]))
 
         has_household = "husholdning" in kundegrupper
+        if has_household:
+            num_household += 1
+
         has_cabins = "fritid" in kundegrupper
+        if has_cabins:
+            num_cabins += 1
+
         has_business = "liten_næring" in kundegrupper
+        if has_business:
+            num_business += 1
 
         file_name = tariff["file_name"]
         tariff.pop("file_name")
@@ -102,6 +116,17 @@ def print_status():
         print(f"  <td>\n    {inspect_link}\n    {yaml_link}\n    {edit_link}\n  </td>")
         print("</tr>")
 
+    print("<tr>")
+    print("  <td>TOTAL</td>")
+    print("  <td></td>")
+    print(
+        f'  <td style="white-space: nowrap;">{datetime.today().strftime("%Y-%m-%d")}</td>'
+    )
+    print(f"  <td>{num_household}</td>")
+    print(f"  <td>{num_cabins}</td>")
+    print(f"  <td>{num_business}</td>")
+    print("  <td></td>")
+    print("</tr>")
     print("</table>")
     print("")
 
