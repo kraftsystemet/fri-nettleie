@@ -7,7 +7,7 @@ kilder:
   - 'https://www.noranett.no/getfile.php/1323306-1704953748/Noranett/Filer/Nettleie%202024%20-%20H%C3%A5logaland%20pdf.pdf'
   - 'https://www.noranett.no/nettleiepriser/nettleiepriser-halogaland-fra-1-1-2024-article3870-2415.html'
   - 'https://www.noranett.no/getfile.php/1326768-1736159212/Noranett/Filer/Kopi%20av%20Nettleie%202025%20-%20H%C3%A5logaland%20pdf.pdf'
-sist_oppdatert: '2025-01-09'
+sist_oppdatert: '2025-11-22'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -61,6 +61,7 @@ tariffer:
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
   - kundegrupper:
+      - liten_næring
       - husholdning
       - fritid
     fastledd:
