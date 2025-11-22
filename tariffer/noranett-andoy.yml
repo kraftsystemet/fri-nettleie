@@ -6,7 +6,7 @@ kilder:
   - 'https://www.noranett.no/nettleiepriser/category2415.html'
   - 'https://www.noranett.no/nettleiepriser/nettleiepriser-andoy-fra-1-1-2024-article3871-2415.html'
   - 'https://www.noranett.no/getfile.php/1326762-1736159187/Noranett/Filer/Kopi%20av%20Nettleie%202025%20-%20And%C3%B8y%20pdf.pdf'
-sist_oppdatert: '2024-11-29'
+sist_oppdatert: '2025-11-22'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -60,6 +60,7 @@ tariffer:
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
   - kundegrupper:
+      - liten_næring
       - husholdning
       - fritid
     fastledd:
