@@ -9,7 +9,7 @@ mga:
 kilder:
   - 'https://www.linja.no/nettleige'
 netteier: 'Linja AS - Sør'
-sist_oppdatert: '2025-06-23'
+sist_oppdatert: '2025-11-22'
 tariffer:
   - energiledd:
       grunnpris: 20.424
@@ -44,5 +44,6 @@ tariffer:
     gyldig_fra: '2024-07-01'
     navn: Sør
     kundegrupper:
+      - liten_næring
       - husholdning
       - fritid

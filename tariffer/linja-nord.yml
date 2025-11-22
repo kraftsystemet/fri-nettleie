@@ -42,5 +42,6 @@ tariffer:
     gyldig_fra: '2024-07-01'
     navn: Nord
     kundegrupper:
+      - liten_næring
       - husholdning
       - fritid
