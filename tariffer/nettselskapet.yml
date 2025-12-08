@@ -31,11 +31,11 @@ tariffer:
         - terskel: 50
           pris: 2200
     energiledd:
-      grunnpris: 10.704
+      grunnpris: 10.7
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 21.504
+          pris: 21.5
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
   - kundegrupper:
@@ -62,12 +62,26 @@ tariffer:
           pris: 16800
         - terskel: 50
           pris: 26400
+        - terskel: 75
+          pris: 36000
+        - terskel: 100
+          pris: 51960
+        - terskel: 150
+          pris: 71160
+        - terskel: 200
+          pris: 103080
+        - terskel: 300
+          pris: 141360
+        - terskel: 400
+          pris: 179760
+        - terskel: 500
+          pris: 218040
     energiledd:
-      grunnpris: 4.904
+      grunnpris: 4.9
       unntak:
         - navn: 'Høylast sommer'
           timer: 6-21
-          pris: 14.904
+          pris: 14.9
           måneder: [mai, juni, juli, august, september, oktober]
         - navn: 'Høylast vinter'
           timer: 6-21
