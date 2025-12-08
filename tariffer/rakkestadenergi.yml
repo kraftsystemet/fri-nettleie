@@ -114,3 +114,40 @@ tariffer:
           pris: 25
           dager: [ukedag]
     gyldig_fra: '2025-07-01'
+    gyldig_til: '2025-09-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1200
+        - terskel: 2
+          pris: 1824
+        - terskel: 5
+          pris: 2880
+        - terskel: 10
+          pris: 3936
+        - terskel: 15
+          pris: 4992
+        - terskel: 20
+          pris: 6048
+        - terskel: 25
+          pris: 11280
+        - terskel: 50
+          pris: 16512
+        - terskel: 75
+          pris: 21792
+        - terskel: 100
+          pris: 43872
+    energiledd:
+      grunnpris: 12.99
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          pris: 20.99
+          dager: [virkedag]
+    gyldig_fra: '2025-09-01'
