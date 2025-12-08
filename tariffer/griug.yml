@@ -74,9 +74,4 @@ tariffer:
     energiledd:
       grunnpris: 12.32
       unntak:
-        - navn: Brukstidstillegg
-          dager: [fredag]
-          måneder: [januar, februar, mars]
-          pris: 27.52
-          timer: 16-21
     gyldig_fra: '2025-01-01'
