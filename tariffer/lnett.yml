@@ -2,11 +2,11 @@
 netteier: 'Lnett AS'
 gln:
   - '7080005046053'
-sist_oppdatert: '2025-11-09'
+sist_oppdatert: '2025-12-08'
 kilder:
   - 'https://www.l-nett.no/nettleie/priser-og-vilkar-privat/'
-  - https://www.l-nett.no/nettleie/priser-og-vilkar-bedrift/
-  - 'https://www.l-nett.no/getfile.php/131545710-1747299144/Dokumenter/Prishefter%20og%20vilk%C3%A5r/Prishefte2025%2C%201.%20juni-31.%20des.pdf'
+  - 'https://www.l-nett.no/nettleie/priser-og-vilkar-bedrift/'
+  - 'https://www.l-nett.no/getfile.php/131569206-1764934863/Tariffhefte%20fra%201.%20januar%202026.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -114,3 +114,40 @@ tariffer:
           pris: 29.6
           dager: [virkedag]
     gyldig_fra: '2025-06-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1440
+        - terskel: 2
+          pris: 2400
+        - terskel: 5
+          pris: 3840
+        - terskel: 10
+          pris: 6240
+        - terskel: 15
+          pris: 8640
+        - terskel: 20
+          pris: 11040
+        - terskel: 25
+          pris: 20640
+        - terskel: 50
+          pris: 30240
+        - terskel: 75
+          pris: 39840
+        - terskel: 100
+          pris: 67200
+    energiledd:
+      grunnpris: 13.6
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 25.6
+          dager: [virkedag]
+    gyldig_fra: '2026-01-01'
