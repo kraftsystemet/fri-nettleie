@@ -9,21 +9,21 @@ fylker_navn:
 navn: KE NETT AS
 org: '977285712'
 terskler:
-  - pris: 3000.0
+  - pris: 1440.0
     terskel: 0.0
-  - pris: 4680.0
+  - pris: 3120.0
     terskel: 5.0
-  - pris: 6360.0
+  - pris: 4800.0
     terskel: 10.0
-  - pris: 8040.0
+  - pris: 6480.0
     terskel: 15.0
-  - pris: 9720.0
+  - pris: 8160.0
     terskel: 20.0
-  - pris: 19800.0
+  - pris: 18240.0
     terskel: 25.0
-  - pris: 25200.0
+  - pris: 23640.0
     terskel: 50.0
-  - pris: 33600.0
+  - pris: 32040.0
     terskel: 75.0
-  - pris: 64680.0
+  - pris: 63120.0
     terskel: 100.0

@@ -8,7 +8,7 @@ fylker:
 fylker_navn:
   - Innlandet
   - "Trøndelag"
-navn: "RØROS E-VERK NETT AS"
+navn: VIERMIE AS
 org: '919884452'
 terskler:
   - pris: 3405.96
