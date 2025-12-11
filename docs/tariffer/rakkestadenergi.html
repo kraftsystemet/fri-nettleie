@@ -62,7 +62,7 @@
       </article>
       <h2>Tariff</h2>
       Rakkestad Energi AS Nett sin nåværende tariff for private husholdninger er
-      gyldig fra 2025-07-01.
+      gyldig fra 2025-09-01.
       <p></p>
 
       <p>Tariffen har vi samlet inn fra 2 kilder:</p>
@@ -86,7 +86,7 @@
 
         <dl>
           <dt>Gyldig fra</dt>
-          <dd>2025-07-01</dd>
+          <dd>2025-09-01</dd>
           <dt>Gyldig til</dt>
           <dd>-</dd>
         </dl>
@@ -133,62 +133,62 @@
 
             <tr>
               <td>0</td>
-              <td>2520</td>
-              <td>3150.0</td>
+              <td>1200</td>
+              <td>1500.0</td>
             </tr>
 
             <tr>
               <td>2</td>
-              <td>3480</td>
-              <td>4350.0</td>
+              <td>1824</td>
+              <td>2280.0</td>
             </tr>
 
             <tr>
               <td>5</td>
-              <td>4800</td>
-              <td>6000.0</td>
+              <td>2880</td>
+              <td>3600.0</td>
             </tr>
 
             <tr>
               <td>10</td>
-              <td>6420</td>
-              <td>8025.0</td>
+              <td>3936</td>
+              <td>4920.0</td>
             </tr>
 
             <tr>
               <td>15</td>
-              <td>8040</td>
-              <td>10050.0</td>
+              <td>4992</td>
+              <td>6240.0</td>
             </tr>
 
             <tr>
               <td>20</td>
-              <td>9660</td>
-              <td>12075.0</td>
+              <td>6048</td>
+              <td>7560.0</td>
             </tr>
 
             <tr>
               <td>25</td>
-              <td>17700</td>
-              <td>22125.0</td>
+              <td>11280</td>
+              <td>14100.0</td>
             </tr>
 
             <tr>
               <td>50</td>
-              <td>25800</td>
-              <td>32250.0</td>
+              <td>16512</td>
+              <td>20640.0</td>
             </tr>
 
             <tr>
               <td>75</td>
-              <td>34200</td>
-              <td>42750.0</td>
+              <td>21792</td>
+              <td>27240.0</td>
             </tr>
 
             <tr>
               <td>100</td>
-              <td>67860</td>
-              <td>84825.0</td>
+              <td>43872</td>
+              <td>54840.0</td>
             </tr>
           </table>
         </article>
@@ -230,21 +230,21 @@
             standard (sommer) avgift.
           </p>
           <dl>
-            20
+            12.99
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            21
+            13.99
             <span
               data-tooltip="Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            33.53
+            26.52
             <span
               data-tooltip="Relevant for sluttkunder i Troms utenfor tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            41.91
+            33.15
             <span data-tooltip="Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
             ><br />
@@ -255,11 +255,11 @@
             høylastperider som midt på dagen på en virkedag.
           </p>
 
-          <h6>Høylast</h6>
+          <h6>Virkedag</h6>
           <p>Denne prisen gjelder for:</p>
           <dl>
             <dt>Dager</dt>
-            <dd>ukedag</dd>
+            <dd>virkedag</dd>
 
             <dt>Timer</dt>
             <dd>6-21</dd>
@@ -267,21 +267,21 @@
           <p>Du betaler</p>
 
           <dl>
-            25
+            20.99
             <span data-tooltip="Prisen uten enova-, el- eller merverdiavgift."
               >øre u/ alle avgifter</span
             ><br />
-            26
+            21.99
             <span
               data-tooltip="Prisen med enovaavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enovaavgift</span
             ><br />
-            38.53
+            34.52
             <span
               data-tooltip="Prisen med enova- og elavgift. Relevant for sluttkunder i tiltakssonen i Nord-Norge."
               >øre m/ enova og elavgift</span
             ><br />
-            48.16
+            43.15
             <span
               data-tooltip="Prisen med enova-, el- og merverdiavgift. Relevant for sluttkunder sør for Troms."
               >øre m/ alle avgifter</span
@@ -299,8 +299,10 @@
   <!-- TODO norway bundle -->
   <script>
     const energiLedd = {
-      grunnpris: 20,
-      unntak: [{ dager: ["ukedag"], navn: "Høylast", pris: 25, timer: "6-21" }],
+      grunnpris: 12.99,
+      unntak: [
+        { dager: ["virkedag"], navn: "Virkedag", pris: 20.99, timer: "6-21" },
+      ],
     };
   </script>
   <script src="../assets/priceSignal.js"></script>
