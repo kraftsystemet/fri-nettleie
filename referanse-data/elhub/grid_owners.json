@@ -215,6 +215,11 @@
         "organisationNumber": "981963849"
     },
     {
+        "gln": "7080005054898",
+        "name": "Elvia AS (tidl. Rakkestad Energi)",
+        "organisationNumber": "968398083"
+    },
+    {
         "gln": "7080005053297",
         "name": "Elvia AS (tidl. Stange Nett)",
         "organisationNumber": "985294836"
@@ -368,6 +373,11 @@
         "gln": "7080005053273",
         "name": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
         "organisationNumber": "981915550"
+    },
+    {
+        "gln": "7080005052702",
+        "name": "Glitre Nett AS (tidligere Norgesnett",
+        "organisationNumber": "980234088"
     },
     {
         "gln": "7080011113176",
@@ -755,11 +765,6 @@
         "organisationNumber": "824701482"
     },
     {
-        "gln": "7080005052702",
-        "name": "Norgesnett AS",
-        "organisationNumber": "980234088"
-    },
-    {
         "gln": "7080003884541",
         "name": "Norgesnett Askøy",
         "organisationNumber": "980234088"
@@ -820,11 +825,6 @@
         "organisationNumber": "925017809"
     },
     {
-        "gln": "7080005054898",
-        "name": "Rakkestad Energi AS Nett",
-        "organisationNumber": "968398083"
-    },
-    {
         "gln": "7080005046428",
         "name": "Rauland Kraftforsyningslag sa",
         "organisationNumber": "915317898"
@@ -871,7 +871,7 @@
     },
     {
         "gln": "7080004122741",
-        "name": "SFE PRODUKSJON AS - NETTEIER",
+        "name": "SFE AS - NETTEIER",
         "organisationNumber": "984882106"
     },
     {
