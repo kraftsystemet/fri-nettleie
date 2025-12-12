@@ -37,11 +37,11 @@ tariffer:
         - terskel: 100
           pris: 39264
     energiledd:
-      grunnpris: 12.75
+      grunnpris: 12.753
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 19.05
+          pris: 19.053
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
   - kundegrupper:
@@ -72,11 +72,11 @@ tariffer:
         - terskel: 100
           pris: 43200
     energiledd:
-      grunnpris: 14.03
+      grunnpris: 14.028
       unntak:
         - navn: Dag
           timer: 6-21
-          pris: 20.96
+          pris: 20.958
           dager: [alle]
     gyldig_fra: '2025-01-01'
     gyldig_til: '2026-01-01'
