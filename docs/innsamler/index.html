@@ -48,6 +48,15 @@
         .output {
             width: 100%;
         }
+        .settings-list {
+            margin-top: 0.5em;
+        }
+
+        .setting {
+            display: block;
+            margin-bottom: 0.25em;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body x-data="app()" x-init="$watch('data', () => {updateURL(); toYaml();}, { deep: true })">
@@ -120,26 +129,63 @@
         </template>
     </div>
 
-    <h2>Tariffer</h2>
-    <p>En netteier kan ha mer enn en tariff</p>
-    <button @click="addTariff">Legg til en tariff</button>
-    <template x-for="(tariff, index) in data.tariffer" :key="index">
-        <div class="input-collection">
-            <h3 x-text="'Tariff ' + ( index + 1 ) + ' - ' + tariff.id"></h3>
-            <div class="input-group">
-                <label for="gyldig_fra">Gyldig fra:</label>
-                <input type="date" id="gyldig_fra" x-model="tariff.gyldig_fra" placeholder="Enter gyldig fra">
-                <label for="gyldig_til">Gyldig til:</label>
-                <input type="date" id="gyldig_til" x-model="tariff.gyldig_til" placeholder="Enter gyldig til">
+        <h2>Tariffer</h2>
+        <p>En netteier kan ha mer enn en tariff</p>
+        <div>
+            <button @click="addTariff">Legg til en tariff</button>
+            <div class="settings-list">
+                <h5>Innstillinger for legg til:</h5>
+                <label class="setting" title="Kopierer terskel-nivåene uten priser">
+                    <input type="checkbox"
+                           x-model.bool="kopier_terskler"
+                           @change="if (!kopier_terskler) kopier_terskle_pris = false">
+                    Terskler
+                </label>
+
+                <label class="setting"
+                       title="Kopierer prisene for tersklene"
+                       :class="{ disabled: !kopier_terskler }">
+                    <input type="checkbox"
+                           x-model.bool="kopier_terskle_pris"
+                           :disabled="!kopier_terskler">
+                    Terskel med pris
+                </label>
+
+                <label class="setting" title="Kopierer energileddet uten priser">
+                    <input type="checkbox"
+                           x-model.bool="kopier_energiledd"
+                           @change="if (!kopier_energiledd) kopier_energiledd_pris = false">
+                    Energiledd
+                </label>
+
+                <label class="setting"
+                       title="Kopierer prisene for energileddet"
+                       :class="{ disabled: !kopier_energiledd }">
+                    <input type="checkbox"
+                           x-model.bool="kopier_energiledd_pris"
+                           :disabled="!kopier_energiledd">
+                    Energiledd med pris
+                </label>
             </div>
-            <div class="input-group">
-                <label for="kundegrupper">Kundegrupper:</label>
-                <select id="kundegrupper" x-model="tariff.kundegrupper" default="husholdning, fritid" placeholder="Enter kundegruppe(r)" multiple>
-                    <option value="husholdning">husholdning</option>
-                    <option value="fritid">fritid</option>
-                    <option value="liten_næring">liten_næring</option>
-                </select>
-            </div>
+        </div>
+
+        <template x-for="(tariff, index) in data.tariffer" :key="index">
+            <div class="input-collection">
+                <h3 x-text="'Tariff ' + ( index + 1 ) + ' - ' + tariff.id"></h3>
+                <div class="input-group">
+                    <label for="gyldig_fra">Gyldig fra:</label>
+                    <input type="date" id="gyldig_fra" x-model="tariff.gyldig_fra" placeholder="Enter gyldig fra">
+                    <label for="gyldig_til">Gyldig til:</label>
+                    <input type="date" id="gyldig_til" x-model="tariff.gyldig_til" placeholder="Enter gyldig til">
+                </div>
+                <div class="input-group">
+                    <label for="kundegrupper">Kundegrupper:</label>
+                    <select id="kundegrupper" x-model="tariff.kundegrupper" default="husholdning, fritid" placeholder="Enter kundegruppe(r)" multiple>
+                        <option value="husholdning">husholdning</option>
+                        <option value="fritid">fritid</option>
+                        <option value="liten_næring">liten_næring</option>
+                    </select>
+                </div>
 
             <h4>Effektledd (kr)</h4>
             <div class="input-group">
@@ -421,6 +467,10 @@
                 meta: {
                     forbruksavgift: 7.13
                 },
+                kopier_terskler: false,
+                kopier_energiledd: false,
+                kopier_terskle_pris: false,
+                kopier_energiledd_pris: false,
                 init() {
                     this.getDataFromUrl();
                     this.toYaml();
@@ -458,7 +508,45 @@
                     if (!this.data.tariffer) {
                         this.data.tariffer = [];
                     }
-                    this.data.tariffer.push(structuredClone(newTariff));
+                    let tariff = structuredClone(newTariff);
+                    const prev = this.data.tariffer.at(-1);
+
+                    if (prev) {
+                        const prevPlain = JSON.parse(JSON.stringify(prev));
+
+                        if (this.kopier_terskler) {
+                            const terskler = structuredClone(prevPlain.fastledd.terskler);
+
+                            if (!this.kopier_terskle_pris) {
+                                terskler.forEach(t => {
+                                    t.pris = 0;
+                                });
+                            }
+                            tariff.fastledd.terskler = terskler;
+                        }
+                        if (this.kopier_energiledd) {
+                            const energiledd = structuredClone(prevPlain.energiledd);
+
+                            if (!this.kopier_energiledd_pris) {
+                                // grunnpris
+                                energiledd.grunnpris = 0;
+
+                                // unntak prices
+                                energiledd.unntak?.forEach(u => {
+                                    u.pris = 0;
+                                });
+                            }
+
+                            tariff.energiledd = energiledd;
+                        }
+                        if (this.fiks_dato) {
+                            tariff.gyldig_fra = prevPlain.gyldig_fra;
+                            tariff.gyldig_til = prevPlain.gyldig_til;
+                        }
+                        this.data.tariffer.push(tariff);
+                    } else {
+                        this.data.tariffer.push(structuredClone(newTariff));
+                    }
                 },
                 addTerskforbruk(index) {
                     this.data.tariffer[index].fastledd.terskler.push({ terskel: 0, pris: 0 });
