@@ -109,7 +109,7 @@ tariffer:
         - terskel: 100
           pris: 46440
     energiledd:
-      grunnpris: 14.03
+      grunnpris: 15.08
       unntak:
         - navn: Dag
           timer: 6-21
