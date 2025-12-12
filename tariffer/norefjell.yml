@@ -2,11 +2,12 @@
 netteier: 'Norefjell Nett AS'
 gln:
   - '7080010003911'
-sist_oppdatert: '2024-01-01'
+sist_oppdatert: '2025-12-12'
 kilder:
   - 'https://norefjell-nett.no/strompris'
   - 'https://norefjell-nett.no/uploads/Dok/Nettleiepriser/Nettleiepriser-01.01.2024.pdf'
   - 'https://norefjell-nett.no/uploads/Dok/Nettleiepriser/Nettleiepriser-fra-01.01.2025.pdf'
+  - 'https://norefjell-nett.no/uploads/Nettleiepriser-01.01.2026_2025-12-12-102717_wqzu.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -36,11 +37,11 @@ tariffer:
         - terskel: 100
           pris: 39264
     energiledd:
-      grunnpris: 12.753
+      grunnpris: 12.75
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 19.053
+          pris: 19.05
     gyldig_fra: '2024-01-01'
     gyldig_til: '2025-01-01'
   - kundegrupper:
@@ -71,10 +72,46 @@ tariffer:
         - terskel: 100
           pris: 43200
     energiledd:
-      grunnpris: 14.028
+      grunnpris: 14.03
       unntak:
         - navn: Dag
           timer: 6-21
-          pris: 20.958
+          pris: 20.96
           dager: [alle]
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2328
+        - terskel: 2
+          pris: 3024
+        - terskel: 5
+          pris: 4176
+        - terskel: 10
+          pris: 6264
+        - terskel: 15
+          pris: 8124
+        - terskel: 20
+          pris: 9984
+        - terskel: 25
+          pris: 16260
+        - terskel: 50
+          pris: 24384
+        - terskel: 75
+          pris: 32508
+        - terskel: 100
+          pris: 46440
+    energiledd:
+      grunnpris: 14.03
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 20.96
+          dager: [alle]
+    gyldig_fra: '2026-01-01'
