@@ -6,7 +6,7 @@ gln:
   - '7080005050654'
 kilder:
   - 'https://www.foie.no/nettleie/priser'
-sist_oppdatert: '2025-10-22'
+sist_oppdatert: '2025-12-17'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -41,3 +41,37 @@ tariffer:
           timer: 6-21
           pris: 17.5
     gyldig_fra: '2025-07-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2280
+        - terskel: 2
+          pris: 2820
+        - terskel: 5
+          pris: 4020
+        - terskel: 10
+          pris: 6360
+        - terskel: 15
+          pris: 8040
+        - terskel: 20
+          pris: 10320
+        - terskel: 25
+          pris: 13800
+        - terskel: 50
+          pris: 22800
+        - terskel: 75
+          pris: 28800
+    energiledd:
+      grunnpris: 9.998
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 16.502
+    gyldig_fra: '2026-01-01'
