@@ -2,10 +2,11 @@
 netteier: 'Høland og Setskog Elverk AS'
 gln:
   - '7080004320253'
-sist_oppdatert: '2025-07-11'
+sist_oppdatert: '2025-12-20'
 kilder:
   - 'https://hsev.no/nettleie'
   - 'https://hsev.no/uploads/HSEV-nettleie-privatkunder-1.-juli-2025.pdf'
+  - 'https://hsev.no/uploads/2025-12-15-HSEV-nettleie-privatkunder-2026-01-01.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -114,3 +115,39 @@ tariffer:
           pris: 22.5
           dager: [virkedag]
     gyldig_fra: '2025-07-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1920
+        - terskel: 2
+          pris: 2304
+        - terskel: 5
+          pris: 3360
+        - terskel: 10
+          pris: 4224
+        - terskel: 15
+          pris: 5664
+        - terskel: 20
+          pris: 6624
+        - terskel: 25
+          pris: 13920
+        - terskel: 50
+          pris: 21120
+        - terskel: 75
+          pris: 28800
+        - terskel: 100
+          pris: 56640
+    energiledd:
+      grunnpris: 17.502
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          pris: 22.502
+          dager: [virkedag]
+    gyldig_fra: '2026-01-01'
