@@ -2,67 +2,12 @@
 netteier: 'Noranett Hadsel AS'
 gln:
   - '7080003857989'
-sist_oppdatert: '2025-11-22'
+sist_oppdatert: '2025-12-20'
 kilder:
   - 'https://www.noranett.no/nettleiepriser/category2415.html'
-  - 'https://www.noranett.no/nettleiepriser/nettleiepriser-hadsel-fra-1-10-2024-article3982-2415.html'
-  - 'https://www.noranett.no/getfile.php/1326765-1736159200/Noranett/Filer/Kopi%20av%20Nettleie%202025%20-%20Hadsel%20pdf.pdf'
+  - 'https://www.noranett.no/nettleiepriser/nettleiepriser-hadsel-fra-1-1-2026-article4141-2415.html'
+  - 'https://www.noranett.no/getfile.php/1330162-1765880236/Noranett/Filer/Nettleie%202026%20-%20Hadsel.pdf'
 tariffer:
-  - kundegrupper:
-      - husholdning
-      - fritid
-    fastledd:
-      metode: TRE_DØGNMAX_MND
-      terskel_inkludert: true
-      terskler:
-        - pris: 3888
-          terskel: 0
-        - pris: 4896
-          terskel: 2
-        - pris: 5904
-          terskel: 4
-        - pris: 6912
-          terskel: 6
-        - pris: 7920
-          terskel: 8
-        - pris: 9216
-          terskel: 10
-        - pris: 11520
-          terskel: 15
-        - pris: 13968
-          terskel: 20
-        - pris: 16416
-          terskel: 25
-        - pris: 18720
-          terskel: 30
-        - pris: 21024
-          terskel: 35
-        - pris: 23328
-          terskel: 40
-        - pris: 25632
-          terskel: 45
-        - pris: 32400
-          terskel: 50
-        - pris: 43920
-          terskel: 75
-        - pris: 55728
-          terskel: 100
-        - pris: 67968
-          terskel: 125
-        - pris: 80352
-          terskel: 150
-        - pris: 92592
-          terskel: 175
-        - pris: 104832
-          terskel: 200
-    energiledd:
-      grunnpris: 22.8
-      unntak:
-        - navn: Dag
-          timer: 6-21
-          pris: 28.8
-    gyldig_fra: '2024-01-01'
-    gyldig_til: '2025-01-01'
   - kundegrupper:
       - liten_næring
       - husholdning
@@ -118,3 +63,59 @@ tariffer:
           timer: 6-21
           pris: 26.8
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - liten_næring
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - pris: 3240
+          terskel: 0
+        - pris: 4200
+          terskel: 2
+        - pris: 5040
+          terskel: 4
+        - pris: 5880
+          terskel: 6
+        - pris: 6720
+          terskel: 8
+        - pris: 7800
+          terskel: 10
+        - pris: 9840
+          terskel: 15
+        - pris: 11760
+          terskel: 20
+        - pris: 14040
+          terskel: 25
+        - pris: 15960
+          terskel: 30
+        - pris: 17880
+          terskel: 35
+        - pris: 19800
+          terskel: 40
+        - pris: 21840
+          terskel: 45
+        - pris: 27360
+          terskel: 50
+        - pris: 37080
+          terskel: 75
+        - pris: 47280
+          terskel: 100
+        - pris: 57720
+          terskel: 125
+        - pris: 68280
+          terskel: 150
+        - pris: 78720
+          terskel: 175
+        - pris: 89160
+          terskel: 200
+    energiledd:
+      grunnpris: 9
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 14
+    gyldig_fra: '2026-01-01'
