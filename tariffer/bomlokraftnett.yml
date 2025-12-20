@@ -5,7 +5,7 @@ gln:
 kilder:
   - 'https://nett.finnas-kraftlag.no/nettleige-og-vilkar/category1618.html'
   - 'https://nett.finnas-kraftlag.no/getfile.php/139943-1759240439/Bilder/NETT/Kundeservice/Tariffar/Tariffar%20B%C3%B8mlo%20Kraftnett%20AS%20gjeldande%20fr%C3%A5%2001.10.25%20endra%20elavgift.pdf'
-sist_oppdatert: '2025-10-23'
+sist_oppdatert: '2025-12-20'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -42,3 +42,39 @@ tariffer:
           timer: 6-21
           pris: 31.06
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2016
+        - terskel: 2
+          pris: 2880
+        - terskel: 5
+          pris: 3840
+        - terskel: 10
+          pris: 5040
+        - terskel: 15
+          pris: 6720
+        - terskel: 20
+          pris: 8400
+        - terskel: 25
+          pris: 19200
+        - terskel: 50
+          pris: 28800
+        - terskel: 75
+          pris: 38400
+        - terskel: 100
+          pris: 48000
+    energiledd:
+      grunnpris: 29
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 35.5
+    gyldig_fra: '2025-12-01'
