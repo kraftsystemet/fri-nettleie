@@ -2,6 +2,9 @@
 netteier: 'Lucerna AS'
 gln:
   - '7080005050661'
+kilder:
+  - 'https://www.lucerna.no/priser'
+sist_oppdatert: '2025-12-20'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -36,7 +39,37 @@ tariffer:
           timer: 6-21
           pris: 18.45
     gyldig_fra: '2024-01-01'
-sist_oppdatert: '2025-10-23'
-kilder:
-  - 'https://www.lucerna.no/priser'
-  - 'https://www.lucerna.no/priser-fra-1-januar-2025'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3108
+        - terskel: 2
+          pris: 3732
+        - terskel: 5
+          pris: 4512
+        - terskel: 10
+          pris: 4980
+        - terskel: 15
+          pris: 6228
+        - terskel: 20
+          pris: 7008
+        - terskel: 25
+          pris: 7788
+        - terskel: 50
+          pris: 8556
+        - terskel: 75
+          pris: 9336
+    energiledd:
+      grunnpris: 13.32
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 19.32
+    gyldig_fra: '2026-01-01'
