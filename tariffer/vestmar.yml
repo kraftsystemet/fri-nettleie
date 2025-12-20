@@ -4,8 +4,9 @@ gln:
 kilder:
   - 'https://vestmar-nett.no/nett-og-nettleie/'
   - 'https://vestmar-nett.no/wp-content/uploads/2025/07/Tariffer-01.07.2025.pdf'
+  - 'https://vestmar-nett.no/wp-content/uploads/2025/12/Tariffer-010126.pdf'
 netteier: 'Vestmar Nett AS'
-sist_oppdatert: '2025-07-13'
+sist_oppdatert: '2025-12-20'
 tariffer:
   - energiledd:
       grunnpris: 19.86
@@ -105,3 +106,36 @@ tariffer:
     energiledd:
       grunnpris: 18.87
     gyldig_fra: '2025-07-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3490.848
+        - terskel: 5
+          pris: 6175.2
+        - terskel: 10
+          pris: 8940
+        - terskel: 15
+          pris: 11640
+        - terskel: 20
+          pris: 14349.6
+        - terskel: 25
+          pris: 22440
+        - terskel: 50
+          pris: 36000
+        - terskel: 75
+          pris: 49200
+        - terskel: 100
+          pris: 69600
+        - terskel: 150
+          pris: 96600
+        - terskel: 200
+          pris: 136800
+    energiledd:
+      grunnpris: 17.1
+    gyldig_fra: '2026-01-01'
