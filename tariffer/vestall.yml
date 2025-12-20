@@ -4,8 +4,9 @@ gln:
 kilder:
   - 'https://vestall.no/nettleie/'
   - 'https://vestall.no/nettleiepriser-fra-01-07-2025/'
+  - 'https://vestall.no/nettleiepriser-fra-01-01-2026/'
 netteier: 'Vestall AS'
-sist_oppdatert: '2025-07-02'
+sist_oppdatert: '2025-12-20'
 tariffer:
   - energiledd:
       grunnpris: 4.3
@@ -105,3 +106,38 @@ tariffer:
           timer: 6-21
           pris: 14
     gyldig_fra: '2025-07-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3672
+        - terskel: 2
+          pris: 5484
+        - terskel: 5
+          pris: 9156
+        - terskel: 10
+          pris: 12936
+        - terskel: 15
+          pris: 16728
+        - terskel: 20
+          pris: 20352
+        - terskel: 25
+          pris: 31560
+        - terskel: 50
+          pris: 35640
+        - terskel: 75
+          pris: 48744
+        - terskel: 100
+          pris: 70548
+    energiledd:
+      grunnpris: 6
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 3
+    gyldig_fra: '2026-01-01'
