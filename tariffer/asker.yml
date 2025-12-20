@@ -2,7 +2,7 @@
 netteier: 'Asker Nett'
 gln:
   - '7080003858825'
-sist_oppdatert: '2025-10-22'
+sist_oppdatert: '2025-12-20'
 kilder:
   - 'https://askernett.no/nettleie-og-priser/'
   - 'https://askernett.no/prisliste-for-naeringskunder-i-2025/'
@@ -42,3 +42,39 @@ tariffer:
           timer: 6-21
           pris: 23.89
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2064
+        - terskel: 2
+          pris: 2592
+        - terskel: 5
+          pris: 3792
+        - terskel: 10
+          pris: 7920
+        - terskel: 15
+          pris: 9888
+        - terskel: 20
+          pris: 12480
+        - terskel: 25
+          pris: 17664
+        - terskel: 50
+          pris: 27840
+        - terskel: 75
+          pris: 37344
+        - terskel: 100
+          pris: 60000
+    energiledd:
+      grunnpris: 15.87
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 23.87
+    gyldig_fra: '2026-01-01'
