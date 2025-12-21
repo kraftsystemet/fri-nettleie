@@ -5,7 +5,8 @@ gln:
 kilder:
   - 'https://www.barents-nett.no/kundeservice/nett-og-nettleie/'
   - 'https://www.barents-nett.no/getfile.php/1314116-1751007532/Dokumenter/Nett/Nettleie/Nettleiebrosjyre%2001.07.2025.pdf'
-sist_oppdatert: '2025-10-22'
+  - 'https://www.barents-nett.no/getfile.php/1314599-1765878132/Dokumenter/Nett/Nettleie/Nettleiebrosjyre%2001.01.2026.pdf'
+sist_oppdatert: '2025-12-20'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -53,3 +54,27 @@ tariffer:
     energiledd:
       grunnpris: 11
     gyldig_fra: '2025-07-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 6204
+        - terskel: 2
+          pris: 6828
+        - terskel: 5
+          pris: 7440
+        - terskel: 10
+          pris: 8076
+        - terskel: 15
+          pris: 9312
+        - terskel: 20
+          pris: 11172
+    energiledd:
+      grunnpris: 11.32
+    gyldig_fra: '2026-01-01'
