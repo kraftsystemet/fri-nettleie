@@ -1,5 +1,6 @@
 ---
 netteier: 'Meløy Nett AS'
+sist_oppdatert: '2025-12-20'
 gln:
   - '7080003968395'
 kilder:
@@ -75,4 +76,38 @@ tariffer:
           timer: 6-21
           pris: 25.2
     gyldig_fra: '2025-01-01'
-sist_oppdatert: '2025-02-24'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3660
+        - terskel: 2
+          pris: 4392
+        - terskel: 5
+          pris: 4752
+        - terskel: 10
+          pris: 5124
+        - terskel: 15
+          pris: 5484
+        - terskel: 20
+          pris: 6396
+        - terskel: 25
+          pris: 6948
+        - terskel: 50
+          pris: 7680
+        - terskel: 75
+          pris: 8412
+        - terskel: 100
+          pris: 9144
+    energiledd:
+      grunnpris: 17.4
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 27.4
+    gyldig_fra: '2026-01-01'
