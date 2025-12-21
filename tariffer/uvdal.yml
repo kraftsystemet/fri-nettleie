@@ -2,11 +2,12 @@
 netteier: 'Uvdal Kraftforsyning'
 gln:
   - '7080005050500'
-sist_oppdatert: '2024-11-15'
+sist_oppdatert: '2025-12-20'
 kilder:
   - 'http://www.uvdalkraft.no/contact/nett/'
   - 'http://www.uvdalkraft.no/pdf/Tariffhefte01052024.pdf'
   - 'http://www.uvdalkraft.no/pdf/Tariffhefte01012025.pdf'
+  - 'https://uvdalkraft.no/pdf/Tariffhefte01012026.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -106,3 +107,36 @@ tariffer:
           timer: 6-21
           pris: 23.14
     gyldig_fra: '2025-06-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3331.2
+        - terskel: 5
+          pris: 5001.6
+        - terskel: 10
+          pris: 7334.4
+        - terskel: 15
+          pris: 13996.8
+        - terskel: 20
+          pris: 20668.8
+        - terskel: 25
+          pris: 30662.4
+        - terskel: 50
+          pris: 47328
+        - terskel: 75
+          pris: 67334.4
+        - terskel: 100
+          pris: 93993.6
+    energiledd:
+      grunnpris: 15.12
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 23.12
+    gyldig_fra: '2026-01-01'
