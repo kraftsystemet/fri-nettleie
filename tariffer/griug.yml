@@ -4,7 +4,7 @@ gln:
 kilder:
   - 'https://www.griug.no/om-nettleie-og-priser/priser/nettleiepriser-2025/'
 netteier: 'Griug AS'
-sist_oppdatert: '2025-10-22'
+sist_oppdatert: '2025-12-25'
 tariffer:
   - energiledd:
       grunnpris: 9.8
@@ -80,3 +80,35 @@ tariffer:
           pris: 27.52
           timer: 16-21
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-04-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2400
+        - terskel: 2
+          pris: 3648
+        - terskel: 5
+          pris: 5472
+        - terskel: 10
+          pris: 7008
+        - terskel: 15
+          pris: 8832
+        - terskel: 20
+          pris: 10704
+        - terskel: 25
+          pris: 20016
+        - terskel: 50
+          pris: 29376
+        - terskel: 75
+          pris: 39456
+        - terskel: 100
+          pris: 78240
+    energiledd:
+      grunnpris: 12.32
+    gyldig_fra: '2025-04-01'
