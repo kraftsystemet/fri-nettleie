@@ -2,10 +2,10 @@
 netteier: 'DE Nett AS'
 gln:
   - '7080010003614'
-sist_oppdatert: '2025-10-22'
+sist_oppdatert: '2025-12-25'
 kilder:
   - 'https://denett.no/priser-tariffer'
-  - 'https://denett.no/uploads/Nettleietariffer-fra-01.01.2025.pdf'
+  - 'https://denett.no/uploads/Nettleietariffer-fra-01.01.2026.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -55,3 +55,52 @@ tariffer:
           måneder: [januar, februar, mars, oktober, november, desember]
           pris: 25.35
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3432
+        - terskel: 2
+          pris: 4428
+        - terskel: 5
+          pris: 5412
+        - terskel: 10
+          pris: 7464
+        - terskel: 15
+          pris: 9444
+        - terskel: 20
+          pris: 11484
+        - terskel: 25
+          pris: 17424
+        - terskel: 50
+          pris: 27456
+        - terskel: 75
+          pris: 37488
+        - terskel: 100
+          pris: 52800
+        - terskel: 150
+          pris: 72600
+        - terskel: 200
+          pris: 102624
+    energiledd:
+      grunnpris: 23.6
+      unntak:
+        - navn: 'Sommer dag'
+          timer: 6-21
+          pris: 26.6
+          måneder: [april, mai, juni, juli, august, september]
+        - navn: 'Vinter dag'
+          timer: 6-21
+          måneder: [januar, februar, mars, oktober, november, desember]
+          pris: 31.4
+        - navn: 'Vinter natt'
+          timer: 22-5
+          måneder: [januar, februar, mars, oktober, november, desember]
+          pris: 28.4
+    gyldig_til: '2026-01-01'
