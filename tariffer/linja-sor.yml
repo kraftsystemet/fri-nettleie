@@ -42,6 +42,7 @@ tariffer:
         - pris: 18412.8
           terskel: 100
     gyldig_fra: '2024-07-01'
+    gyldig_til: '2026-01-01'
     navn: Sør
     kundegrupper:
       - liten_næring
