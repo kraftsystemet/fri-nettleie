@@ -103,4 +103,4 @@ tariffer:
           timer: 22-5
           måneder: [januar, februar, mars, oktober, november, desember]
           pris: 28.4
-    gyldig_til: '2026-01-01'
+    gyldig_fra: '2026-01-01'
