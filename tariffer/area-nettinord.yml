@@ -1,11 +1,12 @@
 ---
-netteier: 'Area Nett AS - NettiNord'
+netteier: 'Area Nett AS - Område 1- NettiNord'
 gln:
   - '7080004087071'
-sist_oppdatert: '2025-10-22'
+sist_oppdatert: '2025-12-20'
 kilder:
   - 'https://www.area.no/kunde-og-nettleie/priser-og-nettleie/'
   - 'https://www.area.no/getfile.php/131319-1734525121/Filer/PRISBLAD%20TARIFFER%202025.pdf'
+  - 'https://www.area.no/getfile.php/132156-1766066155/Filer/20251218_Tariffer%202026.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -41,3 +42,37 @@ tariffer:
           måneder: [januar, februar, mars]
           pris: 29.89
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 6300
+        - terskel: 2
+          pris: 6615
+        - terskel: 5
+          pris: 7245
+        - terskel: 10
+          pris: 10080
+        - terskel: 15
+          pris: 12140
+        - terskel: 20
+          pris: 14030
+        - terskel: 25
+          pris: 17180
+    energiledd:
+      grunnpris: 26.89
+      unntak:
+        - navn: 'Lavlast sommer'
+          timer: 22-5
+          pris: 24.89
+          måneder: [april, mai, juni, juli, august, september, oktober, november, desember]
+        - navn: 'Høylast vinter'
+          timer: 6-21
+          måneder: [januar, februar, mars]
+          pris: 29.89
+    gyldig_fra: '2026-01-01'
