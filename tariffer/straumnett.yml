@@ -4,7 +4,7 @@ gln:
   - '7080004053632'
 kilder:
   - 'https://straumnett.no/prisar-for-nettleige'
-sist_oppdatert: '2025-02-04'
+sist_oppdatert: '2025-12-30'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -75,3 +75,40 @@ tariffer:
           timer: 6-21
           pris: 20.97
     gyldig_fra: '2025-05-09'
+    gyldig_til: '2026-02-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3494.208
+        - terskel: 2
+          pris: 4192.992
+        - terskel: 5
+          pris: 4542.432
+        - terskel: 10
+          pris: 4891.872
+        - terskel: 15
+          pris: 5241.312
+        - terskel: 20
+          pris: 6114.816
+        - terskel: 25
+          pris: 6638.976
+        - terskel: 50
+          pris: 7337.76
+        - terskel: 75
+          pris: 8036.64
+        - terskel: 100
+          pris: 8735.424
+    energiledd:
+      grunnpris: 15.96
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 20.96
+          dager: [alle]
+    gyldig_fra: '2026-02-01'
