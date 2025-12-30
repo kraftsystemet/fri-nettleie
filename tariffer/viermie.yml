@@ -2,7 +2,7 @@
 netteier: 'Viermie AS'
 gln:
   - '7080003947932'
-sist_oppdatert: '2025-11-14'
+sist_oppdatert: '2025-12-30'
 kilder:
   - 'https://viermie.no/nettleiepriser/priser-for-kunder-med-forbruk-under-100-000-kwh-ar/'
 tariffer:
@@ -39,3 +39,38 @@ tariffer:
           timer: 6-21
           pris: 20.8
     gyldig_fra: '2024-01-01'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3408
+        - terskel: 5
+          pris: 4944
+        - terskel: 10
+          pris: 6921.6
+        - terskel: 15
+          pris: 9609.6
+        - terskel: 20
+          pris: 12470.4
+        - terskel: 25
+          pris: 23702.4
+        - terskel: 50
+          pris: 43468.8
+        - terskel: 100
+          pris: 78460.8
+        - terskel: 200
+          pris: 120748.8
+    energiledd:
+      grunnpris: 16.4
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 22.8
+          dager: [alle]
+    gyldig_fra: '2026-01-01'
