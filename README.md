@@ -388,9 +388,9 @@ for informasjon om hvordan du kan hjelpe.
   <td>Alut AS</td>
   <td>7080010004383</td>
   <td style="white-space: nowrap;">2025-10-23</td>
-  <td>✅</td>
-  <td>✅</td>
-  <td>✅</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/alut.html" title="Se på tariffen for Alut AS" target="_blank">🔍</a>
     <a href="./tariffer/alut.yml" title="Se dataene for Alut AS i YAML-format" target="_blank">📄</a>
@@ -402,7 +402,7 @@ for informasjon om hvordan du kan hjelpe.
   <td>7080004087071</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>❌</td>
-  <td>❌</td>
+  <td>✅</td>
   <td>❌</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/area-alle.html" title="Se på tariffen for Area Nett AS - Alle områder" target="_blank">🔍</a>
@@ -415,7 +415,7 @@ for informasjon om hvordan du kan hjelpe.
   <td>7080004087071</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
-  <td>✅</td>
+  <td>❌</td>
   <td>✅</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/area-nettinord.html" title="Se på tariffen for Area Nett AS - Område 1- NettiNord" target="_blank">🔍</a>
@@ -428,7 +428,7 @@ for informasjon om hvordan du kan hjelpe.
   <td>7080004087071</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
-  <td>✅</td>
+  <td>❌</td>
   <td>✅</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/area-luostejok.html" title="Se på tariffen for Area Nett AS - Område 2 - Luostejok" target="_blank">🔍</a>
@@ -441,7 +441,7 @@ for informasjon om hvordan du kan hjelpe.
   <td>7080004087071</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
-  <td>✅</td>
+  <td>❌</td>
   <td>✅</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/area-lega.html" title="Se på tariffen for Area Nett AS - Område 3 - Lega" target="_blank">🔍</a>
@@ -856,9 +856,9 @@ for informasjon om hvordan du kan hjelpe.
   <td>Linja AS</td>
   <td>7080001319830</td>
   <td style="white-space: nowrap;">2025-12-25</td>
-  <td>❌</td>
-  <td>❌</td>
-  <td>❌</td>
+  <td>✅</td>
+  <td>✅</td>
+  <td>✅</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/linja.html" title="Se på tariffen for Linja AS" target="_blank">🔍</a>
     <a href="./tariffer/linja.yml" title="Se dataene for Linja AS i YAML-format" target="_blank">📄</a>
@@ -869,9 +869,9 @@ for informasjon om hvordan du kan hjelpe.
   <td>Linja AS - Nord (Mørenett)</td>
   <td>7080001319830</td>
   <td style="white-space: nowrap;">2025-11-22</td>
-  <td>✅</td>
-  <td>✅</td>
-  <td>✅</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/linja-nord.html" title="Se på tariffen for Linja AS - Nord (Mørenett)" target="_blank">🔍</a>
     <a href="./tariffer/linja-nord.yml" title="Se dataene for Linja AS - Nord (Mørenett) i YAML-format" target="_blank">📄</a>
@@ -882,9 +882,9 @@ for informasjon om hvordan du kan hjelpe.
   <td>Linja AS - Sør</td>
   <td>7080001319830</td>
   <td style="white-space: nowrap;">2025-11-22</td>
-  <td>✅</td>
-  <td>✅</td>
-  <td>✅</td>
+  <td>❌</td>
+  <td>❌</td>
+  <td>❌</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/linja-sor.html" title="Se på tariffen for Linja AS - Sør" target="_blank">🔍</a>
     <a href="./tariffer/linja-sor.yml" title="Se dataene for Linja AS - Sør i YAML-format" target="_blank">📄</a>
@@ -1066,7 +1066,7 @@ for informasjon om hvordan du kan hjelpe.
   <td style="white-space: nowrap;">2025-12-12</td>
   <td>✅</td>
   <td>✅</td>
-  <td>❌</td>
+  <td>✅</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/norefjell.html" title="Se på tariffen for Norefjell Nett AS" target="_blank">🔍</a>
     <a href="./tariffer/norefjell.yml" title="Se dataene for Norefjell Nett AS i YAML-format" target="_blank">📄</a>
@@ -1298,8 +1298,8 @@ for informasjon om hvordan du kan hjelpe.
   <td>Vang Energiverk AS</td>
   <td>7080010002297</td>
   <td style="white-space: nowrap;">2024-11-09</td>
-  <td>✅</td>
-  <td>✅</td>
+  <td>❌</td>
+  <td>❌</td>
   <td>❌</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/vang.html" title="Se på tariffen for Vang Energiverk AS" target="_blank">🔍</a>
@@ -1388,10 +1388,10 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>TOTAL</td>
   <td></td>
-  <td style="white-space: nowrap;">2025-12-30</td>
-  <td>75</td>
-  <td>75</td>
-  <td>48</td>
+  <td style="white-space: nowrap;">2026-01-05</td>
+  <td>72</td>
+  <td>70</td>
+  <td>47</td>
   <td></td>
 </tr>
 </table>
