@@ -98,4 +98,28 @@ tariffer:
           dager: [fredag]
           måneder: [januar, februar, mars, april, oktober, november, desember]
     gyldig_fra: '2025-04-01'
-    gyldig_til: '2025-12-31'
+    gyldig_til: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 5400
+        - terskel: 2
+          pris: 6600
+        - terskel: 5
+          pris: 7860
+        - terskel: 8
+          pris: 9120
+        - terskel: 12
+          pris: 10620
+        - terskel: 18
+          pris: 12180
+        - terskel: 25
+          pris: 13980
+    energiledd:
+      grunnpris: 13
+    gyldig_fra: '2026-01-01'
