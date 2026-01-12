@@ -135,9 +135,9 @@ tariffer:
         - terskel: 100
           pris: 70548
     energiledd:
-      grunnpris: 6
+      grunnpris: 3
       unntak:
         - navn: Dag
           timer: 6-21
-          pris: 3
+          pris: 6
     gyldig_fra: '2026-01-01'
