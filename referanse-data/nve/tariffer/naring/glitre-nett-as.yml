@@ -1,10 +1,15 @@
 ---
 energiledd:
   - 12.6
+  - 12.94
+  - 13.28
+  - 20.26
+  - 22.43
   - 24.6
 fylker:
   - '03'
   - '11'
+  - '31'
   - '32'
   - '33'
   - '34'
@@ -20,6 +25,7 @@ fylker_navn:
   - Rogaland
   - Telemark
   - Vestland
+  - "Østfold"
 navn: GLITRE NETT AS
 org: '982974011'
 terskler:

@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 12.4
+  - 12.9
 fylker:
   - '34'
 fylker_navn:
@@ -8,23 +8,27 @@ fylker_navn:
 navn: FJELLNETT AS
 org: '923354204'
 terskler:
-  - pris: 2523.96
+  - pris: 2534.04
     terskel: 0.0
-  - pris: 3050.04
+  - pris: 3068.04
     terskel: 1.0
-  - pris: 3573.96
+  - pris: 3602.04
     terskel: 2.0
-  - pris: 4098.96
+  - pris: 4136.04
     terskel: 3.0
-  - pris: 4623.96
+  - pris: 4670.04
     terskel: 4.0
-  - pris: 5148.96
+  - pris: 5204.04
     terskel: 5.0
-  - pris: 5673.96
+  - pris: 5738.04
     terskel: 6.0
-  - pris: 6198.0
+  - pris: 6272.04
     terskel: 7.0
-  - pris: 6723.0
+  - pris: 6806.04
     terskel: 8.0
-  - pris: 7248.0
+  - pris: 7340.04
     terskel: 9.0
+  - pris: 7874.04
+    terskel: 10.0
+  - pris: 8408.04
+    terskel: 11.0

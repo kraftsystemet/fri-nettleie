@@ -8,27 +8,29 @@ fylker_navn:
 navn: KLIVE AS
 org: '923436596'
 terskler:
-  - pris: 4614.24
+  - pris: 5414.0
     terskel: 0.0
-  - pris: 5731.33
+  - pris: 6531.0
     terskel: 5.0
-  - pris: 7606.32
+  - pris: 8406.0
     terskel: 10.0
-  - pris: 10146.1
+  - pris: 10946.0
     terskel: 15.0
-  - pris: 12686.0
+  - pris: 13486.0
     terskel: 20.0
-  - pris: 25358.6
+  - pris: 26159.0
     terskel: 25.0
-  - pris: 38044.7
+  - pris: 38845.0
     terskel: 50.0
-  - pris: 50730.6
+  - pris: 51531.0
     terskel: 75.0
-  - pris: 76089.4
+  - pris: 76889.0
     terskel: 100.0
-  - pris: 101448.0
+  - pris: 102248.0
     terskel: 150.0
-  - pris: 152179.0
+  - pris: 152979.0
     terskel: 200.0
-  - pris: 253627.0
+  - pris: 254427.0
     terskel: 300.0
+  - pris: 355875.0
+    terskel: 500.0

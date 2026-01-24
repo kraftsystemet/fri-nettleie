@@ -1,0 +1,12 @@
+---
+energiledd:
+  - 40.0
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: MOSTRAUM NETT AS
+org: '933584801'
+terskler:
+  - pris: 82800.0
+    terskel: 100.0

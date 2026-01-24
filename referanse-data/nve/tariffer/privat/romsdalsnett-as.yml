@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 18.85
-  - 28.85
+  - 21.72
+  - 31.72
 fylker:
   - '15'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: ROMSDALSNETT AS
 org: '926377841'
 terskler:
-  - pris: 2540.76
+  - pris: 2784.0
     terskel: 0.0
-  - pris: 3175.2
+  - pris: 3480.0
     terskel: 2.0
-  - pris: 3810.36
+  - pris: 4176.0
     terskel: 5.0
-  - pris: 6351.24
+  - pris: 6960.0
     terskel: 10.0
-  - pris: 8891.16
+  - pris: 9744.0
     terskel: 15.0
-  - pris: 10161.6
+  - pris: 11136.0
     terskel: 20.0
-  - pris: 13971.96
+  - pris: 15300.0
     terskel: 25.0
-  - pris: 19052.76
+  - pris: 20868.0
     terskel: 50.0
-  - pris: 21593.64
+  - pris: 23652.0
     terskel: 75.0
-  - pris: 25404.0
+  - pris: 27828.0
     terskel: 100.0

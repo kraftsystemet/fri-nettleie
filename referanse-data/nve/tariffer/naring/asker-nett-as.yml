@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 15.89
-  - 23.89
+  - 15.87
+  - 23.87
 fylker:
   - '32'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: ASKER NETT AS
 org: '917743193'
 terskler:
-  - pris: 2576.0
+  - pris: 2864.0
     terskel: 0.0
-  - pris: 3008.0
+  - pris: 3392.0
     terskel: 2.0
-  - pris: 4064.0
+  - pris: 4592.0
     terskel: 5.0
-  - pris: 7616.0
+  - pris: 8720.0
     terskel: 10.0
-  - pris: 9392.0
+  - pris: 10688.0
     terskel: 15.0
-  - pris: 11648.0
+  - pris: 13280.0
     terskel: 20.0
-  - pris: 16160.0
+  - pris: 18464.0
     terskel: 25.0
-  - pris: 25184.0
+  - pris: 28640.0
     terskel: 50.0
-  - pris: 33248.0
+  - pris: 38144.0
     terskel: 75.0
-  - pris: 52640.0
+  - pris: 60800.0
     terskel: 100.0

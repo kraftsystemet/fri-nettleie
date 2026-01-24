@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 19.0
-  - 24.0
+  - 9.0
+  - 14.0
 fylker:
   - '18'
 fylker_navn:
@@ -9,33 +9,43 @@ fylker_navn:
 navn: NORANETT HADSEL AS
 org: '917983550'
 terskler:
-  - pris: 4040.0
+  - pris: 3240.0
     terskel: 0.0
-  - pris: 4880.0
+  - pris: 4200.0
     terskel: 2.0
-  - pris: 5720.0
+  - pris: 5040.0
     terskel: 4.0
-  - pris: 6560.0
+  - pris: 5880.0
     terskel: 6.0
-  - pris: 7400.0
+  - pris: 6720.0
     terskel: 8.0
-  - pris: 8480.0
+  - pris: 7800.0
     terskel: 10.0
-  - pris: 10400.0
+  - pris: 9840.0
     terskel: 15.0
-  - pris: 12440.0
+  - pris: 11760.0
     terskel: 20.0
-  - pris: 14480.0
+  - pris: 14040.0
     terskel: 25.0
-  - pris: 16400.0
+  - pris: 15960.0
     terskel: 30.0
-  - pris: 18320.0
+  - pris: 17880.0
     terskel: 35.0
-  - pris: 20240.0
+  - pris: 19800.0
     terskel: 40.0
-  - pris: 22160.0
+  - pris: 21840.0
     terskel: 45.0
-  - pris: 27800.0
+  - pris: 27360.0
     terskel: 50.0
-  - pris: 37400.0
+  - pris: 37080.0
     terskel: 75.0
+  - pris: 47280.0
+    terskel: 100.0
+  - pris: 57720.0
+    terskel: 125.0
+  - pris: 68280.0
+    terskel: 150.0
+  - pris: 78720.0
+    terskel: 175.0
+  - pris: 89160.0
+    terskel: 200.0

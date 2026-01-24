@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 14.1
-  - 22.5
+  - 15.8
+  - 25.2
 fylker:
   - '34'
   - '46'
@@ -11,37 +11,37 @@ fylker_navn:
 navn: VEVIG AS
 org: '916319908'
 terskler:
-  - pris: 2904.0
+  - pris: 3212.0
     terskel: 0.0
-  - pris: 3547.92
+  - pris: 3932.0
     terskel: 2.0
-  - pris: 4608.0
+  - pris: 5156.0
     terskel: 5.0
-  - pris: 5695.2
+  - pris: 6380.0
     terskel: 10.0
-  - pris: 6775.2
+  - pris: 7616.0
     terskel: 15.0
-  - pris: 7831.2
+  - pris: 8816.0
     terskel: 20.0
-  - pris: 8899.2
+  - pris: 10040.0
     terskel: 25.0
-  - pris: 11047.2
+  - pris: 12488.0
     terskel: 30.0
-  - pris: 13176.0
+  - pris: 15740.0
     terskel: 40.0
-  - pris: 18516.0
+  - pris: 20996.0
     terskel: 50.0
-  - pris: 23863.2
+  - pris: 27092.0
     terskel: 75.0
-  - pris: 29196.0
+  - pris: 33164.0
     terskel: 100.0
-  - pris: 34548.0
+  - pris: 39272.0
     terskel: 125.0
-  - pris: 45228.0
+  - pris: 51440.0
     terskel: 150.0
-  - pris: 66600.0
+  - pris: 70892.0
     terskel: 200.0
-  - pris: 87960.0
+  - pris: 98780.0
     terskel: 300.0
-  - pris: 216168.0
+  - pris: 197480.0
     terskel: 400.0

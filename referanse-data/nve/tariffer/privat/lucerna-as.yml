@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 13.45
-  - 19.45
+  - 14.32
+  - 20.32
 fylker:
   - '56'
 fylker_navn:
@@ -9,21 +9,21 @@ fylker_navn:
 navn: LUCERNA AS
 org: '982897327'
 terskler:
-  - pris: 3113.04
+  - pris: 258.96
     terskel: 0.0
-  - pris: 3735.0
+  - pris: 311.04
     terskel: 2.0
-  - pris: 4514.04
+  - pris: 375.96
     terskel: 5.0
-  - pris: 4980.96
+  - pris: 414.96
     terskel: 10.0
-  - pris: 6225.96
+  - pris: 519.0
     terskel: 15.0
-  - pris: 7004.04
+  - pris: 584.04
     terskel: 20.0
-  - pris: 7782.96
+  - pris: 648.96
     terskel: 25.0
-  - pris: 8561.04
+  - pris: 713.04
     terskel: 50.0
-  - pris: 9339.0
+  - pris: 777.96
     terskel: 75.0

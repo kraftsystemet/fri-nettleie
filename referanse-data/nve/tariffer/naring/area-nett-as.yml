@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 24.49
-  - 26.99
+  - 25.89
+  - 28.89
 fylker:
   - '56'
 fylker_navn:
@@ -9,17 +9,17 @@ fylker_navn:
 navn: AREA NETT AS
 org: '923993355'
 terskler:
-  - pris: 5150.0
+  - pris: 5890.0
     terskel: 0.0
-  - pris: 6802.25
+  - pris: 6970.0
     terskel: 2.0
-  - pris: 8221.25
+  - pris: 7843.0
     terskel: 5.0
-  - pris: 10847.0
+  - pris: 10880.0
     terskel: 10.0
-  - pris: 12391.25
+  - pris: 12140.0
     terskel: 15.0
-  - pris: 14331.5
+  - pris: 14030.0
     terskel: 20.0
-  - pris: 20519.0
+  - pris: 17180.0
     terskel: 25.0

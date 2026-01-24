@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 24.65
+  - 20.14
 fylker:
   - '40'
 fylker_navn:
@@ -8,19 +8,19 @@ fylker_navn:
 navn: RK NETT AS
 org: '925017809'
 terskler:
-  - pris: 3095.0
+  - pris: 3361.0
     terskel: 0.0
-  - pris: 4024.0
+  - pris: 4129.0
     terskel: 2.0
-  - pris: 5271.0
+  - pris: 5410.0
     terskel: 5.0
-  - pris: 7119.0
+  - pris: 6691.0
     terskel: 10.0
-  - pris: 8666.0
+  - pris: 7971.0
     terskel: 15.0
-  - pris: 10214.0
+  - pris: 9252.0
     terskel: 20.0
-  - pris: 17951.0
+  - pris: 15655.0
     terskel: 25.0
-  - pris: 25689.0
+  - pris: 22057.0
     terskel: 50.0

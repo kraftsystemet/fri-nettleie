@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 25.35
-  - 28.35
+  - 28.4
+  - 31.4
 fylker:
   - '40'
 fylker_navn:
@@ -9,27 +9,27 @@ fylker_navn:
 navn: DE NETT AS
 org: '924862602'
 terskler:
-  - pris: 3920.0
+  - pris: 3422.0
     terskel: 0.0
-  - pris: 4820.0
+  - pris: 4428.0
     terskel: 2.0
-  - pris: 5720.0
+  - pris: 5412.0
     terskel: 5.0
-  - pris: 7580.0
+  - pris: 7464.0
     terskel: 10.0
-  - pris: 9380.0
+  - pris: 9444.0
     terskel: 15.0
-  - pris: 11240.0
+  - pris: 11464.0
     terskel: 20.0
-  - pris: 16640.0
+  - pris: 17424.0
     terskel: 25.0
-  - pris: 25760.0
+  - pris: 27456.0
     terskel: 50.0
-  - pris: 34880.0
+  - pris: 37488.0
     terskel: 75.0
-  - pris: 48800.0
+  - pris: 52800.0
     terskel: 100.0
-  - pris: 66800.0
+  - pris: 72600.0
     terskel: 150.0
-  - pris: 94100.0
+  - pris: 102624.0
     terskel: 200.0

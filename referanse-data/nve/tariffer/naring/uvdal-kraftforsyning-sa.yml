@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 16.23
-  - 24.23
+  - 15.12
+  - 23.12
 fylker:
   - '33'
 fylker_navn:
@@ -9,21 +9,21 @@ fylker_navn:
 navn: UVDAL KRAFTFORSYNING SA
 org: '967670170'
 terskler:
-  - pris: 4332.8
+  - pris: 3331.12
     terskel: 0.0
-  - pris: 6108.8
+  - pris: 5001.6
     terskel: 5.0
-  - pris: 8585.6
+  - pris: 7334.4
     terskel: 10.0
-  - pris: 15660.8
+  - pris: 13996.8
     terskel: 15.0
-  - pris: 22736.0
+  - pris: 20668.8
     terskel: 20.0
-  - pris: 33344.0
+  - pris: 30662.4
     terskel: 25.0
-  - pris: 51036.8
+  - pris: 47328.0
     terskel: 50.0
-  - pris: 72252.8
+  - pris: 67334.4
     terskel: 75.0
-  - pris: 100553.6
+  - pris: 93993.6
     terskel: 100.0

@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 18.5
-  - 23.5
+  - 21.4
+  - 26.9
 fylker:
   - '46'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: TENDRANETT AS
 org: '918999361'
 terskler:
-  - pris: 2007.96
+  - pris: 2208.96
     terskel: 0.0
-  - pris: 2610.96
+  - pris: 2871.96
     terskel: 2.0
-  - pris: 3213.0
+  - pris: 3534.0
     terskel: 5.0
-  - pris: 4418.04
+  - pris: 4860.0
     terskel: 10.0
-  - pris: 5622.96
+  - pris: 6185.04
     terskel: 15.0
-  - pris: 6828.0
+  - pris: 7511.04
     terskel: 20.0
-  - pris: 8435.04
+  - pris: 9278.04
     terskel: 25.0
-  - pris: 10041.0
+  - pris: 11045.04
     terskel: 50.0
-  - pris: 11648.04
+  - pris: 12812.04
     terskel: 75.0
-  - pris: 12048.96
+  - pris: 13254.0
     terskel: 100.0

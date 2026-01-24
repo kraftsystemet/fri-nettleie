@@ -8,23 +8,23 @@ fylker_navn:
 navn: KYSTNETT AS
 org: '923152601'
 terskler:
-  - pris: 6716.0
+  - pris: 6718.0
     terskel: 0.0
-  - pris: 11480.0
+  - pris: 11474.0
     terskel: 5.0
-  - pris: 16232.0
+  - pris: 16230.0
     terskel: 10.0
-  - pris: 20984.0
+  - pris: 20987.0
     terskel: 15.0
-  - pris: 25748.0
+  - pris: 25743.0
     terskel: 20.0
-  - pris: 40016.0
+  - pris: 40012.0
     terskel: 25.0
-  - pris: 63800.0
+  - pris: 63794.0
     terskel: 50.0
-  - pris: 87572.0
+  - pris: 87575.0
     terskel: 75.0
-  - pris: 123680.0
+  - pris: 123248.0
     terskel: 100.0
-  - pris: 170816.0
+  - pris: 170811.0
     terskel: 150.0

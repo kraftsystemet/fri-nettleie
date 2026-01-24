@@ -1,88 +1,86 @@
 ---
 energiledd:
-  - 23.19
+  - 22.05
 fylker:
-  - '34'
   - '46'
 fylker_navn:
-  - Innlandet
   - Vestland
 navn: SYGNIR AS
 org: '924619260'
 terskler:
-  - pris: 2422.0
+  - pris: 3104.0
     terskel: 0.0
-  - pris: 2906.0
+  - pris: 3560.0
     terskel: 1.0
-  - pris: 3391.0
+  - pris: 4040.0
     terskel: 2.0
-  - pris: 3875.0
+  - pris: 4484.0
     terskel: 3.0
-  - pris: 4360.0
+  - pris: 4940.0
     terskel: 4.0
-  - pris: 5086.0
+  - pris: 5636.0
     terskel: 5.0
-  - pris: 5813.0
+  - pris: 6320.0
     terskel: 6.0
-  - pris: 6540.0
+  - pris: 7016.0
     terskel: 7.0
-  - pris: 7266.0
+  - pris: 7712.0
     terskel: 8.0
-  - pris: 7993.0
+  - pris: 8396.0
     terskel: 9.0
-  - pris: 9446.0
+  - pris: 9800.0
     terskel: 10.0
-  - pris: 10899.0
+  - pris: 11180.0
     terskel: 12.0
-  - pris: 12353.0
+  - pris: 12560.0
     terskel: 14.0
-  - pris: 13806.0
+  - pris: 13940.0
     terskel: 16.0
-  - pris: 15259.0
+  - pris: 15380.0
     terskel: 18.0
-  - pris: 27369.0
+  - pris: 26840.0
     terskel: 20.0
-  - pris: 39480.0
+  - pris: 38360.0
     terskel: 40.0
-  - pris: 51590.0
+  - pris: 49880.0
     terskel: 60.0
-  - pris: 63710.0
+  - pris: 61400.0
     terskel: 80.0
-  - pris: 112142.0
+  - pris: 107480.0
     terskel: 100.0
-  - pris: 160583.0
+  - pris: 153380.0
     terskel: 200.0
-  - pris: 209025.0
+  - pris: 199400.0
     terskel: 300.0
-  - pris: 257466.0
+  - pris: 245420.0
     terskel: 400.0
-  - pris: 305908.0
+  - pris: 291440.0
     terskel: 500.0
-  - pris: 354349.0
+  - pris: 337460.0
     terskel: 600.0
-  - pris: 402791.0
+  - pris: 383480.0
     terskel: 700.0
-  - pris: 451232.0
+  - pris: 429500.0
     terskel: 800.0
-  - pris: 499674.0
+  - pris: 475520.0
     terskel: 900.0
-  - pris: 548115.0
+  - pris: 521600.0
     terskel: 1000.0
-  - pris: 596557.0
+  - pris: 567560.0
     terskel: 1100.0
-  - pris: 644998.0
+  - pris: 613640.0
     terskel: 1200.0
-  - pris: 693440.0
+  - pris: 659600.0
     terskel: 1300.0
-  - pris: 741881.0
+  - pris: 705680.0
     terskel: 1400.0
-  - pris: 790323.0
+  - pris: 751640.0
     terskel: 1500.0
-  - pris: 838764.0
+  - pris: 797720.0
     terskel: 1600.0
-  - pris: 887206.0
+  - pris: 843680.0
     terskel: 1700.0
-  - pris: 935647.0
+  - pris: 889760.0
     terskel: 1800.0
-  - pris: 984088.0
+  - pris: 935720.0
     terskel: 1900.0

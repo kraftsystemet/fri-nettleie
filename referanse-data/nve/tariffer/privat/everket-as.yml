@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 24.8
+  - 19.2
 fylker:
   - '40'
 fylker_navn:
@@ -8,11 +8,11 @@ fylker_navn:
 navn: EVERKET AS
 org: '966731508'
 terskler:
-  - pris: 3264.0
+  - pris: 2976.0
     terskel: 0.0
-  - pris: 4128.0
+  - pris: 3648.0
     terskel: 2.0
-  - pris: 4992.0
+  - pris: 4608.0
     terskel: 5.0
   - pris: 6048.0
     terskel: 10.0
@@ -26,3 +26,9 @@ terskler:
     terskel: 50.0
   - pris: 24000.0
     terskel: 75.0
+  - pris: 32640.0
+    terskel: 100.0
+  - pris: 43200.0
+    terskel: 150.0
+  - pris: 57600.0
+    terskel: 200.0

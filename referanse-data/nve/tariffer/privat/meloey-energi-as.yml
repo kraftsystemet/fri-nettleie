@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 20.0
-  - 25.2
+  - 18.4
+  - 28.4
 fylker:
   - '18'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: "MELØY ENERGI AS"
 org: '919173122'
 terskler:
-  - pris: 3167.04
+  - pris: 3660.0
     terskel: 0.0
-  - pris: 3800.04
+  - pris: 4392.0
     terskel: 2.0
-  - pris: 4116.96
+  - pris: 4752.0
     terskel: 5.0
-  - pris: 4434.0
+  - pris: 5124.0
     terskel: 10.0
-  - pris: 4749.96
+  - pris: 5484.0
     terskel: 15.0
-  - pris: 5541.96
+  - pris: 6396.0
     terskel: 20.0
-  - pris: 6017.04
+  - pris: 6948.0
     terskel: 25.0
-  - pris: 6650.04
+  - pris: 7680.0
     terskel: 50.0
-  - pris: 7284.0
+  - pris: 8412.0
     terskel: 75.0
-  - pris: 7917.0
+  - pris: 9144.0
     terskel: 100.0

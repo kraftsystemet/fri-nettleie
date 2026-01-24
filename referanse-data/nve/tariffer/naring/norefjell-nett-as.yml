@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 14.03
-  - 20.96
+  - 15.08
+  - 22.53
 fylker:
   - '33'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: NOREFJELL NETT AS
 org: '824701482'
 terskler:
-  - pris: 2960.0
+  - pris: 3128.0
     terskel: 0.0
-  - pris: 3608.0
+  - pris: 3824.0
     terskel: 2.0
-  - pris: 4688.0
+  - pris: 4976.0
     terskel: 5.0
-  - pris: 6632.0
+  - pris: 7064.0
     terskel: 10.0
-  - pris: 8360.0
+  - pris: 8924.0
     terskel: 15.0
-  - pris: 10088.0
+  - pris: 10784.0
     terskel: 20.0
-  - pris: 15920.0
+  - pris: 17060.0
     terskel: 25.0
-  - pris: 23480.0
+  - pris: 25184.0
     terskel: 50.0
-  - pris: 31040.0
+  - pris: 33308.0
     terskel: 75.0
-  - pris: 44000.0
+  - pris: 47240.0
     terskel: 100.0

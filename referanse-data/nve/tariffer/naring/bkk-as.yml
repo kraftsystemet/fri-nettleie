@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 19.78
-  - 29.96
+  - 10.5
+  - 28.77
 fylker:
   - '46'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: BKK AS
 org: '976944801'
 terskler:
-  - pris: 1536.0
+  - pris: 2288.0
     terskel: 0.0
-  - pris: 2496.0
+  - pris: 3200.0
     terskel: 2.0
-  - pris: 4128.0
+  - pris: 4784.0
     terskel: 5.0
-  - pris: 5952.0
+  - pris: 6560.0
     terskel: 10.0
-  - pris: 7680.0
+  - pris: 8192.0
     terskel: 15.0
-  - pris: 9360.0
+  - pris: 9824.0
     terskel: 20.0
-  - pris: 17952.0
+  - pris: 18080.0
     terskel: 25.0
-  - pris: 26496.0
+  - pris: 26240.0
     terskel: 50.0
-  - pris: 35040.0
+  - pris: 34400.0
     terskel: 75.0
-  - pris: 69120.0
+  - pris: 67040.0
     terskel: 100.0

@@ -10,17 +10,17 @@ fylker_navn:
 navn: VANG ENERGIVERK AS
 org: '824368082'
 terskler:
-  - pris: 6200.0
+  - pris: 5400.0
     terskel: 0.0
-  - pris: 7400.0
+  - pris: 6600.0
     terskel: 2.0
-  - pris: 8660.0
+  - pris: 7860.0
     terskel: 5.0
-  - pris: 9920.0
+  - pris: 9120.0
     terskel: 8.0
-  - pris: 11420.0
+  - pris: 10620.0
     terskel: 12.0
-  - pris: 12980.0
+  - pris: 12180.0
     terskel: 18.0
-  - pris: 14780.0
+  - pris: 13980.0
     terskel: 25.0

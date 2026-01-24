@@ -1,6 +1,6 @@
 ---
 energiledd:
-  - 17.47
+  - 18.63
 fylker:
   - '34'
 fylker_navn:
@@ -8,23 +8,23 @@ fylker_navn:
 navn: KLIVE AS
 org: '923436596'
 terskler:
-  - pris: 4616.28
+  - pris: 4614.0
     terskel: 0.0
-  - pris: 5731.32
+  - pris: 5730.96
     terskel: 5.0
-  - pris: 7606.32
+  - pris: 7605.96
     terskel: 10.0
-  - pris: 10146.12
+  - pris: 10146.0
     terskel: 15.0
   - pris: 12686.04
     terskel: 20.0
-  - pris: 25358.64
+  - pris: 25359.0
     terskel: 25.0
-  - pris: 38044.68
+  - pris: 38045.04
     terskel: 50.0
-  - pris: 50730.6
+  - pris: 50730.96
     terskel: 75.0
-  - pris: 76089.36
+  - pris: 76089.0
     terskel: 100.0
   - pris: 101448.0
     terskel: 150.0
@@ -32,3 +32,5 @@ terskler:
     terskel: 200.0
   - pris: 253626.96
     terskel: 300.0
+  - pris: 355074.96
+    terskel: 500.0
