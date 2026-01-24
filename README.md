@@ -387,14 +387,14 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Alut AS</td>
   <td>7080010004383</td>
-  <td style="white-space: nowrap;">2025-10-23</td>
-  <td>❌</td>
-  <td>❌</td>
-  <td>❌</td>
+  <td style="white-space: nowrap;">2026-01-17</td>
+  <td>✅</td>
+  <td>✅</td>
+  <td>✅</td>
   <td>
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/alut.html" title="Se på tariffen for Alut AS" target="_blank">🔍</a>
     <a href="./tariffer/alut.yml" title="Se dataene for Alut AS i YAML-format" target="_blank">📄</a>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMTAwMDQzODMiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9hbHV0Lm5vL25ldHRsZWllLyJdLCAibmV0dGVpZXIiOiAiQWx1dCBBUyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI1LTEwLTIzIiwgInRhcmlmZmVyIjogW3siZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTMuMX0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIk9WX1RSRUZBU0UiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiBmYWxzZSwgInRlcnNrbGVyIjogW3sicHJpcyI6IDM1MDAsICJ0ZXJza2VsIjogMH0sIHsicHJpcyI6IDQ1MDAsICJ0ZXJza2VsIjogMTI1fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIiwgImd5bGRpZ190aWwiOiAiMjAyNS0wNy0wMSIsICJrdW5kZWdydXBwZXIiOiBbImh1c2hvbGRuaW5nIiwgImZyaXRpZCJdfSwgeyJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiA5LjF9LCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJPVl9UUkVGQVNFIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogZmFsc2UsICJ0ZXJza2xlciI6IFt7InByaXMiOiAzNTAwLCAidGVyc2tlbCI6IDB9LCB7InByaXMiOiA0NTAwLCAidGVyc2tlbCI6IDEyNX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNS0wNy0wMSIsICJneWxkaWdfdGlsIjogIjIwMjYtMDEtMDEiLCAia3VuZGVncnVwcGVyIjogWyJodXNob2xkbmluZyIsICJmcml0aWQiXX0sIHsiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogOS4xfSwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiT1ZfVFJFRkFTRSIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IGZhbHNlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiA3MDAwfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI1LTA3LTAxIiwgImd5bGRpZ190aWwiOiAiMjAyNi0wMS0wMSIsICJrdW5kZWdydXBwZXIiOiBbImxpdGVuX25cdTAwZTZyaW5nIl19XX0=' title='Samle inn data for Alut AS' target='_blank'>✏️</a>
+    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMTAwMDQzODMiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly9hbHV0Lm5vL25ldHRsZWllLyJdLCAibmV0dGVpZXIiOiAiQWx1dCBBUyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI2LTAxLTE3IiwgInRhcmlmZmVyIjogW3siZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTMuMX0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIk9WX1RSRUZBU0UiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiBmYWxzZSwgInRlcnNrbGVyIjogW3sicHJpcyI6IDM1MDAsICJ0ZXJza2VsIjogMH0sIHsicHJpcyI6IDQ1MDAsICJ0ZXJza2VsIjogMTI1fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTAxLTAxIiwgImd5bGRpZ190aWwiOiAiMjAyNS0wNy0wMSIsICJrdW5kZWdydXBwZXIiOiBbImh1c2hvbGRuaW5nIiwgImZyaXRpZCJdfSwgeyJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiA5LjF9LCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJPVl9UUkVGQVNFIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogZmFsc2UsICJ0ZXJza2xlciI6IFt7InByaXMiOiAzNTAwLCAidGVyc2tlbCI6IDB9LCB7InByaXMiOiA0NTAwLCAidGVyc2tlbCI6IDEyNX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNS0wNy0wMSIsICJneWxkaWdfdGlsIjogIjIwMjYtMDEtMDEiLCAia3VuZGVncnVwcGVyIjogWyJodXNob2xkbmluZyIsICJmcml0aWQiXX0sIHsiZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogOS4xfSwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiT1ZfVFJFRkFTRSIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IGZhbHNlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiA3MDAwfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI1LTA3LTAxIiwgImd5bGRpZ190aWwiOiAiMjAyNi0wMS0wMSIsICJrdW5kZWdydXBwZXIiOiBbImxpdGVuX25cdTAwZTZyaW5nIl19LCB7ImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDEzLjF9LCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJPVl9UUkVGQVNFIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogZmFsc2UsICJ0ZXJza2xlciI6IFt7InByaXMiOiAzNTAwLCAidGVyc2tlbCI6IDB9LCB7InByaXMiOiA0NTAwLCAidGVyc2tlbCI6IDEyNX1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNi0wMS0wMSIsICJrdW5kZWdydXBwZXIiOiBbImh1c2hvbGRuaW5nIiwgImZyaXRpZCJdfSwgeyJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMy4xfSwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiT1ZfVFJFRkFTRSIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IGZhbHNlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiA3MDAwfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI2LTAxLTAxIiwgImt1bmRlZ3J1cHBlciI6IFsibGl0ZW5fblx1MDBlNnJpbmciXX1dfQ==' title='Samle inn data for Alut AS' target='_blank'>✏️</a>
   </td>
 </tr>
 <tr>
@@ -863,32 +863,6 @@ for informasjon om hvordan du kan hjelpe.
     <a href="https://kraftsystemet.no/fri-nettleie/tariffer/linja.html" title="Se på tariffen for Linja AS" target="_blank">🔍</a>
     <a href="./tariffer/linja.yml" title="Se dataene for Linja AS i YAML-format" target="_blank">📄</a>
     <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMDEzMTk4MzAiXSwgImtpbGRlciI6IFsiaHR0cHM6Ly93d3cubGluamEubm8vbmV0dGxlaWdlIl0sICJuZXR0ZWllciI6ICJMaW5qYSBBUyIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI1LTEyLTI1IiwgInRhcmlmZmVyIjogW3sia3VuZGVncnVwcGVyIjogWyJsaXRlbl9uXHUwMGU2cmluZyIsICJodXNob2xkbmluZyIsICJmcml0aWQiXSwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJwcmlzIjogMjY0MCwgInRlcnNrZWwiOiAwfSwgeyJwcmlzIjogMzI5Mi44LCAidGVyc2tlbCI6IDJ9LCB7InByaXMiOiAzOTQ1LjYsICJ0ZXJza2VsIjogNX0sIHsicHJpcyI6IDY1ODUuNiwgInRlcnNrZWwiOiAxMH0sIHsicHJpcyI6IDc5MTAuNCwgInRlcnNrZWwiOiAxNX0sIHsicHJpcyI6IDkyMTYsICJ0ZXJza2VsIjogMjB9LCB7InByaXMiOiAxMzE4MC44LCAidGVyc2tlbCI6IDI1fSwgeyJwcmlzIjogMTQ0OTYsICJ0ZXJza2VsIjogNTB9LCB7InByaXMiOiAxNTgwMS42LCAidGVyc2tlbCI6IDc1fSwgeyJwcmlzIjogMTk3NjYuNCwgInRlcnNrZWwiOiAxMDB9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNS4zODIsICJ1bm50YWsiOiBbeyJuYXZuIjogIkhcdTAwZjh5bGFzdCIsICJwcmlzIjogMjIuMzgyLCAidGltZXIiOiAiNi0yMSJ9XX0sICJneWxkaWdfZnJhIjogIjIwMjYtMDEtMDEifV19' title='Samle inn data for Linja AS' target='_blank'>✏️</a>
-  </td>
-</tr>
-<tr>
-  <td>Linja AS - Nord (Mørenett)</td>
-  <td>7080001319830</td>
-  <td style="white-space: nowrap;">2025-11-22</td>
-  <td>❌</td>
-  <td>❌</td>
-  <td>❌</td>
-  <td>
-    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/linja-nord.html" title="Se på tariffen for Linja AS - Nord (Mørenett)" target="_blank">🔍</a>
-    <a href="./tariffer/linja-nord.yml" title="Se dataene for Linja AS - Nord (Mørenett) i YAML-format" target="_blank">📄</a>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMDEzMTk4MzAiXSwgIm1nYSI6IFsiNTBZWDYzUjBHRzE4QzBHRCIsICI1MFlTR0xLWTAxWEdNRzg4Il0sICJraWxkZXIiOiBbImh0dHBzOi8vd3d3LmxpbmphLm5vL25ldHRsZWlnZSJdLCAibmV0dGVpZXIiOiAiTGluamEgQVMgLSBOb3JkIChNXHUwMGY4cmVuZXR0KSIsICJzaXN0X29wcGRhdGVydCI6ICIyMDI1LTExLTIyIiwgInRhcmlmZmVyIjogW3siZW5lcmdpbGVkZCI6IHsiZ3J1bm5wcmlzIjogMTUuMzg0LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAicHJpcyI6IDIyLjM4NCwgInRpbWVyIjogIjYtMjEifV19LCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InByaXMiOiAyNjQwLCAidGVyc2tlbCI6IDB9LCB7InByaXMiOiAzMjkyLjgsICJ0ZXJza2VsIjogMn0sIHsicHJpcyI6IDM5NDUuNiwgInRlcnNrZWwiOiA1fSwgeyJwcmlzIjogNjU4NS42LCAidGVyc2tlbCI6IDEwfSwgeyJwcmlzIjogNzkxMC40LCAidGVyc2tlbCI6IDE1fSwgeyJwcmlzIjogOTIxNiwgInRlcnNrZWwiOiAyMH0sIHsicHJpcyI6IDEzMTgwLjgsICJ0ZXJza2VsIjogMjV9LCB7InByaXMiOiAxNDQ5NiwgInRlcnNrZWwiOiA1MH0sIHsicHJpcyI6IDE1ODAxLjYsICJ0ZXJza2VsIjogNzV9LCB7InByaXMiOiAxOTc2Ni40LCAidGVyc2tlbCI6IDEwMH1dfSwgImd5bGRpZ19mcmEiOiAiMjAyNC0wNy0wMSIsICJneWxkaWdfdGlsIjogIjIwMjYtMDEtMDEiLCAibmF2biI6ICJOb3JkIiwgImt1bmRlZ3J1cHBlciI6IFsibGl0ZW5fblx1MDBlNnJpbmciLCAiaHVzaG9sZG5pbmciLCAiZnJpdGlkIl19XX0=' title='Samle inn data for Linja AS - Nord (Mørenett)' target='_blank'>✏️</a>
-  </td>
-</tr>
-<tr>
-  <td>Linja AS - Sør</td>
-  <td>7080001319830</td>
-  <td style="white-space: nowrap;">2025-11-22</td>
-  <td>❌</td>
-  <td>❌</td>
-  <td>❌</td>
-  <td>
-    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/linja-sor.html" title="Se på tariffen for Linja AS - Sør" target="_blank">🔍</a>
-    <a href="./tariffer/linja-sor.yml" title="Se dataene for Linja AS - Sør i YAML-format" target="_blank">📄</a>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJnbG4iOiBbIjcwODAwMDEzMTk4MzAiXSwgIm1nYSI6IFsiNTBZNEYyNkJGMENSUkNERSIsICI1MFlQLVpCRUc5TzBWSDhKIiwgIjUwWTdRMU5UN0U1UUxNS1giLCAiNTBZU1BaQkNPUFlHMUlXViJdLCAia2lsZGVyIjogWyJodHRwczovL3d3dy5saW5qYS5uby9uZXR0bGVpZ2UiXSwgIm5ldHRlaWVyIjogIkxpbmphIEFTIC0gU1x1MDBmOHIiLCAic2lzdF9vcHBkYXRlcnQiOiAiMjAyNS0xMS0yMiIsICJ0YXJpZmZlciI6IFt7ImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDIwLjQyNCwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInByaXMiOiAyNy4yMzIsICJ0aW1lciI6ICI2LTIxIn1dfSwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJwcmlzIjogMjY2OC44LCAidGVyc2tlbCI6IDB9LCB7InByaXMiOiAzNzA1LjYsICJ0ZXJza2VsIjogMn0sIHsicHJpcyI6IDQ3NDIuNCwgInRlcnNrZWwiOiA1fSwgeyJwcmlzIjogNjgxNiwgInRlcnNrZWwiOiAxMH0sIHsicHJpcyI6IDgxOTguNCwgInRlcnNrZWwiOiAxNX0sIHsicHJpcyI6IDk1OTAuNCwgInRlcnNrZWwiOiAyMH0sIHsicHJpcyI6IDEyMTgyLjQsICJ0ZXJza2VsIjogMjV9LCB7InByaXMiOiAxMzU2NC44LCAidGVyc2tlbCI6IDUwfSwgeyJwcmlzIjogMTQ5NTYuOCwgInRlcnNrZWwiOiA3NX0sIHsicHJpcyI6IDE4NDEyLjgsICJ0ZXJza2VsIjogMTAwfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTA3LTAxIiwgImd5bGRpZ190aWwiOiAiMjAyNi0wMS0wMSIsICJuYXZuIjogIlNcdTAwZjhyIiwgImt1bmRlZ3J1cHBlciI6IFsibGl0ZW5fblx1MDBlNnJpbmciLCAiaHVzaG9sZG5pbmciLCAiZnJpdGlkIl19XX0=' title='Samle inn data for Linja AS - Sør' target='_blank'>✏️</a>
   </td>
 </tr>
 <tr>
@@ -1388,10 +1362,10 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>TOTAL</td>
   <td></td>
-  <td style="white-space: nowrap;">2026-01-12</td>
-  <td>73</td>
-  <td>71</td>
-  <td>47</td>
+  <td style="white-space: nowrap;">2026-01-24</td>
+  <td>74</td>
+  <td>72</td>
+  <td>48</td>
   <td></td>
 </tr>
 </table>
