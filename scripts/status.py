@@ -118,11 +118,14 @@ def print_status():
         print(f"  <td>{'✅' if has_household else '❌'}</td>")
         print(f"  <td>{'✅' if has_cabins else '❌'}</td>")
         print(f"  <td>{'✅' if has_business else '❌'}</td>")
-        print(f"  <td>\n    {inspect_link}\n    {yaml_link}\n    {edit_link}\n  </td>")
+        print(
+            f'  <td style="white-space: nowrap;">\n    {inspect_link}\n    {yaml_link}\n    {edit_link}\n  </td>'
+        )
         print("</tr>")
 
     print("<tr>")
     print("  <td>TOTAL</td>")
+    print("  <td></td>")
     print("  <td></td>")
     print(
         f'  <td style="white-space: nowrap;">{datetime.today().strftime("%Y-%m-%d")}</td>'
