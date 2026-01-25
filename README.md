@@ -378,6 +378,7 @@ for informasjon om hvordan du kan hjelpe.
     <tr>
         <th>Navn</th>
         <th>GLN</th>
+        <th>Gyldig fra</th>
         <th>Oppdatert</th>
         <th><span title="Husholdning">🏡</span></th>
         <th><span title="Fritid">🏕️</span></th>
@@ -387,6 +388,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Alut AS</td>
   <td>7080010004383</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2026-01-17</td>
   <td>✅</td>
   <td>✅</td>
@@ -400,6 +402,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Area Nett AS - Alle områder</td>
   <td>7080004087071</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>❌</td>
   <td>✅</td>
@@ -413,6 +416,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Area Nett AS - Område 1- NettiNord</td>
   <td>7080004087071</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>❌</td>
@@ -426,6 +430,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Area Nett AS - Område 2 - Luostejok</td>
   <td>7080004087071</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>❌</td>
@@ -439,6 +444,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Area Nett AS - Område 3 - Lega</td>
   <td>7080004087071</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>❌</td>
@@ -452,6 +458,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Arva AS</td>
   <td>7080005051859, 7080005051361</td>
+  <td style="white-space: nowrap;">2024-01-01</td>
   <td style="white-space: nowrap;">2024-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -465,6 +472,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Asker Nett</td>
   <td>7080003858825</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -478,6 +486,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>BKK AS </td>
   <td>7080005051378</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-12</td>
   <td>✅</td>
   <td>✅</td>
@@ -491,6 +500,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Barents Nett AS</td>
   <td>7080005051934</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -504,6 +514,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Bindal Kraftlag Nett</td>
   <td>7080005055963</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -517,6 +528,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Breheim Nett</td>
   <td>7080010010919</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -530,6 +542,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Bømlo Kraftnett AS</td>
   <td>7080010002327</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -543,6 +556,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>DE Nett AS</td>
   <td>7080010003614</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-25</td>
   <td>✅</td>
   <td>✅</td>
@@ -556,6 +570,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Elinett AS</td>
   <td>7080005053044</td>
+  <td style="white-space: nowrap;">2025-08-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -569,6 +584,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Elmea AS Nett</td>
   <td>7080005046442</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -582,6 +598,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Elvenett AS</td>
   <td>7080005052917</td>
+  <td style="white-space: nowrap;">2025-04-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -595,6 +612,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Elvia AS</td>
   <td>7080005046220</td>
+  <td style="white-space: nowrap;">2025-04-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -608,6 +626,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Enida AS</td>
   <td>7080003871534</td>
+  <td style="white-space: nowrap;">2025-08-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -621,6 +640,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Etna Nett AS</td>
   <td>7080005046404</td>
+  <td style="white-space: nowrap;">2025-10-01</td>
   <td style="white-space: nowrap;">2025-09-19</td>
   <td>✅</td>
   <td>✅</td>
@@ -634,6 +654,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Everket AS</td>
   <td>7080005052825</td>
+  <td style="white-space: nowrap;">2025-10-01</td>
   <td style="white-space: nowrap;">2025-09-21</td>
   <td>✅</td>
   <td>✅</td>
@@ -647,6 +668,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Fagne AS</td>
   <td>7080003809599</td>
+  <td style="white-space: nowrap;">2024-04-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -660,6 +682,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Fjellnett AS</td>
   <td>7080010000316</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-25</td>
   <td>✅</td>
   <td>✅</td>
@@ -673,6 +696,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Føie AS</td>
   <td>7080005048415, 7080004067882, 7080005050654</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-17</td>
   <td>✅</td>
   <td>✅</td>
@@ -686,6 +710,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Føre AS</td>
   <td>7080010003836</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -699,6 +724,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Glitre Nett AS</td>
   <td>7080005056069, 7080005052672, 7080005053273</td>
+  <td style="white-space: nowrap;">2025-09-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -712,6 +738,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Griug AS</td>
   <td>7080005052900</td>
+  <td style="white-space: nowrap;">2025-04-01</td>
   <td style="white-space: nowrap;">2025-12-25</td>
   <td>✅</td>
   <td>✅</td>
@@ -725,6 +752,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Haringnett AS</td>
   <td>7080010001276</td>
+  <td style="white-space: nowrap;">2025-04-01</td>
   <td style="white-space: nowrap;">2025-10-23</td>
   <td>✅</td>
   <td>✅</td>
@@ -738,6 +766,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Havnett AS</td>
   <td>7080010001832</td>
+  <td style="white-space: nowrap;">2024-08-01</td>
   <td style="white-space: nowrap;">2025-02-24</td>
   <td>✅</td>
   <td>✅</td>
@@ -751,6 +780,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Høland og Setskog Elverk AS</td>
   <td>7080004320253</td>
+  <td style="white-space: nowrap;">2025-07-01</td>
   <td style="white-space: nowrap;">2025-07-11</td>
   <td>✅</td>
   <td>✅</td>
@@ -764,6 +794,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Indre Hordaland Kraftnett AS</td>
   <td>7080010008367</td>
+  <td style="white-space: nowrap;">2025-05-01</td>
   <td style="white-space: nowrap;">2025-10-23</td>
   <td>✅</td>
   <td>✅</td>
@@ -778,6 +809,7 @@ for informasjon om hvordan du kan hjelpe.
   <td>Jæren Everk AS</td>
   <td>7080010002419</td>
   <td style="white-space: nowrap;">2025-09-01</td>
+  <td style="white-space: nowrap;">2025-09-01</td>
   <td>✅</td>
   <td>✅</td>
   <td>❌</td>
@@ -790,6 +822,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>KE Nett AS</td>
   <td>7080005046060</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -803,6 +836,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Klive AS</td>
   <td>7080010000132</td>
+  <td style="white-space: nowrap;">2024-11-01</td>
   <td style="white-space: nowrap;">2025-10-23</td>
   <td>✅</td>
   <td>✅</td>
@@ -817,6 +851,7 @@ for informasjon om hvordan du kan hjelpe.
   <td>Kystnett AS</td>
   <td>7080010000064</td>
   <td style="white-space: nowrap;">2024-01-01</td>
+  <td style="white-space: nowrap;">2024-01-01</td>
   <td>✅</td>
   <td>✅</td>
   <td>❌</td>
@@ -829,6 +864,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Lede AS</td>
   <td>7080005050975</td>
+  <td style="white-space: nowrap;">2024-08-01</td>
   <td style="white-space: nowrap;">2025-11-09</td>
   <td>✅</td>
   <td>✅</td>
@@ -842,6 +878,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Linea AS</td>
   <td>7080003965325</td>
+  <td style="white-space: nowrap;">2025-07-01</td>
   <td style="white-space: nowrap;">2025-11-12</td>
   <td>✅</td>
   <td>✅</td>
@@ -855,6 +892,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Linja AS</td>
   <td>7080001319830</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-25</td>
   <td>✅</td>
   <td>✅</td>
@@ -868,6 +906,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Lnett AS</td>
   <td>7080005046053</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-08</td>
   <td>✅</td>
   <td>✅</td>
@@ -881,6 +920,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Lucerna AS</td>
   <td>7080005050661</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -894,6 +934,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Lysna AS</td>
   <td>7080010013088</td>
+  <td style="white-space: nowrap;">2024-02-01</td>
   <td style="white-space: nowrap;">2025-10-23</td>
   <td>✅</td>
   <td>✅</td>
@@ -907,6 +948,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Mellom AS</td>
   <td>7080010004369</td>
+  <td style="white-space: nowrap;">2024-08-01</td>
   <td style="white-space: nowrap;">2025-11-12</td>
   <td>✅</td>
   <td>✅</td>
@@ -920,6 +962,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Meløy Nett AS</td>
   <td>7080003968395</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -933,6 +976,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Midtnett AS</td>
   <td>7080003869012</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2024-12-27</td>
   <td>✅</td>
   <td>✅</td>
@@ -946,6 +990,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Mostraum Nett AS</td>
   <td>7080011085770</td>
+  <td style="white-space: nowrap;">2025-11-01</td>
   <td style="white-space: nowrap;">2026-01-11</td>
   <td>✅</td>
   <td>✅</td>
@@ -959,6 +1004,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Netera AS</td>
   <td>7080010003218</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2025-01-04</td>
   <td>✅</td>
   <td>✅</td>
@@ -972,6 +1018,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Nettselskapet AS</td>
   <td>7080004064553</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2025-11-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -985,6 +1032,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Noranett AS</td>
   <td>7080003811318</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2025-11-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -998,6 +1046,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Noranett Andøy AS</td>
   <td>7080010002433</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -1011,6 +1060,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Noranett Hadsel AS</td>
   <td>7080003857989</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -1024,6 +1074,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Nordvest Nett AS</td>
   <td>7080005052801</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -1037,6 +1088,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Norefjell Nett AS</td>
   <td>7080010003911</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-12</td>
   <td>✅</td>
   <td>✅</td>
@@ -1050,6 +1102,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Norgesnett AS</td>
   <td>7080005052702</td>
+  <td style="white-space: nowrap;">2025-07-01</td>
   <td style="white-space: nowrap;">2025-11-09</td>
   <td>✅</td>
   <td>✅</td>
@@ -1063,6 +1116,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>R-Nett AS</td>
   <td>7080010012852</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2026-01-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -1076,6 +1130,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>RK Nett AS</td>
   <td>7080010004017</td>
+  <td style="white-space: nowrap;">2025-10-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -1089,6 +1144,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Rakkestad Energi AS Nett</td>
   <td>7080005054898</td>
+  <td style="white-space: nowrap;">2025-09-01</td>
   <td style="white-space: nowrap;">2025-07-04</td>
   <td>✅</td>
   <td>✅</td>
@@ -1102,6 +1158,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Romsdalsnett AS</td>
   <td>7080010005427</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-01-25</td>
   <td>✅</td>
   <td>✅</td>
@@ -1115,6 +1172,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>S-NETT AS</td>
   <td>7080010002464</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2025-09-19</td>
   <td>✅</td>
   <td>✅</td>
@@ -1128,6 +1186,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Stannum AS</td>
   <td>7080010003959</td>
+  <td style="white-space: nowrap;">2025-10-01</td>
   <td style="white-space: nowrap;">2025-10-22</td>
   <td>✅</td>
   <td>✅</td>
@@ -1141,6 +1200,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Stram AS</td>
   <td>7080003822901</td>
+  <td style="white-space: nowrap;">2024-10-01</td>
   <td style="white-space: nowrap;">2024-12-10</td>
   <td>✅</td>
   <td>✅</td>
@@ -1154,6 +1214,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Straumen Nett AS</td>
   <td>7080010003720</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2024-12-28</td>
   <td>✅</td>
   <td>✅</td>
@@ -1167,6 +1228,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Straumnett AS</td>
   <td>7080004053632</td>
+  <td style="white-space: nowrap;">2025-05-09</td>
   <td style="white-space: nowrap;">2025-12-30</td>
   <td>✅</td>
   <td>✅</td>
@@ -1180,6 +1242,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Sygnir AS</td>
   <td>7080010009654</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-25</td>
   <td>✅</td>
   <td>✅</td>
@@ -1193,6 +1256,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Sør Aurdal Energi AS Nett</td>
   <td>7080005046459</td>
+  <td style="white-space: nowrap;">2024-09-01</td>
   <td style="white-space: nowrap;">2024-11-24</td>
   <td>✅</td>
   <td>✅</td>
@@ -1206,6 +1270,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Tendranett AS</td>
   <td>7080003897855</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -1219,6 +1284,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Tensio TN AS</td>
   <td>7080005052627</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-17</td>
   <td>✅</td>
   <td>✅</td>
@@ -1232,6 +1298,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Tensio TS AS</td>
   <td>7080005051880</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-17</td>
   <td>✅</td>
   <td>✅</td>
@@ -1245,6 +1312,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Tinfos AS Nett</td>
   <td>7080003612595</td>
+  <td style="white-space: nowrap;">2024-01-01</td>
   <td style="white-space: nowrap;">2024-11-24</td>
   <td>✅</td>
   <td>✅</td>
@@ -1258,6 +1326,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Uvdal Kraftforsyning</td>
   <td>7080005050500</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -1271,6 +1340,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Vang Energiverk AS</td>
   <td>7080010002297</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2024-11-09</td>
   <td>✅</td>
   <td>✅</td>
@@ -1284,6 +1354,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Vest-Telemark Kraftlag AS Nett</td>
   <td>7080005051927</td>
+  <td style="white-space: nowrap;">2025-03-01</td>
   <td style="white-space: nowrap;">2024-11-09</td>
   <td>✅</td>
   <td>✅</td>
@@ -1297,6 +1368,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Vestall AS</td>
   <td>7080005051897</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -1310,6 +1382,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Vestmar Nett AS</td>
   <td>7080005054928</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-20</td>
   <td>✅</td>
   <td>✅</td>
@@ -1323,6 +1396,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Vevig AS</td>
   <td>7080003807946</td>
+  <td style="white-space: nowrap;">2025-07-01</td>
   <td style="white-space: nowrap;">2025-11-12</td>
   <td>✅</td>
   <td>✅</td>
@@ -1336,6 +1410,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Viermie AS</td>
   <td>7080003947932</td>
+  <td style="white-space: nowrap;">2026-01-01</td>
   <td style="white-space: nowrap;">2025-12-30</td>
   <td>✅</td>
   <td>✅</td>
@@ -1349,6 +1424,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>Vissi AS</td>
   <td>7080004045743</td>
+  <td style="white-space: nowrap;">2025-01-01</td>
   <td style="white-space: nowrap;">2024-11-06</td>
   <td>✅</td>
   <td>✅</td>
@@ -1362,7 +1438,7 @@ for informasjon om hvordan du kan hjelpe.
 <tr>
   <td>TOTAL</td>
   <td></td>
-  <td style="white-space: nowrap;">2026-01-24</td>
+  <td style="white-space: nowrap;">2026-01-25</td>
   <td>74</td>
   <td>72</td>
   <td>48</td>

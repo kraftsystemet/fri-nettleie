@@ -53,6 +53,7 @@ def print_status():
     <tr>
         <th>Navn</th>
         <th>GLN</th>
+        <th>Gyldig fra</th>
         <th>Oppdatert</th>
         <th><span title="Husholdning">🏡</span></th>
         <th><span title="Fritid">🏕️</span></th>
@@ -74,24 +75,25 @@ def print_status():
         if isinstance(last_updated, datetime):
             last_updated = last_updated.strftime("%Y-%m-%d")
 
-        kundegrupper = set()
+        last_valid_from = dateutil.parser.parse("2000-01-01")
+        cus_groups = set()
         for t in tariff["tariffer"]:
-            if (
-                dateutil.parser.parse(t["gyldig_fra"]) <= datetime.today()
-                and dateutil.parser.parse(t.get("gyldig_til", "2099-01-01"))
-                > datetime.today()
-            ):
-                kundegrupper = kundegrupper.union(set(t["kundegrupper"]))
+            valid_from = dateutil.parser.parse(t["gyldig_fra"])
+            valid_to = dateutil.parser.parse(t.get("gyldig_til", "2099-01-01"))
+            if valid_from <= datetime.today() and valid_to > datetime.today():
+                cus_groups = cus_groups.union(set(t["kundegrupper"]))
+                if valid_from > last_valid_from:
+                    last_valid_from = valid_from
 
-        has_household = "husholdning" in kundegrupper
+        has_household = "husholdning" in cus_groups
         if has_household:
             num_household += 1
 
-        has_cabins = "fritid" in kundegrupper
+        has_cabins = "fritid" in cus_groups
         if has_cabins:
             num_cabins += 1
 
-        has_business = "liten_næring" in kundegrupper
+        has_business = "liten_næring" in cus_groups
         if has_business:
             num_business += 1
 
@@ -109,6 +111,9 @@ def print_status():
         print("<tr>")
         print(f"  <td>{name}</td>")
         print(f"  <td>{', '.join(gln)}</td>")
+        print(
+            f'  <td style="white-space: nowrap;">{last_valid_from.strftime("%Y-%m-%d")}</td>'
+        )
         print(f'  <td style="white-space: nowrap;">{last_updated}</td>')
         print(f"  <td>{'✅' if has_household else '❌'}</td>")
         print(f"  <td>{'✅' if has_cabins else '❌'}</td>")
