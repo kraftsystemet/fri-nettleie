@@ -1,0 +1,22 @@
+---
+energiledd:
+  - 11.32
+fylker:
+  - '56'
+fylker_navn:
+  - Finnmark
+navn: BARENTS NETT AS
+org: '971058854'
+terskler:
+  - pris: 7004.0
+    terskel: 0.0
+  - pris: 7628.0
+    terskel: 2.0
+  - pris: 8240.0
+    terskel: 5.0
+  - pris: 8876.0
+    terskel: 10.0
+  - pris: 10112.0
+    terskel: 15.0
+  - pris: 11972.0
+    terskel: 20.0

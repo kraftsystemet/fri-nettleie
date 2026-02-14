@@ -11,21 +11,21 @@ fylker_navn:
 navn: "FØIE AS"
 org: '971589752'
 terskler:
-  - pris: 256.66
+  - pris: 3080.0
     terskel: 0.0
-  - pris: 301.66
+  - pris: 3620.0
     terskel: 2.0
-  - pris: 401.66
+  - pris: 4820.0
     terskel: 5.0
-  - pris: 596.66
+  - pris: 7160.0
     terskel: 10.0
-  - pris: 736.66
+  - pris: 8840.0
     terskel: 15.0
-  - pris: 926.66
+  - pris: 11120.0
     terskel: 20.0
-  - pris: 1216.66
+  - pris: 14600.0
     terskel: 25.0
-  - pris: 1966.66
+  - pris: 23600.0
     terskel: 50.0
-  - pris: 2466.66
+  - pris: 29600.0
     terskel: 75.0

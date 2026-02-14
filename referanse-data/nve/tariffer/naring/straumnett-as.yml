@@ -1,0 +1,31 @@
+---
+energiledd:
+  - 15.96
+  - 20.96
+fylker:
+  - '46'
+fylker_navn:
+  - Vestland
+navn: STRAUMNETT AS
+org: '922694435'
+terskler:
+  - pris: 4200.0
+    terskel: 0.0
+  - pris: 5052.0
+    terskel: 2.0
+  - pris: 5472.0
+    terskel: 5.0
+  - pris: 5892.0
+    terskel: 10.0
+  - pris: 6312.0
+    terskel: 15.0
+  - pris: 7356.0
+    terskel: 20.0
+  - pris: 7992.0
+    terskel: 25.0
+  - pris: 8832.0
+    terskel: 50.0
+  - pris: 9672.0
+    terskel: 75.0
+  - pris: 10512.0
+    terskel: 100.0

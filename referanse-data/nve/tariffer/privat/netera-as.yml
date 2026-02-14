@@ -1,0 +1,16 @@
+---
+energiledd:
+  - 21.9
+fylker:
+  - '15'
+fylker_navn:
+  - "Møre og Romsdal"
+navn: NETERA AS
+org: '924330678'
+terskler:
+  - pris: 1599.96
+    terskel: 0.0
+  - pris: 3200.04
+    terskel: 2.0
+  - pris: 6399.96
+    terskel: 14.0

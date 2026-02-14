@@ -9,31 +9,31 @@ fylker_navn:
 navn: LINEA AS
 org: '917424799'
 terskler:
-  - pris: 2700.0
+  - pris: 3500.0
     terskel: 0.0
-  - pris: 4188.0
+  - pris: 4988.0
     terskel: 5.0
-  - pris: 5892.0
+  - pris: 6692.0
     terskel: 10.0
-  - pris: 7596.0
+  - pris: 8396.0
     terskel: 15.0
-  - pris: 9312.0
+  - pris: 10112.0
     terskel: 20.0
-  - pris: 15564.0
+  - pris: 16364.0
     terskel: 25.0
-  - pris: 24096.0
+  - pris: 24896.0
     terskel: 50.0
-  - pris: 32628.0
+  - pris: 33428.0
     terskel: 75.0
-  - pris: 46860.0
+  - pris: 47660.0
     terskel: 100.0
-  - pris: 63912.0
+  - pris: 64712.0
     terskel: 150.0
-  - pris: 92316.0
+  - pris: 93116.0
     terskel: 200.0
-  - pris: 126492.0
+  - pris: 127292.0
     terskel: 300.0
-  - pris: 160596.0
+  - pris: 161396.0
     terskel: 400.0
-  - pris: 194736.0
+  - pris: 195536.0
     terskel: 500.0

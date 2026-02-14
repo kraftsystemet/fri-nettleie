@@ -9,23 +9,23 @@ fylker_navn:
 navn: LNETT AS
 org: '980038408'
 terskler:
-  - pris: 120.0
+  - pris: 1440.0
     terskel: 0.0
-  - pris: 200.04
+  - pris: 2400.0
     terskel: 2.0
-  - pris: 320.04
+  - pris: 3840.0
     terskel: 5.0
-  - pris: 519.96
+  - pris: 6240.0
     terskel: 10.0
-  - pris: 720.0
+  - pris: 8640.0
     terskel: 15.0
-  - pris: 920.04
+  - pris: 11040.0
     terskel: 20.0
-  - pris: 1719.96
+  - pris: 20640.0
     terskel: 25.0
-  - pris: 2520.0
+  - pris: 30240.0
     terskel: 50.0
-  - pris: 3320.04
+  - pris: 39840.0
     terskel: 75.0
-  - pris: 5600.04
+  - pris: 67200.0
     terskel: 100.0

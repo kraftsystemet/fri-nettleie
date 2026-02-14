@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 17.84
-  - 25.84
+  - 14.64
+  - 22.64
 fylker:
   - '15'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: ELINETT AS
 org: '979379455'
 terskler:
-  - pris: 2412.0
+  - pris: 3212.0
     terskel: 0.0
-  - pris: 3112.0
+  - pris: 3812.0
     terskel: 2.0
-  - pris: 3612.0
+  - pris: 4412.0
     terskel: 5.0
-  - pris: 6024.0
+  - pris: 6824.0
     terskel: 10.0
-  - pris: 7224.0
+  - pris: 8024.0
     terskel: 15.0
-  - pris: 8424.0
+  - pris: 9224.0
     terskel: 20.0
-  - pris: 12036.0
+  - pris: 12836.0
     terskel: 25.0
-  - pris: 13248.0
+  - pris: 14048.0
     terskel: 50.0
-  - pris: 14448.0
+  - pris: 15248.0
     terskel: 75.0
   - pris: 18060.0
     terskel: 100.0

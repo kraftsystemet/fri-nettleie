@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 17.84
-  - 25.84
+  - 14.64
+  - 23.64
 fylker:
   - '15'
 fylker_navn:
@@ -11,7 +11,7 @@ org: '979379455'
 terskler:
   - pris: 2412.0
     terskel: 0.0
-  - pris: 3111.96
+  - pris: 3012.0
     terskel: 2.0
   - pris: 3612.0
     terskel: 5.0

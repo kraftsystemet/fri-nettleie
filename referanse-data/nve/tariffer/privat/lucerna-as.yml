@@ -9,21 +9,21 @@ fylker_navn:
 navn: LUCERNA AS
 org: '982897327'
 terskler:
-  - pris: 258.96
+  - pris: 3108.0
     terskel: 0.0
-  - pris: 311.04
+  - pris: 3732.0
     terskel: 2.0
-  - pris: 375.96
+  - pris: 4512.0
     terskel: 5.0
-  - pris: 414.96
+  - pris: 4980.0
     terskel: 10.0
-  - pris: 519.0
+  - pris: 6228.0
     terskel: 15.0
-  - pris: 584.04
+  - pris: 7008.0
     terskel: 20.0
-  - pris: 648.96
+  - pris: 7788.0
     terskel: 25.0
-  - pris: 713.04
+  - pris: 8556.0
     terskel: 50.0
-  - pris: 777.96
+  - pris: 9336.0
     terskel: 75.0
