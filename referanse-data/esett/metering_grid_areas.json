@@ -461,6 +461,16 @@
     },
     {
         "country": "NO",
+        "dsoCode": "7080005046220",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Elvia AS",
+        "mba": "NO1",
+        "mgaCode": "50Y26E4PXYW0BHOE",
+        "mgaName": "RAKKE1",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
         "dsoCode": "7080003871534",
         "dsoCodingScheme": "GS1",
         "dsoName": "Enida AS",
@@ -1778,16 +1788,6 @@
         "mgaCode": "50YDPGOCG1SQK0YG",
         "mgaName": "RAUL1",
         "mgaType": "REGIONAL"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080005054898",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Rakkestad Energi AS Nett",
-        "mba": "NO1",
-        "mgaCode": "50Y26E4PXYW0BHOE",
-        "mgaName": "RAKKE1",
-        "mgaType": "DISTRIBUTION"
     },
     {
         "country": "NO",
