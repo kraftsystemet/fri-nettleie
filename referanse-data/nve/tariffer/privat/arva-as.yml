@@ -3,11 +3,13 @@ energiledd:
   - 12.6
   - 24.1
 fylker:
+  - '18'
   - '55'
 fylker_navn:
+  - Nordland
   - Troms
 navn: ARVA AS
-org: 979151950*
+org: '979151950'
 terskler:
   - pris: 1019.04
     terskel: 0.0
