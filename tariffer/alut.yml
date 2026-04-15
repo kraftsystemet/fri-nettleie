@@ -22,7 +22,7 @@ tariffer:
       - husholdning
       - fritid
   - energiledd:
-      grunnpris: 9.1
+      grunnpris: 12.1
     fastledd:
       metode: OV_TREFASE
       terskel_inkludert: false
@@ -36,7 +36,7 @@ tariffer:
       - husholdning
       - fritid
   - energiledd:
-      grunnpris: 9.1
+      grunnpris: 12.1
     fastledd:
       metode: OV_TREFASE
       terskel_inkludert: false
