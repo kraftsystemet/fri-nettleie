@@ -65,9 +65,9 @@ tariffer:
         - terskel: 100
           pris: 21840
     energiledd:
-      grunnpris: 20
+      grunnpris: 11
       unntak:
-        - navn: Natt
-          timer: 22-5
-          pris: 11
+        - navn: Dag
+          timer: 6-21
+          pris: 20
     gyldig_fra: '2025-04-01'
