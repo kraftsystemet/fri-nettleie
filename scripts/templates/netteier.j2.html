@@ -94,9 +94,9 @@
         <p>Fastledd  er et prisledd som skjerpes etter en trinnvis skala. Jo mer strøm en bruker «samtidig» jo dyrere blir det.</p>
         {% set fl = {
             'TRE_DØGNMAX_MND' : 'de tre høyeste timer i forskellige døgn den foregående måneden',
-            'FEM_VEKTET_ÅR' : 'de fem høyeste timer de foregående 12 mnd',
+            'FEM_VEKTET_ÅR' : 'de fem høyeste ukesmaksene basert på de foregående 12 månedene',
             'OV_TREFASE' : 'størrelsen på overlastvernet.',
-            'MND_MAX' : 'den timen med høyeste gjennomsnittlig forbruk i den foregående måneden.',
+            'MND_MAX' : 'den timen med høyeste gjennomsnittlig forbruk i den foregående måneden',
             'UKJENT' : 'en ukjent metode'
             } %}
         <p>Beregnes ut fra <mark>{{ fl[fastledd.metode] }}</mark>.</p>
