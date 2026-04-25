@@ -55,7 +55,7 @@ tariffer:
       - fritid
       - liten_næring
     fastledd:
-      metode: TRE_DØGNMAX_MND
+      metode: OV_TREFASE
       terskel_inkludert: true
       terskler:
         - terskel: 0
