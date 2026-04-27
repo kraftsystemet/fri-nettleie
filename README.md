@@ -203,8 +203,8 @@ forskjellige priser i løpet av døgnet,
 [forskjell mellom hverdag og helg/helligdager](https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/).
 
 For fastleddet finnes det også flere modeller. For eksempel at fastledd regnes
-ut
-[fem høyeste effektene, løpende siste 12 mnd](https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/)
+ut fra
+[de fem høyeste ukesmaksene løpende siste 12 måneder, justert for sesongfaktor](https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/)
 til forskjell fra den mer vanlige
 [tre timene i måneden med høyest forbruk](https://norgesnett.no/kunde/ny-nettleie/).
 I tilleg er det noen som oppgir priser per år mens andre per måned, samt om de
@@ -1425,7 +1425,7 @@ for informasjon om hvordan du kan hjelpe.
   <td>TOTAL</td>
   <td></td>
   <td></td>
-  <td style="white-space: nowrap;">2026-04-16</td>
+  <td style="white-space: nowrap;">2026-04-18</td>
   <td>73</td>
   <td>71</td>
   <td>49</td>
