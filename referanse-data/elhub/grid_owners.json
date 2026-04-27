@@ -1,5 +1,10 @@
 [
     {
+        "gln": "7080011179622",
+        "name": "Aker BP ASA",
+        "organisationNumber": "989795848"
+    },
+    {
         "gln": "7080003674630",
         "name": "Aktieselskabet Saudefaldene Nett",
         "organisationNumber": "915729290"
@@ -380,14 +385,14 @@
         "organisationNumber": "980234088"
     },
     {
+        "gln": "7080011182691",
+        "name": "Glitre Nett Regionalnett",
+        "organisationNumber": "982974011"
+    },
+    {
         "gln": "7080011113176",
         "name": "Godfarfoss Kraft AS",
         "organisationNumber": "891634102"
-    },
-    {
-        "gln": "7080005052900",
-        "name": "Griug AS",
-        "organisationNumber": "953681781"
     },
     {
         "gln": "7080005055666",

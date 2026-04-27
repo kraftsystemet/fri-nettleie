@@ -11,6 +11,16 @@
     },
     {
         "country": "NO",
+        "dsoCode": "7080011179622",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Aker BP ASA",
+        "mba": "NO5",
+        "mgaCode": "50YKASKCOXIHD1IZ",
+        "mgaName": "AKERBP1",
+        "mgaType": "INDUSTRIAL"
+    },
+    {
+        "country": "NO",
         "dsoCode": "7080003674685",
         "dsoCodingScheme": "GS1",
         "dsoName": "Alcoa",
@@ -461,16 +471,6 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080005046220",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Elvia AS",
-        "mba": "NO1",
-        "mgaCode": "50Y26E4PXYW0BHOE",
-        "mgaName": "RAKKE1",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
         "dsoCode": "7080003871534",
         "dsoCodingScheme": "GS1",
         "dsoName": "Enida AS",
@@ -875,16 +875,6 @@
         "dsoCodingScheme": "GS1",
         "dsoName": "Glitre Nett AS",
         "mba": "NO2",
-        "mgaCode": "50YH5AGNQTL5BB-A",
-        "mgaName": "AEN1 RN",
-        "mgaType": "REGIONAL"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080005056069",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Glitre Nett AS",
-        "mba": "NO2",
         "mgaCode": "50Y5D--B24-C1JHP",
         "mgaName": "AEN2 DN",
         "mgaType": "DISTRIBUTION"
@@ -898,16 +888,6 @@
         "mgaCode": "50YCOAEJS8D8ZDX8",
         "mgaName": "AEN3 DN",
         "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080005056069",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Glitre Nett AS",
-        "mba": "NO2",
-        "mgaCode": "50YL0IMY4GSHCT96",
-        "mgaName": "AEN5 RN",
-        "mgaType": "REGIONAL"
     },
     {
         "country": "NO",
@@ -951,9 +931,29 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080005053273",
+        "dsoCode": "7080011182691",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
+        "dsoName": "Glitre Nett Regionalnett",
+        "mba": "NO2",
+        "mgaCode": "50YH5AGNQTL5BB-A",
+        "mgaName": "AEN1 RN",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080011182691",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett Regionalnett",
+        "mba": "NO2",
+        "mgaCode": "50YL0IMY4GSHCT96",
+        "mgaName": "AEN5 RN",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080011182691",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett Regionalnett",
         "mba": "NO1",
         "mgaCode": "50YYCCAVRRQUHNTV",
         "mgaName": "GLITRE R1",
@@ -961,9 +961,9 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080005053273",
+        "dsoCode": "7080011182691",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
+        "dsoName": "Glitre Nett Regionalnett",
         "mba": "NO2",
         "mgaCode": "50YHDDCGA4AUF2GK",
         "mgaName": "GLITRE R2",
@@ -971,9 +971,9 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080005053273",
+        "dsoCode": "7080011182691",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
+        "dsoName": "Glitre Nett Regionalnett",
         "mba": "NO5",
         "mgaCode": "50Y5AYDXGP9PZT7T",
         "mgaName": "GLITRE R3",
@@ -981,9 +981,9 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080005053273",
+        "dsoCode": "7080011182691",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Glitre Nett AS (tidl. Glitre Energi Nett - Reg.n.)",
+        "dsoName": "Glitre Nett Regionalnett",
         "mba": "NO5",
         "mgaCode": "50Y13TNTALLZ12XG",
         "mgaName": "GLITRE R4",
