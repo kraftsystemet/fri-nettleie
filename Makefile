@@ -49,3 +49,6 @@ bygg:
 refdata:
 	venv/bin/python ./scripts/get_grid_owner_data.py
 	venv/bin/python ./scripts/get_mga_data.py
+
+duckdb:
+	venv/bin/python ./scripts/load_tariffer_duckdb.py
