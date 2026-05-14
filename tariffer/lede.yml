@@ -75,8 +75,4 @@ tariffer:
           pris: 92688
     energiledd:
       grunnpris: 11.41
-      unntak:
-        - navn: Høylast
-          timer: 6-21
-          pris: 0
     gyldig_fra: '2026-05-01'
