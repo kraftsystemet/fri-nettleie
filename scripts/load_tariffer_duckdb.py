@@ -3,7 +3,6 @@ import glob
 import yaml
 import pandas as pd
 import duckdb
-import tempfile
 from datetime import datetime
 
 
