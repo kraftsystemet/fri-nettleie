@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-05-14T15:58:44 | Gyldige tariffer per: 2026-05-14
+> Generert: 2026-05-14T17:48:37 | Gyldige tariffer per: 2026-05-14
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -623,7 +623,7 @@ Fastledd terskler (kr/år):
   - Fra 20 kW: 12184.8 kr/år
 Energiledd grunnpris: 18.59 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Dag: 18.59 øre/kWh | timer 6-21 | dager: virkedag
+  - Dag: 25.55 øre/kWh | timer 6-21 | dager: virkedag
 
 
 ---
@@ -988,8 +988,6 @@ Fastledd terskler (kr/år):
   - Fra 150 kW: 65376 kr/år
   - Fra 200 kW: 92688 kr/år
 Energiledd grunnpris: 11.41 øre/kWh (eks. avgifter)
-Energiledd unntak:
-  - Høylast: 0 øre/kWh | timer 6-21
 
 
 ---
