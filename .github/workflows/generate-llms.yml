@@ -1,0 +1,41 @@
+name: Generate llms.txt
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tariffer/**"
+      - "scripts/generate_llms_txt.py"
+  workflow_dispatch:  # allow manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Generate llms.txt
+        run: python scripts/generate_llms_txt.py
+
+      - name: Validate llms.txt
+        run: |
+          test -s docs/llm/llms.txt || { echo "docs/llm/llms.txt is missing or empty"; exit 1; }
+          echo "docs/llm/llms.txt OK ($(wc -c < docs/llm/llms.txt) bytes)"
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/llm/llms.txt
+          git diff --cached --quiet || git commit -m "chore: regenerate llms.txt [skip ci]"
+          git push

@@ -113,6 +113,10 @@ Et annet eksempel finnes på
 [visningssidene for tariffene på kraftsystemet.no](https://kraftsystemet.no/fri-nettleie/tariffer/).
 Der viser vi også en forenklet bereging av avgifter.
 
+### Bruk dataene med LLM-er
+
+For å stille spørsmål om nettleietariffer til AI-assistenter som Claude eller ChatGPT, se [LLM-bruk](./docs/llm/) for instruksjoner og en strukturert kontekstfil.
+
 ## Mål
 
 - [x] Samle strukturdata for å identifisere alle netteier og nettområder

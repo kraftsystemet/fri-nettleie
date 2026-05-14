@@ -3,5 +3,6 @@
 !.statusignore
 !.yamlfmt.yml
 !.nojekyll
+!.github
 venv
 __pycache__
