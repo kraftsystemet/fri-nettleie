@@ -116,6 +116,6 @@ tariffer:
       unntak:
         - navn: Dag
           timer: 6-21
-          pris: 18.59
+          pris: 25.55
           dager: [virkedag]
     gyldig_fra: '2026-05-01'
