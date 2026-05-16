@@ -811,9 +811,29 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080005048415",
+        "dsoCode": "7080005050654",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Føie AS",
+        "dsoName": "Føie AS - Hallingdal",
+        "mba": "NO5",
+        "mgaCode": "50YUETHL4LVP30DB",
+        "mgaName": "HALL1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050654",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Føie AS - Hallingdal",
+        "mba": "NO5",
+        "mgaCode": "50Y013HNTAMLZ024",
+        "mgaName": "HEMSED1",
+        "mgaType": "REGIONAL"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005050654",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Føie AS - Hallingdal",
         "mba": "NO5",
         "mgaCode": "50YKS0WCQ4EVQH6Z",
         "mgaName": "NORE1",
@@ -821,9 +841,9 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080005048415",
+        "dsoCode": "7080005050654",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Føie AS",
+        "dsoName": "Føie AS - Hallingdal",
         "mba": "NO1",
         "mgaCode": "50Y3E31ZC9MFHNJ3",
         "mgaName": "RINGER1",
@@ -831,23 +851,13 @@
     },
     {
         "country": "NO",
-        "dsoCode": "7080005048415",
+        "dsoCode": "7080005050654",
         "dsoCodingScheme": "GS1",
-        "dsoName": "Føie AS",
+        "dsoName": "Føie AS - Hallingdal",
         "mba": "NO2",
         "mgaCode": "50YGFUXZSBHB4RTL",
         "mgaName": "RINGER2",
         "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080004067882",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Føie AS – Hemsedal",
-        "mba": "NO5",
-        "mgaCode": "50Y013HNTAMLZ024",
-        "mgaName": "HEMSED1",
-        "mgaType": "REGIONAL"
     },
     {
         "country": "NO",
@@ -1088,16 +1098,6 @@
         "mgaCode": "50YDALCBGQAA6XBR",
         "mgaName": "KEA1",
         "mgaType": "PRODUCTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080005050654",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Hallingdal Kraftnett AS",
-        "mba": "NO5",
-        "mgaCode": "50YUETHL4LVP30DB",
-        "mgaName": "HALL1",
-        "mgaType": "REGIONAL"
     },
     {
         "country": "NO",
