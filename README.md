@@ -159,6 +159,8 @@ lignende dersom det ikke eksplisitt er angitt som public domain.
 Vi har også et verktøy som kan brukes ved innsamling som finnes på på
 [kraftsystemet.no/fri-nettleie/innsamler/](http://kraftsystemet.no/fri-nettleie/innsamler/).
 
+Du kan også bruke en LLM til å konvertere rådata til YAML-format. Se [llm-siden](https://kraftsystemet.no/fri-nettleie/llm/) for prompt og instruksjoner.
+
 ## Hvordan gjør vi det
 
 Denne figuren gir et noe forenklet bilde av hvordan dataene til fri-nettleie
