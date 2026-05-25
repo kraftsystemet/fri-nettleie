@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-05-14T17:48:37 | Gyldige tariffer per: 2026-05-14
+> Generert: 2026-05-25T10:23:04 | Gyldige tariffer per: 2026-05-25
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1227,9 +1227,9 @@ Energiledd grunnpris: 20 øre/kWh (eks. avgifter)
 ---
 
 ## Nettselskapet AS
-GLN: 7080004064553 | Sist oppdatert: 2025-11-22
+GLN: 7080004064553 | Sist oppdatert: 2026-05-25
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2025-01-01
+Gyldig fra: 2025-08-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 1320 kr/år
@@ -1247,11 +1247,11 @@ Fastledd terskler (kr/år):
   - Fra 300 kW: 141360 kr/år
   - Fra 400 kW: 179760 kr/år
   - Fra 500 kW: 218040 kr/år
-Energiledd grunnpris: 4.9 øre/kWh (eks. avgifter)
+Energiledd grunnpris: 1.6 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Høylast sommer: 14.9 øre/kWh | timer 6-21 | måneder: mai, juni, juli, august, september, oktober
-  - Høylast vinter: 16.8 øre/kWh | timer 6-21 | måneder: januar, februar, mars, april, november, desember
-  - Lavlast vinter: 6.8 øre/kWh | timer 22-5 | måneder: januar, februar, mars, april, november, desember
+  - Høylast sommer: 11.6 øre/kWh | timer 6-21 | måneder: mai, juni, juli, august, september, oktober
+  - Høylast vinter: 12.7 øre/kWh | timer 6-21 | måneder: januar, februar, mars, april, november, desember
+  - Lavlast vinter: 2.7 øre/kWh | timer 22-5 | måneder: januar, februar, mars, april, november, desember
 
 
 ---
