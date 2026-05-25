@@ -4,7 +4,7 @@ gln:
   - '7080004053632'
 kilder:
   - 'https://straumnett.no/prisar-for-nettleige'
-sist_oppdatert: '2026-04-15'
+sist_oppdatert: '2026-05-25'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -105,10 +105,10 @@ tariffer:
         - terskel: 100
           pris: 10512
     energiledd:
-      grunnpris: 15.96
+      grunnpris: 7.83
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 20.96
+          pris: 12.83
           dager: [alle]
     gyldig_fra: '2026-01-01'

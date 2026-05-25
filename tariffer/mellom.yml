@@ -4,7 +4,7 @@ gln:
   - '7080010004369'
 kilder:
   - 'https://mellom.no/nettleie/nettleiepriser/'
-sist_oppdatert: '2025-11-12'
+sist_oppdatert: '2026-05-25'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -31,9 +31,9 @@ tariffer:
         - terskel: 50
           pris: 21369.6
     energiledd:
-      grunnpris: 23.47
+      grunnpris: 15.34
       unntak:
         - navn: Høylast
           timer: 6-21
-          pris: 29.77
+          pris: 21.64
     gyldig_fra: '2024-08-01'
