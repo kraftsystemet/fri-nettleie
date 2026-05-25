@@ -5,7 +5,7 @@ gln:
 kilder:
   - 'https://nettselskapet.as/strompris'
   - 'https://nettselskapet.as/strompris-2'
-sist_oppdatert: '2025-11-22'
+sist_oppdatert: '2026-05-25'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -92,3 +92,58 @@ tariffer:
           måneder: [januar, februar, mars, april, november, desember]
           pris: 6.8
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2025-08-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1320
+        - terskel: 2
+          pris: 2400
+        - terskel: 5
+          pris: 4080
+        - terskel: 10
+          pris: 6000
+        - terskel: 15
+          pris: 7800
+        - terskel: 20
+          pris: 9840
+        - terskel: 25
+          pris: 16800
+        - terskel: 50
+          pris: 26400
+        - terskel: 75
+          pris: 36000
+        - terskel: 100
+          pris: 51960
+        - terskel: 150
+          pris: 71160
+        - terskel: 200
+          pris: 103080
+        - terskel: 300
+          pris: 141360
+        - terskel: 400
+          pris: 179760
+        - terskel: 500
+          pris: 218040
+    energiledd:
+      grunnpris: 1.6
+      unntak:
+        - navn: 'Høylast sommer'
+          timer: 6-21
+          pris: 11.6
+          måneder: [mai, juni, juli, august, september, oktober]
+        - navn: 'Høylast vinter'
+          timer: 6-21
+          måneder: [januar, februar, mars, april, november, desember]
+          pris: 12.7
+        - navn: 'Lavlast vinter'
+          timer: 22-5
+          måneder: [januar, februar, mars, april, november, desember]
+          pris: 2.7
+    gyldig_fra: '2025-08-01'
