@@ -1,11 +1,12 @@
----
 netteier: 'Indre Hordaland Kraftnett AS'
 gln:
   - '7080010008367'
-sist_oppdatert: '2025-10-23'
+sist_oppdatert: '2026-05-16'
 kilder:
   - 'https://www.ihk.no/prisar/nettleige'
   - 'https://www.ihk.no/images/pdf/Nettleige_privat_01.10.2025.pdf'
+  - 'https://www.ihk.no/images/pdf/Nettleige_privat_01.06.2026.pdf'
+  - 'https://www.ihk.no/images/pdf/Nettleige_N%C3%A6ring_01.06.2026.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -31,7 +32,7 @@ tariffer:
     energiledd:
       grunnpris: 28.56
     gyldig_fra: '2024-10-01'
-    gyldig_til: '2025-05-01'
+    gyldig_til: '2025-04-30'
   - kundegrupper:
       - husholdning
       - fritid
@@ -63,3 +64,35 @@ tariffer:
     energiledd:
       grunnpris: 28.55
     gyldig_fra: '2025-05-01'
+    gyldig_til: '2026-05-31'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2544
+        - terskel: 2
+          pris: 3264
+        - terskel: 5
+          pris: 4464
+        - terskel: 10
+          pris: 6960
+        - terskel: 15
+          pris: 9600
+        - terskel: 20
+          pris: 12000
+        - terskel: 25
+          pris: 19200
+        - terskel: 50
+          pris: 31200
+        - terskel: 75
+          pris: 43200
+        - terskel: 100
+          pris: 72000
+    energiledd:
+      grunnpris: 29.00
+    gyldig_fra: '2026-06-01'
