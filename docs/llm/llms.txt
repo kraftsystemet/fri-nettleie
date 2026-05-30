@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-05-25T10:23:04 | Gyldige tariffer per: 2026-05-25
+> Generert: 2026-05-30T06:53:29 | Gyldige tariffer per: 2026-05-30
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -858,9 +858,9 @@ Energiledd unntak:
 ---
 
 ## Indre Hordaland Kraftnett AS
-GLN: 7080010008367 | Sist oppdatert: 2025-10-23
+GLN: 7080010008367 | Sist oppdatert: 2026-05-16
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2025-05-01
+Gyldig fra: 2025-05-01 til 2026-05-31
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 2304 kr/år
