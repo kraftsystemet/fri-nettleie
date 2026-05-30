@@ -1,3 +1,7 @@
+# Generate docs/llm/llms.txt when tariff data changes, when the generator script changes,
+# or on the first day of each month as a safeguard for future-dated tariffs.
+# The monthly schedule is a quick workaround so future tariff periods become active
+# in the generated snapshot even if no new push happens on that day.
 name: Generate llms.txt
 
 on:
@@ -6,7 +10,9 @@ on:
     paths:
       - "tariffer/**"
       - "scripts/generate_llms_txt.py"
-  workflow_dispatch:  # allow manual trigger
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
 
 jobs:
   generate:
