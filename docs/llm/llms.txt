@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-05-30T06:53:29 | Gyldige tariffer per: 2026-05-30
+> Generert: 2026-05-30T07:33:17 | Gyldige tariffer per: 2026-05-30
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
