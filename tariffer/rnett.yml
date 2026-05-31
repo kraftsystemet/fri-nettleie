@@ -144,7 +144,7 @@ tariffer:
           pris: 25.67
           dager: [alle]
     gyldig_fra: '2026-01-01'
-    gyldig_til: '2026-05-31'
+    gyldig_til: '2026-06-01'
   - kundegrupper:
       - husholdning
       - fritid
