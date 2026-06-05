@@ -2,7 +2,7 @@
 netteier: 'Elvia AS'
 gln:
   - '7080005046220'
-sist_oppdatert: '2025-10-22'
+sist_oppdatert: '2026-06-05'
 kilder:
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/'
   - 'https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleie-pris/'
@@ -116,3 +116,40 @@ tariffer:
           pris: 20.99
           dager: [virkedag]
     gyldig_fra: '2025-04-01'
+    gyldig_til: '2026-07-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1440
+        - terskel: 2
+          pris: 2400
+        - terskel: 5
+          pris: 4032
+        - terskel: 10
+          pris: 5616
+        - terskel: 15
+          pris: 7248
+        - terskel: 20
+          pris: 8880
+        - terskel: 25
+          pris: 16896
+        - terskel: 50
+          pris: 24960
+        - terskel: 75
+          pris: 33024
+        - terskel: 100
+          pris: 65280
+    energiledd:
+      grunnpris: 16.99
+      unntak:
+        - navn: Virkedag
+          timer: 6-21
+          dager: [virkedag]
+          pris: 28.99
+    gyldig_fra: '2026-07-01'
