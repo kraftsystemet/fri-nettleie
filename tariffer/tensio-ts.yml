@@ -6,7 +6,7 @@ kilder:
   - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-for-bedrift'
   - 'https://www.tensio.no/no/kunde/nettleie/nettleiepriser-september-ts'
 netteier: 'Tensio TS AS'
-sist_oppdatert: '2025-12-17'
+sist_oppdatert: '2026-06-05'
 tariffer:
   - energiledd:
       grunnpris: 11.304
@@ -191,3 +191,49 @@ tariffer:
           timer: 6-21
           pris: 20.702
     gyldig_fra: '2026-01-01'
+    gyldig_til: '2026-07-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1257.6
+        - terskel: 2
+          pris: 2236.8
+        - terskel: 5
+          pris: 3811.2
+        - terskel: 10
+          pris: 5616.0
+        - terskel: 15
+          pris: 7440.0
+        - terskel: 20
+          pris: 9254.4
+        - terskel: 25
+          pris: 15888.0
+        - terskel: 50
+          pris: 24950.4
+        - terskel: 75
+          pris: 34022.4
+        - terskel: 100
+          pris: 49123.2
+        - terskel: 150
+          pris: 67228.8
+        - terskel: 200
+          pris: 97411.2
+        - terskel: 300
+          pris: 133680.0
+        - terskel: 400
+          pris: 169891.2
+        - terskel: 500
+          pris: 206140.8
+    energiledd:
+      grunnpris: 13.63
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 27.63
+    gyldig_fra: '2026-07-01'
