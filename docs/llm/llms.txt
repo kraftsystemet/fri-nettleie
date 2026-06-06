@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-06-01T03:41:21 | Gyldige tariffer per: 2026-06-01
+> Generert: 2026-06-06T05:26:23 | Gyldige tariffer per: 2026-06-06
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -564,9 +564,9 @@ Energiledd unntak:
 ---
 
 ## Elvia AS
-GLN: 7080005046220 | Sist oppdatert: 2025-10-22
+GLN: 7080005046220 | Sist oppdatert: 2026-06-05
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2025-04-01
+Gyldig fra: 2025-04-01 til 2026-07-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 1200 kr/år
