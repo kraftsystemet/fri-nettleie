@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 18.59
-  - 25.55
+  - 19.59
+  - 26.55
 fylker:
   - '34'
 fylker_navn:
@@ -9,9 +9,9 @@ fylker_navn:
 navn: ETNA NETT AS
 org: '882783022'
 terskler:
-  - pris: 3063.6
+  - pris: 3360.0
     terskel: 0.0
-  - pris: 4594.8
+  - pris: 5040.0
     terskel: 2.0
   - pris: 5986.8
     terskel: 5.0

@@ -1,0 +1,28 @@
+---
+energiledd:
+  - 19.0
+fylker:
+  - '40'
+  - '42'
+  - '56'
+fylker_navn:
+  - Agder
+  - Finnmark
+  - Telemark
+navn: TINFOS AS
+org: '916763476'
+terskler:
+  - pris: 4868.0
+    terskel: 0.0
+  - pris: 7208.0
+    terskel: 5.0
+  - pris: 9536.0
+    terskel: 10.0
+  - pris: 11864.0
+    terskel: 15.0
+  - pris: 14204.0
+    terskel: 20.0
+  - pris: 21200.0
+    terskel: 25.0
+  - pris: 59072.0
+    terskel: 50.0

@@ -1,4 +1,4 @@
 
-# Tariffer er sist oppdatert 2026-04-25 09:21
+# Tariffer er sist oppdatert 2026-06-18 20:52
 
-Tariffene gjelder for: 2026-05-11, 2026-05-15, 2026-05-17.
+Tariffene gjelder for: 2026-07-02, 2026-07-03, 2026-07-05.

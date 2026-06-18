@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 17.07
-  - 26.67
+  - 17.87
+  - 27.47
 fylker:
   - '33'
 fylker_navn:
@@ -9,21 +9,21 @@ fylker_navn:
 navn: R-NETT AS
 org: '925067911'
 terskler:
-  - pris: 3100.8
+  - pris: 3292.8
     terskel: 0.0
-  - pris: 4646.4
+  - pris: 4934.4
     terskel: 5.0
-  - pris: 6816.0
+  - pris: 7238.4
     terskel: 10.0
-  - pris: 13008.0
+  - pris: 13814.4
     terskel: 15.0
-  - pris: 19200.0
+  - pris: 20390.4
     terskel: 20.0
-  - pris: 28492.8
+  - pris: 30259.2
     terskel: 25.0
-  - pris: 43977.6
+  - pris: 46713.6
     terskel: 50.0
-  - pris: 62563.2
+  - pris: 66441.6
     terskel: 75.0
-  - pris: 88140.84
+  - pris: 92764.8
     terskel: 100.0
