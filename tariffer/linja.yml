@@ -4,7 +4,7 @@ gln:
 kilder:
   - 'https://www.linja.no/nettleige'
 netteier: 'Linja AS'
-sist_oppdatert: '2025-12-25'
+sist_oppdatert: '2026-06-19'
 tariffer:
   - kundegrupper:
       - liten_næring
@@ -41,3 +41,70 @@ tariffer:
           pris: 22.382
           timer: 6-21
     gyldig_fra: '2026-01-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2870.4
+        - terskel: 2
+          pris: 3580.8
+        - terskel: 5
+          pris: 4300.8
+        - terskel: 10
+          pris: 7152
+        - terskel: 15
+          pris: 8592
+        - terskel: 20
+          pris: 10022.4
+        - terskel: 25
+          pris: 14313.6
+        - terskel: 50
+          pris: 15744
+        - terskel: 75
+          pris: 17184
+        - terskel: 100
+          pris: 21465.6
+    energiledd:
+      grunnpris: 14.808
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 22.808
+    gyldig_fra: '2026-07-01'
+  - kundegrupper:
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3672
+        - terskel: 2
+          pris: 4380
+        - terskel: 5
+          pris: 5100
+        - terskel: 10
+          pris: 7956
+        - terskel: 15
+          pris: 9396
+        - terskel: 20
+          pris: 10824
+        - terskel: 25
+          pris: 15120
+        - terskel: 50
+          pris: 16548
+        - terskel: 75
+          pris: 17988
+        - terskel: 100
+          pris: 22272
+    energiledd:
+      grunnpris: 13.81
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 21.81
+    gyldig_fra: '2026-07-01'
