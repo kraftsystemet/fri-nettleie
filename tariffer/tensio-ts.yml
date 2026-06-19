@@ -231,9 +231,9 @@ tariffer:
         - terskel: 500
           pris: 206140.8
     energiledd:
-      grunnpris: 10.904
+      grunnpris: 10.902
       unntak:
         - navn: Dag
           timer: 6-21
-          pris: 22.104
+          pris: 22.102
     gyldig_fra: '2026-07-01'
