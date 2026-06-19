@@ -43,7 +43,6 @@ tariffer:
     gyldig_til: '2025-01-01'
   - kundegrupper:
       - husholdning
-      - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
