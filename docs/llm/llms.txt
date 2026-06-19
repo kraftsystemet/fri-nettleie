@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-06-06T05:38:21 | Gyldige tariffer per: 2026-06-06
+> Generert: 2026-06-19T08:31:56 | Gyldige tariffer per: 2026-06-19
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1171,7 +1171,7 @@ Energiledd unntak:
 
 ## Midtnett AS
 GLN: 7080003869012 | Sist oppdatert: 2024-12-27
-Kundegrupper: husholdning, fritid
+Kundegrupper: husholdning
 Gyldig fra: 2025-01-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
@@ -1184,6 +1184,23 @@ Fastledd terskler (kr/år):
   - Fra 50 kW: 25152 kr/år
   - Fra 75 kW: 31200 kr/år
   - Fra 100 kW: 36000 kr/år
+Energiledd grunnpris: 18.86 øre/kWh (eks. avgifter)
+Energiledd unntak:
+  - Høylast: 23.86 øre/kWh | timer 6-21 | dager: alle
+
+Kundegrupper: fritid
+Gyldig fra: 2026-01-01
+Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
+Fastledd terskler (kr/år):
+  - Fra 0 kW: 3168 kr/år
+  - Fra 5 kW: 4752 kr/år
+  - Fra 10 kW: 7200 kr/år
+  - Fra 15 kW: 10800 kr/år
+  - Fra 20 kW: 14400 kr/år
+  - Fra 25 kW: 20112 kr/år
+  - Fra 50 kW: 30180 kr/år
+  - Fra 75 kW: 37440 kr/år
+  - Fra 100 kW: 43200 kr/år
 Energiledd grunnpris: 18.86 øre/kWh (eks. avgifter)
 Energiledd unntak:
   - Høylast: 23.86 øre/kWh | timer 6-21 | dager: alle
