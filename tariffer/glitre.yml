@@ -4,7 +4,7 @@ gln:
   - '7080005056069'
   - '7080005052672'
   - '7080005053273'
-sist_oppdatert: '2025-10-22'
+sist_oppdatert: '2026-06-19'
 kilder:
   - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-privatkunde'
   - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-mindre-bedriftskunder'
@@ -79,3 +79,38 @@ tariffer:
           timer: 6-21
           pris: 24.6
     gyldig_fra: '2025-09-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1536
+        - terskel: 2
+          pris: 2232
+        - terskel: 5
+          pris: 3744
+        - terskel: 10
+          pris: 7008
+        - terskel: 15
+          pris: 9264
+        - terskel: 20
+          pris: 11616
+        - terskel: 25
+          pris: 18096
+        - terskel: 50
+          pris: 28704
+        - terskel: 75
+          pris: 38304
+        - terskel: 100
+          pris: 63984
+    energiledd:
+      grunnpris: 13.6
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 25.6
+    gyldig_fra: '2026-07-01'
