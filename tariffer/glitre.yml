@@ -79,6 +79,7 @@ tariffer:
           timer: 6-21
           pris: 24.6
     gyldig_fra: '2025-09-01'
+    gyldig_til: '2026-07-01'
   - kundegrupper:
       - husholdning
       - fritid

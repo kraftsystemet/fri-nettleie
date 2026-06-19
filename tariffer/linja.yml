@@ -41,6 +41,7 @@ tariffer:
           pris: 22.382
           timer: 6-21
     gyldig_fra: '2026-01-01'
+    gyldig_til: '2026-07-01'
   - kundegrupper:
       - husholdning
       - fritid

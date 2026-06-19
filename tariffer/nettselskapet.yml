@@ -147,7 +147,8 @@ tariffer:
           måneder: [januar, februar, mars, april, november, desember]
           pris: 2.7
     gyldig_fra: '2025-08-01'
-      - kundegrupper:
+    gyldig_til: '2026-07-01'
+  - kundegrupper:
       - husholdning
       - fritid
       - liten_næring
