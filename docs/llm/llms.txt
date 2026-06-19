@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-06-19T08:31:56 | Gyldige tariffer per: 2026-06-19
+> Generert: 2026-06-19T08:33:01 | Gyldige tariffer per: 2026-06-19
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1706,9 +1706,9 @@ Energiledd unntak:
 ---
 
 ## Tensio TN AS
-GLN: 7080005052627 | Sist oppdatert: 2025-12-17
+GLN: 7080005052627 | Sist oppdatert: 2026-06-19
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2026-01-01
+Gyldig fra: 2026-01-01 til 2026-07-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 1286.4 kr/år
@@ -1734,9 +1734,9 @@ Energiledd unntak:
 ---
 
 ## Tensio TS AS
-GLN: 7080005051880 | Sist oppdatert: 2025-12-17
+GLN: 7080005051880 | Sist oppdatert: 2026-06-19
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2026-01-01
+Gyldig fra: 2026-01-01 til 2026-07-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 1171.2 kr/år
