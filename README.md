@@ -338,6 +338,7 @@ Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 * [Elmera Group](https://elmeragroup.no/about-elmeragroup/elmeragroup-in-brief/) bruker dataene i alle sine whitelabled apper i Norge fra august 2025 💡
 * [STRØMSJOKK.no](https://www.strømsjokk.no/nettleie) viser frem data fra fri-nettleie på sine sider
 * [superpris.no](https://www.superpris.no/nettleie) bruker data from fri-nettleie
+* [Strømkalkulator](https://github.com/fredrik-lindseth/Stromkalkulator) er en HACS-komponent til Home Assistant som bruker fri-nettleie
 
 ## fri-nettleie i media
 
