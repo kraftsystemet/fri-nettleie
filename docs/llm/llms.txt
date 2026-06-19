@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-06-19T08:33:01 | Gyldige tariffer per: 2026-06-19
+> Generert: 2026-06-19T18:05:19 | Gyldige tariffer per: 2026-06-19
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1021,7 +1021,7 @@ Energiledd unntak:
 ---
 
 ## Linja AS
-GLN: 7080001319830 | Sist oppdatert: 2025-12-25
+GLN: 7080001319830 | Sist oppdatert: 2026-06-19
 Kundegrupper: liten_næring, husholdning, fritid
 Gyldig fra: 2026-01-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
