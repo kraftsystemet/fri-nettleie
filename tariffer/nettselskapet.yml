@@ -147,3 +147,57 @@ tariffer:
           måneder: [januar, februar, mars, april, november, desember]
           pris: 2.7
     gyldig_fra: '2025-08-01'
+      - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1560
+        - terskel: 2
+          pris: 2880
+        - terskel: 5
+          pris: 4920
+        - terskel: 10
+          pris: 7320
+        - terskel: 15
+          pris: 9480
+        - terskel: 20
+          pris: 11880
+        - terskel: 25
+          pris: 20400
+        - terskel: 50
+          pris: 31920
+        - terskel: 75
+          pris: 43560
+        - terskel: 100
+          pris: 62880
+        - terskel: 150
+          pris: 86160
+        - terskel: 200
+          pris: 124800
+        - terskel: 300
+          pris: 171240
+        - terskel: 400
+          pris: 217680
+        - terskel: 500
+          pris: 264120
+    energiledd:
+      grunnpris: 1.6
+      unntak:
+        - navn: 'Høylast sommer'
+          timer: 6-21
+          pris: 11.6
+          måneder: [mai, juni, juli, august, september, oktober]
+        - navn: 'Høylast vinter'
+          timer: 6-21
+          måneder: [januar, februar, mars, april, november, desember]
+          pris: 12.7
+        - navn: 'Lavlast vinter'
+          timer: 22-5
+          måneder: [januar, februar, mars, april, november, desember]
+          pris: 2.7
+    gyldig_fra: '2026-07-01'
