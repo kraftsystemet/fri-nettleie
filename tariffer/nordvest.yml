@@ -4,10 +4,8 @@ gln:
   - '7080005052801'
 kilder:
   - 'https://www.nvn.no/nettleige/'
-  - 'https://www.nvn.no/aktuelt/nye-nettleiepriser-fra-1-september-2024/'
-  - 'https://www.nvn.no/download?objectPath=/upload_images/E43613082C2644C7B67DCFA221473FB5.pdf'
-  - 'https://www.nvn.no/download?objectPath=/upload_images/B648735052B6498A938809E6E2664C7E.pdf'
-sist_oppdatert: '2025-12-20'
+  - 'https://www.nvn.no/nettleige/nettleie-privatkunder'
+sist_oppdatert: '2026-06-20'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -113,3 +111,38 @@ tariffer:
           timer: 6-21
           pris: 26.03
     gyldig_fra: '2026-01-01'
+    gyldig_til: '2026-07-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1824
+        - terskel: 2
+          pris: 4473.6
+        - terskel: 5
+          pris: 5500.8
+        - terskel: 10
+          pris: 8361.6
+        - terskel: 15
+          pris: 9916.8
+        - terskel: 20
+          pris: 11568
+        - terskel: 25
+          pris: 22185.6
+        - terskel: 50
+          pris: 32832
+        - terskel: 75
+          pris: 43468.8
+        - terskel: 100
+          pris: 85478.4
+    energiledd:
+      grunnpris: 25.23
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 31.23
+    gyldig_fra: '2026-07-01'
