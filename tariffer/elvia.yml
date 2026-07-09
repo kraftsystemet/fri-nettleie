@@ -151,5 +151,5 @@ tariffer:
         - navn: Virkedag
           timer: 6-21
           dager: [virkedag]
-          pris: 28.99
+          pris: 29.15
     gyldig_fra: '2026-07-01'
