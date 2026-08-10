@@ -5,6 +5,7 @@ gln:
 kilder:
   - 'https://norgesnett.no/kunde/nettleie-privat/'
   - 'https://norgesnett.no/kunde/nettleie-naering/'
+  - 'https://norgesnett.no/aktuelt/prisen-pa-nettleie-settes-opp-1-juli/'
 sist_oppdatert: '2025-11-09'
 tariffer:
   - kundegrupper:
@@ -77,3 +78,70 @@ tariffer:
           timer: 6-21
           pris: 20.26
     gyldig_fra: '2025-07-01'
+      - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1344
+        - terskel: 2
+          pris: 2232
+        - terskel: 5
+          pris: 3744
+        - terskel: 10
+          pris: 6672
+        - terskel: 15
+          pris: 8976
+        - terskel: 20
+          pris: 10992
+        - terskel: 25
+          pris: 17400
+        - terskel: 50
+          pris: 27000
+        - terskel: 75
+          pris: 36600
+        - terskel: 100
+          pris: 58680
+    energiledd:
+      grunnpris: 13.598
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 25.598
+    gyldig_fra: '2026-07-01'
+  - kundegrupper:
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2144.04
+        - terskel: 2
+          pris: 3032.04
+        - terskel: 5
+          pris: 4544.04
+        - terskel: 10
+          pris: 7472.04
+        - terskel: 15
+          pris: 9776.04
+        - terskel: 20
+          pris: 11792.04
+        - terskel: 25
+          pris: 18200.04
+        - terskel: 50
+          pris: 27800.04
+        - terskel: 75
+          pris: 37400.04
+        - terskel: 100
+          pris: 59480.04
+    energiledd:
+      grunnpris: 5.47
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 17.47
+    gyldig_fra: '2026-07-01'
