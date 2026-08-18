@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-18T19:31:52 | Gyldige tariffer per: 2026-08-18
+> Generert: 2026-08-18T20:01:06 | Gyldige tariffer per: 2026-08-18
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1107,38 +1107,39 @@ Energiledd unntak:
 ---
 
 ## Lysna AS
-GLN: 7080010013088 | Sist oppdatert: 2025-10-23
+GLN: 7080010013088 | Sist oppdatert: 2026-08-18
 Kundegrupper: husholdning, fritid
-Gyldig fra: 2024-02-01
+Gyldig fra: 2026-08-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 3720 kr/år
-  - Fra 2 kW: 4740 kr/år
-  - Fra 5 kW: 5724 kr/år
+  - Fra 0 kW: 3600 kr/år
+  - Fra 2 kW: 4377.6 kr/år
+  - Fra 5 kW: 5280 kr/år
   - Fra 10 kW: 6960 kr/år
-  - Fra 15 kW: 8220 kr/år
-  - Fra 20 kW: 9420 kr/år
-Energiledd grunnpris: 24 øre/kWh (eks. avgifter)
+  - Fra 15 kW: 9060 kr/år
+  - Fra 20 kW: 11760 kr/år
+  - Fra 25 kW: 18000 kr/år
+Energiledd grunnpris: 26 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Dag: 32 øre/kWh | timer 6-21
+  - Dag: 32 øre/kWh | timer 6-22
 
 Kundegrupper: liten_næring
-Gyldig fra: 2024-02-01
+Gyldig fra: 2026-08-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 5400 kr/år
-  - Fra 2 kW: 6000 kr/år
-  - Fra 5 kW: 6600 kr/år
-  - Fra 10 kW: 7200 kr/år
-  - Fra 15 kW: 8400 kr/år
-  - Fra 20 kW: 9600 kr/år
-  - Fra 25 kW: 10800 kr/år
-  - Fra 50 kW: 12000 kr/år
-  - Fra 75 kW: 13200 kr/år
-  - Fra 100 kW: 14400 kr/år
-Energiledd grunnpris: 22 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 5760 kr/år
+  - Fra 2 kW: 6480 kr/år
+  - Fra 5 kW: 7200 kr/år
+  - Fra 10 kW: 8040 kr/år
+  - Fra 15 kW: 9240 kr/år
+  - Fra 20 kW: 10560 kr/år
+  - Fra 25 kW: 12600 kr/år
+  - Fra 50 kW: 16080 kr/år
+  - Fra 75 kW: 19560 kr/år
+  - Fra 100 kW: 24000 kr/år
+Energiledd grunnpris: 25 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Dag: 30 øre/kWh | timer 6-21
+  - Dag: 33 øre/kWh | timer 6-22
 
 
 ---
