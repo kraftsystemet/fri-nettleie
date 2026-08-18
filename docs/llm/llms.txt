@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-18T19:20:46 | Gyldige tariffer per: 2026-08-18
+> Generert: 2026-08-18T19:31:52 | Gyldige tariffer per: 2026-08-18
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1410,24 +1410,24 @@ Energiledd unntak:
 ---
 
 ## Norefjell Nett AS
-GLN: 7080010003911 | Sist oppdatert: 2025-12-12
+GLN: 7080010003911 | Sist oppdatert: 2026-08-18
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2026-01-01
+Gyldig fra: 2026-08-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 2328 kr/år
-  - Fra 2 kW: 3024 kr/år
-  - Fra 5 kW: 4176 kr/år
-  - Fra 10 kW: 6264 kr/år
-  - Fra 15 kW: 8124 kr/år
-  - Fra 20 kW: 9984 kr/år
-  - Fra 25 kW: 16260 kr/år
-  - Fra 50 kW: 24384 kr/år
-  - Fra 75 kW: 32508 kr/år
-  - Fra 100 kW: 46440 kr/år
-Energiledd grunnpris: 15.08 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 2556 kr/år
+  - Fra 2 kW: 3324 kr/år
+  - Fra 5 kW: 4596 kr/år
+  - Fra 10 kW: 6900 kr/år
+  - Fra 15 kW: 8940 kr/år
+  - Fra 20 kW: 10980 kr/år
+  - Fra 25 kW: 17880 kr/år
+  - Fra 50 kW: 26820 kr/år
+  - Fra 75 kW: 35760 kr/år
+  - Fra 100 kW: 51084 kr/år
+Energiledd grunnpris: 18.58 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Dag: 22.53 øre/kWh | timer 6-21 | dager: alle
+  - Dag: 23.53 øre/kWh | timer 6-22 | dager: alle
 
 
 ---
