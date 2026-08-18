@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-16T07:41:28 | Gyldige tariffer per: 2026-08-16
+> Generert: 2026-08-18T19:12:34 | Gyldige tariffer per: 2026-08-18
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -133,7 +133,7 @@ Anta grunnpris energiledd = 20 øre/kWh og forbruksavgift = F øre/kWh (hent F f
 - Area Nett AS - Område 3 - Lega (GLN: 7080004087071)
 - Area Nett AS - Område 2 - Luostejok (GLN: 7080004087071)
 - Area Nett AS - Område 1- NettiNord (GLN: 7080004087071)
-- Arva AS (GLN: 7080005051859, 7080005051361)
+- Arva AS (GLN: 7080005051859)
 - Asker Nett (GLN: 7080003858825)
 - Barents Nett AS (GLN: 7080005051934)
 - Bindal Kraftlag Nett (GLN: 7080005055963)
@@ -151,8 +151,8 @@ Anta grunnpris energiledd = 20 øre/kWh og forbruksavgift = F øre/kWh (hent F f
 - Fagne AS (GLN: 7080003809599)
 - Fjellnett AS (GLN: 7080010000316)
 - Føre AS (GLN: 7080010003836)
-- Føie AS (GLN: 7080005048415, 7080004067882, 7080005050654)
-- Glitre Nett AS (GLN: 7080005056069, 7080005052672, 7080005053273)
+- Føie AS (GLN: 7080005050654)
+- Glitre Nett AS (GLN: 7080005056069, 7080011182691)
 - Griug AS (GLN: 7080005052900)
 - Haringnett AS (GLN: 7080010001276)
 - Havnett AS (GLN: 7080010001832)
@@ -311,7 +311,7 @@ Energiledd unntak:
 ---
 
 ## Arva AS
-GLN: 7080005051859, 7080005051361 | Sist oppdatert: 2024-10-22
+GLN: 7080005051859 | Sist oppdatert: 2024-10-22
 Kundegrupper: husholdning, fritid, liten_næring
 Gyldig fra: 2024-01-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
@@ -730,7 +730,7 @@ Energiledd grunnpris: 19.29 øre/kWh (eks. avgifter)
 ---
 
 ## Føie AS
-GLN: 7080005048415, 7080004067882, 7080005050654 | Sist oppdatert: 2025-12-17
+GLN: 7080005050654 | Sist oppdatert: 2025-12-17
 Kundegrupper: husholdning, fritid, liten_næring
 Gyldig fra: 2026-01-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
@@ -752,7 +752,7 @@ Energiledd unntak:
 ---
 
 ## Glitre Nett AS
-GLN: 7080005056069, 7080005052672, 7080005053273 | Sist oppdatert: 2026-06-19
+GLN: 7080005056069, 7080011182691 | Sist oppdatert: 2026-06-19
 Kundegrupper: husholdning, fritid, liten_næring
 Gyldig fra: 2026-07-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
