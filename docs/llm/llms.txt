@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-18T19:12:34 | Gyldige tariffer per: 2026-08-18
+> Generert: 2026-08-18T19:15:19 | Gyldige tariffer per: 2026-08-18
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -674,34 +674,34 @@ Energiledd unntak:
 ---
 
 ## Fjellnett AS
-GLN: 7080010000316 | Sist oppdatert: 2025-12-25
+GLN: 7080010000316 | Sist oppdatert: 2026-08-18
 Kundegrupper: husholdning, fritid
-Gyldig fra: 2026-01-01
+Gyldig fra: 2026-07-01
 Fastledd metode: FEM_VEKTET_ÅR | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 2000 kr/år
-  - Fra 1 kW: 2534 kr/år
-  - Fra 2 kW: 3068 kr/år
-  - Fra 3 kW: 3602 kr/år
-  - Fra 4 kW: 4136 kr/år
-  - Fra 5 kW: 4670 kr/år
-  - Fra 6 kW: 5204 kr/år
-  - Fra 7 kW: 5738 kr/år
-  - Fra 8 kW: 6272 kr/år
-  - Fra 9 kW: 6806 kr/år
-  - Fra 10 kW: 7340 kr/år
-  - Fra 11 kW: 7874 kr/år
-  - Fra 12 kW: 8408 kr/år
-  - Fra 13 kW: 8942 kr/år
-  - Fra 14 kW: 9476 kr/år
-  - Fra 15 kW: 10010 kr/år
-  - Fra 16 kW: 10544 kr/år
-  - Fra 17 kW: 11078 kr/år
-  - Fra 18 kW: 11612 kr/år
-  - Fra 19 kW: 12146 kr/år
-  - Fra 20 kW: 12680 kr/år
-  - Fra 25 kW: 15350 kr/år
-Energiledd grunnpris: 12.9 øre/kWh (eks. avgifter)
+  - Fra 1 kW: 2589 kr/år
+  - Fra 2 kW: 3178 kr/år
+  - Fra 3 kW: 3767 kr/år
+  - Fra 4 kW: 4356 kr/år
+  - Fra 5 kW: 4945 kr/år
+  - Fra 6 kW: 5534 kr/år
+  - Fra 7 kW: 6123 kr/år
+  - Fra 8 kW: 6712 kr/år
+  - Fra 9 kW: 7301 kr/år
+  - Fra 10 kW: 7890 kr/år
+  - Fra 11 kW: 8479 kr/år
+  - Fra 12 kW: 9068 kr/år
+  - Fra 13 kW: 9657 kr/år
+  - Fra 14 kW: 10246 kr/år
+  - Fra 15 kW: 10835 kr/år
+  - Fra 16 kW: 11424 kr/år
+  - Fra 17 kW: 12013 kr/år
+  - Fra 18 kW: 12602 kr/år
+  - Fra 19 kW: 13191 kr/år
+  - Fra 20 kW: 13780 kr/år
+  - Fra 25 kW: 16725 kr/år
+Energiledd grunnpris: 14.8 øre/kWh (eks. avgifter)
 
 
 ---
