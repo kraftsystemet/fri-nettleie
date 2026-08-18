@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-18T19:17:51 | Gyldige tariffer per: 2026-08-18
+> Generert: 2026-08-18T19:20:46 | Gyldige tariffer per: 2026-08-18
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -835,24 +835,24 @@ Energiledd grunnpris: 29.72 øre/kWh (eks. avgifter)
 ---
 
 ## Høland og Setskog Elverk AS
-GLN: 7080004320253 | Sist oppdatert: 2025-07-11
+GLN: 7080004320253 | Sist oppdatert: 2026-08-18
 Kundegrupper: husholdning, fritid
-Gyldig fra: 2025-07-01
+Gyldig fra: 2026-08-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 1920 kr/år
-  - Fra 2 kW: 2304 kr/år
-  - Fra 5 kW: 3360 kr/år
-  - Fra 10 kW: 4224 kr/år
-  - Fra 15 kW: 5664 kr/år
-  - Fra 20 kW: 6624 kr/år
-  - Fra 25 kW: 13920 kr/år
-  - Fra 50 kW: 21120 kr/år
-  - Fra 75 kW: 28800 kr/år
-  - Fra 100 kW: 56640 kr/år
-Energiledd grunnpris: 17.5 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 2544 kr/år
+  - Fra 2 kW: 2880 kr/år
+  - Fra 5 kW: 4512 kr/år
+  - Fra 10 kW: 5664 kr/år
+  - Fra 15 kW: 7296 kr/år
+  - Fra 20 kW: 8880 kr/år
+  - Fra 25 kW: 17280 kr/år
+  - Fra 50 kW: 25920 kr/år
+  - Fra 75 kW: 33600 kr/år
+  - Fra 100 kW: 67200 kr/år
+Energiledd grunnpris: 23.5 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Virkedag: 22.5 øre/kWh | timer 6-21 | dager: virkedag
+  - Virkedag: 27.5 øre/kWh | timer 6-21 | dager: virkedag
 
 
 ---
