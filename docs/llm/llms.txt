@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-18T19:15:19 | Gyldige tariffer per: 2026-08-18
+> Generert: 2026-08-18T19:17:51 | Gyldige tariffer per: 2026-08-18
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -494,24 +494,24 @@ Energiledd unntak:
 ---
 
 ## Elinett AS
-GLN: 7080005053044 | Sist oppdatert: 2025-10-22
+GLN: 7080005053044 | Sist oppdatert: 2026-08-18
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2025-08-01
+Gyldig fra: 2026-08-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 2412 kr/år
-  - Fra 2 kW: 3012 kr/år
-  - Fra 5 kW: 3612 kr/år
-  - Fra 10 kW: 6024 kr/år
-  - Fra 15 kW: 7224 kr/år
-  - Fra 20 kW: 8424 kr/år
-  - Fra 25 kW: 12036 kr/år
-  - Fra 50 kW: 13248 kr/år
-  - Fra 75 kW: 14448 kr/år
-  - Fra 100 kW: 18060 kr/år
-Energiledd grunnpris: 14.64 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 2700 kr/år
+  - Fra 2 kW: 3360 kr/år
+  - Fra 5 kW: 4020 kr/år
+  - Fra 10 kW: 6600 kr/år
+  - Fra 15 kW: 7980 kr/år
+  - Fra 20 kW: 9300 kr/år
+  - Fra 25 kW: 13260 kr/år
+  - Fra 50 kW: 14580 kr/år
+  - Fra 75 kW: 15900 kr/år
+  - Fra 100 kW: 19860 kr/år
+Energiledd grunnpris: 17.5 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Virkedag: 22.64 øre/kWh | timer 6-21 | dager: virkedag
+  - Virkedag: 25.5 øre/kWh | timer 6-21 | dager: virkedag
 
 
 ---
