@@ -90,6 +90,7 @@ tariffer:
     gyldig_til: '2026-09-01'
   - kundegrupper:
       - husholdning
+      - liten_næring
       - fritid
     fastledd:
       metode: TRE_DØGNMAX_MND
