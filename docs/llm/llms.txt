@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-23T19:39:18 | Gyldige tariffer per: 2026-08-23
+> Generert: 2026-08-23T19:42:24 | Gyldige tariffer per: 2026-08-23
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1568,9 +1568,9 @@ Energiledd unntak:
 ---
 
 ## Sør Aurdal Energi AS Nett
-GLN: 7080005046459 | Sist oppdatert: 2024-11-24
+GLN: 7080005046459 | Sist oppdatert: 2026-08-23
 Kundegrupper: husholdning, fritid
-Gyldig fra: 2024-09-01
+Gyldig fra: 2024-09-01 til 2026-09-01
 Fastledd metode: MND_MAX | Terskel inkludert: False
 Fastledd terskler (kr/år):
   - Fra 0 kW: 5400 kr/år
