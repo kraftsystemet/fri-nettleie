@@ -2,9 +2,10 @@
 gln:
   - '7080005051927'
 kilder:
-  - 'https://www.telemark-nett.no/prisar/nettleige-1/'
-netteier: 'Vest-Telemark Kraftlag AS Nett'
-sist_oppdatert: '2024-11-09'
+  - 'https://www.tnett.no/prisar/nettleige-1/'
+  - 'https://www.tnett.no/getfile.php/134877-1786620753/telemarknett.no/Dokument/Kundesenter/Annonse%20nett%2020260901.pdf'
+netteier: 'Tnett AS'
+sist_oppdatert: '2026-08-23'
 tariffer:
   - energiledd:
       grunnpris: 26
@@ -86,3 +87,31 @@ tariffer:
     energiledd:
       grunnpris: 25
     gyldig_fra: '2025-03-01'
+    gyldig_til: '2026-09-01'
+  - kundegrupper:
+      - husholdning
+      - liten_næring
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3816
+        - terskel: 5
+          pris: 4860
+        - terskel: 10
+          pris: 9096
+        - terskel: 15
+          pris: 12240
+        - terskel: 20
+          pris: 15084
+        - terskel: 25
+          pris: 26076
+        - terskel: 50
+          pris: 41016
+        - terskel: 75
+          pris: 57192
+    energiledd:
+      grunnpris: 28
+    gyldig_fra: '2026-09-01'
