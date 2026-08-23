@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-23T19:30:19 | Gyldige tariffer per: 2026-08-23
+> Generert: 2026-08-23T19:31:23 | Gyldige tariffer per: 2026-08-23
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -617,7 +617,7 @@ Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 3360 kr/år
   - Fra 2 kW: 5040 kr/år
-  - Fra 5 kW: 5976 kr/år
+  - Fra 5 kW: 5986.8 kr/år
   - Fra 10 kW: 7380 kr/år
   - Fra 15 kW: 9747.6 kr/år
   - Fra 20 kW: 12184.8 kr/år
