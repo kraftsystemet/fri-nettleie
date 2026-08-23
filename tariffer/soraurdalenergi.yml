@@ -37,6 +37,7 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
+      - liten_næring
     fastledd:
       metode: MND_MAX
       terskel_inkludert: false
