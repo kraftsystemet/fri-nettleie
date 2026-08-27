@@ -333,7 +333,6 @@ Se under. Gi oss beskjed om du bruker dataene så legger vi deg til i lista.
 Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 
 * [Slipper](https://slipper.no/) har brukt dataene i sin app siden desember 2024 📈
-***fri-nettleie***
 * EnergiWatch har brukt dataene i sin journalistikk bl.a. i [mai 2025](https://energiwatch.no/nyheter/nett_teknologi/article18222699.ece) 🗞️
 * [Elmera Group](https://elmeragroup.no/about-elmeragroup/elmeragroup-in-brief/) bruker dataene i alle sine whitelabled apper i Norge fra august 2025 💡
 * [STRØMSJOKK.no](https://www.strømsjokk.no/nettleie) viser frem data fra fri-nettleie på sine sider
