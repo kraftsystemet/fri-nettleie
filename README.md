@@ -333,12 +333,12 @@ Se under. Gi oss beskjed om du bruker dataene så legger vi deg til i lista.
 Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 
 * [Slipper](https://slipper.no/) har brukt dataene i sin app siden desember 2024 📈
-* [Tadata](https://tadata.no/products/56efa72d-88a9-4688-aa66-df0cd1dd40bb) tilbyr et API for nettleiepriser basert på data fra ***fri-nettleie***
 * EnergiWatch har brukt dataene i sin journalistikk bl.a. i [mai 2025](https://energiwatch.no/nyheter/nett_teknologi/article18222699.ece) 🗞️
 * [Elmera Group](https://elmeragroup.no/about-elmeragroup/elmeragroup-in-brief/) bruker dataene i alle sine whitelabled apper i Norge fra august 2025 💡
 * [STRØMSJOKK.no](https://www.strømsjokk.no/nettleie) viser frem data fra fri-nettleie på sine sider
-* [superpris.no](https://www.superpris.no/nettleie) bruker data from fri-nettleie
+* [superpris.no](https://www.superpris.no/nettleie) bruker data fra fri-nettleie
 * [Strømkalkulator](https://github.com/fredrik-lindseth/Stromkalkulator) er en HACS-komponent til Home Assistant som bruker fri-nettleie
+* [Strømpriseridag.no](https://strompriseridag.no) viser spotpriser time for time for alle fem prisområder i Norge, og bruker data fra fri-nettleie til å vise hva nettleien koster hos de ulike nettselskapene
 
 ## fri-nettleie i media
 
