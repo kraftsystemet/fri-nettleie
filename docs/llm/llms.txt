@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-08-30T05:53:42 | Gyldige tariffer per: 2026-08-30
+> Generert: 2026-09-01T03:22:59 | Gyldige tariffer per: 2026-09-01
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -543,12 +543,12 @@ Energiledd unntak:
 ## Elvenett AS
 GLN: 7080005052917 | Sist oppdatert: 2026-08-23
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2025-04-01 til 2026-09-01
+Gyldig fra: 2026-09-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 1860 kr/år
-  - Fra 2 kW: 2640 kr/år
-  - Fra 5 kW: 3648 kr/år
+  - Fra 0 kW: 1536 kr/år
+  - Fra 2 kW: 2232 kr/år
+  - Fra 5 kW: 3180 kr/år
   - Fra 10 kW: 4764 kr/år
   - Fra 15 kW: 6120 kr/år
   - Fra 20 kW: 7704 kr/år
@@ -556,9 +556,9 @@ Fastledd terskler (kr/år):
   - Fra 50 kW: 14508 kr/år
   - Fra 75 kW: 18180 kr/år
   - Fra 100 kW: 21840 kr/år
-Energiledd grunnpris: 11 øre/kWh (eks. avgifter)
+Energiledd grunnpris: 5 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Dag: 20 øre/kWh | timer 6-21
+  - Dag: 20 øre/kWh | timer 6-22
 
 
 ---
@@ -1165,17 +1165,21 @@ Energiledd unntak:
 ## Mellom AS
 GLN: 7080010004369 | Sist oppdatert: 2026-08-29
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2024-08-01 til 2026-09-01
+Gyldig fra: 2026-09-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 2438.4 kr/år
-  - Fra 2 kW: 3648 kr/år
-  - Fra 5 kW: 6057.6 kr/år
-  - Fra 10 kW: 8006.4 kr/år
-  - Fra 15 kW: 10137.6 kr/år
-  - Fra 20 kW: 12700.8 kr/år
-  - Fra 25 kW: 15993.6 kr/år
-  - Fra 50 kW: 21369.6 kr/år
+  - Fra 0 kW: 2697.6 kr/år
+  - Fra 2 kW: 4012.8 kr/år
+  - Fra 5 kW: 6662.4 kr/år
+  - Fra 10 kW: 8822.4 kr/år
+  - Fra 15 kW: 11155.2 kr/år
+  - Fra 20 kW: 13968 kr/år
+  - Fra 25 kW: 17596.8 kr/år
+  - Fra 50 kW: 23510.4 kr/år
+  - Fra 75 kW: 31411.2 kr/år
+  - Fra 100 kW: 41971.2 kr/år
+  - Fra 150 kW: 56073.6 kr/år
+  - Fra 200 kW: 74918.4 kr/år
 Energiledd grunnpris: 23.47 øre/kWh (eks. avgifter)
 Energiledd unntak:
   - Høylast: 29.77 øre/kWh | timer 6-21
@@ -1569,8 +1573,8 @@ Energiledd unntak:
 
 ## Sør Aurdal Energi AS Nett
 GLN: 7080005046459 | Sist oppdatert: 2026-08-23
-Kundegrupper: husholdning, fritid
-Gyldig fra: 2024-09-01 til 2026-09-01
+Kundegrupper: husholdning, fritid, liten_næring
+Gyldig fra: 2026-09-01
 Fastledd metode: MND_MAX | Terskel inkludert: False
 Fastledd terskler (kr/år):
   - Fra 0 kW: 5400 kr/år
@@ -1579,9 +1583,9 @@ Fastledd terskler (kr/år):
   - Fra 15 kW: 8640 kr/år
   - Fra 30 kW: 9720 kr/år
   - Fra 50 kW: 13200 kr/år
-Energiledd grunnpris: 21.52 øre/kWh (eks. avgifter)
+Energiledd grunnpris: 25.52 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Vinter: 25.52 øre/kWh | måneder: januar, februar, mars, oktober, november, desember
+  - Vinter: 29.52 øre/kWh | måneder: januar, februar, mars, oktober, november, desember
 
 
 ---
@@ -1799,19 +1803,19 @@ Energiledd grunnpris: 19 øre/kWh (eks. avgifter)
 
 ## Tnett AS
 GLN: 7080005051927 | Sist oppdatert: 2026-08-23
-Kundegrupper: husholdning, fritid
-Gyldig fra: 2025-03-01 til 2026-09-01
+Kundegrupper: husholdning, liten_næring, fritid
+Gyldig fra: 2026-09-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 3408 kr/år
-  - Fra 5 kW: 4344 kr/år
-  - Fra 10 kW: 8124 kr/år
-  - Fra 15 kW: 10932 kr/år
-  - Fra 20 kW: 13464 kr/år
-  - Fra 25 kW: 23280 kr/år
-  - Fra 50 kW: 36624 kr/år
-  - Fra 75 kW: 51060 kr/år
-Energiledd grunnpris: 25 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 3816 kr/år
+  - Fra 5 kW: 4860 kr/år
+  - Fra 10 kW: 9096 kr/år
+  - Fra 15 kW: 12240 kr/år
+  - Fra 20 kW: 15084 kr/år
+  - Fra 25 kW: 26076 kr/år
+  - Fra 50 kW: 41016 kr/år
+  - Fra 75 kW: 57192 kr/år
+Energiledd grunnpris: 28 øre/kWh (eks. avgifter)
 
 
 ---
