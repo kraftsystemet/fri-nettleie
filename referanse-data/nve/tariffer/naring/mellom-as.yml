@@ -9,19 +9,27 @@ fylker_navn:
 navn: MELLOM AS
 org: '925668389'
 terskler:
-  - pris: 3238.0
+  - pris: 3492.8
     terskel: 0.0
-  - pris: 4448.0
+  - pris: 4812.8
     terskel: 2.0
-  - pris: 6858.0
+  - pris: 7466.0
     terskel: 5.0
-  - pris: 8806.0
+  - pris: 9617.6
     terskel: 10.0
-  - pris: 10938.0
+  - pris: 11954.0
     terskel: 15.0
-  - pris: 13501.0
+  - pris: 14765.6
     terskel: 20.0
-  - pris: 16794.0
+  - pris: 18395.6
     terskel: 25.0
-  - pris: 22170.0
+  - pris: 24309.2
     terskel: 50.0
+  - pris: 32210.48
+    terskel: 75.0
+  - pris: 42767.24
+    terskel: 100.0
+  - pris: 56872.16
+    terskel: 150.0
+  - pris: 75717.68
+    terskel: 200.0

@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 16.19
-  - 23.38
+  - 15.91
+  - 23.6
 fylker:
   - '15'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: LINJA AS
 org: '912631532'
 terskler:
-  - pris: 2640.0
+  - pris: 2754.0
     terskel: 0.0
-  - pris: 3288.0
+  - pris: 3432.0
     terskel: 2.0
-  - pris: 3948.0
+  - pris: 4122.0
     terskel: 5.0
-  - pris: 6588.0
+  - pris: 6870.0
     terskel: 10.0
-  - pris: 7908.0
+  - pris: 8250.0
     terskel: 15.0
-  - pris: 9216.0
+  - pris: 9618.0
     terskel: 20.0
-  - pris: 13176.0
+  - pris: 13746.0
     terskel: 25.0
-  - pris: 14496.0
+  - pris: 15120.0
     terskel: 50.0
-  - pris: 15804.0
+  - pris: 16494.0
     terskel: 75.0
-  - pris: 19764.0
+  - pris: 20616.0
     terskel: 100.0

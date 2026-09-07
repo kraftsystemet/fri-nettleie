@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 20.03
-  - 26.03
+  - 25.23
+  - 31.23
 fylker:
   - '15'
 fylker_navn:
@@ -9,23 +9,23 @@ fylker_navn:
 navn: NORDVEST NETT AS
 org: '980824586'
 terskler:
-  - pris: 2316.8
+  - pris: 2628.0
     terskel: 0.0
-  - pris: 4524.8
+  - pris: 5268.0
     terskel: 2.0
-  - pris: 5388.8
+  - pris: 6300.0
     terskel: 5.0
-  - pris: 7769.6
+  - pris: 9156.0
     terskel: 10.0
-  - pris: 9065.6
+  - pris: 10716.0
     terskel: 15.0
-  - pris: 10438.4
+  - pris: 12372.0
     terskel: 20.0
-  - pris: 19289.6
+  - pris: 22980.0
     terskel: 25.0
-  - pris: 28160.0
+  - pris: 33636.0
     terskel: 50.0
-  - pris: 37020.8
+  - pris: 44268.0
     terskel: 75.0
-  - pris: 72032.0
+  - pris: 86280.0
     terskel: 100.0

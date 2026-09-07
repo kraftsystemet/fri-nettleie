@@ -1,11 +1,7 @@
 ---
 energiledd:
-  - 12.6
-  - 12.94
-  - 13.28
-  - 20.26
-  - 22.43
-  - 24.6
+  - 13.6
+  - 25.6
 fylker:
   - '03'
   - '11'
@@ -31,21 +27,21 @@ org: '982974011'
 terskler:
   - pris: 2336.0
     terskel: 0.0
-  - pris: 2768.0
+  - pris: 3032.0
     terskel: 2.0
-  - pris: 4160.0
+  - pris: 4544.0
     terskel: 5.0
-  - pris: 7760.0
+  - pris: 7808.0
     terskel: 10.0
-  - pris: 9824.0
+  - pris: 10064.0
     terskel: 15.0
-  - pris: 12128.0
+  - pris: 12416.0
     terskel: 20.0
-  - pris: 18320.0
+  - pris: 18896.0
     terskel: 25.0
-  - pris: 28544.0
+  - pris: 29504.0
     terskel: 50.0
-  - pris: 37760.0
+  - pris: 39104.0
     terskel: 75.0
-  - pris: 60800.0
+  - pris: 64784.0
     terskel: 100.0
