@@ -3,8 +3,8 @@ netteier: 'RK Nett AS'
 gln:
   - '7080010004017'
 kilder:
-  - 'https://www.rauland-nett.no/nettprisar'
-sist_oppdatert: '2025-10-22'
+  - 'https://www.rauland-nett.no/nettleige'
+sist_oppdatert: '2026-09-13'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -113,3 +113,39 @@ tariffer:
     energiledd:
       grunnpris: 20.14
     gyldig_fra: '2025-10-01'
+    gyldig_til: '2026-08-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2928
+        - terskel: 2
+          pris: 3804
+        - terskel: 5
+          pris: 5268
+        - terskel: 10
+          pris: 6732
+        - terskel: 15
+          pris: 8196
+        - terskel: 20
+          pris: 9660
+        - terskel: 25
+          pris: 16980
+        - terskel: 50
+          pris: 24300
+        - terskel: 75
+          pris: 31608
+        - terskel: 100
+          pris: 46248
+        - terskel: 150
+          pris: 60876
+        - terskel: 200
+          pris: 87816
+    energiledd:
+      grunnpris: 23.02
+    gyldig_fra: '2026-08-01'
