@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-09-01T03:22:59 | Gyldige tariffer per: 2026-09-01
+> Generert: 2026-09-16T17:49:06 | Gyldige tariffer per: 2026-09-16
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1479,24 +1479,24 @@ Energiledd unntak:
 ---
 
 ## RK Nett AS
-GLN: 7080010004017 | Sist oppdatert: 2025-10-22
+GLN: 7080010004017 | Sist oppdatert: 2026-09-13
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2025-10-01
+Gyldig fra: 2026-08-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 2556 kr/år
-  - Fra 2 kW: 3324 kr/år
-  - Fra 5 kW: 4608 kr/år
-  - Fra 10 kW: 5892 kr/år
-  - Fra 15 kW: 7176 kr/år
-  - Fra 20 kW: 8448 kr/år
-  - Fra 25 kW: 14856 kr/år
-  - Fra 50 kW: 21252 kr/år
-  - Fra 75 kW: 27660 kr/år
-  - Fra 100 kW: 40464 kr/år
-  - Fra 150 kW: 53268 kr/år
-  - Fra 200 kW: 76836 kr/år
-Energiledd grunnpris: 20.14 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 2928 kr/år
+  - Fra 2 kW: 3804 kr/år
+  - Fra 5 kW: 5268 kr/år
+  - Fra 10 kW: 6732 kr/år
+  - Fra 15 kW: 8196 kr/år
+  - Fra 20 kW: 9660 kr/år
+  - Fra 25 kW: 16980 kr/år
+  - Fra 50 kW: 24300 kr/år
+  - Fra 75 kW: 31608 kr/år
+  - Fra 100 kW: 46248 kr/år
+  - Fra 150 kW: 60876 kr/år
+  - Fra 200 kW: 87816 kr/år
+Energiledd grunnpris: 23.02 øre/kWh (eks. avgifter)
 
 
 ---
