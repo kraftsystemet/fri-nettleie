@@ -3,7 +3,7 @@ netteier: 'Glitre Nett AS'
 gln:
   - '7080005056069'
   - '7080011182691'
-sist_oppdatert: '2026-06-19'
+sist_oppdatert: '2026-09-17'
 kilder:
   - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-privatkunde'
   - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-mindre-bedriftskunder'
@@ -114,3 +114,39 @@ tariffer:
           timer: 6-21
           pris: 25.6
     gyldig_fra: '2026-07-01'
+    gyldig_til: '2026-10-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1584
+        - terskel: 2
+          pris: 2592
+        - terskel: 5
+          pris: 4368
+        - terskel: 10
+          pris: 7344
+        - terskel: 15
+          pris: 9840
+        - terskel: 20
+          pris: 12240
+        - terskel: 25
+          pris: 19800
+        - terskel: 50
+          pris: 29520
+        - terskel: 75
+          pris: 39408
+        - terskel: 100
+          pris: 69024
+    energiledd:
+      grunnpris: 15.87
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 27.87
+    gyldig_fra: '2026-10-01'
