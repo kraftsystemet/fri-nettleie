@@ -1,0 +1,55 @@
+# Gjeldende avgiftssatser. DETTE ER DEN ENESTE FILEN SATSENE STÅR I.
+# Andre filer (avgifter.md, skriptene) leser herfra og skal ikke gjenta tallene.
+#
+# Alle satser er uten mva, med mindre annet er oppgitt.
+#
+# sist_verifisert: dato satsene sist ble kontrollert. Er den mer enn 90 dager gammel,
+# skal du be brukeren bekrefte elavgiften mot Skatteetaten før du bruker den.
+
+sist_verifisert: "2026-09-21"
+verifisert_mot: >
+  Forbruksavgift (alminnelig og redusert sats) for 2025 og 2026: Skatteetaten,
+  https://www.skatteetaten.no/satser/elektrisk-kraft/ (2026-09-21).
+  Mva 25 % og Enova (1 øre/kWh husholdning, 800 kr/år næring): netteiernes prislister
+  (Midtnett, Kystnett) og README. Ikke kontrollert mot Forskrift om Energifondet.
+
+mva:
+  sats: 0.25
+
+# Forbruksavgift (elavgift), øre/kWh, ekskl. mva. Satsen gjelder fra og med datoen.
+# Nyeste sats gjelder for en tariffperiode som starter på eller etter datoen.
+forbruksavgift:
+  satser:
+    - fra: "2025-01-01"
+      ore_per_kwh: 9.79
+    - fra: "2025-04-01"
+      ore_per_kwh: 16.93
+    - fra: "2025-10-01"
+      ore_per_kwh: 12.53
+    - fra: "2026-01-01"
+      ore_per_kwh: 7.13
+  # Redusert sats for enkelte næringskoder (05.xxx til 33.xxx). Ikke en del av tariffen.
+  redusert_ore_per_kwh: 0.6
+
+# Enova-avgift (Energifondet).
+enova:
+  husholdning_ore_per_kwh: 1.0
+  # Næring betaler et fast beløp. Noen netteiere legger det inn i fastleddet
+  # (800 / 12 = 66,67 kr/mnd). Trekk det fra før sammenligning med privat.
+  naring_kr_per_ar: 800
+
+# Avgiftssoner. Avgjør hvilke avgifter som ligger i priser med avgifter.
+# Finn sonen ut fra netteierens konsesjonsområde, ikke ut fra hvor du selv befinner deg.
+soner:
+  tiltakssonen:
+    beskrivelse: Finnmark og Nord-Troms
+    forbruksavgift: false
+    mva: false
+  nord_norge:
+    beskrivelse: Resten av Troms og Nordland
+    forbruksavgift: true
+    mva: false
+  sor:
+    beskrivelse: Fylker sør for Nordland
+    forbruksavgift: true
+    mva: true
