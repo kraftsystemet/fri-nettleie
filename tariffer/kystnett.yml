@@ -6,7 +6,6 @@ sist_oppdatert: '2026-09-21'
 kilder:
   - 'https://kystnett.no/Nettleie'
   - 'https://kystnett.no/Nettleie/?Article=68'
-  - 'https://kystnett.no/Nettleie/?Article=66'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -42,7 +41,6 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
-      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
