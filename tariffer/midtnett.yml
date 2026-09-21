@@ -5,8 +5,9 @@ kilder:
   - 'https://www.midtnett.no/nettleie'
   - 'https://midtnett.no/wp-content/uploads/2025/03/Pristabell-1.april_.2025.pdf'
   - 'https://midtnett.no/nettleie-informasjon-og-priser/'
+  - 'https://midtnett.no/wp-content/uploads/2026/09/Pris-fra-1.okt-2026.pdf'
 netteier: 'Midtnett AS'
-sist_oppdatert: '2024-12-27'
+sist_oppdatert: '2026-09-21'
 tariffer:
   - energiledd:
       grunnpris: 26
@@ -73,6 +74,7 @@ tariffer:
           pris: 23.86
           dager: [alle]
     gyldig_fra: '2025-01-01'
+    gyldig_til: '2026-10-01'
   - kundegrupper:
       - fritid
     fastledd:
@@ -138,3 +140,68 @@ tariffer:
           pris: 23.86
           dager: [alle]
     gyldig_fra: '2026-01-01'
+    gyldig_til: '2026-10-01'
+  - kundegrupper:
+      - husholdning
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2640
+        - terskel: 5
+          pris: 3964.8
+        - terskel: 10
+          pris: 6000
+        - terskel: 15
+          pris: 9004.8
+        - terskel: 20
+          pris: 12000
+        - terskel: 25
+          pris: 16761.6
+        - terskel: 50
+          pris: 25152
+        - terskel: 75
+          pris: 31200
+        - terskel: 100
+          pris: 36000
+    energiledd:
+      grunnpris: 26
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 31
+          dager: [alle]
+    gyldig_fra: '2026-10-01'
+  - kundegrupper:
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3168
+        - terskel: 5
+          pris: 4752
+        - terskel: 10
+          pris: 7200
+        - terskel: 15
+          pris: 10800
+        - terskel: 20
+          pris: 14400
+        - terskel: 25
+          pris: 20112
+        - terskel: 50
+          pris: 30180
+        - terskel: 75
+          pris: 37440
+        - terskel: 100
+          pris: 43200
+    energiledd:
+      grunnpris: 26
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 31
+          dager: [alle]
+    gyldig_fra: '2026-10-01'
