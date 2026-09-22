@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-09-18T05:54:44 | Gyldige tariffer per: 2026-09-18
+> Generert: 2026-09-22T05:44:48 | Gyldige tariffer per: 2026-09-22
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -968,9 +968,9 @@ Energiledd grunnpris: 17.632 øre/kWh (eks. avgifter)
 ---
 
 ## Kystnett AS
-GLN: 7080010000064 | Sist oppdatert: 2024-01-01
+GLN: 7080010000064 | Sist oppdatert: 2026-09-21
 Kundegrupper: husholdning, fritid
-Gyldig fra: 2024-01-01
+Gyldig fra: 2024-01-01 til 2026-10-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 5916 kr/år
