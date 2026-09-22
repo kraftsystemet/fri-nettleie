@@ -142,16 +142,33 @@ def utled_fastledd(args, satser: dict) -> list[dict]:
     for publisert in args.pris:
         n = desimaler(publisert)
         pris = d(publisert)
-        # Kilden oppgir kr/mnd, men filene lagrer kr/år.
-        per_ar = pris * 12 / faktor - enova_per_ar
-        verdi = rund(per_ar, 2)
-        tilbake = rund(((verdi + enova_per_ar) * faktor) / 12, n)
-        ok = tilbake == rund(pris, n)
+        # Kilden oppgir kr/mnd, filene lagrer kr/år (× 12). Avrundingssjekken kjøres i kr/mnd,
+        # samme presisjon som kilden — ellers velges en støyete verdi som i PR #417 (1676,8 i
+        # stedet for det hele kronebeløpet 1677) selv om begge reverserer til samme kildetall.
+        ra_mnd = pris / faktor - enova_per_ar / 12
+
+        kandidater = [
+            (rund(ra_mnd, 0), "REN"),
+            (rund(ra_mnd * 2, 0) / 2, "REN"),
+            (rund(ra_mnd, 1), "UAVRUNDET"),
+            (rund(ra_mnd, 2), "UAVRUNDET"),
+        ]
+        valgt, utfall = None, "INGEN"
+        for kand_mnd, klasse in kandidater:
+            tilbake = rund((kand_mnd + enova_per_ar / 12) * faktor, n)
+            if tilbake == rund(pris, n):
+                valgt, utfall = kand_mnd, klasse
+                break
+
         resultater.append({
             "publisert_kr_mnd": publisert,
-            "verdi_kr_ar": float(verdi) if ok else None,
-            "utfall": "REN" if ok and verdi == verdi.to_integral_value() else ("UAVRUNDET" if ok else "INGEN"),
-            "kontroll": f"({verdi} + {enova_per_ar}) x {faktor} / 12 = {tilbake}",
+            "verdi_kr_ar": None if valgt is None else float(valgt * 12),
+            "utfall": utfall,
+            "kontroll": (
+                None if valgt is None
+                else f"(({valgt} kr/mnd) + {enova_per_ar}/12) x {faktor} = "
+                     f"{rund((valgt + enova_per_ar / 12) * faktor, n)} kr/mnd"
+            ),
         })
     return resultater
 

@@ -59,8 +59,11 @@ r = kjør(u, "energiledd", "--pris", "48,37", "--dato", "2026-10-01", "--sone", 
 sjekk("umulig pris gir INGEN og feilkode 2", r.returncode == 2 and "utfall=INGEN" in r.stdout, r.stdout)
 r = kjør(u, "fastledd", "--pris", "508", "--sone", "nord_norge")
 sjekk("fastledd 508 kr/mnd gir 6096 kr/år", "verdi_kr_ar=6096.0" in r.stdout, r.stdout)
+# 575 - 800/12 = 508,33 kr/mnd presist, men det runde kandidatet 508 kr/mnd (avvik 0,33, innenfor
+# +-0,5 kr/mnd-grensen i kundegrupper.md) reverserer også til 575 og velges derfor — det er
+# faktisk riktig svar for det ekte Kystnett-tilfellet: næring blir da lik privats 508 kr/mnd.
 r = kjør(u, "fastledd", "--pris", "575", "--sone", "nord_norge", "--trekk-enova-naring")
-sjekk("næringsfastledd 575 uten Enova gir 6100 kr/år", "verdi_kr_ar=6100.0" in r.stdout, r.stdout)
+sjekk("næringsfastledd 575 uten Enova gir 6096 kr/år (508 kr/mnd, matcher privat)", "verdi_kr_ar=6096.0" in r.stdout and "utfall=REN" in r.stdout, r.stdout)
 r = kjør(u, "energiledd", "--pris", "24,13", "--dato", "2026-10-01", "--sone", "nord_norge", "--inkl-avgifter", "--gruppe", "liten_naring")
 sjekk("næring eks. mva med elavgift gir 17", "verdi=17.0" in r.stdout, r.stdout)
 

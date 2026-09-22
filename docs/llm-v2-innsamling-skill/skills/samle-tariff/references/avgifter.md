@@ -66,6 +66,13 @@ forsterker avrundingen til støy: en riktig pris på 26 kan bli 26,03. Ekte tari
 settes nesten alltid i runde øre eller kroner. Skriptet prøver derfor de groveste
 verdiene først og sjekker at de gir kildens tall tilbake.
 
+`fastledd`-kommandoen gjør den samme sjekken i kr/mnd (kildens enhet) før den ganger med 12,
+av samme grunn. I PR #417 ble tre fastledd-trinn først satt til 3964,8/9004,8/16761,6 kr/år
+(fra å dele privatprisen på 1,25 uten avrundingssjekk); næringstabellen oppga imidlertid de
+samme trinnene direkte uten mva som 330/750/1397 kr/mnd, som reproduserer privatprisene eksakt
+og gir de rene tallene 3960/9000/16764 kr/år. Kjør alltid `fastledd`-kommandoen, ikke del for
+hånd, selv når du «bare» skal gange en kjent kr/mnd-verdi med 12.
+
 ## Fallgruver
 
 - **Fastledd er kr/mnd i kilden, kr/år i filene.** Ganger med 12. Bekreft med at
