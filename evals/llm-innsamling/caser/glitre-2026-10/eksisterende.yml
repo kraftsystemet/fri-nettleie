@@ -1,0 +1,116 @@
+---
+netteier: 'Glitre Nett AS'
+gln:
+  - '7080005056069'
+  - '7080011182691'
+sist_oppdatert: '2026-06-19'
+kilder:
+  - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-privatkunde'
+  - 'https://www.glitrenett.no/kunde/nettleie-og-priser/nettleiepriser-mindre-bedriftskunder'
+tariffer:
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1632
+        - terskel: 2
+          pris: 2064
+        - terskel: 5
+          pris: 3552
+        - terskel: 10
+          pris: 7296
+        - terskel: 15
+          pris: 9504
+        - terskel: 20
+          pris: 11904
+        - terskel: 25
+          pris: 18432
+        - terskel: 50
+          pris: 29184
+        - terskel: 75
+          pris: 38880
+        - terskel: 100
+          pris: 63168
+    energiledd:
+      grunnpris: 15.36
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 24.96
+    gyldig_fra: '2024-10-01'
+    gyldig_til: '2025-09-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1536
+        - terskel: 2
+          pris: 1968
+        - terskel: 5
+          pris: 3360
+        - terskel: 10
+          pris: 6960
+        - terskel: 15
+          pris: 9024
+        - terskel: 20
+          pris: 11328
+        - terskel: 25
+          pris: 17520
+        - terskel: 50
+          pris: 27744
+        - terskel: 75
+          pris: 36960
+        - terskel: 100
+          pris: 60000
+    energiledd:
+      grunnpris: 12.6
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 24.6
+    gyldig_fra: '2025-09-01'
+    gyldig_til: '2026-07-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 1536
+        - terskel: 2
+          pris: 2232
+        - terskel: 5
+          pris: 3744
+        - terskel: 10
+          pris: 7008
+        - terskel: 15
+          pris: 9264
+        - terskel: 20
+          pris: 11616
+        - terskel: 25
+          pris: 18096
+        - terskel: 50
+          pris: 28704
+        - terskel: 75
+          pris: 38304
+        - terskel: 100
+          pris: 63984
+    energiledd:
+      grunnpris: 13.6
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 25.6
+    gyldig_fra: '2026-07-01'
