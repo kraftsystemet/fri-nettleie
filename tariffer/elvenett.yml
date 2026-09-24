@@ -104,6 +104,6 @@ tariffer:
       grunnpris: 5
       unntak:
         - navn: Dag
-          timer: 6-22
+          timer: 6-21
           pris: 20
     gyldig_fra: '2026-09-01'
