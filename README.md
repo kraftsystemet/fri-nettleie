@@ -339,7 +339,7 @@ Dette avsnittet viser et utvalg av hvor dataene er i bruk.
 * [superpris.no](https://www.superpris.no/nettleie) bruker data fra fri-nettleie
 * [Strømkalkulator](https://github.com/fredrik-lindseth/Stromkalkulator) er en HACS-komponent til Home Assistant som bruker fri-nettleie
 * [Strømpriseridag.no](https://strompriseridag.no) viser spotpriser time for time for alle fem prisområder i Norge, og bruker data fra fri-nettleie til å vise hva nettleien koster hos de ulike nettselskapene
-* [Strømvakt](https://stromvakt.no) sammenligner strømavtaler og bruker data fra fri-nettleie til å beregne nettleien ([metode](https://stromvakt.no/metode))
+* [Strømvakt](https://stromvakt.no) sammenligner strømavtaler og bruker data fra fri-nettleie til å beregne [nettleien](https://stromvakt.no/metode)
 
 ## fri-nettleie i media
 
