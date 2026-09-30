@@ -2,11 +2,12 @@
 netteier: 'Etna Nett AS'
 gln:
   - '7080005046404'
-sist_oppdatert: '2026-08-23'
+sist_oppdatert: '2026-09-30'
 kilder:
   - 'https://etna.no/uploads/Kunde-og-nettleie/Etna-Nett-Nettariff-1-oktober-2025.pdf'
   - 'https://etna.no/om-nettleie'
   - 'https://etna.no/uploads/Kunde-og-nettleie/Etna-Nett-Nettariff-1-mai-2026.pdf'
+  - 'https://etna.no/uploads/Etna-Nett-NETTLEIEPRISER-GJELDENE-FRA-1-OKTOBER-2026.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -154,6 +155,7 @@ tariffer:
           pris: 25.55
           dager: [virkedag]
     gyldig_fra: '2026-05-01'
+    gyldig_til: '2026-10-01'
   - kundegrupper:
       - liten_næring
     fastledd:
@@ -188,3 +190,65 @@ tariffer:
           pris: 25.55
           dager: [virkedag]
     gyldig_fra: '2026-05-01'
+    gyldig_til: '2026-10-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3360
+        - terskel: 2
+          pris: 5040
+        - terskel: 5
+          pris: 5986.8
+        - terskel: 10
+          pris: 7380
+        - terskel: 15
+          pris: 9747.6
+        - terskel: 20
+          pris: 12184.8
+    energiledd:
+      grunnpris: 20.59
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 27.55
+          dager: [virkedag]
+    gyldig_fra: '2026-10-01'
+  - kundegrupper:
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3360
+        - terskel: 2
+          pris: 5040
+        - terskel: 5
+          pris: 5986.8
+        - terskel: 10
+          pris: 7380
+        - terskel: 15
+          pris: 9747.6
+        - terskel: 20
+          pris: 12184.8
+        - terskel: 25
+          pris: 18102
+        - terskel: 50
+          pris: 27849.6
+        - terskel: 75
+          pris: 34812
+        - terskel: 100
+          pris: 41774.4
+    energiledd:
+      grunnpris: 18.59
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 25.55
+          dager: [virkedag]
+    gyldig_fra: '2026-10-01'
