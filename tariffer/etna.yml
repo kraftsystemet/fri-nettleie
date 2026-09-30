@@ -190,7 +190,6 @@ tariffer:
           pris: 25.55
           dager: [virkedag]
     gyldig_fra: '2026-05-01'
-    gyldig_til: '2026-10-01'
   - kundegrupper:
       - husholdning
       - fritid
@@ -216,39 +215,5 @@ tariffer:
         - navn: Dag
           timer: 6-21
           pris: 27.55
-          dager: [virkedag]
-    gyldig_fra: '2026-10-01'
-  - kundegrupper:
-      - liten_næring
-    fastledd:
-      metode: TRE_DØGNMAX_MND
-      terskel_inkludert: true
-      terskler:
-        - terskel: 0
-          pris: 3360
-        - terskel: 2
-          pris: 5040
-        - terskel: 5
-          pris: 5986.8
-        - terskel: 10
-          pris: 7380
-        - terskel: 15
-          pris: 9747.6
-        - terskel: 20
-          pris: 12184.8
-        - terskel: 25
-          pris: 18102
-        - terskel: 50
-          pris: 27849.6
-        - terskel: 75
-          pris: 34812
-        - terskel: 100
-          pris: 41774.4
-    energiledd:
-      grunnpris: 18.59
-      unntak:
-        - navn: Dag
-          timer: 6-21
-          pris: 25.55
           dager: [virkedag]
     gyldig_fra: '2026-10-01'
