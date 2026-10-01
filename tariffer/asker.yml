@@ -84,7 +84,6 @@ tariffer:
   - kundegrupper:
       - husholdning
       - fritid
-      - liten_næring
     fastledd:
       metode: TRE_DØGNMAX_MND
       terskel_inkludert: true
@@ -115,4 +114,37 @@ tariffer:
         - navn: Høylast
           timer: 6-21
           pris: 29.87
+    gyldig_fra: '2026-10-01'
+  - kundegrupper:
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2160
+        - terskel: 2
+          pris: 3072
+        - terskel: 5
+          pris: 4800
+        - terskel: 10
+          pris: 8160
+        - terskel: 15
+          pris: 10464
+        - terskel: 20
+          pris: 12960
+        - terskel: 25
+          pris: 20448
+        - terskel: 50
+          pris: 30240
+        - terskel: 75
+          pris: 40320
+        - terskel: 100
+          pris: 70080
+    energiledd:
+      grunnpris: 17.87
+      unntak:
+        - navn: Høylast
+          timer: 6-21
+          pris: 27.87
     gyldig_fra: '2026-10-01'
