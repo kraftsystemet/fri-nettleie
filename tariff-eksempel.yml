@@ -36,6 +36,11 @@ gln:
 mga:
   - 50Y12315125158JK
   - 50Y12315125158JS
+# Postnummer kan brukes dersom en netteier har flere tariffer i sine MGA.
+# Skal være en liste. Dersom postnummer er utelatt vil alle postnummer være aktuelle.
+postnummer:
+  - "1234"
+  - "2312"
 # Når det sist ble samlet inn/sjekket at tariffene er riktige
 sist_oppdatert: 2024-11-03
 # Kilder er lenker/urler hvor tariffene finnes.

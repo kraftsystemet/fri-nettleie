@@ -8,13 +8,15 @@ import (
 // https://cuelang.org/docs/concept/how-cue-enables-data-validation/
 // https://cuelang.org/docs/concept/how-cue-works-with-yaml/
 
-#MGA: =~"^50Y[A-Z0-9-]{10}"
+#MGA: =~"^50Y[A-Z0-9-]{13}$"
 #GLN: =~"^7080[0-9]{9}$"
+#Postnummer: =~"^[0-9]{4}$"
 
 #Selskap: {
     netteier!: string
     gln!: [...#GLN]
     mga?: [...#MGA]
+    postnummer?: [...#Postnummer]
     sist_oppdatert!: time.Format(time.RFC3339Date)
     kilder!: list.MinItems(1)
     tariffer!: [...#Tariff]
