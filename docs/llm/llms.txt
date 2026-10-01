@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-10-01T06:13:14 | Gyldige tariffer per: 2026-10-01
+> Generert: 2026-10-01T07:52:56 | Gyldige tariffer per: 2026-10-01
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -334,24 +334,42 @@ Energiledd unntak:
 ---
 
 ## Asker Nett
-GLN: 7080003858825 | Sist oppdatert: 2025-12-20
-Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2026-01-01
+GLN: 7080003858825 | Sist oppdatert: 2026-09-30
+Kundegrupper: husholdning, fritid
+Gyldig fra: 2026-10-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 2064 kr/år
-  - Fra 2 kW: 2592 kr/år
-  - Fra 5 kW: 3792 kr/år
-  - Fra 10 kW: 7920 kr/år
-  - Fra 15 kW: 9888 kr/år
-  - Fra 20 kW: 12480 kr/år
-  - Fra 25 kW: 17664 kr/år
-  - Fra 50 kW: 27840 kr/år
-  - Fra 75 kW: 37344 kr/år
-  - Fra 100 kW: 60000 kr/år
-Energiledd grunnpris: 15.87 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 2160 kr/år
+  - Fra 2 kW: 3072 kr/år
+  - Fra 5 kW: 4800 kr/år
+  - Fra 10 kW: 8160 kr/år
+  - Fra 15 kW: 10464 kr/år
+  - Fra 20 kW: 12960 kr/år
+  - Fra 25 kW: 20448 kr/år
+  - Fra 50 kW: 30240 kr/år
+  - Fra 75 kW: 40320 kr/år
+  - Fra 100 kW: 70080 kr/år
+Energiledd grunnpris: 19.87 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Høylast: 23.87 øre/kWh | timer 6-21
+  - Høylast: 29.87 øre/kWh | timer 6-21
+
+Kundegrupper: liten_næring
+Gyldig fra: 2026-10-01
+Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
+Fastledd terskler (kr/år):
+  - Fra 0 kW: 2160 kr/år
+  - Fra 2 kW: 3072 kr/år
+  - Fra 5 kW: 4800 kr/år
+  - Fra 10 kW: 8160 kr/år
+  - Fra 15 kW: 10464 kr/år
+  - Fra 20 kW: 12960 kr/år
+  - Fra 25 kW: 20448 kr/år
+  - Fra 50 kW: 30240 kr/år
+  - Fra 75 kW: 40320 kr/år
+  - Fra 100 kW: 70080 kr/år
+Energiledd grunnpris: 17.87 øre/kWh (eks. avgifter)
+Energiledd unntak:
+  - Høylast: 27.87 øre/kWh | timer 6-21
 
 
 ---
