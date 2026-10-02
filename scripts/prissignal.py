@@ -152,7 +152,7 @@ def main():
 
     unntak = []
 
-    for u in tariff["energiledd"]["unntak"]:
+    for u in tariff["energiledd"].get("unntak", []):
         unntak.append(
             Unntak(
                 timer=hours(u.get("timer", "")),
