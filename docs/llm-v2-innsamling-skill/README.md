@@ -44,6 +44,54 @@ skills/samle-tariff/
 
 Tester for skillen ligger i [`evals/llm-innsamling/`](../../evals/llm-innsamling/).
 
+## Slik bruker du skillen til innsamling
+
+Du trenger repoet lokalt, `make venv` (PyYAML m.m.) og `cue`.
+
+**Med Claude Code eller en annen agent som kan lese repoet (anbefalt):**
+
+1. Gi agenten skillen. `.claude/` er gitignorert, så den oppdages ikke automatisk. Enten lenker du
+   den inn i din egen skills-mappe:
+
+   ```bash
+   ln -s "$PWD/docs/llm-v2-innsamling-skill/skills/samle-tariff" ~/.claude/skills/samle-tariff
+   ```
+
+   eller du skriver i prompten: «Les `docs/llm-v2-innsamling-skill/skills/samle-tariff/SKILL.md`
+   og følg den».
+2. Gi oppgaven med issue, dato og kilde, for eksempel: «Samle nye priser fra 2026-11-01 for
+   Romsdalsnett (issue #435). Kilden står under.» Ligger prisene i et bilde eller en PDF, må du
+   lime inn teksten selv. Agenten stopper ellers.
+3. Agenten jobber lokalt som standard: lager en gren, endrer `tariffer/<selskap>.yml`, kjører
+   `valider.sh` og viser diffen. Den pusher eller åpner PR bare hvis du ber om det.
+4. Svaret er **KOMPLETT** (tabell med kilde per verdi, antakelser og YAML) eller **STOPPET** (hva
+   som mangler og hva du må oppgi). Les antakelsene og sjekk tabellen mot kilden før du går videre.
+5. Åpne PR etter malen i [`repo-og-pr.md`](skills/samle-tariff/references/repo-og-pr.md): tittel
+   «Selskap åååå-mm», `Closes #N` og en kort beskrivelse. Ingen PR merges før en annen i repoet har
+   reviewet den.
+
+**Uten agent**, de samme sjekkene kan kjøres for hånd (fra repoets rot):
+
+```bash
+S=docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts
+
+# Fjern mva og avgifter, med avrundingssjekk (kr/mnd i kilden gir kr/år)
+venv/bin/python $S/utled_avgifter.py fastledd --pris 305 367 --sone sor --inkl-mva
+
+# Stemmer inkl.- og eks.-kolonnene i kilden med hverandre? (INKL:EKS)
+venv/bin/python $S/sjekk_kolonner.py --sone sor --par 293,8:235
+
+# Alle kontrollene på den ferdige filen
+PYTHON=venv/bin/python $S/valider.sh tariffer/<selskap>.yml \
+  --kilde kilde-utdrag.md --fra 2026-11-01 --sone sor
+```
+
+`kilde-utdrag.md` er et ordrett utdrag av kilden som du lager selv, utenfor repoet. Alle tall som
+står i den nye perioden må kunne spores til det.
+
+**Husk:** skillen fanger oppdiktede tall og inkonsistente kolonner, men ikke feil i transkribering av
+bilder, og den sjekker ikke terskler og datoer. Se over disse selv.
+
 ## Slik kan du teste (uten API-nøkkel)
 
 Fra repoets rot, med repoets Python-miljø (`make venv`) og `cue` installert:
