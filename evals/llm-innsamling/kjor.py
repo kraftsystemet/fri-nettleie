@@ -33,6 +33,9 @@ import yaml
 REPO = Path(__file__).resolve().parents[2]
 SKILL = REPO / "docs" / "llm-v2-innsamling-skill" / "skills" / "samle-tariff" / "scripts"
 TOLERANSE = Decimal("0.005")
+# kundegrupper.md regner avvik på inntil 0,5 kr/mnd (6 kr/år) i fastleddet som avrunding i kilden.
+# Privat inkl. mva delt på 1,25 og næring eks. mva kan derfor gi ulike, like riktige tall.
+FASTLEDD_TOLERANSE = Decimal("6")
 
 
 def hent_yaml(svar: str):
@@ -50,7 +53,8 @@ def normaliser(periode: dict) -> dict:
         "grunnpris": Decimal(str(e["grunnpris"])),
         "unntak": sorted(
             (
-                u["navn"], u.get("timer"), tuple(u.get("dager", []) or []),
+                # Utelatt `dager` betyr alle dager, det samme som ["alle"].
+                u["navn"], u.get("timer"), tuple(u.get("dager", []) or []) or ("alle",),
                 tuple(u.get("måneder", []) or []), Decimal(str(u["pris"])),
             )
             for u in (e.get("unntak") or [])
@@ -78,7 +82,7 @@ def lik(a: dict, b: dict) -> list[str]:
         avvik.append(f"terskler: fikk {[t for t, _ in a['terskler']]}, forventet {[t for t, _ in b['terskler']]}")
     else:
         for (t, p1), (_, p2) in zip(a["terskler"], b["terskler"]):
-            if abs(p1 - p2) > TOLERANSE:
+            if abs(p1 - p2) > FASTLEDD_TOLERANSE:
                 avvik.append(f"fastledd terskel {t}: fikk {p1}, forventet {p2}")
     return avvik
 

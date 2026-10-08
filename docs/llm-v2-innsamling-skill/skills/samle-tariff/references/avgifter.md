@@ -34,8 +34,10 @@ og ikke kopier dem inn i andre filer.
    opplysninger: STOPPET. «Eks. avgifter» i en tabelloverskrift stemmer av og til ikke med
    tallene (Midtnetts næringstabell). Kontroller mot en pris som er oppgitt begge veier.
 
-   **Oppgir kilden prisen både inkl. og eks. avgifter, bruk eks.-tallet direkte** (Føie og
-   Romsdalsnett gjør det) og regn ikke bakover fra inkl.-tallet. Kjør i tillegg
+   **Oppgir kilden prisen både inkl. og eks. avgifter for samme kundegruppe, bruk eks.-tallet
+   direkte** (Føie og Romsdalsnett gjør det) og regn ikke bakover fra inkl.-tallet. Gjelder det
+   husholdning mot næring, som er to ulike tabeller, er det `kundegrupper.md` som avgjør: er
+   prisene like innenfor ±0,5 kr/mnd, brukes husholdningens verdier. Kjør i tillegg
    `sjekk_kolonner.py` på alle parene. Stemmer ikke de to kolonnene med hverandre, motsier kilden
    seg selv (Føie 2026-11, trinn 8: 2062,5 inkl. mot 2450 eks.), og utfallet er STOPPET:
 
