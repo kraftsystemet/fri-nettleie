@@ -5,7 +5,7 @@ gln:
 kilder:
   - 'https://www.romsdalsnettas.no/nettleie#block-65b22d41f1b4d4addd134ddf'
   - 'https://www.romsdalsnettas.no/s/Tariff-01012026-eelt.pdf'
-sist_oppdatert: '2025-01-25'
+sist_oppdatert: '2026-10-08'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -80,3 +80,40 @@ tariffer:
           pris: 30.72
           dager: [ukedag]
     gyldig_fra: '2026-01-01'
+    gyldig_til: '2026-11-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2928
+        - terskel: 2
+          pris: 3660
+        - terskel: 5
+          pris: 4404
+        - terskel: 10
+          pris: 7320
+        - terskel: 15
+          pris: 10236
+        - terskel: 20
+          pris: 11700
+        - terskel: 25
+          pris: 16080
+        - terskel: 50
+          pris: 21936
+        - terskel: 75
+          pris: 24864
+        - terskel: 100
+          pris: 29244
+    energiledd:
+      grunnpris: 21.78
+      unntak:
+        - navn: Ukedager
+          timer: 6-21
+          pris: 32.29
+          dager: [ukedag]
+    gyldig_fra: '2026-11-01'
