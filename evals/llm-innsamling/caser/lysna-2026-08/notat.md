@@ -11,6 +11,6 @@ Tester
   kr/år ekskl. mva.
 - «Dag (kl. 06-22)» skal skrives `timer: 6-21`.
 
-Avvik fra den mergede PR-en: PR #398 har `timer: 6-22`. Det bryter regelen i format.md og avviker
-fra 53 andre filer som bruker `6-21` for «kl 06-22». Fasiten her følger regelen. En modell som
-skriver `6-22` skal feile. Det samme avviket finnes i `elvenett.yml` og `norefjell.yml`.
+Historikk: PR #398 hadde `timer: 6-22`, som bryter regelen i format.md (53 andre filer bruker `6-21`
+for «kl 06-22»). Det er rettet i `lysna.yml` (#421), `elvenett.yml` (#422) og `norefjell.yml` (#423).
+`eksisterende.yml` her er filen slik den var før saken. En modell som skriver `6-22` skal feile.

@@ -29,7 +29,8 @@ Gå gjennom stegene i rekkefølge. Hopp aldri over validering.
    `kilde-utdrag.md` (i en midlertidig mappe, aldri i repoet). Se [kilder.md](references/kilder.md): bare netteierens egne
    kilder. Ligger prisene i et bilde eller dokument du ikke kan lese som tekst: **STOPPET**.
 4. **Avgjør avgifter.** Finn sonen og hva kilden har med. Se
-   [avgifter.md](references/avgifter.md). Er det uklart: **STOPPET**.
+   [avgifter.md](references/avgifter.md). Er det uklart: **STOPPET**. Oppgir kilden både inkl.
+   og eks. avgifter: bruk eks.-tallene og kjør `scripts/sjekk_kolonner.py`. Avvik: **STOPPET**.
 5. **Utled prisene** med `scripts/utled_avgifter.py`. Utfallet `INGEN`: **STOPPET**.
 6. **Velg kundegrupper.** Se [kundegrupper.md](references/kundegrupper.md).
 7. **Skriv den nye perioden** (se Format under). Ikke rør eldre perioder, bortsett fra
@@ -53,8 +54,8 @@ Fasit er `tariff-eksempel.yml` og `tariff.cue`. Sammendrag og detaljer i
   Dyrere (eller billigere) perioder er `unntak`.
 - **Tillegg summeres.** Formatet har ikke tillegg. Et «+8 øre i høylast» blir en `pris` lik
   grunnpris + tillegget.
-- **Timer** er inklusive: «kl 06–22» skrives `6-21`. Spenn over midnatt (`22-5`) unngås ved å
-  velge natt som `grunnpris`.
+- **Timer** er inklusive: «kl 06–22» skrives `6-21`. Spenn over midnatt skrives `22-5`
+  (støttes av `scripts/prissignal.py`).
 - **`terskel_inkludert`:** `true` for «2 til 5» eller «2 til 4,99», `false` for «2,01 til 5».
 - **`gyldig_til`** er eksklusiv. Sett den på forrige periode lik den nye `gyldig_fra`.
 - **`gln`** ukjent: tom liste `[]`, aldri `null`.
@@ -64,8 +65,8 @@ Fasit er `tariff-eksempel.yml` og `tariff.cue`. Sammendrag og detaljer i
 ## Levering
 
 Standard er å **stoppe før noe pushes**: lag en gren, gjør endringen, valider og vis
-diffen. Åpne PR eller push bare når brukeren uttrykkelig ber om det. Merge aldri. Én PR per
-selskap. Se [repo-og-pr.md](references/repo-og-pr.md) for gren, valideringskommandoer og PR-mal.
+diffen. Åpne PR eller push bare når brukeren uttrykkelig ber om det. Merge aldri, og ingen PR merges før
+en annen i repoet har reviewet den. Én PR per selskap. Se [repo-og-pr.md](references/repo-og-pr.md) for gren, valideringskommandoer og PR-mal.
 
 Bruker du dette uten verktøy (chat): lever KOMPLETT-svaret med YAML-blokken, og la
 brukeren kopiere den inn. Du kjører ikke `valider.sh` selv da, så si tydelig at

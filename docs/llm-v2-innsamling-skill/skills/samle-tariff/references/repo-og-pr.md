@@ -9,7 +9,8 @@ Gjelder bare når du har tilgang til repoet (filer og git). Uten verktøy, se «
 | **Lokalt (standard)** | Lag gren, endre filen, valider, vis diffen. Stopp. | Alltid, med mindre brukeren ber om mer. |
 | **PR** | Som over, og deretter commit, push og åpne PR etter malen under. | Bare når brukeren uttrykkelig ber om PR eller push. |
 
-Du merger **aldri**, uansett hva du blir bedt om. Tillatelser du ikke har fått eksplisitt
+Du merger **aldri**, uansett hva du blir bedt om. Ingen PR merges før en annen i repoet har
+reviewet den, heller ikke for mennesker. Tillatelser du ikke har fått eksplisitt
 (push, PR, sletting av gren) tar du ikke. Å ha fått lov til én ting gir ikke lov til neste.
 
 ## Gren og commit
@@ -23,15 +24,14 @@ Du merger **aldri**, uansett hva du blir bedt om. Tillatelser du ikke har fått 
 
 ## Validering
 
-Bruk `scripts/valider.sh` (se SKILL.md). I tillegg, hvis kommandoen fungerer for filen:
+Bruk `docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/valider.sh` (se SKILL.md). I tillegg, hvis kommandoen fungerer for filen:
 
 ```bash
 python3 scripts/prissignal.py --fra <dato> --til <dato+1> --tariff-fil tariffer/<selskap>.yml
 ```
 
-`prissignal.py` krasjer med `KeyError: 'unntak'` på perioder uten `unntak` (flat energipris).
-Det er en kjent feil i skriptet og ikke noe du skal «fikse» med tom `unntak: []`. Skriv i
-PR-en at skriptet ikke lot seg kjøre av den grunnen.
+Perioder uten `unntak` (flat energipris) er gyldige. Ikke legg til en tom `unntak: []` for å
+tilfredsstille skriptet.
 
 ## PR-mal
 
@@ -50,5 +50,5 @@ Closes #<issue>
 - [x] `scripts/prissignal.py` picks up the new tariffer for dates after <dato>
 ```
 
-Tittel: «Oppdater <selskap> med nye priser fra <dato>». Ta med `Closes #<issue>` slik at saken
+Tittel: «<Selskap> <åååå-mm>», for eksempel «Barents Nett 2026-10», slik repoets historikk har den. Ta med `Closes #<issue>` slik at saken
 lukkes ved merge. Finnes det et eget navnebytte-issue, ta med `Closes` for begge.

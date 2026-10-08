@@ -102,6 +102,15 @@ with tempfile.TemporaryDirectory() as tmp:
     r = kjør(v, dikta_fil, "--kilde", kilde, "--fra", "2026-10-01", "--sone", "nord_norge")
     sjekk("unntak 19 (tillegg 11 står ikke i kilden) avvises", r.returncode == 1 and "MANGLER  energiledd.unntak[Brukstidstillegg] = 19" in r.stdout, r.stdout)
 
+print("sjekk_kolonner.py")
+k = SCRIPTS / "sjekk_kolonner.py"
+r = kjør(k, "--sone", "sor", "--par", "237,5:190", "293,8:235", "3000:2400")
+sjekk("Føie: inkl.- og eks.-kolonnene stemmer", r.returncode == 0 and "AVVIK" not in r.stdout, r.stdout)
+r = kjør(k, "--sone", "sor", "--par", "387,5:310", "2062,5:2450")
+sjekk("Føie 2026-11 trinn 8 (2062,5 mot 2450) avvises", r.returncode == 1 and "AVVIK  inkl 2062,5 / eks 2450" in r.stdout, r.stdout)
+r = kjør(k, "--sone", "sor", "--inkl-avgifter", "--dato", "2026-11-01", "--par", "36,41:21", "27,04:13,5")
+sjekk("Føie energiledd inkl. avgifter stemmer mot eks. (elavgift 7,13 og Enova 1)", r.returncode == 0, r.stdout)
+
 print("sammenlign_forrige.py")
 r = kjør(SCRIPTS / "sammenlign_forrige.py", midt / "forventet.yml", "--fra", "2026-10-01")
 sjekk("Midtnett: varsler om +37,9 % på energiledd", "18.86 -> 26" in r.stdout and "endring over 30" in r.stdout, r.stdout)

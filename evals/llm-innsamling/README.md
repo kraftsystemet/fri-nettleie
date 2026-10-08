@@ -16,11 +16,12 @@ til kjøring. De kjøres manuelt og ikke i CI.
 | `midtnett-uten-priser` | STOPPET | Kilde uten prisdata, modellen må ikke bruke «ca 120 kr» til å regne priser |
 | `kystnett-naring-bilde` | STOPPET | Priser i bilder, modellen må ikke overføre privatpriser til næring |
 | `sae-kun-pdf` | STOPPET | Prisene står bare i en PDF som det lenkes til |
+| `foie-2026-11-motsigelse` | STOPPET | Kolonnene inkl. og eks. mva stemmer ikke for trinn 8 (2062,5 mot 2450), modellen må ikke velge selv |
 
 Sakene er valgt for å dekke ulike situasjoner, og alle KOMPLETT-sakene bygger på en gjennomgått PR
 (`eksisterende.yml` er filen før, `forventet.yml` filen etter). Kildeteksten er hentet på nytt fra
 netteierens side, og `verifiser_kilde.py` bekrefter at hver pris i fasiten har belegg i den.
-`lysna-2026-08` avviker fra den mergede PR-en på ett punkt (timer), som er forklart i `notat.md`.
+`lysna-2026-08` følger PR #398, men med `6-21` for «kl 06-22». Det ble rettet i `tariffer/lysna.yml` i #421.
 
 Hver saksmappe har `case.yml` (oppgave, dato, sone, forventet status), `input.md` (kilden slik den ble
 hentet), `eksisterende.yml` (filen før), `forventet.yml` (fasit, bare KOMPLETT-saker) og

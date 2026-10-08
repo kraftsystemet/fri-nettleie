@@ -97,10 +97,9 @@ kan stå med mva i kilden, så fjern mva før du summerer.
 - **`timer`** er tall fra 0 til 23. Et spenn har **inklusiv øvre grense**: `16-21` gjelder fra 16:00
   til og med 21:59:59. «kl 06–22» betyr til, men ikke med, time 22 og skrives `6-21`. Ved skifte
   mellom sommer- og vintertid regnes siste time i døgnet fortsatt som 23.
-  Spenn som går over midnatt («kl 22–06») er skrevet `22-5` i dataene, men eksempelfila beskriver
-  dem ikke, og `scripts/prissignal.py` tolker dem som tom liste, så unntaket vises ikke der. Velg
-  derfor helst natt som `grunnpris` slik at du slipper spennet. Må du bruke det, skriv `22-5` og si
-  fra i rapporten.
+  Spenn som går over midnatt («kl 22–06») skrives `22-5`, som i 12 av filene i `tariffer/`.
+  `scripts/prissignal.py` tolker dem riktig siden #428. Eksempelfila beskriver dem ikke, så si fra i
+  rapporten når du bruker dem.
 - **`dager`:** `mandag` … `søndag`, `ukedag` (man–fre), `helg`, `helligdager` (bevegelige helligdager),
   `fridag` (helg eller helligdag), `virkedag` (alt som ikke er fridag), `alle`. Flere verdier
   tolkes som ELLER.

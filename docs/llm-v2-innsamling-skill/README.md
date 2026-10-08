@@ -37,6 +37,7 @@ skills/samle-tariff/
 └── scripts/
     ├── utled_avgifter.py     fjerner avgifter, med avrundingssjekk
     ├── verifiser_kilde.py    sjekker at prisene har belegg i kilden
+    ├── sjekk_kolonner.py     sjekker at inkl.- og eks.-kolonner i kilden stemmer med hverandre
     ├── sammenlign_forrige.py plausibilitet mot forrige periode
     └── valider.sh            kjører alt over pluss cue vet og eksisterende check_*-skript
 ```
@@ -71,7 +72,9 @@ vurderes.
   men ingen modell har vært kjørt mot evalsakene. Det er neste steg etter review.
 - Sperren i `verifiser_kilde.py` fanger oppdiktede tall, men ikke feil i selve transkriberingen av
   et bilde, og den sjekker ikke terskler og datoer.
-- `sammenlign_forrige.py` bruker en fast grense på 30 %. Justér den hvis den gir for mye støy.
+- `sammenlign_forrige.py` bruker en fast grense på 30 %. Høsten 2026 gir flere netteiere økninger
+  rundt og over dette (Føie +30 til +35 %), og advarselen er da reell. Den skal forklares med kilden,
+  ikke dempes. Justér grensen hvis den gir for mye støy.
 - Bare en skive er laget. Mangler: `index.html`, en chat-variant (én fil), peker fra
   `docs/llm/innsamling-prompt.txt` og automatisk oppdagelse i Claude Code (`.claude/` er
   gitignorert). Skriptene har en selvtest, men ikke egne enhetstester.
