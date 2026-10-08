@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-10-01T07:52:56 | Gyldige tariffer per: 2026-10-01
+> Generert: 2026-10-08T19:29:42 | Gyldige tariffer per: 2026-10-08
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -375,18 +375,18 @@ Energiledd unntak:
 ---
 
 ## Barents Nett AS
-GLN: 7080005051934 | Sist oppdatert: 2025-12-20
+GLN: 7080005051934 | Sist oppdatert: 2026-10-08
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2026-01-01
+Gyldig fra: 2026-10-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 6204 kr/år
-  - Fra 2 kW: 6828 kr/år
-  - Fra 5 kW: 7440 kr/år
-  - Fra 10 kW: 8076 kr/år
-  - Fra 15 kW: 9312 kr/år
-  - Fra 20 kW: 11172 kr/år
-Energiledd grunnpris: 11.32 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 5892 kr/år
+  - Fra 2 kW: 6492 kr/år
+  - Fra 5 kW: 7068 kr/år
+  - Fra 10 kW: 7668 kr/år
+  - Fra 15 kW: 8844 kr/år
+  - Fra 20 kW: 10608 kr/år
+Energiledd grunnpris: 10.75 øre/kWh (eks. avgifter)
 
 
 ---
