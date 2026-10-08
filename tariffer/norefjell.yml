@@ -150,7 +150,7 @@ tariffer:
       grunnpris: 18.58
       unntak:
         - navn: Dag
-          timer: 6-22
+          timer: 6-21
           pris: 23.53
           dager: [alle]
     gyldig_fra: '2026-08-01'

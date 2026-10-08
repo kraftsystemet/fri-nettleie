@@ -112,8 +112,11 @@ def load_tariff(filename):
 def hours(range_str):
     if range_str == "":
         return []
-    start, end = range_str.split("-")
-    return list(range(int(start), int(end) + 1))
+    start, end = (int(x) for x in range_str.split("-"))
+    if start <= end:
+        return list(range(start, end + 1))
+    # Intervallet går over midnatt, f.eks. 22-5
+    return list(range(start, 24)) + list(range(0, end + 1))
 
 
 def main():
@@ -149,7 +152,7 @@ def main():
 
     unntak = []
 
-    for u in tariff["energiledd"]["unntak"]:
+    for u in tariff["energiledd"].get("unntak", []):
         unntak.append(
             Unntak(
                 timer=hours(u.get("timer", "")),
