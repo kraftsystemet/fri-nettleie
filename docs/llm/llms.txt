@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-10-09T18:10:12 | Gyldige tariffer per: 2026-10-09
+> Generert: 2026-10-09T18:18:22 | Gyldige tariffer per: 2026-10-09
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1121,7 +1121,7 @@ Energiledd unntak:
 ---
 
 ## Lucerna AS
-GLN: 7080005050661 | Sist oppdatert: 2025-12-20
+GLN: 7080005050661 | Sist oppdatert: 2026-10-09
 Kundegrupper: husholdning, fritid, liten_næring
 Gyldig fra: 2026-01-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
@@ -1137,7 +1137,7 @@ Fastledd terskler (kr/år):
   - Fra 75 kW: 9336 kr/år
 Energiledd grunnpris: 13.32 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Høylast: 19.32 øre/kWh | timer 6-21
+  - Høylast: 19.32 øre/kWh | timer 6-21 | dager: virkedag
 
 
 ---
