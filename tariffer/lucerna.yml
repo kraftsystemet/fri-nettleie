@@ -4,7 +4,7 @@ gln:
   - '7080005050661'
 kilder:
   - 'https://www.lucerna.no/priser'
-sist_oppdatert: '2025-12-20'
+sist_oppdatert: '2026-10-09'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -72,4 +72,5 @@ tariffer:
         - navn: Høylast
           timer: 6-21
           pris: 19.32
+          dager: [virkedag]
     gyldig_fra: '2026-01-01'
