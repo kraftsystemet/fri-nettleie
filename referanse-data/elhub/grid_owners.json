@@ -385,6 +385,11 @@
         "organisationNumber": "980234088"
     },
     {
+        "gln": "7080011223387",
+        "name": "Glitre Nett Analyse",
+        "organisationNumber": "982974011"
+    },
+    {
         "gln": "7080011182691",
         "name": "Glitre Nett Regionalnett",
         "organisationNumber": "982974011"
@@ -1028,6 +1033,11 @@
         "gln": "7080001180041",
         "name": "Sør-Norge Aluminium AS (Nett)",
         "organisationNumber": "916574894"
+    },
+    {
+        "gln": "7080010006479",
+        "name": "TNett AS",
+        "organisationNumber": "925803375"
     },
     {
         "gln": "7080004129023",
