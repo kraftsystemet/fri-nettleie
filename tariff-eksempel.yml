@@ -112,7 +112,10 @@ tariffer:
       # Eksempler:
       #  - https://www.vangenergi.no/nettleige/forbrukarkundar/
       #  - https://www.elvia.no/nettleie/alt-om-nettleiepriser/nettleiepriser-for-privatkunder/,
+      #
       # Unntakene navgis for å forenkle kontroll av innsamling.
+      # Det anbefales IKKE å bruke navnene ved bruk av tariffene
+      # Se https://github.com/kraftsystemet/fri-nettleie/issues/335#issuecomment-4270809127
       unntak:
         - navn: Brukstidsstillegg
 
