@@ -218,7 +218,6 @@ tariffer:
           pris: 27.55
           dager: [virkedag]
     gyldig_fra: '2026-10-01'
-
   - kundegrupper:
       - liten_næring
     fastledd:
