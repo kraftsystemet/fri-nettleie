@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-10-09T18:05:16 | Gyldige tariffer per: 2026-10-09
+> Generert: 2026-10-09T18:09:11 | Gyldige tariffer per: 2026-10-09
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -1542,9 +1542,9 @@ Energiledd unntak:
 ---
 
 ## Romsdalsnett AS
-GLN: 7080010005427 | Sist oppdatert: 2025-01-25
+GLN: 7080010005427 | Sist oppdatert: 2026-10-08
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2026-01-01
+Gyldig fra: 2026-01-01 til 2026-11-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
   - Fra 0 kW: 2784 kr/år
