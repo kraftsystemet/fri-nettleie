@@ -213,7 +213,7 @@ For fastleddet finnes det også flere modeller. For eksempel at fastledd regnes
 ut fra
 [de fem høyeste ukesmaksene løpende siste 12 måneder, justert for sesongfaktor](https://www.fjellnett.no/nettleie/avtaler-og-vilkar/fellesbestemmelser/)
 til forskjell fra den mer vanlige
-[tre timene i måneden med høyest forbruk](https://norgesnett.no/kunde/ny-nettleie/).
+[tre timene i måneden med høyest forbruk](https://lede.no/nettleie/).
 I tilleg er det noen som oppgir priser per år mens andre per måned, samt om de
 ulike trinnene er "til og med" eller "opp til, men ikke med".
 
@@ -1111,20 +1111,6 @@ for informasjon om hvordan du kan hjelpe.
   </td>
 </tr>
 <tr>
-  <td>Norgesnett AS</td>
-  <td>7080005052702</td>
-  <td style="white-space: nowrap;">2026-10-01</td>
-  <td style="white-space: nowrap;">2026-10-09</td>
-  <td>✅</td>
-  <td>✅</td>
-  <td>✅</td>
-  <td style="white-space: nowrap;">
-    <a href="https://kraftsystemet.no/fri-nettleie/tariffer/norgesnett.html" title="Se på tariffen for Norgesnett AS" target="_blank">🔍</a>
-    <a href="./tariffer/norgesnett.yml" title="Se dataene for Norgesnett AS i YAML-format" target="_blank">📄</a>
-    <a href='https://kraftsystemet.no/fri-nettleie/innsamler/?data=eyJuZXR0ZWllciI6ICJOb3JnZXNuZXR0IEFTIiwgImdsbiI6IFsiNzA4MDAwNTA1MjcwMiJdLCAia2lsZGVyIjogWyJodHRwczovL25vcmdlc25ldHQubm8va3VuZGUvbmV0dGxlaWUtcHJpdmF0LyIsICJodHRwczovL25vcmdlc25ldHQubm8va3VuZGUvbmV0dGxlaWUtbmFlcmluZy8iXSwgInNpc3Rfb3BwZGF0ZXJ0IjogIjIwMjYtMTAtMDkiLCAidGFyaWZmZXIiOiBbeyJrdW5kZWdydXBwZXIiOiBbImh1c2hvbGRuaW5nIiwgImZyaXRpZCJdLCAiZmFzdGxlZGQiOiB7Im1ldG9kZSI6ICJUUkVfRFx1MDBkOEdOTUFYX01ORCIsICJ0ZXJza2VsX2lua2x1ZGVydCI6IHRydWUsICJ0ZXJza2xlciI6IFt7InRlcnNrZWwiOiAwLCAicHJpcyI6IDk4NC4xfSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAxNjQwLjI2fSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAyNjk3LjMxfSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNDc5OC42Nn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDYzNzEuNTJ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiA3OTAyLjUzfSwgeyJ0ZXJza2VsIjogMjUsICJwcmlzIjogMTIyNDcuM30sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDE5MTcyLjkzfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMjYwOTguNDZ9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNDIyOTcuMTJ9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxMS41NSwgInVubnRhayI6IFt7Im5hdm4iOiAiSFx1MDBmOHlsYXN0IiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDE3LjYyfV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI0LTExLTAxIiwgImd5bGRpZ190aWwiOiAiMjAyNS0wNy0wMSJ9LCB7Imt1bmRlZ3J1cHBlciI6IFsiaHVzaG9sZG5pbmciLCAiZnJpdGlkIiwgImxpdGVuX25cdTAwZTZyaW5nIl0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTEzMS43NH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMTg4Ni4zfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzMTAxLjk1fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNTUxNi40NX0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDczMjcuMn0sIHsidGVyc2tlbCI6IDIwLCAicHJpcyI6IDkwODcuODR9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxNDA4NC40NX0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDIyMDQ4Ljl9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzMDAxMy4yNX0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA0ODY0MS42Nn1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDEzLjI5LCAidW5udGFrIjogW3sibmF2biI6ICJIXHUwMGY4eWxhc3QiLCAidGltZXIiOiAiNi0yMSIsICJwcmlzIjogMjAuMjZ9XX0sICJneWxkaWdfZnJhIjogIjIwMjUtMDctMDEiLCAiZ3lsZGlnX3RpbCI6ICIyMDI2LTA3LTAxIn0sIHsia3VuZGVncnVwcGVyIjogWyJodXNob2xkbmluZyIsICJmcml0aWQiLCAibGl0ZW5fblx1MDBlNnJpbmciXSwgImZhc3RsZWRkIjogeyJtZXRvZGUiOiAiVFJFX0RcdTAwZDhHTk1BWF9NTkQiLCAidGVyc2tlbF9pbmtsdWRlcnQiOiB0cnVlLCAidGVyc2tsZXIiOiBbeyJ0ZXJza2VsIjogMCwgInByaXMiOiAxMzQ0fSwgeyJ0ZXJza2VsIjogMiwgInByaXMiOiAyMjMyfSwgeyJ0ZXJza2VsIjogNSwgInByaXMiOiAzNzQ0fSwgeyJ0ZXJza2VsIjogMTAsICJwcmlzIjogNjY3Mn0sIHsidGVyc2tlbCI6IDE1LCAicHJpcyI6IDg5NzZ9LCB7InRlcnNrZWwiOiAyMCwgInByaXMiOiAxMDk5Mn0sIHsidGVyc2tlbCI6IDI1LCAicHJpcyI6IDE3NDAwfSwgeyJ0ZXJza2VsIjogNTAsICJwcmlzIjogMjcwMDB9LCB7InRlcnNrZWwiOiA3NSwgInByaXMiOiAzNjYwMH0sIHsidGVyc2tlbCI6IDEwMCwgInByaXMiOiA1ODY4MH1dfSwgImVuZXJnaWxlZGQiOiB7ImdydW5ucHJpcyI6IDEzLjYsICJ1bm50YWsiOiBbeyJuYXZuIjogIkRhZyIsICJ0aW1lciI6ICI2LTIxIiwgInByaXMiOiAyNS42fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI2LTA3LTAxIiwgImd5bGRpZ190aWwiOiAiMjAyNi0xMC0wMSJ9LCB7Imt1bmRlZ3J1cHBlciI6IFsiaHVzaG9sZG5pbmciLCAiZnJpdGlkIiwgImxpdGVuX25cdTAwZTZyaW5nIl0sICJmYXN0bGVkZCI6IHsibWV0b2RlIjogIlRSRV9EXHUwMGQ4R05NQVhfTU5EIiwgInRlcnNrZWxfaW5rbHVkZXJ0IjogdHJ1ZSwgInRlcnNrbGVyIjogW3sidGVyc2tlbCI6IDAsICJwcmlzIjogMTU4NH0sIHsidGVyc2tlbCI6IDIsICJwcmlzIjogMjU5Mn0sIHsidGVyc2tlbCI6IDUsICJwcmlzIjogNDM2OH0sIHsidGVyc2tlbCI6IDEwLCAicHJpcyI6IDczNDR9LCB7InRlcnNrZWwiOiAxNSwgInByaXMiOiA5ODQwfSwgeyJ0ZXJza2VsIjogMjAsICJwcmlzIjogMTIyNDB9LCB7InRlcnNrZWwiOiAyNSwgInByaXMiOiAxOTgwMH0sIHsidGVyc2tlbCI6IDUwLCAicHJpcyI6IDI5NTIwfSwgeyJ0ZXJza2VsIjogNzUsICJwcmlzIjogMzk0MDh9LCB7InRlcnNrZWwiOiAxMDAsICJwcmlzIjogNjkwMjR9XX0sICJlbmVyZ2lsZWRkIjogeyJncnVubnByaXMiOiAxNS44NywgInVubnRhayI6IFt7Im5hdm4iOiAiRGFnIiwgInRpbWVyIjogIjYtMjEiLCAicHJpcyI6IDI3Ljg3fV19LCAiZ3lsZGlnX2ZyYSI6ICIyMDI2LTEwLTAxIn1dfQ==' title='Samle inn data for Norgesnett AS' target='_blank'>✏️</a>
-  </td>
-</tr>
-<tr>
   <td>R-Nett AS</td>
   <td>7080010012852</td>
   <td style="white-space: nowrap;">2026-06-01</td>
@@ -1437,9 +1423,9 @@ for informasjon om hvordan du kan hjelpe.
   <td></td>
   <td></td>
   <td style="white-space: nowrap;">2026-10-12</td>
-  <td>73</td>
-  <td>71</td>
-  <td>54</td>
+  <td>72</td>
+  <td>70</td>
+  <td>53</td>
   <td></td>
 </tr>
 </table>
