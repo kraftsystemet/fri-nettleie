@@ -48,7 +48,7 @@
         <dd>Oslo, Oslo</dd>
         -->
         <dt>Sist oppdatert</dt>
-        <dd>2025-12-20</dd>
+        <dd>2026-10-09</dd>
       </dl>
       <article>
         <header>❕Innsamlet på dugnad</header>
@@ -245,6 +245,9 @@
           <h6>Høylast</h6>
           <p>Denne prisen gjelder for:</p>
           <dl>
+            <dt>Dager</dt>
+            <dd>virkedag</dd>
+
             <dt>Timer</dt>
             <dd>6-21</dd>
           </dl>
@@ -284,7 +287,9 @@
   <script>
     const energiLedd = {
       grunnpris: 13.32,
-      unntak: [{ navn: "Høylast", pris: 19.32, timer: "6-21" }],
+      unntak: [
+        { dager: ["virkedag"], navn: "Høylast", pris: 19.32, timer: "6-21" },
+      ],
     };
   </script>
   <script src="../assets/priceSignal.js"></script>
