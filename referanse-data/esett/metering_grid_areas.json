@@ -941,6 +941,36 @@
     },
     {
         "country": "NO",
+        "dsoCode": "7080005056069",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS",
+        "mba": "NO5",
+        "mgaCode": "50YZSOZBH-PXFAUA",
+        "mgaName": "NNAS ASKØY",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056069",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS",
+        "mba": "NO1",
+        "mgaCode": "50YEBDMK1DZ108B3",
+        "mgaName": "NNAS FOLLO",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
+        "dsoCode": "7080005056069",
+        "dsoCodingScheme": "GS1",
+        "dsoName": "Glitre Nett AS",
+        "mba": "NO1",
+        "mgaCode": "50Y1CE65XL6JU3Q7",
+        "mgaName": "NNAS FREDR",
+        "mgaType": "DISTRIBUTION"
+    },
+    {
+        "country": "NO",
         "dsoCode": "7080011182691",
         "dsoCodingScheme": "GS1",
         "dsoName": "Glitre Nett Regionalnett",
@@ -1687,36 +1717,6 @@
         "mba": "NO1",
         "mgaCode": "50Y-DNIYJ0PY0-73",
         "mgaName": "KRØD1",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080005052702",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Norgesnett AS",
-        "mba": "NO5",
-        "mgaCode": "50YZSOZBH-PXFAUA",
-        "mgaName": "NNAS ASKØY",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080005052702",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Norgesnett AS",
-        "mba": "NO1",
-        "mgaCode": "50YEBDMK1DZ108B3",
-        "mgaName": "NNAS FOLLO",
-        "mgaType": "DISTRIBUTION"
-    },
-    {
-        "country": "NO",
-        "dsoCode": "7080005052702",
-        "dsoCodingScheme": "GS1",
-        "dsoName": "Norgesnett AS",
-        "mba": "NO1",
-        "mgaCode": "50Y1CE65XL6JU3Q7",
-        "mgaName": "NNAS FREDR",
         "mgaType": "DISTRIBUTION"
     },
     {
