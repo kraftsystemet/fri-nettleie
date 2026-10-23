@@ -1,7 +1,7 @@
 ---
 energiledd:
-  - 14.6
-  - 26.6
+  - 16.87
+  - 28.87
 fylker:
   - '03'
   - '11'
@@ -25,23 +25,23 @@ fylker_navn:
 navn: GLITRE NETT AS
 org: '982974011'
 terskler:
-  - pris: 1536.0
+  - pris: 1584.0
     terskel: 0.0
-  - pris: 2232.0
+  - pris: 2592.0
     terskel: 2.0
-  - pris: 3744.0
+  - pris: 4368.0
     terskel: 5.0
-  - pris: 7008.0
+  - pris: 7344.0
     terskel: 10.0
-  - pris: 9264.0
+  - pris: 9840.0
     terskel: 15.0
-  - pris: 11616.0
+  - pris: 12240.0
     terskel: 20.0
-  - pris: 18096.0
+  - pris: 19800.0
     terskel: 25.0
-  - pris: 28704.0
+  - pris: 29520.0
     terskel: 50.0
-  - pris: 38304.0
+  - pris: 39408.0
     terskel: 75.0
-  - pris: 63984.0
+  - pris: 69024.0
     terskel: 100.0
