@@ -1,5 +1,5 @@
 # fri-nettleie — Nettleietariffer for Norge
-> Generert: 2026-10-14T06:01:36 | Gyldige tariffer per: 2026-10-14
+> Generert: 2026-11-01T04:07:31 | Gyldige tariffer per: 2026-11-01
 > Kilde: https://github.com/kraftsystemet/fri-nettleie
 > Lisens: CC-BY-4.0 (navngivelse påkrevd)
 
@@ -767,21 +767,21 @@ Energiledd grunnpris: 19.29 øre/kWh (eks. avgifter)
 ## Føie AS
 GLN: 7080005050654 | Sist oppdatert: 2026-10-08
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2026-01-01 til 2026-11-01
+Gyldig fra: 2026-11-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 2280 kr/år
-  - Fra 2 kW: 2820 kr/år
-  - Fra 5 kW: 4020 kr/år
-  - Fra 10 kW: 6360 kr/år
-  - Fra 15 kW: 8040 kr/år
-  - Fra 20 kW: 10320 kr/år
-  - Fra 25 kW: 13800 kr/år
-  - Fra 50 kW: 22800 kr/år
-  - Fra 75 kW: 28800 kr/år
-Energiledd grunnpris: 9.998 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 2880 kr/år
+  - Fra 2 kW: 3720 kr/år
+  - Fra 5 kW: 5280 kr/år
+  - Fra 10 kW: 8280 kr/år
+  - Fra 15 kW: 10440 kr/år
+  - Fra 20 kW: 13380 kr/år
+  - Fra 25 kW: 17820 kr/år
+  - Fra 50 kW: 29400 kr/år
+  - Fra 75 kW: 34800 kr/år
+Energiledd grunnpris: 13.5 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Dag: 16.502 øre/kWh | timer 6-21
+  - Dag: 21 øre/kWh | timer 6-21
 
 
 ---
@@ -1520,22 +1520,22 @@ Energiledd unntak:
 ## Romsdalsnett AS
 GLN: 7080010005427 | Sist oppdatert: 2026-10-08
 Kundegrupper: husholdning, fritid, liten_næring
-Gyldig fra: 2026-01-01 til 2026-11-01
+Gyldig fra: 2026-11-01
 Fastledd metode: TRE_DØGNMAX_MND | Terskel inkludert: True
 Fastledd terskler (kr/år):
-  - Fra 0 kW: 2784 kr/år
-  - Fra 2 kW: 3480 kr/år
-  - Fra 5 kW: 4176 kr/år
-  - Fra 10 kW: 6960 kr/år
-  - Fra 15 kW: 9744 kr/år
-  - Fra 20 kW: 11136 kr/år
-  - Fra 25 kW: 15300 kr/år
-  - Fra 50 kW: 20868 kr/år
-  - Fra 75 kW: 23652 kr/år
-  - Fra 100 kW: 27828 kr/år
-Energiledd grunnpris: 20.72 øre/kWh (eks. avgifter)
+  - Fra 0 kW: 2928 kr/år
+  - Fra 2 kW: 3660 kr/år
+  - Fra 5 kW: 4404 kr/år
+  - Fra 10 kW: 7320 kr/år
+  - Fra 15 kW: 10236 kr/år
+  - Fra 20 kW: 11700 kr/år
+  - Fra 25 kW: 16080 kr/år
+  - Fra 50 kW: 21936 kr/år
+  - Fra 75 kW: 24864 kr/år
+  - Fra 100 kW: 29244 kr/år
+Energiledd grunnpris: 21.78 øre/kWh (eks. avgifter)
 Energiledd unntak:
-  - Ukedager: 30.72 øre/kWh | timer 6-21 | dager: ukedag
+  - Ukedager: 32.29 øre/kWh | timer 6-21 | dager: ukedag
 
 
 ---
