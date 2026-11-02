@@ -2,6 +2,18 @@
 netteier: 'Area Nett AS - Område 3 - Lega'
 gln:
   - '7080004087071'
+mga:
+  - '50YBD6LZSE57I49Q'
+postnummer:
+ - '9740' # LEBESBY
+ - '9742' # KUNES
+ - '9770' # MEHAMN
+ - '9771' # SKJÅNES
+ - '9772' # LANGFJORDNES
+ - '9773' # NERVEI
+ - '9775' # GAMVIK
+ - '9782' # DYFJORD
+ - '9790' # KJØLLEFJORD
 sist_oppdatert: '2025-12-20'
 kilder:
   - 'https://www.area.no/kunde-og-nettleie/priser-og-nettleie/'
