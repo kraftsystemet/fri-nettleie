@@ -166,6 +166,22 @@
                            :disabled="!kopier_energiledd">
                     Energiledd med pris
                 </label>
+
+                <label class="setting" title="Kopierer innmatingsvilkårene">
+                    <input type="checkbox"
+                           x-model.bool="kopier_innmating"
+                           @change="if (!kopier_innmating) kopier_innmating_pris = false">
+                    Innmating
+                </label>
+
+                <label class="setting"
+                       title="Kopierer satsene for innmating"
+                       :class="{ disabled: !kopier_innmating }">
+                    <input type="checkbox"
+                           x-model.bool="kopier_innmating_pris"
+                           :disabled="!kopier_innmating">
+                    Innmating med priser
+                </label>
             </div>
         </div>
 
@@ -425,6 +441,79 @@
             </div>
             </template>
 
+            <h4>Innmating</h4>
+            <p>Registrer netteiers vilkår for strøm som leveres inn på nettet.</p>
+            <button x-show="!tariff.innmating" @click="addInnmating(index)">Legg til innmating</button>
+            <template x-if="tariff.innmating">
+                <div class="input-collection">
+                    <button @click="removeInnmating(index)">Fjern innmating</button>
+                    <div class="input-group">
+                        <label>Modell:</label>
+                        <select x-model="tariff.innmating.energiledd.type" @change="changeInnmatingType(index)">
+                            <option value="FASTPRIS">Fast pris (øre/kWh)</option>
+                            <option value="SPOTPRIS_PROSENT">Prosent av spotpris</option>
+                        </select>
+                    </div>
+
+                    <div class="input-group" x-show="tariff.innmating.energiledd.type === 'FASTPRIS'">
+                        <label>Grunnpris (øre/kWh):</label>
+                        <input type="number" x-model.number="tariff.innmating.energiledd.grunnpris" step="any">
+                    </div>
+                    <template x-if="tariff.innmating.energiledd.type === 'FASTPRIS'">
+                        <div>
+                            <h5>Erstatningspris</h5>
+                            <p>Oppgi full pris som erstatter grunnprisen, ikke bare et tillegg.</p>
+                            <button @click="addInnmatingUnntak(index)">Legg til prisunntak</button>
+                            <template x-for="(unntak, jndex) in tariff.innmating.energiledd.unntak" :key="jndex">
+                                <div class="input-collection">
+                                    <button @click="removeInnmatingUnntak(index, jndex)">Fjern</button>
+                                    <label>Navn:</label>
+                                    <input type="text" x-model="unntak.navn" placeholder="Eks: Vinter">
+                                    <label>Timer:</label>
+                                    <input type="text" x-model="unntak.timer" placeholder="Eks: 6-21">
+                                    <label>Dager:</label>
+                                    <select x-model="unntak.dager" multiple>
+                                        <option value="mandag">mandag</option>
+                                        <option value="tirsdag">tirsdag</option>
+                                        <option value="onsdag">onsdag</option>
+                                        <option value="torsdag">torsdag</option>
+                                        <option value="fredag">fredag</option>
+                                        <option value="lørdag">lørdag</option>
+                                        <option value="søndag">søndag</option>
+                                        <option value="ukedag">ukedag</option>
+                                        <option value="helg">helg</option>
+                                        <option value="helligdager">helligdager</option>
+                                        <option value="fridag">fridag</option>
+                                        <option value="virkedag">virkedag</option>
+                                        <option value="alle">alle</option>
+                                    </select>
+                                    <label>Måneder:</label>
+                                    <select x-model="unntak.måneder" multiple>
+                                        <option value="januar">januar</option>
+                                        <option value="februar">februar</option>
+                                        <option value="mars">mars</option>
+                                        <option value="april">april</option>
+                                        <option value="mai">mai</option>
+                                        <option value="juni">juni</option>
+                                        <option value="juli">juli</option>
+                                        <option value="august">august</option>
+                                        <option value="september">september</option>
+                                        <option value="oktober">oktober</option>
+                                        <option value="november">november</option>
+                                        <option value="desember">desember</option>
+                                    </select>
+                                    <label>Pris (øre/kWh):</label>
+                                    <input type="number" x-model.number="unntak.pris" step="any">
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                    <div class="input-group" x-show="tariff.innmating.energiledd.type === 'SPOTPRIS_PROSENT'">
+                        <label>Andel av spotpris (%):</label>
+                        <input type="number" x-model.number="tariff.innmating.energiledd.prosent" step="any">
+                    </div>
+                </div>
+            </template>
 
             </div>
         </div>
@@ -433,7 +522,7 @@
 <div class="column">
     <h2>Output</h2>
     <button class="bclip" data-clipboard-target="#output">Kopier</button>
-    <pre><texarea id="output" class="output" x-text="output" >Her kommer det noe Yaml</textarea></pre>
+    <pre><textarea id="output" class="output" x-text="output">Her kommer det noe Yaml</textarea></pre>
 </div>
 </div>
     <script>
@@ -471,6 +560,8 @@
                 kopier_energiledd: false,
                 kopier_terskle_pris: false,
                 kopier_energiledd_pris: false,
+                kopier_innmating: false,
+                kopier_innmating_pris: false,
                 init() {
                     this.getDataFromUrl();
                     this.toYaml();
@@ -539,6 +630,23 @@
 
                             tariff.energiledd = energiledd;
                         }
+                        if (this.kopier_innmating && prevPlain.innmating) {
+                            const innmating = structuredClone(prevPlain.innmating);
+                            const energiledd = innmating.energiledd;
+
+                            if (!this.kopier_innmating_pris) {
+                                if (energiledd.type === 'FASTPRIS') {
+                                    energiledd.grunnpris = 0;
+                                    energiledd.unntak?.forEach(u => {
+                                        u.pris = 0;
+                                    });
+                                } else {
+                                    energiledd.prosent = 0;
+                                }
+                            }
+
+                            tariff.innmating = innmating;
+                        }
                         if (this.fiks_dato) {
                             tariff.gyldig_fra = prevPlain.gyldig_fra;
                             tariff.gyldig_til = prevPlain.gyldig_til;
@@ -559,6 +667,28 @@
                 },
                 addUnntak(index) {
                     this.data.tariffer[index].energiledd.unntak.push({ navn: '', timer: '', dager: [], måneder: [], pris: 0 });
+                },
+                addInnmating(index) {
+                    this.data.tariffer[index].innmating = {
+                        energiledd: { type: 'FASTPRIS', grunnpris: 0, unntak: [] }
+                    };
+                },
+                removeInnmating(index) {
+                    delete this.data.tariffer[index].innmating;
+                },
+                changeInnmatingType(index) {
+                    const innmating = this.data.tariffer[index].innmating;
+                    innmating.energiledd = innmating.energiledd.type === 'FASTPRIS'
+                        ? { type: 'FASTPRIS', grunnpris: 0, unntak: [] }
+                        : { type: 'SPOTPRIS_PROSENT', prosent: 0 };
+                },
+                addInnmatingUnntak(index) {
+                    this.data.tariffer[index].innmating.energiledd.unntak.push({
+                        navn: '', timer: '', dager: [], måneder: [], pris: 0
+                    });
+                },
+                removeInnmatingUnntak(index, jndex) {
+                    this.data.tariffer[index].innmating.energiledd.unntak.splice(jndex, 1);
                 },
                 toYaml() {
                     const clone = JSON.parse(JSON.stringify(this.data));

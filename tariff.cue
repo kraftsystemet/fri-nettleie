@@ -26,7 +26,23 @@ import (
     navn?: string
     kundegrupper!: [...#Kundegrupper]
     energiledd!: #Energiledd
+    innmating?: #Innmating
     fastledd!: #Fastledd
+}
+
+#Innmating: {
+    energiledd!: #FastInnmating | #SpotprisInnmating
+}
+
+#FastInnmating: {
+    type!: "FASTPRIS"
+    grunnpris!: float | int
+    unntak?: [...#Unntak]
+}
+
+#SpotprisInnmating: {
+    type!: "SPOTPRIS_PROSENT"
+    prosent!: float | int
 }
 
 #Energiledd: {
