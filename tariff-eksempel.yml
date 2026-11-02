@@ -107,6 +107,22 @@ tariffer:
       # Dette vil typisk være den laveste prisen som gjelder i lavlastperioder.
       grunnpris: 10.5
 
+    # Valgfrie vilkår for strøm som leveres inn på nettet.
+    # Fast pris kan være negativ dersom netteier betaler kunden:
+    # innmating:
+    #   energiledd:
+    #     type: FASTPRIS
+    #     grunnpris: -3.2
+    #     unntak:
+    #       - navn: Vinter
+    #         måneder: [november, desember, januar, februar]
+    #         pris: -4.0
+    # Alternativt kan godtgjørelsen følge spotpris:
+    # innmating:
+    #   energiledd:
+    #     type: SPOTPRIS_PROSENT
+    #     prosent: 4
+
       # Dersom prisen varierer i forskjellige perioder, kan dette oppgis som unntak.
       # Brukes til å oppgi f.eks. brukstidsstillegg, høylastpris, sesongvariasjoner eller lignende.
       # Eksempler:
