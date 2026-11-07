@@ -3,8 +3,7 @@ netteier: 'Bømlo Kraftnett AS'
 gln:
   - '7080010002327'
 kilder:
-  - 'https://nett.finnas-kraftlag.no/nettleige-og-vilkar/category1618.html'
-  - 'https://nett.finnas-kraftlag.no/getfile.php/139943-1759240439/Bilder/NETT/Kundeservice/Tariffar/Tariffar%20B%C3%B8mlo%20Kraftnett%20AS%20gjeldande%20fr%C3%A5%2001.10.25%20endra%20elavgift.pdf'
+  - 'https://bomlo-kraftnett.no/nettleige'
 sist_oppdatert: '2025-12-20'
 tariffer:
   - kundegrupper:

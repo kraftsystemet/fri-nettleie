@@ -3,8 +3,7 @@ netteier: 'Stannum AS'
 gln:
   - '7080010003959'
 kilder:
-  - 'https://stannum.no/nettleiepriser'
-  - 'https://stannum.no/uploads/Nettleiepriser-01.10.25.pdf'
+  - 'https://stannum.no/nettleie'
 sist_oppdatert: '2025-10-22'
 tariffer:
   - kundegrupper:
