@@ -3,7 +3,7 @@
 # If the source is not in Changedetection, it will be added.
 set -euo pipefail
 
-API_KEY=$(curl -s http://localhost:5000/settings | grep -oP '(?<=<span id="api-key">).*?(?=</span>)')
+API_KEY=$(curl -s http://localhost:5000/settings#api | grep -oP '(?<=<code id="api-key" class="click-to-copy" data-copy-label="copy" data-copied-label="copied">).*?(?=</code>)')
 echo API Key: $API_KEY
 TMP_FILE=$(mktemp)
 echo Temp file: $TMP_FILE
