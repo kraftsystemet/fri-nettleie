@@ -2,7 +2,7 @@
 netteier: 'Mostraum Nett AS'
 gln:
   - '7080011085770'
-sist_oppdatert: '2026-01-11'
+sist_oppdatert: '2026-11-09'
 kilder:
   - 'https://www.mostraumnett.no/nettprisar-for-2026-1'
   - 'https://www.mostraumnett.no/nettprisar'
@@ -83,3 +83,34 @@ tariffer:
     energiledd:
       grunnpris: 39
     gyldig_fra: '2025-11-01'
+    gyldig_til: '2026-11-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 750
+        - terskel: 2
+          pris: 1236
+        - terskel: 5
+          pris: 2100
+        - terskel: 10
+          pris: 2964
+        - terskel: 15
+          pris: 3828
+        - terskel: 20
+          pris: 4686
+        - terskel: 25
+          pris: 8640
+        - terskel: 50
+          pris: 25440
+        - terskel: 75
+          pris: 33600
+        - terskel: 100
+          pris: 66240
+    energiledd:
+      grunnpris: 39
+    gyldig_fra: '2026-11-01'
