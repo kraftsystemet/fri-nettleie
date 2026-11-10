@@ -4,6 +4,8 @@ gln:
   - '7080005046060'
 sist_oppdatert: '2025-12-20'
 kilder:
+  - 'https://ke-nett.no/kunde-og-nettleie/priser-og-vilkar/nettleiepriser/'
+  - 'https://ke-nett.no/wp-content/uploads/KE-Nett-Nettleiepriser-2026_0110.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
