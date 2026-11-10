@@ -176,3 +176,37 @@ tariffer:
           pris: 18
           dager: [ukedag]
     gyldig_fra: '2026-01-01'
+    gyldig_til: '2026-10-01'
+      - kundegrupper:
+      - husholdning
+      - fritid
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 2520
+        - terskel: 5
+          pris: 3720
+        - terskel: 10
+          pris: 5520
+        - terskel: 15
+          pris: 8160
+        - terskel: 20
+          pris: 9840
+        - terskel: 25
+          pris: 19920
+        - terskel: 50
+          pris: 25320
+        - terskel: 75
+          pris: 33720
+        - terskel: 100
+          pris: 64800
+    energiledd:
+      grunnpris: 13
+      unntak:
+        - navn: Ukedag
+          timer: 6-21
+          pris: 24
+          dager: [ukedag]
+    gyldig_fra: '2026-10-01'
