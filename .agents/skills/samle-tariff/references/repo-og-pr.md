@@ -24,7 +24,7 @@ reviewet den, heller ikke for mennesker. Tillatelser du ikke har fått eksplisit
 
 ## Validering
 
-Bruk `docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/valider.sh` (se SKILL.md). I tillegg, hvis kommandoen fungerer for filen:
+Bruk `.agents/skills/samle-tariff/scripts/valider.sh` (se SKILL.md). I tillegg, hvis kommandoen fungerer for filen:
 
 ```bash
 python3 scripts/prissignal.py --fra <dato> --til <dato+1> --tariff-fil tariffer/<selskap>.yml

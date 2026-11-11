@@ -42,7 +42,7 @@ og ikke kopier dem inn i andre filer.
    seg selv (Føie 2026-11, trinn 8: 2062,5 inkl. mot 2450 eks.), og utfallet er STOPPET:
 
    ```bash
-   python3 docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/sjekk_kolonner.py \
+   python3 .agents/skills/samle-tariff/scripts/sjekk_kolonner.py \
      --sone sor --par 237,5:190 293,8:235 2062,5:2450
    ```
 
@@ -50,15 +50,15 @@ og ikke kopier dem inn i andre filer.
 
    ```bash
    # øre/kWh, kilden oppgir 48,91 inkl. mva og avgifter
-   python3 docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/utled_avgifter.py \
+   python3 .agents/skills/samle-tariff/scripts/utled_avgifter.py \
      energiledd --pris 48,91 42,66 --dato 2026-10-01 --sone sor --inkl-mva --inkl-avgifter
 
    # øre/kWh, kilden oppgir 29,34 inkl. mva og har avgiftene som egne linjer
-   python3 docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/utled_avgifter.py \
+   python3 .agents/skills/samle-tariff/scripts/utled_avgifter.py \
      energiledd --pris 29,34 --dato 2026-09-01 --sone sor --inkl-mva
 
    # fastledd: kr/mnd i kilden, kr/år i YAML
-   python3 docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/utled_avgifter.py \
+   python3 .agents/skills/samle-tariff/scripts/utled_avgifter.py \
      fastledd --pris 508 916 1324 --sone nord_norge
    ```
 

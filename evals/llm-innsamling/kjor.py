@@ -31,7 +31,7 @@ from pathlib import Path
 import yaml
 
 REPO = Path(__file__).resolve().parents[2]
-SKILL = REPO / "docs" / "llm-v2-innsamling-skill" / "skills" / "samle-tariff" / "scripts"
+SKILL = REPO / ".agents" / "skills" / "samle-tariff" / "scripts"
 TOLERANSE = Decimal("0.005")
 # kundegrupper.md regner avvik på inntil 0,5 kr/mnd (6 kr/år) i fastleddet som avrunding i kilden.
 # Privat inkl. mva delt på 1,25 og næring eks. mva kan derfor gi ulike, like riktige tall.

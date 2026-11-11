@@ -26,7 +26,7 @@ while [ $# -gt 0 ]; do
 done
 
 cd "$(git rev-parse --show-toplevel)"
-skill="docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts"
+skill=".agents/skills/samle-tariff/scripts"
 py="${PYTHON:-python3}"
 [ -x venv/bin/python ] && py="venv/bin/python"
 navn="$(basename "$fil")"
