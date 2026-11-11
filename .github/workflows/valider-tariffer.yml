@@ -1,0 +1,28 @@
+# Validate tariff files against the CUE schema on pull requests,
+# so broken YAML or schema errors are caught before merge.
+name: Valider tariffer
+
+on:
+  pull_request:
+    paths:
+      - "tariffer/**"
+      - "tariff.cue"
+      - "tariff-eksempel.yml"
+      - ".github/workflows/valider-tariffer.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  cue-vet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: cue-lang/setup-cue@v2.0.0
+        with:
+          version: "v0.16.1"
+
+      - name: cue vet
+        run: cue vet --schema "#Selskap" tariff.cue tariff-eksempel.yml tariffer/*.yml
