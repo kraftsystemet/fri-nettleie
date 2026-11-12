@@ -1,7 +1,7 @@
 # Innsamlingsskill v2 (utkast til review)
 
 Dette er et forslag til en ny versjon av LLM-hjelpen for innsamling av nettleietariffer.
-Den skal på sikt erstatte [`docs/llm/innsamling-prompt.txt`](../llm/innsamling-prompt.txt). Den
+Den skal på sikt erstatte [`docs/llm/innsamling-prompt.txt`](../../../docs/llm/innsamling-prompt.txt). Den
 gamle prompten og `llms.txt` er ikke endret.
 
 ## Hva er nytt sammenlignet med v1
@@ -23,7 +23,7 @@ Hovedidéen er at en agent aldri skal gjette en pris:
 ## Innhold
 
 ```
-skills/samle-tariff/
+.agents/skills/samle-tariff/
 ├── SKILL.md              arbeidsflyt (start her)
 ├── references/
 │   ├── usikkerhet.md     når agenten skal stoppe, forbudt atferd, svarformat
@@ -42,7 +42,7 @@ skills/samle-tariff/
     └── valider.sh            kjører alt over pluss cue vet og eksisterende check_*-skript
 ```
 
-Tester for skillen ligger i [`evals/llm-innsamling/`](../../evals/llm-innsamling/).
+Tester for skillen ligger i [`evals/llm-innsamling/`](../../../evals/llm-innsamling/).
 
 ## Slik bruker du skillen til innsamling
 
@@ -50,15 +50,10 @@ Du trenger repoet lokalt, `make venv` (PyYAML m.m.) og `cue`.
 
 **Med Claude Code eller en annen agent som kan lese repoet (anbefalt):**
 
-1. Gi agenten skillen. `.claude/` er gitignorert, så den oppdages ikke automatisk. Enten lenker du
-   den inn i din egen skills-mappe:
-
-   ```bash
-   ln -s "$PWD/docs/llm-v2-innsamling-skill/skills/samle-tariff" ~/.claude/skills/samle-tariff
-   ```
-
-   eller du skriver i prompten: «Les `docs/llm-v2-innsamling-skill/skills/samle-tariff/SKILL.md`
-   og følg den».
+1. Skillen ligger i `.agents/skills/samle-tariff/` og oppdages automatisk av agenter som leser
+   `.agents/skills/` (f.eks. OpenCode og Codex). For Claude Code peker
+   `.claude/skills/samle-tariff` til samme mappe. Bruker agenten din ingen av disse, skriver du i
+   prompten: «Les `.agents/skills/samle-tariff/SKILL.md` og følg den».
 2. Gi oppgaven med issue, dato og kilde, for eksempel: «Samle nye priser fra 2026-11-01 for
    Romsdalsnett (issue #435). Kilden står under.» Ligger prisene i et bilde eller en PDF, må du
    lime inn teksten selv. Agenten stopper ellers.
@@ -66,14 +61,14 @@ Du trenger repoet lokalt, `make venv` (PyYAML m.m.) og `cue`.
    `valider.sh` og viser diffen. Den pusher eller åpner PR bare hvis du ber om det.
 4. Svaret er **KOMPLETT** (tabell med kilde per verdi, antakelser og YAML) eller **STOPPET** (hva
    som mangler og hva du må oppgi). Les antakelsene og sjekk tabellen mot kilden før du går videre.
-5. Åpne PR etter malen i [`repo-og-pr.md`](skills/samle-tariff/references/repo-og-pr.md): tittel
+5. Åpne PR etter malen i [`repo-og-pr.md`](references/repo-og-pr.md): tittel
    «Selskap åååå-mm», `Closes #N` og en kort beskrivelse. Ingen PR merges før en annen i repoet har
    reviewet den.
 
 **Uten agent**, de samme sjekkene kan kjøres for hånd (fra repoets rot):
 
 ```bash
-S=docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts
+S=.agents/skills/samle-tariff/scripts
 
 # Fjern mva og avgifter, med avrundingssjekk (kr/mnd i kilden gir kr/år)
 venv/bin/python $S/utled_avgifter.py fastledd --pris 305 367 --sone sor --inkl-mva
@@ -101,17 +96,17 @@ Fra repoets rot, med repoets Python-miljø (`make venv`) og `cue` installert:
 venv/bin/python evals/llm-innsamling/selvtest.py
 
 # Valider en fasit fra evalene med alle kontrollene
-PYTHON=venv/bin/python docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/valider.sh \
+PYTHON=venv/bin/python .agents/skills/samle-tariff/scripts/valider.sh \
   evals/llm-innsamling/caser/kystnett-2026-10/forventet.yml \
   --kilde evals/llm-innsamling/caser/kystnett-2026-10/input.md \
   --fra 2026-10-01 --sone nord_norge
 
 # Regn ut priser uten avgifter (Midtnett: 48,91 og 42,66 øre inkl. avgifter, Sør-Norge)
-venv/bin/python docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/utled_avgifter.py \
+venv/bin/python .agents/skills/samle-tariff/scripts/utled_avgifter.py \
   energiledd --pris 48,91 42,66 --dato 2026-10-01 --sone sor
 ```
 
-Se [evals/llm-innsamling/README.md](../../evals/llm-innsamling/README.md) for hvordan et modellsvar
+Se [evals/llm-innsamling/README.md](../../../evals/llm-innsamling/README.md) for hvordan et modellsvar
 vurderes.
 
 ## Kjente svakheter og det som mangler
@@ -123,9 +118,8 @@ vurderes.
 - `sammenlign_forrige.py` bruker en fast grense på 30 %. Høsten 2026 gir flere netteiere økninger
   rundt og over dette (Føie +30 til +35 %), og advarselen er da reell. Den skal forklares med kilden,
   ikke dempes. Justér grensen hvis den gir for mye støy.
-- Bare en skive er laget. Mangler: `index.html`, en chat-variant (én fil), peker fra
-  `docs/llm/innsamling-prompt.txt` og automatisk oppdagelse i Claude Code (`.claude/` er
-  gitignorert). Skriptene har en selvtest, men ikke egne enhetstester.
+- Bare en skive er laget. Mangler: `index.html`, en chat-variant (én fil) og peker fra
+  `docs/llm/innsamling-prompt.txt`. Skriptene har en selvtest, men ikke egne enhetstester.
 - Enova-satsene (1 øre/kWh og 800 kr/år) er ikke kontrollert mot Forskrift om Energifondet.
 
 ## Hva jeg ønsker tilbakemelding på

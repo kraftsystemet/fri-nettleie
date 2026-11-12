@@ -4,5 +4,9 @@
 !.yamlfmt.yml
 !.nojekyll
 !.github
+!.agents
+!.claude
+.claude/*
+!.claude/skills
 venv
 __pycache__

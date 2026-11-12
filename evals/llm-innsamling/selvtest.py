@@ -17,7 +17,7 @@ import tempfile
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[2]
-SKILL = REPO / "docs" / "llm-v2-innsamling-skill" / "skills" / "samle-tariff"
+SKILL = REPO / ".agents" / "skills" / "samle-tariff"
 SCRIPTS = SKILL / "scripts"
 CASER = REPO / "evals" / "llm-innsamling" / "caser"
 KJOR = REPO / "evals" / "llm-innsamling" / "kjor.py"

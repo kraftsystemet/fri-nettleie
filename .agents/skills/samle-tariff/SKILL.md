@@ -37,7 +37,7 @@ Gå gjennom stegene i rekkefølge. Hopp aldri over validering.
    `gyldig_til` på den forrige. Ikke fyll inn manglende mellomperioder.
 8. **Valider:**
    ```bash
-   docs/llm-v2-innsamling-skill/skills/samle-tariff/scripts/valider.sh \
+   .agents/skills/samle-tariff/scripts/valider.sh \
      tariffer/<selskap>.yml --kilde kilde-utdrag.md --fra <YYYY-MM-DD> --sone <sone>
    ```
    Retter du noe, kjør på nytt. Feiler den fortsatt uten at du kan begrunne det: **STOPPET**.

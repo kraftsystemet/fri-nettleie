@@ -1,7 +1,7 @@
 # Format
 
-Fasit er [`tariff-eksempel.yml`](../../../../../tariff-eksempel.yml) (forklart eksempel, med
-begrunnelse for reglene) og [`tariff.cue`](../../../../../tariff.cue) (schema). **Les begge ved
+Fasit er [`tariff-eksempel.yml`](../../../../tariff-eksempel.yml) (forklart eksempel, med
+begrunnelse for reglene) og [`tariff.cue`](../../../../tariff.cue) (schema). **Les begge ved
 starten av hver innsamling.** Prosjektet sier selv at innsamlingsformatet ikke skal ansees som
 stabilt: hvis nye modeller dukker opp, tilpasses formatet. Denne filen er et sammendrag. Er du uenig
 med eksempelfila eller schemaet, gjelder de, og du bør si fra om uenigheten.

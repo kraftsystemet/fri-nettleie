@@ -1,6 +1,6 @@
 # Evals for innsamlingsskillen
 
-Testsaker som måler om en modell følger [innsamlingsskillen](../../docs/llm-v2-innsamling-skill/).
+Testsaker som måler om en modell følger [innsamlingsskillen](../../.agents/skills/samle-tariff/).
 Dette er **evals**, ikke enhetstester: de vurderer et svar fra en modell, som varierer fra kjøring
 til kjøring. De kjøres manuelt og ikke i CI.
 
