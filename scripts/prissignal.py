@@ -142,7 +142,7 @@ def main():
     tariff = tariffer[len(tariffer) - 1]
     for t in reversed(sorted(tariffer, key=lambda t: t["gyldig_fra"])):
         gyldig_fra = datetime.datetime.fromisoformat(t["gyldig_fra"])
-        if gyldig_fra < from_date:
+        if gyldig_fra <= from_date:
             tariff = t
             break
 
