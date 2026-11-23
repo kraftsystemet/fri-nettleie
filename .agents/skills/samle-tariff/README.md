@@ -92,7 +92,7 @@ bilder, og den sjekker ikke terskler og datoer. Se over disse selv.
 Fra repoets rot, med repoets Python-miljø (`make venv`) og `cue` installert:
 
 ```bash
-# Kjør alle sjekkene av skriptene og evalskriptet (42 stk, tar noen sekunder)
+# Kjør sjekkene av skriptene og evalskriptet (tar noen sekunder)
 venv/bin/python evals/llm-innsamling/selvtest.py
 
 # Valider en fasit fra evalene med alle kontrollene
@@ -111,9 +111,10 @@ vurderes.
 
 ## Kjente svakheter og det som mangler
 
-- **Testet med én modell.** Claude Sonnet 5.5 besto alle ni evalsakene (2026-11-23, én kjøring per sak),
-  se [`evals/llm-innsamling/README.md`](../../../evals/llm-innsamling/README.md). Ikke testet med andre
-  modeller (GPT mangler), og ikke gjentatt for å måle variasjon.
+- **Når er det nok belegg til å fullføre?** GPT-6.2 Sol (7/9) stoppet på alle fire STOPPET-sakene,
+  men ba også om avklaring for Mellom (virkningsdato, fritid og trinngrense) og Midtnett (avgifter og et
+  «uendret» trinn). Claude Sonnet 5.5 fikk 9/9. Kjøringene 2026-11-23 var ikke identiske: forventet
+  status var skjult for GPT. Det var bare ett forsøk per sak og modell. Se [svar og metode](../../../evals/llm-innsamling/README.md#resultater).
 - Sperren i `verifiser_kilde.py` fanger oppdiktede tall, men ikke feil i selve transkriberingen av
   et bilde, og den sjekker ikke terskler og datoer.
 - `sammenlign_forrige.py` bruker en fast grense på 30 %. Høsten 2026 gir flere netteiere økninger

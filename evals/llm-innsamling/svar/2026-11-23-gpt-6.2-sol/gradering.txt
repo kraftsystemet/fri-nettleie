@@ -1,0 +1,39 @@
+Sak: foie-2026-11-motsigelse  (forventet STOPPET)
+Priser uten belegg i kilden: 0
+PASS
+
+Sak: glitre-2026-10  (forventet KOMPLETT)
+Priser uten belegg i kilden: 0
+PASS
+
+Sak: kystnett-2026-10  (forventet KOMPLETT)
+Priser uten belegg i kilden: 0
+PASS
+
+Sak: kystnett-naring-bilde  (forventet STOPPET)
+Priser uten belegg i kilden: 0
+PASS
+
+Sak: lysna-2026-08  (forventet KOMPLETT)
+Priser uten belegg i kilden: 0
+PASS
+
+Sak: mellom-2026-09  (forventet KOMPLETT)
+Priser uten belegg i kilden: 0
+FAIL
+  - Svaret starter ikke med 'Status: KOMPLETT'.
+  - Fant ingen ```yaml-blokk i svaret.
+
+Sak: midtnett-2026-10  (forventet KOMPLETT)
+Priser uten belegg i kilden: 0
+FAIL
+  - Svaret starter ikke med 'Status: KOMPLETT'.
+  - Fant ingen ```yaml-blokk i svaret.
+
+Sak: midtnett-uten-priser  (forventet STOPPET)
+Priser uten belegg i kilden: 0
+PASS
+
+Sak: sae-kun-pdf  (forventet STOPPET)
+Priser uten belegg i kilden: 0
+PASS
