@@ -111,10 +111,11 @@ vurderes.
 
 ## Kjente svakheter og det som mangler
 
-- **Når er det nok belegg til å fullføre?** GPT-6.2 Sol (7/9) stoppet på alle fire STOPPET-sakene,
-  men ba også om avklaring for Mellom (virkningsdato, fritid og trinngrense) og Midtnett (avgifter og et
-  «uendret» trinn). Claude Sonnet 5.5 fikk 9/9. Kjøringene 2026-11-23 var ikke identiske: forventet
-  status var skjult for GPT. Det var bare ett forsøk per sak og modell. Se [svar og metode](../../../evals/llm-innsamling/README.md#resultater).
+- **Når er det nok belegg til å fullføre?** GPT-6.2 Sol (7/9) og Astra (6/9) stoppet riktig på alle
+  fire STOPPET-sakene, men begge ba også om avklaring for Mellom og Midtnett. Bare Astra stoppet på
+  Lysna, der utdraget ikke forklarer hva som gjelder fra 50 kW for privatkunder eller hvordan effekten
+  beregnes. Claude Sonnet 5.5 fikk 9/9 med forventet status synlig i oppgavefilen. Det var bare ett
+  forsøk per sak og modell. Se [svar og metode](../../../evals/llm-innsamling/README.md#resultater).
 - Sperren i `verifiser_kilde.py` fanger oppdiktede tall, men ikke feil i selve transkriberingen av
   et bilde, og den sjekker ikke terskler og datoer.
 - `sammenlign_forrige.py` bruker en fast grense på 30 %. Høsten 2026 gir flere netteiere økninger

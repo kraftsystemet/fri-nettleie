@@ -18,8 +18,8 @@ til kjøring. De kjøres manuelt og ikke i CI.
 | `sae-kun-pdf` | STOPPET | Prisene står bare i en PDF som det lenkes til |
 | `foie-2026-11-motsigelse` | STOPPET | Kolonnene inkl. og eks. mva stemmer ikke for trinn 8 (2062,5 mot 2450), modellen må ikke velge selv |
 
-Etter kjøringen kom to oppfølgingssaker: `mellom-2026-09-avklart` og `midtnett-2026-10-avklart`.
-De bruker de samme pristabellene og fasitene, med eksplisitt **simulerte** svar på spørsmålene GPT stilte.
+Etter Sol-kjøringen kom to oppfølgingssaker: `mellom-2026-09-avklart` og `midtnett-2026-10-avklart`.
+De bruker de samme pristabellene og fasitene, med eksplisitt **simulerte** svar på spørsmålene Sol stilte.
 Begge forventer KOMPLETT. De er ikke en del av de ni målte sakene.
 
 Sakene er valgt for å dekke ulike situasjoner, og alle KOMPLETT-sakene bygger på en gjennomgått PR
@@ -62,23 +62,23 @@ Skriptet skriver PASS eller FAIL og antall priser uten belegg (vårt mål på ha
 
 ## Resultater
 
-Begge modellene ble kjørt 2026-11-23, én gang per sak. «Uten belegg» teller priser i levert
+Alle tre modellene ble kjørt 2026-11-23, én gang per sak. «Uten belegg» teller priser i levert
 tariff-YAML som `verifiser_kilde.py` ikke kan bekrefte i `input.md`. Ved STOPPET er det ingen YAML å telle.
 
-| Sak | Forventet | Claude Sonnet 5.5 (`claude-sonnet-5-5`) | GPT-6.2 Sol (`github-copilot/gpt-6.2-sol#medium`) |
-|---|---|---|---|
-| `midtnett-2026-10` | KOMPLETT | PASS (0 uten belegg) | FAIL – stoppet |
-| `kystnett-2026-10` | KOMPLETT | PASS (0 uten belegg) | PASS (0 uten belegg) |
-| `lysna-2026-08` | KOMPLETT | PASS (0 uten belegg) | PASS (0 uten belegg) |
-| `glitre-2026-10` | KOMPLETT | PASS (0 uten belegg) | PASS (0 uten belegg) |
-| `mellom-2026-09` | KOMPLETT | PASS (0 uten belegg) | FAIL – stoppet |
-| `midtnett-uten-priser` | STOPPET | PASS | PASS |
-| `kystnett-naring-bilde` | STOPPET | PASS | PASS |
-| `sae-kun-pdf` | STOPPET | PASS | PASS |
-| `foie-2026-11-motsigelse` | STOPPET | PASS | PASS |
-| **Totalt** | | **9 av 9 PASS** | **7 av 9 PASS** |
+| Sak | Forventet | Claude Sonnet 5.5 | GPT-6.2 Sol | GPT-6.2 Astra |
+|---|---|---|---|---|
+| `midtnett-2026-10` | KOMPLETT | PASS (0 uten belegg) | FAIL – stoppet | FAIL – stoppet |
+| `kystnett-2026-10` | KOMPLETT | PASS (0 uten belegg) | PASS (0 uten belegg) | PASS (0 uten belegg) |
+| `lysna-2026-08` | KOMPLETT | PASS (0 uten belegg) | PASS (0 uten belegg) | FAIL – stoppet |
+| `glitre-2026-10` | KOMPLETT | PASS (0 uten belegg) | PASS (0 uten belegg) | PASS (0 uten belegg) |
+| `mellom-2026-09` | KOMPLETT | PASS (0 uten belegg) | FAIL – stoppet | FAIL – stoppet |
+| `midtnett-uten-priser` | STOPPET | PASS | PASS | PASS |
+| `kystnett-naring-bilde` | STOPPET | PASS | PASS | PASS |
+| `sae-kun-pdf` | STOPPET | PASS | PASS | PASS |
+| `foie-2026-11-motsigelse` | STOPPET | PASS | PASS | PASS |
+| **Totalt** | | **9 av 9 PASS** | **7 av 9 PASS** | **6 av 9 PASS** |
 
-**Kommentarer (GPT)**
+**Kommentarer (Sol)**
 
 - Tre av fem forventede tariffer ble levert, alle uten priser som manglet belegg. Modellen stoppet
   riktig i fire av fire STOPPET-saker: manglende pristabell, næringspriser i bilder, prisliste bare
@@ -89,12 +89,22 @@ tariff-YAML som `verifiser_kilde.py` ikke kan bekrefte i `input.md`. Ved STOPPET
   2 095 kr/mnd i forrige fil mot 2 096 i tabellen ([#465](https://github.com/kraftsystemet/fri-nettleie/issues/465)).
   Begge stoppene er FAIL mot historisk fasit. Om utdragene gir nok belegg til å fullføre, må vurderes faglig.
 
-[De ni originale svarene](svar/2026-11-23-gpt-6.2-sol/) og [graderingen](svar/2026-11-23-gpt-6.2-sol/gradering.txt)
-kan etterprøves uten modellkall, for eksempel:
+**Kommentarer (Astra)**
+
+- Astra fikk samme utfall som Sol i åtte av ni saker. Den leverte to av fem forventede tariffer,
+  begge uten priser som manglet belegg, og stoppet riktig på alle fire STOPPET-sakene.
+- **Lysna** var eneste forskjell i poengsum. Siste privattrinn er merket «25–50 kW»; med 25 som siste
+  nedre terskel i YAML får trinnet ingen øvre grense. Astra ba om hva som gjelder fra 50 kW og om
+  bekreftelse på beregningsmetoden. Sol leverte med metoden fra forrige periode og oppga antakelsen
+  ([#468](https://github.com/kraftsystemet/fri-nettleie/issues/468)).
+- **Mellom:** Astra ba bare om virkningsdatoen. **Midtnett:** Astra pekte på de samme to motsetningene som Sol.
+
+Førstesvar og gradering: [Sol](svar/2026-11-23-gpt-6.2-sol/) · [Astra](svar/2026-11-23-gpt-6.2-astra/).
+Etterprøv begge kjøringene uten nye modellkall:
 
 ```bash
 E=evals/llm-innsamling
-for svar in "$E"/svar/2026-11-23-gpt-6.2-sol/*.md; do
+for svar in "$E"/svar/2026-11-23-gpt-6.2-{sol,astra}/*.md; do
   venv/bin/python "$E/kjor.py" "$E/caser/$(basename "$svar" .md)" "$svar"
 done
 ```
@@ -124,17 +134,18 @@ done
 venv/bin/python evals/llm-innsamling/kjor.py evals/llm-innsamling/caser/<sak> <sandkasse>/svar.md
 ```
 
-Sonnet ble kjørt som subagent i Claude Code (modellvalg `sonnet`) med instruksen i steg 2.
+Sonnet (`claude-sonnet-5-5`) ble kjørt som subagent i Claude Code (modellvalg `sonnet`) med instruksen i steg 2.
 
 ### Slik kjørte vi GPT
 
-GPT-6.2 Sol via GitHub Copilot, resonneringsnivå `medium`, OpenCode 2.4.1 på macOS,
-Python 3.14.5 og CUE 0.16.1. Skillen, de ni kildene og vurderingsskriptet var fra `4c73ff8`.
+`github-copilot/gpt-6.2-sol#medium` og `github-copilot/gpt-6.2-astra#medium` fikk samme instruks og
+samme ni saker, i OpenCode 2.4.1 på macOS med Python 3.14.5 og CUE 0.16.1.
+Skillen, de ni kildene og vurderingsskriptet var fra `4c73ff8`.
 Hver sak fikk én ny sesjon, uten fasit eller tilbakemelding fra vurderingsskriptet.
 
 **Forskjell fra Sonnet:** I fremgangsmåten over inneholder `case.yml` også `forventet_status`.
 For GPT tok vi bare med selskap, oppgave, dato og sone. Mappene fikk nummer i stedet for saksnavn
-som `midtnett-uten-priser`. Resultatene beskriver derfor to kjøringer med litt ulike vilkår.
+som `midtnett-uten-priser`. De to GPT-modellene er derfor testet på like vilkår, mens Sonnet fikk mer informasjon.
 
 Kjør fra repoets rot med `venv`, `cue` og OpenCode med tilgang til modellen. Skriptet lager en ny
 git-rot per sak med tidligere tariff, skillens filer og valideringsverktøy (også begge `check_*.py`).
@@ -146,7 +157,7 @@ venv/bin/python evals/llm-innsamling/selvtest.py
 R=$(mktemp -d)
 for svar in evals/llm-innsamling/svar/2026-11-23-gpt-6.2-sol/*.md; do basename "$svar" .md; done | \
   xargs venv/bin/python evals/llm-innsamling/klargjor_gpt.py "$R/saker" > "$R/saker.tsv"
-modell='github-copilot/gpt-6.2-sol#medium'
+modell='github-copilot/gpt-6.2-astra#medium'  # eller github-copilot/gpt-6.2-sol#medium
 oppgave='Les .agents/skills/samle-tariff/SKILL.md og referansene. Løs oppgaven i oppgave.yml med input.md som eneste kilde. Du kan validere på en arbeidskopi. Lagre hele svaret i svar.md. Ikke commit eller åpne PR.'
 while IFS=$'\t' read -r sak arbeid; do
   ( cd "$arbeid" && env -u OPENCODE_SESSION_ID -u OPENCODE -u OPENCODE_TERMINAL \
