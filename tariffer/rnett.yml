@@ -2,12 +2,13 @@
 netteier: 'R-Nett AS'
 gln:
   - '7080010012852'
-sist_oppdatert: '2026-05-30'
+sist_oppdatert: '2026-11-23'
 kilder:
   - 'https://r-nett.no/overforingspriser/'
   - 'https://r-nett.no/wp-content/uploads/application/pdf/Nettleietariffer_fra_01012024.pdf'
   - 'https://r-nett.no/wp-content/uploads/application/pdf/Overforingspriser-fra-01.01.2026.pdf'
   - 'https://r-nett.no/wp-content/uploads/application/pdf/Nettleiepriser-fra-01.06.2026.pdf'
+  - 'https://r-nett.no/wp-content/uploads/application/pdf/Nettleiepriser-fra-01.12.2026.pdf'
 tariffer:
   - kundegrupper:
       - husholdning
@@ -178,3 +179,37 @@ tariffer:
           timer: 6-21
           pris: 26.47
     gyldig_fra: '2026-06-01'
+    gyldig_til: '2026-12-01'
+  - kundegrupper:
+      - husholdning
+      - fritid
+      - liten_næring
+    fastledd:
+      metode: TRE_DØGNMAX_MND
+      terskel_inkludert: true
+      terskler:
+        - terskel: 0
+          pris: 3772.8
+        - terskel: 5
+          pris: 5664
+        - terskel: 10
+          pris: 8304
+        - terskel: 15
+          pris: 16224
+        - terskel: 20
+          pris: 23020.8
+        - terskel: 25
+          pris: 32457.6
+        - terskel: 50
+          pris: 48307.2
+        - terskel: 75
+          pris: 67929.6
+        - terskel: 100
+          pris: 94348.8
+    energiledd:
+      grunnpris: 21.67
+      unntak:
+        - navn: Dag
+          timer: 6-21
+          pris: 31.27
+    gyldig_fra: '2026-12-01'
