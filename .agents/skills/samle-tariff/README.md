@@ -111,8 +111,9 @@ vurderes.
 
 ## Kjente svakheter og det som mangler
 
-- **Ikke testet med en ekte modell ennå.** Skriptene og evalskriptet er testet med kunstige svar,
-  men ingen modell har vært kjørt mot evalsakene. Det er neste steg etter review.
+- **Testet med én modell.** Claude Sonnet 5.5 besto alle ni evalsakene (2026-11-23, én kjøring per sak),
+  se [`evals/llm-innsamling/README.md`](../../../evals/llm-innsamling/README.md). Ikke testet med andre
+  modeller (GPT mangler), og ikke gjentatt for å måle variasjon.
 - Sperren i `verifiser_kilde.py` fanger oppdiktede tall, men ikke feil i selve transkriberingen av
   et bilde, og den sjekker ikke terskler og datoer.
 - `sammenlign_forrige.py` bruker en fast grense på 30 %. Høsten 2026 gir flere netteiere økninger

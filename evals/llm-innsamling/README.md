@@ -56,6 +56,56 @@ venv/bin/python evals/llm-innsamling/kjor.py \
 
 Skriptet skriver PASS eller FAIL og antall priser uten belegg (vårt mål på hallusinasjoner).
 
+## Resultater
+
+Kjøring: 2026-11-23, én kjøring per sak. «Priser uten belegg» er antall priser i svaret som
+`verifiser_kilde.py` ikke finner i `input.md` (mål på hallusinasjoner). `–` betyr ikke kjørt ennå.
+
+| Sak | Forventet | Claude Sonnet 5.5 (`claude-sonnet-5-5`) | GPT (modell og versjon: ______) |
+|---|---|---|---|
+| `midtnett-2026-10` | KOMPLETT | PASS (0 uten belegg) | – |
+| `kystnett-2026-10` | KOMPLETT | PASS (0 uten belegg) | – |
+| `lysna-2026-08` | KOMPLETT | PASS (0 uten belegg) | – |
+| `glitre-2026-10` | KOMPLETT | PASS (0 uten belegg) | – |
+| `mellom-2026-09` | KOMPLETT | PASS (0 uten belegg) | – |
+| `midtnett-uten-priser` | STOPPET | PASS | – |
+| `kystnett-naring-bilde` | STOPPET | PASS | – |
+| `sae-kun-pdf` | STOPPET | PASS | – |
+| `foie-2026-11-motsigelse` | STOPPET | PASS | – |
+| **Totalt** | | **9 av 9 PASS** | – |
+
+Dato for GPT-kjøringen: ______
+
+**Kommentarer (Sonnet)**
+
+- Alle ni sakene besto på første forsøk. Ingen feil som skillen burde ha forhindret, så ingen nye issues
+  eller evalsaker kom ut av denne kjøringen.
+- `foie-2026-11-motsigelse`: fant avviket i trinn 8 med `sjekk_kolonner.py`, foreslo ingen verdi selv.
+- `midtnett-2026-10`: rettet de uavrundede fastleddene fra forrige periode (3964,8 og 9004,8) til 3960 og 9000, og
+  sa fra om det under «Justerte verdier».
+- Én kjøring per sak sier lite om variasjon mellom kjøringer. Kjør gjerne hver sak flere ganger.
+
+### Slik kjørte vi dette (reproduserbart)
+
+`kjor.py` kjører ikke modellen, så hver sak ble kjørt slik:
+
+1. Lag en egen mappe per sak med bare det modellen skal se: en kopi av `.agents/` (skillen), `tariff.cue`,
+   `tariff-eksempel.yml`, `.yamlfmt.yml`, `scripts/prissignal.py`, sakens `case.yml` og `input.md`, og
+   `eksisterende.yml` som `tariffer/<selskap>.yml`. **Ikke** ta med `forventet.yml`, `notat.md` eller resten av
+   `evals/`, ellers kan modellen lese fasiten.
+2. Be modellen jobbe bare i mappen: les `SKILL.md` og referansene, gjør oppgaven i `case.yml` med `input.md` som
+   kilde (ingen nettilgang), og lagre hele svaret i `svar.md`. Skriv ingen YAML til `tariffer/`, og ingen commit eller PR.
+3. Vurder fra repoets rot:
+
+```bash
+venv/bin/python evals/llm-innsamling/kjor.py evals/llm-innsamling/caser/<sak> <sandkasse>/svar.md
+```
+
+Sonnet ble kjørt som subagent i Claude Code (modellvalg `sonnet`) med instruksen i steg 2. For GPT: bruk
+samme mapper og samme instruks i en agent med filtilgang og shell (for eksempel Codex CLI), eller lim inn
+skillen, `case.yml` og `input.md` i en chat og lagre svaret i en fil. Chat-varianten kan ikke kjøre
+`valider.sh` selv, så den er strengere. Noter hvilken variant som ble brukt.
+
 ## Legge til en sak
 
 1. Lag en mappe under `caser/` og fyll ut filene over.
